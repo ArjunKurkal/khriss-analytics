@@ -64,6 +64,15 @@ function lineTraces(dates, series, names){
     x: dates, y: series[n], name: n.replaceAll('_',' '),
     type:'scatter', mode:'lines' }));
 }
+// Default view: trailing 3 years from the last data point. The full history
+// stays in data.json and in the plot — zoom or pan out to see all of it.
+function layout3y(dates){
+  const end = dates[dates.length - 1];
+  const start = new Date(end + 'T00:00:00Z');
+  start.setUTCFullYear(start.getUTCFullYear() - 3);
+  const iso = start.toISOString().slice(0, 10);
+  return {...LAYOUT, xaxis:{...LAYOUT.xaxis, range:[iso, end], autorange:false}};
+}
 
 fetch('data.json').then(r => {
   if (!r.ok) throw new Error('fetch failed: HTTP ' + r.status);
@@ -100,19 +109,20 @@ fetch('data.json').then(r => {
         type:'scatter', mode:'lines', line:{dash:'dot'} },
       ...(b.series.balancing_item_bcfd ? [{ x:b.dates, y:b.series.balancing_item_bcfd,
         name:'balancing item', type:'scatter', mode:'lines', line:{dash:'dash'} }] : []),
-    ], LAYOUT, CFG);
+    ], layout3y(b.dates), CFG);
     show('sec-demand');
     Plotly.newPlot('chart-demand',
       stackTraces(b.dates, b.series,
         ['residential','commercial','industrial','power_burn','other_consumption',
          'exports_pipeline','lng_feedgas_estimate']),
-      LAYOUT, CFG);
+      layout3y(b.dates), CFG);
   }
   if (d.production_by_region) {
     show('sec-production');
     Plotly.newPlot('chart-production',
       stackTraces(d.production_by_region.dates, d.production_by_region.series,
-        Object.keys(d.production_by_region.series)), LAYOUT, CFG);
+        Object.keys(d.production_by_region.series)),
+      layout3y(d.production_by_region.dates), CFG);
   }
   if (d.storage) {
     show('sec-storage');
@@ -134,12 +144,14 @@ fetch('data.json').then(r => {
     show('sec-price');
     Plotly.newPlot('chart-price',
       [{ x:d.price.dates, y:d.price.henry_hub_usd_mmbtu, name:'Henry Hub',
-         type:'scatter', mode:'lines', line:{color:'#f0883e'} }], LAYOUT, CFG);
+         type:'scatter', mode:'lines', line:{color:'#f0883e'} }],
+      layout3y(d.price.dates), CFG);
   }
   if (d.rigs) {
     show('sec-rigs');
     Plotly.newPlot('chart-rigs',
-      lineTraces(d.rigs.dates, d.rigs.series, Object.keys(d.rigs.series)), LAYOUT, CFG);
+      lineTraces(d.rigs.dates, d.rigs.series, Object.keys(d.rigs.series)),
+      layout3y(d.rigs.dates), CFG);
   }
   if (d.balance_table) {
     show('sec-table');
