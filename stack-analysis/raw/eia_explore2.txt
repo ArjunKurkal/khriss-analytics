@@ -1,0 +1,119 @@
+Overlap Operating-2026 vs Planned-2026 (Plant ID, Gen ID): 0
+Planned 2026 with operation month <=9 (past due as of Sep 2026):
+Empty DataFrame
+Columns: [Plant Name, Plant State, Generator ID, Nameplate Capacity (MW), Planned Operation Month, Status]
+Index: []
+count/MW past-due planned 2026: 0 0.0
+
+Overlap Retired-2026 vs Operating planned-retirement-2026: 0
+Operating planned retirement 2026 units:
+                         Plant Name Plant State Generator ID  Nameplate Capacity (MW) Planned Retirement Month          Status Energy Source Code Prime Mover Code
+4588   Eddystone Generating Station          PA            3                    391.0                       11  (OP) Operating                 NG               ST
+4590   Eddystone Generating Station          PA            4                    391.0                       11  (OP) Operating                 NG               ST
+15330            L'Oreal Piscataway          NJ        UNIT1                      0.5                       12  (OP) Operating                SUN               PV
+15331            L'Oreal Piscataway          NJ        UNIT2                      0.3                       12  (OP) Operating                SUN               PV
+15332            L'Oreal Piscataway          NJ        UNIT3                      0.3                       12  (OP) Operating                SUN               PV
+
+Wind WS 2640 MW planned unit:
+                                                   Plant Name Plant State Generator ID  Nameplate Capacity (MW)  Planned Operation Month  Planned Operation Year                                                             Status
+549  Coastal Virginia Offshore Wind (CVOW) Commercial Project          VA        CVOWC                   2640.0                      1.0                  2027.0  (U) Under construction, less than or equal to 50 percent complete
+
+2029 coal planned retirements:
+            Plant Name Plant State Generator ID  Nameplate Capacity (MW) Planned Retirement Month Energy Source Code          Status
+982     Brandon Shores          MD            1                    685.1                        6                BIT  (OP) Operating
+983     Brandon Shores          MD            2                    685.1                        6                BIT  (OP) Operating
+2427  Herbert A Wagner          MD            3                    359.0                        6                DFO  (OP) Operating
+2428  Herbert A Wagner          MD            4                    414.7                        6                DFO  (OP) Operating
+
+2035 gas planned retirements (3317 MW):
+                               Plant Name Plant State Generator ID  Nameplate Capacity (MW) Planned Retirement Month Energy Source Code Prime Mover Code          Status
+4553                       Brunner Island          PA            1                    363.3                        6                 NG               ST  (OP) Operating
+4554                       Brunner Island          PA            2                    405.0                        6                 NG               ST  (OP) Operating
+4555                       Brunner Island          PA            3                    847.8                        6                 NG               ST  (OP) Operating
+4570            TalenEnergy Martins Creek          PA            3                    850.5                        6                 NG               ST  (OP) Operating
+4571            TalenEnergy Martins Creek          PA            4                    850.5                        6                 NG               ST  (OP) Operating
+16737              Kinsley Landfill Solar          NJ         KINS                      8.6                       12                SUN               PV  (OP) Operating
+16889             Parkland Landfill Solar          NJ         PARK                      7.8                       12                SUN               PV  (OP) Operating
+17522                  L&D Landfill Solar          NJ          L&D                     10.0                       12                SUN               PV  (OP) Operating
+19587  Hopewell Valley High School Hybrid          NJ          BA1                      1.0                       12                MWH               BA  (OP) Operating
+19588  Hopewell Valley High School Hybrid          NJ        HWVHS                      0.9                       12                SUN               PV  (OP) Operating
+
+Largest planned additions (top 15 by MW):
+                                                    Plant Name Plant State Generator ID  Nameplate Capacity (MW)  Planned Operation Month  Planned Operation Year                                                                Status Energy Source Code Prime Mover Code
+549   Coastal Virginia Offshore Wind (CVOW) Commercial Project          VA        CVOWC                   2640.0                      1.0                  2027.0     (U) Under construction, less than or equal to 50 percent complete                WND               WS
+2042                               Steward Creek Solar Phase 1          IL          SC1                   1200.0                     12.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated                SUN               PV
+1903                            Sycamore Riverside Energy, LLC          IN        SYRVS                    964.0                      3.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated                 NG               GT
+1505                                   Illinois Generation LLC          IL          HPW                    616.5                      4.0                  2028.0             (T) Regulatory approvals received. Not under construction                WND               WT
+2084                                     Bellflower Solar (VA)          VA        BELLF                    600.0                      1.0                  2030.0  (P) Planned for installation, but regulatory approvals not initiated                SUN               PV
+1338                                           Panther Grove 2          IL          PG2                    472.5                     12.0                  2027.0     (U) Under construction, less than or equal to 50 percent complete                WND               WT
+333                                    Panther Grove Wind, LLC          IL        78787                    423.0                     12.0                  2026.0       (TS) Construction complete, but not yet in commercial operation                WND               WT
+2008                                   Starfire Mountain Solar          KY         STMO                    410.0                      9.0                  2029.0              (L) Regulatory approvals pending. Not under construction                SUN               PV
+1263                                          Firefly Solar PA          PA        FFLPA                    401.6                     12.0                  2027.0              (L) Regulatory approvals pending. Not under construction                SUN               PV
+1747                                        Wolf Summit Energy          WV        HCCT1                    371.5                     12.0                  2028.0              (L) Regulatory approvals pending. Not under construction                 NG               CT
+2026                             Homer City Generating Station          PA          CT1                    360.0                     11.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated                 NG               CT
+1897                             Homer City Generating Station          PA          CT7                    360.0                      3.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated                 NG               CT
+1712                             Homer City Generating Station          PA          CT2                    360.0                     11.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated                 NG               CT
+1969                             Homer City Generating Station          PA          CT4                    360.0                      7.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated                 NG               CT
+1582                             Homer City Generating Station          PA          CT5                    360.0                      7.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated                 NG               CT
+
+Largest planned additions 2028-2029 gas:
+                          Plant Name Plant State Generator ID  Nameplate Capacity (MW)  Planned Operation Month  Planned Operation Year                                                                Status Prime Mover Code
+1903  Sycamore Riverside Energy, LLC          IN        SYRVS                    964.0                      3.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated               GT
+1747              Wolf Summit Energy          WV        HCCT1                    371.5                     12.0                  2028.0              (L) Regulatory approvals pending. Not under construction               CT
+2026   Homer City Generating Station          PA          CT1                    360.0                     11.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated               CT
+1713   Homer City Generating Station          PA          CT3                    360.0                     11.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               CT
+1582   Homer City Generating Station          PA          CT5                    360.0                      7.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               CT
+1712   Homer City Generating Station          PA          CT2                    360.0                     11.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               CT
+1969   Homer City Generating Station          PA          CT4                    360.0                      7.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated               CT
+1897   Homer City Generating Station          PA          CT7                    360.0                      3.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated               CT
+1583   Homer City Generating Station          PA          CT6                    360.0                      7.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               CT
+1580   Homer City Generating Station          PA          CA5                    268.0                      7.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               CA
+1896   Homer City Generating Station          PA          CA7                    268.0                      3.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated               CA
+2025   Homer City Generating Station          PA          CA1                    268.0                     11.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated               CA
+1968   Homer City Generating Station          PA          CA4                    268.0                      7.0                  2029.0  (P) Planned for installation, but regulatory approvals not initiated               CA
+1711   Homer City Generating Station          PA          CA3                    268.0                     11.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               CA
+1710   Homer City Generating Station          PA          CA2                    268.0                     11.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               CA
+1581   Homer City Generating Station          PA          CA6                    268.0                      7.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               CA
+1934                    Chesterfield          VA        CERC4                    250.0                      6.0                  2029.0              (L) Regulatory approvals pending. Not under construction               GT
+1932                    Chesterfield          VA        CERC2                    250.0                      6.0                  2029.0              (L) Regulatory approvals pending. Not under construction               GT
+1933                    Chesterfield          VA        CERC3                    250.0                      6.0                  2029.0              (L) Regulatory approvals pending. Not under construction               GT
+1931                    Chesterfield          VA        CERC1                    250.0                      6.0                  2029.0              (L) Regulatory approvals pending. Not under construction               GT
+1746              Wolf Summit Energy          WV        HCCA1                    207.4                     12.0                  2028.0              (L) Regulatory approvals pending. Not under construction               CA
+1830                 Liberty Station          KY          L11                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1829                 Liberty Station          KY          L10                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1828                 Liberty Station          KY           L1                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1831                 Liberty Station          KY          L12                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1834                 Liberty Station          KY           L4                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1833                 Liberty Station          KY           L3                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1832                 Liberty Station          KY           L2                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1839                 Liberty Station          KY           L9                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1835                 Liberty Station          KY           L5                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1836                 Liberty Station          KY           L6                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1837                 Liberty Station          KY           L7                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+1838                 Liberty Station          KY           L8                     18.1                     12.0                  2028.0  (P) Planned for installation, but regulatory approvals not initiated               IC
+
+Planned solar 2027 top 10:
+                              Plant Name Plant State Generator ID  Nameplate Capacity (MW)  Planned Operation Month                                                                Status
+1263                    Firefly Solar PA          PA        FFLPA                    401.6                     12.0              (L) Regulatory approvals pending. Not under construction
+1365        Yellow Wood Solar Energy LLC          OH        YLWWD                    300.0                     12.0     (U) Under construction, less than or equal to 50 percent complete
+1286                    Lake Trout Solar          IN        LAKET                    245.0                     12.0  (P) Planned for installation, but regulatory approvals not initiated
+1210                   Honey Creek Solar          IN        HNYSR                    200.0                     12.0  (P) Planned for installation, but regulatory approvals not initiated
+893                       Palomino Solar          OH        PLMNO                    200.0                      7.0     (U) Under construction, less than or equal to 50 percent complete
+1296                        Ritter Solar          OH         CFC1                    199.0                     12.0  (P) Planned for installation, but regulatory approvals not initiated
+1040                  Hoosier Line Solar          IN        HLW00                    180.0                     10.0  (P) Planned for installation, but regulatory approvals not initiated
+1207                      Kingwood Solar          OH        KWOOD                    175.0                     12.0  (P) Planned for installation, but regulatory approvals not initiated
+1065  Chester Solar Technology Park, LLC          VA         CSTP                    160.0                     10.0              (L) Regulatory approvals pending. Not under construction
+717               Springwater Solar, LLC          OH        SPRIN                    155.0                      4.0     (U) Under construction, less than or equal to 50 percent complete
+
+Planned by status totals (MW, count):
+                                                                          sum  count
+Status                                                                              
+(L) Regulatory approvals pending. Not under construction               4165.9     80
+(P) Planned for installation, but regulatory approvals not initiated  11196.6     92
+(T) Regulatory approvals received. Not under construction              2645.9     46
+(TS) Construction complete, but not yet in commercial operation         881.9     30
+(U) Under construction, less than or equal to 50 percent complete      6381.6     87
+(V) Under construction, more than 50 percent complete                  1649.5     65
+
+Planned under construction (U+V+TS) MW: 8913.0
+Planned not yet under construction (P+L+T) MW: 18008.4
