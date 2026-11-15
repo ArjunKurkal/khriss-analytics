@@ -24,12 +24,13 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SRC = HERE / "src"
-STEPS = ["eia", "storage", "rigs", "fx", "balance", "dashboard"]
+STEPS = ["eia", "storage", "rigs", "fx", "jodi", "balance", "dashboard"]
 SCRIPTS = {
     "eia": "pull_eia_monthly.py",
     "storage": "pull_storage_weekly.py",
     "rigs": "pull_rigs.py",
     "fx": "pull_ecb_fx.py",
+    "jodi": "pull_jodi.py",
     "balance": "build_balance.py",
     "dashboard": "build_dashboard_data.py",
 }

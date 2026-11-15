@@ -191,6 +191,50 @@ def global_price_section(curated: Path, out: dict) -> None:
                 "values": _round(both["ttf_usd"] - both["henry_hub_usd_mmbtu"], 3)}
 
 
+JODI_REGIONS = ["North America", "Europe", "Asia-Pacific", "Middle East",
+                "FSU", "Rest of World"]
+
+
+def jodi_section(curated: Path, out: dict) -> None:
+    """Global/regional monthly balance from JODI Gas (Bcf/d). Self-reported
+    national statistics; the regional balancing item is shown, and the
+    reporter count is shipped so thin recent months are legible."""
+    path = curated / "jodi_region_monthly.parquet"
+    if not path.exists():
+        return
+    r = read_parquet(path)
+    r = r[r["month"] >= "2015-01-01"].sort_values("month")
+    months = pd.DatetimeIndex(sorted(r["month"].unique()))
+    dates = _dates(months)
+    prod, bal, lng = {}, {}, {}
+    for region in JODI_REGIONS:
+        sub = r[r["region"] == region].set_index("month").reindex(months)
+        prod[region] = _round(sub["production_bcfd"])
+        bal[region] = _round(sub["balancing_item_bcfd"])
+        lng[region] = _round(sub["exports_lng_bcfd"])
+    glob = r[r["region"] == "Global"].set_index("month").reindex(months)
+    out["jodi"] = {
+        "dates": dates, "unit": "Bcf/d",
+        "production_by_region": prod,
+        "balancing_by_region": bal,
+        "lng_exports_by_region": lng,
+        "global_deliveries": _round(glob["deliveries_bcfd"]),
+        "global_balancing": _round(glob["balancing_item_bcfd"]),
+        "countries_reporting": [int(x) for x in glob["countries_reporting"]],
+        "vintage": int(read_parquet(curated / "jodi_country_monthly.parquet")
+                       ["vintage"].iloc[0]),
+    }
+    covered = glob[glob["countries_reporting"] >= 50]
+    if not covered.empty:
+        last = covered.iloc[-1]
+        out.setdefault("snapshot", {}).update({
+            "jodi_month": last.name.strftime("%Y-%m"),
+            "global_production_bcfd": round(float(last["production_bcfd"]), 1),
+            "global_deliveries_bcfd": round(float(last["deliveries_bcfd"]), 1),
+            "global_balancing_bcfd": round(float(last["balancing_item_bcfd"]), 2),
+        })
+
+
 def rigs_section(curated: Path, out: dict) -> None:
     path = curated / "rigs_weekly.parquet"
     if not path.exists():
@@ -237,6 +281,7 @@ def main() -> None:
     storage_section(curated, out)
     price_section(curated, out)
     global_price_section(curated, out)
+    jodi_section(curated, out)
     rigs_section(curated, out)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(_sanitize(out), allow_nan=False))

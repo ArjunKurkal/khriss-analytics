@@ -43,10 +43,11 @@
   <section id="sec-storage" hidden><h2>Working gas in storage — Lower 48 (Bcf)</h2><p>Last 3 years against the prior 5-year average and range, aligned by week of year.</p><div class="chart" id="chart-storage"></div></section>
   <section id="sec-price" hidden><h2>Henry Hub spot price ($/MMBtu)</h2><div class="chart" id="chart-price"></div></section>
   <section id="sec-global" hidden><h2>Global gas prices — front month ($/MMBtu)</h2><p>CME daily settlements: Dutch TTF (EUR/MWh contract, converted at the ECB EUR/USD reference rate) and LNG Japan/Korea Marker (JKM). These CME contracts are financially settled proxies referencing ICE TTF and the Platts JKM assessment; CME volume is thin (JKM and the USD TTF contract settle on assessment, with zero traded volume), so treat the levels as benchmark marks, not traded prices. The dashed TFU line is CME's USD-denominated TTF contract, captured as a cross-check on the conversion. Series begin 12 Nov 2026 — the CME feed retains only ~5 business days, so history accrues from daily capture and cannot be backfilled.</p><div class="chart" id="chart-global"></div><div class="chart" id="chart-spreads"></div></section>
+  <section id="sec-jodi" hidden><h2>Global gas balance — JODI (Bcf/d, monthly)</h2><p>Production by region (stacked) against global deliveries. Source: JODI Gas World Database — self-reported national statistics, ~2-month lag, revised monthly (vintage <span id="jodi-vintage"></span>). Saudi Arabia, Turkmenistan and Uzbekistan do not report; recent months are partial and fill in over time (reporter count in the second chart's hover). The balancing item — implied minus reported stock change — is shown per region, never plugged.</p><div class="chart" id="chart-jodi-prod"></div><div class="chart" id="chart-jodi-bal"></div></section>
   <section id="sec-rigs" hidden><h2>Rig count by basin (Baker Hughes, weekly)</h2><div class="chart" id="chart-rigs"></div></section>
   <section id="sec-table" hidden><h2>Balance detail — latest 24 months (Bcf/d)</h2><div id="balance-table"></div></section>
 </main>
-<footer>Data: EIA (api.eia.gov, ir.eia.gov weekly storage), Baker Hughes rig report, CME Group settlements (TTF/JKM), European Central Bank reference rates. Built by the Gas Fundies pipeline in khriss-analytics. Not investment advice.</footer>
+<footer>Data: EIA (api.eia.gov, ir.eia.gov weekly storage), Baker Hughes rig report, CME Group settlements (TTF/JKM), European Central Bank reference rates, JODI Gas World Database (jodidata.org). Built by the Gas Fundies pipeline in khriss-analytics. Not investment advice.</footer>
 <script>
 const LAYOUT = { paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)',
   font:{color:'#e6edf3'}, margin:{t:24,r:16,b:36,l:52},
@@ -96,6 +97,8 @@ fetch('data.json').then(r => {
     ['Henry Hub', s.henry_hub_usd_mmbtu, '$/MMBtu', s.price_date || ''],
     ['TTF front (CME)', s.ttf_front_usd_mmbtu, '$/MMBtu', (s.ttf_front_eur_mwh ? '€' + s.ttf_front_eur_mwh + '/MWh · ' : '') + (s.global_price_date || '')],
     ['JKM front (CME)', s.jkm_front_usd_mmbtu, '$/MMBtu', s.global_price_date || ''],
+    ['Global production (JODI)', s.global_production_bcfd, 'Bcf/d', s.jodi_month || ''],
+    ['Global deliveries (JODI)', s.global_deliveries_bcfd, 'Bcf/d', s.jodi_month || ''],
     ['US rigs', s.rigs_total_us, '', s.rigs_week || ''],
   ].filter(k => k[1] !== undefined && k[1] !== null);
   document.getElementById('kpis').innerHTML = kpis.map(k =>
@@ -164,6 +167,19 @@ fetch('data.json').then(r => {
       ...(g.ttf_minus_hh ? [{ x:g.ttf_minus_hh.dates, y:g.ttf_minus_hh.values, name:'TTF − Henry Hub spot', type:'scatter', mode:'lines+markers' }] : []),
     ];
     if (spreads.length) Plotly.newPlot('chart-spreads', spreads, layout3y(g.dates), CFG);
+  }
+  if (d.jodi) {
+    show('sec-jodi');
+    const j = d.jodi;
+    document.getElementById('jodi-vintage').textContent = j.vintage;
+    Plotly.newPlot('chart-jodi-prod', [
+      ...stackTraces(j.dates, j.production_by_region, Object.keys(j.production_by_region)),
+      { x:j.dates, y:j.global_deliveries, name:'global deliveries',
+        type:'scatter', mode:'lines', line:{color:'#e6edf3', width:2} },
+    ], layout3y(j.dates), CFG);
+    Plotly.newPlot('chart-jodi-bal',
+      lineTraces(j.dates, j.balancing_by_region, Object.keys(j.balancing_by_region)),
+      layout3y(j.dates), CFG);
   }
   if (d.rigs) {
     show('sec-rigs');
