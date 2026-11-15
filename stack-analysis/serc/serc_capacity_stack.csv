@@ -1,0 +1,232 @@
+year,fuel,mw,period,anchor_year,source_note
+2016,Coal,58657.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Natural Gas,129983.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Nuclear,31073.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Hydro,11667.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Wind,509.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Solar,3415.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Oil,7552.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Battery Storage,1.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Other,5173.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Total,254550.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Coal,56749.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Natural Gas,131733.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Nuclear,31073.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Hydro,11667.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Wind,509.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Solar,4887.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Oil,7389.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Battery Storage,2.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Other,5271.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Total,255798.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Coal,53402.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Natural Gas,134715.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Nuclear,31073.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Hydro,11621.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Wind,509.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Solar,6519.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Oil,5503.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Battery Storage,20.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Other,5131.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Total,255013.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Coal,50812.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Natural Gas,136682.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Nuclear,31073.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Hydro,11608.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Wind,509.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Solar,8326.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Oil,5501.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Battery Storage,48.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Other,5073.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Total,256150.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Coal,47869.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Natural Gas,136765.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Nuclear,31073.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Hydro,11608.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Wind,988.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Solar,11328.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Oil,5130.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Battery Storage,58.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Other,5053.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Total,256391.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Coal,46347.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Natural Gas,138466.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Nuclear,31073.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Hydro,11593.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Wind,986.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Solar,14063.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Oil,5125.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Battery Storage,579.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Other,4816.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Total,259567.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Coal,43552.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Natural Gas,139695.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Nuclear,31073.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Hydro,11593.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Wind,986.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Solar,16375.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Oil,5041.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Battery Storage,652.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Other,4709.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Total,260194.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Coal,42602.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Natural Gas,143020.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Nuclear,32187.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Hydro,11592.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Wind,986.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Solar,19606.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Oil,5029.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Battery Storage,703.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Other,4378.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Total,266622.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Coal,41096.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Natural Gas,143478.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Nuclear,33301.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Hydro,11590.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Wind,959.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Solar,24130.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Oil,5017.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Battery Storage,987.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Other,4400.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Total,271477.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Coal,41096.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Natural Gas,143861.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Nuclear,33301.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Hydro,11589.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Pumped Storage,6515.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Wind,959.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Solar,27150.2,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Oil,4412.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Battery Storage,1793.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Other,4163.1,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Total,274843.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2026,Coal,41096.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Natural Gas,144473.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Hydro,11589.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Wind,959.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Solar,30528.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Oil,4241.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Battery Storage,2809.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Other,4156.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Total,279671.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Coal,38900.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Natural Gas,149411.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Hydro,11589.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Wind,959.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Solar,35503.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Oil,4355.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Battery Storage,3778.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Other,4173.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Total,288488.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Coal,37251.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Natural Gas,148887.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Wind,959.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Solar,36830.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Oil,4355.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Battery Storage,3959.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Other,4173.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Total,287858.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Coal,37251.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Natural Gas,151168.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Solar,40154.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Oil,4355.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Battery Storage,4841.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Other,4134.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Total,294554.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Coal,35975.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Natural Gas,151168.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Solar,40494.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Oil,4355.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Battery Storage,4841.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Other,4134.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Total,293618.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Coal,33957.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Natural Gas,150456.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Solar,40494.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Oil,4355.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Battery Storage,4841.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Other,4134.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Total,290887.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Coal,33957.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Natural Gas,150381.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Solar,40494.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Oil,4355.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Battery Storage,4841.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Other,4134.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Total,290812.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Coal,31846.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Natural Gas,149670.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Solar,40494.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Oil,4126.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Battery Storage,4841.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Other,4134.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Total,287761.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Coal,28468.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Natural Gas,150337.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Solar,40494.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Oil,3511.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Battery Storage,4841.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Other,4134.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Total,284435.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Coal,28468.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Natural Gas,150337.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Solar,40494.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Oil,3511.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Battery Storage,4841.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Other,4134.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Total,284435.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Coal,28468.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Natural Gas,150086.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Nuclear,33301.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Hydro,11624.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Solar,40494.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Oil,3511.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Battery Storage,4841.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Other,4134.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Total,284184.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"

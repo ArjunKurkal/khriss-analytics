@@ -1,0 +1,358 @@
+{
+  "version": "v1",
+  "built": "2026-11-15",
+  "region_cut": {
+    "basis": "EIA-860M Balancing Authority Code. SERC footprint excluding ISO/RTO members (PJM/MISO plants inside SERC states stay out). Florida included (ex-FRCC, in SERC since Jul 1, 2019), tagged as subregion Florida; all other included BAs are SERC-Central.",
+    "central_bas": [
+      "SOCO",
+      "TVA",
+      "DUK",
+      "CPLE",
+      "CPLW",
+      "SCEG",
+      "SC",
+      "LGEE",
+      "AECI",
+      "SEPA",
+      "YAD"
+    ],
+    "florida_bas": [
+      "FPL",
+      "FPC",
+      "TEC",
+      "FMPP",
+      "JEA",
+      "SEC",
+      "TAL",
+      "GVL",
+      "HST"
+    ],
+    "ba_code_notes": "Task brief names map to EIA codes: DUKE->DUK (Duke Energy Carolinas), DEF->FPC (Duke Energy Florida, legacy Florida Power Corp code), SCEG is Dominion Energy South Carolina's EIA code, OUC sits inside FMPP, FMPA plants sit in FMPP and FPC."
+  },
+  "anchor": {
+    "basis": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; no single published SERC-by-fuel nameplate anchor exists (NERC LTRA publishes assessment-area anticipated/prospective capacity on a capability basis).",
+    "total_mw": 274843.4,
+    "by_fuel_mw": {
+      "Coal": 41096.7,
+      "Natural Gas": 143861.4,
+      "Nuclear": 33301.4,
+      "Hydro": 11589.4,
+      "Pumped Storage": 6515.4,
+      "Wind": 959.4,
+      "Solar": 27150.2,
+      "Oil": 4412.7,
+      "Battery Storage": 1793.7,
+      "Other": 4163.1
+    },
+    "by_subregion_mw": {
+      "SERC-Central": 195217.3,
+      "Florida": 79626.1
+    },
+    "by_ba_mw": {
+      "SOCO": 70584.4,
+      "TVA": 44023.2,
+      "DUK": 30990.7,
+      "CPLE": 17643.0,
+      "CPLW": 41.6,
+      "SCEG": 8134.7,
+      "SC": 5978.5,
+      "LGEE": 9073.8,
+      "AECI": 6705.6,
+      "SEPA": 1826.6,
+      "YAD": 215.2,
+      "FPL": 42039.1,
+      "FPC": 16480.5,
+      "TEC": 8684.5,
+      "FMPP": 4577.4,
+      "JEA": 3214.5,
+      "SEC": 2825.6,
+      "TAL": 1023.8,
+      "GVL": 745.0,
+      "HST": 35.7
+    },
+    "capacity_definition": "Nameplate MW, all statuses (OP/SB/OA/OS).",
+    "cross_checks": {
+      "note": "NERC LTRA / DOE ITCS figures are peak-load and capability-basis, not nameplate: DOE Jul 2025 grid report (NERC ITCS data) puts SERC 2024 peak load at 193,654 MW across SERC-C/SE/FL/E assessment areas. Nameplate anchor runs well above peak load, as expected (solar nameplate, standby units, reserve).",
+      "eia_operating_sep2026_nameplate_mw": 278024.1,
+      "eia_operating_sep2026_netsummer_mw": 255855.7
+    }
+  },
+  "trailing": {
+    "basis": "Reconstructed Dec-31 snapshots from EIA unit-level data (Operating Year / Retirement Year). Estimated; not a NERC/SERC publication.",
+    "yearly_totals_mw": {
+      "2016": 254550.7,
+      "2017": 255798.9,
+      "2018": 255013.2,
+      "2019": 256150.9,
+      "2020": 256391.3,
+      "2021": 259567.9,
+      "2022": 260194.4,
+      "2023": 266622.6,
+      "2024": 271477.8,
+      "2025": 274843.4
+    }
+  },
+  "forward_2026_2036": {
+    "additions_mw": 25923.4,
+    "additions_count": 249,
+    "retirements_mw": 16582.3,
+    "retirements_count": 89,
+    "net_mw": 9341.1,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 9113.8,
+      "Nuclear": 0.0,
+      "Hydro": 35.0,
+      "Pumped Storage": 0.0,
+      "Wind": 247.0,
+      "Solar": 13348.6,
+      "Oil": 114.0,
+      "Battery Storage": 3048.0,
+      "Other": 17.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 12628.7,
+      "Natural Gas": 2888.4,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 4.2,
+      "Oil": 1015.4,
+      "Battery Storage": 0.0,
+      "Other": 45.6
+    },
+    "additions_by_subregion_mw": {
+      "SERC-Central": 22276.6,
+      "Florida": 3646.8
+    },
+    "retirements_by_subregion_mw": {
+      "SERC-Central": 13792.6,
+      "Florida": 2789.7
+    },
+    "net_by_subregion_mw": {
+      "SERC-Central": 8484.0,
+      "Florida": 857.1
+    }
+  },
+  "yearly_totals_mw": {
+    "2016": 254550.7,
+    "2017": 255798.9,
+    "2018": 255013.2,
+    "2019": 256150.9,
+    "2020": 256391.3,
+    "2021": 259567.9,
+    "2022": 260194.4,
+    "2023": 266622.6,
+    "2024": 271477.8,
+    "2025": 274843.4,
+    "2026": 279671.8,
+    "2027": 288488.4,
+    "2028": 287858.7,
+    "2029": 294554.5,
+    "2030": 293618.7,
+    "2031": 290887.9,
+    "2032": 290812.9,
+    "2033": 287761.5,
+    "2034": 284435.2,
+    "2035": 284435.2,
+    "2036": 284184.5
+  },
+  "yearly_totals_by_subregion_mw": {
+    "SERC-Central": {
+      "2016": 187948.8,
+      "2017": 188671.0,
+      "2018": 190728.4,
+      "2019": 189551.9,
+      "2020": 188610.0,
+      "2021": 189260.2,
+      "2022": 187305.3,
+      "2023": 191317.0,
+      "2024": 193726.9,
+      "2025": 195217.3,
+      "2026": 198050.8,
+      "2027": 205537.2,
+      "2028": 204832.5,
+      "2029": 211492.3,
+      "2030": 210556.5,
+      "2031": 207874.9,
+      "2032": 207874.9,
+      "2033": 204823.5,
+      "2034": 203701.3,
+      "2035": 203701.3,
+      "2036": 203701.3
+    },
+    "Florida": {
+      "2016": 66601.9,
+      "2017": 67127.9,
+      "2018": 64284.8,
+      "2019": 66599.0,
+      "2020": 67781.3,
+      "2021": 70307.7,
+      "2022": 72889.1,
+      "2023": 75305.6,
+      "2024": 77750.9,
+      "2025": 79626.1,
+      "2026": 81621.0,
+      "2027": 82951.2,
+      "2028": 83026.2,
+      "2029": 83062.2,
+      "2030": 83062.2,
+      "2031": 83013.0,
+      "2032": 82938.0,
+      "2033": 82938.0,
+      "2034": 80733.9,
+      "2035": 80733.9,
+      "2036": 80483.2
+    }
+  },
+  "diagnostics": {
+    "eia_operating_serc_units": 3664,
+    "eia_operating_serc_nameplate_mw": 278024.1,
+    "eia_operating_serc_netsummer_mw": 255855.7,
+    "eia_operating_serc_op_only_nameplate_mw": 274937.8,
+    "eia_operating_serc_nonop_nameplate_mw": 3086.3,
+    "eia_operating_serc_by_ba_mw": {
+      "AECI": 6705.6,
+      "CPLE": 17677.0,
+      "CPLW": 89.4,
+      "DUK": 31082.7,
+      "FMPP": 4577.4,
+      "FPC": 16703.6,
+      "FPL": 42933.1,
+      "GVL": 745.0,
+      "HST": 35.7,
+      "JEA": 3214.5,
+      "LGEE": 9159.8,
+      "SC": 5978.5,
+      "SCEG": 8134.7,
+      "SEC": 2825.6,
+      "SEPA": 1826.6,
+      "SOCO": 71619.1,
+      "TAL": 1023.8,
+      "TEC": 8779.4,
+      "TVA": 44697.4,
+      "YAD": 215.2
+    },
+    "eia_operating_serc_by_fuel_nameplate": {
+      "Battery Storage": 2663.5,
+      "Coal": 41096.7,
+      "Hydro": 11589.4,
+      "Natural Gas": 143861.4,
+      "Nuclear": 33301.4,
+      "Oil": 4412.7,
+      "Other": 4156.5,
+      "Pumped Storage": 6515.4,
+      "Solar": 29467.7,
+      "Wind": 959.4
+    },
+    "ba_boundary_in_se_states_not_serc_mw": 116560.7,
+    "ba_boundary_in_se_states_not_serc_by_ba_mw": {
+      "MISO": 61671.5,
+      "PJM": 41138.2,
+      "SPA": 1635.5,
+      "SWPP": 12115.5
+    },
+    "ba_boundary_serc_ba_outside_se_states_mw": 1255.5,
+    "ba_boundary_serc_ba_outside_se_states": {
+      "IA": 34.0,
+      "MA": 1.5,
+      "OK": 1220.0
+    },
+    "anchor_less_in_service_2026_mw": 3190.5,
+    "anchor_less_in_service_2026_units": 49,
+    "anchor_less_in_service_2026_by_fuel": {
+      "Battery Storage": 869.8,
+      "Solar": 2320.7
+    },
+    "anchor_plus_retired_2026_mw": 9.8,
+    "anchor_plus_retired_2026_units": 4,
+    "anchor_plus_retired_2026_by_fuel": {
+      "Other": 6.6,
+      "Solar": 3.2
+    },
+    "anchor_total_mw": 274843.4,
+    "anchor_by_fuel_mw": {
+      "Coal": 41096.7,
+      "Natural Gas": 143861.4,
+      "Nuclear": 33301.4,
+      "Hydro": 11589.4,
+      "Pumped Storage": 6515.4,
+      "Wind": 959.4,
+      "Solar": 27150.2,
+      "Oil": 4412.7,
+      "Battery Storage": 1793.7,
+      "Other": 4163.1
+    },
+    "anchor_by_subregion_mw": {
+      "SERC-Central": 195217.3,
+      "Florida": 79626.1
+    },
+    "anchor_by_ba_mw": {
+      "SOCO": 70584.4,
+      "TVA": 44023.2,
+      "DUK": 30990.7,
+      "CPLE": 17643.0,
+      "CPLW": 41.6,
+      "SCEG": 8134.7,
+      "SC": 5978.5,
+      "LGEE": 9073.8,
+      "AECI": 6705.6,
+      "SEPA": 1826.6,
+      "YAD": 215.2,
+      "FPL": 42039.1,
+      "FPC": 16480.5,
+      "TEC": 8684.5,
+      "FMPP": 4577.4,
+      "JEA": 3214.5,
+      "SEC": 2825.6,
+      "TAL": 1023.8,
+      "GVL": 745.0,
+      "HST": 35.7
+    },
+    "eia_planned_serc_units": 200,
+    "eia_planned_serc_nameplate_mw": 22732.9,
+    "eia_planned_serc_by_status_mw": {
+      "(L) Regulatory approvals pending. Not under construction": 5808.2,
+      "(P) Planned for installation, but regulatory approvals not initiated": 6991.0,
+      "(T) Regulatory approvals received. Not under construction": 2899.7,
+      "(TS) Construction complete, but not yet in commercial operation": 879.2,
+      "(U) Under construction, less than or equal to 50 percent complete": 2960.8,
+      "(V) Under construction, more than 50 percent complete": 3194.0
+    },
+    "eia_planned_serc_by_ba_mw": {
+      "AECI": 1085.0,
+      "CPLE": 1470.4,
+      "CPLW": 108.5,
+      "DUK": 1152.9,
+      "FPC": 953.7,
+      "FPL": 1043.5,
+      "JEA": 174.5,
+      "LGEE": 1480.2,
+      "SC": 811.0,
+      "SCEG": 424.7,
+      "SOCO": 7955.7,
+      "TEC": 261.5,
+      "TVA": 5811.3
+    },
+    "eia_planned_max_operation_year": 2034,
+    "overlap_operating2026_vs_planned2026_units": 0,
+    "overlap_retired2026_vs_plannedret2026_units": 0,
+    "planned_total_mw_2026_2036": 25923.4,
+    "retirements_2026_actual_mw": 9.8
+  },
+  "files": {
+    "plants": "serc_capacity_plants.csv",
+    "stack": "serc_capacity_stack.csv",
+    "stack_by_subregion": "serc_capacity_stack_by_subregion.csv",
+    "changelog": "serc_capacity_changelog.csv",
+    "changelog_by_subregion": "serc_capacity_changelog_by_subregion.csv",
+    "summary": "summary.json",
+    "charts": [
+      "01_stacked_area.png",
+      "02_net_change_forward.png",
+      "03_subregions_stacked.png",
+      "04_subregional_totals.png"
+    ]
+  }
+}

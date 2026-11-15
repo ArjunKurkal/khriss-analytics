@@ -1,0 +1,221 @@
+year,subregion,fuel,additions_mw,additions_count,retirements_mw,retirements_count,net_mw
+2026,SERC-Central,Coal,0.0,0,0.0,0,0.0
+2026,SERC-Central,Natural Gas,0.0,0,0.0,0,0.0
+2026,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2026,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2026,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2026,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2026,SERC-Central,Solar,1896.6,37,3.2,2,1893.4
+2026,SERC-Central,Oil,0.0,0,1.0,1,-1.0
+2026,SERC-Central,Battery Storage,946.1,16,0.0,0,946.1
+2026,SERC-Central,Other,0.0,0,5.0,1,-5.0
+2026,Florida,Coal,0.0,0,0.0,0,0.0
+2026,Florida,Natural Gas,612.0,1,0.0,0,612.0
+2026,Florida,Nuclear,0.0,0,0.0,0,0.0
+2026,Florida,Hydro,0.0,0,0.0,0,0.0
+2026,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2026,Florida,Wind,0.0,0,0.0,0,0.0
+2026,Florida,Solar,1484.6,21,0.0,0,1484.6
+2026,Florida,Oil,0.0,0,170.1,3,-170.1
+2026,Florida,Battery Storage,70.0,2,0.0,0,70.0
+2026,Florida,Other,0.0,0,1.6,1,-1.6
+2027,SERC-Central,Coal,0.0,0,2196.6,8,-2196.6
+2027,SERC-Central,Natural Gas,4938.2,31,0.0,0,4938.2
+2027,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2027,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2027,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2027,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2027,SERC-Central,Solar,3781.9,50,0.0,0,3781.9
+2027,SERC-Central,Oil,114.0,2,0.0,0,114.0
+2027,SERC-Central,Battery Storage,848.9,7,0.0,0,848.9
+2027,SERC-Central,Other,0.0,0,0.0,0,0.0
+2027,Florida,Coal,0.0,0,0.0,0,0.0
+2027,Florida,Natural Gas,0.0,0,0.0,0,0.0
+2027,Florida,Nuclear,0.0,0,0.0,0,0.0
+2027,Florida,Hydro,0.0,0,0.0,0,0.0
+2027,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2027,Florida,Wind,0.0,0,0.0,0,0.0
+2027,Florida,Solar,1193.2,16,0.0,0,1193.2
+2027,Florida,Oil,0.0,0,0.0,0,0.0
+2027,Florida,Battery Storage,120.0,2,0.0,0,120.0
+2027,Florida,Other,17.0,1,0.0,0,17.0
+2028,SERC-Central,Coal,0.0,0,1648.5,2,-1648.5
+2028,SERC-Central,Natural Gas,504.0,6,1028.5,11,-524.5
+2028,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2028,SERC-Central,Hydro,35.0,8,0.0,0,35.0
+2028,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2028,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2028,SERC-Central,Solar,1327.3,19,0.0,0,1327.3
+2028,SERC-Central,Oil,0.0,0,0.0,0,0.0
+2028,SERC-Central,Battery Storage,106.0,4,0.0,0,106.0
+2028,SERC-Central,Other,0.0,0,0.0,0,0.0
+2028,Florida,Coal,0.0,0,0.0,0,0.0
+2028,Florida,Natural Gas,0.0,0,0.0,0,0.0
+2028,Florida,Nuclear,0.0,0,0.0,0,0.0
+2028,Florida,Hydro,0.0,0,0.0,0,0.0
+2028,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2028,Florida,Wind,0.0,0,0.0,0,0.0
+2028,Florida,Solar,0.0,0,0.0,0,0.0
+2028,Florida,Oil,0.0,0,0.0,0,0.0
+2028,Florida,Battery Storage,75.0,1,0.0,0,75.0
+2028,Florida,Other,0.0,0,0.0,0,0.0
+2029,SERC-Central,Coal,0.0,0,0.0,0,0.0
+2029,SERC-Central,Natural Gas,2281.8,6,0.0,0,2281.8
+2029,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2029,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2029,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2029,SERC-Central,Wind,247.0,1,0.0,0,247.0
+2029,SERC-Central,Solar,3249.0,8,0.0,0,3249.0
+2029,SERC-Central,Oil,0.0,0,0.0,0,0.0
+2029,SERC-Central,Battery Storage,882.0,5,0.0,0,882.0
+2029,SERC-Central,Other,0.0,0,0.0,0,0.0
+2029,Florida,Coal,0.0,0,0.0,0,0.0
+2029,Florida,Natural Gas,0.0,0,0.0,0,0.0
+2029,Florida,Nuclear,0.0,0,0.0,0,0.0
+2029,Florida,Hydro,0.0,0,0.0,0,0.0
+2029,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2029,Florida,Wind,0.0,0,0.0,0,0.0
+2029,Florida,Solar,75.0,1,0.0,0,75.0
+2029,Florida,Oil,0.0,0,0.0,0,0.0
+2029,Florida,Battery Storage,0.0,0,0.0,0,0.0
+2029,Florida,Other,0.0,0,39.0,1,-39.0
+2030,SERC-Central,Coal,0.0,0,1275.8,4,-1275.8
+2030,SERC-Central,Natural Gas,0.0,0,0.0,0,0.0
+2030,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2030,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2030,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2030,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2030,SERC-Central,Solar,341.0,2,1.0,2,340.0
+2030,SERC-Central,Oil,0.0,0,0.0,0,0.0
+2030,SERC-Central,Battery Storage,0.0,0,0.0,0,0.0
+2030,SERC-Central,Other,0.0,0,0.0,0,0.0
+2030,Florida,Coal,0.0,0,0.0,0,0.0
+2030,Florida,Natural Gas,0.0,0,0.0,0,0.0
+2030,Florida,Nuclear,0.0,0,0.0,0,0.0
+2030,Florida,Hydro,0.0,0,0.0,0,0.0
+2030,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2030,Florida,Wind,0.0,0,0.0,0,0.0
+2030,Florida,Solar,0.0,0,0.0,0,0.0
+2030,Florida,Oil,0.0,0,0.0,0,0.0
+2030,Florida,Battery Storage,0.0,0,0.0,0,0.0
+2030,Florida,Other,0.0,0,0.0,0,0.0
+2031,SERC-Central,Coal,0.0,0,2018.4,5,-2018.4
+2031,SERC-Central,Natural Gas,0.0,0,663.2,8,-663.2
+2031,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2031,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2031,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2031,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2031,SERC-Central,Solar,0.0,0,0.0,0,0.0
+2031,SERC-Central,Oil,0.0,0,0.0,0,0.0
+2031,SERC-Central,Battery Storage,0.0,0,0.0,0,0.0
+2031,SERC-Central,Other,0.0,0,0.0,0,0.0
+2031,Florida,Coal,0.0,0,0.0,0,0.0
+2031,Florida,Natural Gas,0.0,0,49.2,2,-49.2
+2031,Florida,Nuclear,0.0,0,0.0,0,0.0
+2031,Florida,Hydro,0.0,0,0.0,0,0.0
+2031,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2031,Florida,Wind,0.0,0,0.0,0,0.0
+2031,Florida,Solar,0.0,0,0.0,0,0.0
+2031,Florida,Oil,0.0,0,0.0,0,0.0
+2031,Florida,Battery Storage,0.0,0,0.0,0,0.0
+2031,Florida,Other,0.0,0,0.0,0,0.0
+2032,SERC-Central,Coal,0.0,0,0.0,0,0.0
+2032,SERC-Central,Natural Gas,0.0,0,0.0,0,0.0
+2032,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2032,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2032,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2032,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2032,SERC-Central,Solar,0.0,0,0.0,0,0.0
+2032,SERC-Central,Oil,0.0,0,0.0,0,0.0
+2032,SERC-Central,Battery Storage,0.0,0,0.0,0,0.0
+2032,SERC-Central,Other,0.0,0,0.0,0,0.0
+2032,Florida,Coal,0.0,0,0.0,0,0.0
+2032,Florida,Natural Gas,0.0,0,75.0,1,-75.0
+2032,Florida,Nuclear,0.0,0,0.0,0,0.0
+2032,Florida,Hydro,0.0,0,0.0,0,0.0
+2032,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2032,Florida,Wind,0.0,0,0.0,0,0.0
+2032,Florida,Solar,0.0,0,0.0,0,0.0
+2032,Florida,Oil,0.0,0,0.0,0,0.0
+2032,Florida,Battery Storage,0.0,0,0.0,0,0.0
+2032,Florida,Other,0.0,0,0.0,0,0.0
+2033,SERC-Central,Coal,0.0,0,2111.0,9,-2111.0
+2033,SERC-Central,Natural Gas,0.0,0,711.0,1,-711.0
+2033,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2033,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2033,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2033,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2033,SERC-Central,Solar,0.0,0,0.0,0,0.0
+2033,SERC-Central,Oil,0.0,0,229.4,8,-229.4
+2033,SERC-Central,Battery Storage,0.0,0,0.0,0,0.0
+2033,SERC-Central,Other,0.0,0,0.0,0,0.0
+2033,Florida,Coal,0.0,0,0.0,0,0.0
+2033,Florida,Natural Gas,0.0,0,0.0,0,0.0
+2033,Florida,Nuclear,0.0,0,0.0,0,0.0
+2033,Florida,Hydro,0.0,0,0.0,0,0.0
+2033,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2033,Florida,Wind,0.0,0,0.0,0,0.0
+2033,Florida,Solar,0.0,0,0.0,0,0.0
+2033,Florida,Oil,0.0,0,0.0,0,0.0
+2033,Florida,Battery Storage,0.0,0,0.0,0,0.0
+2033,Florida,Other,0.0,0,0.0,0,0.0
+2034,SERC-Central,Coal,0.0,0,1900.0,4,-1900.0
+2034,SERC-Central,Natural Gas,777.8,2,0.0,0,777.8
+2034,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2034,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2034,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2034,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2034,SERC-Central,Solar,0.0,0,0.0,0,0.0
+2034,SERC-Central,Oil,0.0,0,0.0,0,0.0
+2034,SERC-Central,Battery Storage,0.0,0,0.0,0,0.0
+2034,SERC-Central,Other,0.0,0,0.0,0,0.0
+2034,Florida,Coal,0.0,0,1478.4,2,-1478.4
+2034,Florida,Natural Gas,0.0,0,110.8,2,-110.8
+2034,Florida,Nuclear,0.0,0,0.0,0,0.0
+2034,Florida,Hydro,0.0,0,0.0,0,0.0
+2034,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2034,Florida,Wind,0.0,0,0.0,0,0.0
+2034,Florida,Solar,0.0,0,0.0,0,0.0
+2034,Florida,Oil,0.0,0,614.9,10,-614.9
+2034,Florida,Battery Storage,0.0,0,0.0,0,0.0
+2034,Florida,Other,0.0,0,0.0,0,0.0
+2035,SERC-Central,Coal,0.0,0,0.0,0,0.0
+2035,SERC-Central,Natural Gas,0.0,0,0.0,0,0.0
+2035,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2035,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2035,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2035,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2035,SERC-Central,Solar,0.0,0,0.0,0,0.0
+2035,SERC-Central,Oil,0.0,0,0.0,0,0.0
+2035,SERC-Central,Battery Storage,0.0,0,0.0,0,0.0
+2035,SERC-Central,Other,0.0,0,0.0,0,0.0
+2035,Florida,Coal,0.0,0,0.0,0,0.0
+2035,Florida,Natural Gas,0.0,0,0.0,0,0.0
+2035,Florida,Nuclear,0.0,0,0.0,0,0.0
+2035,Florida,Hydro,0.0,0,0.0,0,0.0
+2035,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2035,Florida,Wind,0.0,0,0.0,0,0.0
+2035,Florida,Solar,0.0,0,0.0,0,0.0
+2035,Florida,Oil,0.0,0,0.0,0,0.0
+2035,Florida,Battery Storage,0.0,0,0.0,0,0.0
+2035,Florida,Other,0.0,0,0.0,0,0.0
+2036,SERC-Central,Coal,0.0,0,0.0,0,0.0
+2036,SERC-Central,Natural Gas,0.0,0,0.0,0,0.0
+2036,SERC-Central,Nuclear,0.0,0,0.0,0,0.0
+2036,SERC-Central,Hydro,0.0,0,0.0,0,0.0
+2036,SERC-Central,Pumped Storage,0.0,0,0.0,0,0.0
+2036,SERC-Central,Wind,0.0,0,0.0,0,0.0
+2036,SERC-Central,Solar,0.0,0,0.0,0,0.0
+2036,SERC-Central,Oil,0.0,0,0.0,0,0.0
+2036,SERC-Central,Battery Storage,0.0,0,0.0,0,0.0
+2036,SERC-Central,Other,0.0,0,0.0,0,0.0
+2036,Florida,Coal,0.0,0,0.0,0,0.0
+2036,Florida,Natural Gas,0.0,0,250.7,1,-250.7
+2036,Florida,Nuclear,0.0,0,0.0,0,0.0
+2036,Florida,Hydro,0.0,0,0.0,0,0.0
+2036,Florida,Pumped Storage,0.0,0,0.0,0,0.0
+2036,Florida,Wind,0.0,0,0.0,0,0.0
+2036,Florida,Solar,0.0,0,0.0,0,0.0
+2036,Florida,Oil,0.0,0,0.0,0,0.0
+2036,Florida,Battery Storage,0.0,0,0.0,0,0.0
+2036,Florida,Other,0.0,0,0.0,0,0.0

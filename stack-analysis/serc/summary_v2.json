@@ -1,0 +1,332 @@
+{
+  "version": "v2",
+  "built": "2026-11-15",
+  "anchor_unchanged_mw": 274843.4,
+  "anchor_by_subregion_mw": {
+    "SERC-Central": 195217.3,
+    "Florida": 79626.1
+  },
+  "anchor_source": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; no single published SERC-by-fuel nameplate anchor exists (NERC LTRA publishes assessment-area anticipated/prospective capacity on a capability basis).",
+  "v1_forward_2026_2036": {
+    "additions_mw": 25923.4,
+    "additions_count": 249,
+    "retirements_mw": 16582.3,
+    "retirements_count": 89,
+    "net_mw": 9341.1,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 9113.8,
+      "Nuclear": 0.0,
+      "Hydro": 35.0,
+      "Pumped Storage": 0.0,
+      "Wind": 247.0,
+      "Solar": 13348.6,
+      "Oil": 114.0,
+      "Battery Storage": 3048.0,
+      "Other": 17.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 12628.7,
+      "Natural Gas": 2888.4,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 4.2,
+      "Oil": 1015.4,
+      "Battery Storage": 0.0,
+      "Other": 45.6
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 62272.2,
+    "additions_count": 296,
+    "retirements_mw": 18230.8,
+    "retirements_count": 89,
+    "net_mw": 44041.4,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 24279.6,
+      "Nuclear": 251.0,
+      "Hydro": 35.0,
+      "Pumped Storage": 0.0,
+      "Wind": 247.0,
+      "Solar": 23703.6,
+      "Oil": 114.0,
+      "Battery Storage": 13625.0,
+      "Other": 17.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 14127.2,
+      "Natural Gas": 3038.4,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 4.2,
+      "Oil": 1015.4,
+      "Battery Storage": 0.0,
+      "Other": 45.6
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": 36348.8,
+    "retirements": 1648.5,
+    "net": 34700.3,
+    "by_fuel_net_mw": {
+      "Coal": -1498.5,
+      "Natural Gas": 15015.8,
+      "Nuclear": 251.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 10355.0,
+      "Oil": 0.0,
+      "Battery Storage": 10577.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_flow_delta_mw": {
+    "2026": 2197.3,
+    "2027": 4420.4,
+    "2028": 6123.0,
+    "2029": 5892.2,
+    "2030": 8056.8,
+    "2031": 1417.0,
+    "2032": 760.2,
+    "2033": 5134.0,
+    "2034": 414.2,
+    "2035": 285.2,
+    "2036": 0.0
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 254550.7,
+      "2017": 255798.9,
+      "2018": 255013.2,
+      "2019": 256150.9,
+      "2020": 256391.3,
+      "2021": 259567.9,
+      "2022": 260194.4,
+      "2023": 266622.6,
+      "2024": 271477.8,
+      "2025": 274843.4,
+      "2026": 279671.8,
+      "2027": 288488.4,
+      "2028": 287858.7,
+      "2029": 294554.5,
+      "2030": 293618.7,
+      "2031": 290887.9,
+      "2032": 290812.9,
+      "2033": 287761.5,
+      "2034": 284435.2,
+      "2035": 284435.2,
+      "2036": 284184.5
+    },
+    "v2": {
+      "2016": 254550.7,
+      "2017": 255798.9,
+      "2018": 255013.2,
+      "2019": 256150.9,
+      "2020": 256391.3,
+      "2021": 259567.9,
+      "2022": 260194.4,
+      "2023": 266622.6,
+      "2024": 271477.8,
+      "2025": 274843.4,
+      "2026": 281869.1,
+      "2027": 295106.1,
+      "2028": 300599.4,
+      "2029": 313187.4,
+      "2030": 320308.4,
+      "2031": 318994.6,
+      "2032": 319679.8,
+      "2033": 321762.4,
+      "2034": 318850.3,
+      "2035": 319135.5,
+      "2036": 318884.8
+    }
+  },
+  "yearly_totals_by_subregion_mw_v2": {
+    "SERC-Central": {
+      "2016": 187948.8,
+      "2017": 188671.0,
+      "2018": 190728.4,
+      "2019": 189551.9,
+      "2020": 188610.0,
+      "2021": 189260.2,
+      "2022": 187305.3,
+      "2023": 191317.0,
+      "2024": 193726.9,
+      "2025": 195217.3,
+      "2026": 198828.6,
+      "2027": 209649.4,
+      "2028": 212664.7,
+      "2029": 222461.7,
+      "2030": 226006.7,
+      "2031": 223550.1,
+      "2032": 222778.3,
+      "2033": 223328.9,
+      "2034": 219971.4,
+      "2035": 217404.6,
+      "2036": 217404.6
+    },
+    "Florida": {
+      "2016": 66601.9,
+      "2017": 67127.9,
+      "2018": 64284.8,
+      "2019": 66599.0,
+      "2020": 67781.3,
+      "2021": 70307.7,
+      "2022": 72889.1,
+      "2023": 75305.6,
+      "2024": 77750.9,
+      "2025": 79626.1,
+      "2026": 83040.5,
+      "2027": 85456.7,
+      "2028": 87934.7,
+      "2029": 90725.7,
+      "2030": 94301.7,
+      "2031": 95444.5,
+      "2032": 96901.5,
+      "2033": 98433.5,
+      "2034": 98878.9,
+      "2035": 101730.9,
+      "2036": 101480.2
+    }
+  },
+  "manual_adjustments_count": 81,
+  "named_adjustments_count": 25,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "FPL TYSP solar shortfall tranches",
+      "change": "add",
+      "mw": 10355.0
+    },
+    {
+      "plant": "FPL TYSP battery tranches",
+      "change": "add",
+      "mw": 7454.0
+    },
+    {
+      "plant": "Georgia Power certified CCs (Bowen/Wansley/McIntosh)",
+      "change": "add",
+      "mw": 3692.0
+    },
+    {
+      "plant": "FPL TYSP unnamed CT tranches",
+      "change": "add",
+      "mw": 3276.0
+    },
+    {
+      "plant": "Georgia Power certified BESS tranches",
+      "change": "add",
+      "mw": 3023.0
+    },
+    {
+      "plant": "Person County CC1+CC2 (Roxboro)",
+      "change": "add",
+      "mw": 2720.0
+    },
+    {
+      "plant": "Canadys Joint Resource CC",
+      "change": "add",
+      "mw": 2180.0
+    },
+    {
+      "plant": "TVA Kingston coal retime out of window",
+      "change": "retime",
+      "mw": 1700.0
+    },
+    {
+      "plant": "TVA Cumberland coal retime out of window",
+      "change": "retime",
+      "mw": 2600.0
+    },
+    {
+      "plant": "Winyah retime 2030->2034",
+      "change": "retime",
+      "mw": 1275.8
+    },
+    {
+      "plant": "Roxboro coal Units 1+4 retirement",
+      "change": "add retirement",
+      "mw": 1156.0
+    },
+    {
+      "plant": "Victor J. Daniel Jr retime 2027->2035",
+      "change": "retime",
+      "mw": 1096.6
+    },
+    {
+      "plant": "Gaston Unit 5 fuel switch",
+      "change": "fuel switch",
+      "mw": 952.0
+    },
+    {
+      "plant": "Marshall Advanced CTs",
+      "change": "add",
+      "mw": 850.0
+    },
+    {
+      "plant": "Barry Unit 5 fuel switch",
+      "change": "fuel switch",
+      "mw": 788.8
+    },
+    {
+      "plant": "Wateree coal retirement",
+      "change": "add retirement",
+      "mw": 771.8
+    },
+    {
+      "plant": "Williams coal retirement",
+      "change": "add retirement",
+      "mw": 659.7
+    },
+    {
+      "plant": "E.W. Brown Unit 12 CC",
+      "change": "add",
+      "mw": 645.0
+    },
+    {
+      "plant": "LG&E/KU 2035 coal retirements (MC3/MC4/Brown 3)",
+      "change": "add retirement",
+      "mw": 1470.2
+    },
+    {
+      "plant": "Duke nuclear uprates",
+      "change": "add",
+      "mw": 251.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "Cross Generating Station coal (Santee Cooper retirement study in 2026 IRP; no date set)": 2451.5,
+    "V.C. Summer Units 2&3 completion (Santee Cooper exploring sale/completion; no commitment)": 2234.0,
+    "Georgia Power certified PPA portfolio (2,821 MW; counterparties unspecified, likely overlaps EIA IPP rows)": 2821.0,
+    "Georgia Power certified solar+BESS COPs (Laurens 200 + Mitchell 150; solar/storage split unpublished)": 350.0,
+    "Mill Creek Unit 2 coal (retirement approved for 2027 but LG&E/KU sought life extension to Mill Creek 6 in-service, Case 2025-00045; two-sided)": 355.5,
+    "Mill Creek Unit 6 NGCC (in KY PSC Case 2025-00045; MW/date not verified)": null,
+    "Cliffside (Rogers) Unit 5 (EIA codes the dual-fuel unit as gas, 621.0 MW; 2023 IRP pointed to retirement by 2031 but the 2026 CRP Appendix F date was not verified)": 621.0,
+    "xAI Southaven MS behind-the-meter gas plant (41 turbines, ~1,200 MW permitted Mar 2026; BTM = 0 MW grid under the standing rule; excluded, not a candidate for addition)": 1200.0,
+    "FPL Vandolah acquisition (672 MW in TYSP fossil additions; ownership transfer of an existing plant, not new build)": 672.0,
+    "Duke new nuclear (Lee LLWR 1,117 MW or Belews Creek SMRs; IRP shows first new nuclear in 2037, outside window)": 1117.0
+  },
+  "behind_the_meter_finding": "One large explicitly behind-the-meter gas build found: xAI/SpaceX Southaven, MS (41 turbines, ~1,200 MW, MDEQ permit Mar 2026) self-supplying the Memphis Colossus campus, plus ~198 MW of permitted turbines at Colossus 1 in Memphis alongside 150 MW of MLGW/TVA grid supply. None of it is in EIA; under the standing rule it is 0 MW of grid addition and no v2 row is added. All utility builds added in v2 (Georgia Power certified fleet, Person County, Marshall CTs, Canadys, FPL TYSP) are grid-connected system resources counted in full.",
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "serc_capacity_plants_v2.csv",
+    "stack_v2": "serc_capacity_stack_v2.csv",
+    "stack_by_subregion_v2": "serc_capacity_stack_by_subregion_v2.csv",
+    "changelog_v2": "serc_capacity_changelog_v2.csv",
+    "changelog_by_subregion_v2": "serc_capacity_changelog_by_subregion_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png",
+      "03_subregions_stacked_v2.png",
+      "04_subregional_totals_v2.png"
+    ]
+  }
+}

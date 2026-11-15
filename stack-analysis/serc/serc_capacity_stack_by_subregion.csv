@@ -1,0 +1,463 @@
+year,subregion,fuel,mw,period,anchor_year,source_note
+2016,SERC-Central,Coal,50698.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Natural Gas,81395.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Nuclear,27159.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Hydro,11612.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Wind,509.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Solar,3083.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Oil,3608.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Battery Storage,1.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Other,3365.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,SERC-Central,Total,187948.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Coal,7958.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Natural Gas,48588.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Hydro,55.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Solar,331.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Oil,3944.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Battery Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Other,1808.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Florida,Total,66601.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Coal,48790.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Natural Gas,82682.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Nuclear,27159.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Hydro,11612.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Wind,509.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Solar,4479.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Oil,3445.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Battery Storage,2.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Other,3474.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,SERC-Central,Total,188671.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Coal,7958.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Natural Gas,49050.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Hydro,55.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Solar,407.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Oil,3944.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Battery Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Other,1796.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Florida,Total,67127.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Coal,47766.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Natural Gas,85071.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Nuclear,27159.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Hydro,11566.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Wind,509.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Solar,5232.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Oil,3442.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Battery Storage,6.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Other,3460.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,SERC-Central,Total,190728.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Coal,5636.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Natural Gas,49644.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Hydro,55.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Solar,1286.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Oil,2061.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Battery Storage,14.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Other,1671.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Florida,Total,64284.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Coal,45175.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Natural Gas,85392.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Nuclear,27159.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Hydro,11565.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Wind,509.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Solar,6297.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Oil,3439.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Battery Storage,6.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Other,3491.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,SERC-Central,Total,189551.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Coal,5636.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Natural Gas,51289.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Hydro,43.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Solar,2029.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Oil,2061.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Battery Storage,41.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Other,1582.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Florida,Total,66599.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Coal,42628.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Natural Gas,85486.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Nuclear,27159.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Hydro,11565.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Wind,988.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Solar,7659.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Oil,3100.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Battery Storage,16.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Other,3490.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,SERC-Central,Total,188610.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Coal,5240.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Natural Gas,51278.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Hydro,43.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Solar,3669.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Oil,2029.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Battery Storage,41.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Other,1563.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Florida,Total,67781.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Coal,41915.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Natural Gas,85424.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Nuclear,27159.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Hydro,11550.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Wind,986.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Solar,9300.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Oil,3096.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Battery Storage,57.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Other,3254.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,SERC-Central,Total,189260.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Coal,4431.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Natural Gas,53042.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Hydro,43.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Solar,4763.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Oil,2029.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Battery Storage,521.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Other,1561.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Florida,Total,70307.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Coal,39120.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Natural Gas,85205.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Nuclear,27159.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Hydro,11550.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Wind,986.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Solar,10498.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Oil,3011.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Battery Storage,111.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Other,3147.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,SERC-Central,Total,187305.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Coal,4431.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Natural Gas,54490.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Hydro,43.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Solar,5877.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Oil,2029.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Battery Storage,540.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Other,1561.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Florida,Total,72889.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Coal,38170.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Natural Gas,87790.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Nuclear,28273.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Hydro,11548.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Wind,986.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Solar,11922.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Oil,3000.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Battery Storage,143.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Other,2966.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,SERC-Central,Total,191317.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Coal,4431.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Natural Gas,55230.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Hydro,43.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Solar,7683.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Oil,2029.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Battery Storage,560.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Other,1411.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Florida,Total,75305.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Coal,37379.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Natural Gas,88257.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Nuclear,29387.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Hydro,11547.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Pumped Storage,6515.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Wind,959.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Solar,13292.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Oil,2987.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Battery Storage,411.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Other,2988.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,SERC-Central,Total,193726.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Coal,3717.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Natural Gas,55221.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Nuclear,3914.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Hydro,43.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Solar,10837.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Oil,2029.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Battery Storage,575.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Other,1411.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Florida,Total,77750.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Coal,37379.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Natural Gas,88638.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Nuclear,29387.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Hydro,11545.9,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Pumped Storage,6515.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Wind,959.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Solar,14969.6,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Oil,2450.1,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Battery Storage,611.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Other,2760.3,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,SERC-Central,Total,195217.3,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Coal,3717.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Natural Gas,55223.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Nuclear,3914.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Hydro,43.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Pumped Storage,0.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Wind,0.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Solar,12180.6,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Oil,1962.6,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Battery Storage,1182.2,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Other,1402.8,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Florida,Total,79626.1,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2026,SERC-Central,Coal,37379.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Natural Gas,88638.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Hydro,11545.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Wind,959.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Solar,16863.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Oil,2449.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Battery Storage,1557.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,SERC-Central,Total,198050.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Coal,3717.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Natural Gas,55835.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Solar,13665.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Oil,1792.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Battery Storage,1252.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Other,1401.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2026,Florida,Total,81621.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Coal,35183.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Natural Gas,93576.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Hydro,11545.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Wind,959.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Solar,20644.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Oil,2563.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Battery Storage,2406.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,SERC-Central,Total,205537.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Coal,3717.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Natural Gas,55835.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Solar,14858.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Oil,1792.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Battery Storage,1372.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Other,1418.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2027,Florida,Total,82951.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Coal,33534.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Natural Gas,93052.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Wind,959.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Solar,21972.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Oil,2563.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Battery Storage,2512.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,SERC-Central,Total,204832.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Coal,3717.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Natural Gas,55835.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Solar,14858.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Oil,1792.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Other,1418.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2028,Florida,Total,83026.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Coal,33534.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Natural Gas,95333.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Solar,25221.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Oil,2563.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Battery Storage,3394.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,SERC-Central,Total,211492.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Coal,3717.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Natural Gas,55835.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Solar,14933.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Oil,1792.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Other,1379.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2029,Florida,Total,83062.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Coal,32258.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Natural Gas,95333.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Solar,25561.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Oil,2563.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Battery Storage,3394.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,SERC-Central,Total,210556.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Coal,3717.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Natural Gas,55835.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Solar,14933.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Oil,1792.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Other,1379.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2030,Florida,Total,83062.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Coal,30240.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Natural Gas,94670.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Solar,25561.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Oil,2563.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Battery Storage,3394.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,SERC-Central,Total,207874.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Coal,3717.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Natural Gas,55785.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Solar,14933.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Oil,1792.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Other,1379.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2031,Florida,Total,83013.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Coal,30240.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Natural Gas,94670.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Solar,25561.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Oil,2563.1,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Battery Storage,3394.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,SERC-Central,Total,207874.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Coal,3717.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Natural Gas,55710.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Solar,14933.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Oil,1792.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Other,1379.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2032,Florida,Total,82938.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Coal,28129.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Natural Gas,93959.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Solar,25561.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Oil,2333.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Battery Storage,3394.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,SERC-Central,Total,204823.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Coal,3717.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Natural Gas,55710.8,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Solar,14933.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Oil,1792.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Other,1379.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2033,Florida,Total,82938.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Coal,26229.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Natural Gas,94737.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Solar,25561.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Oil,2333.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Battery Storage,3394.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,SERC-Central,Total,203701.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Coal,2238.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Natural Gas,55600.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Solar,14933.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Oil,1177.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Other,1379.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2034,Florida,Total,80733.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Coal,26229.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Natural Gas,94737.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Solar,25561.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Oil,2333.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Battery Storage,3394.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,SERC-Central,Total,203701.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Coal,2238.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Natural Gas,55600.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Solar,14933.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Oil,1177.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Other,1379.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2035,Florida,Total,80733.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Coal,26229.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Natural Gas,94737.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Nuclear,29387.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Hydro,11580.9,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Pumped Storage,6515.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Wind,1206.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Solar,25561.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Oil,2333.7,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Battery Storage,3394.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Other,2755.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,SERC-Central,Total,203701.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Coal,2238.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Natural Gas,55349.3,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Nuclear,3914.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Hydro,43.5,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Wind,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Solar,14933.4,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Oil,1177.6,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Battery Storage,1447.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Other,1379.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
+2036,Florida,Total,80483.2,forward,False,"EIA-860M Dec-31-2025 anchor + EIA-860M changelog (effective dates, nameplate MW)"
