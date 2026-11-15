@@ -1,0 +1,172 @@
+{
+  "version": "v2",
+  "built": "2026-11-15",
+  "anchor_unchanged_mw": 94392.9,
+  "anchor_source": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; CAISO publishes installed capacity on an NQC/RA basis, which is not nameplate, so published figures are cross-checks only.",
+  "v1_forward_2026_2036": {
+    "additions_mw": 31776.7,
+    "additions_count": 287,
+    "retirements_mw": 3044.0,
+    "retirements_count": 23,
+    "net_mw": 28732.7,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 0.9,
+      "Nuclear": 0.0,
+      "Hydro": 8.1,
+      "Pumped Storage": 600.0,
+      "Wind": 7545.0,
+      "Solar": 10737.7,
+      "Oil": 0.0,
+      "Battery Storage": 12366.0,
+      "Other": 519.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 2952.1,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 87.0,
+      "Solar": 0.0,
+      "Oil": 2.0,
+      "Battery Storage": 0.0,
+      "Other": 2.9
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 31776.7,
+    "additions_count": 287,
+    "retirements_mw": 5367.0,
+    "retirements_count": 25,
+    "net_mw": 26409.7,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 0.9,
+      "Nuclear": 0.0,
+      "Hydro": 8.1,
+      "Pumped Storage": 600.0,
+      "Wind": 7545.0,
+      "Solar": 10737.7,
+      "Oil": 0.0,
+      "Battery Storage": 12366.0,
+      "Other": 519.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 2952.1,
+      "Nuclear": 2323.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 87.0,
+      "Solar": 0.0,
+      "Oil": 2.0,
+      "Battery Storage": 0.0,
+      "Other": 2.9
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": 0.0,
+    "retirements": 2323.0,
+    "net": -2323.0,
+    "by_fuel_net_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 0.0,
+      "Nuclear": -2323.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 68748.8,
+      "2017": 68025.7,
+      "2018": 67437.6,
+      "2019": 66884.5,
+      "2020": 69516.1,
+      "2021": 72696.9,
+      "2022": 77428.8,
+      "2023": 82258.9,
+      "2024": 88461.2,
+      "2025": 94392.9,
+      "2026": 103683.7,
+      "2027": 110936.6,
+      "2028": 117104.7,
+      "2029": 118254.7,
+      "2030": 119449.6,
+      "2031": 121268.9,
+      "2032": 122572.1,
+      "2033": 123125.6,
+      "2034": 123125.6,
+      "2035": 123125.6,
+      "2036": 123125.6
+    },
+    "v2": {
+      "2016": 68748.8,
+      "2017": 68025.7,
+      "2018": 67437.6,
+      "2019": 66884.5,
+      "2020": 69516.1,
+      "2021": 72696.9,
+      "2022": 77428.8,
+      "2023": 82258.9,
+      "2024": 88461.2,
+      "2025": 94392.9,
+      "2026": 102071.7,
+      "2027": 110936.6,
+      "2028": 117104.7,
+      "2029": 117095.7,
+      "2030": 117126.6,
+      "2031": 118945.9,
+      "2032": 120249.1,
+      "2033": 120802.6,
+      "2034": 120802.6,
+      "2035": 120802.6,
+      "2036": 120802.6
+    }
+  },
+  "manual_adjustments_count": 4,
+  "named_adjustments_count": 3,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Ormond Beach retime 2027->2026",
+      "change": "retime",
+      "mw": 1612.0
+    },
+    {
+      "plant": "Diablo Canyon Unit 2 retirement (added)",
+      "change": "add retirement",
+      "mw": 1164.0
+    },
+    {
+      "plant": "Diablo Canyon Unit 1 retirement (added)",
+      "change": "add retirement",
+      "mw": 1159.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "Diablo Canyon operation to 2044/2045 under NRC renewed licences (requires new state legislation; 2045 coalition campaigning, no bill enacted)": 2323.0,
+    "Eagle Mountain Pumped Storage, CA (1,300 MW, FERC-licensed, pre-construction; construction deadline stayed to Jun 2028 start / Jun 2031 completion; CAISO queue withdrawn; no COD or financing)": 1300.0,
+    "Chokecherry and Sierra Madre Wind, WY (3,550.5 MW in EIA at Dec 2031-Dec 2033; Global Energy Monitor phases suggest 2029-2031, ~2 years earlier; TransWest Express energisation late 2029; dates kept at EIA, timing risk flagged)": 3550.5,
+    "SunZia Wind, NM (EIA codes full 3,650.2 MW to CISO; CAISO 2026 Summer Assessment counts CAISO's share as 3,167 MW \u2014 483.2 MW attribution difference, kept at EIA BA basis)": 483.2,
+    "Whale Rock Pumped Storage, CA (600 MW in EIA Planned at Dec 2027, status P \u2014 regulatory approvals not initiated; paper project, kept with flag)": 600.0
+  },
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "caiso_capacity_plants_v2.csv",
+    "stack_v2": "caiso_capacity_stack_v2.csv",
+    "changelog_v2": "caiso_capacity_changelog_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png"
+    ]
+  }
+}

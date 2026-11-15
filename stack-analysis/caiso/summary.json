@@ -1,0 +1,196 @@
+{
+  "version": "v1",
+  "built": "2026-11-15",
+  "anchor": {
+    "basis": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; CAISO publishes installed capacity on an NQC/RA basis, which is not nameplate, so published figures are cross-checks only.",
+    "total_mw": 94392.9,
+    "by_fuel_mw": {
+      "Coal": 62.5,
+      "Natural Gas": 32259.1,
+      "Nuclear": 2323.0,
+      "Hydro": 6740.3,
+      "Pumped Storage": 2077.6,
+      "Wind": 6343.8,
+      "Solar": 24959.4,
+      "Oil": 439.3,
+      "Battery Storage": 15777.3,
+      "Other": 3410.6
+    },
+    "capacity_definition": "Nameplate MW, all statuses (OP/SB/OA/OS).",
+    "cross_checks": {
+      "caiso_2026_summer_assessment_modelled_mw": 84153,
+      "caiso_2026_summer_assessment_note": "CAISO 2026 Summer Loads and Resources Assessment: total modelled capacity 84,153 MW as of Sep 2026, on an RA-eligible / Net Qualifying Capacity basis (existing resources from the Feb 12, 2026 NQC list plus expected additions). NQC derates wind and solar heavily and excludes non-RA resources including the Strategic Reliability Reserve OTC units, so it runs ~10 GW below the EIA nameplate anchor. Definitional gap, not an error in either figure.",
+      "eia_operating_sep2026_nameplate_mw": 100741.2,
+      "eia_operating_sep2026_netsummer_mw": 96661.4
+    }
+  },
+  "trailing": {
+    "basis": "Reconstructed Dec-31 snapshots from EIA unit-level data (Operating Year / Retirement Year). Estimated; not a CAISO publication.",
+    "yearly_totals_mw": {
+      "2016": 68748.8,
+      "2017": 68025.7,
+      "2018": 67437.6,
+      "2019": 66884.5,
+      "2020": 69516.1,
+      "2021": 72696.9,
+      "2022": 77428.8,
+      "2023": 82258.9,
+      "2024": 88461.2,
+      "2025": 94392.9
+    }
+  },
+  "forward_2026_2036": {
+    "additions_mw": 31776.7,
+    "additions_count": 287,
+    "retirements_mw": 3044.0,
+    "retirements_count": 23,
+    "net_mw": 28732.7,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 0.9,
+      "Nuclear": 0.0,
+      "Hydro": 8.1,
+      "Pumped Storage": 600.0,
+      "Wind": 7545.0,
+      "Solar": 10737.7,
+      "Oil": 0.0,
+      "Battery Storage": 12366.0,
+      "Other": 519.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 2952.1,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 87.0,
+      "Solar": 0.0,
+      "Oil": 2.0,
+      "Battery Storage": 0.0,
+      "Other": 2.9
+    }
+  },
+  "yearly_totals_mw": {
+    "2016": 68748.8,
+    "2017": 68025.7,
+    "2018": 67437.6,
+    "2019": 66884.5,
+    "2020": 69516.1,
+    "2021": 72696.9,
+    "2022": 77428.8,
+    "2023": 82258.9,
+    "2024": 88461.2,
+    "2025": 94392.9,
+    "2026": 103683.7,
+    "2027": 110936.6,
+    "2028": 117104.7,
+    "2029": 118254.7,
+    "2030": 119449.6,
+    "2031": 121268.9,
+    "2032": 122572.1,
+    "2033": 123125.6,
+    "2034": 123125.6,
+    "2035": 123125.6,
+    "2036": 123125.6
+  },
+  "diagnostics": {
+    "eia_operating_ciso_units": 2867,
+    "eia_operating_ciso_nameplate_mw": 100741.2,
+    "eia_operating_ciso_netsummer_mw": 96661.4,
+    "eia_operating_ciso_op_only_nameplate_mw": 98910.1,
+    "eia_operating_ciso_op_only_netsummer_mw": 95031.7,
+    "eia_operating_ciso_nonop_nameplate_mw": 1831.1,
+    "eia_operating_ciso_by_fuel_nameplate": {
+      "Battery Storage": 17265.5,
+      "Coal": 62.5,
+      "Hydro": 6740.3,
+      "Natural Gas": 32259.1,
+      "Nuclear": 2323.0,
+      "Oil": 439.3,
+      "Other": 3412.6,
+      "Pumped Storage": 2077.6,
+      "Solar": 26034.5,
+      "Wind": 10126.8
+    },
+    "eia_operating_ciso_by_fuel_netsummer": {
+      "Battery Storage": 17190.4,
+      "Coal": 57.0,
+      "Hydro": 6829.9,
+      "Natural Gas": 29395.3,
+      "Nuclear": 2240.0,
+      "Oil": 386.8,
+      "Other": 2368.1,
+      "Pumped Storage": 2246.9,
+      "Solar": 25852.2,
+      "Wind": 10094.8
+    },
+    "ca_state_not_ciso_mw": 17668.3,
+    "ca_state_not_ciso_units": 442,
+    "ca_state_not_ciso_by_ba_mw": {
+      "BANC": 5719.2,
+      "IID": 2324.0,
+      "LDWP": 8639.9,
+      "NEVP": 18.6,
+      "PACW": 31.2,
+      "TIDC": 807.5,
+      "WALC": 127.9
+    },
+    "ciso_by_state_mw": {
+      "AZ": 3004.2,
+      "CA": 92328.4,
+      "CT": 2.0,
+      "NM": 3650.2,
+      "NV": 1756.4
+    },
+    "anchor_less_in_service_2026_mw": 6348.3,
+    "anchor_less_in_service_2026_units": 79,
+    "anchor_less_in_service_2026_by_fuel": {
+      "Battery Storage": 1488.2,
+      "Other": 2.0,
+      "Solar": 1075.1,
+      "Wind": 3783.0
+    },
+    "anchor_plus_retired_2026_mw": 0.0,
+    "anchor_plus_retired_2026_units": 0,
+    "anchor_plus_retired_2026_by_fuel": {},
+    "anchor_total_mw": 94392.9,
+    "anchor_by_fuel_mw": {
+      "Coal": 62.5,
+      "Natural Gas": 32259.1,
+      "Nuclear": 2323.0,
+      "Hydro": 6740.3,
+      "Pumped Storage": 2077.6,
+      "Wind": 6343.8,
+      "Solar": 24959.4,
+      "Oil": 439.3,
+      "Battery Storage": 15777.3,
+      "Other": 3410.6
+    },
+    "eia_planned_ciso_units": 208,
+    "eia_planned_ciso_nameplate_mw": 25428.4,
+    "eia_planned_ciso_by_status_mw": {
+      "(L) Regulatory approvals pending. Not under construction": 3263.5,
+      "(P) Planned for installation, but regulatory approvals not initiated": 6188.3,
+      "(T) Regulatory approvals received. Not under construction": 3991.5,
+      "(TS) Construction complete, but not yet in commercial operation": 2359.3,
+      "(U) Under construction, less than or equal to 50 percent complete": 5167.2,
+      "(V) Under construction, more than 50 percent complete": 4458.6
+    },
+    "eia_planned_under_construction_mw": 11985.1,
+    "eia_planned_max_operation_year": 2033,
+    "overlap_operating2026_vs_planned2026_units": 0,
+    "overlap_retired2026_vs_plannedret2026_units": 0,
+    "planned_total_mw_2026_2036": 31776.7,
+    "retirements_2026_actual_mw": 0.0
+  },
+  "files": {
+    "plants": "caiso_capacity_plants.csv",
+    "stack": "caiso_capacity_stack.csv",
+    "changelog": "caiso_capacity_changelog.csv",
+    "summary": "summary.json",
+    "charts": [
+      "01_stacked_area.png",
+      "02_net_change_forward.png"
+    ]
+  }
+}
