@@ -44,10 +44,14 @@
   <section id="sec-price" hidden><h2>Henry Hub spot price ($/MMBtu)</h2><div class="chart" id="chart-price"></div></section>
   <section id="sec-global" hidden><h2>Global gas prices — front month ($/MMBtu)</h2><p>CME daily settlements: Dutch TTF (EUR/MWh contract, converted at the ECB EUR/USD reference rate) and LNG Japan/Korea Marker (JKM). These CME contracts are financially settled proxies referencing ICE TTF and the Platts JKM assessment; CME volume is thin (JKM and the USD TTF contract settle on assessment, with zero traded volume), so treat the levels as benchmark marks, not traded prices. The dashed TFU line is CME's USD-denominated TTF contract, captured as a cross-check on the conversion. Series begin 12 Nov 2026 — the CME feed retains only ~5 business days, so history accrues from daily capture and cannot be backfilled.</p><div class="chart" id="chart-global"></div><div class="chart" id="chart-spreads"></div></section>
   <section id="sec-jodi" hidden><h2>Global gas balance — JODI (Bcf/d, monthly)</h2><p>Production by region (stacked) against global deliveries. Source: JODI Gas World Database — self-reported national statistics, ~2-month lag, revised monthly (vintage <span id="jodi-vintage"></span>). Saudi Arabia, Turkmenistan and Uzbekistan do not report; recent months are partial and fill in over time (reporter count in the second chart's hover). The balancing item — implied minus reported stock change — is shown per region, never plugged.</p><div class="chart" id="chart-jodi-prod"></div><div class="chart" id="chart-jodi-bal"></div></section>
+  <section id="sec-europe" hidden><h2>Europe — storage, LNG and pipeline inflows</h2><p>EU gas storage and LNG terminal send-out (daily, GIE AGSI+ / ALSI — data: GIE, gie.eu) and pipeline inflows into the EU27 by corridor (daily, ENTSOG Transparency Platform; point-to-border mapping after the JRC eurogastp topology, so flows reported by both border TSOs are counted once). GB is not covered: AGSI+ excludes GB storage and the Norway–UK line is outside this border scope. Flows in Bcf/d (ENTSOG energy values at 1,036 Btu/cf).</p><div class="chart" id="chart-eu-storage"></div><div class="chart" id="chart-eu-lng"></div><div class="chart" id="chart-eu-inflows"></div></section>
+  <section id="sec-doe" hidden><h2>US LNG exports by destination — DOE cargoes (Bcf/month)</h2><p>Every US LNG cargo reported to the Department of Energy (authorization-holder filings), exports only, destination as reported at departure — diversions after departure are not captured. Monthly totals reconcile with EIA's LNG export series (mean difference 0.5%).</p><div class="chart" id="chart-doe"></div></section>
+  <section id="sec-japan" hidden><h2>Japan LNG imports by origin (Mt/month)</h2><p>Ministry of Finance trade statistics via UN Comtrade (HS 271111). METI's weekly power-utility LNG stocks have no machine-readable source and are not shown.</p><div class="chart" id="chart-japan"></div></section>
+  <section id="sec-hormuz" hidden><h2>Strait of Hormuz — LNG carrier transits (per month)</h2><p>History is a labelled model, not a measurement: pre-crisis months are anchored to EIA H1 2025 Qatar+UAE LNG exports (11.4 Bcf/d, ±25% band); months with no published estimate are left blank, never interpolated. The model runs 15–23% below JODI Qatar+UAE LNG exports for Nov 2025–Feb 2026 — inside its band, but one-sided. Measured crossings from the Hormuz AIS collector (live from 15 Nov 2026) appear as they accrue; direction is observed, load status is not.</p><div class="chart" id="chart-hormuz"></div></section>
   <section id="sec-rigs" hidden><h2>Rig count by basin (Baker Hughes, weekly)</h2><div class="chart" id="chart-rigs"></div></section>
   <section id="sec-table" hidden><h2>Balance detail — latest 24 months (Bcf/d)</h2><div id="balance-table"></div></section>
 </main>
-<footer>Data: EIA (api.eia.gov, ir.eia.gov weekly storage), Baker Hughes rig report, CME Group settlements (TTF/JKM), European Central Bank reference rates, JODI Gas World Database (jodidata.org). Built by the Gas Fundies pipeline in khriss-analytics. Not investment advice.</footer>
+<footer>Data: EIA (api.eia.gov, ir.eia.gov weekly storage), Baker Hughes rig report, CME Group settlements (TTF/JKM), European Central Bank reference rates, JODI Gas World Database (jodidata.org), GIE AGSI+ and ALSI (gie.eu — attribution per GIE terms), ENTSOG Transparency Platform (transparency.entsog.eu) with JRC eurogastp topology mapping, U.S. Department of Energy LNG cargo reports, Japan Ministry of Finance trade statistics via UN Comtrade, Hormuz tracker (AIS, modelled history as labelled). Built by the Gas Fundies pipeline in khriss-analytics. Not investment advice.</footer>
 <script>
 const LAYOUT = { paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)',
   font:{color:'#e6edf3'}, margin:{t:24,r:16,b:36,l:52},
@@ -99,6 +103,11 @@ fetch('data.json').then(r => {
     ['JKM front (CME)', s.jkm_front_usd_mmbtu, '$/MMBtu', s.global_price_date || ''],
     ['Global production (JODI)', s.global_production_bcfd, 'Bcf/d', s.jodi_month || ''],
     ['Global deliveries (JODI)', s.global_deliveries_bcfd, 'Bcf/d', s.jodi_month || ''],
+    ['EU storage (GIE)', s.eu_storage_full_pct, '% full', (s.eu_storage_twh ? s.eu_storage_twh + ' TWh · ' : '') + (s.eu_storage_date || '')],
+    ['EU LNG send-out (GIE)', s.eu_lng_sendout_bcfd, 'Bcf/d', s.eu_lng_date || ''],
+    ['Norway → EU (30d avg)', s.norway_inflow_bcfd_30d, 'Bcf/d', 'ENTSOG'],
+    ['Japan LNG imports', s.japan_imports_mt, 'Mt', (s.japan_month || '') + ' · Qatar ' + (s.japan_qatar_kt ?? '—') + ' kt'],
+    ['Hormuz LNG exits (model)', s.hormuz_loaded_exits, 'cargoes', (s.hormuz_month || '') + ' · ' + (s.hormuz_basis || '')],
     ['US rigs', s.rigs_total_us, '', s.rigs_week || ''],
   ].filter(k => k[1] !== undefined && k[1] !== null);
   document.getElementById('kpis').innerHTML = kpis.map(k =>
@@ -180,6 +189,67 @@ fetch('data.json').then(r => {
     Plotly.newPlot('chart-jodi-bal',
       lineTraces(j.dates, j.balancing_by_region, Object.keys(j.balancing_by_region)),
       layout3y(j.dates), CFG);
+  }
+  if (d.europe) {
+    show('sec-europe');
+    const e = d.europe;
+    if (e.storage) {
+      Plotly.newPlot('chart-eu-storage', [
+        { x:e.storage.dates, y:e.storage.twh, name:'EU storage (TWh)',
+          type:'scatter', mode:'lines', line:{color:'#58a6ff'} },
+        { x:e.storage.dates, y:e.storage.full_pct, name:'% full',
+          type:'scatter', mode:'lines', yaxis:'y2', line:{color:'#f0883e'} },
+      ], {...layout3y(e.storage.dates),
+          yaxis2:{overlaying:'y', side:'right', gridcolor:'rgba(0,0,0,0)'}}, CFG);
+    }
+    if (e.lng) {
+      Plotly.newPlot('chart-eu-lng', [
+        { x:e.lng.dates, y:e.lng.sendout_bcfd, name:'EU LNG send-out (Bcf/d)',
+          type:'scatter', mode:'lines', line:{color:'#bc8cff'} },
+        { x:e.lng.dates, y:e.lng.inventory_twh, name:'LNG inventory (TWh)',
+          type:'scatter', mode:'lines', yaxis:'y2', line:{color:'#8b949e'} },
+      ], {...layout3y(e.lng.dates),
+          yaxis2:{overlaying:'y', side:'right', gridcolor:'rgba(0,0,0,0)'}}, CFG);
+    }
+    if (e.inflows) {
+      Plotly.newPlot('chart-eu-inflows',
+        stackTraces(e.inflows.dates, e.inflows.series, Object.keys(e.inflows.series)),
+        layout3y(e.inflows.dates), CFG);
+    }
+  }
+  if (d.doe) {
+    show('sec-doe');
+    Plotly.newPlot('chart-doe',
+      Object.keys(d.doe.series).map(n => ({
+        x:d.doe.dates, y:d.doe.series[n], name:n, type:'bar', stackgroup:'one' })),
+      layout3y(d.doe.dates), CFG);
+  }
+  if (d.japan) {
+    show('sec-japan');
+    Plotly.newPlot('chart-japan', [
+      ...Object.keys(d.japan.series).map(n => ({
+        x:d.japan.dates, y:d.japan.series[n], name:n, type:'bar', stackgroup:'one' })),
+      { x:d.japan.dates, y:d.japan.total, name:'total',
+        type:'scatter', mode:'lines', line:{color:'#e6edf3', width:2} },
+    ], layout3y(d.japan.dates), CFG);
+  }
+  if (d.hormuz) {
+    show('sec-hormuz');
+    const h = d.hormuz;
+    const traces = [
+      ...(h.loaded_hi ? [{ x:h.months, y:h.loaded_hi, name:'band high',
+        type:'scatter', mode:'lines', line:{color:'rgba(88,166,255,0)'} }] : []),
+      ...(h.loaded_lo ? [{ x:h.months, y:h.loaded_lo, name:'±25% band',
+        type:'scatter', mode:'lines', fill:'tonexty',
+        fillcolor:'rgba(88,166,255,0.18)', line:{color:'rgba(88,166,255,0)'} }] : []),
+      { x:h.months, y:h.loaded_exits_est, name:'loaded exits (modelled)',
+        type:'bar', text:h.basis, hovertemplate:'%{x}: %{y} exits<br>basis: %{text}<extra></extra>',
+        marker:{color:'#58a6ff'} },
+      ...(h.measured ? [{ x:h.measured.months, y:h.measured.outbound,
+        name:'loaded exits (measured outbound)', type:'bar',
+        marker:{color:'#3fb950'} }] : []),
+    ];
+    Plotly.newPlot('chart-hormuz', traces, layout3y(h.months), CFG);
   }
   if (d.rigs) {
     show('sec-rigs');

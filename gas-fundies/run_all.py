@@ -8,7 +8,9 @@ crash — the dashboard still builds from whatever curated data exists.
 Usage:  python run_all.py [--only storage,rigs]
 Steps:  eia (monthly + price, needs key) -> storage (keyless)
         -> rigs (needs a Baker Hughes workbook in the raw drop folder)
-        -> fx (ECB reference rates, keyless)
+        -> fx (ECB reference rates, keyless) -> jodi (global balance)
+        -> doe (US LNG cargoes) -> gie (EU storage/LNG, needs key)
+        -> entsog (EU border flows)
         -> balance (needs eia + storage) -> dashboard
         (CME TTF/JKM settlements are captured separately through the
         browser — CME blocks scripted egress — and archived by
@@ -24,13 +26,19 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SRC = HERE / "src"
-STEPS = ["eia", "storage", "rigs", "fx", "jodi", "balance", "dashboard"]
+STEPS = ["eia", "storage", "rigs", "fx", "jodi", "doe", "gie", "entsog",
+         "japan", "hormuz", "balance", "dashboard"]
 SCRIPTS = {
     "eia": "pull_eia_monthly.py",
     "storage": "pull_storage_weekly.py",
     "rigs": "pull_rigs.py",
     "fx": "pull_ecb_fx.py",
     "jodi": "pull_jodi.py",
+    "doe": "pull_doe_lng.py",
+    "gie": "pull_gie.py",
+    "entsog": "pull_entsog.py",
+    "japan": "pull_japan_comtrade.py",
+    "hormuz": "pull_hormuz_feed.py",
     "balance": "build_balance.py",
     "dashboard": "build_dashboard_data.py",
 }
@@ -49,6 +57,11 @@ def run_step(name: str) -> tuple[str, str]:
         return "skipped", summary
     if name == "eia" and "EIAKeyMissing" in proc.stdout + proc.stderr:
         return "skipped", "no EIA credential available"
+    # Global-layer steps are auxiliary: their failure is reported as a
+    # warning but must not fail the run — the dashboard builds from
+    # whatever curated data exists.
+    if name in ("fx", "jodi", "doe", "gie", "entsog", "japan", "hormuz"):
+        return "warn", summary
     return "FAILED", summary
 
 

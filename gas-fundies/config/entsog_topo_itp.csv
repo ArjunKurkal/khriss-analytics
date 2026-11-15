@@ -1,0 +1,766 @@
+pointKey,pointLabel,operatorKey,operatorLabel,directionKey,edge_name,edge_display_name,from_node,to_node,flow
+ITP-00048,Almería,ES-TSO-0001,Medgaz,exit,AlmeriaDZES,Almería (DZ→ES),DZ,ES,av
+ITP-00048,Almería,ES-TSO-0006,Enagas,entry,AlmeriaDZES,Almería (DZ→ES),DZ,ES,av
+ITP-00557,Ananiiv (UA) (MD),UA-TSO-0001,Gas TSO UA,exit,AnaniivUAMD,Ananiiv (UA→MD),UA,MD,1
+ITP-00084,,RO-TSO-0001,Transgaz,exit,AuritROUA,VIP Mediesu Aurit / Isaccea (RO→UA),RO,UA,av
+ITP-00438,VIP Mediesu Aurit - Isaccea (RO-UA),RO-TSO-0001,Transgaz,exit,AuritROUA,VIP Mediesu Aurit / Isaccea (RO→UA),RO,UA,av
+ITP-00084,,RO-TSO-0001,Transgaz,entry,AuritUARO,VIP Mediesu Aurit / Isaccea (UA→RO),UA,RO,0
+ITP-00084,,UA-TSO-0001,Gas TSO UA,exit,AuritUARO,VIP Mediesu Aurit / Isaccea (UA→RO),UA,RO,0
+ITP-00167,,RO-TSO-0001,Transgaz,entry,AuritUARO,VIP Mediesu Aurit / Isaccea (UA→RO),UA,RO,0
+ITP-00167,,UA-TSO-0001,Gas TSO UA,exit,AuritUARO,VIP Mediesu Aurit / Isaccea (UA→RO),UA,RO,0
+ITP-00438,VIP Mediesu Aurit - Isaccea (RO-UA),RO-TSO-0001,Transgaz,entry,AuritUARO,VIP Mediesu Aurit / Isaccea (UA→RO),UA,RO,1
+ITP-00438,,UA-TSO-0001,Gas TSO UA,exit,AuritUARO,VIP Mediesu Aurit / Isaccea (UA→RO),UA,RO,0
+ITP-00207,Bacton (BBL),UK-TSO-0001,National Grid Gas,entry,BactonBBLUK,Bacton (NL/BBL→UK),BBL,UK,av
+ITP-00207,Bacton (BBL),UK-TSO-0004,BBL company,exit,BactonBBLUK,Bacton (NL/BBL→UK),BBL,UK,av
+ITP-00005,Bacton (IUK),UK-TSO-0003,Interconnector,exit,BactonIUKUK,Bacton (BE/IUK→UK),IUK,UK,1
+ITP-00207,Bacton (BBL),UK-TSO-0001,National Grid Gas,exit,BactonUKBBL,Bacton (UK→NL/BBL),UK,BBL,av
+ITP-00207,Bacton (BBL),UK-TSO-0004,BBL company,entry,BactonUKBBL,Bacton (UK→NL/BBL),UK,BBL,av
+ITP-00005,Bacton (IUK),UK-TSO-0001,National Grid Gas,exit,BactonUKIUK,Bacton / IUK (UK→BE/IUK),UK,IUK,av
+ITP-00005,Bacton (IUK),UK-TSO-0003,Interconnector,entry,BactonUKIUK,Bacton / IUK (UK→BE/IUK),UK,IUK,av
+ITP-00064,Badajoz (ES) / Campo Maior (PT),ES-TSO-0006,Enagas,exit,BadajozESPT,Badajoz / Campo Maior (ES→PT),ES,PT,av
+ITP-00064,Badajoz (ES) / Campo Maior (PT),PT-TSO-0001,REN - Gasodutos,entry,BadajozESPT,Badajoz / Campo Maior (ES→PT),ES,PT,av
+ITP-00286,VIP IBERICO,ES-TSO-0006,Enagas,exit,BadajozESPT,VIP IBERICO (ES→PT),ES,PT,av
+ITP-00286,VIP IBERICO,PT-TSO-0001,REN - Gasodutos,entry,BadajozESPT,VIP IBERICO (ES→PT),ES,PT,av
+ITP-00064,Badajoz (ES) / Campo Maior (PT),ES-TSO-0006,Enagas,entry,BadajozPTES,Badajoz / Campo Maior (PT→ES),PT,ES,av
+ITP-00064,Badajoz (ES) / Campo Maior (PT),PT-TSO-0001,REN - Gasodutos,exit,BadajozPTES,Badajoz / Campo Maior (PT→ES),PT,ES,av
+ITP-00286,VIP IBERICO,ES-TSO-0006,Enagas,entry,BadajozPTES,VIP IBERICO (PT→ES),PT,ES,av
+ITP-00286,VIP IBERICO,PT-TSO-0001,REN - Gasodutos,exit,BadajozPTES,VIP IBERICO (PT→ES),PT,ES,av
+ITP-00027,Balassagyarmat (HU) / Velké Zlievce (SK),HU-TSO-0001,FGSZ,exit,BalassaHUSK,Balassagyarmat / Velké Zlievce (HU→SK),HU,SK,av
+ITP-00027,Balassagyarmat (HU) / Velké Zlievce (SK),SK-TSO-0001,eustream,entry,BalassaHUSK,Balassagyarmat / Velké Zlievce (HU→SK),HU,SK,av
+ITP-00027,Balassagyarmat (HU) / Velké Zlievce (SK),HU-TSO-0001,FGSZ,entry,BalassaSKHU,Balassagyarmat / Velké Zlievce (SK→HU),SK,HU,av
+ITP-00027,Balassagyarmat (HU) / Velké Zlievce (SK),SK-TSO-0001,eustream,exit,BalassaSKHU,Balassagyarmat / Velké Zlievce (SK→HU),SK,HU,av
+ITP-00550,BALTICCONNECTOR,EE-TSO-0001,Elering,exit,BalticConEEFI,BALTICCONNECTOR (EE→FI),EE,FI,av
+ITP-00550,BALTICCONNECTOR,FI-TSO-0003,Gasgrid Finland,entry,BalticConEEFI,BALTICCONNECTOR (EE→FI),EE,FI,av
+ITP-00550,BALTICCONNECTOR,EE-TSO-0001,Elering,entry,BalticConFIEE,BALTICCONNECTOR (FI→EE),FI,EE,av
+ITP-00550,BALTICCONNECTOR,FI-TSO-0003,Gasgrid Finland,exit,BalticConFIEE,BALTICCONNECTOR (FI→EE),FI,EE,av
+ITP-00228,RC Basel,CH-DSO-0001,GVM ,exit,BaselCHDE,RC Basel (CH→DE),CH,DE,0
+ITP-00228,RC Basel,DE-TSO-0014,terranets bw,entry,BaselCHDE,RC Basel (CH→DE),CH,DE,1
+ITP-00228,RC Basel,CH-DSO-0001,GVM ,entry,BaselDECH,RC Basel (DE→CH),DE,CH,0
+ITP-00228,RC Basel,DE-TSO-0014,terranets bw,exit,BaselDECH,RC Basel (DE→CH),DE,CH,1
+ITP-00037,Baumgarten (TAG),AT-TSO-0003,TAG,exit,BaumgartenATSK,Baumgarten (AT→SK),AT,SK,sum
+ITP-00062,Baumgarten (Gas Connect Austria),AT-TSO-0001,Gas Connect Austria,exit,BaumgartenATSK,Baumgarten (AT→SK),AT,SK,sum
+ITP-00162,Baumgarten (WAG),AT-TSO-0001,Gas Connect Austria,exit,BaumgartenATSK,Baumgarten (AT→SK),AT,SK,sum
+ITP-00168,Baumgarten,SK-TSO-0001,eustream,entry,BaumgartenATSK,Baumgarten (AT→SK),AT,SK,0
+ITP-00255,Petrzalka,AT-TSO-0001,Gas Connect Austria,exit,BaumgartenATSK,Baumgarten (AT→SK),AT,SK,sum
+ITP-00037,Baumgarten (TAG),AT-TSO-0003,TAG,entry,BaumgartenSKAT,Baumgarten (SK→AT),SK,AT,sum
+ITP-00062,Baumgarten (Gas Connect Austria),AT-TSO-0001,Gas Connect Austria,entry,BaumgartenSKAT,Baumgarten (SK→AT),SK,AT,sum
+ITP-00162,Baumgarten (WAG),AT-TSO-0001,Gas Connect Austria,entry,BaumgartenSKAT,Baumgarten (SK→AT),SK,AT,sum
+ITP-00168,Baumgarten,SK-TSO-0001,eustream,exit,BaumgartenSKAT,Baumgarten (SK→AT),SK,AT,0
+ITP-00178,Belgorod,RU-TSO-0001,Gazprom,exit,BelgorodRUUA,Belgorod (RU→UA),RU,UA,0
+ITP-00178,Belgorod,UA-TSO-0001,Gas TSO UA,entry,BelgorodRUUA,Belgorod (RU→UA),RU,UA,1
+ITP-00095,Beregdaróc 1400 (HU) - Beregovo (UA) (UA>HU),HU-TSO-0001,FGSZ,entry,Bereg14UAHU,Beregdaróc 1400 / Beregovo (UA→HU),UA,HU,1
+ITP-00095,Beregdaróc 1400 (HU) - Beregovo (UA) (UA>HU),UA-TSO-0001,Gas TSO UA,exit,Bereg14UAHU,Beregdaróc 1400 / Beregovo (UA→HU),UA,HU,0
+ITP-00307,Beregdaróc 800 (HU) - Beregovo (UA) (HU>UA),HU-TSO-0001,FGSZ,exit,Bereg8HUUA,Beregdaróc 800 / Beregovo (HU→UA),HU,UA,av
+ITP-00307,Beregdaróc 800 (HU) - Beregovo (UA) (HU>UA),UA-TSO-0001,Gas TSO UA,entry,Bereg8HUUA,Beregdaróc 800 / Beregovo (HU→UA),HU,UA,av
+ITP-10006,VIP Bereg (HU) / VIP Bereg (UA),HU-TSO-0001,FGSZ,exit,BeregVIPHUUA,VIP Bereg (HU→UA),HU,UA,1
+ITP-10006,VIP Bereg (HU) / VIP Bereg (UA),UA-TSO-0001,Gas TSO UA,entry,BeregVIPHUUA,VIP Bereg (HU→UA),HU,UA,0
+ITP-10006,VIP Bereg (HU) / VIP Bereg (UA),HU-TSO-0001,FGSZ,entry,BeregVIPUAHU,VIP Bereg (UA→HU),UA,HU,av
+ITP-10006,VIP Bereg (HU) / VIP Bereg (UA),UA-TSO-0001,Gas TSO UA,exit,BeregVIPUAHU,VIP Bereg (UA→HU),UA,HU,av
+ITP-00278,Bizzarone,IT-TSO-0001,Snam Rete Gas,exit,BizzaroneITCH,Bizzarone (IT→CH),IT,CH,1
+ITP-00115,Blaregnies L (BE) / Taisnières B (FR),BE-TSO-0001,Fluxys Belgium,exit,BlaregniesLoBEFR,Blaregnies / Taisnières (L) (BE→FR),BEL,FRL,av
+ITP-00115,Blaregnies L (BE) / Taisnières B (FR),FR-TSO-0003,GRTgaz,entry,BlaregniesLoBEFR,Blaregnies / Taisnières (L) (BE→FR),BEL,FRL,av
+ITP-00115,Blaregnies L (BE) / Taisnières B (FR),BE-TSO-0001,Fluxys Belgium,entry,BlaregniesLoFRBE,Blaregnies / Taisnières (L) (FR→BE),FRL,BEL,av
+ITP-00115,Blaregnies L (BE) / Taisnières B (FR),FR-TSO-0003,GRTgaz,exit,BlaregniesLoFRBE,Blaregnies / Taisnières (L) (FR→BE),FRL,BEL,av
+ITP-00025,Bocholtz-Vetschau,DE-TSO-0002,Thyssengas,exit,BoVetschDENL,Bocholtz-Vetschau (DE→NL),DE,NL,av
+ITP-00025,Bocholtz-Vetschau,NL-TSO-0001,GTS,entry,BoVetschDENL,Bocholtz-Vetschau (DE→NL),DE,NL,av
+ITP-00025,Bocholtz-Vetschau,DE-TSO-0002,Thyssengas,entry,BoVetschNLDE,Bocholtz-Vetschau (NL→DE),NL,DE,av
+ITP-00025,Bocholtz-Vetschau,NL-TSO-0001,GTS,exit,BoVetschNLDE,Bocholtz-Vetschau (NL→DE),NL,DE,av
+ITP-00010,Brandov-OPAL (DE),CZ-TSO-0001,NET4GAS,exit,BrandovOpalCZDE,Brandov-OPAL (CZ→DE),CZ,DE,1
+ITP-00452,Brandov / OPAL,DE-TSO-0001,OPAL Gastransport,entry,BrandovOpalCZDE,Brandov-OPAL (CZ→DE),CZ,DE,0
+ITP-00452,Brandov / OPAL,DE-TSO-0016,OPAL Gastransport,entry,BrandovOpalCZDE,Brandov-OPAL (CZ→DE),CZ,DE,0
+ITP-00010,Brandov-OPAL (DE),CZ-TSO-0001,NET4GAS,entry,BrandovOpalDECZ,Brandov-OPAL (DE→CZ),DE,CZ,0
+ITP-00010,Brandov-OPAL (DE),DE-TSO-0016,OPAL Gastransport,exit,BrandovOpalDECZ,Brandov-OPAL (DE→CZ),DE,CZ,0
+ITP-00451,Brandov / LBTG (exempted transmission),DE-TSO-0020,LBTG,exit,BrandovOpalDECZ,Brandov-OPAL (DE→CZ),DE,CZ,0
+ITP-00452,Brandov / OPAL,DE-TSO-0001,GASCADE Gastransport,exit,BrandovOpalDECZ,Brandov-OPAL (DE→CZ),DE,CZ,av
+ITP-00452,Brandov / OPAL,DE-TSO-0016,OPAL Gastransport,exit,BrandovOpalDECZ,Brandov-OPAL (DE→CZ),DE,CZ,av
+ITP-00123,Brandov STEGAL (CZ) / Stegal (DE),CZ-TSO-0001,NET4GAS,exit,BrandovStegalCZDE,Brandov-STEGAL (CZ→DE),CZ,DE,av
+ITP-00123,Brandov STEGAL (CZ) / Stegal (DE),DE-TSO-0001,GASCADE Gastransport,entry,BrandovStegalCZDE,Brandov-STEGAL (CZ→DE),CZ,DE,av
+ITP-00123,Brandov STEGAL (CZ) / Stegal (DE),CZ-TSO-0001,NET4GAS,entry,BrandovStegalDECZ,Brandov-STEGAL (DE→CZ),DE,CZ,av
+ITP-00123,Brandov STEGAL (CZ) / Stegal (DE),DE-TSO-0001,GASCADE Gastransport,exit,BrandovStegalDECZ,Brandov-STEGAL (DE→CZ),DE,CZ,av
+ITP-00421,Budince,SK-TSO-0001,eustream,exit,BudinceSKUA,Budince (SK→UA),SK,UA,av
+ITP-00421,Budince,UA-TSO-0001,Gas TSO UA,entry,BudinceSKUA,Budince (SK→UA),SK,UA,av
+ITP-00421,Budince,SK-TSO-0001,eustream,entry,BudinceUASK,Budince (UA→SK),UA,SK,av
+ITP-00421,Budince,UA-TSO-0001,Gas TSO UA,exit,BudinceUASK,Budince (UA→SK),UA,SK,av
+ITP-00507,Bunde (DE) / Oude Statenzijl (H) (NL) (GTG Nord),DE-TSO-0006,Gastransport Nord,exit,BundeGTGHDENL,Bunde / Oude Statenzijl (H) (GTG Nord) (DE→NL),DE,NL,av
+ITP-00507,Bunde (DE) / Oude Statenzijl (H) (NL) (GTG Nord),NL-TSO-0001,GTS,entry,BundeGTGHDENL,Bunde / Oude Statenzijl (H) (GTG Nord) (DE→NL),DE,NL,av
+ITP-00507,Bunde (DE) / Oude Statenzijl (H) (NL) (GTG Nord),DE-TSO-0006,Gastransport Nord,entry,BundeGTGHNLDE,Bunde / Oude Statenzijl (H) (GTG Nord) (NL→DE),NL,DE,av
+ITP-00507,Bunde (DE) / Oude Statenzijl (H) (NL) (GTG Nord),NL-TSO-0001,GTS,exit,BundeGTGHNLDE,Bunde / Oude Statenzijl (H) (GTG Nord) (NL→DE),NL,DE,av
+ITP-00158,Cieszyn (PL) / Český Těšín (CZ),CZ-TSO-0001,NET4GAS,exit,CieszynCZPL,Cieszyn / Český Těšín (CZ→PL),CZ,PL,av
+ITP-00158,Cieszyn (PL) / Český Těšín (CZ),PL-TSO-0002,GAZ-SYSTEM,entry,CieszynCZPL,Cieszyn / Český Těšín (CZ→PL),CZ,PL,av
+ITP-00158,Cieszyn (PL) / Český Těšín (CZ),CZ-TSO-0001,NET4GAS,entry,CieszynPLCZ,Cieszyn / Český Těšín (PL→CZ),PL,CZ,av
+ITP-00158,Cieszyn (PL) / Český Těšín (CZ),PL-TSO-0002,GAZ-SYSTEM,exit,CieszynPLCZ,Cieszyn / Český Těšín (PL→CZ),PL,CZ,av
+ITP-00032,Csanadpalota,HU-TSO-0001,FGSZ,exit,CsanadHURO,Csanadpalota (HU→RO),HU,RO,av
+ITP-00032,Csanadpalota,RO-TSO-0001,Transgaz,entry,CsanadHURO,Csanadpalota (HU→RO),HU,RO,av
+ITP-00032,Csanadpalota,HU-TSO-0001,FGSZ,entry,CsanadROHU,Csanadpalota (RO→HU),RO,HU,av
+ITP-00032,Csanadpalota,RO-TSO-0001,Transgaz,exit,CsanadROHU,Csanadpalota (RO→HU),RO,HU,av
+ITP-00535,Deutschneudorf EUGAL Brandov,CZ-TSO-0001,NET4GAS,exit,DeutschEugalCZDE,Deutschneudorf EUGAL Brandov (CZ→DE),CZ,DE,1
+ITP-00535,Deutschneudorf EUGAL Brandov,DE-TSO-0005,Gasunie Deutschland,entry,DeutschEugalCZDE,Deutschneudorf EUGAL Brandov (CZ→DE),CZ,DE,0
+ITP-00535,Deutschneudorf EUGAL Brandov,DE-TSO-0018,Fluxys Deutschland,entry,DeutschEugalCZDE,Deutschneudorf EUGAL Brandov (CZ→DE),CZ,DE,0
+ITP-00535,Deutschneudorf EUGAL Brandov,CZ-TSO-0001,NET4GAS,entry,DeutschEugalDECZ,Deutschneudorf EUGAL Brandov (DE-CZ),DE,CZ,av
+ITP-00535,Deutschneudorf EUGAL Brandov,DE-TSO-0001,GASCADE Gastransport,exit,DeutschEugalDECZ,Deutschneudorf EUGAL Brandov (DE-CZ),DE,CZ,av
+ITP-00535,Deutschneudorf EUGAL Brandov,DE-TSO-0003,ONTRAS,exit,DeutschEugalDECZ,Deutschneudorf EUGAL Brandov (DE-CZ),DE,CZ,av
+ITP-00535,Deutschneudorf EUGAL Brandov,DE-TSO-0005,Gasunie Deutschland,exit,DeutschEugalDECZ,Deutschneudorf EUGAL Brandov (DE-CZ),DE,CZ,av
+ITP-00535,Deutschneudorf EUGAL Brandov,DE-TSO-0018,Fluxys Deutschland,exit,DeutschEugalDECZ,Deutschneudorf EUGAL Brandov (DE-CZ),DE,CZ,0
+ITP-00126,Dornum / NETRA (OGE),DE-TSO-0009,Open Grid Europe,exit,DornumDENO,Dornum / NETRA (DE→NO),DE,NO,av
+ITP-00188,Dornum / NETRA (GUD),DE-TSO-0005,Gasunie Deutschland,exit,DornumDENO,Dornum / NETRA (DE→NO),DE,NO,av
+ITP-00208,,NO-TSO-0001,Gassco,entry,DornumDENO,Dornum / NETRA (DE→NO),DE,NO,av
+ITP-00211,Dornum / NETRA (jordgas Transport),DE-TSO-0013,jordgas Transport,exit,DornumDENO,Dornum / NETRA (DE→NO),DE,NO,av
+ITP-00525,Dornum GASPOOL,DE-TSO-0009,Open Grid Europe,exit,DornumDENO,Dornum / NETRA (DE→NO),DE,NO,av
+ITP-00126,Dornum / NETRA (OGE),DE-TSO-0009,Open Grid Europe,entry,DornumNODE,Dornum / NETRA (NO→DE),NO,DE,av
+ITP-00188,Dornum / NETRA (GUD),DE-TSO-0005,Gasunie Deutschland,entry,DornumNODE,Dornum / NETRA (NO→DE),NO,DE,av
+ITP-00208,,NO-TSO-0001,Gassco,exit,DornumNODE,Dornum / NETRA (NO→DE),NO,DE,av
+ITP-00211,Dornum / NETRA (jordgas Transport),DE-TSO-0013,jordgas Transport,entry,DornumNODE,Dornum / NETRA (NO→DE),NO,DE,av
+ITP-00525,Dornum GASPOOL,DE-TSO-0009,Open Grid Europe,entry,DornumNODE,Dornum / NETRA (NO→DE),NO,DE,av
+ITP-00044,Dragør,DK-TSO-0001,Energinet,exit,DragorDKSE,Dragør (DK→SE),DK,SE,av
+ITP-00044,Dragør,SE-TSO-0001,Swedegas AB,entry,DragorDKSE,Dragør (DK→SE),DK,SE,av
+ITP-00044,Dragør,DK-TSO-0001,Energinet,entry,DragorSEDK,Dragør (SE→DK),SE,DK,av
+ITP-00044,Dragør,SE-TSO-0001,Swedegas AB,exit,DragorSEDK,Dragør (SE→DK),SE,DK,av
+ITP-00011,Dravaszerdahely,HR-TSO-0001,Plinacro Ltd,exit,DravasHRHU,Dravaszerdahely (HR→HU),HR,HU,av
+ITP-00011,Dravaszerdahely,HU-TSO-0001,FGSZ,entry,DravasHRHU,Dravaszerdahely (HR→HU),HR,HU,av
+ITP-00011,Dravaszerdahely,HR-TSO-0001,Plinacro Ltd,entry,DravasHUHR,Dravaszerdahely (HU→HR),HU,HR,av
+ITP-00011,Dravaszerdahely,HU-TSO-0001,FGSZ,exit,DravasHUHR,Dravaszerdahely (HU→HR),HU,HR,av
+ITP-00280,GCP GAZ-SYSTEM/UA TSO,UA-TSO-0001,Gas TSO UA,entry,DrozdowPLUA,Drozdovichi (PL→UA),PL,UA,av
+ITP-10008,GCP GAZ-SYSTEM/UA TSO,PL-TSO-0002,GAZ-SYSTEM,exit,DrozdowPLUA,Drozdovichi (PL→UA),PL,UA,av
+ITP-10008,GCP GAZ-SYSTEM/UA TSO,UA-TSO-0001,Gas TSO UA,entry,DrozdowPLUA,Drozdovichi (PL→UA),PL,UA,av
+ITP-00089,GCP GAZ-SYSTEM/UA TSO,UA-TSO-0001,Gas TSO UA,exit,DrozdowUAPL,Drozdovichi (UA→PL),UA,PL,av
+ITP-10008,GCP GAZ-SYSTEM/UA TSO,PL-TSO-0002,GAZ-SYSTEM,entry,DrozdowUAPL,Drozdovichi (UA→PL),UA,PL,av
+ITP-10008,GCP GAZ-SYSTEM/UA TSO,UA-TSO-0001,Gas TSO UA,exit,DrozdowUAPL,Drozdovichi (UA→PL),UA,PL,av
+ITP-00045,Dunkerque,FR-TSO-0003,GRTgaz,entry,DunkerqueNOFR,Dunkerque (NO→FR),NO,FR,av
+ITP-00045,Dunkerque,NO-TSO-0001,Gassco,exit,DunkerqueNOFR,Dunkerque (NO→FR),NO,FR,av
+ITP-00091,Easington,NO-TSO-0001,Gassco,exit,EasingtonNOUK,Easington (NO→UK),NO,UK,av
+ITP-00091,Easington,UK-TSO-0001,National Grid Gas,entry,EasingtonNOUK,Easington (NO→UK),NO,UK,av
+ITP-00031,Ellund (OGE),DE-TSO-0009,Open Grid Europe,exit,EllundDEDK,Ellund (DE→DK),DE,DK,max
+ITP-00109,Ellund (GUD),DE-TSO-0005,Gasunie Deutschland,exit,EllundDEDK,Ellund (DE→DK),DE,DK,max
+ITP-00135,Ellund,DK-TSO-0001,Energinet,entry,EllundDEDK,Ellund (DE→DK),DE,DK,0
+ITP-10011,VIP DK-THE,DE-TSO-0005,Gasunie Deutschland,exit,EllundDEDK,Ellund (DE→DK),DE,DK,max
+ITP-10011,VIP DK-THE,DK-TSO-0001,Energinet,entry,EllundDEDK,Ellund (DE→DK),DE,DK,max
+ITP-00031,Ellund (OGE),DE-TSO-0009,Open Grid Europe,entry,EllundDKDE,Ellund (DK→DE),DK,DE,max
+ITP-00109,Ellund (GUD),DE-TSO-0005,Gasunie Deutschland,entry,EllundDKDE,Ellund (DK→DE),DK,DE,max
+ITP-00135,Ellund,DK-TSO-0001,Energinet,exit,EllundDKDE,Ellund (DK→DE),DK,DE,0
+ITP-10011,VIP DK-THE,DE-TSO-0005,Gasunie Deutschland,entry,EllundDKDE,Ellund (DK→DE),DK,DE,max
+ITP-10011,VIP DK-THE,DK-TSO-0001,Energinet,exit,EllundDKDE,Ellund (DK→DE),DK,DE,max
+ITP-00081,Emden (EPT1) (GUD),DE-TSO-0005,Gasunie Deutschland,exit,EmdenEPT1DENO,Emden (EPT1) (DE→NO),DE,NO,av
+ITP-00105,Emden (EPT1) (Thyssengas),DE-TSO-0002,Thyssengas,exit,EmdenEPT1DENO,Emden (EPT1) (DE→NO),DE,NO,0
+ITP-00080,Emden (EPT1) (OGE),DE-TSO-0009,Open Grid Europe,exit,EmdenEPT1DENO,Emden (EPT1) (DE→NO),DE,NO,av
+ITP-00160,Emden (EPT1) (GTS),NL-TSO-0001,GTS,exit,EmdenEPT1NLNO,Emden (EPT1) (NL→NO),NL,NO,1
+ITP-00081,Emden (EPT1) (GUD),DE-TSO-0005,Gasunie Deutschland,entry,EmdenEPT1NODE,Emden (EPT1) (NO→DE),NO,DE,sum
+ITP-00105,Emden (EPT1) (Thyssengas),DE-TSO-0002,Thyssengas,entry,EmdenEPT1NODE,Emden (EPT1) (NO→DE),NO,DE,0
+ITP-00080,Emden (EPT1) (OGE),DE-TSO-0009,Open Grid Europe,entry,EmdenEPT1NODE,Emden (EPT1) (NO→DE),NO,DE,sum
+ITP-00160,Emden (EPT1) (GTS),NL-TSO-0001,GTS,entry,EmdenEPT1NONL,Emden (EPT1) (NO→NL),NO,NL,1
+ITP-00075,Emden (NPT) (Thyssengas),DE-TSO-0002,Thyssengas,exit,EmdenNPTDENO,Emden (NPT) (DE→NO),DE,NO,av
+ITP-00086,Emden (NPT) (GUD),DE-TSO-0005,Gasunie Deutschland,exit,EmdenNPTDENO,Emden (NPT) (DE→NO),DE,NO,av
+ITP-00108,Emden (NPT) (OGE),DE-TSO-0009,Open Grid Europe,exit,EmdenNPTDENO,Emden (NPT) (DE→NO),DE,NO,av
+ITP-00161,Emden (NPT) (GTS),NL-TSO-0001,GTS,exit,EmdenNPTNLNO,Emden (NPT) (NL→NO),NL,NO,av
+ITP-00210,Emden (NPT) (Gassco),NO-TSO-0001,Gassco,entry,EmdenNPTNLNO,Emden (NPT) (NL→NO),NL,NO,av
+ITP-00075,Emden (NPT) (Thyssengas),DE-TSO-0002,Thyssengas,entry,EmdenNPTNODE,Emden (NPT) (NO→DE),NO,DE,av
+ITP-00086,Emden (NPT) (GUD),DE-TSO-0005,Gasunie Deutschland,entry,EmdenNPTNODE,Emden (NPT) (NO→DE),NO,DE,av
+ITP-00108,Emden (NPT) (OGE),DE-TSO-0009,Open Grid Europe,entry,EmdenNPTNODE,Emden (NPT) (NO→DE),NO,DE,av
+ITP-00161,Emden (NPT) (GTS),NL-TSO-0001,GTS,entry,EmdenNPTNONL,Emden (NPT) (NO→NL),NO,NL,av
+ITP-00210,Emden (NPT) (Gassco),NO-TSO-0001,Gassco,exit,EmdenNPTNONL,Emden (NPT) (NO→NL),NO,NL,av
+ITP-00112,Eynatten 1 (BE) // Lichtenbusch / Raeren (DE),BE-TSO-0001,Fluxys Belgium,exit,Eynatten1BEDE,Eynatten 1 / Lichtenbusch / Raeren (BE→DE),BE,DE,av
+ITP-00112,Eynatten 1 (BE) // Lichtenbusch / Raeren (DE),DE-TSO-0001,GASCADE Gastransport,entry,Eynatten1BEDE,Eynatten 1 / Lichtenbusch / Raeren (BE→DE),BE,DE,av
+ITP-00112,Eynatten 1 (BE) // Lichtenbusch / Raeren (DE),BE-TSO-0001,Fluxys Belgium,entry,Eynatten1DEBE,Eynatten 1 / Lichtenbusch / Raeren (DE→BE),DE,BE,av
+ITP-00112,Eynatten 1 (BE) // Lichtenbusch / Raeren (DE),DE-TSO-0001,GASCADE Gastransport,exit,Eynatten1DEBE,Eynatten 1 / Lichtenbusch / Raeren (DE→BE),DE,BE,av
+ITP-10009,FAXE,PL-TSO-0002,GAZ-SYSTEM,entry,FAXEDKPL,FAXE (DK→PL),DK,PL,av
+ITP-10009,FAXE,PL-TSO-0002,GAZ-SYSTEM,exit,FAXEPLDK,FAXE (PL→DK),PL,DK,av
+ITP-00022,St. Fergus,NO-TSO-0001,Gassco,exit,FergusNOUK,St. Fergus (NO→UK),NO,UK,av
+ITP-00022,St. Fergus,UK-TSO-0001,National Grid Gas,entry,FergusNOUK,St. Fergus (NO→UK),NO,UK,av
+ITP-00497,GCP GAZ-SYSTEM/ONTRAS,DE-TSO-0003,ONTRAS,exit,GCPDEPL,GCP (DE→PL),DE,PL,av
+ITP-00497,GCP GAZ-SYSTEM/ONTRAS,PL-TSO-0002,GAZ-SYSTEM,entry,GCPDEPL,GCP (DE→PL),DE,PL,av
+ITP-00497,GCP GAZ-SYSTEM/ONTRAS,DE-TSO-0003,ONTRAS,entry,GCPPLDE,GCP (PL→DE),PL,DE,av
+ITP-00497,GCP GAZ-SYSTEM/ONTRAS,PL-TSO-0002,GAZ-SYSTEM,exit,GCPPLDE,GCP (PL→DE),PL,DE,av
+ITP-00113,GDLux (BE) / Bras Petange (LU),BE-TSO-0001,Fluxys Belgium,exit,GDLuxBELU,GDLux / Bras Petange (BE→LU),BE,LU,av
+ITP-00113,GDLux (BE) / Bras Petange (LU),LU-TSO-0001,Creos Luxembourg,entry,GDLuxBELU,GDLux / Bras Petange (BE→LU),BE,LU,av
+ITP-00113,GDLux (BE) / Bras Petange (LU),BE-TSO-0001,Fluxys Belgium,entry,GDLuxLUBE,GDLux / Bras Petange (LU→BE),LU,BE,av
+ITP-00113,GDLux (BE) / Bras Petange (LU),LU-TSO-0001,Creos Luxembourg,exit,GDLuxLUBE,GDLux / Bras Petange (LU→BE),LU,BE,av
+ITP-00074,Gela,IT-TSO-0001,Snam Rete Gas,entry,GelaLYIT,Gela (LY→IT),LY,IT,av
+ITP-00074,Gela,LY-TSO-0001,Green Stream,exit,GelaLYIT,Gela (LY→IT),LY,IT,av
+ITP-00440,GMS Caushany,MD-TSO-0001,Moldovatransgaz LLC,exit,GMSCaushanyMDUA,GMS Caushany (MD→UA),MD,UA,av
+ITP-00440,GMS Caushany,UA-TSO-0001,Gas TSO UA,entry,GMSCaushanyMDUA,GMS Caushany (MD→UA),MD,UA,av
+ITP-00049,Gorizia (IT) /Šempeter (SI),IT-TSO-0001,Snam Rete Gas,exit,GoriziaITSI,Gorizia / Šempeter (IT→SI),IT,SI,0
+ITP-00049,Gorizia (IT) /Šempeter (SI),SI-TSO-0001,Plinovodi,entry,GoriziaITSI,Gorizia / Šempeter (IT→SI),IT,SI,1
+ITP-00049,Gorizia (IT) /Šempeter (SI),IT-TSO-0001,Snam Rete Gas,entry,GoriziaSIIT,Gorizia / Šempeter (SI→IT),SI,IT,av
+ITP-00049,Gorizia (IT) /Šempeter (SI),SI-TSO-0001,Plinovodi,exit,GoriziaSIIT,Gorizia / Šempeter (SI→IT),SI,IT,av
+ITP-00258,'s Gravenvoeren Dilsen (BE) // 's Gravenvoeren/Obbicht (NL),BE-TSO-0001,Fluxys Belgium,exit,GravenBENL,s Gravenvoeren Dilsen / 's Gravenvoeren/Obbicht (BE→NL),BE,NL,av
+ITP-00258,'s Gravenvoeren Dilsen (BE) // 's Gravenvoeren/Obbicht (NL),NL-TSO-0001,GTS,entry,GravenBENL,s Gravenvoeren Dilsen / 's Gravenvoeren/Obbicht (BE→NL),BE,NL,av
+ITP-00258,'s Gravenvoeren Dilsen (BE) // 's Gravenvoeren/Obbicht (NL),BE-TSO-0001,Fluxys Belgium,entry,GravenNLBE,s Gravenvoeren Dilsen / 's Gravenvoeren/Obbicht (NL→BE),NL,BE,av
+ITP-00258,'s Gravenvoeren Dilsen (BE) // 's Gravenvoeren/Obbicht (NL),NL-TSO-0001,GTS,exit,GravenNLBE,s Gravenvoeren Dilsen / 's Gravenvoeren/Obbicht (NL→BE),NL,BE,av
+ITP-00428,Grebenyky,MD-TSO-0001,Moldovatransgaz LLC,exit,GrebenykyMDUA,Grebenyky (MD→UA),MD,UA,av
+ITP-00428,Grebenyky,UA-TSO-0001,Gas TSO UA,entry,GrebenykyMDUA,Grebenyky (MD→UA),MD,UA,av
+ITP-00428,Grebenyky,MD-TSO-0001,Moldovatransgaz LLC,entry,GrebenykyUAMD,Grebenyky (UA→MD),UA,MD,av
+ITP-00428,Grebenyky,UA-TSO-0001,Gas TSO UA,exit,GrebenykyUAMD,Grebenyky (UA→MD),UA,MD,av
+ITP-00120,Greifswald,RU-TSO-0002,Nord Stream,entry,GreifswaldDERU_Fluxys,Greifswald (Fluxys) (DE→RU),DE,RU,0
+ITP-00297,Greifswald / Fluxys Deutschland,DE-TSO-0018,Fluxys Deutschland,exit,GreifswaldDERU_Fluxys,Greifswald (Fluxys) (DE→RU),DE,RU,1
+ITP-00120,Greifswald,RU-TSO-0002,Nord Stream,exit,,Greifswald (RU→DE),RU,DE,0
+ITP-00247,Greifswald / NEL,DE-TSO-0001,GASCADE Gastransport,entry,GreifswaldRUDE,Greifswald (RU→DE),RU,DE,0
+ITP-00250,Greifswald / GOAL,DE-TSO-0015,GOAL,entry,GreifswaldRUDE,Greifswald (RU→DE),RU,DE,0
+ITP-00251,Greifswald / OPAL,DE-TSO-0001,GASCADE Gastransport,entry,GreifswaldRUDE,Greifswald (RU→DE),RU,DE,0
+ITP-00297,Greifswald / Fluxys Deutschland,DE-TSO-0018,Fluxys Deutschland,entry,GreifswaldRUDE,Greifswald (RU→DE),RU,DE,0
+ITP-00454,Greifswald / LBTG (regulated),DE-TSO-0020,LBTG,entry,GreifswaldRUDE,Greifswald (RU→DE),RU,DE,0
+ITP-00491,Greifswald / GUD,DE-TSO-0005,Gasunie Deutschland,entry,GreifswaldRUDE,Greifswald (RU→DE),RU,DE,0
+ITP-00247,Greifswald / NEL,DE-TSO-0017,NEL Gastransport,entry,GreifswaldRUDE,Greifswald (RU→DE),RU,DE,sum
+ITP-00251,Greifswald / OPAL,DE-TSO-0016,OPAL Gastransport,entry,GreifswaldRUDE,Greifswald (RU→DE),RU,DE,sum
+ITP-00071,Haanrade,DE-TSO-0002,Thyssengas,exit,HaanradeDENL,Haanrade (L) (DE→NL),DEL,NLL,av
+ITP-00071,Haanrade,NL-TSO-0001,GTS,entry,HaanradeDENL,Haanrade (L) (DE→NL),DEL,NLL,av
+ITP-00071,Haanrade,DE-TSO-0002,Thyssengas,entry,HaanradeNLDE,Haanrade (L) (NL→DE),NLL,DEL,av
+ITP-00071,Haanrade,NL-TSO-0001,GTS,exit,HaanradeNLDE,Haanrade (L) (NL→DE),NLL,DEL,av
+ITP-00038,Hilvarenbeek,BE-TSO-0001,Fluxys Belgium,exit,HilvarenbeekBENL,Hilvarenbeek (L) (BE→NL),BEL,NLL,max
+ITP-00038,Hilvarenbeek,NL-TSO-0001,GTS,entry,HilvarenbeekBENL,Hilvarenbeek (L) (BE→NL),BEL,NLL,max
+ITP-00038,Hilvarenbeek,BE-TSO-0001,Fluxys Belgium,entry,HilvarenbeekNLBE,Hilvarenbeek (L) (NL→BE),NLL,BEL,0
+ITP-00038,Hilvarenbeek,NL-TSO-0001,GTS,exit,HilvarenbeekNLBE,Hilvarenbeek (L) (NL→BE),NLL,BEL,1
+ITP-00015,Hora Svaté Kateřiny (CZ) / Deutschneudorf (Sayda) (DE),CZ-TSO-0001,NET4GAS,exit,HoraSaydaCZDE,Hora Svaté Kateřiny / Deutschneudorf (Sayda) (CZ→DE),CZ,DE,av
+ITP-00015,Hora Svaté Kateřiny (CZ) / Deutschneudorf (Sayda) (DE),DE-TSO-0003,ONTRAS,entry,HoraSaydaCZDE,Hora Svaté Kateřiny / Deutschneudorf (Sayda) (CZ→DE),CZ,DE,av
+ITP-00015,Hora Svaté Kateřiny (CZ) / Deutschneudorf (Sayda) (DE),CZ-TSO-0001,NET4GAS,entry,HoraSaydaDECZ,Hora Svaté Kateřiny / Deutschneudorf (Sayda) (DE→CZ),DE,CZ,av
+ITP-00015,Hora Svaté Kateřiny (CZ) / Deutschneudorf (Sayda) (DE),DE-TSO-0003,ONTRAS,exit,HoraSaydaDECZ,Hora Svaté Kateřiny / Deutschneudorf (Sayda) (DE→CZ),DE,CZ,av
+ITP-00024,Imatra,FI-TSO-0003,Gasgrid Finland,entry,ImatraRUFI,Imatra (RU→FI),RU,FI,av
+ITP-00024,Imatra,RU-TSO-0001,Gazprom,exit,ImatraRUFI,Imatra (RU→FI),RU,FI,av
+ITP-00087,Isaccea (RO) - Orlovka (UA) I,RO-TSO-0001,Transgaz,exit,Isaccea1ROUA,Isaccea / Orlovka I (RO→UA),RO,UA,1
+ITP-00087,Isaccea (RO) - Orlovka (UA) I,UA-TSO-0001,Gas TSO UA,entry,Isaccea1ROUA,Isaccea / Orlovka I (RO→UA),RO,UA,0
+ITP-00087,Isaccea (RO) - Orlovka (UA) I,RO-TSO-0001,Transgaz,entry,Isaccea1UARO,Isaccea / Orlovka I (UA→RO),UA,RO,max
+ITP-00087,Isaccea (RO) - Orlovka (UA) I,UA-TSO-0001,Gas TSO UA,exit,Isaccea1UARO,Isaccea / Orlovka I (UA→RO),UA,RO,max
+ITP-00299,Isaccea (RO) - Orlovka (UA) II,RO-TSO-0001,Transgaz,exit,Isaccea2TBPUA,Isaccea / Orlovka II (Trans-Balkan Pipeline) (RO→UA),TBP,UA,1
+ITP-00299,Isaccea (RO) - Orlovka (UA) II,RO-TSO-0001,Transgaz,entry,Isaccea2UATBP,Isaccea / Orlovka II (Trans-Balkan Pipeline) (UA→RO),UA,TBP,1
+ITP-00299,Isaccea (RO) - Orlovka (UA) II,UA-TSO-0001,Gas TSO UA,exit,Isaccea2UATBP,Isaccea / Orlovka II (Trans-Balkan Pipeline) (UA→RO),UA,TBP,0
+ITP-00300,Isaccea (RO) - Orlovka (UA) III,RO-TSO-0001,Transgaz,exit,Isaccea3TBPUA,Isaccea / Orlovka III (Trans-Balkan Pipeline) (RO→UA),TBP,UA,1
+ITP-00300,Isaccea (RO) - Orlovka (UA) III,RO-TSO-0001,Transgaz,entry,Isaccea3UATBP,Isaccea / Orlovka III (Trans-Balkan Pipeline) (UA→RO),UA,TBP,1
+ITP-00300,Isaccea (RO) - Orlovka (UA) III,UA-TSO-0001,Gas TSO UA,exit,Isaccea3UATBP,Isaccea / Orlovka III (Trans-Balkan Pipeline) (UA→RO),UA,TBP,0
+ITP-00063,Julianadorp (GTS) /Balgzand (BBL),NL-TSO-0001,GTS,entry,JulianadorpBBLNL,Julianadorp / Balgzand (UK/BBL→NL),BBL,NL,0
+ITP-00063,Julianadorp (GTS) /Balgzand (BBL),UK-TSO-0004,BBL company,exit,JulianadorpBBLNL,Julianadorp / Balgzand (UK/BBL→NL),BBL,NL,0
+ITP-00063,Julianadorp (GTS) /Balgzand (BBL),NL-TSO-0001,GTS,exit,JulianadorpNLBBL,Julianadorp / Balgzand (NL→UK/BBL),NL,BBL,0
+ITP-00063,Julianadorp (GTS) /Balgzand (BBL),UK-TSO-0004,BBL company,entry,JulianadorpNLBBL,Julianadorp / Balgzand (NL→UK/BBL),NL,BBL,0
+ITP-00281,Jura,CH-DSO-0003,Gaznat,exit,JuraCHFR,Jura (CH→FR),CH,FR,0
+ITP-00281,Jura,FR-TSO-0003,GRTgaz,entry,JuraCHFR,Jura (CH→FR),CH,FR,1
+ITP-00281,Jura,CH-DSO-0003,Gaznat,entry,JuraFRCH,Jura (FR→CH),FR,CH,0
+ITP-00281,Jura,FR-TSO-0003,GRTgaz,exit,JuraFRCH,Jura (FR→CH),FR,CH,1
+ITP-00053,Karksi,EE-TSO-0001,Elering,exit,KarksiEELV,Karksi (EE→LV),EE,LV,av
+ITP-00053,Karksi,LV-TSO-0001,Conexus,entry,KarksiEELV,Karksi (EE→LV),EE,LV,av
+ITP-00053,Karksi,EE-TSO-0001,Elering,entry,KarksiLVEE,Karksi (LV→EE),LV,EE,av
+ITP-00053,Karksi,LV-TSO-0001,Conexus,exit,KarksiLVEE,Karksi (LV→EE),LV,EE,av
+ITP-00070,Kiefersfelden,DE-TSO-0010,bayernets,exit,KiefersfeldenDEAT,Kiefersfelden (DE→AT),DE,AT,1
+ITP-00070,Kiefersfelden,AT-TSO-0004,TIGAS,entry,KiefersfeldenDEAT,Kiefersfelden (DE→AT),DE,AT,0
+ITP-00291,VIP Kiefersfelden-Pfronten,DE-TSO-0010,bayernets,exit,KiefPfrontDEAT,VIP Kiefersfelden-Pfronten (DE→AT),DE,AT,1
+ITP-00054,Kiemenai,LT-TSO-0001,Amber Grid,exit,KiemenaiLTLV,Kiemenai (LT→LV),LT,LV,av
+ITP-00054,Kiemenai,LV-TSO-0001,Conexus,entry,KiemenaiLTLV,Kiemenai (LT→LV),LT,LV,av
+ITP-00054,Kiemenai,LT-TSO-0001,Amber Grid,entry,KiemenaiLVLT,Kiemenai (LV→LT),LV,LT,av
+ITP-00054,Kiemenai,LV-TSO-0001,Conexus,exit,KiemenaiLVLT,Kiemenai (LV→LT),LV,LT,av
+ITP-00046,Kipi (TR) / Kipi (GR),GR-TSO-0001,DESFA,exit,KipiGRTR,Kipi (EL→TR),GR,TR,1
+ITP-00046,Kipi (TR) / Kipi (GR),TR-TSO-0001,Botas,entry,KipiGRTR,Kipi (EL→TR),GR,TR,0
+ITP-00046,Kipi (TR) / Kipi (GR),GR-TSO-0001,DESFA,entry,KipiTRGR,Kipi (TR→EL),TR,GR,av
+ITP-00046,Kipi (TR) / Kipi (GR),GR-TSO-0002,DESFA,entry,KipiTRGR,Kipi (TR→EL),TR,GR,av
+ITP-00046,Kipi (TR) / Kipi (GR),TR-TSO-0001,Botas,exit,KipiTRGR,Kipi (TR→EL),TR,GR,0
+ITP-00274,Kipoi,AL-TSO-0001,TAP AG,entry,KipoiTANAPTAP,Kipoi (TANAP→TAP),AZ,TAP,av
+ITP-00274,Kipoi,TR-TSO-0002,SOCAR,exit,KipoiTANAPTAP,Kipoi (TANAP→TAP),AZ,TAP,av
+ITP-00274,Kipoi,AL-TSO-0001,TAP AG,exit,KipoiTAPTANAP,Kipoi (TAP→TANAP),TAP,AZ,1
+ITP-00529,Kireevo (BG) / Zaychar (RS),BG-TSO-0001,Bulgartransgaz,exit,KireevoBGRS,Kireevo / Zaychar (BG→RS),BG,RS,1
+ITP-00529,Kireevo (BG) / Zaychar (RS),RS-TSO-0003,GASTRANS,entry,KireevoBGRS,Kireevo / Zaychar (BG→RS),BG,RS,0
+ITP-00529,Kireevo (BG) / Zaychar (RS),BG-TSO-0001,Bulgartransgaz,entry,KireevoRSBG,Kireevo / Zaychar (RS→BG),RS,BG,1
+ITP-00529,Kireevo (BG) / Zaychar (RS),RS-TSO-0003,GASTRANS,exit,KireevoRSBG,Kireevo / Zaychar (RS→BG),RS,BG,0
+ITP-10013,Kiskundorozsma-2 (HU) / Horgos (RS),HU-TSO-0001,FGSZ,exit,Kiskun2HURS,Kiskundorozsma-2 / Horgos (HU→RS),HU,RS,1
+ITP-10013,Kiskundorozsma-2 (HU) / Horgos (RS),RS-TSO-0003,GASTRANS,entry,Kiskun2HURS,Kiskundorozsma-2 / Horgos (HU→RS),HU,RS,0
+ITP-10013,Kiskundorozsma-2 (HU) / Horgos (RS),HU-TSO-0001,FGSZ,entry,Kiskun2RSHU,Kiskundorozsma-2 / Horgos (RS→HU),RS,HU,1
+ITP-10013,Kiskundorozsma-2 (HU) / Horgos (RS),RS-TSO-0003,GASTRANS,exit,Kiskun2RSHU,Kiskundorozsma-2 / Horgos (RS→HU),RS,HU,0
+ITP-00055,Kiskundorozsma,HU-TSO-0001,FGSZ,exit,KiskunHURS,Kiskundorozsma (HU→RS),HU,RS,1
+ITP-00055,Kiskundorozsma,RS-TSO-0001,Srbijagas,entry,KiskunHURS,Kiskundorozsma (HU→RS),HU,RS,0
+ITP-00445,Kobryn,BY-TSO-0001,Gazprom Belarus,exit,KobrynBYUA,Kobryn (BY→UA),BY,UA,0
+ITP-00445,Kobryn,UA-TSO-0001,Gas TSO UA,entry,KobrynBYUA,Kobryn (BY→UA),BY,UA,1
+ITP-00275,Komotini,AL-TSO-0001,TAP AG,entry,KomotiniIGBTAP,Komotini (EL/IGB→TAP),IGB,TAP,av
+ITP-00275,Komotini,BG-TSO-0003,ICGB,exit,KomotiniIGBTAP,Komotini (EL/IGB→TAP),IGB,TAP,av
+ITP-00275,Komotini,AL-TSO-0001,TAP AG,exit,KomotiniTAPIGB,Komotini (TAP→EL/IGB),TAP,IGB,av
+ITP-00275,Komotini,BG-TSO-0003,ICGB,entry,KomotiniTAPIGB,Komotini (TAP→EL/IGB),TAP,IGB,av
+ITP-00104,Kondratki,BY-TSO-0001,Gazprom Belarus,exit,KondratkiBYPLYAM,Kondratki (BY→PL/Yamal),BY,PLYAM,av
+ITP-00104,Kondratki,PL-TSO-0001,GAZ-SYSTEM (ISO),entry,KondratkiBYPLYAM,Kondratki (BY→PL/Yamal),BY,PLYAM,av
+ITP-00085,Kotlovka,BY-TSO-0001,Gazprom Belarus,exit,KotlovkaBYLT,Kotlovka (BY→LT),BY,LT,av
+ITP-00085,Kotlovka,LT-TSO-0001,Amber Grid,entry,KotlovkaBYLT,Kotlovka (BY→LT),BY,LT,av
+ITP-00128,Kulata (BG) / Sidirokastron (GR),BG-TSO-0001,Bulgartransgaz,exit,KulataBGGR,Kulata / Sidirokastron (BG→EL),BG,GR,av
+ITP-00128,Kulata (BG) / Sidirokastron (GR),GR-TSO-0001,DESFA,entry,KulataBGGR,Kulata / Sidirokastron (BG→EL),BG,GR,av
+ITP-00128,Kulata (BG) / Sidirokastron (GR),BG-TSO-0001,Bulgartransgaz,entry,KulataGRBG,Kulata / Sidirokastron (EL→BG),GR,BG,av
+ITP-00128,Kulata (BG) / Sidirokastron (GR),GR-TSO-0001,DESFA,exit,KulataGRBG,Kulata / Sidirokastron (EL→BG),GR,BG,av
+ITP-00036,Kyustendil (BG) / Zidilovo (MK),BG-TSO-0001,Bulgartransgaz,exit,KyustendilBGMK,Kyustendil / Zidilovo (BG→MK),BG,MK,1
+ITP-00036,Kyustendil (BG) / Zidilovo (MK),MK-TSO-0002,GA-MA - Skopje,entry,KyustendilBGMK,Kyustendil / Zidilovo (BG→MK),BG,MK,0
+ITP-00051,Lanžhot,CZ-TSO-0001,NET4GAS,exit,LanzhotCZSK,Lanžhot (CZ→SK),CZ,SK,1
+ITP-00051,Lanžhot,SK-TSO-0001,eustream,entry,LanzhotCZSK,Lanžhot (CZ→SK),CZ,SK,0
+ITP-00051,Lanžhot,CZ-TSO-0001,NET4GAS,entry,LanzhotSKCZ,Lanžhot (SK→CZ),SK,CZ,1
+ITP-00051,Lanžhot,SK-TSO-0001,eustream,exit,LanzhotSKCZ,Lanžhot (SK→CZ),SK,CZ,0
+ITP-00227,RC Lindau,AT-DSO-0001,Vorarlberger Erdgas,exit,LindauATDE,RC Lindau (AT→DE),AT,DE,av
+ITP-00227,RC Lindau,DE-TSO-0014,terranets bw,entry,LindauATDE,RC Lindau (AT→DE),AT,DE,av
+ITP-00227,RC Lindau,AT-DSO-0001,Vorarlberger Erdgas,entry,LindauDEAT,RC Lindau (DE→AT),DE,AT,av
+ITP-00227,RC Lindau,DE-TSO-0010,bayernets,exit,LindauDEAT,RC Lindau (DE→AT),DE,AT,av
+ITP-00227,RC Lindau,DE-TSO-0014,terranets bw,exit,LindauDEAT,RC Lindau (DE→AT),DE,AT,av
+ITP-00501,Lubmin II,DE-TSO-0018,Fluxys Deutschland,exit,Lubmin2DERU,Lubmin II (DE→RU),DE,RU,1
+ITP-00501,Lubmin II,DE-TSO-0018,Fluxys Deutschland,entry,Lubmin2RUDE,Lubmin II (RU→DE),RU,DE,sum
+ITP-00501,Lubmin II,DE-TSO-0001,GASCADE Gastransport,entry,Lubmin2RUDE,Lubmin II (RU→DE),RU,DE,sum
+ITP-00501,Lubmin II,DE-TSO-0005,Gasunie Deutschland,entry,Lubmin2RUDE,Lubmin II (RU→DE),RU,DE,sum
+ITP-00501,Lubmin II,DE-TSO-0003,ONTRAS,entry,Lubmin2RUDE,Lubmin II (RU→DE),RU,DE,sum
+ITP-00493,Luhamaa,LV-TSO-0001,Conexus,exit,LuhamaaLVRU,Luhamaa (LV→RU),LV,RU,av
+ITP-00493,Luhamaa,EE-TSO-0001,Elering,exit,LuhamaaLVRU,Luhamaa (LV→RU),LV,RU,av
+ITP-00493,Luhamaa,RU-TSO-0001,Gazprom,entry,LuhamaaLVRU,Luhamaa (LV→RU),LV,RU,0
+ITP-00493,Luhamaa,LV-TSO-0001,Conexus,entry,LuhamaaRULV,Luhamaa (RU→LV),RU,LV,av
+ITP-00493,Luhamaa,EE-TSO-0001,Elering,entry,LuhamaaRULV,Luhamaa (RU→LV),RU,LV,av
+ITP-00493,Luhamaa,RU-TSO-0001,Gazprom,exit,LuhamaaRULV,Luhamaa (RU→LV),RU,LV,0
+ITP-00098,Lwowek,PL-TSO-0001,GAZ-SYSTEM (ISO),exit,LwowekPLYAMPL,Lwowek (PL/Yamal→PL),PLYAM,PL,av
+ITP-00098,Lwowek,PL-TSO-0002,GAZ-SYSTEM,entry,LwowekPLYAMPL,Lwowek (PL/Yamal→PL),PLYAM,PL,av
+ITP-00096,Mallnow,DE-TSO-0001,GASCADE Gastransport,exit,MallnowDEPLYAM,Mallnow (DE→PL/Yamal),DE,PLYAM,av
+ITP-00096,Mallnow,PL-TSO-0001,GAZ-SYSTEM (ISO),entry,MallnowDEPLYAM,Mallnow (DE→PL/Yamal),DE,PLYAM,av
+ITP-00096,Mallnow,DE-TSO-0001,GASCADE Gastransport,entry,MallnowPLYAMDE,Mallnow (PL/Yamal→DE),PLYAM,DE,av
+ITP-00096,Mallnow,PL-TSO-0001,GAZ-SYSTEM (ISO),exit,MallnowPLYAMDE,Mallnow (PL/Yamal→DE),PLYAM,DE,av
+ITP-00093,Mazara del Vallo,IT-TSO-0001,Snam Rete Gas,entry,MazaraTNIT,Mazara del Vallo (TN→IT),TN,IT,av
+ITP-00093,Mazara del Vallo,TN-TSO-0001,TMPC,exit,MazaraTNIT,Mazara del Vallo (TN→IT),TN,IT,av
+ITP-00047,Medelsheim (DE) / Obergailbach (FR) (OGE),DE-TSO-0009,Open Grid Europe,exit,MedelsheimDEFR,Medelsheim / Obergailbach (DE→FR),DE,FR,av
+ITP-00083,Medelsheim (DE) / Obergailbach (FR) (GRTgaz D),DE-TSO-0004,GRTgaz Deutschland,exit,MedelsheimDEFR,Medelsheim / Obergailbach (DE→FR),DE,FR,av
+ITP-00137,Obergailbach (FR) / Medelsheim (DE),FR-TSO-0003,GRTgaz,entry,MedelsheimDEFR,Medelsheim / Obergailbach (DE→FR),DE,FR,av
+ITP-00540,VIP France - Germany,DE-TSO-0004,GRTgaz Deutschland,exit,MedelsheimDEFR,Medelsheim / Obergailbach (DE→FR),DE,FR,av
+ITP-00047,Medelsheim (DE) / Obergailbach (FR) (OGE),DE-TSO-0009,Open Grid Europe,entry,MedelsheimFRDE,Medelsheim / Obergailbach (FR→DE),FR,DE,av
+ITP-00083,Medelsheim (DE) / Obergailbach (FR) (GRTgaz D),DE-TSO-0004,GRTgaz Deutschland,entry,MedelsheimFRDE,Medelsheim / Obergailbach (FR→DE),FR,DE,av
+ITP-00137,Obergailbach (FR) / Medelsheim (DE),FR-TSO-0003,GRTgaz,exit,MedelsheimFRDE,Medelsheim / Obergailbach (FR→DE),FR,DE,av
+ITP-00540,VIP France - Germany,DE-TSO-0004,GRTgaz Deutschland,entry,MedelsheimFRDE,Medelsheim / Obergailbach (FR→DE),FR,DE,av
+ITP-00008,Melendugno - IT / TAP,AL-TSO-0001,TAP AG,entry,MelendugnoITTAP,Melendugno (IT→TAP),IT,TAP,av
+ITP-00008,Melendugno - IT / TAP,IT-TSO-0001,Snam Rete Gas,exit,MelendugnoITTAP,Melendugno (IT→TAP),IT,TAP,av
+ITP-00008,Melendugno - IT / TAP,AL-TSO-0001,TAP AG,exit,MelendugnoTAPIT,Melendugno (TAP→IT),TAP,IT,av
+ITP-00008,Melendugno - IT / TAP,IT-TSO-0001,Snam Rete Gas,entry,MelendugnoTAPIT,Melendugno (TAP→IT),TAP,IT,av
+ITP-00090,Moffat,UK-TSO-0001,National Grid Gas,entry,MoffatIEUK,Moffat (IE→UK),IE,UK,av
+ITP-00495,Moffat (IE),IE-TSO-0002,GNI,exit,MoffatIEUK,Moffat (IE→UK),IE,UK,av
+ITP-00496,Moffat (NI),UK-TSO-0002,Premier Transmission,exit,MoffatNIUK,Moffat (NI→UK),NI,UK,1
+ITP-00090,Moffat,UK-TSO-0001,National Grid Gas,exit,MoffatUKIE,Moffat (UK→IE),UK,IE,av
+ITP-00495,Moffat (IE),IE-TSO-0002,GNI,entry,MoffatUKIE,Moffat (UK→IE),UK,IE,av
+ITP-00496,Moffat (NI),UK-TSO-0002,Premier Transmission,entry,MoffatUKNI,Moffat (UK→NI),UK,NI,1
+ITP-00043,Mosonmagyarovar,AT-TSO-0001,Gas Connect Austria,exit,MosonmagATHU,Mosonmagyarovar (AT→HU),AT,HU,av
+ITP-00043,Mosonmagyarovar,HU-TSO-0001,FGSZ,entry,MosonmagATHU,Mosonmagyarovar (AT→HU),AT,HU,av
+ITP-00043,Mosonmagyarovar,AT-TSO-0001,Gas Connect Austria,entry,MosonmagHUAT,Mosonmagyarovar (HU→AT),HU,AT,av
+ITP-00043,Mosonmagyarovar,HU-TSO-0001,FGSZ,exit,MosonmagHUAT,Mosonmagyarovar (HU→AT),HU,AT,av
+ITP-00446,Mozyr,BY-TSO-0001,Gazprom Belarus,exit,MozyrBYUA,Mozyr (BY→UA),BY,UA,0
+ITP-00446,Mozyr,UA-TSO-0001,Gas TSO UA,entry,MozyrBYUA,Mozyr (BY→UA),BY,UA,1
+ITP-00079,Murfeld (AT) / Ceršak (SI),AT-TSO-0001,Gas Connect Austria,exit,MurfeldATSI,Murfeld / Ceršak (AT→SI),AT,SI,av
+ITP-00079,Murfeld (AT) / Ceršak (SI),SI-TSO-0001,Plinovodi,entry,MurfeldATSI,Murfeld / Ceršak (AT→SI),AT,SI,av
+ITP-00079,Murfeld (AT) / Ceršak (SI),AT-TSO-0001,Gas Connect Austria,entry,MurfeldSIAT,Murfeld / Ceršak (SI→AT),SI,AT,av
+ITP-00079,Murfeld (AT) / Ceršak (SI),SI-TSO-0001,Plinovodi,exit,MurfeldSIAT,Murfeld / Ceršak (SI→AT),SI,AT,av
+ITP-00243,Narva,EE-TSO-0001,Elering,exit,NarvaEERU,Narva (EE→RU),EE,RU,av
+ITP-00243,Narva,RU-TSO-0001,Gazprom,entry,NarvaEERU,Narva (EE→RU),EE,RU,av
+ITP-00243,Narva,EE-TSO-0001,Elering,entry,NarvaRUEE,Narva (RU→EE),RU,EE,av
+ITP-00243,Narva,RU-TSO-0001,Gazprom,exit,NarvaRUEE,Narva (RU→EE),RU,EE,av
+ITP-00427,Nea Mesimvria,AL-TSO-0001,TAP AG,entry,NeaGRTAP,Nea Mesimvria (EL→TAP),GR,TAP,av
+ITP-00427,Nea Mesimvria,GR-TSO-0001,DESFA,exit,NeaGRTAP,Nea Mesimvria (EL→TAP),GR,TAP,av
+ITP-00427,Nea Mesimvria,AL-TSO-0001,TAP AG,exit,NeaTAPGR,Nea Mesimvria (TAP→EL),TAP,GR,av
+ITP-00427,Nea Mesimvria,GR-TSO-0001,DESFA,entry,NeaTAPGR,Nea Mesimvria (TAP→EL),TAP,GR,av
+ITP-00058,Negru Voda I (RO) / Kardam (BG),BG-TSO-0001,Bulgartransgaz,exit,Negru1BGRO,Negru Voda I / Kardam (BG→RO),BG,RO,av
+ITP-00058,Negru Voda I (RO) / Kardam (BG),RO-TSO-0001,Transgaz,entry,Negru1BGRO,Negru Voda I / Kardam (BG→RO),BG,RO,av
+ITP-00058,Negru Voda I (RO) / Kardam (BG),BG-TSO-0001,Bulgartransgaz,entry,Negru1ROBG,Negru Voda I / Kardam (RO→BG),RO,BG,av
+ITP-00058,Negru Voda I (RO) / Kardam (BG),RO-TSO-0001,Transgaz,exit,Negru1ROBG,Negru Voda I / Kardam (RO→BG),RO,BG,av
+ITP-00059,"Negru Voda II, III (RO) / Kardam (BG)",BG-TSO-0001,Bulgartransgaz,exit,Negru23BGTBP,"Negru Voda II, III / Kardam (Trans-Balkan Pipeline) (BG→RO)",BG,TBP,1
+ITP-00301,Negru Voda II,RO-TSO-0001,Transgaz,entry,Negru23BGTBP,"Negru Voda II, III / Kardam (Trans-Balkan Pipeline) (BG→RO)",BG,TBP,0
+ITP-00302,Negru Voda III,RO-TSO-0001,Transgaz,entry,Negru23BGTBP,"Negru Voda II, III / Kardam (Trans-Balkan Pipeline) (BG→RO)",BG,TBP,0
+ITP-00059,"Negru Voda II, III (RO) / Kardam (BG)",BG-TSO-0001,Bulgartransgaz,entry,Negru23TBPBG,"Negru Voda II, III / Kardam (Trans-Balkan Pipeline) (RO→BG)",TBP,BG,1
+ITP-00301,Negru Voda II,RO-TSO-0001,Transgaz,exit,Negru23TBPBG,"Negru Voda II, III / Kardam (Trans-Balkan Pipeline) (RO→BG)",TBP,BG,0
+ITP-00302,Negru Voda III,RO-TSO-0001,Transgaz,exit,Negru23TBPBG,"Negru Voda II, III / Kardam (Trans-Balkan Pipeline) (RO→BG)",TBP,BG,0
+ITP-00630,North Sea Entry,DK-TSO-0001,Energinet,entry,NorthSeaNODK,North Sea Entry (NO→DK),NO,DK,1
+ITP-00097,Nybro,DK-TSO-0001,Energinet,entry,NybroProdDK,Production DK (Nybro),ProdDK,DK,1
+ITP-00006,Oberkappel (OGE),DE-TSO-0009,Open Grid Europe,entry,OberkappelATDE,Oberkappel (AT→DE),AT,DE,0
+ITP-00056,Oberkappel (GRTgaz D),DE-TSO-0004,GRTgaz Deutschland,entry,OberkappelATDE,Oberkappel (AT→DE),AT,DE,0
+ITP-00140,Oberkappel,AT-TSO-0001,Gas Connect Austria,exit,OberkappelATDE,Oberkappel (AT→DE),AT,DE,av
+ITP-00539,VIP Oberkappel,DE-TSO-0009,Open Grid Europe,entry,OberkappelATDE,Oberkappel (AT→DE),AT,DE,av
+ITP-00006,Oberkappel (OGE),DE-TSO-0009,Open Grid Europe,exit,OberkappelDEAT,Oberkappel (DE→AT),DE,AT,av
+ITP-00056,Oberkappel (GRTgaz D),DE-TSO-0004,GRTgaz Deutschland,exit,OberkappelDEAT,Oberkappel (DE→AT),DE,AT,av
+ITP-00140,Oberkappel,AT-TSO-0001,Gas Connect Austria,entry,OberkappelDEAT,Oberkappel (DE→AT),DE,AT,av
+ITP-00539,VIP Oberkappel,DE-TSO-0009,Open Grid Europe,exit,OberkappelDEAT,Oberkappel (DE→AT),DE,AT,av
+ITP-00150,Olbernhau (DE) / Hora Svaté Kateřiny (CZ),CZ-TSO-0001,NET4GAS,exit,OlbernHoraCZDE,Olbernhau / Hora Svaté Kateřiny (CZ→DE),CZ,DE,av
+ITP-00150,Olbernhau (DE) / Hora Svaté Kateřiny (CZ),DE-TSO-0001,GASCADE Gastransport,entry,OlbernHoraCZDE,Olbernhau / Hora Svaté Kateřiny (CZ→DE),CZ,DE,av
+ITP-00150,Olbernhau (DE) / Hora Svaté Kateřiny (CZ),CZ-TSO-0001,NET4GAS,entry,OlbernHoraDECZ,Olbernhau / Hora Svaté Kateřiny (DE→CZ),DE,CZ,av
+ITP-00150,Olbernhau (DE) / Hora Svaté Kateřiny (CZ),DE-TSO-0001,GASCADE Gastransport,exit,OlbernHoraDECZ,Olbernhau / Hora Svaté Kateřiny (DE→CZ),DE,CZ,av
+ITP-00429,Oleksiivka,MD-TSO-0001,Moldovatransgaz LLC,exit,OleksiivkaMDUA,Oleksiivka (MD→UA),MD,UA,av
+ITP-00429,Oleksiivka,UA-TSO-0001,Gas TSO UA,entry,OleksiivkaMDUA,Oleksiivka (MD→UA),MD,UA,av
+ITP-00429,Oleksiivka,MD-TSO-0001,Moldovatransgaz LLC,entry,OleksiivkaUAMD,Oleksiivka (UA→MD),UA,MD,av
+ITP-00429,Oleksiivka,UA-TSO-0001,Gas TSO UA,exit,OleksiivkaUAMD,Oleksiivka (UA→MD),UA,MD,av
+ITP-00039,Oltingue (FR) / Rodersdorf (CH),CH-TSO-0001,Swissgas ,exit,OltingueCHFR,Oltingue / Rodersdorf (CH→FR),CH,FR,0
+ITP-00039,Oltingue (FR) / Rodersdorf (CH),CH-TSO-0002,FluxSwiss ,exit,OltingueCHFR,Oltingue / Rodersdorf (CH→FR),CH,FR,0
+ITP-00039,Oltingue (FR) / Rodersdorf (CH),FR-TSO-0003,GRTgaz,entry,OltingueCHFR,Oltingue / Rodersdorf (CH→FR),CH,FR,1
+ITP-00039,Oltingue (FR) / Rodersdorf (CH),CH-TSO-0001,Swissgas ,entry,OltingueFRCH,Oltingue / Rodersdorf (FR→CH),FR,CH,0
+ITP-00039,Oltingue (FR) / Rodersdorf (CH),CH-TSO-0002,FluxSwiss ,entry,OltingueFRCH,Oltingue / Rodersdorf (FR→CH),FR,CH,0
+ITP-00039,Oltingue (FR) / Rodersdorf (CH),FR-TSO-0003,GRTgaz,exit,OltingueFRCH,Oltingue / Rodersdorf (FR→CH),FR,CH,1
+ITP-00125,Griespass (CH) / Passo Gries (IT) (FluxSwiss),CH-TSO-0002,FluxSwiss,exit,PassoGriesCHIT,Griespass / Passo Gries (CH→IT),CH,IT,0
+ITP-00131,Griespass (CH) / Passo Gries (IT) (Swissgas),CH-TSO-0001,Swissgas,exit,PassoGriesCHIT,Griespass / Passo Gries (CH→IT),CH,IT,0
+ITP-00136,Griespass (CH) / Passo Gries (IT),IT-TSO-0001,Snam Rete Gas,entry,PassoGriesCHIT,Griespass / Passo Gries (CH→IT),CH,IT,1
+ITP-00125,Griespass (CH) / Passo Gries (IT) (FluxSwiss),CH-TSO-0002,FluxSwiss,entry,PassoGriesITCH,Griespass / Passo Gries (IT→CH),IT,CH,0
+ITP-00131,Griespass (CH) / Passo Gries (IT) (Swissgas),CH-TSO-0001,Swissgas,entry,PassoGriesITCH,Griespass / Passo Gries (IT→CH),IT,CH,0
+ITP-00136,Griespass (CH) / Passo Gries (IT),IT-TSO-0001,Snam Rete Gas,exit,PassoGriesITCH,Griespass / Passo Gries (IT→CH),IT,CH,1
+ITP-00033,Biriatou (FR) / Irun (ES),ES-TSO-0006,Enagas,exit,PirineosESFR,VIP Pirineos (ES→FR),ES,FR,0
+ITP-00033,Biriatou (FR) / Irun (ES),FR-TSO-0002,TERÉGA,entry,PirineosESFR,VIP Pirineos (ES→FR),ES,FR,0
+ITP-00018,Larrau,ES-TSO-0006,Enagas,exit,PirineosESFR,VIP Pirineos (ES→FR),ES,FR,0
+ITP-00018,Larrau,FR-TSO-0002,TERÉGA,entry,PirineosESFR,VIP Pirineos (ES→FR),ES,FR,0
+ITP-00304,VIP PIRINEOS,ES-TSO-0006,Enagas,exit,PirineosESFR,VIP Pirineos (ES→FR),ES,FR,0
+ITP-00304,VIP PIRINEOS,FR-TSO-0002,TERÉGA,entry,PirineosESFR,VIP Pirineos (ES→FR),ES,FR,1
+ITP-00033,Biriatou (FR) / Irun (ES),ES-TSO-0006,Enagas,entry,PirineosFRES,VIP Pirineos (FR→ES),FR,ES,0
+ITP-00033,Biriatou (FR) / Irun (ES),FR-TSO-0002,TERÉGA,exit,PirineosFRES,VIP Pirineos (FR→ES),FR,ES,0
+ITP-00018,Larrau,ES-TSO-0006,Enagas,entry,PirineosFRES,VIP Pirineos (FR→ES),FR,ES,0
+ITP-00018,Larrau,FR-TSO-0002,TERÉGA,exit,PirineosFRES,VIP Pirineos (FR→ES),FR,ES,0
+ITP-00304,VIP PIRINEOS,ES-TSO-0006,Enagas,entry,PirineosFRES,VIP Pirineos (FR→ES),FR,ES,0
+ITP-00304,VIP PIRINEOS,FR-TSO-0002,TERÉGA,exit,PirineosFRES,VIP Pirineos (FR→ES),FR,ES,1
+ITP-00179,Pisarevka,RU-TSO-0001,Gazprom,exit,PisarevkaRUUA,Pisarevka (RU→UA),RU,UA,0
+ITP-00179,Pisarevka,UA-TSO-0001,Gas TSO UA,entry,PisarevkaRUUA,Pisarevka (RU→UA),RU,UA,1
+ITP-00180,Platovo,RU-TSO-0001,Gazprom,exit,PlatovoRUUA,Platovo (RU→UA),RU,UA,0
+ITP-00180,Platovo,UA-TSO-0001,Gas TSO UA,entry,PlatovoRUUA,Platovo (RU→UA),RU,UA,1
+ITP-00181,Prokhorovka,RU-TSO-0001,Gazprom,exit,ProkhorovkaRUUA,Prokhorovka (RU→UA),RU,UA,0
+ITP-00181,Prokhorovka,UA-TSO-0001,Gas TSO UA,entry,ProkhorovkaRUUA,Prokhorovka (RU→UA),RU,UA,1
+ITP-00293,Point of Interconnection (PWP) (PL),PL-TSO-0001,GAZ-SYSTEM (ISO),entry,PWPPLPLYAM,Point of Interconnection (PWP) (PL→PL/Yamal),PL,PLYAM,av
+ITP-00293,Point of Interconnection (PWP) (PL),PL-TSO-0002,GAZ-SYSTEM,exit,PWPPLPLYAM,Point of Interconnection (PWP) (PL→PL/Yamal),PL,PLYAM,av
+ITP-00293,Point of Interconnection (PWP) (PL),PL-TSO-0001,GAZ-SYSTEM (ISO),exit,PWPPLYAMPL,Point of Interconnection (PWP) (PL/Yamal→PL),PLYAM,PL,av
+ITP-00293,Point of Interconnection (PWP) (PL),PL-TSO-0002,GAZ-SYSTEM,entry,PWPPLYAMPL,Point of Interconnection (PWP) (PL/Yamal→PL),PLYAM,PL,av
+ITP-00072,Remich,DE-TSO-0009,Open Grid Europe,exit,RemichDELU,Remich (DE→LU),DE,LU,1
+ITP-00072,Remich,LU-TSO-0001,Creos Luxembourg,entry,RemichDELU,Remich (DE→LU),DE,LU,0
+ITP-00072,Remich,DE-TSO-0009,Open Grid Europe,entry,RemichLUDE,Remich (LU→DE),LU,DE,av
+ITP-00072,Remich,LU-TSO-0001,Creos Luxembourg,exit,RemichLUDE,Remich (LU→DE),LU,DE,av
+ITP-00042,Rogatec,HR-TSO-0001,Plinacro Ltd,exit,RogatecHRSI,Rogatec (HR→SI),HR,SI,av
+ITP-00042,Rogatec,SI-TSO-0001,Plinovodi,entry,RogatecHRSI,Rogatec (HR→SI),HR,SI,av
+ITP-00042,Rogatec,HR-TSO-0001,Plinacro Ltd,entry,RogatecSIHR,Rogatec (SI→HR),SI,HR,av
+ITP-00042,Rogatec,SI-TSO-0001,Plinovodi,exit,RogatecSIHR,Rogatec (SI→HR),SI,HR,av
+ITP-00153,Ruse (BG) / Giurgiu (RO),BG-TSO-0001,Bulgartransgaz,exit,RuseBGRO,Ruse / Giurgiu (BG→RO),BG,RO,av
+ITP-00153,Ruse (BG) / Giurgiu (RO),RO-TSO-0001,Transgaz,entry,RuseBGRO,Ruse / Giurgiu (BG→RO),BG,RO,av
+ITP-00153,Ruse (BG) / Giurgiu (RO),BG-TSO-0001,Bulgartransgaz,entry,RuseROBG,Ruse / Giurgiu (RO→BG),RO,BG,av
+ITP-00153,Ruse (BG) / Giurgiu (RO),RO-TSO-0001,Transgaz,exit,RuseROBG,Ruse / Giurgiu (RO→BG),RO,BG,av
+ITP-00050,Sakiai,LT-TSO-0001,Amber Grid,exit,SakiaiLTRUKAL,Sakiai (LT→RU/Kaliningrad),LT,RUKAL,1
+ITP-00283,Rep. San Marino,IT-TSO-0001,Snam Rete Gas,exit,SanMarinoITSM,San Marino (IT→SM),IT,SM,1
+ITP-00556,Santaka,LT-TSO-0001,Amber Grid,exit,SantakaLTPL,Santaka (LT→PL),LT,PL,av
+ITP-00556,Santaka,PL-TSO-0002,GAZ-SYSTEM,entry,SantakaLTPL,Santaka (LT→PL),LT,PL,av
+ITP-00556,Santaka,LT-TSO-0001,Amber Grid,entry,SantakaPLLT,Santaka (PL→LT),PL,LT,av
+ITP-00556,Santaka,PL-TSO-0002,GAZ-SYSTEM,exit,SantakaPLLT,Santaka (PL→LT),PL,LT,av
+ITP-00182,Serebryanka,RU-TSO-0001,Gazprom,exit,SerebryRUUA,Serebryanka (RU→UA),RU,UA,0
+ITP-00182,Serebryanka,UA-TSO-0001,Gas TSO UA,entry,SerebryRUUA,Serebryanka (RU→UA),RU,UA,1
+ITP-00183,Sokhranovka (RU) / Ukraine (UA),RU-TSO-0001,Gazprom,exit,SokhraRUUA,Sokhranovka (RU→UA),RU,UA,0
+ITP-00183,Sokhranovka (RU) / Ukraine (UA),UA-TSO-0001,Gas TSO UA,entry,SokhraRUUA,Sokhranovka (RU→UA),RU,UA,1
+ITP-00222,South North CSEP,IE-TSO-0001,GNI (UK),entry,SouthNorthIENI,South North CSEP (IE→NI),IE,NI,0
+ITP-00222,South North CSEP,IE-TSO-0002,GNI,exit,SouthNorthIENI,South North CSEP (IE→NI),IE,NI,1
+ITP-00222,South North CSEP,IE-TSO-0001,GNI (UK),exit,SouthNorthNIIE,South North CSEP (NI→IE),NI,IE,0
+ITP-00222,South North CSEP,IE-TSO-0002,GNI,entry,SouthNorthNIIE,South North CSEP (NI→IE),NI,IE,0
+ITP-00549,Strandzha 2 (BG) / Malkoclar (TR),BG-TSO-0001,Bulgartransgaz,entry,Strandzha2TRBG,Strandzha 2 / Malkoclar (TR→BG),TR,BG,av
+ITP-00549,Strandzha 2 (BG) / Malkoclar (TR),TR-TSO-0004,TAGTAS,exit,Strandzha2TRBG,Strandzha 2 / Malkoclar (TR→BG),TR,BG,av
+ITP-00041,Strandzha (BG) / Malkoclar (TR),BG-TSO-0001,Bulgartransgaz,exit,StrandzhaBGTR,Strandzha / Malkoclar (BG→TR),BG,TR,av
+ITP-00041,Strandzha (BG) / Malkoclar (TR),TR-TSO-0001,Botas,entry,StrandzhaBGTR,Strandzha / Malkoclar (BG→TR),BG,TR,av
+ITP-00184,Sudzha (RU) / Ukraine (UA),RU-TSO-0001,Gazprom,exit,SudzhaRUUA,Sudzha (RU→UA),RU,UA,0
+ITP-00184,Sudzha (RU) / Ukraine (UA),UA-TSO-0001,Gas TSO UA,entry,SudzhaRUUA,Sudzha (RU→UA),RU,UA,1
+ITP-00082,Tarifa,ES-TSO-0006,Enagas,entry,TarifaMAES,Tarifa (MA→ES),MA,ES,av
+ITP-00082,Tarifa,ES-TSO-0008,EMPL,exit,TarifaMAES,Tarifa (MA→ES),MA,ES,av
+ITP-00040,Tarvisio (IT) / Arnoldstein (AT),AT-TSO-0003,TAG,exit,TarvisioATIT,Tarvisio / Arnoldstein (AT→IT),AT,IT,av
+ITP-00040,Tarvisio (IT) / Arnoldstein (AT),IT-TSO-0001,Snam Rete Gas,entry,TarvisioATIT,Tarvisio / Arnoldstein (AT→IT),AT,IT,av
+ITP-00040,Tarvisio (IT) / Arnoldstein (AT),AT-TSO-0003,TAG,entry,TarvisioITAT,Tarvisio / Arnoldstein (IT→AT),IT,AT,av
+ITP-00040,Tarvisio (IT) / Arnoldstein (AT),IT-TSO-0001,Snam Rete Gas,exit,TarvisioITAT,Tarvisio / Arnoldstein (IT→AT),IT,AT,av
+ITP-00244,Tegelen,DE-TSO-0009,Open Grid Europe,exit,TegelenDENL,Tegelen (L) (DE→NL),DEL,NLL,av
+ITP-00244,Tegelen,NL-TSO-0001,GTS,entry,TegelenDENL,Tegelen (L) (DE→NL),DEL,NLL,av
+ITP-00244,Tegelen,DE-TSO-0009,Open Grid Europe,entry,TegelenNLDE,Tegelen (L) (NL→DE),NLL,DEL,0
+ITP-00244,Tegelen,NL-TSO-0001,GTS,exit,TegelenNLDE,Tegelen (L) (NL→DE),NLL,DEL,1
+ITP-00229,RC Thayngen-Fallentor,CH-DSO-0002,Erdgas Ostschweiz,exit,ThayngenCHDE,RC Thayngen-Fallentor (CH→DE),CH,DE,0
+ITP-00229,RC Thayngen-Fallentor,DE-TSO-0014,terranets bw,entry,ThayngenCHDE,RC Thayngen-Fallentor (CH→DE),CH,DE,1
+ITP-00229,RC Thayngen-Fallentor,CH-DSO-0002,Erdgas Ostschweiz,entry,ThayngenDECH,RC Thayngen-Fallentor (DE→CH),DE,CH,0
+ITP-00229,RC Thayngen-Fallentor,DE-TSO-0014,terranets bw,exit,ThayngenDECH,RC Thayngen-Fallentor (DE→CH),DE,CH,1
+ITP-00094,Tieterowka,BY-TSO-0001,Gazprom Belarus,exit,TieterowkaBYPL,Tieterowka (BY→PL),BY,PL,av
+ITP-00094,Tieterowka,PL-TSO-0002,GAZ-SYSTEM,entry,TieterowkaBYPL,Tieterowka (BY→PL),BY,PL,av
+ITP-00077,Twynholm,IE-TSO-0001,GNI (UK),entry,TwynholmNIUK,Twynholm (NI→UK),NI,UK,av
+ITP-00077,Twynholm,UK-TSO-0002,Premier Transmission,exit,TwynholmNIUK,Twynholm (NI→UK),NI,UK,av
+ITP-00077,Twynholm,IE-TSO-0001,GNI (UK),exit,TwynholmUKNI,Twynholm (UK→NI),UK,NI,av
+ITP-00077,Twynholm,UK-TSO-0002,Premier Transmission,entry,TwynholmUKNI,Twynholm (UK→NI),UK,NI,av
+ITP-00007,Überackern SUDAL (AT) / Überackern 2 (DE),AT-TSO-0001,Gas Connect Austria,exit,Ueberackern2ATDE,Überackern SUDAL / Überackern 2 (AT→DE),AT,DE,av
+ITP-00007,Überackern SUDAL (AT) / Überackern 2 (DE),DE-TSO-0010,bayernets,entry,Ueberackern2ATDE,Überackern SUDAL / Überackern 2 (AT→DE),AT,DE,av
+ITP-00007,Überackern SUDAL (AT) / Überackern 2 (DE),AT-TSO-0001,Gas Connect Austria,entry,Ueberackern2DEAT,Überackern SUDAL / Überackern 2 (DE→AT),DE,AT,av
+ITP-00007,Überackern SUDAL (AT) / Überackern 2 (DE),DE-TSO-0010,bayernets,exit,Ueberackern2DEAT,Überackern SUDAL / Überackern 2 (DE→AT),DE,AT,av
+ITP-00019,Überackern ABG (AT) / Überackern (DE),AT-TSO-0001,Gas Connect Austria,exit,UeberackernATDE,Überackern ABG / Überackern (AT→DE),AT,DE,1
+ITP-00019,Überackern ABG (AT) / Überackern (DE),DE-TSO-0009,Open Grid Europe,entry,UeberackernATDE,Überackern ABG / Überackern (AT→DE),AT,DE,0
+ITP-00019,Überackern ABG (AT) / Überackern (DE),DE-TSO-0010,bayernets,entry,UeberackernATDE,Überackern ABG / Überackern (AT→DE),AT,DE,0
+ITP-00019,Überackern ABG (AT) / Überackern (DE),AT-TSO-0001,Gas Connect Austria,entry,UeberackernDEAT,Überackern ABG / Überackern (DE→AT),DE,AT,0
+ITP-00019,Überackern ABG (AT) / Überackern (DE),DE-TSO-0009,Open Grid Europe,exit,UeberackernDEAT,Überackern ABG / Überackern (DE→AT),DE,AT,av
+ITP-00019,Überackern ABG (AT) / Überackern (DE),DE-TSO-0010,bayernets,exit,UeberackernDEAT,Überackern ABG / Überackern (DE→AT),DE,AT,av
+ITP-00154,Ungheni,RO-TSO-0001,Transgaz,entry,UngheniMDRO,Ungheni (MD→RO),MD,RO,1
+ITP-00154,Ungheni,RO-TSO-0001,Transgaz,exit,UngheniROMD,Ungheni (RO→MD),RO,MD,1
+ITP-00154,Ungheni,RO-TSO-0004,Vestmoldtransgaz,entry,UngheniROMD,Ungheni (RO→MD),RO,MD,0
+ITP-00052,Valença do Minho (PT) / Tuy (ES),ES-TSO-0006,Enagas,exit,ValencaESPT,Valença do Minho / Tuy (ES→PT),ES,PT,av
+ITP-00052,Valença do Minho (PT) / Tuy (ES),PT-TSO-0001,REN - Gasodutos,entry,ValencaESPT,Valença do Minho / Tuy (ES→PT),ES,PT,av
+ITP-00052,Valença do Minho (PT) / Tuy (ES),ES-TSO-0006,Enagas,entry,ValencaPTES,Valença do Minho / Tuy (PT→ES),PT,ES,av
+ITP-00052,Valença do Minho (PT) / Tuy (ES),PT-TSO-0001,REN - Gasodutos,exit,ValencaPTES,Valença do Minho / Tuy (PT→ES),PT,ES,av
+ITP-00185,Valuyki,RU-TSO-0001,Gazprom,exit,ValuykiRUUA,Valuyki (RU→UA),RU,UA,0
+ITP-00185,Valuyki,UA-TSO-0001,Gas TSO UA,entry,ValuykiRUUA,Valuyki (RU→UA),RU,UA,1
+ITP-00187,Värska,EE-TSO-0001,Elering,exit,VarskaEERU,Värska (EE→RU),EE,RU,av
+ITP-00187,Värska,RU-TSO-0001,Gazprom,entry,VarskaEERU,Värska (EE→RU),EE,RU,av
+ITP-00187,Värska,EE-TSO-0001,Elering,entry,VarskaRUEE,Värska (RU→EE),RU,EE,av
+ITP-00187,Värska,RU-TSO-0001,Gazprom,exit,VarskaRUEE,Värska (RU→EE),RU,EE,av
+ITP-00117,Uzhgorod (UA) - Velké Kapušany (SK),SK-TSO-0001,eustream,exit,VelkeSKUA,Uzhgorod / Velké Kapušany (SK→UA),SK,UA,av
+ITP-00117,Uzhgorod (UA) - Velké Kapušany (SK),UA-TSO-0001,Gas TSO UA,entry,VelkeSKUA,Uzhgorod / Velké Kapušany (SK→UA),SK,UA,av
+ITP-00117,Uzhgorod (UA) - Velké Kapušany (SK),SK-TSO-0001,eustream,entry,VelkeUASK,Uzhgorod / Velké Kapušany (UA→SK),UA,SK,1
+ITP-00117,Uzhgorod (UA) - Velké Kapušany (SK),UA-TSO-0001,Gas TSO UA,exit,VelkeUASK,Uzhgorod / Velké Kapušany (UA→SK),UA,SK,0
+ITP-00431,,UA-TSO-0001,Gas TSO UA,exit,VelkeUASK,Uzhgorod / Velké Kapušany (UA→SK),UA,SK,0
+ITP-00432,,UA-TSO-0001,Gas TSO UA,exit,VelkeUASK,Uzhgorod / Velké Kapušany (UA→SK),UA,SK,0
+ITP-00433,,UA-TSO-0001,Gas TSO UA,exit,VelkeUASK,Uzhgorod / Velké Kapušany (UA→SK),UA,SK,0
+ITP-00434,,UA-TSO-0001,Gas TSO UA,exit,VelkeUASK,Uzhgorod / Velké Kapušany (UA→SK),UA,SK,0
+ITP-00034,Eynatten (BE) // Lichtenbusch / Raeren (DE) (Thyssengas),DE-TSO-0002,Thyssengas,entry,VIPBEDE,VIP Belgium - NCG (BE→DE),BE,DE,av
+ITP-00057,Eynatten (BE) // Lichtenbusch / Raeren (DE) (Fluxys TENP),DE-TSO-0007,Fluxys TENP,entry,VIPBEDE,VIP Belgium - NCG (BE→DE),BE,DE,av
+ITP-00111,Eynatten (BE) // Lichtenbusch / Raeren (DE) (OGE),DE-TSO-0009,Open Grid Europe,entry,VIPBEDE,VIP Belgium - NCG (BE→DE),BE,DE,0
+ITP-00159,Eynatten 2 (BE) // Lichtenbusch / Raeren (DE),BE-TSO-0001,Fluxys Belgium,exit,VIPBEDE,VIP Belgium - NCG (BE→DE),BE,DE,0
+ITP-00542,VIP Belgium - NCG,BE-TSO-0001,Fluxys Belgium,exit,VIPBEDE,VIP Belgium - NCG (BE→DE),BE,DE,0
+ITP-00542,VIP Belgium - NCG,DE-TSO-0009,Open Grid Europe,entry,VIPBEDE,VIP Belgium - NCG (BE→DE),BE,DE,0
+ITP-00555,VIP-BENE,BE-TSO-0001,Fluxys Belgium,exit,VIPBENEBENL,VIP-BENE (BE→NL),BE,NL,av
+ITP-00555,VIP-BENE,NL-TSO-0001,GTS,entry,VIPBENEBENL,VIP-BENE (BE→NL),BE,NL,av
+ITP-00555,VIP-BENE,BE-TSO-0001,Fluxys Belgium,entry,VIPBENENLBE,VIP-BENE (NL→BE),NL,BE,av
+ITP-00555,VIP-BENE,NL-TSO-0001,GTS,exit,VIPBENENLBE,VIP-BENE (NL→BE),NL,BE,av
+ITP-00537,VIP Brandov-GASPOOL,CZ-TSO-0001,NET4GAS,exit,VIPBrandovCZDE,VIP Brandov-GASPOOL (CZ→DE),CZ,DE,0
+ITP-00537,VIP Brandov-GASPOOL,DE-TSO-0001,GASCADE Gastransport,entry,VIPBrandovCZDE,VIP Brandov-GASPOOL (CZ→DE),CZ,DE,1
+ITP-00537,VIP Brandov-GASPOOL,CZ-TSO-0001,NET4GAS,entry,VIPBrandovDECZ,VIP Brandov-GASPOOL (DE→CZ),DE,CZ,0
+ITP-00537,VIP Brandov-GASPOOL,DE-TSO-0001,GASCADE Gastransport,exit,VIPBrandovDECZ,VIP Brandov-GASPOOL (DE→CZ),DE,CZ,0
+ITP-00034,Eynatten (BE) // Lichtenbusch / Raeren (DE) (Thyssengas),DE-TSO-0002,Thyssengas,exit,VIPDEBE,VIP Belgium - NCG (DE→BE),DE,BE,0
+ITP-00057,Eynatten (BE) // Lichtenbusch / Raeren (DE) (Fluxys TENP),DE-TSO-0007,Fluxys TENP,exit,VIPDEBE,VIP Belgium - NCG (DE→BE),DE,BE,av
+ITP-00111,Eynatten (BE) // Lichtenbusch / Raeren (DE) (OGE),DE-TSO-0009,Open Grid Europe,exit,VIPDEBE,VIP Belgium - NCG (DE→BE),DE,BE,av
+ITP-00159,Eynatten 2 (BE) // Lichtenbusch / Raeren (DE),BE-TSO-0001,Fluxys Belgium,entry,VIPDEBE,VIP Belgium - NCG (DE→BE),DE,BE,0
+ITP-00542,VIP Belgium - NCG,BE-TSO-0001,Fluxys Belgium,entry,VIPDEBE,VIP Belgium - NCG (DE→BE),DE,BE,0
+ITP-00542,VIP Belgium - NCG,DE-TSO-0009,Open Grid Europe,exit,VIPDEBE,VIP Belgium - NCG (DE→BE),DE,BE,av
+ITP-00076,Bunde (DE) / Oude Statenzijl (H) (NL) (GASCADE),DE-TSO-0001,GASCADE Gastransport,exit,VIPTTFGASPOOLHDENL,VIP TTF-GASPOOL (H) (DE→NL),DE,NL,0
+ITP-00076,Bunde (DE) / Oude Statenzijl (H) (NL) (GASCADE),NL-TSO-0001,GTS,entry,VIPTTFGASPOOLHDENL,VIP TTF-GASPOOL (H) (DE→NL),DE,NL,sum
+ITP-00102,Bunde (DE) / Oude Statenzijl (H) (NL) (GUD),DE-TSO-0005,Gasunie Deutschland,exit,VIPTTFGASPOOLHDENL,VIP TTF-GASPOOL (H) (DE→NL),DE,NL,0
+ITP-00102,Bunde (DE) / Oude Statenzijl (H) (NL) (GUD),NL-TSO-0001,GTS,entry,VIPTTFGASPOOLHDENL,VIP TTF-GASPOOL (H) (DE→NL),DE,NL,sum
+ITP-00554,VIP TTF-GASPOOL H,DE-TSO-0001,GASCADE Gastransport,exit,VIPTTFGASPOOLHDENL,VIP TTF-GASPOOL (H) (DE→NL),DE,NL,0
+ITP-00554,VIP TTF-GASPOOL H,DE-TSO-0005,Gasunie Deutschland,exit,VIPTTFGASPOOLHDENL,VIP TTF-GASPOOL (H) (DE→NL),DE,NL,0
+ITP-00554,VIP TTF-GASPOOL H,NL-TSO-0001,GTS,entry,VIPTTFGASPOOLHDENL,VIP TTF-GASPOOL (H) (DE→NL),DE,NL,0
+ITP-00076,Bunde (DE) / Oude Statenzijl (H) (NL) (GASCADE),DE-TSO-0001,GASCADE Gastransport,entry,VIPTTFGASPOOLHNLDE,VIP TTF-GASPOOL (H) (NL→DE),NL,DE,sum
+ITP-00076,Bunde (DE) / Oude Statenzijl (H) (NL) (GASCADE),NL-TSO-0001,GTS,exit,VIPTTFGASPOOLHNLDE,VIP TTF-GASPOOL (H) (NL→DE),NL,DE,0
+ITP-00102,Bunde (DE) / Oude Statenzijl (H) (NL) (GUD),DE-TSO-0005,Gasunie Deutschland,entry,VIPTTFGASPOOLHNLDE,VIP TTF-GASPOOL (H) (NL→DE),NL,DE,0
+ITP-00102,Bunde (DE) / Oude Statenzijl (H) (NL) (GUD),NL-TSO-0001,GTS,exit,VIPTTFGASPOOLHNLDE,VIP TTF-GASPOOL (H) (NL→DE),NL,DE,0
+ITP-00554,VIP TTF-GASPOOL H,DE-TSO-0001,GASCADE Gastransport,entry,VIPTTFGASPOOLHNLDE,VIP TTF-GASPOOL (H) (NL→DE),NL,DE,0
+ITP-00554,VIP TTF-GASPOOL H,DE-TSO-0005,Gasunie Deutschland,entry,VIPTTFGASPOOLHNLDE,VIP TTF-GASPOOL (H) (NL→DE),NL,DE,sum
+ITP-00554,VIP TTF-GASPOOL H,NL-TSO-0001,GTS,exit,VIPTTFGASPOOLHNLDE,VIP TTF-GASPOOL (H) (NL→DE),NL,DE,0
+ITP-00118,Bunde (DE) / Oude Statenzijl (L) (NL) (GTG Nord),DE-TSO-0006,Gastransport Nord,exit,VIPTTFGASPOOLLDENL,VIP TTF-GASPOOL (L) (DE→NL),DEL,NLL,sum
+ITP-00118,Bunde (DE) / Oude Statenzijl (L) (NL) (GTG Nord),NL-TSO-0001,GTS,entry,VIPTTFGASPOOLLDENL,VIP TTF-GASPOOL (L) (DE→NL),DEL,NLL,0
+ITP-00107,Bunde (DE) / Oude Statenzijl (L) (NL) (GUD),DE-TSO-0005,Gasunie Deutschland,exit,VIPTTFGASPOOLLDENL,VIP TTF-GASPOOL (L) (DE→NL),DEL,NLL,sum
+ITP-00107,Bunde (DE) / Oude Statenzijl (L) (NL) (GUD),NL-TSO-0001,GTS,entry,VIPTTFGASPOOLLDENL,VIP TTF-GASPOOL (L) (DE→NL),DEL,NLL,0
+ITP-00553,VIP TTF-GASPOOL L,DE-TSO-0005,Gasunie Deutschland,exit,VIPTTFGASPOOLLDENL,VIP TTF-GASPOOL (L) (DE→NL),DEL,NLL,0
+ITP-00553,VIP TTF-GASPOOL L,NL-TSO-0001,GTS,entry,VIPTTFGASPOOLLDENL,VIP TTF-GASPOOL (L) (DE→NL),DEL,NLL,0
+ITP-00118,Bunde (DE) / Oude Statenzijl (L) (NL) (GTG Nord),DE-TSO-0006,Gastransport Nord,entry,VIPTTFGASPOOLLNLDE,VIP TTF-GASPOOL (L) (NL→DE),NLL,DEL,sum
+ITP-00118,Bunde (DE) / Oude Statenzijl (L) (NL) (GTG Nord),NL-TSO-0001,GTS,exit,VIPTTFGASPOOLLNLDE,VIP TTF-GASPOOL (L) (NL→DE),NLL,DEL,0
+ITP-00107,Bunde (DE) / Oude Statenzijl (L) (NL) (GUD),DE-TSO-0005,Gasunie Deutschland,entry,VIPTTFGASPOOLLNLDE,VIP TTF-GASPOOL (L) (NL→DE),NLL,DEL,sum
+ITP-00107,Bunde (DE) / Oude Statenzijl (L) (NL) (GUD),NL-TSO-0001,GTS,exit,VIPTTFGASPOOLLNLDE,VIP TTF-GASPOOL (L) (NL→DE),NLL,DEL,0
+ITP-00553,VIP TTF-GASPOOL L,DE-TSO-0005,Gasunie Deutschland,entry,VIPTTFGASPOOLLNLDE,VIP TTF-GASPOOL (L) (NL→DE),NLL,DEL,0
+ITP-00553,VIP TTF-GASPOOL L,NL-TSO-0001,GTS,exit,VIPTTFGASPOOLLNLDE,VIP TTF-GASPOOL (L) (NL→DE),NLL,DEL,0
+ITP-00066,Bocholtz (OGE),DE-TSO-0009,Open Grid Europe,exit,VIPTTFNCGHDENL,VIP TTF-NCG (H) (DE→NL),DE,NL,0
+ITP-00068,Bocholtz (Fluxys TENP),DE-TSO-0007,Fluxys TENP,exit,VIPTTFNCGHDENL,VIP TTF-NCG (H) (DE→NL),DE,NL,0
+ITP-00169,Bocholtz,NL-TSO-0001,GTS,entry,VIPTTFNCGHDENL,VIP TTF-NCG (H) (DE→NL),DE,NL,0
+ITP-00103,Bunde (DE) / Oude Statenzijl (H) (NL) I (OGE),DE-TSO-0009,Open Grid Europe,exit,VIPTTFNCGHDENL,VIP TTF-NCG (H) (DE→NL),DE,NL,0
+ITP-00103,Bunde (DE) / Oude Statenzijl (H) (NL) I (OGE),NL-TSO-0001,GTS,entry,VIPTTFNCGHDENL,VIP TTF-NCG (H) (DE→NL),DE,NL,1
+ITP-00551,VIP TTF-NCG H,DE-TSO-0009,Open Grid Europe,exit,VIPTTFNCGHDENL,VIP TTF-NCG (H) (DE→NL),DE,NL,0
+ITP-00551,VIP TTF-NCG H,NL-TSO-0001,GTS,entry,VIPTTFNCGHDENL,VIP TTF-NCG (H) (DE→NL),DE,NL,0
+ITP-00066,Bocholtz (OGE),DE-TSO-0009,Open Grid Europe,entry,VIPTTFNCGHNLDE,VIP TTF-NCG (H) (NL→DE),NL,DE,sum
+ITP-00068,Bocholtz (Fluxys TENP),DE-TSO-0007,Fluxys TENP,entry,VIPTTFNCGHNLDE,VIP TTF-NCG (H) (NL→DE),NL,DE,0
+ITP-00169,Bocholtz,NL-TSO-0001,GTS,exit,VIPTTFNCGHNLDE,VIP TTF-NCG (H) (NL→DE),NL,DE,0
+ITP-00103,Bunde (DE) / Oude Statenzijl (H) (NL) I (OGE),DE-TSO-0009,Open Grid Europe,entry,VIPTTFNCGHNLDE,VIP TTF-NCG (H) (NL→DE),NL,DE,0
+ITP-00103,Bunde (DE) / Oude Statenzijl (H) (NL) I (OGE),NL-TSO-0001,GTS,exit,VIPTTFNCGHNLDE,VIP TTF-NCG (H) (NL→DE),NL,DE,sum
+ITP-00551,VIP TTF-NCG H,DE-TSO-0009,Open Grid Europe,entry,VIPTTFNCGHNLDE,VIP TTF-NCG (H) (NL→DE),NL,DE,0
+ITP-00551,VIP TTF-NCG H,NL-TSO-0001,GTS,exit,VIPTTFNCGHNLDE,VIP TTF-NCG (H) (NL→DE),NL,DE,0
+ITP-00552,VIP-TTF-NCG-L,DE-TSO-0002,Thyssengas,exit,VIPTTFNCGLDENL,VIP TTF-NCG (L) (DE→NL),DEL,NLL,1
+ITP-00552,VIP-TTF-NCG-L,DE-TSO-0009,Open Grid Europe,entry,VIPTTFNCGLDENL,VIP TTF-NCG (L) (DE→NL),DEL,NLL,0
+ITP-00552,VIP TTF-NCG L,NL-TSO-0001,GTS,entry,VIPTTFNCGLDENL,VIP TTF-NCG (L) (DE→NL),DEL,NLL,0
+ITP-00078,Winterswijk,DE-TSO-0009,Open Grid Europe,exit,VIPTTFNCGLDENL,VIP TTF-NCG (L) (DE→NL),DEL,NLL,0
+ITP-00078,Winterswijk,NL-TSO-0001,GTS,entry,VIPTTFNCGLDENL,VIP TTF-NCG (L) (DE→NL),DEL,NLL,0
+ITP-00026,Zevenaar (Thyssengas),DE-TSO-0002,Thyssengas,exit,VIPTTFNCGLDENL,VIP TTF-NCG (L) (DE→NL),DEL,NLL,0
+ITP-00060,Zevenaar (OGE),DE-TSO-0009,Open Grid Europe,exit,VIPTTFNCGLDENL,VIP TTF-NCG (L) (DE→NL),DEL,NLL,0
+ITP-00259,Zevenaar,NL-TSO-0001,GTS,entry,VIPTTFNCGLDENL,VIP TTF-NCG (L) (DE→NL),DEL,NLL,0
+ITP-00552,VIP-TTF-NCG-L,DE-TSO-0002,Thyssengas,entry,VIPTTFNCGLNLDE,VIP TTF-NCG (L) (NL→DE),NLL,DEL,0
+ITP-00552,VIP-TTF-NCG-L,DE-TSO-0009,Open Grid Europe,exit,VIPTTFNCGLNLDE,VIP TTF-NCG (L) (NL→DE),NLL,DEL,0
+ITP-00552,VIP TTF-NCG L,NL-TSO-0001,GTS,exit,VIPTTFNCGLNLDE,VIP TTF-NCG (L) (NL→DE),NLL,DEL,0
+ITP-00078,Winterswijk,DE-TSO-0009,Open Grid Europe,entry,VIPTTFNCGLNLDE,VIP TTF-NCG (L) (NL→DE),NLL,DEL,sum
+ITP-00078,Winterswijk,NL-TSO-0001,GTS,exit,VIPTTFNCGLNLDE,VIP TTF-NCG (L) (NL→DE),NLL,DEL,0
+ITP-00026,Zevenaar (Thyssengas),DE-TSO-0002,Thyssengas,entry,VIPTTFNCGLNLDE,VIP TTF-NCG (L) (NL→DE),NLL,DEL,0
+ITP-00060,Zevenaar (OGE),DE-TSO-0009,Open Grid Europe,entry,VIPTTFNCGLNLDE,VIP TTF-NCG (L) (NL→DE),NLL,DEL,sum
+ITP-00259,Zevenaar,NL-TSO-0001,GTS,exit,VIPTTFNCGLNLDE,VIP TTF-NCG (L) (NL→DE),NLL,DEL,0
+ITP-00114,Blaregnies (BE) / Taisnières (H) (FR) (Segeo),BE-TSO-0001,Fluxys Belgium,exit,VirtualysBEFR,Virtualys (BE→FR),BE,FR,0
+ITP-00147,Blaregnies (H) (BE) / Taisnières (H) (FR) (Troll),BE-TSO-0001,Fluxys Belgium,exit,VirtualysBEFR,Virtualys (BE→FR),BE,FR,0
+ITP-00152,Blaregnies (BE) / Taisnières (H) (FR) (Segeo/Troll),FR-TSO-0003,GRTgaz,entry,VirtualysBEFR,Virtualys (BE→FR),BE,FR,sum
+ITP-00526,VIRTUALYS,BE-TSO-0001,Fluxys Belgium,exit,VirtualysBEFR,Virtualys (BE→FR),BE,FR,0
+ITP-00526,VIRTUALYS,FR-TSO-0003,GRTgaz,entry,VirtualysBEFR,Virtualys (BE→FR),BE,FR,sum
+ITP-00114,Blaregnies (BE) / Taisnières (H) (FR) (Segeo),BE-TSO-0001,Fluxys Belgium,entry,VirtualysFRBE,Virtualys (FR→BE),FR,BE,sum
+ITP-00147,Blaregnies (H) (BE) / Taisnières (H) (FR) (Troll),BE-TSO-0001,Fluxys Belgium,entry,VirtualysFRBE,Virtualys (FR→BE),FR,BE,sum
+ITP-00152,Blaregnies (BE) / Taisnières (H) (FR) (Segeo/Troll),FR-TSO-0003,GRTgaz,exit,VirtualysFRBE,Virtualys (FR→BE),FR,BE,0
+ITP-00526,VIRTUALYS,BE-TSO-0001,Fluxys Belgium,entry,VirtualysFRBE,Virtualys (FR→BE),FR,BE,sum
+ITP-00526,VIRTUALYS,FR-TSO-0003,GRTgaz,exit,VirtualysFRBE,Virtualys (FR→BE),FR,BE,0
+ITP-00069,Waidhaus (OGE),DE-TSO-0009,VIP TTF-THE (L) (NL→DE),entry,WaidhausCZDE,Waidhaus (CZ→DE),CZ,DE,av
+ITP-00073,Waidhaus (GRTgaz D),DE-TSO-0004,GRTgaz Deutschland,entry,WaidhausCZDE,Waidhaus (CZ→DE),CZ,DE,av
+ITP-00139,Waidhaus,CZ-TSO-0001,NET4GAS,exit,WaidhausCZDE,Waidhaus (CZ→DE),CZ,DE,av
+ITP-00538,VIP Waidhaus NCG,CZ-TSO-0001,NET4GAS,exit,WaidhausCZDE,Waidhaus (CZ→DE),CZ,DE,0
+ITP-00538,VIP Waidhaus NCG,DE-TSO-0009,Open Grid Europe,entry,WaidhausCZDE,Waidhaus (CZ→DE),CZ,DE,av
+ITP-00069,Waidhaus (OGE),DE-TSO-0009,Open Grid Europe,exit,WaidhausDECZ,Waidhaus (DE→CZ),DE,CZ,0
+ITP-00073,Waidhaus (GRTgaz D),DE-TSO-0004,GRTgaz Deutschland,exit,WaidhausDECZ,Waidhaus (DE→CZ),DE,CZ,0
+ITP-00139,Waidhaus,CZ-TSO-0001,NET4GAS,entry,WaidhausDECZ,Waidhaus (DE→CZ),DE,CZ,av
+ITP-00538,VIP Waidhaus NCG,CZ-TSO-0001,NET4GAS,entry,WaidhausDECZ,Waidhaus (DE→CZ),DE,CZ,av
+ITP-00538,VIP Waidhaus NCG,DE-TSO-0009,Open Grid Europe,exit,WaidhausDECZ,Waidhaus (DE→CZ),DE,CZ,0
+ITP-00544,VIP Germany-CH,DE-TSO-0007,Fluxys TENP,entry,WallbachCHDE,Wallbach (CH→DE),CH,DE,av
+ITP-00294,Wallbach,CH-TSO-0001,Swissgas ,exit,WallbachCHDE,Wallbach (CH→DE),CH,DE,0
+ITP-00294,Wallbach,CH-TSO-0002,FluxSwiss ,exit,WallbachCHDE,Wallbach (CH→DE),CH,DE,0
+ITP-00294,Wallbach,DE-TSO-0007,Fluxys TENP,entry,WallbachCHDE,Wallbach (CH→DE),CH,DE,av
+ITP-00294,Wallbach,DE-TSO-0009,Open Grid Europe,entry,WallbachCHDE,Wallbach (CH→DE),CH,DE,0
+ITP-00294,Wallbach,DE-TSO-0019,Fluxys TENP & OGE,entry,WallbachCHDE,Wallbach (CH→DE),CH,DE,0
+ITP-00544,VIP Germany-CH,DE-TSO-0007,Fluxys TENP,exit,WallbachDECH,Wallbach (DE→CH),DE,CH,0
+ITP-00294,Wallbach,CH-TSO-0001,Swissgas ,entry,WallbachDECH,Wallbach (DE→CH),DE,CH,0
+ITP-00294,Wallbach,CH-TSO-0002,FluxSwiss ,entry,WallbachDECH,Wallbach (DE→CH),DE,CH,0
+ITP-00294,Wallbach,DE-TSO-0007,Fluxys TENP,exit,WallbachDECH,Wallbach (DE→CH),DE,CH,av
+ITP-00294,Wallbach,DE-TSO-0009,Open Grid Europe,exit,WallbachDECH,Wallbach (DE→CH),DE,CH,av
+ITP-00294,Wallbach,DE-TSO-0019,Fluxys TENP & OGE,exit,WallbachDECH,Wallbach (DE→CH),DE,CH,0
+ITP-00099,Wloclawek,PL-TSO-0001,GAZ-SYSTEM (ISO),exit,WloclawekPLYAMPL,Wloclawek (PL/Yamal→PL),PLYAM,PL,av
+ITP-00099,Wloclawek,PL-TSO-0002,GAZ-SYSTEM,entry,WloclawekPLYAMPL,Wloclawek (PL/Yamal→PL),PLYAM,PL,av
+ITP-00092,Wysokoje,BY-TSO-0001,Gazprom Belarus,exit,WysokojeBYPL,Wysokoje (BY→PL),BY,PL,av
+ITP-00092,Wysokoje,PL-TSO-0002,GAZ-SYSTEM,entry,WysokojeBYPL,Wysokoje (BY→PL),BY,PL,av
+ITP-00276,Stara Zagora,BG-TSO-0001,Bulgartransgaz,exit,ZagoraBGIGB,Stara Zagora (BG→BG/IGB),BG,IGB,av
+ITP-00276,Stara Zagora,BG-TSO-0003,ICGB,entry,ZagoraBGIGB,Stara Zagora (BG→BG/IGB),BG,IGB,av
+ITP-00276,Stara Zagora,BG-TSO-0001,Bulgartransgaz,entry,ZagoraIGBBG,Stara Zagora (BG/IGB→BG),IGB,BG,av
+ITP-00276,Stara Zagora,BG-TSO-0003,ICGB,exit,ZagoraIGBBG,Stara Zagora (BG/IGB→BG),IGB,BG,av
+ITP-00088,Zandvliet H-gas,BE-TSO-0001,Fluxys Belgium,exit,ZandvlietBENL,Zandvliet (BE→NL),BE,NL,av
+ITP-00088,Zandvliet H-gas,NL-TSO-0001,GTS,entry,ZandvlietBENL,Zandvliet (BE→NL),BE,NL,av
+ITP-00088,Zandvliet H-gas,BE-TSO-0001,Fluxys Belgium,entry,ZandvlietNLBE,Zandvliet (NL→BE),NL,BE,av
+ITP-00088,Zandvliet H-gas,NL-TSO-0001,GTS,exit,ZandvlietNLBE,Zandvliet (NL→BE),NL,BE,av
+ITP-00110,Zelzate (Zebra Pijpleiding),BE-TSO-0001,Fluxys Belgium,exit,ZebraBENL,Zelzate (Zebra) (BE→NL),BE,NL,av
+ITP-00110,Zelzate (Zebra Pijpleiding),NL-TSO-0001,GTS,entry,ZebraBENL,Zelzate (Zebra) (BE→NL),BE,NL,av
+ITP-00110,Zelzate (Zebra Pijpleiding),BE-TSO-0001,Fluxys Belgium,entry,ZebraNLBE,Zelzate (Zebra) (NL→BE),NL,BE,av
+ITP-00110,Zelzate (Zebra Pijpleiding),NL-TSO-0001,GTS,exit,ZebraNLBE,Zelzate (Zebra) (NL→BE),NL,BE,av
+ITP-00061,Zeebrugge IZT,BE-TSO-0001,Fluxys Belgium,exit,ZeebruggeBEIUK,Zeebrugge / IZT (BE→UK/IUK),BE,IUK,av
+ITP-00061,Zeebrugge IZT,UK-TSO-0003,Interconnector,entry,ZeebruggeBEIUK,Zeebrugge / IZT (BE→UK/IUK),BE,IUK,av
+ITP-00106,Zeebrugge ZPT,BE-TSO-0001,Fluxys Belgium,exit,ZeebruggeBENO,Zeebrugge / ZPT (BE→NO),BE,NO,av
+ITP-00106,Zeebrugge ZPT,NO-TSO-0001,Gassco,entry,ZeebruggeBENO,Zeebrugge / ZPT (BE→NO),BE,NO,av
+ITP-00061,Zeebrugge IZT,BE-TSO-0001,Fluxys Belgium,entry,ZeebruggeIUKBE,Zeebrugge / IZT (UK/IUK→BE),IUK,BE,av
+ITP-00061,Zeebrugge IZT,UK-TSO-0003,Interconnector,exit,ZeebruggeIUKBE,Zeebrugge / IZT (UK/IUK→BE),IUK,BE,av
+ITP-00106,Zeebrugge ZPT,BE-TSO-0001,Fluxys Belgium,entry,ZeebruggeNOBE,Zeebrugge / ZPT (NO→BE),NO,BE,av
+ITP-00106,Zeebrugge ZPT,NO-TSO-0001,Gassco,exit,ZeebruggeNOBE,Zeebrugge / ZPT (NO→BE),NO,BE,av
+ITP-00101,Zelzate,BE-TSO-0001,Fluxys Belgium,exit,ZelzateBENL,Zelzate (BE→NL),BE,NL,av
+ITP-00101,Zelzate,NL-TSO-0001,GTS,entry,ZelzateBENL,Zelzate (BE→NL),BE,NL,av
+ITP-00101,Zelzate,BE-TSO-0001,Fluxys Belgium,entry,ZelzateNLBE,Zelzate (NL→BE),NL,BE,av
+ITP-00101,Zelzate,NL-TSO-0001,GTS,exit,ZelzateNLBE,Zelzate (NL→BE),NL,BE,av
+ITP-00252,Gubin Gaz-System - PL / Guben ONTRAS DE,DE-TSO-0003,ONTRAS,exit,,Gubin / Guben (DE→PL),DE,PL,av
+ITP-00252,Gubin Gaz-System - PL / Guben ONTRAS DE,PL-TSO-0002,GAZ-SYSTEM,entry,,Gubin / Guben (DE→PL),DE,PL,av
+ITP-00253,Kamminke ONTRAS - DE / Kamminke Gaz-System PL,PL-TSO-0002,GAZ-SYSTEM,exit,,Kamminke (PL→DE),PL,DE,av
+ITP-00253,Kamminke ONTRAS - DE / Kamminke Gaz-System PL,DE-TSO-0003,ONTRAS,entry,,Kamminke (PL→DE),PL,DE,av
+ITP-00013,Lasów,DE-TSO-0003,ONTRAS,exit,,Lasów (DE→PL),DE,PL,av
+ITP-00013,Lasów,PL-TSO-0002,GAZ-SYSTEM,entry,,Lasów (DE→PL),DE,PL,av
+ITP-00013,Lasów,DE-TSO-0003,ONTRAS,entry,,Lasów (PL→DE),PL,DE,av
+ITP-00013,Lasów,PL-TSO-0002,GAZ-SYSTEM,exit,,Lasów (PL→DE),PL,DE,av
+ITP-00519,Dunkerque DKB (BE),BE-TSO-0001,Fluxys Belgium,exit,,Dunkerque DKB (BE→FR/LNG),BE,LNGFR,1
+ITP-00519,Dunkerque DKB (BE),BE-TSO-0001,Fluxys Belgium,entry,,Dunkerque DKB (FR/LNG→BE),LNGFR,BE,1
+ITP-00100,Korneti,LV-TSO-0001,Conexus,exit,,Korneti (LV→RU),LV,RU,0
+ITP-00100,Korneti,LV-TSO-0001,Conexus,entry,,Korneti (RU→LV),RU,LV,0
+ITP-10010,VIP TTF-THE-L,DE-TSO-0002,Thyssengas,exit,,VIP TTF-THE (L) (DE→NL),DEL,NLL,0
+ITP-10010,VIP TTF-THE-L,NL-TSO-0001,GTS,entry,,VIP TTF-THE (L) (DE→NL),DEL,NLL,0
+ITP-10010,VIP TTF-THE-L,DE-TSO-0002,Thyssengas,entry,,VIP TTF-THE (L) (NL→DE),NLL,DEL,0
+ITP-10010,VIP TTF-THE-L,NL-TSO-0001,GTS,exit,,VIP TTF-THE (L) (NL→DE),NLL,DEL,0
+ITP-00516,Zone Oude Statenzijl H,DE-TSO-0005,Gasunie Deutschland,exit,,Zone Oude Statenzijl (DE→NL),DE,NL,0
+ITP-00516,Zone Oude Statenzijl H,NL-TSO-0001,GTS,entry,,Zone Oude Statenzijl (DE→NL),DE,NL,0
+ITP-00001,PIR MIDI,FR-TSO-0002,TIGF,entry,,,,,
+ITP-00001,PIR MIDI,FR-TSO-0002,TIGF,exit,,,,,
+ITP-00024,Imatra,FI-TSO-0001,Gasum Oy,entry,,,,,0
+ITP-00151,Vlieghuis,NL-TSO-0001,GTS,entry,,,,,
+ITP-00151,Vlieghuis,NL-TSO-0001,GTS,exit,,,,,
+ITP-00163,Liaison Nord Sud,FR-TSO-0003,GRTgaz,entry,,,,,
+ITP-00163,Liaison Nord Sud,FR-TSO-0003,GRTgaz,exit,,,,,
+ITP-00190,Kienbaum,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00190,Kienbaum,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00190,Kienbaum,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00190,Kienbaum,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00191,Drohne GUD / OGE,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00191,Drohne GUD / OGE,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00192,Emsbüren-Berge,DE-TSO-0002,Thyssengas,entry,,,,,
+ITP-00192,Emsbüren-Berge,DE-TSO-0002,Thyssengas,exit,,,,,
+ITP-00192,Emsbüren-Berge,DE-TSO-0005,Gasunie Deutschland,entry,,,,,
+ITP-00192,Emsbüren-Berge,DE-TSO-0005,Gasunie Deutschland,exit,,,,,
+ITP-00193,Emsbüren RG (L-gas),DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00193,Emsbüren RG (L-gas),DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00194,Wardenburg RG,DE-TSO-0005,Gasunie Deutschland,entry,,,,,
+ITP-00194,Wardenburg RG,DE-TSO-0005,Gasunie Deutschland,exit,,,,,
+ITP-00194,Wardenburg RG,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00194,Wardenburg RG,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00195,Steinitz,DE-TSO-0003,ONTRAS,entry,,,,,
+ITP-00195,Steinitz,DE-TSO-0003,ONTRAS,exit,,,,,
+ITP-00195,Steinitz,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00195,Steinitz,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00196,Broichweiden Süd,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00196,Broichweiden Süd,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00196,Broichweiden Süd,DE-TSO-0002,Thyssengas,entry,,,,,
+ITP-00196,Broichweiden Süd,DE-TSO-0002,Thyssengas,exit,,,,,
+ITP-00197,Quarnstedt,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00197,Quarnstedt,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00198,Reckrod,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00198,Reckrod,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00198,Reckrod,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00198,Reckrod,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00199,Bunder-Tief,DE-TSO-0005,Gasunie Deutschland,entry,,,,,
+ITP-00199,Bunder-Tief,DE-TSO-0005,Gasunie Deutschland,exit,,,,,
+ITP-00199,Bunder-Tief,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00199,Bunder-Tief,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00200,Nordlohne,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00200,Nordlohne,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00203,Lampertheim IV,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00203,Lampertheim IV,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00203,Lampertheim IV,DE-TSO-0014,terranets bw,entry,,,,,
+ITP-00203,Lampertheim IV,DE-TSO-0014,terranets bw,exit,,,,,
+ITP-00206,Pfronten,DE-TSO-0010,bayernets,exit,,,,,
+ITP-00209,,NO-TSO-0001,Gassco,entry,,,,,0
+ITP-00209,,NO-TSO-0001,Gassco,exit,,,,,0
+ITP-00256,Ahlten,DE-TSO-0008,Nowega,entry,,,,,
+ITP-00256,Ahlten,DE-TSO-0008,Nowega,exit,,,,,
+ITP-00256,Ahlten,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00256,Ahlten,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00257,Lampertheim I,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00257,Lampertheim I,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00257,Lampertheim I,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00268,Gernsheim,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00268,Gernsheim,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00268,Gernsheim,DE-TSO-0004,GRTgaz Deutschland,entry,,,,,
+ITP-00268,Gernsheim,DE-TSO-0004,GRTgaz Deutschland,exit,,,,,
+ITP-00277,Drohne GASCADE / OGE,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00277,Drohne GASCADE / OGE,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00279,Hatfield Moor OnShore,UK-TSO-0001,National Grid Gas,entry,,,,,
+ITP-00282,Kiefersfelden-Kufstein,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00284,Theddlethorpe,UK-TSO-0001,National Grid Gas,entry,,,,,
+ITP-00288,SRG Delivery to other transmission networks,IT-TSO-0001,Snam Rete Gas,exit,,,,,
+ITP-00289,BE Quality Conversion Point H-Zone,BE-TSO-0001,Fluxys Belgium,entry,,,,,
+ITP-00289,BE Quality Conversion Point H-Zone,BE-TSO-0001,Fluxys Belgium,exit,,,,,
+ITP-00290,BE Quality Conversion Point L-Zone,BE-TSO-0001,Fluxys Belgium,entry,,,,,
+ITP-00290,BE Quality Conversion Point L-Zone,BE-TSO-0001,Fluxys Belgium,exit,,,,,
+ITP-00292,GMS Ihtiman,BG-TSO-0001,Bulgartransgaz,entry,,,,,
+ITP-00292,GMS Ihtiman,BG-TSO-0001,Bulgartransgaz,exit,,,,,
+ITP-00298,Carrickfergus,IE-TSO-0001,GNI (UK),entry,,,,,0
+ITP-00298,Carrickfergus,UK-TSO-0002,,exit,,,,,0
+ITP-00305,Dinxperlo,NL-TSO-0001,GTS,exit,,,,,
+ITP-00306,Zone L-Gas GUD/OGE,DE-TSO-0005,Gasunie Deutschland,entry,,,,,
+ITP-00306,Zone L-Gas GUD/OGE,DE-TSO-0005,Gasunie Deutschland,exit,,,,,
+ITP-00306,Zone L-Gas GUD/OGE,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00306,Zone L-Gas GUD/OGE,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00308,Haiming 2-RAGES/bn,DE-TSO-0010,bayernets,entry,,,,,
+ITP-00308,Haiming 2-RAGES/bn,DE-TSO-0010,bayernets,exit,,,,,
+ITP-00440,GMS Caushany,MD-TSO-0001,Moldovatransgaz LLC,entry,,,,,0
+ITP-00440,GMS Caushany,UA-TSO-0001,Gas TSO UA,exit,,,,,0
+ITP-00444,Lymanske (UA) / (MD),UA-TSO-0001,Gas TSO UA,entry,,,,,
+ITP-00444,Lymanske (UA) / (MD),UA-TSO-0001,Gas TSO UA,exit,,,,,
+ITP-00492,Bacton IPs,UK-TSO-0001,National Grid Gas,entry,,,,,
+ITP-00494,Misso / Estonia,EE-TSO-0001,Elering,entry,,,,,
+ITP-00498,Steinbrink (DE),DE-TSO-0008,Nowega,entry,,,,,
+ITP-00498,Steinbrink (DE),DE-TSO-0008,Nowega,exit,,,,,
+ITP-00498,Steinbrink (DE),DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00498,Steinbrink (DE),DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00499,Zone GASCADE / OGE,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00499,Zone GASCADE / OGE,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00499,Zone GASCADE / OGE,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00499,Zone GASCADE / OGE,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00501,Lubmin II,DE-TSO-0018,Fluxys Deutschland,exit,,,,,
+ITP-00513,Vitzeroda MÜP,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00513,Vitzeroda MÜP,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00513,Vitzeroda MÜP,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00513,Vitzeroda MÜP,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00515,Transfer Point NGTN <-> GTNTT,BG-TSO-0001,Bulgartransgaz,entry,,,,,
+ITP-00515,Transfer Point NGTN <-> GTNTT,BG-TSO-0001,Bulgartransgaz,exit,,,,,
+ITP-00517,Achim II,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00517,Achim II,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00517,Achim II,DE-TSO-0018,Fluxys Deutschland,entry,,,,,
+ITP-00517,Achim II,DE-TSO-0018,Fluxys Deutschland,exit,,,,,
+ITP-00518,Deutschneudorf_NEW-HSK1,DE-TSO-0003,ONTRAS,exit,,,,,
+ITP-00523,Ronneburg,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00523,Ronneburg,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00523,Ronneburg,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00523,Ronneburg,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00524,Drohne NOWAL,DE-TSO-0001,GASCADE Gastransport,entry,,,,,
+ITP-00524,Drohne NOWAL,DE-TSO-0001,GASCADE Gastransport,exit,,,,,
+ITP-00524,Drohne NOWAL,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00524,Drohne NOWAL,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00535,Deutschneudorf EUGAL Brandov,DE-TSO-0003,ONTRAS,entry,,,,,
+ITP-00536,VIP L GASPOOL-NCG,DE-TSO-0008,Nowega,entry,,,,,
+ITP-00536,VIP L GASPOOL-NCG,DE-TSO-0008,Nowega,exit,,,,,
+ITP-00536,VIP L GASPOOL-NCG,DE-TSO-0009,Open Grid Europe,entry,,,,,
+ITP-00536,VIP L GASPOOL-NCG,DE-TSO-0009,Open Grid Europe,exit,,,,,
+ITP-00541,Atlantique,FR-TSO-0003,GRTgaz,entry,,,,,
+ITP-00541,Atlantique,FR-TSO-0003,GRTgaz,exit,,,,,
+ITP-00543,Compulsory Stocks Exit Point (PL) (WPWYzo),PL-TSO-0002,GAZ-SYSTEM,exit,,,,,

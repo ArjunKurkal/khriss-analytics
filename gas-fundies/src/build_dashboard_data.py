@@ -255,6 +255,187 @@ def rigs_section(curated: Path, out: dict) -> None:
         out["snapshot"]["rigs_week"] = pd.Timestamp(nat.iloc[-1]["week"]).strftime("%Y-%m-%d")
 
 
+GWH_PER_BCF = 303.6  # at 1,036 Btu/cf
+EU27_NODES = {"AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FR", "GR",
+              "HR", "HU", "IE", "SK", "PT", "IT", "PL", "LU", "MT", "LV",
+              "LT", "FI", "SI", "RO", "SE", "NL", "CY"}
+CORRIDORS = {
+    "Norway": {"NO"},
+    "Russia legacy routes": {"RU", "BY", "UA", "PLYAM", "RUKAL"},
+    "North Africa": {"DZ", "MA", "LY", "TN"},
+    "Türkiye / TAP": {"TR", "TAP", "TBP", "IGB"},
+    "United Kingdom": {"UK", "IUK"},
+}
+
+
+def europe_section(curated: Path, out: dict) -> None:
+    """Europe daily layer: GIE storage + LNG terminals, ENTSOG pipeline
+    inflows to the EU27 by corridor (Bcf/d). GIE data is shown under
+    GIE's attribution condition."""
+    sec: dict = {}
+    sp = curated / "gie_storage_daily.parquet"
+    if sp.exists():
+        s = read_parquet(sp)
+        eu = s[s["scope"] == "eu"].sort_values("gas_day")
+        if not eu.empty:
+            sec["storage"] = {
+                "dates": _dates(eu["gas_day"]),
+                "twh": _round(eu["gas_in_storage_twh"], 1),
+                "full_pct": _round(eu["full_pct"], 1),
+            }
+            last = eu.iloc[-1]
+            out.setdefault("snapshot", {}).update({
+                "eu_storage_twh": round(float(last["gas_in_storage_twh"]), 1),
+                "eu_storage_full_pct": round(float(last["full_pct"]), 1),
+                "eu_storage_date": pd.Timestamp(last["gas_day"]).strftime("%Y-%m-%d"),
+            })
+    lp = curated / "gie_lng_daily.parquet"
+    if lp.exists():
+        lng = read_parquet(lp)
+        eu = lng[lng["scope"] == "eu"].sort_values("gas_day")
+        if not eu.empty:
+            sec["lng"] = {
+                "dates": _dates(eu["gas_day"]),
+                "sendout_bcfd": _round(eu["send_out_gwh"] / GWH_PER_BCF),
+                "inventory_twh": _round(eu["lng_inventory_gwh"] / 1000, 1),
+            }
+            last = eu.iloc[-1]
+            out.setdefault("snapshot", {}).update({
+                "eu_lng_sendout_bcfd": round(
+                    float(last["send_out_gwh"]) / GWH_PER_BCF, 2),
+                "eu_lng_date": pd.Timestamp(last["gas_day"]).strftime("%Y-%m-%d"),
+            })
+    bp = curated / "entsog_border_daily.parquet"
+    if bp.exists():
+        b = read_parquet(bp)
+        b = b[b["to_node"].isin(EU27_NODES)]
+        b["corridor"] = "Other external"
+        for name, nodes in CORRIDORS.items():
+            b.loc[b["from_node"].isin(nodes), "corridor"] = name
+        piv = (b.groupby([b["gas_day"], "corridor"])["flow_gwh_d"].sum()
+               .unstack(fill_value=0) / GWH_PER_BCF)
+        names = [c for c in CORRIDORS if c in piv.columns]
+        if "Other external" in piv.columns:
+            names.append("Other external")
+        sec["inflows"] = {"dates": _dates(piv.index),
+                          "series": {n: _round(piv[n]) for n in names}}
+        recent = piv.tail(30).mean()
+        if "Norway" in recent:
+            out.setdefault("snapshot", {})["norway_inflow_bcfd_30d"] = round(
+                float(recent["Norway"]), 2)
+    if sec:
+        out["europe"] = sec
+
+
+DOE_REGIONS = {
+    "Europe": {"United Kingdom", "Netherlands", "Spain", "France", "Italy",
+               "Germany", "Poland", "Belgium", "Portugal", "Greece",
+               "Croatia", "Lithuania", "Malta", "Finland", "Sweden",
+               "Norway", "Denmark", "Ireland", "Turkey", "Türkiye"},
+    "Asia": {"Japan", "South Korea", "Korea, South", "China", "India",
+             "Taiwan", "Thailand", "Singapore", "Pakistan", "Bangladesh",
+             "Philippines", "Indonesia", "Malaysia", "Vietnam", "Myanmar"},
+    "Middle East": {"Jordan", "Kuwait", "United Arab Emirates", "Israel",
+                    "Bahrain", "Oman"},
+    "Africa": {"Egypt", "Senegal", "Mauritania", "Morocco", "Nigeria",
+               "Togo", "Mozambique"},
+}
+
+
+def doe_section(curated: Path, out: dict) -> None:
+    """US LNG exports by destination region (Bcf/month) from the DOE
+    cargo file — exports only (re-exports excluded), destination as
+    reported at departure."""
+    path = curated / "doe_lng_cargoes.parquet"
+    if not path.exists():
+        return
+    c = read_parquet(path).dropna(subset=["date"])
+    if c.empty:
+        return
+    region_of = {}
+    for region, countries in DOE_REGIONS.items():
+        for country in countries:
+            region_of[country] = region
+    c["region"] = c["country"].map(region_of).fillna("Latin America & other")
+    c["month"] = pd.to_datetime(c["date"]).dt.to_period("M").dt.to_timestamp()
+    piv = (c.groupby(["month", "region"])["exports_bcf"].sum()
+           .unstack(fill_value=0))
+    names = [r for r in ["Europe", "Asia", "Middle East", "Africa",
+                         "Latin America & other"] if r in piv.columns]
+    out["doe"] = {"dates": _dates(piv.index), "unit": "Bcf/month",
+                  "series": {n: _round(piv[n], 1) for n in names}}
+
+
+def japan_section(curated: Path, out: dict) -> None:
+    """Japan LNG imports by origin (Mt/month), MOF via UN Comtrade."""
+    path = curated / "japan_lng_imports_monthly.parquet"
+    if not path.exists():
+        return
+    j = read_parquet(path)
+    top = ["Australia", "United States", "Malaysia", "Russia", "Qatar"]
+    piv = (j[j["partner_code"] != 0]
+           .pivot_table(index="month", columns="partner",
+                        values="net_wgt_tonnes", aggfunc="sum")
+           .fillna(0) / 1e6)
+    series = {}
+    for name in top:
+        if name in piv.columns:
+            series[name] = _round(piv[name], 2)
+    named = [n for n in top if n in piv.columns]
+    series["Other"] = _round(piv.drop(columns=named).sum(axis=1), 2)
+    world = (j[j["partner_code"] == 0].set_index("month")
+             ["net_wgt_tonnes"].reindex(piv.index) / 1e6)
+    out["japan"] = {"dates": _dates(piv.index), "unit": "Mt/month",
+                    "series": series, "total": _round(world, 2)}
+    last_month = piv.index.max()
+    qa = j[(j["partner"] == "Qatar") & (j["month"] == last_month)]
+    out.setdefault("snapshot", {}).update({
+        "japan_imports_mt": round(float(world.loc[last_month]), 2),
+        "japan_month": last_month.strftime("%Y-%m"),
+        "japan_qatar_kt": round(float(qa["net_wgt_tonnes"].sum()) / 1000, 0)
+        if not qa.empty else 0.0,
+    })
+
+
+def hormuz_section(curated: Path, out: dict) -> None:
+    """Hormuz LNG: modelled monthly history (basis labels preserved)
+    plus measured collector crossings as they accrue."""
+    feeds = curated.parent / "feeds"
+    mp = feeds / "hormuz_lng_modelled_monthly.parquet"
+    if not mp.exists():
+        return
+    m = read_parquet(mp)
+    sec = {
+        "months": [pd.Period(mo, freq="M").to_timestamp().strftime("%Y-%m-%d")
+                   for mo in m["month"]],
+        "loaded_exits_est": _round(m["loaded_exits_est"], 1),
+        "loaded_lo": _round(m["loaded_lo"], 1),
+        "loaded_hi": _round(m["loaded_hi"], 1),
+        "basis": [b if isinstance(b, str) else None for b in m["basis"]],
+        "source_note": [s if isinstance(s, str) else None
+                        for s in m["source_note"]],
+    }
+    dp = feeds / "hormuz_lng_measured_monthly.parquet"
+    if dp.exists():
+        d = read_parquet(dp)
+        if not d.empty:
+            sec["measured"] = {
+                "months": [pd.Period(mo, freq="M").to_timestamp()
+                           .strftime("%Y-%m-%d") for mo in d["month"]],
+                "outbound": [int(x) for x in d["outbound"]],
+                "inbound": [int(x) for x in d["inbound"]],
+            }
+    out["hormuz"] = sec
+    est = m.dropna(subset=["loaded_exits_est"])
+    if not est.empty:
+        last = est.iloc[-1]
+        out.setdefault("snapshot", {}).update({
+            "hormuz_loaded_exits": float(last["loaded_exits_est"]),
+            "hormuz_month": str(last["month"]),
+            "hormuz_basis": str(last["basis"]),
+        })
+
+
 def _sanitize(obj):
     """Recursively convert NaN/Infinity floats to None.
 
@@ -282,6 +463,10 @@ def main() -> None:
     price_section(curated, out)
     global_price_section(curated, out)
     jodi_section(curated, out)
+    europe_section(curated, out)
+    doe_section(curated, out)
+    japan_section(curated, out)
+    hormuz_section(curated, out)
     rigs_section(curated, out)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(_sanitize(out), allow_nan=False))
