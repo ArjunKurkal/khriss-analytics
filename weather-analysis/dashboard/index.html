@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PJM Weather Dashboard</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>PJM Weather Dashboard</h1>
+  <p class="subtitle">Monthly &amp; daily weather aggregates for the PJM footprint (36–43°N, 89.5–73°W). Visualization only.</p>
+  <p id="metaInfo" class="meta-info"></p>
+</header>
+
+<section id="controls" aria-label="Controls">
+  <div class="control">
+    <label for="varSelect">Variable</label>
+    <select id="varSelect"></select>
+    <div id="varBadges" class="badges"></div>
+  </div>
+
+  <div class="control">
+    <label for="levelSelect">Aggregation level</label>
+    <select id="levelSelect">
+      <option value="pjm">PJM total</option>
+      <option value="subregion">Subregion</option>
+      <option value="state">State</option>
+      <option value="station">Station</option>
+    </select>
+  </div>
+
+  <div class="control" id="entityControl" hidden>
+    <label for="entitySelect" id="entityLabel">Group</label>
+    <select id="entitySelect"></select>
+  </div>
+
+  <div class="control" id="stationControl" hidden>
+    <label for="stationSelect">Station</label>
+    <select id="stationSelect"></select>
+  </div>
+
+  <div class="control">
+    <label for="statSelect">Statistic</label>
+    <select id="statSelect">
+      <option value="mean">Mean</option>
+      <option value="median">Median</option>
+      <option value="max">Max (hourly)</option>
+      <option value="max_daily">Max daily</option>
+      <option value="min">Min</option>
+      <option value="range">Range (max − min)</option>
+      <option value="sum">Sum</option>
+    </select>
+    <div id="statNote" class="note"></div>
+  </div>
+
+  <div class="control">
+    <label for="startMonth">Start month</label>
+    <input type="month" id="startMonth">
+  </div>
+  <div class="control">
+    <label for="endMonth">End month</label>
+    <input type="month" id="endMonth">
+  </div>
+
+  <div class="control">
+    <label>View</label>
+    <div class="view-toggle" role="group" aria-label="View">
+      <button type="button" id="viewTableBtn" class="view-btn active">Table</button>
+      <button type="button" id="viewMapBtn" class="view-btn">Map</button>
+      <button type="button" id="viewBothBtn" class="view-btn">Both</button>
+    </div>
+  </div>
+</section>
+
+<div id="loading" hidden><span class="spinner" aria-hidden="true"></span> Loading data…</div>
+<div id="errorBox" class="error" hidden></div>
+<div id="notesBox" class="notes"></div>
+
+<main>
+  <section id="tableSection">
+    <h2 id="monthlyTitle">Monthly values</h2>
+    <p id="monthlyCaption" class="caption"></p>
+    <div class="table-wrap">
+      <table id="monthlyTable">
+        <thead>
+          <tr><th>Month</th><th id="valueHeader">Value</th><th>N stations</th><th>N obs</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p id="monthlyEmpty" class="empty" hidden>No monthly data for this selection.</p>
+
+    <div id="dailyBlock">
+      <h2>Daily values <span class="h2-note">(PJM / subregion only)</span></h2>
+      <p id="dailyCaption" class="caption"></p>
+      <div class="table-wrap">
+        <table id="dailyTable">
+          <thead>
+            <tr><th>Date</th><th>Mean</th><th>Min</th><th>Max</th><th>Sum</th><th>N stations</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p id="dailyEmpty" class="empty" hidden>No daily data for this selection.</p>
+      <div class="pager">
+        <button type="button" id="dailyPrev">← Prev</button>
+        <span id="dailyPageInfo"></span>
+        <button type="button" id="dailyNext">Next →</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="mapSection" hidden>
+    <h2 id="mapTitle">Station map</h2>
+    <div class="layer-toggle" role="group" aria-label="Map layers">
+      <label><input type="checkbox" id="layerMarkers" checked> Markers</label>
+      <label><input type="checkbox" id="layerHeat" checked> Heatmap (IDW)</label>
+      <span class="note">Toggle markers / heatmap / both.</span>
+    </div>
+    <p id="mapCaption" class="caption"></p>
+    <div id="map"></div>
+    <p class="note">
+      Heatmap: inverse-distance weighting (power 2) interpolated onto a lat/lon grid over the PJM bbox and
+      rendered as a semi-transparent canvas overlay. Areas far from any station are <strong>not</strong> masked —
+      interpolated values far from stations should be read with caution.
+    </p>
+    <p id="mapEmpty" class="empty" hidden>No station values could be computed for this selection.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Static dashboard — data loaded on demand from <code>data/</code> JSON payloads. Group medians and map medians are approximate (rolled); see labels in the UI.</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="app.js"></script>
+</body>
+</html>
