@@ -6,6 +6,19 @@
  *   data/monthly_group/<code>.json
  *   data/daily_group/<code>.json
  * Only the selected variable's payload files are fetched, on demand.
+ *
+ * Selector scheme (cascading, no silent precedence):
+ *   1 · Aggregation level  -> PJM total | Subregion | State | Station
+ *   2 · Group              -> only at Subregion/State level; "All" (default)
+ *                             lists every group of that level together in
+ *                             the table, a single group narrows table + map.
+ *   2 · Station scope      -> only at Station level; scopes step 3 and the map.
+ *   3 · Station            -> only at Station level; only stations inside the
+ *                             current scope are offered.
+ * A control that does not apply at the current level is hidden, never ignored.
+ * Statistics are multi-select: the monthly table shows one column per
+ * selected statistic, in selection order. The map colours by the first
+ * selected statistic unless swapped via the map-only statistic control.
  */
 
 /* ---------- Constants ---------- */
@@ -13,6 +26,7 @@
 var BBOX = { latMin: 36, latMax: 43, lonMin: -89.5, lonMax: -73 };
 var SUBREGIONS = ["East", "Central", "West"];
 var DAILY_PAGE_SIZE = 100;
+var STAT_UI_ORDER = ["mean", "median", "max", "max_daily", "min", "range", "sum"];
 
 /* Fallback variable list, used only if data/meta.json is unavailable.
  * The authoritative list (labels, units, sum_ok, derived flags) comes from meta.json. */
@@ -44,9 +58,7 @@ var STAT_LABELS = {
   sum: "Sum"
 };
 
-/* Colour scales: arrays of [r,g,b] stops, interpolated linearly.
- * Temperature-like variables use a blue→red diverging-style ramp;
- * precipitation-like variables use white→blue; others get sensible ramps. */
+/* Colour scales: arrays of [r,g,b] stops, interpolated linearly. */
 var SCALES = {
   tempLike:  [[49,54,149],[69,117,180],[171,217,233],[255,255,191],[254,204,92],[244,109,67],[165,0,38]],
   precipLike:[[255,255,255],[222,235,247],[158,202,225],[66,146,198],[8,69,148]],
@@ -107,9 +119,12 @@ function gradientCss(stops) {
 var state = {
   meta: null,
   variables: FALLBACK_VARIABLES,
-  view: "table",
+  view: "both",
+  selectedStats: ["mean", "max", "min"],
+  mapStat: "mean",
   dailyPage: 0,
-  dailyRows: []
+  dailyRows: [],
+  refreshToken: 0
 };
 var cache = { station: {}, group: {}, daily: {} }; // code -> payload | null (null = missing/failed)
 var loadCount = 0;
@@ -160,14 +175,66 @@ function fmtN(value) {
 /* ---------- Selection helpers ---------- */
 
 function currentLevel() { return el("levelSelect").value; }
-function currentStat() { return el("statSelect").value; }
-function currentGroup() {
-  var level = currentLevel();
-  if (level === "pjm") return "PJM";
-  if (level === "subregion" || level === "state") return el("entitySelect").value;
-  return null; // station level
+function selectedStats() { return state.selectedStats.slice(); }
+function statAvailable(stat) {
+  var v = currentVariable();
+  if (stat === "sum") return !!v.sum_ok;
+  if (stat === "max_daily") return v.code !== "wind_dir";
+  return true;
 }
-function currentStationId() { return el("stationSelect").value; }
+function currentGroupSelection() {
+  // Only meaningful at subregion/state level. Returns "ALL" or one group name.
+  var level = currentLevel();
+  if (level !== "subregion" && level !== "state") return null;
+  return el("groupSelect").value || "ALL";
+}
+function currentScope() {
+  if (currentLevel() !== "station") return null;
+  return el("scopeSelect").value || "ALL";
+}
+function currentStationId() {
+  if (currentLevel() !== "station") return null;
+  return el("stationSelect").value || null;
+}
+function allStations() {
+  return state.meta && state.meta.stations ? state.meta.stations : [];
+}
+function statesList() {
+  var groups = state.meta && state.meta.groups ? state.meta.groups : [];
+  return groups.filter(function (g) { return g !== "PJM" && SUBREGIONS.indexOf(g) < 0; });
+}
+function stationsInScope(scope) {
+  var stations = allStations();
+  if (!scope || scope === "ALL") return stations.slice();
+  if (scope.indexOf("SR:") === 0) {
+    var sr = scope.slice(3);
+    return stations.filter(function (s) { return s.subregion === sr; });
+  }
+  if (scope.indexOf("ST:") === 0) {
+    var st = scope.slice(3);
+    return stations.filter(function (s) { return s.state === st; });
+  }
+  return stations.slice();
+}
+function scopeLabel(scope) {
+  if (!scope || scope === "ALL") return "All PJM stations";
+  if (scope.indexOf("SR:") === 0) return "Subregion " + scope.slice(3);
+  if (scope.indexOf("ST:") === 0) return scope.slice(3);
+  return scope;
+}
+/* Stations the map displays under the current cascade. */
+function mapStationFilter() {
+  var level = currentLevel();
+  var stations = allStations();
+  if (level === "pjm") return stations.slice();
+  if (level === "subregion" || level === "state") {
+    var g = currentGroupSelection();
+    if (!g || g === "ALL") return stations.slice();
+    if (level === "subregion") return stations.filter(function (s) { return s.subregion === g; });
+    return stations.filter(function (s) { return s.state === g; });
+  }
+  return stationsInScope(currentScope());
+}
 function monthRange() {
   var s = el("startMonth").value, e = el("endMonth").value;
   if (s && e && s > e) { var t = s; s = e; e = t; }
@@ -178,6 +245,12 @@ function monthInRange(month, range) {
   if (range.end && month > range.end) return false;
   return true;
 }
+function subtractMonths(ym, n) {
+  var y = Number(ym.slice(0, 4)), m = Number(ym.slice(5, 7));
+  var total = y * 12 + (m - 1) - n;
+  var ny = Math.floor(total / 12), nm = (total % 12) + 1;
+  return ny + "-" + String(nm).padStart(2, "0");
+}
 function lastDayOfMonth(ym) {
   var y = Number(ym.slice(0, 4)), m = Number(ym.slice(5, 7));
   return new Date(Date.UTC(y, m, 0)).getUTCDate();
@@ -187,6 +260,13 @@ function dateRangeForMonths(range) {
   var end = null;
   if (range.end) end = range.end + "-" + String(lastDayOfMonth(range.end)).padStart(2, "0");
   return { start: start, end: end };
+}
+function findStation(id) {
+  var stations = allStations();
+  for (var i = 0; i < stations.length; i++) {
+    if (stations[i].id === id) return stations[i];
+  }
+  return null;
 }
 
 /* ---------- Data loading (on demand, per variable) ---------- */
@@ -293,16 +373,77 @@ function stationRangeValue(entry, months, range, stat, code) {
   return { value: value, n: totalN };
 }
 
+/* ---------- Statistics multi-select ---------- */
+
+function pruneUnavailableStats() {
+  var before = state.selectedStats.join(",");
+  state.selectedStats = state.selectedStats.filter(statAvailable);
+  if (!state.selectedStats.length) state.selectedStats = ["mean"];
+  if (state.selectedStats.indexOf(state.mapStat) < 0) state.mapStat = state.selectedStats[0];
+  return state.selectedStats.join(",") !== before;
+}
+function updateStatUI(guardMsg) {
+  var v = currentVariable();
+  var boxes = el("statList").querySelectorAll("input[type=checkbox][data-stat]");
+  boxes.forEach(function (box) {
+    var stat = box.getAttribute("data-stat");
+    box.checked = state.selectedStats.indexOf(stat) >= 0;
+    box.disabled = !statAvailable(stat);
+    box.parentElement.classList.toggle("stat-disabled", box.disabled);
+  });
+  el("statList").querySelectorAll(".stat-order").forEach(function (span) {
+    var stat = span.getAttribute("data-order-for");
+    var idx = state.selectedStats.indexOf(stat);
+    span.textContent = idx >= 0 ? "#" + (idx + 1) : "";
+  });
+  var notes = [];
+  if (!v.sum_ok) notes.push("Sum is only available for variables where a sum is meaningful (precipitation, snowfall).");
+  if (v.code === "wind_dir") notes.push("Max daily is not meaningful for wind direction.");
+  if (guardMsg) notes.push(guardMsg);
+  el("statNote").textContent = notes.join(" ");
+  updateMapStatOptions();
+}
+function onStatCheckboxChange(box) {
+  var stat = box.getAttribute("data-stat");
+  if (box.checked) {
+    if (state.selectedStats.indexOf(stat) < 0) state.selectedStats.push(stat);
+    updateStatUI();
+  } else {
+    if (state.selectedStats.length <= 1) {
+      box.checked = true; // never leave the table with zero statistic columns
+      updateStatUI("At least one statistic must be selected.");
+      return;
+    }
+    state.selectedStats = state.selectedStats.filter(function (s) { return s !== stat; });
+    if (state.mapStat === stat) state.mapStat = state.selectedStats[0];
+    updateStatUI();
+  }
+  refresh();
+}
+function updateMapStatOptions() {
+  var sel = el("mapStatSelect");
+  if (!sel) return;
+  var prev = sel.value;
+  sel.innerHTML = "";
+  state.selectedStats.forEach(function (stat) {
+    var opt = document.createElement("option");
+    opt.value = stat;
+    opt.textContent = STAT_LABELS[stat] + (stat === state.selectedStats[0] ? " (first selected — default)" : "");
+    sel.appendChild(opt);
+  });
+  if (state.selectedStats.indexOf(state.mapStat) < 0) state.mapStat = state.selectedStats[0];
+  sel.value = state.selectedStats.indexOf(prev) >= 0 && prev === state.mapStat ? prev : state.mapStat;
+  sel.value = state.mapStat;
+}
+
 /* ---------- Labelling / notes ---------- */
 
-function isGroupMedianContext() {
-  return currentStat() === "median" && currentLevel() !== "station";
-}
 function updateNotes() {
   var v = currentVariable();
   var notes = [];
+  var stats = selectedStats();
+  var hasMedian = stats.indexOf("median") >= 0;
 
-  // Variable badges next to the selector
   var badges = [];
   if (v.code === "heat_index" || v.code === "wind_chill" || v.derived) {
     badges.push('<span class="badge derived">derived</span>');
@@ -310,7 +451,7 @@ function updateNotes() {
   if (v.code === "ghi") {
     badges.push('<span class="badge derived">ERA5-derived via Open-Meteo — not measured at stations</span>');
   }
-  if (currentStat() === "median" && (currentLevel() !== "station" || state.view !== "table")) {
+  if (hasMedian && currentLevel() !== "station") {
     badges.push('<span class="badge approx">median: approximate (rolled)</span>');
   }
   el("varBadges").innerHTML = badges.join("");
@@ -325,46 +466,47 @@ function updateNotes() {
   if (v.code === "wind_dir") {
     notes.push("Wind direction: the mean is a <strong>vector mean</strong>. Sum and max-daily statistics are not meaningful for wind direction and are shown as missing.");
   }
-  if (isGroupMedianContext()) {
+  if (hasMedian && currentLevel() !== "station") {
     notes.push("Group median is a median of station medians: <strong>approximate (rolled)</strong>.");
   }
-  if (currentStat() === "median" && state.view !== "table") {
-    notes.push("Map median combines monthly station medians (n-weighted): <strong>approximate (rolled)</strong>.");
+  if (hasMedian && state.view !== "table") {
+    notes.push("Map medians combine monthly station medians (n-weighted): <strong>approximate (rolled)</strong>.");
   }
   el("notesBox").innerHTML = notes.map(function (n) {
     return '<div class="note-item">' + n + "</div>";
   }).join("");
-
-  // Statistic note (sum availability)
-  var statNote = el("statNote");
-  if (!v.sum_ok) {
-    statNote.textContent = "Sum is only available for variables where a sum is meaningful (precip, snowfall).";
-  } else {
-    statNote.textContent = "";
-  }
 }
 
-function updateStatAvailability() {
-  var v = currentVariable();
-  var sel = el("statSelect");
-  for (var i = 0; i < sel.options.length; i++) {
-    var opt = sel.options[i];
-    if (opt.value === "sum") {
-      opt.disabled = !v.sum_ok;
-      opt.textContent = v.sum_ok ? "Sum" : "Sum (not available for this variable)";
+function updateCascadeHint() {
+  var level = currentLevel();
+  var total = allStations().length;
+  var hint = "";
+  if (level === "pjm") {
+    hint = "Showing: <strong>PJM total</strong> — one row per month in the table; the map shows all " + total +
+      " stations. Group and station pickers do not apply at this level, so they are hidden.";
+  } else if (level === "subregion" || level === "state") {
+    var g = currentGroupSelection();
+    var levelName = level === "subregion" ? "Subregion" : "State";
+    var mapN = mapStationFilter().length;
+    if (g === "ALL") {
+      hint = "Showing: <strong>all " + (level === "subregion" ? "subregions" : "states") + " together</strong> — " +
+        "the table lists every " + levelName.toLowerCase() + "; the map shows all " + total + " stations. " +
+        "Pick a single " + levelName.toLowerCase() + " in step 2 to narrow both.";
+    } else {
+      hint = "Showing: <strong>" + levelName + " — " + esc(g) + "</strong> — the table lists " + esc(g) +
+        " only; the map shows its " + mapN + " station" + (mapN === 1 ? "" : "s") + ".";
     }
-    if (opt.value === "max_daily" && v.code === "wind_dir") {
-      opt.disabled = true;
-      opt.textContent = "Max daily (n/a for wind direction)";
-    } else if (opt.value === "max_daily") {
-      opt.disabled = false;
-      opt.textContent = "Max daily";
-    }
+  } else if (level === "station") {
+    var scope = currentScope();
+    var scoped = stationsInScope(scope);
+    var sid = currentStationId();
+    var st = sid ? findStation(sid) : null;
+    hint = "Showing: <strong>Station level · scope: " + esc(scopeLabel(scope)) + "</strong> — the station picker " +
+      "offers only the " + scoped.length + " station" + (scoped.length === 1 ? "" : "s") + " in this scope" +
+      (st ? "; the table lists <strong>" + esc(st.name) + "</strong>" : "") +
+      "; the map shows the scoped stations with the selected station highlighted.";
   }
-  if ((sel.value === "sum" && !v.sum_ok) ||
-      (sel.value === "max_daily" && v.code === "wind_dir")) {
-    sel.value = "mean";
-  }
+  el("cascadeHint").innerHTML = hint;
 }
 
 /* ---------- Controls setup ---------- */
@@ -382,62 +524,112 @@ function populateVariables() {
   if (prev && sel.querySelector('option[value="' + prev + '"]')) sel.value = prev;
 }
 
-function populateStations() {
-  var sel = el("stationSelect");
+function populateGroupOptions() {
+  var level = currentLevel();
+  var sel = el("groupSelect");
+  var prev = sel.value;
+  var options = [];
+  if (level === "subregion") {
+    el("groupLabel").textContent = "2 · Subregion";
+    var subs = SUBREGIONS.slice();
+    if (state.meta && state.meta.groups) {
+      subs = subs.filter(function (g) { return state.meta.groups.indexOf(g) >= 0; });
+      if (!subs.length) subs = SUBREGIONS.slice();
+    }
+    options = [{ value: "ALL", label: "All subregions" }].concat(
+      subs.map(function (g) { return { value: g, label: g }; }));
+  } else if (level === "state") {
+    el("groupLabel").textContent = "2 · State";
+    options = [{ value: "ALL", label: "All states" }].concat(
+      statesList().map(function (g) { return { value: g, label: g }; }));
+  }
+  sel.innerHTML = "";
+  options.forEach(function (o) {
+    var opt = document.createElement("option");
+    opt.value = o.value; opt.textContent = o.label;
+    sel.appendChild(opt);
+  });
+  var values = options.map(function (o) { return o.value; });
+  sel.value = values.indexOf(prev) >= 0 ? prev : "ALL";
+}
+
+function populateScopeOptions() {
+  var sel = el("scopeSelect");
   var prev = sel.value;
   sel.innerHTML = "";
-  var stations = state.meta && state.meta.stations ? state.meta.stations : [];
+  var all = document.createElement("option");
+  all.value = "ALL"; all.textContent = "All PJM stations";
+  sel.appendChild(all);
+  var gSr = document.createElement("optgroup");
+  gSr.label = "Subregions";
+  SUBREGIONS.forEach(function (sr) {
+    var opt = document.createElement("option");
+    opt.value = "SR:" + sr; opt.textContent = sr;
+    gSr.appendChild(opt);
+  });
+  sel.appendChild(gSr);
+  var gSt = document.createElement("optgroup");
+  gSt.label = "States";
+  statesList().forEach(function (st) {
+    var opt = document.createElement("option");
+    opt.value = "ST:" + st; opt.textContent = st;
+    gSt.appendChild(opt);
+  });
+  sel.appendChild(gSt);
+  var values = ["ALL"].concat(
+    SUBREGIONS.map(function (sr) { return "SR:" + sr; }),
+    statesList().map(function (st) { return "ST:" + st; }));
+  sel.value = values.indexOf(prev) >= 0 ? prev : "ALL";
+}
+
+function populateStationsScoped() {
+  var sel = el("stationSelect");
+  var prev = sel.value;
+  var stations = stationsInScope(currentScope());
+  sel.innerHTML = "";
+  if (!stations.length) {
+    var opt = document.createElement("option");
+    opt.value = ""; opt.textContent = "No stations in this scope"; opt.disabled = true;
+    sel.appendChild(opt);
+    return;
+  }
   stations.forEach(function (s) {
     var opt = document.createElement("option");
     opt.value = s.id;
     opt.textContent = s.id + " — " + s.name + ", " + s.state + " (" + s.subregion + ")";
     sel.appendChild(opt);
   });
-  if (prev && sel.querySelector('option[value="' + CSS.escape(prev) + '"]')) sel.value = prev;
+  if (prev && stations.some(function (s) { return s.id === prev; })) sel.value = prev;
 }
 
-function populateEntities() {
+/* Show/hide and (re)build the cascade controls for the current level.
+ * Controls that do not apply at this level are hidden — never left visible
+ * to be silently ignored. */
+function populateCascade() {
   var level = currentLevel();
-  var wrap = el("entityControl");
-  var sel = el("entitySelect");
-  var prev = sel.value;
-  var options = [];
-  if (level === "subregion") {
-    el("entityLabel").textContent = "Subregion";
-    options = SUBREGIONS.slice();
-    if (state.meta && state.meta.groups) {
-      options = options.filter(function (g) { return state.meta.groups.indexOf(g) >= 0; });
-      if (!options.length) options = SUBREGIONS.slice();
-    }
-  } else if (level === "state") {
-    el("entityLabel").textContent = "State";
-    var groups = state.meta && state.meta.groups ? state.meta.groups : [];
-    options = groups.filter(function (g) {
-      return g !== "PJM" && SUBREGIONS.indexOf(g) < 0;
-    });
+  var isGroupLevel = level === "subregion" || level === "state";
+  var isStationLevel = level === "station";
+  el("groupControl").hidden = !isGroupLevel;
+  el("scopeControl").hidden = !isStationLevel;
+  el("stationControl").hidden = !isStationLevel;
+  if (isGroupLevel) populateGroupOptions();
+  if (isStationLevel) {
+    populateScopeOptions();
+    populateStationsScoped();
   }
-  sel.innerHTML = "";
-  options.forEach(function (g) {
-    var opt = document.createElement("option");
-    opt.value = g; opt.textContent = g;
-    sel.appendChild(opt);
-  });
-  if (prev && options.indexOf(prev) >= 0) sel.value = prev;
-  wrap.hidden = !(level === "subregion" || level === "state");
-  el("stationControl").hidden = level !== "station";
 }
 
 function applyMetaToControls() {
   if (!state.meta) return;
   populateVariables();
-  populateStations();
-  populateEntities();
+  populateCascade();
   if (state.meta.range) {
     var s = el("startMonth"), e = el("endMonth");
     s.min = state.meta.range.start; s.max = state.meta.range.end;
     e.min = state.meta.range.start; e.max = state.meta.range.end;
-    if (!s.value) s.value = state.meta.range.start;
     if (!e.value) e.value = state.meta.range.end;
+    // Default date range: trailing 12 months of the data.
+    if (!s.value) s.value = subtractMonths(state.meta.range.end, 11);
   }
   var info = [];
   if (state.meta.generated) info.push("Data generated: " + state.meta.generated);
@@ -449,80 +641,113 @@ function applyMetaToControls() {
 
 /* ---------- Monthly table ---------- */
 
+/* Entities the monthly table lists under the current cascade. At group
+ * levels with "All" selected this is every group of the level, together. */
+function monthlyEntities() {
+  var level = currentLevel();
+  if (level === "pjm") return [{ key: "PJM", label: "PJM", kind: "group" }];
+  if (level === "subregion" || level === "state") {
+    var g = currentGroupSelection();
+    var all = level === "subregion" ? SUBREGIONS.slice() : statesList();
+    var keys = g === "ALL" ? all : [g];
+    return keys.map(function (k) { return { key: k, label: k, kind: "group" }; });
+  }
+  var sid = currentStationId();
+  if (!sid) return [];
+  var st = findStation(sid);
+  return [{ key: sid, label: st ? st.name + " (" + sid + ")" : sid, kind: "station" }];
+}
+
 function renderMonthlyTable(payload, kind) {
   var v = currentVariable();
-  var stat = currentStat();
+  var stats = selectedStats();
   var range = monthRange();
+  var level = currentLevel();
+  var entities = monthlyEntities();
+  var months = payload && payload.months ? payload.months : [];
+  var showEntityCol = entities.length > 1;
+  var entityColLabel = level === "subregion" ? "Subregion" : (level === "state" ? "State" : "Group");
+
+  // Header: Month | [Entity] | one column per selected statistic, in
+  // selection order | N stations | N obs
+  var headHtml = "<tr><th>Month</th>";
+  if (showEntityCol) headHtml += "<th>" + esc(entityColLabel) + "</th>";
+  stats.forEach(function (stat) {
+    var approx = stat === "median" && level !== "station";
+    headHtml += '<th class="num">' + esc(STAT_LABELS[stat]) +
+      (v.unit ? " (" + esc(v.unit) + ")" : "") + (approx ? " ≈" : "") + "</th>";
+  });
+  headHtml += '<th class="num">N stations</th><th class="num">N obs</th></tr>';
+  el("monthlyHead").innerHTML = headHtml;
+
+  el("monthlyTitle").textContent = "Monthly values — " + v.label;
+  var entityDesc = level === "pjm" ? "PJM total" :
+    level === "station" ? (entities.length ? "Station " + entities[0].label : "No station selected") :
+    (currentGroupSelection() === "ALL"
+      ? "All " + (level === "subregion" ? "subregions" : "states") + " together"
+      : (level === "subregion" ? "Subregion " : "State ") + currentGroupSelection());
+  el("monthlyCaption").textContent = entityDesc +
+    (range.start || range.end ? " · " + (range.start || "…") + " to " + (range.end || "…") : "") +
+    " · Statistic columns are in selection order (#1 first)" +
+    (stats.indexOf("median") >= 0 && level !== "station" ? " · Median ≈ approximate (rolled): a median of station medians." : "");
+
   var tbody = el("monthlyTable").querySelector("tbody");
   tbody.innerHTML = "";
-  var level = currentLevel();
-
-  el("valueHeader").textContent =
-    STAT_LABELS[stat] + (v.unit ? " (" + v.unit + ")" : "") +
-    (stat === "median" && level !== "station" ? " — approximate (rolled)" : "") +
-    (stat === "median" && level === "station" ? "" : "");
-
-  var months = payload && payload.months ? payload.months : [];
-  var entry = null, title = "";
-  if (kind === "station") {
-    var sid = currentStationId();
-    entry = payload && payload.stations ? payload.stations[sid] : null;
-    var st = findStation(sid);
-    title = "Station " + sid + (st ? " — " + st.name + ", " + st.state : "");
-  } else {
-    var g = currentGroup();
-    entry = payload && payload.groups ? payload.groups[g] : null;
-    title = "Group: " + g;
-  }
-  el("monthlyTitle").textContent = "Monthly values — " + v.label + ", " + STAT_LABELS[stat];
-  el("monthlyCaption").textContent = title +
-    (range.start || range.end ? " · " + (range.start || "…") + " to " + (range.end || "…") : "") +
-    (stat === "median" && level !== "station" ? " · Median is approximate (rolled): a median of station medians." : "");
-
   var shown = 0;
-  months.forEach(function (month, i) {
-    if (!monthInRange(month, range)) return;
-    var value = monthlyValueAt(entry, stat, i, v.code);
-    var nObs = entry && entry.n ? entry.n[i] : null;
-    var nSt = null;
-    if (kind === "group") nSt = entry && entry.n_stations ? entry.n_stations[i] : null;
-    else nSt = (entry && entry.n && entry.n[i] !== null && entry.n[i] !== undefined) ? 1 : null;
-    var tr = document.createElement("tr");
-    tr.innerHTML = "<td>" + esc(month) + "</td>" +
-      '<td class="num">' + fmt(value, v.code) + "</td>" +
-      '<td class="num">' + fmtN(nSt) + "</td>" +
-      '<td class="num">' + fmtN(nObs) + "</td>";
-    tbody.appendChild(tr);
-    shown++;
+  entities.forEach(function (ent) {
+    var entry = null;
+    if (payload) {
+      entry = kind === "station"
+        ? (payload.stations ? payload.stations[ent.key] : null)
+        : (payload.groups ? payload.groups[ent.key] : null);
+    }
+    months.forEach(function (month, i) {
+      if (!monthInRange(month, range)) return;
+      var nObs = entry && entry.n ? entry.n[i] : null;
+      var nSt = null;
+      if (kind === "group") nSt = entry && entry.n_stations ? entry.n_stations[i] : null;
+      else nSt = (nObs !== null && nObs !== undefined) ? 1 : null;
+      var tr = document.createElement("tr");
+      var html = "<td>" + esc(month) + "</td>";
+      if (showEntityCol) html += "<td>" + esc(ent.label) + "</td>";
+      stats.forEach(function (stat) {
+        html += '<td class="num">' + fmt(monthlyValueAt(entry, stat, i, v.code), v.code) + "</td>";
+      });
+      html += '<td class="num">' + fmtN(nSt) + "</td>" +
+        '<td class="num">' + fmtN(nObs) + "</td>";
+      tr.innerHTML = html;
+      tbody.appendChild(tr);
+      shown++;
+    });
   });
   el("monthlyEmpty").hidden = shown > 0;
   if (!payload) {
     el("monthlyEmpty").textContent = "No monthly data file for variable “" + v.code + "” (data/" +
       (kind === "station" ? "monthly_station" : "monthly_group") + "/" + v.code + ".json).";
-  } else if (!entry) {
-    el("monthlyEmpty").textContent = "No data for this selection in the payload.";
+  } else if (!entities.length) {
+    el("monthlyEmpty").textContent = "No station is selected — the current scope offers no stations.";
   } else {
     el("monthlyEmpty").textContent = "No monthly data for this selection.";
   }
 }
 
-function findStation(id) {
-  if (!state.meta || !state.meta.stations) return null;
-  for (var i = 0; i < state.meta.stations.length; i++) {
-    if (state.meta.stations[i].id === id) return state.meta.stations[i];
-  }
-  return null;
-}
-
 /* ---------- Daily table ---------- */
 
-function buildDailyRows(payload) {
-  var v = currentVariable();
+function dailyEntityName() {
   var level = currentLevel();
+  if (level === "pjm") return "PJM";
+  if (level === "subregion") {
+    var g = currentGroupSelection();
+    return g === "ALL" ? "PJM" : g;
+  }
+  return null; // daily payloads exist only for PJM + subregions
+}
+
+function buildDailyRows(payload, entityName) {
+  var v = currentVariable();
   var rows = [];
-  if (!payload || level === "state" || level === "station") return rows;
-  var g = currentGroup();
-  var entry = payload.groups ? payload.groups[g] : null;
+  if (!payload || !entityName) return rows;
+  var entry = payload.groups ? payload.groups[entityName] : null;
   if (!entry) return rows;
   var dr = dateRangeForMonths(monthRange());
   var dates = payload.dates || [];
@@ -551,9 +776,11 @@ function renderDailyTable(payload) {
   var level = currentLevel();
   var showDaily = (level === "pjm" || level === "subregion");
   el("dailyBlock").style.display = showDaily ? "" : "none";
+  el("dailyNote").hidden = showDaily;
   if (!showDaily) return;
   var v = currentVariable();
-  state.dailyRows = buildDailyRows(payload);
+  var entityName = dailyEntityName();
+  state.dailyRows = buildDailyRows(payload, entityName);
   if (state.dailyPage * DAILY_PAGE_SIZE >= state.dailyRows.length) state.dailyPage = 0;
   var start = state.dailyPage * DAILY_PAGE_SIZE;
   var pageRows = state.dailyRows.slice(start, start + DAILY_PAGE_SIZE);
@@ -583,8 +810,9 @@ function renderDailyTable(payload) {
     DAILY_PAGE_SIZE + " per page)";
   el("dailyPrev").disabled = state.dailyPage <= 0;
   el("dailyNext").disabled = state.dailyPage >= pages - 1;
-  el("dailyCaption").textContent = "Group: " + currentGroup() + " · Daily mean / min / max" +
-    (v.sum_ok ? " / sum" : "") + " per day within the selected month range." +
+  el("dailyCaption").textContent = "Group: " + entityName +
+    (level === "subregion" && currentGroupSelection() === "ALL" ? " (all subregions — daily is published for PJM as a whole)" : "") +
+    " · Daily mean / min / max" + (v.sum_ok ? " / sum" : "") + " per day within the selected month range." +
     (v.code === "wind_dir" ? " Sum is not meaningful for wind direction." : "");
 }
 
@@ -619,20 +847,42 @@ function ensureMap() {
   return true;
 }
 
-function computeStationValues(payload) {
+/* Per-station values for EVERY selected statistic over the selected range,
+ * restricted to the stations the current cascade puts on the map. */
+function computeStationStats(payload) {
   var v = currentVariable();
-  var stat = currentStat();
+  var stats = selectedStats();
   var range = monthRange();
   var out = [];
   if (!payload || !payload.stations || !state.meta || !state.meta.stations) return out;
   var months = payload.months || [];
-  state.meta.stations.forEach(function (s) {
+  var stations = mapStationFilter();
+  stations.forEach(function (s) {
     var entry = payload.stations[s.id];
     if (!entry) return;
-    var r = stationRangeValue(entry, months, range, stat, v.code);
-    out.push({ station: s, value: r.value, n: r.n });
+    var byStat = {};
+    var anyN = 0;
+    stats.forEach(function (stat) {
+      var r = stationRangeValue(entry, months, range, stat, v.code);
+      byStat[stat] = r;
+      if (r.n > anyN) anyN = r.n;
+    });
+    out.push({ station: s, byStat: byStat, n: anyN });
   });
   return out;
+}
+
+function stationTooltipHtml(d, v, stats) {
+  var lines = ["<strong>" + esc(d.station.name) + "</strong> (" + esc(d.station.id) + ")<br>" +
+    "State: " + esc(d.station.state) + " · Subregion: " + esc(d.station.subregion) + "<br>"];
+  stats.forEach(function (stat) {
+    var r = d.byStat[stat];
+    lines.push(esc(STAT_LABELS[stat]) + ": <strong>" + fmt(r ? r.value : null, v.code) +
+      (v.unit ? " " + esc(v.unit) : "") + "</strong>" +
+      (stat === "median" ? " (approximate (rolled))" : "") + "<br>");
+  });
+  lines.push("n obs in range: " + fmtN(d.n));
+  return lines.join("");
 }
 
 /* IDW (power 2) interpolation onto a lat/lon grid, rendered to a canvas. */
@@ -672,17 +922,30 @@ function renderMap(payload) {
   if (state.view === "table") return;
   if (!ensureMap()) return;
   var v = currentVariable();
-  var stat = currentStat();
+  var stats = selectedStats();
+  var mapStat = state.mapStat;
+  if (stats.indexOf(mapStat) < 0) mapStat = stats[0];
   var range = monthRange();
-  var values = computeStationValues(payload);
-  var valid = values.filter(function (d) { return d.value !== null && d.value !== undefined && !isNaN(d.value); });
+  var values = computeStationStats(payload);
+  function mapValue(d) {
+    var r = d.byStat[mapStat];
+    return r ? r.value : null;
+  }
+  var valid = values.filter(function (d) {
+    var val = mapValue(d);
+    return val !== null && val !== undefined && !isNaN(val);
+  });
 
-  el("mapTitle").textContent = "Station map — " + v.label + ", " + STAT_LABELS[stat];
+  el("mapTitle").textContent = "Station map — " + v.label + ", coloured by " + STAT_LABELS[mapStat];
   el("mapCaption").textContent =
-    "Each station's value is computed in the browser from its monthly values over " +
+    "Map is coloured by " + STAT_LABELS[mapStat] +
+    (mapStat === stats[0] ? " (the first selected statistic)" : " (swapped via the map statistic control above; the table is unaffected)") +
+    ". Hover a station to see all " + stats.length + " selected statistics for it. " +
+    "Each station's values are computed in the browser from its monthly values over " +
     (range.start || "…") + " to " + (range.end || "…") + ": mean/median are n-weighted combinations of monthly values" +
-    (stat === "median" ? " (median: approximate (rolled))" : "") +
+    (stats.indexOf("median") >= 0 ? " (median: approximate (rolled))" : "") +
     ", min is the min of monthly mins, max is the max of monthly max values, range is max − min, sum is the sum of monthly sums." +
+    " Stations shown: " + values.length + " (scoped by the current level/group/scope selection)." +
     (v.code === "ghi" ? " GHI is ERA5-derived via Open-Meteo — not measured at stations." : "") +
     ((v.code === "heat_index" || v.code === "wind_chill") ? " This variable is derived." : "");
 
@@ -698,8 +961,8 @@ function renderMap(payload) {
   var legend = el("mapLegend");
   if (!valid.length) { if (legend) legend.innerHTML = "No data"; return; }
 
-  var vMin = Math.min.apply(null, valid.map(function (d) { return d.value; }));
-  var vMax = Math.max.apply(null, valid.map(function (d) { return d.value; }));
+  var vMin = Math.min.apply(null, valid.map(mapValue));
+  var vMax = Math.max.apply(null, valid.map(mapValue));
   var stops = scaleFor(v.code);
   var span = (vMax - vMin) || 1;
 
@@ -707,46 +970,59 @@ function renderMap(payload) {
   var showHeat = el("layerHeat").checked;
 
   if (showHeat) {
-    var url = buildHeatmapImage(valid, stops, vMin, vMax);
+    var points = valid.map(function (d) { return { station: d.station, value: mapValue(d) }; });
+    var url = buildHeatmapImage(points, stops, vMin, vMax);
     heatLayer = L.imageOverlay(url, [[BBOX.latMin, BBOX.lonMin], [BBOX.latMax, BBOX.lonMax]], { opacity: 0.75, interactive: false });
     heatLayer.addTo(map);
   }
   if (showMarkers) {
+    var selectedId = currentStationId();
     valid.forEach(function (d) {
-      var c = scaleColor(stops, (d.value - vMin) / span);
+      var val = mapValue(d);
+      var c = scaleColor(stops, (val - vMin) / span);
+      var isSelected = currentLevel() === "station" && d.station.id === selectedId;
       var marker = L.circleMarker([d.station.lat, d.station.lon], {
-        radius: 8, color: "#333", weight: 1, fillColor: rgbCss(c), fillOpacity: 0.9
+        radius: isSelected ? 11 : 8,
+        color: isSelected ? "#000000" : "#333333", weight: isSelected ? 3 : 1,
+        fillColor: rgbCss(c), fillOpacity: 0.9
       });
-      marker.bindPopup(
-        "<strong>" + esc(d.station.name) + "</strong> (" + esc(d.station.id) + ")<br>" +
-        "State: " + esc(d.station.state) + " · Subregion: " + esc(d.station.subregion) + "<br>" +
-        esc(v.label) + " — " + esc(STAT_LABELS[stat]) + ": <strong>" + fmt(d.value, v.code) +
-        (v.unit ? " " + esc(v.unit) : "") + "</strong>" +
-        (stat === "median" ? " (approximate (rolled))" : "") + "<br>" +
-        "n obs in range: " + fmtN(d.n)
-      );
+      var html = stationTooltipHtml(d, v, stats);
+      marker.bindTooltip(html, { direction: "top", offset: [0, -6] });
+      marker.bindPopup(html);
       marker.addTo(markerLayer);
+      if (isSelected && marker.bringToFront) marker.bringToFront();
     });
-    // Also plot stations with no valid value as small grey markers.
+    // Stations in scope with no valid value for the colour statistic: grey.
     values.forEach(function (d) {
-      if (d.value !== null && d.value !== undefined && !isNaN(d.value)) return;
+      var val = mapValue(d);
+      if (val !== null && val !== undefined && !isNaN(val)) return;
       var marker = L.circleMarker([d.station.lat, d.station.lon], {
         radius: 5, color: "#888", weight: 1, fillColor: "#cccccc", fillOpacity: 0.7
       });
-      marker.bindPopup("<strong>" + esc(d.station.name) + "</strong> (" + esc(d.station.id) + ")<br>No data for this selection.");
+      var html = stationTooltipHtml(d, v, stats);
+      marker.bindTooltip(html, { direction: "top", offset: [0, -6] });
+      marker.bindPopup(html);
       marker.addTo(markerLayer);
     });
   }
 
   if (legend) {
     legend.innerHTML =
-      "<strong>" + esc(v.label) + "</strong><br>" + esc(STAT_LABELS[stat]) +
-      (stat === "median" ? " — approximate (rolled)" : "") +
+      "<strong>" + esc(v.label) + "</strong><br>" + esc(STAT_LABELS[mapStat]) +
+      (mapStat === "median" ? " — approximate (rolled)" : "") +
       '<div class="gradient" style="background:' + gradientCss(stops) + '"></div>' +
       '<div class="ends"><span>' + fmt(vMin, v.code) + "</span><span>" + fmt(vMax, v.code) + "</span></div>" +
       "<div>" + esc(v.unit || "") + " · " + valid.length + " stations</div>";
   }
   setTimeout(function () { if (map) map.invalidateSize(); }, 50);
+}
+
+function renderMapFromCache() {
+  var code = currentVariable().code;
+  loadPayload("station", code).then(function (p) {
+    if (currentVariable().code !== code) return;
+    renderMap(p);
+  });
 }
 
 /* ---------- View toggle ---------- */
@@ -763,22 +1039,25 @@ function applyView() {
 /* ---------- Refresh ---------- */
 
 function refresh() {
-  updateStatAvailability();
+  pruneUnavailableStats();
+  updateStatUI();
   updateNotes();
+  updateCascadeHint();
   var code = currentVariable().code;
   var level = currentLevel();
   state.dailyPage = 0;
+  var token = ++state.refreshToken;
 
   var needDaily = (level === "pjm" || level === "subregion") && state.view !== "map";
-  var jobs = [];
   var monthlyKind = level === "station" ? "station" : "group";
+  var jobs = [];
   jobs.push(loadPayload(monthlyKind, code));
   jobs.push(loadPayload("station", code)); // map always uses monthly_station
   if (needDaily) jobs.push(loadPayload("daily", code));
 
   Promise.all(jobs).then(function (results) {
     // Guard against stale responses after a fast selection change.
-    if (currentVariable().code !== code) return;
+    if (token !== state.refreshToken || currentVariable().code !== code) return;
     var monthlyPayload = results[0];
     var stationPayload = results[1];
     var dailyPayload = needDaily ? results[2] : null;
@@ -790,7 +1069,10 @@ function refresh() {
 
     renderMonthlyTable(monthlyPayload, monthlyKind);
     if (needDaily) renderDailyTable(dailyPayload);
-    else el("dailyBlock").style.display = "none";
+    else {
+      el("dailyBlock").style.display = "none";
+      el("dailyNote").hidden = (level === "pjm" || level === "subregion");
+    }
     renderMap(stationPayload);
   });
 }
@@ -798,18 +1080,34 @@ function refresh() {
 /* ---------- Init ---------- */
 
 function bindEvents() {
-  el("varSelect").addEventListener("change", refresh);
-  el("statSelect").addEventListener("change", refresh);
-  el("levelSelect").addEventListener("change", function () {
-    populateEntities();
+  el("varSelect").addEventListener("change", function () {
+    pruneUnavailableStats();
+    updateStatUI();
     refresh();
   });
-  el("entitySelect").addEventListener("change", refresh);
+  el("statList").addEventListener("change", function (ev) {
+    if (ev.target && ev.target.matches("input[type=checkbox][data-stat]")) {
+      onStatCheckboxChange(ev.target);
+    }
+  });
+  el("levelSelect").addEventListener("change", function () {
+    populateCascade();
+    refresh();
+  });
+  el("groupSelect").addEventListener("change", refresh);
+  el("scopeSelect").addEventListener("change", function () {
+    populateStationsScoped();
+    refresh();
+  });
   el("stationSelect").addEventListener("change", refresh);
   el("startMonth").addEventListener("change", refresh);
   el("endMonth").addEventListener("change", refresh);
-  el("layerMarkers").addEventListener("change", refresh);
-  el("layerHeat").addEventListener("change", refresh);
+  el("mapStatSelect").addEventListener("change", function () {
+    state.mapStat = el("mapStatSelect").value;
+    renderMapFromCache();
+  });
+  el("layerMarkers").addEventListener("change", renderMapFromCache);
+  el("layerHeat").addEventListener("change", renderMapFromCache);
   el("dailyPrev").addEventListener("click", function () {
     if (state.dailyPage > 0) { state.dailyPage--; renderDailyFromCache(); }
   });
@@ -844,6 +1142,7 @@ function init() {
       showError("Could not load data/meta.json — using the built-in variable list; payload tables/maps will be empty until data is generated.");
     }
     applyMetaToControls();
+    updateStatUI();
     refresh();
   });
 }

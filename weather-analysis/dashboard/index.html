@@ -23,7 +23,7 @@
   </div>
 
   <div class="control">
-    <label for="levelSelect">Aggregation level</label>
+    <label for="levelSelect">1 · Aggregation level</label>
     <select id="levelSelect">
       <option value="pjm">PJM total</option>
       <option value="subregion">Subregion</option>
@@ -32,27 +32,34 @@
     </select>
   </div>
 
-  <div class="control" id="entityControl" hidden>
-    <label for="entitySelect" id="entityLabel">Group</label>
-    <select id="entitySelect"></select>
+  <div class="control" id="groupControl" hidden>
+    <label for="groupSelect" id="groupLabel">2 · Group</label>
+    <select id="groupSelect"></select>
+    <div class="note">“All” lists every group of this level together in the table.</div>
+  </div>
+
+  <div class="control" id="scopeControl" hidden>
+    <label for="scopeSelect">2 · Station scope</label>
+    <select id="scopeSelect"></select>
+    <div class="note">Scopes the station list in step 3 and the stations shown on the map.</div>
   </div>
 
   <div class="control" id="stationControl" hidden>
-    <label for="stationSelect">Station</label>
+    <label for="stationSelect">3 · Station</label>
     <select id="stationSelect"></select>
   </div>
 
   <div class="control">
-    <label for="statSelect">Statistic</label>
-    <select id="statSelect">
-      <option value="mean">Mean</option>
-      <option value="median">Median</option>
-      <option value="max">Max (hourly)</option>
-      <option value="max_daily">Max daily</option>
-      <option value="min">Min</option>
-      <option value="range">Range (max − min)</option>
-      <option value="sum">Sum</option>
-    </select>
+    <label>Statistics (table columns, in selection order)</label>
+    <div id="statList" class="stat-list" role="group" aria-label="Statistics">
+      <label><input type="checkbox" data-stat="mean" checked> Mean <span class="stat-order" data-order-for="mean"></span></label>
+      <label><input type="checkbox" data-stat="median"> Median <span class="stat-order" data-order-for="median"></span></label>
+      <label><input type="checkbox" data-stat="max" checked> Max (hourly) <span class="stat-order" data-order-for="max"></span></label>
+      <label><input type="checkbox" data-stat="max_daily"> Max daily <span class="stat-order" data-order-for="max_daily"></span></label>
+      <label><input type="checkbox" data-stat="min" checked> Min <span class="stat-order" data-order-for="min"></span></label>
+      <label><input type="checkbox" data-stat="range"> Range (max − min) <span class="stat-order" data-order-for="range"></span></label>
+      <label><input type="checkbox" data-stat="sum"> Sum <span class="stat-order" data-order-for="sum"></span></label>
+    </div>
     <div id="statNote" class="note"></div>
   </div>
 
@@ -68,12 +75,13 @@
   <div class="control">
     <label>View</label>
     <div class="view-toggle" role="group" aria-label="View">
-      <button type="button" id="viewTableBtn" class="view-btn active">Table</button>
+      <button type="button" id="viewTableBtn" class="view-btn">Table</button>
       <button type="button" id="viewMapBtn" class="view-btn">Map</button>
-      <button type="button" id="viewBothBtn" class="view-btn">Both</button>
+      <button type="button" id="viewBothBtn" class="view-btn active">Both</button>
     </div>
   </div>
 </section>
+<p id="cascadeHint" class="cascade-hint" aria-live="polite"></p>
 
 <div id="loading" hidden><span class="spinner" aria-hidden="true"></span> Loading data…</div>
 <div id="errorBox" class="error" hidden></div>
@@ -85,16 +93,17 @@
     <p id="monthlyCaption" class="caption"></p>
     <div class="table-wrap">
       <table id="monthlyTable">
-        <thead>
-          <tr><th>Month</th><th id="valueHeader">Value</th><th>N stations</th><th>N obs</th></tr>
+        <thead id="monthlyHead">
+          <tr><th>Month</th><th>Value</th><th>N stations</th><th>N obs</th></tr>
         </thead>
         <tbody></tbody>
       </table>
     </div>
     <p id="monthlyEmpty" class="empty" hidden>No monthly data for this selection.</p>
+    <p id="dailyNote" class="note" hidden>Daily series are published only for PJM and the three subregions, so the daily table is not available at State or Station level.</p>
 
     <div id="dailyBlock">
-      <h2>Daily values <span class="h2-note">(PJM / subregion only)</span></h2>
+      <h2 id="dailyTitle">Daily values <span class="h2-note">(PJM / subregion only)</span></h2>
       <p id="dailyCaption" class="caption"></p>
       <div class="table-wrap">
         <table id="dailyTable">
@@ -113,8 +122,13 @@
     </div>
   </section>
 
-  <section id="mapSection" hidden>
+  <section id="mapSection">
     <h2 id="mapTitle">Station map</h2>
+    <div class="control map-stat-control">
+      <label for="mapStatSelect">Colour by (map statistic)</label>
+      <select id="mapStatSelect"></select>
+      <div class="note">Defaults to the first selected statistic above. Swap here to recolour the map only — the table is unchanged. Hover a station to see all selected statistics for it.</div>
+    </div>
     <div class="layer-toggle" role="group" aria-label="Map layers">
       <label><input type="checkbox" id="layerMarkers" checked> Markers</label>
       <label><input type="checkbox" id="layerHeat" checked> Heatmap (IDW)</label>

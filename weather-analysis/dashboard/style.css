@@ -37,6 +37,20 @@ h2 { margin: 26px 0 6px; font-size: 1.15rem; }
 }
 .control select:disabled { color: #999; background: #eee; }
 
+.stat-list { display: flex; flex-direction: column; gap: 2px; font-size: 0.9rem; }
+.stat-list label { font-weight: normal; cursor: pointer; }
+.stat-list label.stat-disabled { color: #999; cursor: default; }
+.stat-order { color: var(--accent); font-weight: 700; font-size: 0.78rem; }
+.cascade-hint {
+  margin: 10px 0 0; padding: 8px 12px; font-size: 0.88rem; color: var(--ink);
+  background: #eef4fb; border: 1px solid var(--accent); border-radius: 6px;
+}
+.map-stat-control { margin: 6px 0 10px; max-width: 420px; }
+.map-stat-control select {
+  padding: 6px 8px; font-size: 0.95rem; border: 1px solid var(--border);
+  border-radius: 4px; background: #fff;
+}
+
 .badges { display: flex; flex-wrap: wrap; gap: 6px; max-width: 340px; }
 .badge {
   font-size: 0.75rem; padding: 2px 8px; border-radius: 10px;
