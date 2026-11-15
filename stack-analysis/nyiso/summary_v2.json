@@ -1,0 +1,183 @@
+{
+  "version": "v2",
+  "built": "2026-11-15",
+  "anchor_unchanged_mw": 45632.7,
+  "anchor_source": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived. NYISO's Gold Book publishes installed capacity on a summer/winter capability (DMNC/CRIS) basis, not nameplate, so it is a cross-check, not the anchor.",
+  "v1_forward_2026_2036": {
+    "additions_mw": 8013.9,
+    "additions_count": 157,
+    "retirements_mw": 41.6,
+    "retirements_count": 22,
+    "net_mw": 7972.3,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 5.5,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 2697.5,
+      "Solar": 4464.9,
+      "Oil": 1.0,
+      "Battery Storage": 842.0,
+      "Other": 3.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 21.3,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 1.0,
+      "Battery Storage": 1.7,
+      "Other": 17.6
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 8013.9,
+    "additions_count": 157,
+    "retirements_mw": 1245.6,
+    "retirements_count": 58,
+    "net_mw": 6768.3,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 5.5,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 2697.5,
+      "Solar": 4464.9,
+      "Oil": 1.0,
+      "Battery Storage": 842.0,
+      "Other": 3.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 1225.3,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 1.0,
+      "Battery Storage": 1.7,
+      "Other": 17.6
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": 0.0,
+    "retirements": 1204.0,
+    "net": -1204.0,
+    "by_fuel_net_mw": {
+      "Coal": 0.0,
+      "Natural Gas": -1204.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 44944.1,
+      "2017": 44933.1,
+      "2018": 45984.8,
+      "2019": 45780.1,
+      "2020": 45275.6,
+      "2021": 44125.5,
+      "2022": 43856.4,
+      "2023": 44145.6,
+      "2024": 45188.8,
+      "2025": 45632.7,
+      "2026": 47137.8,
+      "2027": 50258.3,
+      "2028": 52370.4,
+      "2029": 53126.7,
+      "2030": 53555.7,
+      "2031": 53605.7,
+      "2032": 53605.7,
+      "2033": 53605.7,
+      "2034": 53605.7,
+      "2035": 53605.0,
+      "2036": 53605.0
+    },
+    "v2": {
+      "2016": 44944.1,
+      "2017": 44933.1,
+      "2018": 45984.8,
+      "2019": 45780.1,
+      "2020": 45275.6,
+      "2021": 44125.5,
+      "2022": 43856.4,
+      "2023": 44145.6,
+      "2024": 45188.8,
+      "2025": 45632.7,
+      "2026": 47137.8,
+      "2027": 49726.3,
+      "2028": 51838.4,
+      "2029": 51922.7,
+      "2030": 52351.7,
+      "2031": 52401.7,
+      "2032": 52401.7,
+      "2033": 52401.7,
+      "2034": 52401.7,
+      "2035": 52401.0,
+      "2036": 52401.0
+    }
+  },
+  "manual_adjustments_count": 36,
+  "named_adjustments_count": 3,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Gowanus Barges 2&3 + Narrows Barges 1&2 retirement (May 2029)",
+      "change": "add retirement",
+      "mw": 672.0
+    },
+    {
+      "plant": "Danskammer Units 1-4 retirement (Jan 2027)",
+      "change": "add retirement",
+      "mw": 532.0
+    },
+    {
+      "plant": "Gowanus Barges 2&3 retirement (May 2029)",
+      "change": "add retirement",
+      "mw": 320.0
+    },
+    {
+      "plant": "Narrows Barges 1&2 retirement (May 2029)",
+      "change": "add retirement",
+      "mw": 352.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "Gowanus/Narrows repowering, 3 new barges (AlphaGen RFI response; conceptual, earliest mid-2031, no regulatory filing)": 819.0,
+    "NYPA advanced nuclear, 1 GW directed Jun 2025 (no site, design or date; master plan due Dec 2026)": 1000.0,
+    "East River ESS battery, Astoria, 100 MW (PSC CPCN + ConEd ESSA; NOT in EIA Planned sheet; construction unverified)": 100.0,
+    "Luyster Creek storage at Astoria Generating (AlphaGen proposal 126 MW; PSC filing 135 MW; not in EIA Planned)": 126.0,
+    "AlphaGen Gowanus-site battery (proposal only)": 150.0,
+    "Pinelawn Power deactivation, Long Island (ISP status ended May 15, 2026; outcome unresolved in sources)": 82.0,
+    "Glenwood Landing GT4/GT5 retirements listed in NYISO 2026 Q4 STAR assumptions (Jun 2027, for assessment)": 106.0,
+    "Port Jefferson GT2/GT3 retirements listed in NYISO 2026 Q4 STAR assumptions (for assessment)": 106.0,
+    "Hell Gate Unit 2 (NYPA) IIFO Oct 1, 2026 (Q4 STAR assumptions; small, status code ambiguous)": 47.0,
+    "FitzPatrick nuclear licence expires Oct 2034, inside the window (no retirement booked; subsequent renewal not yet filed, deadline Oct 2029)": 883.3,
+    "Gowanus Barges 1&4 oil turbines, all out-of-service (320.0 MW nameplate kept in stack; formal status unclear)": 320.0
+  },
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "nyiso_capacity_plants_v2.csv",
+    "stack_v2": "nyiso_capacity_stack_v2.csv",
+    "changelog_v2": "nyiso_capacity_changelog_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png"
+    ]
+  }
+}

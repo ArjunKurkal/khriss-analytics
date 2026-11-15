@@ -1,0 +1,214 @@
+{
+  "version": "v1",
+  "built": "2026-11-15",
+  "anchor": {
+    "basis": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived. NYISO's Gold Book publishes installed capacity on a summer/winter capability (DMNC/CRIS) basis, not nameplate, so it is a cross-check, not the anchor.",
+    "total_mw": 45632.7,
+    "by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 25892.0,
+      "Nuclear": 3398.4,
+      "Hydro": 4681.0,
+      "Pumped Storage": 1240.0,
+      "Wind": 2868.1,
+      "Solar": 2950.4,
+      "Oil": 3874.4,
+      "Battery Storage": 275.2,
+      "Other": 453.2
+    },
+    "capacity_definition": "Nameplate MW, all statuses (OP/SB/OA/OS).",
+    "cross_checks": {
+      "gold_book_2026_existing_net_summer_capability_mw": 37420,
+      "gold_book_2026_total_resource_capability_summer_mw": 40866,
+      "gold_book_2026_nyca_generating_capability_mw": 36428,
+      "gold_book_2026_renewables_summer_capability_mw": {
+        "conventional_hydro": 4211,
+        "land_based_wind": 2578,
+        "offshore_wind": 132,
+        "grid_connected_solar": 571,
+        "other_renewables": 324,
+        "total": 7816
+      },
+      "gold_book_note": "NYISO 2026 Load & Capacity Data Report (Gold Book, released April 2026): existing net summer capability 37,420 MW; Total Resource Capability for summer 2026 40,866 MW including imports, SCR and other non-generation resources. Gold Book capability (DMNC) is tested output, not nameplate: e.g. grid solar counts 571 MW of summer capability against ~3.0 GW of EIA nameplate (most small/community solar is a load modifier, not a market generator), and thermal units are derated to demonstrated capability. EIA nameplate also includes out-of-service/standby units and 1,622.4 MW of NJ-sited plant under BA NYIS that delivers into New York City (Linden Cogen 974.1 MW, Bayonne Energy Center 644.0 MW, two small solar units). The ~8.2 GW gap between the EIA nameplate anchor and Gold Book summer capability is definitional, not an error in either source. Do not mix the two bases.",
+      "eia_operating_sep2026_nameplate_mw": 45819.2,
+      "eia_operating_sep2026_netsummer_mw": 42981.4
+    }
+  },
+  "trailing": {
+    "basis": "Reconstructed Dec-31 snapshots from EIA unit-level data (Operating Year / Retirement Year). Estimated; not a NYISO publication.",
+    "yearly_totals_mw": {
+      "2016": 44944.1,
+      "2017": 44933.1,
+      "2018": 45984.8,
+      "2019": 45780.1,
+      "2020": 45275.6,
+      "2021": 44125.5,
+      "2022": 43856.4,
+      "2023": 44145.6,
+      "2024": 45188.8,
+      "2025": 45632.7
+    },
+    "indian_point_check": "Nuclear trailing falls 1,299.0 MW in 2020 (Indian Point 2, retired Apr 2020) and 1,012.0 MW in 2021 (Indian Point 3, retired Apr 2021), asserted in the build."
+  },
+  "forward_2026_2036": {
+    "additions_mw": 8013.9,
+    "additions_count": 157,
+    "retirements_mw": 41.6,
+    "retirements_count": 22,
+    "net_mw": 7972.3,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 5.5,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 2697.5,
+      "Solar": 4464.9,
+      "Oil": 1.0,
+      "Battery Storage": 842.0,
+      "Other": 3.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 21.3,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 1.0,
+      "Battery Storage": 1.7,
+      "Other": 17.6
+    }
+  },
+  "yearly_totals_mw": {
+    "2016": 44944.1,
+    "2017": 44933.1,
+    "2018": 45984.8,
+    "2019": 45780.1,
+    "2020": 45275.6,
+    "2021": 44125.5,
+    "2022": 43856.4,
+    "2023": 44145.6,
+    "2024": 45188.8,
+    "2025": 45632.7,
+    "2026": 47137.8,
+    "2027": 50258.3,
+    "2028": 52370.4,
+    "2029": 53126.7,
+    "2030": 53555.7,
+    "2031": 53605.7,
+    "2032": 53605.7,
+    "2033": 53605.7,
+    "2034": 53605.7,
+    "2035": 53605.0,
+    "2036": 53605.0
+  },
+  "diagnostics": {
+    "eia_operating_nyis_units": 2006,
+    "eia_operating_nyis_nameplate_mw": 45819.2,
+    "eia_operating_nyis_netsummer_mw": 42981.4,
+    "eia_operating_nyis_op_only_nameplate_mw": 44672.6,
+    "eia_operating_nyis_op_only_netsummer_mw": 41936.7,
+    "eia_operating_nyis_nonop_nameplate_mw": 1146.6,
+    "eia_operating_nyis_by_status_mw": {
+      "(OA) Out of service but expected to return to service in next calendar year": 261.6,
+      "(OP) Operating": 44672.6,
+      "(OS) Out of service and NOT expected to return to service in next calendar year": 499.2,
+      "(SB) Standby/Backup: available for service but not normally used": 385.8
+    },
+    "eia_operating_nyis_by_fuel_nameplate": {
+      "Battery Storage": 288.7,
+      "Hydro": 4681.0,
+      "Natural Gas": 25892.0,
+      "Nuclear": 3398.4,
+      "Oil": 3873.4,
+      "Other": 443.6,
+      "Pumped Storage": 1240.0,
+      "Solar": 3020.8,
+      "Wind": 2981.3
+    },
+    "eia_operating_nyis_by_fuel_netsummer": {
+      "Battery Storage": 283.2,
+      "Hydro": 4567.5,
+      "Natural Gas": 23476.8,
+      "Nuclear": 3325.9,
+      "Oil": 3532.6,
+      "Other": 388.2,
+      "Pumped Storage": 1410.5,
+      "Solar": 3015.0,
+      "Wind": 2981.7
+    },
+    "ba_boundary_nyis_outside_ny_mw": 1622.4,
+    "ba_boundary_nyis_outside_ny_units": 21,
+    "ba_boundary_nyis_outside_ny_by_state_mw": {
+      "NJ": 1622.4
+    },
+    "ba_boundary_ny_state_not_nyis_mw": 199.1,
+    "ba_boundary_ny_state_not_nyis_units": 60,
+    "ba_boundary_ny_state_not_nyis_by_ba_mw": {
+      "ISNE": 199.1
+    },
+    "anchor_less_in_service_2026_mw": 197.1,
+    "anchor_less_in_service_2026_units": 20,
+    "anchor_less_in_service_2026_by_fuel": {
+      "Battery Storage": 13.5,
+      "Solar": 70.4,
+      "Wind": 113.2
+    },
+    "anchor_plus_retired_2026_mw": 10.6,
+    "anchor_plus_retired_2026_units": 9,
+    "anchor_plus_retired_2026_by_fuel": {
+      "Oil": 1.0,
+      "Other": 9.6
+    },
+    "anchor_total_mw": 45632.7,
+    "anchor_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 25892.0,
+      "Nuclear": 3398.4,
+      "Hydro": 4681.0,
+      "Pumped Storage": 1240.0,
+      "Wind": 2868.1,
+      "Solar": 2950.4,
+      "Oil": 3874.4,
+      "Battery Storage": 275.2,
+      "Other": 453.2
+    },
+    "eia_planned_nyis_units": 139,
+    "eia_planned_nyis_nameplate_mw": 7837.8,
+    "eia_planned_nyis_by_status_mw": {
+      "(L) Regulatory approvals pending. Not under construction": 1610.3,
+      "(P) Planned for installation, but regulatory approvals not initiated": 2361.2,
+      "(T) Regulatory approvals received. Not under construction": 500.0,
+      "(TS) Construction complete, but not yet in commercial operation": 312.4,
+      "(U) Under construction, less than or equal to 50 percent complete": 1726.7,
+      "(V) Under construction, more than 50 percent complete": 1327.2
+    },
+    "eia_planned_nyis_by_status_units": {
+      "(L) Regulatory approvals pending. Not under construction": 16,
+      "(P) Planned for installation, but regulatory approvals not initiated": 30,
+      "(T) Regulatory approvals received. Not under construction": 8,
+      "(TS) Construction complete, but not yet in commercial operation": 8,
+      "(U) Under construction, less than or equal to 50 percent complete": 43,
+      "(V) Under construction, more than 50 percent complete": 34
+    },
+    "eia_planned_under_construction_mw": 3366.3,
+    "eia_planned_not_under_construction_mw": 4471.5,
+    "eia_planned_max_operation_year": 2039,
+    "overlap_operating2026_vs_planned2026_units": 0,
+    "overlap_retired2026_vs_plannedret2026_units": 0,
+    "planned_total_mw_2026_2036": 8013.9,
+    "retirements_2026_actual_mw": 10.6
+  },
+  "files": {
+    "plants": "nyiso_capacity_plants.csv",
+    "stack": "nyiso_capacity_stack.csv",
+    "changelog": "nyiso_capacity_changelog.csv",
+    "summary": "summary.json",
+    "charts": [
+      "01_stacked_area.png",
+      "02_net_change_forward.png"
+    ]
+  }
+}
