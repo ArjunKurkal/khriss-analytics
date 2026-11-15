@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Khriss Analytics</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#161c2b; --panel2:#1c2436; --text:#e6ebf2;
+    --muted:#93a1b5; --accent:#4da3ff; --border:#26314a;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       display:flex;flex-direction:column}
+  header{display:flex;align-items:center;gap:18px;padding:10px 16px;
+         background:var(--panel);border-bottom:1px solid var(--border);flex:0 0 auto}
+  .brand{font-size:17px;font-weight:650;letter-spacing:.2px;white-space:nowrap}
+  .brand span{color:var(--accent)}
+  nav{display:flex;gap:6px;flex-wrap:wrap}
+  nav button{appearance:none;border:1px solid var(--border);background:var(--panel2);
+             color:var(--muted);padding:7px 13px;border-radius:999px;cursor:pointer;
+             font-size:13.5px;font-family:inherit}
+  nav button:hover{color:var(--text);border-color:var(--accent)}
+  nav button.active{background:var(--accent);border-color:var(--accent);color:#081120;font-weight:600}
+  nav button .dot{display:inline-block;width:7px;height:7px;border-radius:50%;
+                  background:#3ddc84;margin-left:7px;vertical-align:2px}
+  nav button .soon{color:#f2b544;font-size:11px;margin-left:7px}
+  main{flex:1 1 auto;position:relative}
+  iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#fff}
+  .pending{position:absolute;inset:0;display:none;align-items:center;justify-content:center;padding:24px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;
+        max-width:560px;padding:26px 28px}
+  .card h2{margin:0 0 8px;font-size:19px}
+  .card p{margin:0;color:var(--muted);line-height:1.55;font-size:14.5px}
+  .card .tag{display:inline-block;margin-top:14px;padding:4px 10px;border-radius:999px;
+             border:1px solid var(--border);color:#f2b544;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Khriss <span>Analytics</span></div>
+  <nav id="tabs"></nav>
+</header>
+<main>
+  <iframe id="frame" title="dashboard"></iframe>
+  <div class="pending" id="pending"><div class="card">
+    <h2 id="pTitle"></h2><p id="pBody"></p><span class="tag">Dashboard in build</span>
+  </div></div>
+</main>
+<script>
+  var TABS = [
+    {id:"gas",     label:"Gas Fundies",     url:"gas-fundies/dashboard/",      live:true},
+    {id:"weather", label:"Weather",         url:"weather-analysis/dashboard/", live:true},
+    {id:"stacks",  label:"Power Stacks",    url:"stack-analysis/dashboard/",   live:false,
+     body:"Capacity stacks for ten US regions (PJM, MISO, ERCOT, CAISO, ISO-NE, NYISO, SPP, SERC, MIDC, DSW) with v1/v2/v3 evolution — v3 restates solar and wind using measured EIA-860M realization and slip rates — plus the renewables-lag measurement panels. In build in the Power NBR workstream."},
+    {id:"ercot",   label:"ERCOT Batteries", url:"ercot-battery/dashboard/",    live:false,
+     body:"ERCOT battery dispatch and SCED offer analysis, split hard at the RTC+B regime change (Dec 5, 2025). V1 will show the SPP price panel, event days, and the data-coverage map including the known gaps. In build in the battery workstream."},
+    {id:"hormuz",  label:"Hormuz",          url:"hormuz-tracker/dashboard/",   live:false,
+     body:"Ship-level Strait of Hormuz transits: IMF PortWatch history (trailing 12 months headline, 2025 baseline), a labelled modelled crude/products/LNG split, and the live AIS forward collector running since Nov 15, 2026. In build in the Hormuz workstream."}
+  ];
+  var nav = document.getElementById("tabs");
+  var frame = document.getElementById("frame");
+  var pending = document.getElementById("pending");
+  function select(tab){
+    Array.prototype.forEach.call(nav.children, function(b){
+      b.classList.toggle("active", b.dataset.id === tab.id);
+    });
+    if(tab.live){
+      pending.style.display = "none";
+      frame.style.display = "block";
+      if(frame.getAttribute("src") !== tab.url) frame.setAttribute("src", tab.url);
+    } else {
+      frame.style.display = "none";
+      document.getElementById("pTitle").textContent = tab.label;
+      document.getElementById("pBody").textContent = tab.body;
+      pending.style.display = "flex";
+    }
+    if(history.replaceState) history.replaceState(null, "", "#" + tab.id);
+  }
+  TABS.forEach(function(tab){
+    var b = document.createElement("button");
+    b.dataset.id = tab.id;
+    b.innerHTML = tab.label + (tab.live ? '<span class="dot"></span>' : '<span class="soon">in build</span>');
+    b.addEventListener("click", function(){ select(tab); });
+    nav.appendChild(b);
+  });
+  var start = TABS[0];
+  if(location.hash){
+    var h = location.hash.slice(1);
+    TABS.forEach(function(t){ if(t.id === h) start = t; });
+  }
+  select(start);
+</script>
+</body>
+</html>
