@@ -1,0 +1,90 @@
+{
+  "hdd65_per_station_per_winter_mean": 2682.490714285714,
+  "hdd65_per_station_per_winter_min": 2274.218571428571,
+  "hdd65_per_station_per_winter_max": 3114.4628571428575,
+  "hdd65_min_winter": 2023,
+  "hdd65_max_winter": 2003,
+  "hdd65_per_station_per_winter_1996_2005": 2729.810142857143,
+  "hdd65_per_station_per_winter_2006_2015": 2802.444,
+  "hdd65_per_station_per_winter_2016_2025": 2515.218,
+  "hdd65_per_day_mean": 29.71740082295843,
+  "hdd60_per_station_per_winter_mean": 2234.0156190476187,
+  "monthly_hdd65_per_winter_month": {
+    "1": 1001.2,
+    "2": 825.0,
+    "12": 855.7
+  },
+  "monthly_hdd65_per_day": {
+    "1": 32.3,
+    "2": 29.2,
+    "12": 27.6
+  },
+  "per_station_hdd65_per_winter": {
+    "Philadelphia Intl, PA": 2544.1,
+    "Richmond Intl, VA": 2164.9,
+    "Washington Reagan, DC": 2275.3,
+    "Columbus, OH": 2908.4,
+    "Baltimore/Washington Intl, MD": 2533.7,
+    "Pittsburgh Intl, PA": 2988.0,
+    "Chicago O'Hare, IL": 3363.0
+  },
+  "coldsnap_lt20_per_station_avg_events_per_winter": 3.233333333333333,
+  "coldsnap_lt20_per_station_avg_max_len": 3.1904761904761902,
+  "coldsnap_lt20_longest_run_any_station_winter": 15,
+  "coldsnap_lt20_longest_run_winter": 2007,
+  "coldsnap_lt20_longest_run_station": "Chicago O'Hare, IL",
+  "coldsnap_lt20_days_in_ge3_runs_per_station_per_winter": 4.947619047619048,
+  "coldsnap_lt20_days_in_ge5_runs_per_station_per_winter": 2.5857142857142863,
+  "coldsnap_lt32_per_station_avg_events_per_winter": 8.238095238095237,
+  "coldsnap_lt32_per_station_avg_max_len": 10.866666666666669,
+  "coldsnap_lt32_longest_run_any_station_winter": 43,
+  "coldsnap_lt32_days_in_ge3_runs_per_station_per_winter": 25.56190476190476,
+  "pooled_lt20_longest_run": 12,
+  "pooled_lt20_longest_run_winter": 2018,
+  "pooled_lt32_longest_run": 23,
+  "pooled_lt32_longest_run_winter": 2007,
+  "coldest_hdd_winters": [
+    {
+      "winter_year": 2003,
+      "hdd65_per_station": 3114.4628571428575
+    },
+    {
+      "winter_year": 1996,
+      "hdd65_per_station": 3066.7585714285715
+    },
+    {
+      "winter_year": 2015,
+      "hdd65_per_station": 3055.7957142857144
+    },
+    {
+      "winter_year": 2014,
+      "hdd65_per_station": 3053.502857142857
+    },
+    {
+      "winter_year": 2011,
+      "hdd65_per_station": 3048.882857142857
+    }
+  ],
+  "warmest_hdd_winters": [
+    {
+      "winter_year": 2023,
+      "hdd65_per_station": 2274.218571428571
+    },
+    {
+      "winter_year": 2024,
+      "hdd65_per_station": 2282.0614285714287
+    },
+    {
+      "winter_year": 2002,
+      "hdd65_per_station": 2310.96
+    },
+    {
+      "winter_year": 1998,
+      "hdd65_per_station": 2350.7914285714287
+    },
+    {
+      "winter_year": 2017,
+      "hdd65_per_station": 2351.871428571428
+    }
+  ]
+}

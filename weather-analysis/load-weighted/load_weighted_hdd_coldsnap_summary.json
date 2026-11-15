@@ -1,0 +1,199 @@
+{
+  "method": "load-weighted by PJM zonal winter peak load (see weights below)",
+  "source": "PJM Load Forecast Report, January 2026 (posted Jan 14, 2026), Table B-2, column 25/26 (weather-normalised forecast winter peak, non-coincident, unrestricted)",
+  "source_url_tables": "https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/2026-load-report-tables.xlsx",
+  "source_url_report": "https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.ashx",
+  "peak_basis": "winter peak (weather-normalised forecast, 2025/26)",
+  "weights": {
+    "Philadelphia Intl, PA": {
+      "zone": "PECO",
+      "peak_mw_25_26": 6619.0,
+      "weight": 0.07973
+    },
+    "Richmond Intl, VA": {
+      "zone": "DOM",
+      "peak_mw_25_26": 24779.0,
+      "weight": 0.29846
+    },
+    "Washington Reagan, DC": {
+      "zone": "PEPCO",
+      "peak_mw_25_26": 5353.0,
+      "weight": 0.06448
+    },
+    "Columbus, OH": {
+      "zone": "AEP",
+      "peak_mw_25_26": 23423.0,
+      "weight": 0.28213
+    },
+    "Baltimore/Washington Intl, MD": {
+      "zone": "BGE",
+      "peak_mw_25_26": 5855.0,
+      "weight": 0.07052
+    },
+    "Pittsburgh Intl, PA": {
+      "zone": "DLCO",
+      "peak_mw_25_26": 1982.0,
+      "weight": 0.02387
+    },
+    "Chicago O'Hare, IL": {
+      "zone": "COMED",
+      "peak_mw_25_26": 15011.0,
+      "weight": 0.18081
+    }
+  },
+  "weights_total_mw_7_zones": 83022.0,
+  "seven_zones_share_of_all_21_zones_noncoincident_25_26": 0.5830606081887773,
+  "seven_zones_sum_mw_vs_rto_coincident_forecast_25_26": 0.6030507735890173,
+  "hdd65_lw_per_winter_mean": 2674.3038532557634,
+  "hdd65_lw_per_winter_min": 2270.534198164342,
+  "hdd65_lw_per_winter_max": 3075.922897304329,
+  "hdd65_lw_min_winter": 2023,
+  "hdd65_lw_max_winter": 2003,
+  "hdd65_lw_1996_2005": 2720.8065377972102,
+  "hdd65_lw_2006_2015": 2788.194213738527,
+  "hdd65_lw_2016_2025": 2513.9108082315533,
+  "hdd65_lw_per_day_mean": 29.626704430455284,
+  "hdd60_lw_per_winter_mean": 2226.880709587017,
+  "mean_tavg_lw_overall": 35.38103825863885,
+  "monthly_hdd65_per_winter_month_lw": {
+    "1": 998.5,
+    "2": 819.8,
+    "12": 855.6
+  },
+  "monthly_hdd65_per_day_lw": {
+    "1": 32.21,
+    "2": 29.02,
+    "12": 27.6
+  },
+  "per_station_hdd65_per_winter_and_contrib": {
+    "Philadelphia Intl, PA": {
+      "hdd65_per_winter": 2544.1,
+      "weight": 0.0797,
+      "contrib_to_lw_total": 202.8
+    },
+    "Richmond Intl, VA": {
+      "hdd65_per_winter": 2164.9,
+      "weight": 0.2985,
+      "contrib_to_lw_total": 646.1
+    },
+    "Washington Reagan, DC": {
+      "hdd65_per_winter": 2275.3,
+      "weight": 0.0645,
+      "contrib_to_lw_total": 146.7
+    },
+    "Columbus, OH": {
+      "hdd65_per_winter": 2908.4,
+      "weight": 0.2821,
+      "contrib_to_lw_total": 820.5
+    },
+    "Baltimore/Washington Intl, MD": {
+      "hdd65_per_winter": 2533.7,
+      "weight": 0.0705,
+      "contrib_to_lw_total": 178.7
+    },
+    "Pittsburgh Intl, PA": {
+      "hdd65_per_winter": 2988.0,
+      "weight": 0.0239,
+      "contrib_to_lw_total": 71.3
+    },
+    "Chicago O'Hare, IL": {
+      "hdd65_per_winter": 3363.0,
+      "weight": 0.1808,
+      "contrib_to_lw_total": 608.1
+    }
+  },
+  "coldsnap_lt20_events_per_winter_lw": 3.291340046413401,
+  "coldsnap_lt20_mean_longest_run_lw": 3.3580452570804527,
+  "coldsnap_lt20_longest_run_any_station_winter": 15,
+  "coldsnap_lt20_longest_run_winter": 2007,
+  "coldsnap_lt20_longest_run_station": "Chicago O'Hare, IL",
+  "coldsnap_lt20_days_in_ge3_runs_per_winter_lw": 5.466887090168871,
+  "coldsnap_lt20_days_in_ge5_runs_per_winter_lw": 2.89716099347161,
+  "coldsnap_lt32_events_per_winter_lw": 8.054827234548272,
+  "coldsnap_lt32_mean_longest_run_lw": 11.19118908241189,
+  "coldsnap_lt32_longest_run_any_station_winter": 43,
+  "coldsnap_lt32_days_in_ge3_runs_per_winter_lw": 25.82055398970554,
+  "pooled_lw_lt20_longest_run": 9,
+  "pooled_lw_lt20_longest_run_winter": 2018,
+  "pooled_lw_lt32_longest_run": 23,
+  "pooled_lw_lt32_longest_run_winter": 2004,
+  "sensitivity_headline_hdd65_mean": {
+    "primary_25_26_wn_forecast": 2674.3038532557634,
+    "metered_24_25_actuals": 2673.988044096291,
+    "f3_wn_24_25": 2680.264830232506
+  },
+  "equal_weighted_comparison": {
+    "hdd65_per_winter_mean_eq": 2682.490714285714,
+    "hdd65_per_winter_mean_lw": 2674.3038532557634,
+    "hdd65_decadal_eq": [
+      2729.810142857143,
+      2802.444,
+      2515.218
+    ],
+    "hdd65_decadal_lw": [
+      2720.8065377972102,
+      2788.194213738527,
+      2513.9108082315533
+    ],
+    "coldsnap_lt20_events_eq": 3.233333333333333,
+    "coldsnap_lt20_events_lw": 3.291340046413401,
+    "coldsnap_lt20_mean_longest_eq": 3.1904761904761902,
+    "coldsnap_lt20_mean_longest_lw": 3.3580452570804527,
+    "coldsnap_lt20_days_ge3_eq": 4.947619047619048,
+    "coldsnap_lt20_days_ge3_lw": 5.466887090168871,
+    "coldsnap_lt20_days_ge5_eq": 2.5857142857142863,
+    "coldsnap_lt20_days_ge5_lw": 2.89716099347161,
+    "coldsnap_lt32_events_eq": 8.238095238095237,
+    "coldsnap_lt32_events_lw": 8.054827234548272,
+    "coldsnap_lt32_mean_longest_eq": 10.866666666666669,
+    "coldsnap_lt32_mean_longest_lw": 11.19118908241189,
+    "pooled_lt20_longest_eq": 12,
+    "pooled_lt20_longest_lw": 9,
+    "pooled_lt32_longest_eq": 23,
+    "pooled_lt32_longest_lw": 23
+  },
+  "coldest_hdd_winters_lw": [
+    {
+      "winter_year": 2003,
+      "hdd65_lw": 3075.922897304329
+    },
+    {
+      "winter_year": 1996,
+      "hdd65_lw": 3068.6952605333527
+    },
+    {
+      "winter_year": 2014,
+      "hdd65_lw": 3054.8665487461153
+    },
+    {
+      "winter_year": 2011,
+      "hdd65_lw": 3054.4899815711497
+    },
+    {
+      "winter_year": 2015,
+      "hdd65_lw": 3046.279865216449
+    }
+  ],
+  "warmest_hdd_winters_lw": [
+    {
+      "winter_year": 2023,
+      "hdd65_lw": 2270.534198164342
+    },
+    {
+      "winter_year": 2024,
+      "hdd65_lw": 2280.298400664884
+    },
+    {
+      "winter_year": 2002,
+      "hdd65_lw": 2315.936906843969
+    },
+    {
+      "winter_year": 2012,
+      "hdd65_lw": 2341.7428608079786
+    },
+    {
+      "winter_year": 1998,
+      "hdd65_lw": 2354.325071185951
+    }
+  ]
+}
