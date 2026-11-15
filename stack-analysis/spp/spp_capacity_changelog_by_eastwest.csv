@@ -1,0 +1,221 @@
+year,region,east_west,fuel,additions_mw,additions_count,retirements_mw,retirements_count,net_mw
+2026,East,East,Coal,0.0,0,0.0,0,0.0
+2026,East,East,Natural Gas,1391.4,16,32.6,2,1358.8
+2026,East,East,Nuclear,0.0,0,0.0,0,0.0
+2026,East,East,Hydro,0.0,0,0.0,0,0.0
+2026,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2026,East,East,Wind,265.0,1,0.0,0,265.0
+2026,East,East,Solar,2531.2,22,0.0,0,2531.2
+2026,East,East,Oil,32.1,14,0.0,0,32.1
+2026,East,East,Battery Storage,294.0,6,0.0,0,294.0
+2026,East,East,Other,0.0,0,1.5,3,-1.5
+2026,West,West,Coal,0.0,0,842.4,2,-842.4
+2026,West,West,Natural Gas,256.2,12,0.0,0,256.2
+2026,West,West,Nuclear,0.0,0,0.0,0,0.0
+2026,West,West,Hydro,0.0,0,0.0,0,0.0
+2026,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2026,West,West,Wind,0.0,0,0.0,0,0.0
+2026,West,West,Solar,0.0,0,0.0,0,0.0
+2026,West,West,Oil,0.0,0,0.0,0,0.0
+2026,West,West,Battery Storage,0.0,0,0.0,0,0.0
+2026,West,West,Other,0.0,0,0.0,0,0.0
+2027,East,East,Coal,0.0,0,0.0,0,0.0
+2027,East,East,Natural Gas,812.5,7,494.4,3,318.1
+2027,East,East,Nuclear,0.0,0,0.0,0,0.0
+2027,East,East,Hydro,0.0,0,0.0,0,0.0
+2027,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2027,East,East,Wind,453.6,2,0.0,0,453.6
+2027,East,East,Solar,1231.9,9,0.0,0,1231.9
+2027,East,East,Oil,7.2,3,0.0,0,7.2
+2027,East,East,Battery Storage,380.6,4,0.0,0,380.6
+2027,East,East,Other,0.0,0,0.0,0,0.0
+2027,West,West,Coal,0.0,0,0.0,0,0.0
+2027,West,West,Natural Gas,0.0,0,100.0,4,-100.0
+2027,West,West,Nuclear,0.0,0,0.0,0,0.0
+2027,West,West,Hydro,0.0,0,0.0,0,0.0
+2027,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2027,West,West,Wind,0.0,0,0.0,0,0.0
+2027,West,West,Solar,923.2,9,0.0,0,923.2
+2027,West,West,Oil,0.0,0,8.0,4,-8.0
+2027,West,West,Battery Storage,200.0,1,0.0,0,200.0
+2027,West,West,Other,0.0,0,0.0,0,0.0
+2028,East,East,Coal,0.0,0,1135.8,2,-1135.8
+2028,East,East,Natural Gas,1886.4,19,603.3,6,1283.1
+2028,East,East,Nuclear,0.0,0,0.0,0,0.0
+2028,East,East,Hydro,0.0,0,0.0,0,0.0
+2028,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2028,East,East,Wind,252.0,1,0.0,0,252.0
+2028,East,East,Solar,900.0,2,0.0,0,900.0
+2028,East,East,Oil,3.0,1,2.5,1,0.5
+2028,East,East,Battery Storage,382.0,3,0.0,0,382.0
+2028,East,East,Other,0.0,0,0.0,0,0.0
+2028,West,West,Coal,0.0,0,446.4,1,-446.4
+2028,West,West,Natural Gas,823.0,18,0.0,0,823.0
+2028,West,West,Nuclear,0.0,0,0.0,0,0.0
+2028,West,West,Hydro,0.0,0,0.0,0,0.0
+2028,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2028,West,West,Wind,0.0,0,0.0,0,0.0
+2028,West,West,Solar,400.0,1,0.0,0,400.0
+2028,West,West,Oil,0.0,0,0.0,0,0.0
+2028,West,West,Battery Storage,400.0,1,0.0,0,400.0
+2028,West,West,Other,0.0,0,0.0,0,0.0
+2029,East,East,Coal,0.0,0,0.0,0,0.0
+2029,East,East,Natural Gas,4988.8,28,125.0,1,4863.8
+2029,East,East,Nuclear,0.0,0,0.0,0,0.0
+2029,East,East,Hydro,0.0,0,0.0,0,0.0
+2029,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2029,East,East,Wind,75.0,1,0.0,0,75.0
+2029,East,East,Solar,430.0,2,0.0,0,430.0
+2029,East,East,Oil,0.0,0,0.0,0,0.0
+2029,East,East,Battery Storage,466.9,3,0.0,0,466.9
+2029,East,East,Other,0.0,0,0.0,0,0.0
+2029,West,West,Coal,0.0,0,1035.4,3,-1035.4
+2029,West,West,Natural Gas,0.0,0,0.0,0,0.0
+2029,West,West,Nuclear,0.0,0,0.0,0,0.0
+2029,West,West,Hydro,0.0,0,0.0,0,0.0
+2029,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2029,West,West,Wind,504.0,1,0.0,0,504.0
+2029,West,West,Solar,499.0,1,0.0,0,499.0
+2029,West,West,Oil,0.0,0,0.0,0,0.0
+2029,West,West,Battery Storage,499.0,1,0.0,0,499.0
+2029,West,West,Other,0.0,0,0.0,0,0.0
+2030,East,East,Coal,0.0,0,720.0,1,-720.0
+2030,East,East,Natural Gas,2013.7,4,443.5,4,1570.2
+2030,East,East,Nuclear,0.0,0,0.0,0,0.0
+2030,East,East,Hydro,0.0,0,0.0,0,0.0
+2030,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2030,East,East,Wind,0.0,0,0.0,0,0.0
+2030,East,East,Solar,0.0,0,0.0,0,0.0
+2030,East,East,Oil,0.0,0,0.0,0,0.0
+2030,East,East,Battery Storage,200.0,1,0.0,0,200.0
+2030,East,East,Other,0.0,0,0.0,0,0.0
+2030,West,West,Coal,0.0,0,856.8,1,-856.8
+2030,West,West,Natural Gas,0.0,0,0.0,0,0.0
+2030,West,West,Nuclear,0.0,0,0.0,0,0.0
+2030,West,West,Hydro,0.0,0,0.0,0,0.0
+2030,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2030,West,West,Wind,0.0,0,0.0,0,0.0
+2030,West,West,Solar,163.0,1,0.0,0,163.0
+2030,West,West,Oil,0.0,0,0.0,0,0.0
+2030,West,West,Battery Storage,0.0,0,0.0,0,0.0
+2030,West,West,Other,0.0,0,0.0,0,0.0
+2031,East,East,Coal,0.0,0,0.0,0,0.0
+2031,East,East,Natural Gas,0.0,0,247.5,1,-247.5
+2031,East,East,Nuclear,0.0,0,0.0,0,0.0
+2031,East,East,Hydro,0.0,0,0.0,0,0.0
+2031,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2031,East,East,Wind,0.0,0,0.0,0,0.0
+2031,East,East,Solar,0.0,0,0.0,0,0.0
+2031,East,East,Oil,0.0,0,0.0,0,0.0
+2031,East,East,Battery Storage,0.0,0,0.0,0,0.0
+2031,East,East,Other,0.0,0,0.0,0,0.0
+2031,West,West,Coal,0.0,0,0.0,0,0.0
+2031,West,West,Natural Gas,0.0,0,0.0,0,0.0
+2031,West,West,Nuclear,0.0,0,0.0,0,0.0
+2031,West,West,Hydro,0.0,0,0.0,0,0.0
+2031,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2031,West,West,Wind,0.0,0,0.0,0,0.0
+2031,West,West,Solar,0.0,0,0.0,0,0.0
+2031,West,West,Oil,0.0,0,0.0,0,0.0
+2031,West,West,Battery Storage,0.0,0,0.0,0,0.0
+2031,West,West,Other,0.0,0,0.0,0,0.0
+2032,East,East,Coal,0.0,0,1390.0,3,-1390.0
+2032,East,East,Natural Gas,0.0,0,0.0,0,0.0
+2032,East,East,Nuclear,0.0,0,0.0,0,0.0
+2032,East,East,Hydro,0.0,0,0.0,0,0.0
+2032,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2032,East,East,Wind,0.0,0,0.0,0,0.0
+2032,East,East,Solar,0.0,0,0.0,0,0.0
+2032,East,East,Oil,0.0,0,0.0,0,0.0
+2032,East,East,Battery Storage,0.0,0,0.0,0,0.0
+2032,East,East,Other,0.0,0,0.0,0,0.0
+2032,West,West,Coal,0.0,0,0.0,0,0.0
+2032,West,West,Natural Gas,0.0,0,0.0,0,0.0
+2032,West,West,Nuclear,0.0,0,0.0,0,0.0
+2032,West,West,Hydro,0.0,0,0.0,0,0.0
+2032,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2032,West,West,Wind,0.0,0,0.0,0,0.0
+2032,West,West,Solar,0.0,0,0.0,0,0.0
+2032,West,West,Oil,0.0,0,0.0,0,0.0
+2032,West,West,Battery Storage,0.0,0,0.0,0,0.0
+2032,West,West,Other,0.0,0,0.0,0,0.0
+2033,East,East,Coal,0.0,0,0.0,0,0.0
+2033,East,East,Natural Gas,0.0,0,0.0,0,0.0
+2033,East,East,Nuclear,0.0,0,0.0,0,0.0
+2033,East,East,Hydro,0.0,0,0.0,0,0.0
+2033,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2033,East,East,Wind,0.0,0,0.0,0,0.0
+2033,East,East,Solar,0.0,0,0.0,0,0.0
+2033,East,East,Oil,0.0,0,0.0,0,0.0
+2033,East,East,Battery Storage,0.0,0,0.0,0,0.0
+2033,East,East,Other,0.0,0,0.0,0,0.0
+2033,West,West,Coal,0.0,0,0.0,0,0.0
+2033,West,West,Natural Gas,0.0,0,0.0,0,0.0
+2033,West,West,Nuclear,0.0,0,0.0,0,0.0
+2033,West,West,Hydro,0.0,0,0.0,0,0.0
+2033,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2033,West,West,Wind,0.0,0,0.0,0,0.0
+2033,West,West,Solar,0.0,0,0.0,0,0.0
+2033,West,West,Oil,0.0,0,0.0,0,0.0
+2033,West,West,Battery Storage,0.0,0,0.0,0,0.0
+2033,West,West,Other,0.0,0,0.0,0,0.0
+2034,East,East,Coal,0.0,0,0.0,0,0.0
+2034,East,East,Natural Gas,0.0,0,345.9,3,-345.9
+2034,East,East,Nuclear,0.0,0,0.0,0,0.0
+2034,East,East,Hydro,0.0,0,0.0,0,0.0
+2034,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2034,East,East,Wind,0.0,0,0.0,0,0.0
+2034,East,East,Solar,0.0,0,0.0,0,0.0
+2034,East,East,Oil,0.0,0,27.0,1,-27.0
+2034,East,East,Battery Storage,0.0,0,0.0,0,0.0
+2034,East,East,Other,0.0,0,0.0,0,0.0
+2034,West,West,Coal,0.0,0,0.0,0,0.0
+2034,West,West,Natural Gas,0.0,0,0.0,0,0.0
+2034,West,West,Nuclear,0.0,0,0.0,0,0.0
+2034,West,West,Hydro,0.0,0,0.0,0,0.0
+2034,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2034,West,West,Wind,0.0,0,0.0,0,0.0
+2034,West,West,Solar,0.0,0,0.0,0,0.0
+2034,West,West,Oil,0.0,0,0.0,0,0.0
+2034,West,West,Battery Storage,0.0,0,0.0,0,0.0
+2034,West,West,Other,0.0,0,0.0,0,0.0
+2035,East,East,Coal,0.0,0,0.0,0,0.0
+2035,East,East,Natural Gas,0.0,0,258.0,2,-258.0
+2035,East,East,Nuclear,0.0,0,0.0,0,0.0
+2035,East,East,Hydro,0.0,0,0.0,0,0.0
+2035,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2035,East,East,Wind,0.0,0,0.0,0,0.0
+2035,East,East,Solar,0.0,0,0.0,0,0.0
+2035,East,East,Oil,0.0,0,0.0,0,0.0
+2035,East,East,Battery Storage,0.0,0,0.0,0,0.0
+2035,East,East,Other,0.0,0,0.0,0,0.0
+2035,West,West,Coal,0.0,0,0.0,0,0.0
+2035,West,West,Natural Gas,0.0,0,0.0,0,0.0
+2035,West,West,Nuclear,0.0,0,0.0,0,0.0
+2035,West,West,Hydro,0.0,0,0.0,0,0.0
+2035,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2035,West,West,Wind,0.0,0,0.0,0,0.0
+2035,West,West,Solar,0.0,0,0.0,0,0.0
+2035,West,West,Oil,0.0,0,0.0,0,0.0
+2035,West,West,Battery Storage,0.0,0,0.0,0,0.0
+2035,West,West,Other,0.0,0,0.0,0,0.0
+2036,East,East,Coal,0.0,0,0.0,0,0.0
+2036,East,East,Natural Gas,0.0,0,360.0,1,-360.0
+2036,East,East,Nuclear,0.0,0,0.0,0,0.0
+2036,East,East,Hydro,0.0,0,0.0,0,0.0
+2036,East,East,Pumped Storage,0.0,0,0.0,0,0.0
+2036,East,East,Wind,0.0,0,0.0,0,0.0
+2036,East,East,Solar,0.0,0,0.0,0,0.0
+2036,East,East,Oil,0.0,0,0.0,0,0.0
+2036,East,East,Battery Storage,0.0,0,0.0,0,0.0
+2036,East,East,Other,0.0,0,0.0,0,0.0
+2036,West,West,Coal,0.0,0,0.0,0,0.0
+2036,West,West,Natural Gas,0.0,0,0.0,0,0.0
+2036,West,West,Nuclear,0.0,0,0.0,0,0.0
+2036,West,West,Hydro,0.0,0,0.0,0,0.0
+2036,West,West,Pumped Storage,0.0,0,0.0,0,0.0
+2036,West,West,Wind,0.0,0,0.0,0,0.0
+2036,West,West,Solar,0.0,0,0.0,0,0.0
+2036,West,West,Oil,0.0,0,0.0,0,0.0
+2036,West,West,Battery Storage,0.0,0,0.0,0,0.0
+2036,West,West,Other,0.0,0,0.0,0,0.0

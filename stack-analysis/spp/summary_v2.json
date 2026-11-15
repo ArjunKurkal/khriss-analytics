@@ -1,0 +1,289 @@
+{
+  "version": "v2",
+  "built": "2026-11-15",
+  "anchor_unchanged_mw": 116939.3,
+  "anchor_by_region_mw": {
+    "East": 103225.0,
+    "West": 13714.3
+  },
+  "anchor_source": "EIA-860M Operating-sheet snapshot of the post-expansion SPP cut (East BA=SWPP; West BA=WACM/WAUW plus Platte River and Deseret plant-level overrides), adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; no published SPP nameplate-by-fuel anchor exists for the post-expansion footprint.",
+  "v1_forward_2026_2036": {
+    "additions_mw": 23664.7,
+    "additions_count": 195,
+    "retirements_mw": 9476.0,
+    "retirements_count": 49,
+    "net_mw": 14188.7,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 12172.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1549.6,
+      "Solar": 7078.3,
+      "Oil": 42.3,
+      "Battery Storage": 2822.5,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 6426.8,
+      "Natural Gas": 3010.2,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 37.5,
+      "Battery Storage": 0.0,
+      "Other": 1.5
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 25752.7,
+    "additions_count": 197,
+    "retirements_mw": 9476.0,
+    "retirements_count": 49,
+    "net_mw": 16276.7,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 14260.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1549.6,
+      "Solar": 7078.3,
+      "Oil": 42.3,
+      "Battery Storage": 2822.5,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 6426.8,
+      "Natural Gas": 3010.2,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 37.5,
+      "Battery Storage": 0.0,
+      "Other": 1.5
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": 2088.0,
+    "retirements": 0.0,
+    "net": 2088.0,
+    "by_fuel_net_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 2088.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 97063.6,
+      "2017": 100222.9,
+      "2018": 100668.3,
+      "2019": 101841.5,
+      "2020": 103913.9,
+      "2021": 107742.6,
+      "2022": 110255.0,
+      "2023": 111596.5,
+      "2024": 112324.6,
+      "2025": 116939.3,
+      "2026": 120832.7,
+      "2027": 124239.3,
+      "2028": 127097.7,
+      "2029": 133400.0,
+      "2030": 133756.4,
+      "2031": 133508.9,
+      "2032": 132118.9,
+      "2033": 132118.9,
+      "2034": 131746.0,
+      "2035": 131488.0,
+      "2036": 131128.0
+    },
+    "v2": {
+      "2016": 97063.6,
+      "2017": 100222.9,
+      "2018": 100668.3,
+      "2019": 101841.5,
+      "2020": 103913.9,
+      "2021": 107742.6,
+      "2022": 110255.0,
+      "2023": 111596.5,
+      "2024": 112324.6,
+      "2025": 116939.3,
+      "2026": 120832.7,
+      "2027": 124239.3,
+      "2028": 128635.7,
+      "2029": 135488.0,
+      "2030": 135844.4,
+      "2031": 135596.9,
+      "2032": 134206.9,
+      "2033": 134206.9,
+      "2034": 133834.0,
+      "2035": 133576.0,
+      "2036": 133216.0
+    }
+  },
+  "yearly_totals_by_region_mw_v1": {
+    "East": {
+      "2016": 85274.3,
+      "2017": 88364.1,
+      "2018": 88762.5,
+      "2019": 89913.5,
+      "2020": 91914.4,
+      "2021": 95434.5,
+      "2022": 98347.5,
+      "2023": 99214.4,
+      "2024": 99352.6,
+      "2025": 103225.0,
+      "2026": 107704.6,
+      "2027": 110096.0,
+      "2028": 111777.8,
+      "2029": 117613.5,
+      "2030": 118663.7,
+      "2031": 118416.2,
+      "2032": 117026.2,
+      "2033": 117026.2,
+      "2034": 116653.3,
+      "2035": 116395.3,
+      "2036": 116035.3
+    },
+    "West": {
+      "2016": 11789.3,
+      "2017": 11858.8,
+      "2018": 11905.8,
+      "2019": 11928.0,
+      "2020": 11999.5,
+      "2021": 12308.1,
+      "2022": 11907.5,
+      "2023": 12382.1,
+      "2024": 12972.0,
+      "2025": 13714.3,
+      "2026": 13128.1,
+      "2027": 14143.3,
+      "2028": 15319.9,
+      "2029": 15786.5,
+      "2030": 15092.7,
+      "2031": 15092.7,
+      "2032": 15092.7,
+      "2033": 15092.7,
+      "2034": 15092.7,
+      "2035": 15092.7,
+      "2036": 15092.7
+    }
+  },
+  "yearly_totals_by_region_mw_v2": {
+    "East": {
+      "2016": 85274.3,
+      "2017": 88364.1,
+      "2018": 88762.5,
+      "2019": 89913.5,
+      "2020": 91914.4,
+      "2021": 95434.5,
+      "2022": 98347.5,
+      "2023": 99214.4,
+      "2024": 99352.6,
+      "2025": 103225.0,
+      "2026": 107704.6,
+      "2027": 110096.0,
+      "2028": 114073.6,
+      "2029": 119701.5,
+      "2030": 120751.7,
+      "2031": 120504.2,
+      "2032": 119114.2,
+      "2033": 119114.2,
+      "2034": 118741.3,
+      "2035": 118483.3,
+      "2036": 118123.3
+    },
+    "West": {
+      "2016": 11789.3,
+      "2017": 11858.8,
+      "2018": 11905.8,
+      "2019": 11928.0,
+      "2020": 11999.5,
+      "2021": 12308.1,
+      "2022": 11907.5,
+      "2023": 12382.1,
+      "2024": 12972.0,
+      "2025": 13714.3,
+      "2026": 13128.1,
+      "2027": 14143.3,
+      "2028": 14562.1,
+      "2029": 15786.5,
+      "2030": 15092.7,
+      "2031": 15092.7,
+      "2032": 15092.7,
+      "2033": 15092.7,
+      "2034": 15092.7,
+      "2035": 15092.7,
+      "2036": 15092.7
+    }
+  },
+  "manual_adjustments_count": 10,
+  "named_adjustments_count": 5,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Gaines County CTG (new SPS gas, TX, East)",
+      "change": "add",
+      "mw": 1160.0
+    },
+    {
+      "plant": "Tolk coal Units 1/2 retime 2028->2029",
+      "change": "retime",
+      "mw": 1135.8
+    },
+    {
+      "plant": "Tolk Station CTG (new SPS gas, TX, East)",
+      "change": "add",
+      "mw": 928.0
+    },
+    {
+      "plant": "Craig (CO) Unit 3 retime 2029->2028",
+      "change": "retime",
+      "mw": 534.8
+    },
+    {
+      "plant": "Rawhide new gas retime 2028->2029",
+      "change": "retime",
+      "mw": 223.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "Tri-State Craig-site replacement gas (ERP, at Craig Station, CO, West; date not pinned)": 307.0,
+    "Tri-State Craig-site battery storage (ERP; date not pinned)": 200.0,
+    "SPP ERAS queue pool (13.3 GW submitted Oct 2025; not itemised to plant/MW/date)": 13300.0,
+    "Comanche (OK) PSO new CC 1,372.8 MW in EIA at (P) status (kept in v1/v2; approval unverified)": 1372.8,
+    "Naples Power Plant (AECC) 900 MW in EIA at (P) status (kept; approval unverified)": 900.0,
+    "Horizon/Williams Creek 100 MW battery (CSU campus plan; no EIA row found)": 100.0,
+    "SPS life extensions requested for Nichols 1/2, Maddox 1, Plant X 4 (Case 25-00066-UT; approval status unclear; EIA dates kept)": null,
+    "Tri-State plants under PSCO/PNM BAs excluded by the boundary rule (sensitivity, not a candidate)": 882.1
+  },
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "spp_capacity_plants_v2.csv",
+    "stack_v2": "spp_capacity_stack_v2.csv",
+    "stack_by_eastwest_v2": "spp_capacity_stack_by_eastwest_v2.csv",
+    "changelog_v2": "spp_capacity_changelog_v2.csv",
+    "changelog_by_eastwest_v2": "spp_capacity_changelog_by_eastwest_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png",
+      "03_eastwest_stacked_v2.png",
+      "04_eastwest_totals_v2.png"
+    ]
+  }
+}

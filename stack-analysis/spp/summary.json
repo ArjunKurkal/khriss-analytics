@@ -1,0 +1,337 @@
+{
+  "version": "v1",
+  "built": "2026-11-15",
+  "anchor": {
+    "basis": "EIA-860M Operating-sheet snapshot of the post-expansion SPP cut (East BA=SWPP; West BA=WACM/WAUW plus Platte River and Deseret plant-level overrides), adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; no published SPP nameplate-by-fuel anchor exists for the post-expansion footprint.",
+    "total_mw": 116939.3,
+    "by_fuel_mw": {
+      "Coal": 26697.5,
+      "Natural Gas": 39649.5,
+      "Nuclear": 2097.3,
+      "Hydro": 4784.5,
+      "Pumped Storage": 467.7,
+      "Wind": 37382.1,
+      "Solar": 2321.3,
+      "Oil": 2505.2,
+      "Battery Storage": 560.0,
+      "Other": 474.2
+    },
+    "by_region_mw": {
+      "East": 103225.0,
+      "West": 13714.3
+    },
+    "by_region_fuel_mw": {
+      "East|Coal": 20279.3,
+      "East|Natural Gas": 37413.4,
+      "East|Nuclear": 2097.3,
+      "East|Hydro": 3103.5,
+      "East|Pumped Storage": 259.2,
+      "East|Wind": 35453.4,
+      "East|Solar": 1357.9,
+      "East|Oil": 2346.4,
+      "East|Battery Storage": 451.5,
+      "East|Other": 463.1,
+      "West|Coal": 6418.2,
+      "West|Natural Gas": 2236.1,
+      "West|Nuclear": 0.0,
+      "West|Hydro": 1681.0,
+      "West|Pumped Storage": 208.5,
+      "West|Wind": 1928.7,
+      "West|Solar": 963.4,
+      "West|Oil": 158.8,
+      "West|Battery Storage": 108.5,
+      "West|Other": 11.1
+    },
+    "capacity_definition": "Nameplate MW, all statuses (OP/SB/OA/OS).",
+    "cross_checks": {
+      "spp_101_aug2026_nameplate_east_mw": 110753,
+      "spp_101_aug2026_nameplate_west_mw": 10069,
+      "spp_101_note": "SPP 101 (Aug 1, 2026): nameplate generating capacity East 110,753 MW / West 10,069 MW, as of Jul-Aug 2026 \u2014 i.e. AFTER 2026 additions and on SPP's registered-resource basis. This build's EIA snapshot (Sep 30, 2026, all statuses) is lower in the East and higher in the West; see README gap discussion.",
+      "spp_som_2025_market_nameplate_mw": "~105,700 (SPP State of the Market 2025: wind 35,934 MW nameplate = 34% of installed nameplate at end-2025, legacy East market only, registered resources)",
+      "spp_deliverability_winter2025_registered_mw": 104480.4,
+      "spp_deliverability_note": "SPP 2025 Winter Deliverability Study, Table 1: max capacity of resources registered in the Integrated Marketplace as of Mar 1, 2025 (legacy footprint).",
+      "eia_operating_sep2026_cut_nameplate_mw": 119495.9,
+      "eia_operating_sep2026_cut_netsummer_mw": 111927.5
+    }
+  },
+  "trailing": {
+    "basis": "Reconstructed Dec-31 snapshots from EIA unit-level data on the constant post-expansion footprint. Estimated. West 2016-2025 is pro-forma: the West BAA did not exist before Apr 1, 2026.",
+    "yearly_totals_mw": {
+      "2016": 97063.6,
+      "2017": 100222.9,
+      "2018": 100668.3,
+      "2019": 101841.5,
+      "2020": 103913.9,
+      "2021": 107742.6,
+      "2022": 110255.0,
+      "2023": 111596.5,
+      "2024": 112324.6,
+      "2025": 116939.3
+    }
+  },
+  "forward_2026_2036": {
+    "additions_mw": 23664.7,
+    "additions_count": 195,
+    "retirements_mw": 9476.0,
+    "retirements_count": 49,
+    "net_mw": 14188.7,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 12172.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1549.6,
+      "Solar": 7078.3,
+      "Oil": 42.3,
+      "Battery Storage": 2822.5,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 6426.8,
+      "Natural Gas": 3010.2,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 37.5,
+      "Battery Storage": 0.0,
+      "Other": 1.5
+    },
+    "additions_by_region_mw": {
+      "East": 18997.3,
+      "West": 4667.4
+    },
+    "retirements_by_region_mw": {
+      "East": 6187.0,
+      "West": 3289.0
+    },
+    "net_by_region_mw": {
+      "East": 12810.3,
+      "West": 1378.4
+    }
+  },
+  "yearly_totals_mw": {
+    "2016": 97063.6,
+    "2017": 100222.9,
+    "2018": 100668.3,
+    "2019": 101841.5,
+    "2020": 103913.9,
+    "2021": 107742.6,
+    "2022": 110255.0,
+    "2023": 111596.5,
+    "2024": 112324.6,
+    "2025": 116939.3,
+    "2026": 120832.7,
+    "2027": 124239.3,
+    "2028": 127097.7,
+    "2029": 133400.0,
+    "2030": 133756.4,
+    "2031": 133508.9,
+    "2032": 132118.9,
+    "2033": 132118.9,
+    "2034": 131746.0,
+    "2035": 131488.0,
+    "2036": 131128.0
+  },
+  "yearly_totals_by_region_mw": {
+    "East": {
+      "2016": 85274.3,
+      "2017": 88364.1,
+      "2018": 88762.5,
+      "2019": 89913.5,
+      "2020": 91914.4,
+      "2021": 95434.5,
+      "2022": 98347.5,
+      "2023": 99214.4,
+      "2024": 99352.6,
+      "2025": 103225.0,
+      "2026": 107704.6,
+      "2027": 110096.0,
+      "2028": 111777.8,
+      "2029": 117613.5,
+      "2030": 118663.7,
+      "2031": 118416.2,
+      "2032": 117026.2,
+      "2033": 117026.2,
+      "2034": 116653.3,
+      "2035": 116395.3,
+      "2036": 116035.3
+    },
+    "West": {
+      "2016": 11789.3,
+      "2017": 11858.8,
+      "2018": 11905.8,
+      "2019": 11928.0,
+      "2020": 11999.5,
+      "2021": 12308.1,
+      "2022": 11907.5,
+      "2023": 12382.1,
+      "2024": 12972.0,
+      "2025": 13714.3,
+      "2026": 13128.1,
+      "2027": 14143.3,
+      "2028": 15319.9,
+      "2029": 15786.5,
+      "2030": 15092.7,
+      "2031": 15092.7,
+      "2032": 15092.7,
+      "2033": 15092.7,
+      "2034": 15092.7,
+      "2035": 15092.7,
+      "2036": 15092.7
+    }
+  },
+  "regions": {
+    "definition": "SPP East = legacy RTO footprint, East BAA (EIA Balancing Authority Code SWPP). SPP West = RTO expansion footprint, West BAA (EIA codes WACM + WAUW, the two BAs SPP consolidated into the West BAA on Apr 1, 2026) plus plant-level overrides for Platte River Power Authority (Rawhide, filed under PSCO) and Deseret G&T (Bonanza/Solomon, filed under PACE).",
+    "expansion_effective": "April 1, 2026 (live, integrated; FERC RTO Expansion Order Mar 20, 2025, 190 FERC 61,169; SPP announcement Apr 2, 2026).",
+    "markets_plus_note": "Markets+ is a separate day-ahead market service, not RTO membership. APS, SRP, TEP, UniSource (Markets+) and PNM (EDAM) plants are NOT in this stack."
+  },
+  "diagnostics": {
+    "eia_operating_spp_units": 1988,
+    "eia_operating_spp_nameplate_mw": 119495.9,
+    "eia_operating_spp_netsummer_mw": 111927.5,
+    "eia_operating_by_ba_mw": {
+      "PACE": 526.9,
+      "PSCO": 800.4,
+      "SWPP": 105625.0,
+      "WACM": 11415.3,
+      "WAUW": 1128.3
+    },
+    "eia_operating_by_eastwest_mw": {
+      "East": 105625.0,
+      "West": 13870.9
+    },
+    "west_override_operating_mw": 1327.3,
+    "west_override_operating_units": 9,
+    "west_override_by_entity_mw": {
+      "Deseret Generation & Tran Coop": 526.9,
+      "Platte River Power Authority": 800.4
+    },
+    "eia_operating_spp_op_only_nameplate_mw": 118477.5,
+    "eia_operating_spp_nonop_nameplate_mw": 1018.4,
+    "eia_operating_spp_by_fuel_nameplate": {
+      "Battery Storage": 599.0,
+      "Coal": 26697.5,
+      "Hydro": 4784.5,
+      "Natural Gas": 40534.9,
+      "Nuclear": 2097.3,
+      "Oil": 2521.2,
+      "Other": 472.7,
+      "Pumped Storage": 467.7,
+      "Solar": 3674.0,
+      "Wind": 37647.1
+    },
+    "excluded_western_states_not_spp_mw": 103885.4,
+    "excluded_western_states_not_spp_by_ba_mw": {
+      "SRP": 19134.0,
+      "PACE": 18783.8,
+      "PSCO": 16425.4,
+      "AZPS": 12810.9,
+      "PNM": 7725.6,
+      "CISO": 6654.4,
+      "WALC": 5934.2,
+      "TEPC": 5059.2,
+      "NWMT": 4265.1,
+      "LDWP": 1441.7,
+      "EPE": 1338.7,
+      "BPAT": 962.2,
+      "DEAA": 713.0,
+      "GRIF": 655.0,
+      "AVA": 587.8,
+      "PSEI": 365.5,
+      "GRIS": 324.3,
+      "GWA": 210.0,
+      "WWA": 189.0,
+      "MISO": 155.6,
+      "DOPD": 150.0
+    },
+    "excluded_tristate_nonconsolidated_ba_mw": 882.1,
+    "excluded_tristate_nonconsolidated_ba_by_ba_mw": {
+      "PNM": 186.0,
+      "PSCO": 696.1
+    },
+    "excluded_walc_usbr_hydro_mw": 3765.6,
+    "anchor_less_in_service_2026_mw": 2590.7,
+    "anchor_less_in_service_2026_units": 34,
+    "anchor_less_in_service_2026_by_eastwest": {
+      "East": 2434.1,
+      "West": 156.6
+    },
+    "anchor_plus_retired_2026_mw": 34.1,
+    "anchor_plus_retired_2026_units": 5,
+    "anchor_total_mw": 116939.3,
+    "anchor_by_fuel_mw": {
+      "Coal": 26697.5,
+      "Natural Gas": 39649.5,
+      "Nuclear": 2097.3,
+      "Hydro": 4784.5,
+      "Pumped Storage": 467.7,
+      "Wind": 37382.1,
+      "Solar": 2321.3,
+      "Oil": 2505.2,
+      "Battery Storage": 560.0,
+      "Other": 474.2
+    },
+    "anchor_by_region_mw": {
+      "East": 103225.0,
+      "West": 13714.3
+    },
+    "anchor_by_region_fuel_mw": {
+      "East|Coal": 20279.3,
+      "East|Natural Gas": 37413.4,
+      "East|Nuclear": 2097.3,
+      "East|Hydro": 3103.5,
+      "East|Pumped Storage": 259.2,
+      "East|Wind": 35453.4,
+      "East|Solar": 1357.9,
+      "East|Oil": 2346.4,
+      "East|Battery Storage": 451.5,
+      "East|Other": 463.1,
+      "West|Coal": 6418.2,
+      "West|Natural Gas": 2236.1,
+      "West|Nuclear": 0.0,
+      "West|Hydro": 1681.0,
+      "West|Pumped Storage": 208.5,
+      "West|Wind": 1928.7,
+      "West|Solar": 963.4,
+      "West|Oil": 158.8,
+      "West|Battery Storage": 108.5,
+      "West|Other": 11.1
+    },
+    "eia_planned_spp_units": 161,
+    "eia_planned_spp_nameplate_mw": 21074.0,
+    "eia_planned_spp_by_status_mw": {
+      "(L) Regulatory approvals pending. Not under construction": 3901.2,
+      "(P) Planned for installation, but regulatory approvals not initiated": 7507.7,
+      "(T) Regulatory approvals received. Not under construction": 5440.3,
+      "(TS) Construction complete, but not yet in commercial operation": 752.3,
+      "(U) Under construction, less than or equal to 50 percent complete": 1945.7,
+      "(V) Under construction, more than 50 percent complete": 1526.8
+    },
+    "eia_planned_spp_by_eastwest_mw": {
+      "East": 16563.2,
+      "West": 4510.8
+    },
+    "eia_planned_max_operation_year": 2030,
+    "overlap_operating2026_vs_planned2026_units": 0,
+    "overlap_retired2026_vs_plannedret2026_units": 0,
+    "planned_total_mw_2026_2036": 23664.7,
+    "retirements_2026_actual_mw": 34.1
+  },
+  "files": {
+    "plants": "spp_capacity_plants.csv",
+    "stack": "spp_capacity_stack.csv",
+    "stack_by_eastwest": "spp_capacity_stack_by_eastwest.csv",
+    "changelog": "spp_capacity_changelog.csv",
+    "changelog_by_eastwest": "spp_capacity_changelog_by_eastwest.csv",
+    "summary": "summary.json",
+    "charts": [
+      "01_stacked_area.png",
+      "02_net_change_forward.png",
+      "03_eastwest_stacked.png",
+      "04_eastwest_totals.png"
+    ]
+  }
+}
