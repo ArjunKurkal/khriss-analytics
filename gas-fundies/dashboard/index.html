@@ -42,10 +42,11 @@
   <section id="sec-production" hidden><h2>Dry production by region, estimated (Bcf/d)</h2><p>EIA publishes dry production only for the US total; by state it publishes marketed production. Regional dry = regional marketed × the month's US dry/marketed ratio. Regions are state aggregates (Appalachia = PA/OH/WV; Southwest = TX/NM; Haynesville = LA; states are not basin-pure — see rig counts for basin detail).</p><div class="chart" id="chart-production"></div></section>
   <section id="sec-storage" hidden><h2>Working gas in storage — Lower 48 (Bcf)</h2><p>Last 3 years against the prior 5-year average and range, aligned by week of year.</p><div class="chart" id="chart-storage"></div></section>
   <section id="sec-price" hidden><h2>Henry Hub spot price ($/MMBtu)</h2><div class="chart" id="chart-price"></div></section>
+  <section id="sec-global" hidden><h2>Global gas prices — front month ($/MMBtu)</h2><p>CME daily settlements: Dutch TTF (EUR/MWh contract, converted at the ECB EUR/USD reference rate) and LNG Japan/Korea Marker (JKM). These CME contracts are financially settled proxies referencing ICE TTF and the Platts JKM assessment; CME volume is thin (JKM and the USD TTF contract settle on assessment, with zero traded volume), so treat the levels as benchmark marks, not traded prices. The dashed TFU line is CME's USD-denominated TTF contract, captured as a cross-check on the conversion. Series begin 12 Nov 2026 — the CME feed retains only ~5 business days, so history accrues from daily capture and cannot be backfilled.</p><div class="chart" id="chart-global"></div><div class="chart" id="chart-spreads"></div></section>
   <section id="sec-rigs" hidden><h2>Rig count by basin (Baker Hughes, weekly)</h2><div class="chart" id="chart-rigs"></div></section>
   <section id="sec-table" hidden><h2>Balance detail — latest 24 months (Bcf/d)</h2><div id="balance-table"></div></section>
 </main>
-<footer>Data: EIA (api.eia.gov, ir.eia.gov weekly storage), Baker Hughes rig report. Built by the Gas Fundies pipeline in khriss-analytics. Not investment advice.</footer>
+<footer>Data: EIA (api.eia.gov, ir.eia.gov weekly storage), Baker Hughes rig report, CME Group settlements (TTF/JKM), European Central Bank reference rates. Built by the Gas Fundies pipeline in khriss-analytics. Not investment advice.</footer>
 <script>
 const LAYOUT = { paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)',
   font:{color:'#e6edf3'}, margin:{t:24,r:16,b:36,l:52},
@@ -93,6 +94,8 @@ fetch('data.json').then(r => {
     ['Storage week change', s.storage_wow_bcf, 'Bcf', ''],
     ['Storage vs 5-yr avg', s.storage_vs_5yr_avg_bcf, 'Bcf', 'same week'],
     ['Henry Hub', s.henry_hub_usd_mmbtu, '$/MMBtu', s.price_date || ''],
+    ['TTF front (CME)', s.ttf_front_usd_mmbtu, '$/MMBtu', (s.ttf_front_eur_mwh ? '€' + s.ttf_front_eur_mwh + '/MWh · ' : '') + (s.global_price_date || '')],
+    ['JKM front (CME)', s.jkm_front_usd_mmbtu, '$/MMBtu', s.global_price_date || ''],
     ['US rigs', s.rigs_total_us, '', s.rigs_week || ''],
   ].filter(k => k[1] !== undefined && k[1] !== null);
   document.getElementById('kpis').innerHTML = kpis.map(k =>
@@ -146,6 +149,21 @@ fetch('data.json').then(r => {
       [{ x:d.price.dates, y:d.price.henry_hub_usd_mmbtu, name:'Henry Hub',
          type:'scatter', mode:'lines', line:{color:'#f0883e'} }],
       layout3y(d.price.dates), CFG);
+  }
+  if (d.global_prices) {
+    show('sec-global');
+    const g = d.global_prices;
+    const traces = [
+      { x:g.dates, y:g.ttf_usd_mmbtu, name:'TTF (converted)', type:'scatter', mode:'lines+markers', line:{color:'#bc8cff'} },
+      ...(g.jkm_usd_mmbtu ? [{ x:g.dates, y:g.jkm_usd_mmbtu, name:'JKM', type:'scatter', mode:'lines+markers', line:{color:'#ffa657'} }] : []),
+      ...(g.tfu_usd_mmbtu ? [{ x:g.dates, y:g.tfu_usd_mmbtu, name:'TTF USD contract (cross-check)', type:'scatter', mode:'lines', line:{color:'#8b949e', dash:'dash'} }] : []),
+    ];
+    Plotly.newPlot('chart-global', traces, layout3y(g.dates), CFG);
+    const spreads = [
+      ...(g.jkm_minus_ttf ? [{ x:g.dates, y:g.jkm_minus_ttf, name:'JKM − TTF', type:'scatter', mode:'lines+markers' }] : []),
+      ...(g.ttf_minus_hh ? [{ x:g.ttf_minus_hh.dates, y:g.ttf_minus_hh.values, name:'TTF − Henry Hub spot', type:'scatter', mode:'lines+markers' }] : []),
+    ];
+    if (spreads.length) Plotly.newPlot('chart-spreads', spreads, layout3y(g.dates), CFG);
   }
   if (d.rigs) {
     show('sec-rigs');

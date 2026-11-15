@@ -131,6 +131,66 @@ def price_section(curated: Path, out: dict) -> None:
         "henry_hub_usd_mmbtu": float(last["henry_hub_usd_mmbtu"])})
 
 
+MWH_PER_MMBTU = 3.41214  # 1 MWh = 3.41214 MMBtu
+
+
+def global_price_section(curated: Path, out: dict) -> None:
+    """Front-month CME settlements: TTF (EUR contract, converted at the ECB
+    EUR/USD reference rate), TFU cross-check, JKM. Capture starts
+    2026-11-12 — the CME feed retains only ~5 business days, so the series
+    accrues daily and has no earlier history. Spreads vs Henry Hub spot
+    are computed only on dates where both legs exist."""
+    path = curated / "prices_cme_settlements.parquet"
+    fx_path = curated / "fx_eurusd_daily.parquet"
+    if not path.exists() or not fx_path.exists():
+        return
+    cme = read_parquet(path)
+    cme["trade_date"] = pd.to_datetime(cme["trade_date"])
+    cme["contract_date"] = pd.to_datetime(cme["contract_date"])
+    front = (cme.sort_values("contract_date")
+             .groupby(["trade_date", "product"]).first().reset_index())
+    piv = front.pivot_table(index="trade_date", columns="product",
+                            values="settle").sort_index()
+    if "TTF_EUR" not in piv.columns:
+        return
+    fx = read_parquet(fx_path).sort_values("date")
+    merged = pd.merge_asof(piv.reset_index(), fx, left_on="trade_date",
+                           right_on="date", direction="backward").drop(columns="date")
+    merged["ttf_usd"] = merged["TTF_EUR"] / MWH_PER_MMBTU * merged["eur_usd"]
+    dates = _dates(merged["trade_date"])
+    section = {"dates": dates,
+               "ttf_eur_mwh": _round(merged["TTF_EUR"], 3),
+               "ttf_usd_mmbtu": _round(merged["ttf_usd"], 3),
+               "fx_eurusd": _round(merged["eur_usd"], 4)}
+    if "TTF_USD" in merged.columns:
+        section["tfu_usd_mmbtu"] = _round(merged["TTF_USD"], 3)
+    if "JKM" in merged.columns:
+        section["jkm_usd_mmbtu"] = _round(merged["JKM"], 3)
+        section["jkm_minus_ttf"] = _round(merged["JKM"] - merged["ttf_usd"], 3)
+    labels = front[front["product"] == "TTF_EUR"].sort_values("trade_date")
+    section["ttf_front_contract"] = labels["contract_month"].tolist()
+    out["global_prices"] = section
+
+    last = merged.iloc[-1]
+    snap = {"global_price_date": last["trade_date"].strftime("%Y-%m-%d"),
+            "ttf_front_eur_mwh": round(float(last["TTF_EUR"]), 3),
+            "ttf_front_usd_mmbtu": round(float(last["ttf_usd"]), 3)}
+    if "JKM" in merged.columns and pd.notna(last["JKM"]):
+        snap["jkm_front_usd_mmbtu"] = round(float(last["JKM"]), 3)
+    out.setdefault("snapshot", {}).update(snap)
+
+    hh_path = curated / "price_henry_hub_daily.parquet"
+    if hh_path.exists():
+        hh = read_parquet(hh_path)[["period", "henry_hub_usd_mmbtu"]]
+        hh["period"] = pd.to_datetime(hh["period"])
+        both = merged.merge(hh, left_on="trade_date", right_on="period",
+                            how="inner").sort_values("trade_date")
+        if not both.empty:
+            out["global_prices"]["ttf_minus_hh"] = {
+                "dates": _dates(both["trade_date"]),
+                "values": _round(both["ttf_usd"] - both["henry_hub_usd_mmbtu"], 3)}
+
+
 def rigs_section(curated: Path, out: dict) -> None:
     path = curated / "rigs_weekly.parquet"
     if not path.exists():
@@ -176,6 +236,7 @@ def main() -> None:
     production_section(curated, out)
     storage_section(curated, out)
     price_section(curated, out)
+    global_price_section(curated, out)
     rigs_section(curated, out)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(_sanitize(out), allow_nan=False))

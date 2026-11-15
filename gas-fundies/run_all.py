@@ -8,7 +8,12 @@ crash — the dashboard still builds from whatever curated data exists.
 Usage:  python run_all.py [--only storage,rigs]
 Steps:  eia (monthly + price, needs key) -> storage (keyless)
         -> rigs (needs a Baker Hughes workbook in the raw drop folder)
+        -> fx (ECB reference rates, keyless)
         -> balance (needs eia + storage) -> dashboard
+        (CME TTF/JKM settlements are captured separately through the
+        browser — CME blocks scripted egress — and archived by
+        src/pull_cme_settlements.py; the dashboard step reads the
+        archive when present.)
 """
 from __future__ import annotations
 
@@ -19,11 +24,12 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SRC = HERE / "src"
-STEPS = ["eia", "storage", "rigs", "balance", "dashboard"]
+STEPS = ["eia", "storage", "rigs", "fx", "balance", "dashboard"]
 SCRIPTS = {
     "eia": "pull_eia_monthly.py",
     "storage": "pull_storage_weekly.py",
     "rigs": "pull_rigs.py",
+    "fx": "pull_ecb_fx.py",
     "balance": "build_balance.py",
     "dashboard": "build_dashboard_data.py",
 }
