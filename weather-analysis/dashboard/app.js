@@ -828,12 +828,12 @@ function ensureMap() {
   }
   map = L.map("map");
   map.fitBounds([[BBOX.latMin, BBOX.lonMin], [BBOX.latMax, BBOX.lonMax]]);
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
     maxZoom: 12,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(map);
   L.rectangle([[BBOX.latMin, BBOX.lonMin], [BBOX.latMax, BBOX.lonMax]], {
-    color: "#2166ac", weight: 1, fill: false, dashArray: "4 4"
+    color: "#4da3ff", weight: 1, fill: false, dashArray: "4 4"
   }).addTo(map);
   markerLayer = L.layerGroup().addTo(map);
   legendControl = L.control({ position: "bottomright" });
@@ -983,7 +983,7 @@ function renderMap(payload) {
       var isSelected = currentLevel() === "station" && d.station.id === selectedId;
       var marker = L.circleMarker([d.station.lat, d.station.lon], {
         radius: isSelected ? 11 : 8,
-        color: isSelected ? "#000000" : "#333333", weight: isSelected ? 3 : 1,
+        color: isSelected ? "#ffffff" : "#e6ebf2", weight: isSelected ? 3 : 1,
         fillColor: rgbCss(c), fillOpacity: 0.9
       });
       var html = stationTooltipHtml(d, v, stats);
@@ -997,7 +997,7 @@ function renderMap(payload) {
       var val = mapValue(d);
       if (val !== null && val !== undefined && !isNaN(val)) return;
       var marker = L.circleMarker([d.station.lat, d.station.lon], {
-        radius: 5, color: "#888", weight: 1, fillColor: "#cccccc", fillOpacity: 0.7
+        radius: 5, color: "#5d6d87", weight: 1, fillColor: "#39445c", fillOpacity: 0.7
       });
       var html = stationTooltipHtml(d, v, stats);
       marker.bindTooltip(html, { direction: "top", offset: [0, -6] });
