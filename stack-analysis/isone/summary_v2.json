@@ -1,0 +1,171 @@
+{
+  "version": "v2",
+  "built": "2026-11-15",
+  "anchor_unchanged_mw": 38238.1,
+  "anchor_source": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; ISO-NE CELT publishes capacity on an FCM claimed-capability (SCC/CNRC) basis, not nameplate by fuel, so no CELT table is directly comparable \u2014 see cross_checks.",
+  "anchor_caveat_merrimack": "The EIA anchor includes Merrimack coal (459.2 MW) at Dec 31, 2025, but the plant actually ceased operations Sep 12, 2025. On a true Dec-31-2025 basis the anchor total is 37,778.9 MW and coal is 0.0 MW. v2 keeps the EIA anchor (build convention) and books the retirement in Sep 2026.",
+  "v1_forward_2026_2036": {
+    "additions_mw": 3886.3,
+    "additions_count": 78,
+    "retirements_mw": 505.0,
+    "retirements_count": 12,
+    "net_mw": 3381.3,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 3.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1515.0,
+      "Solar": 1067.8,
+      "Oil": 0.0,
+      "Battery Storage": 1300.5,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 459.2,
+      "Natural Gas": 41.9,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1.7,
+      "Solar": 2.2,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 3875.3,
+    "additions_count": 78,
+    "retirements_mw": 505.0,
+    "retirements_count": 12,
+    "net_mw": 3370.3,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 3.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1504.0,
+      "Solar": 1067.8,
+      "Oil": 0.0,
+      "Battery Storage": 1300.5,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 459.2,
+      "Natural Gas": 41.9,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1.7,
+      "Solar": 2.2,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": -11.0,
+    "retirements": 0.0,
+    "net": -11.0,
+    "by_fuel_net_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 0.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": -11.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 37662.7,
+      "2017": 36359.2,
+      "2018": 38195.5,
+      "2019": 38996.8,
+      "2020": 39378.3,
+      "2021": 38762.8,
+      "2022": 38986.1,
+      "2023": 39125.5,
+      "2024": 37774.4,
+      "2025": 38238.1,
+      "2026": 40199.9,
+      "2027": 41020.2,
+      "2028": 41274.7,
+      "2029": 41590.1,
+      "2030": 41590.1,
+      "2031": 41635.1,
+      "2032": 41635.1,
+      "2033": 41635.1,
+      "2034": 41635.1,
+      "2035": 41627.8,
+      "2036": 41619.4
+    },
+    "v2": {
+      "2016": 37662.7,
+      "2017": 36359.2,
+      "2018": 38195.5,
+      "2019": 38996.8,
+      "2020": 39378.3,
+      "2021": 38762.8,
+      "2022": 38986.1,
+      "2023": 39125.5,
+      "2024": 37774.4,
+      "2025": 38238.1,
+      "2026": 39729.7,
+      "2027": 40663.6,
+      "2028": 41263.7,
+      "2029": 41579.1,
+      "2030": 41579.1,
+      "2031": 41624.1,
+      "2032": 41624.1,
+      "2033": 41624.1,
+      "2034": 41624.1,
+      "2035": 41616.8,
+      "2036": 41608.4
+    }
+  },
+  "manual_adjustments_count": 3,
+  "named_adjustments_count": 2,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Merrimack Units 1+2 retime 2027/2028->2026 (actual closure Sep 2025)",
+      "change": "retime",
+      "mw": 459.2
+    },
+    {
+      "plant": "Revolution Wind resize 715->704 MW",
+      "change": "resize",
+      "mw": 11.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "Middletown Units 2/3/4 (CT, oil/gas steam, EIA status OS 'not expected to return'; NEPGA lists ~750 MW closure by mid-2028; no owner/ISO deactivation filing found)": 767.9,
+    "Millstone Unit 2 licence expiry Jul 2035 (Dominion intends subsequent renewal to 2055; retirement risk flagged by Dominion itself if no post-2029 contract; CT zero-carbon procurement pending)": 909.9,
+    "Form Energy Lincoln, ME iron-air battery (85 MW / 8,500 MWh, DOE-backed; construction starts 2028, no in-service date; not in EIA-860M)": 85.0,
+    "SouthCoast Wind (offshore MA, ~2,400 MW; COP remanded Nov 4, 2025; developer paused Apr 2026; no signed contract; not in EIA-860M)": 2400.0,
+    "New England Wind 1+2 (offshore MA, Avangrid; COP remand sought by DOI; contracts unsigned; not in EIA-860M)": null,
+    "Merrimack site redevelopment (Granite Shore 'renewable energy park': ~100 MW solar + battery storage announced Oct 2025; MW/date unverified; plus a 350 MW data-center load viability study \u2014 a load, not generation)": 100.0,
+    "Sunrise Wind (924 MW, under construction) \u2014 delivers to NYISO (Long Island), not ISO-NE; excluded by balancing authority, listed here so it is not mistaken for an omission": 924.0,
+    "South Fork Wind (132 MW, operating since Mar 2024) \u2014 delivers to NYISO (East Hampton, NY); EIA codes it BA=NYIS; correctly excluded": 132.0
+  },
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "isone_capacity_plants_v2.csv",
+    "stack_v2": "isone_capacity_stack_v2.csv",
+    "changelog_v2": "isone_capacity_changelog_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png"
+    ]
+  }
+}

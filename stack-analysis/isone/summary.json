@@ -1,0 +1,181 @@
+{
+  "version": "v1",
+  "built": "2026-11-15",
+  "anchor": {
+    "basis": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; ISO-NE CELT publishes capacity on an FCM claimed-capability (SCC/CNRC) basis, not nameplate by fuel, so no CELT table is directly comparable \u2014 see cross_checks.",
+    "total_mw": 38238.1,
+    "by_fuel_mw": {
+      "Coal": 459.2,
+      "Natural Gas": 16923.5,
+      "Nuclear": 3501.9,
+      "Hydro": 1926.3,
+      "Pumped Storage": 1865.0,
+      "Wind": 1723.2,
+      "Solar": 3734.3,
+      "Oil": 5970.4,
+      "Battery Storage": 771.7,
+      "Other": 1362.6
+    },
+    "capacity_definition": "Nameplate MW, all statuses (OP/SB/OA/OS).",
+    "net_summer_mw": 35426.4,
+    "cross_checks": {
+      "iso_ne_described_generating_capacity_mw": "~29,700 (ISO-NE regional overviews, Mar 2025: 'Nearly 30,000 MW of generating capacity' \u2014 FCM claimed-capability basis, not nameplate; excludes settlement-only resources counted differently and all behind-the-meter solar)",
+      "definitional_gap": "EIA nameplate anchor (38,238.1 MW) exceeds the ISO's ~29.7 GW capability figure by ~8.5 GW. Causes: (1) nameplate vs summer claimed capability \u2014 wind, solar and oil steam derate heavily in summer SCC; the EIA anchor on a net-summer basis is 35,426.4 MW, still above CELT because (2) EIA counts every >=1 MW unit incl. small IPP/CHP and settlement-only generators that CELT's generator list treats separately; (3) EIA snapshot includes 1,439.7 MW of non-operating (OS/SB/OA) nameplate; (4) CELT counts ~3,600 MW of demand resources and imports as capacity resources, which are not generation and are excluded here; (5) behind-the-meter solar is in neither the EIA anchor nor the CELT generator list \u2014 ISO-NE puts total New England solar nameplate at ~9,600 MW at end-2025 vs 3,734.3 MW of grid solar in this anchor (see README caveats).",
+      "eia_operating_sep2026_nameplate_mw": 39295.1,
+      "eia_operating_sep2026_netsummer_mw": 36488.7
+    }
+  },
+  "trailing": {
+    "basis": "Reconstructed Dec-31 snapshots from EIA unit-level data (Operating Year / Retirement Year). Estimated; not an ISO-NE publication.",
+    "yearly_totals_mw": {
+      "2016": 37662.7,
+      "2017": 36359.2,
+      "2018": 38195.5,
+      "2019": 38996.8,
+      "2020": 39378.3,
+      "2021": 38762.8,
+      "2022": 38986.1,
+      "2023": 39125.5,
+      "2024": 37774.4,
+      "2025": 38238.1
+    }
+  },
+  "forward_2026_2036": {
+    "additions_mw": 3886.3,
+    "additions_count": 78,
+    "retirements_mw": 505.0,
+    "retirements_count": 12,
+    "net_mw": 3381.3,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 3.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1515.0,
+      "Solar": 1067.8,
+      "Oil": 0.0,
+      "Battery Storage": 1300.5,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 459.2,
+      "Natural Gas": 41.9,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1.7,
+      "Solar": 2.2,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "2016": 37662.7,
+    "2017": 36359.2,
+    "2018": 38195.5,
+    "2019": 38996.8,
+    "2020": 39378.3,
+    "2021": 38762.8,
+    "2022": 38986.1,
+    "2023": 39125.5,
+    "2024": 37774.4,
+    "2025": 38238.1,
+    "2026": 40199.9,
+    "2027": 41020.2,
+    "2028": 41274.7,
+    "2029": 41590.1,
+    "2030": 41590.1,
+    "2031": 41635.1,
+    "2032": 41635.1,
+    "2033": 41635.1,
+    "2034": 41635.1,
+    "2035": 41627.8,
+    "2036": 41619.4
+  },
+  "diagnostics": {
+    "eia_operating_isne_units": 2344,
+    "eia_operating_isne_nameplate_mw": 39295.1,
+    "eia_operating_isne_netsummer_mw": 36488.7,
+    "eia_operating_isne_netwinter_mw": 38376.5,
+    "eia_operating_isne_op_only_nameplate_mw": 37855.4,
+    "eia_operating_isne_nonop_nameplate_mw": 1439.7,
+    "eia_operating_isne_by_fuel_nameplate": {
+      "Battery Storage": 1021.7,
+      "Coal": 459.2,
+      "Hydro": 1926.3,
+      "Natural Gas": 16905.2,
+      "Nuclear": 3501.9,
+      "Oil": 5970.4,
+      "Other": 1362.6,
+      "Pumped Storage": 1865.0,
+      "Solar": 3759.6,
+      "Wind": 2523.2
+    },
+    "exclusion_northern_maine_nbso_nameplate_mw": 155.7,
+    "exclusion_northern_maine_nbso_units": 20,
+    "exclusion_northern_maine_note": "Northern Maine (Maritimes control area; EIA BA code NBSO = New Brunswick System Operator; the northern-Maine system is commonly called NMISA) is not part of ISO-NE and is excluded by the BA cut. Largest item: Mars Hill Wind Farm, 42.0 MW.",
+    "ba_boundary_in_ne_states_not_isne_mw": 168.8,
+    "ba_boundary_in_ne_states_not_isne_by_ba_mw": {
+      "CISO": 2.0,
+      "NBSO": 155.7,
+      "SOCO": 1.5
+    },
+    "ba_boundary_isne_ba_outside_ne_states_mw": 199.1,
+    "ba_boundary_isne_ba_outside_ne_states_units": 60,
+    "ba_boundary_isne_ba_outside_ne_states_note": "Small solar units physically in New York state but coded BA=ISNE in EIA (largest: Eureka South/North Solar, 5.0 + 3.5 MW). Included: the cut is by balancing authority, not by state.",
+    "anchor_less_in_service_2026_mw": 1078.3,
+    "anchor_less_in_service_2026_units": 10,
+    "anchor_less_in_service_2026_by_fuel": {
+      "Battery Storage": 250.0,
+      "Natural Gas": 3.0,
+      "Solar": 25.3,
+      "Wind": 800.0
+    },
+    "anchor_plus_retired_2026_mw": 21.3,
+    "anchor_plus_retired_2026_units": 1,
+    "anchor_plus_retired_2026_by_fuel": {
+      "Natural Gas": 21.3
+    },
+    "anchor_total_mw": 38238.1,
+    "anchor_by_fuel_mw": {
+      "Coal": 459.2,
+      "Natural Gas": 16923.5,
+      "Nuclear": 3501.9,
+      "Hydro": 1926.3,
+      "Pumped Storage": 1865.0,
+      "Wind": 1723.2,
+      "Solar": 3734.3,
+      "Oil": 5970.4,
+      "Battery Storage": 771.7,
+      "Other": 1362.6
+    },
+    "anchor_net_summer_mw": 35426.4,
+    "eia_planned_isne_units": 68,
+    "eia_planned_isne_nameplate_mw": 2808.0,
+    "eia_planned_isne_by_status_mw": {
+      "(L) Regulatory approvals pending. Not under construction": 731.2,
+      "(P) Planned for installation, but regulatory approvals not initiated": 645.5,
+      "(T) Regulatory approvals received. Not under construction": 177.8,
+      "(TS) Construction complete, but not yet in commercial operation": 5.0,
+      "(U) Under construction, less than or equal to 50 percent complete": 183.8,
+      "(V) Under construction, more than 50 percent complete": 1064.7
+    },
+    "eia_planned_under_construction_mw": 1253.5,
+    "eia_planned_not_under_construction_mw": 1554.5,
+    "overlap_operating2026_vs_planned2026_units": 0,
+    "overlap_retired2026_vs_plannedret2026_units": 0,
+    "planned_total_mw_2026_2036": 3886.3
+  },
+  "files": {
+    "plants": "isone_capacity_plants.csv",
+    "stack": "isone_capacity_stack.csv",
+    "changelog": "isone_capacity_changelog.csv",
+    "summary": "summary.json",
+    "charts": [
+      "01_stacked_area.png",
+      "02_net_change_forward.png"
+    ]
+  }
+}
