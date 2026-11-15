@@ -1,0 +1,303 @@
+{
+  "version": "v2",
+  "built": "2026-11-14",
+  "anchor_unchanged_mw": 202424.8,
+  "anchor_source": "PJM State of the Market 2025 Annual, Table 12-1 (Monitoring Analytics)",
+  "v1_forward_2026_2036": {
+    "additions_mw": 29818.3,
+    "additions_count": 493,
+    "retirements_mw": 12367.7,
+    "retirements_count": 74,
+    "net_mw": 17450.6,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 8149.9,
+      "Nuclear": 0.0,
+      "Hydro": 266.7,
+      "Pumped Storage": 0.0,
+      "Wind": 5131.3,
+      "Solar": 15282.5,
+      "Oil": 0.0,
+      "Battery Storage": 985.1,
+      "Other": 2.8
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 5939.2,
+      "Natural Gas": 5554.3,
+      "Nuclear": 0.0,
+      "Hydro": 5.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 76.1,
+      "Oil": 773.7,
+      "Battery Storage": 12.0,
+      "Other": 7.4
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 41883.8,
+    "additions_count": 494,
+    "retirements_mw": 22916.8,
+    "retirements_count": 92,
+    "net_mw": 18967.0,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 19990.4,
+      "Nuclear": 835.0,
+      "Hydro": 266.7,
+      "Pumped Storage": 0.0,
+      "Wind": 5131.3,
+      "Solar": 14672.5,
+      "Oil": 0.0,
+      "Battery Storage": 985.1,
+      "Other": 2.8
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 12662.6,
+      "Natural Gas": 8877.4,
+      "Nuclear": 0.0,
+      "Hydro": 5.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 76.1,
+      "Oil": 1276.3,
+      "Battery Storage": 12.0,
+      "Other": 7.4
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": 12065.5,
+    "retirements": 10549.1,
+    "net": 1516.4,
+    "by_fuel_net_mw": {
+      "Coal": -6723.4,
+      "Natural Gas": 8517.4,
+      "Nuclear": 835.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": -610.0,
+      "Oil": -502.6,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 193407.9,
+      "2017": 201496.5,
+      "2018": 199489.0,
+      "2019": 197574.5,
+      "2020": 198129.0,
+      "2021": 199195.3,
+      "2022": 198460.2,
+      "2023": 196380.2,
+      "2024": 198841.1,
+      "2025": 202424.8,
+      "2026": 207146.8,
+      "2027": 215268.6,
+      "2028": 222917.4,
+      "2029": 222607.3,
+      "2030": 223240.7,
+      "2031": 223238.4,
+      "2032": 223234.9,
+      "2033": 223229.1,
+      "2034": 223229.1,
+      "2035": 219883.7,
+      "2036": 219875.4
+    },
+    "v2": {
+      "2016": 193407.9,
+      "2017": 201496.5,
+      "2018": 199489.0,
+      "2019": 197574.5,
+      "2020": 198129.0,
+      "2021": 199195.3,
+      "2022": 198460.2,
+      "2023": 196380.2,
+      "2024": 198841.1,
+      "2025": 202424.8,
+      "2026": 207119.4,
+      "2027": 215999.4,
+      "2028": 220857.3,
+      "2029": 220560.1,
+      "2030": 223327.9,
+      "2031": 222977.8,
+      "2032": 219151.3,
+      "2033": 221945.5,
+      "2034": 224745.5,
+      "2035": 221400.1,
+      "2036": 221391.8
+    }
+  },
+  "btm_excluded_mw": 4396.0,
+  "btm_excluded": [
+    {
+      "plant": "Homer City Generating Station",
+      "mw": 4396.0,
+      "note": "Full 4,396 MW excluded, grid MW 0 per user rule. Alternative surplus-export reading (~700-800 MW) flagged, not counted."
+    }
+  ],
+  "manual_adjustments_count": 32,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Homer City Generating Station",
+      "change": "BTM-exclude",
+      "mw": -4396.0
+    },
+    {
+      "plant": "Keystone + Conemaugh retirements 2032",
+      "change": "add retirement",
+      "mw": 3823.0
+    },
+    {
+      "plant": "Cumberland Energy Center",
+      "change": "add",
+      "mw": 3000.0
+    },
+    {
+      "plant": "Illinois Generating Assets (CEJA gas CTs) retirement 2031",
+      "change": "add retirement",
+      "mw": 2649.6
+    },
+    {
+      "plant": "Mt. Storm Combined Cycle Station",
+      "change": "add",
+      "mw": 2600.0
+    },
+    {
+      "plant": "CPV Shay Energy Center",
+      "change": "add",
+      "mw": 2100.0
+    },
+    {
+      "plant": "Powerton 5-6 retirement 2031",
+      "change": "add retirement",
+      "mw": 1785.6
+    },
+    {
+      "plant": "Expedition Generating Station",
+      "change": "add",
+      "mw": 1540.0
+    },
+    {
+      "plant": "Rockport Energy Center (new CC)",
+      "change": "add",
+      "mw": 1520.0
+    },
+    {
+      "plant": "Brandon Shores + Wagner retime 2029->2031",
+      "change": "retime",
+      "mw": 2143.9
+    },
+    {
+      "plant": "Talen Montour CT",
+      "change": "add",
+      "mw": 1310.0
+    },
+    {
+      "plant": "Maidsville / Fort Martin",
+      "change": "add",
+      "mw": 1200.0
+    },
+    {
+      "plant": "Miami Fort fuel switch (coal->gas, 2028)",
+      "change": "retime",
+      "mw": 1114.8
+    },
+    {
+      "plant": "Crane Clean Energy Center restart",
+      "change": "add",
+      "mw": 835.0
+    },
+    {
+      "plant": "Bellflower Solar",
+      "change": "remove",
+      "mw": -600.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "Constellation-Google nuclear uprates (PJM share unknown)": 890.0,
+    "Vistra-Meta nuclear uprates (Perry/Davis-Besse/Beaver Valley, per-unit split unpublished)": 433.0,
+    "Sammis-South Canton (queue-only, no developer)": 1300.0,
+    "Shippingport (2.7-3.6 GW claimed, BTM-majority, MW uncertain)": null,
+    "Appalachian Power ~3 GW (locations unannounced)": 3000.0,
+    "Homer City surplus-export alternative (if adopted instead of 0)": "700-800"
+  },
+  "rmr_override_preserved": {
+    "rule": "PJM coal retirements scheduled 2026-2028 pushed to Jan 2029 (corrected from Jan 2028)",
+    "affected_units": 5,
+    "affected_mw": 4569.0,
+    "by_original_year": {
+      "2026": {
+        "units": 0,
+        "mw": 0.0
+      },
+      "2027": {
+        "units": 2,
+        "mw": 1319.0
+      },
+      "2028": {
+        "units": 3,
+        "mw": 3250.0
+      }
+    },
+    "delayed_mw": 4569.0,
+    "pulled_forward_mw": 0.0,
+    "units": [
+      {
+        "plant": "Kincaid Generation LLC",
+        "state": "IL",
+        "generator_id": "1",
+        "mw": 659.5,
+        "original": "2027-12",
+        "effective": "2029-01"
+      },
+      {
+        "plant": "Kincaid Generation LLC",
+        "state": "IL",
+        "generator_id": "2",
+        "mw": 659.5,
+        "original": "2027-12",
+        "effective": "2029-01"
+      },
+      {
+        "plant": "Cardinal",
+        "state": "OH",
+        "generator_id": "3",
+        "mw": 650.0,
+        "original": "2028-12",
+        "effective": "2029-01"
+      },
+      {
+        "plant": "Rockport",
+        "state": "IN",
+        "generator_id": "1",
+        "mw": 1300.0,
+        "original": "2028-12",
+        "effective": "2029-01"
+      },
+      {
+        "plant": "Rockport",
+        "state": "IN",
+        "generator_id": "2",
+        "mw": 1300.0,
+        "original": "2028-12",
+        "effective": "2029-01"
+      }
+    ]
+  },
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "pjm_capacity_plants_v2.csv",
+    "stack_v2": "pjm_capacity_stack_v2.csv",
+    "changelog_v2": "pjm_capacity_changelog_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png"
+    ]
+  }
+}
