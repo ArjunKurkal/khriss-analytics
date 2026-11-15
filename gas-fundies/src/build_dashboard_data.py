@@ -151,6 +151,23 @@ def rigs_section(curated: Path, out: dict) -> None:
         out["snapshot"]["rigs_week"] = pd.Timestamp(nat.iloc[-1]["week"]).strftime("%Y-%m-%d")
 
 
+def _sanitize(obj):
+    """Recursively convert NaN/Infinity floats to None.
+
+    Strict JSON (what browsers parse) has no NaN/Infinity literals; Python's
+    json module emits them by default, which silently breaks the dashboard.
+    Missing values must ship as null, which Plotly renders as gaps.
+    """
+    import math
+    if isinstance(obj, float):
+        return obj if math.isfinite(obj) else None
+    if isinstance(obj, dict):
+        return {k: _sanitize(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_sanitize(v) for v in obj]
+    return obj
+
+
 def main() -> None:
     _, curated = project_data("gas-fundies")
     out: dict = {"generated_at": pd.Timestamp.now("UTC").strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -161,7 +178,7 @@ def main() -> None:
     price_section(curated, out)
     rigs_section(curated, out)
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(out))
+    OUT.write_text(json.dumps(_sanitize(out), allow_nan=False))
     size_kb = OUT.stat().st_size / 1024
     print(f"dashboard data: {OUT} ({size_kb:.0f} KB), sections: "
           f"{sorted(k for k in out if k not in ('generated_at', 'snapshot'))}")

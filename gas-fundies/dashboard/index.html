@@ -65,7 +65,10 @@ function lineTraces(dates, series, names){
     type:'scatter', mode:'lines' }));
 }
 
-fetch('data.json').then(r => r.json()).then(d => {
+fetch('data.json').then(r => {
+  if (!r.ok) throw new Error('fetch failed: HTTP ' + r.status);
+  return r.json().catch(e => { throw new Error('data.json loaded but could not be parsed: ' + e.message); });
+}).then(d => {
   document.getElementById('generated').textContent =
     'Data generated ' + (d.generated_at || 'unknown');
 
@@ -149,7 +152,8 @@ fetch('data.json').then(r => r.json()).then(d => {
   }
 }).catch(e => {
   document.querySelector('main').insertAdjacentHTML('beforeend',
-    '<div class="missing">data.json not found — run the pipeline (run_all.py) to build it.</div>');
+    '<div class="missing">Dashboard data failed to load — ' + e.message +
+    ' If this persists, re-run the pipeline (run_all.py) and push the regenerated dashboard.</div>');
 });
 </script>
 </body>
