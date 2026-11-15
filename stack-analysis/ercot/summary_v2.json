@@ -1,0 +1,188 @@
+{
+  "version": "v2",
+  "built": "2026-11-15",
+  "anchor_unchanged_mw": 174266.5,
+  "anchor_source": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026; ERCO retired actuals in 2026 are zero). EIA-derived. ERCOT's CDR is a cross-check only: it uses seasonal capacity ratings, not nameplate, and treats switchable units, Private Use Networks and DC ties specially.",
+  "v1_forward_2026_2036": {
+    "additions_mw": 97654.2,
+    "additions_count": 631,
+    "retirements_mw": 1483.5,
+    "retirements_count": 7,
+    "net_mw": 96170.7,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 18599.5,
+      "Nuclear": 4468.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 5136.7,
+      "Solar": 39947.6,
+      "Oil": 19.8,
+      "Battery Storage": 29444.1,
+      "Other": 38.5
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 566.0,
+      "Natural Gas": 905.6,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 2.0,
+      "Battery Storage": 9.9,
+      "Other": 0.0
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 82875.4,
+    "additions_count": 472,
+    "retirements_mw": 3028.4,
+    "retirements_count": 9,
+    "net_mw": 79847.0,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 8288.7,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 5136.7,
+      "Solar": 39947.6,
+      "Oil": 19.8,
+      "Battery Storage": 29444.1,
+      "Other": 38.5
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 2110.9,
+      "Natural Gas": 905.6,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 2.0,
+      "Battery Storage": 9.9,
+      "Other": 0.0
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": -14778.8,
+    "retirements": 1544.9,
+    "net": -16323.7,
+    "by_fuel_net_mw": {
+      "Coal": -1544.9,
+      "Natural Gas": -10310.8,
+      "Nuclear": -4468.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 110403.5,
+      "2017": 114193.8,
+      "2018": 112756.7,
+      "2019": 116147.2,
+      "2020": 120557.8,
+      "2021": 130006.1,
+      "2022": 138331.2,
+      "2023": 145177.7,
+      "2024": 158916.1,
+      "2025": 174266.5,
+      "2026": 200290.8,
+      "2027": 225223.4,
+      "2028": 247989.8,
+      "2029": 254713.1,
+      "2030": 265569.1,
+      "2031": 268213.1,
+      "2032": 270437.2,
+      "2033": 270437.2,
+      "2034": 270437.2,
+      "2035": 270437.2,
+      "2036": 270437.2
+    },
+    "v2": {
+      "2016": 110403.5,
+      "2017": 114193.8,
+      "2018": 112756.7,
+      "2019": 116147.2,
+      "2020": 120557.8,
+      "2021": 130006.1,
+      "2022": 138331.2,
+      "2023": 145177.7,
+      "2024": 158916.1,
+      "2025": 174266.5,
+      "2026": 200298.4,
+      "2027": 223943.7,
+      "2028": 244966.1,
+      "2029": 251689.4,
+      "2030": 253713.4,
+      "2031": 254123.4,
+      "2032": 254113.5,
+      "2033": 254113.5,
+      "2034": 254113.5,
+      "2035": 254113.5,
+      "2036": 254113.5
+    }
+  },
+  "manual_adjustments_count": 167,
+  "named_adjustments_count": 6,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Project Matador Gas Plant (PMG) BTM exclusion",
+      "change": "exclude",
+      "mw": 11679.3
+    },
+    {
+      "plant": "Project Matador Nuclear BTM exclusion",
+      "change": "exclude",
+      "mw": 4468.0
+    },
+    {
+      "plant": "J K Spruce Unit 2 fuel switch (coal->gas)",
+      "change": "fuel switch",
+      "mw": 922.5
+    },
+    {
+      "plant": "Legend Power Station BA correction exclusion",
+      "change": "exclude",
+      "mw": 754.0
+    },
+    {
+      "plant": "Coleto Creek repower (coal out 622.4 / gas in 630.0)",
+      "change": "fuel switch",
+      "mw": 630.0
+    },
+    {
+      "plant": "Rayburn Energy Station II addition",
+      "change": "add",
+      "mw": 570.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "WattBridge / Continental Resources TxEF loan, West Texas gas (452 MW, loan Oct 7, 2026 \u2014 after the EIA vintage; plant/date unverified)": 452.0,
+    "Anthropic / Caterpillar behind-the-meter gas generators (1,700 MW equipment deal announced Nov 2026; no single plant or date)": 1700.0,
+    "Crusoe / Stargate Abilene on-site gas (~360 MW, operating behind-the-meter, permitted for on-site use only; not in EIA and excluded by the BTM rule)": 360.0,
+    "Liberty Thermal + Bullock Gas, Hill County (1,400 MW each, ERCOT queue only, data-centre-linked, 2032)": 2800.0,
+    "Vast Sands Power (880 MW, Ward Co., in v1/v2) may be Vistra's 860 MW Permian Basin TxEF project (identity unverified; kept at EIA MW/date)": 880.0,
+    "Fermi Matador capacity beyond EIA (company claims ~6 GW air-permitted, up to 11-17 GW campus; unquantified, BTM)": null
+  },
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "ercot_capacity_plants_v2.csv",
+    "stack_v2": "ercot_capacity_stack_v2.csv",
+    "changelog_v2": "ercot_capacity_changelog_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png"
+    ]
+  }
+}

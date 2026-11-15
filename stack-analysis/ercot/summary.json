@@ -1,0 +1,191 @@
+{
+  "version": "v1",
+  "built": "2026-11-15",
+  "anchor": {
+    "basis": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026; ERCO retired actuals in 2026 are zero). EIA-derived. ERCOT's CDR is a cross-check only: it uses seasonal capacity ratings, not nameplate, and treats switchable units, Private Use Networks and DC ties specially.",
+    "total_mw": 174266.5,
+    "by_fuel_mw": {
+      "Coal": 14329.7,
+      "Natural Gas": 68756.5,
+      "Nuclear": 5138.6,
+      "Hydro": 567.5,
+      "Pumped Storage": 0.0,
+      "Wind": 40247.8,
+      "Solar": 30017.7,
+      "Oil": 874.1,
+      "Battery Storage": 13914.3,
+      "Other": 420.3
+    },
+    "capacity_definition": "Nameplate MW, all statuses (OP/SB/OA/OS).",
+    "cross_checks": {
+      "ercot_cdr_dec2025": "ERCOT CDR Dec 19, 2025 (2026-2030): summer 2026 installed seasonal-rated thermal capacity excl. switchable units 65,431 MW; switchable capacity 3,678 MW (2,184 MW unavailable to ERCOT in summer 2026); Private Use Network capacity 3,431 MW; expected summer 2026 capacity ~104,850 MW on the CDR basis (thermal seasonal ratings + ELCC contributions for wind/solar/storage + PUN + ties). Not comparable to the EIA nameplate anchor: CDR counts seasonal ratings and ELCC shares, EIA counts nameplate.",
+      "ercot_fact_sheet_oct2026": "ERCOT Fact Sheet Oct 2026 (operational installed, summer 2026 CDR basis): wind 41,208 MW, utility solar 41,926 MW, storage 21,537 MW. Solar/storage run well above the EIA Operating snapshot because EIA files many just-completed units on the Planned sheet (TS status) until commercial operation.",
+      "ercot_gis_sep2026": "ERCOT Generator Interconnection Status: 1,874 active requests totalling 453,782 MW at Sep 30, 2026 (solar 155,123; battery 162,580; gas ~81,704; wind 49,746 MW). The queue is a superset of the EIA pipeline; most queued projects are never built.",
+      "eia_operating_sep2026_nameplate_mw": 184801.3,
+      "eia_operating_sep2026_netsummer_mw": 175770.0
+    }
+  },
+  "trailing": {
+    "basis": "Reconstructed Dec-31 snapshots from EIA unit-level data (Operating Year / Retirement Year). Estimated; not an ERCOT publication.",
+    "yearly_totals_mw": {
+      "2016": 110403.5,
+      "2017": 114193.8,
+      "2018": 112756.7,
+      "2019": 116147.2,
+      "2020": 120557.8,
+      "2021": 130006.1,
+      "2022": 138331.2,
+      "2023": 145177.7,
+      "2024": 158916.1,
+      "2025": 174266.5
+    }
+  },
+  "forward_2026_2036": {
+    "additions_mw": 97654.2,
+    "additions_count": 631,
+    "retirements_mw": 1483.5,
+    "retirements_count": 7,
+    "net_mw": 96170.7,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 18599.5,
+      "Nuclear": 4468.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 5136.7,
+      "Solar": 39947.6,
+      "Oil": 19.8,
+      "Battery Storage": 29444.1,
+      "Other": 38.5
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 566.0,
+      "Natural Gas": 905.6,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 2.0,
+      "Battery Storage": 9.9,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "2016": 110403.5,
+    "2017": 114193.8,
+    "2018": 112756.7,
+    "2019": 116147.2,
+    "2020": 120557.8,
+    "2021": 130006.1,
+    "2022": 138331.2,
+    "2023": 145177.7,
+    "2024": 158916.1,
+    "2025": 174266.5,
+    "2026": 200290.8,
+    "2027": 225223.4,
+    "2028": 247989.8,
+    "2029": 254713.1,
+    "2030": 265569.1,
+    "2031": 268213.1,
+    "2032": 270437.2,
+    "2033": 270437.2,
+    "2034": 270437.2,
+    "2035": 270437.2,
+    "2036": 270437.2
+  },
+  "diagnostics": {
+    "eia_operating_erco_units": 2303,
+    "eia_operating_erco_nameplate_mw": 184801.3,
+    "eia_operating_erco_netsummer_mw": 175770.0,
+    "eia_operating_erco_op_only_nameplate_mw": 181957.5,
+    "eia_operating_erco_op_only_netsummer_mw": 173279.1,
+    "eia_operating_erco_nonop_nameplate_mw": 2843.8,
+    "eia_operating_erco_by_fuel_nameplate": {
+      "Battery Storage": 19199.6,
+      "Coal": 14329.7,
+      "Hydro": 567.5,
+      "Natural Gas": 69929.6,
+      "Nuclear": 5138.6,
+      "Oil": 884.0,
+      "Other": 420.3,
+      "Solar": 33779.7,
+      "Wind": 40552.3
+    },
+    "eia_operating_erco_by_fuel_netsummer": {
+      "Battery Storage": 18946.6,
+      "Coal": 13610.6,
+      "Hydro": 547.8,
+      "Natural Gas": 62174.5,
+      "Nuclear": 4980.0,
+      "Oil": 706.3,
+      "Other": 403.1,
+      "Solar": 33804.8,
+      "Wind": 40596.3
+    },
+    "ba_boundary_tx_not_erco_mw": 23798.9,
+    "ba_boundary_tx_not_erco_units": 204,
+    "ba_boundary_tx_not_erco_by_ba_mw": {
+      "DOPD": 500.0,
+      "EPE": 1927.7,
+      "MISO": 7663.2,
+      "SWPP": 13708.0
+    },
+    "ba_boundary_erco_outside_tx_mw": 1370.0,
+    "ba_boundary_erco_outside_tx_units": 6,
+    "ba_boundary_erco_outside_tx_plants": [
+      "Kiamichi Energy Facility"
+    ],
+    "anchor_less_in_service_2026_mw": 10534.8,
+    "anchor_less_in_service_2026_units": 115,
+    "anchor_less_in_service_2026_by_fuel": {
+      "Battery Storage": 5285.3,
+      "Natural Gas": 1173.1,
+      "Oil": 9.9,
+      "Solar": 3762.0,
+      "Wind": 304.5
+    },
+    "anchor_plus_retired_2026_mw": 0.0,
+    "anchor_plus_retired_2026_units": 0,
+    "anchor_plus_retired_2026_by_fuel": {},
+    "anchor_total_mw": 174266.5,
+    "anchor_by_fuel_mw": {
+      "Coal": 14329.7,
+      "Natural Gas": 68756.5,
+      "Nuclear": 5138.6,
+      "Hydro": 567.5,
+      "Pumped Storage": 0.0,
+      "Wind": 40247.8,
+      "Solar": 30017.7,
+      "Oil": 874.1,
+      "Battery Storage": 13914.3,
+      "Other": 420.3
+    },
+    "eia_planned_erco_units": 516,
+    "eia_planned_erco_nameplate_mw": 87119.4,
+    "eia_planned_erco_by_status_mw": {
+      "(L) Regulatory approvals pending. Not under construction": 15670.5,
+      "(P) Planned for installation, but regulatory approvals not initiated": 37477.0,
+      "(T) Regulatory approvals received. Not under construction": 5895.9,
+      "(TS) Construction complete, but not yet in commercial operation": 8913.9,
+      "(U) Under construction, less than or equal to 50 percent complete": 12396.4,
+      "(V) Under construction, more than 50 percent complete": 6765.7
+    },
+    "eia_planned_under_construction_mw": 28076.0,
+    "eia_planned_max_operation_year": 2032,
+    "overlap_operating2026_vs_planned2026_units": 0,
+    "overlap_retired2026_vs_plannedret2026_units": 0,
+    "planned_total_mw_2026_2036": 97654.2,
+    "retirements_2026_actual_mw": 0.0
+  },
+  "files": {
+    "plants": "ercot_capacity_plants.csv",
+    "stack": "ercot_capacity_stack.csv",
+    "changelog": "ercot_capacity_changelog.csv",
+    "summary": "summary.json",
+    "charts": [
+      "01_stacked_area.png",
+      "02_net_change_forward.png"
+    ]
+  }
+}
