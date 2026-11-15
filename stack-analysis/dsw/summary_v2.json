@@ -1,0 +1,203 @@
+{
+  "version": "v2",
+  "built": "2026-11-15",
+  "anchor_unchanged_mw": 54315.1,
+  "anchor_source": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026 = 0.0 MW). EIA-derived; no published DSW-by-fuel anchor exists.",
+  "v1_forward_2026_2036": {
+    "additions_mw": 28202.2,
+    "additions_count": 176,
+    "retirements_mw": 3956.6,
+    "retirements_count": 14,
+    "net_mw": 24245.6,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 3627.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 4340.2,
+      "Solar": 10486.0,
+      "Oil": 0.0,
+      "Battery Storage": 9749.0,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 3307.6,
+      "Natural Gas": 618.9,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 3.1,
+      "Oil": 27.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 32904.7,
+    "additions_count": 185,
+    "retirements_mw": 3440.6,
+    "retirements_count": 15,
+    "net_mw": 29464.1,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 8329.5,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 4340.2,
+      "Solar": 10486.0,
+      "Oil": 0.0,
+      "Battery Storage": 9749.0,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 2791.6,
+      "Natural Gas": 618.9,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 3.1,
+      "Oil": 27.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": 4702.5,
+    "retirements": -516.0,
+    "net": 5218.5,
+    "by_fuel_net_mw": {
+      "Coal": 516.0,
+      "Natural Gas": 4702.5,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 41260.9,
+      "2017": 41129.8,
+      "2018": 41325.9,
+      "2019": 39639.5,
+      "2020": 40275.1,
+      "2021": 42421.5,
+      "2022": 42136.1,
+      "2023": 44858.6,
+      "2024": 49299.1,
+      "2025": 54315.1,
+      "2026": 67113.1,
+      "2027": 73896.1,
+      "2028": 79308.5,
+      "2029": 80138.5,
+      "2030": 81738.5,
+      "2031": 80102.3,
+      "2032": 78855.7,
+      "2033": 78689.2,
+      "2034": 78563.8,
+      "2035": 78560.7,
+      "2036": 78560.7
+    },
+    "v2": {
+      "2016": 41260.9,
+      "2017": 41129.8,
+      "2018": 41325.9,
+      "2019": 39639.5,
+      "2020": 40275.1,
+      "2021": 42421.5,
+      "2022": 42136.1,
+      "2023": 44858.6,
+      "2024": 49299.1,
+      "2025": 54315.1,
+      "2026": 67113.1,
+      "2027": 74320.9,
+      "2028": 80477.3,
+      "2029": 81307.3,
+      "2030": 83294.3,
+      "2031": 82836.2,
+      "2032": 84074.2,
+      "2033": 83907.7,
+      "2034": 83782.3,
+      "2035": 83779.2,
+      "2036": 83779.2
+    }
+  },
+  "manual_adjustments_count": 18,
+  "named_adjustments_count": 9,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Four Corners retime 2031->2038",
+      "change": "retime (out of window)",
+      "mw": 1636.2
+    },
+    {
+      "plant": "Desert Sun Power Plant (new gas)",
+      "change": "add",
+      "mw": 1238.0
+    },
+    {
+      "plant": "Springerville Units 1+2 fuel switch (coal->gas)",
+      "change": "fuel switch",
+      "mw": 849.6
+    },
+    {
+      "plant": "Coronado fuel switch (coal->gas)",
+      "change": "fuel switch",
+      "mw": 821.8
+    },
+    {
+      "plant": "Project Baccara (new gas, co-located data center)",
+      "change": "add",
+      "mw": 744.0
+    },
+    {
+      "plant": "Springerville Unit 4 fuel switch (coal->gas)",
+      "change": "fuel switch",
+      "mw": 458.1
+    },
+    {
+      "plant": "Springerville Unit 3 retirement",
+      "change": "add retirement",
+      "mw": 458.1
+    },
+    {
+      "plant": "Cholla gas repower",
+      "change": "add",
+      "mw": 387.0
+    },
+    {
+      "plant": "Apache Station ST3 fuel switch (coal->gas)",
+      "change": "fuel switch",
+      "mw": 204.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "APS IRP generic CTs/uprates 2026-2030 (partly already in EIA as Red Hawk/Coolidge expansions; adding would double-count)": 1107.0,
+    "Desert Sun site capacity beyond IRP 1,238 MW (site up to 2,000 MW; Phase 2 undated)": 762.0,
+    "TEP 2026 IRP new gas by 2041 (no named plant/date)": 300.0,
+    "Palo Verde uprate studied in ANL/INL report (~100 MW case; APS says most uprates already completed; no proposal)": 100.0,
+    "Four Corners CCS retrofit (NTEC FEED study; DOE funding cancelled Oct 2025)": null,
+    "SpaceX/Tombstone 6 GW Cochise County data-center campus (load only, no generation, unapproved Nov 2026)": null
+  },
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "dsw_capacity_plants_v2.csv",
+    "stack_v2": "dsw_capacity_stack_v2.csv",
+    "changelog_v2": "dsw_capacity_changelog_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png"
+    ]
+  }
+}

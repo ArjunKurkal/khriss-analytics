@@ -1,0 +1,250 @@
+{
+  "version": "v1",
+  "built": "2026-11-15",
+  "region_definition": "DSW = Desert Southwest = plants in AZ and NM. Working definition (working assumption): Plant State in {AZ, NM}. Geographic state cut, not a balancing-authority cut.",
+  "anchor": {
+    "basis": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026 = 0.0 MW). EIA-derived; no published DSW-by-fuel anchor exists.",
+    "total_mw": 54315.1,
+    "by_fuel_mw": {
+      "Coal": 4427.8,
+      "Natural Gas": 21041.9,
+      "Nuclear": 4209.6,
+      "Hydro": 2801.3,
+      "Pumped Storage": 194.1,
+      "Wind": 5663.5,
+      "Solar": 9782.6,
+      "Oil": 152.3,
+      "Battery Storage": 5985.0,
+      "Other": 57.0
+    },
+    "by_state_mw": {
+      "AZ": 40514.0,
+      "NM": 13801.1
+    },
+    "by_ba_mw": {
+      "SRP": 18362.6,
+      "AZPS": 9866.8,
+      "PNM": 7538.0,
+      "WALC": 5699.2,
+      "TEPC": 4499.2,
+      "SWPP": 2826.2,
+      "CISO": 2704.2,
+      "EPE": 928.7,
+      "DEAA": 713.0,
+      "GRIF": 655.0,
+      "GRIS": 324.3,
+      "WACM": 197.9
+    },
+    "capacity_definition": "Nameplate MW, all statuses (OP/SB/OA/OS).",
+    "cross_checks": {
+      "eia_operating_sep2026_nameplate_mw": 63639.8,
+      "eia_operating_sep2026_netsummer_mw": 59651.8,
+      "palo_verde_mw": 4209.6,
+      "note": "No published DSW-by-fuel table exists to cross-check against; APS/SRP/PNM fleet figures are ownership-share based and not comparable to EIA full-plant-at-location nameplate."
+    }
+  },
+  "trailing": {
+    "basis": "Reconstructed Dec-31 snapshots from EIA unit-level data (Operating Year / Retirement Year). Estimated; not a published series.",
+    "yearly_totals_mw": {
+      "2016": 41260.9,
+      "2017": 41129.8,
+      "2018": 41325.9,
+      "2019": 39639.5,
+      "2020": 40275.1,
+      "2021": 42421.5,
+      "2022": 42136.1,
+      "2023": 44858.6,
+      "2024": 49299.1,
+      "2025": 54315.1
+    }
+  },
+  "forward_2026_2036": {
+    "additions_mw": 28202.2,
+    "additions_count": 176,
+    "retirements_mw": 3956.6,
+    "retirements_count": 14,
+    "net_mw": 24245.6,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 3627.0,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 4340.2,
+      "Solar": 10486.0,
+      "Oil": 0.0,
+      "Battery Storage": 9749.0,
+      "Other": 0.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 3307.6,
+      "Natural Gas": 618.9,
+      "Nuclear": 0.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 3.1,
+      "Oil": 27.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "2016": 41260.9,
+    "2017": 41129.8,
+    "2018": 41325.9,
+    "2019": 39639.5,
+    "2020": 40275.1,
+    "2021": 42421.5,
+    "2022": 42136.1,
+    "2023": 44858.6,
+    "2024": 49299.1,
+    "2025": 54315.1,
+    "2026": 67113.1,
+    "2027": 73896.1,
+    "2028": 79308.5,
+    "2029": 80138.5,
+    "2030": 81738.5,
+    "2031": 80102.3,
+    "2032": 78855.7,
+    "2033": 78689.2,
+    "2034": 78563.8,
+    "2035": 78560.7,
+    "2036": 78560.7
+  },
+  "diagnostics": {
+    "eia_operating_dsw_units": 712,
+    "eia_operating_dsw_nameplate_mw": 63639.8,
+    "eia_operating_dsw_netsummer_mw": 59651.8,
+    "eia_operating_dsw_op_only_nameplate_mw": 63073.1,
+    "eia_operating_dsw_nonop_nameplate_mw": 566.7,
+    "ba_inventory_operating_snapshot_mw": {
+      "SRP": 19134.0,
+      "AZPS": 12810.9,
+      "PNM": 7725.6,
+      "CISO": 6654.4,
+      "WALC": 5934.2,
+      "TEPC": 5059.2,
+      "SWPP": 2942.6,
+      "EPE": 1338.7,
+      "DEAA": 713.0,
+      "GRIF": 655.0,
+      "GRIS": 324.3,
+      "WACM": 197.9,
+      "DOPD": 150.0
+    },
+    "ba_inventory_operating_snapshot_units": {
+      "AZPS": 150,
+      "CISO": 34,
+      "DEAA": 3,
+      "DOPD": 1,
+      "EPE": 25,
+      "GRIF": 3,
+      "GRIS": 2,
+      "PNM": 146,
+      "SRP": 127,
+      "SWPP": 48,
+      "TEPC": 87,
+      "WACM": 14,
+      "WALC": 72
+    },
+    "anchor_less_in_service_2026_mw": 9324.7,
+    "anchor_less_in_service_2026_units": 51,
+    "anchor_less_in_service_2026_by_fuel": {
+      "Battery Storage": 2263.0,
+      "Natural Gas": 297.0,
+      "Solar": 2614.5,
+      "Wind": 4150.2
+    },
+    "anchor_plus_retired_2026_mw": 0.0,
+    "anchor_plus_retired_2026_units": 0,
+    "anchor_total_mw": 54315.1,
+    "anchor_by_fuel_mw": {
+      "Coal": 4427.8,
+      "Natural Gas": 21041.9,
+      "Nuclear": 4209.6,
+      "Hydro": 2801.3,
+      "Pumped Storage": 194.1,
+      "Wind": 5663.5,
+      "Solar": 9782.6,
+      "Oil": 152.3,
+      "Battery Storage": 5985.0,
+      "Other": 57.0
+    },
+    "anchor_by_state_mw": {
+      "AZ": 40514.0,
+      "NM": 13801.1
+    },
+    "anchor_by_ba_mw": {
+      "SRP": 18362.6,
+      "AZPS": 9866.8,
+      "PNM": 7538.0,
+      "WALC": 5699.2,
+      "TEPC": 4499.2,
+      "SWPP": 2826.2,
+      "CISO": 2704.2,
+      "EPE": 928.7,
+      "DEAA": 713.0,
+      "GRIF": 655.0,
+      "GRIS": 324.3,
+      "WACM": 197.9
+    },
+    "edge_epe_tx_operating_mw": 1927.7,
+    "edge_epe_tx_operating_units": 28,
+    "edge_epe_nm_operating_mw": 1338.7,
+    "edge_walc_by_state_operating_mw": {
+      "AZ": 5934.2,
+      "CA": 127.9,
+      "NV": 1309.4
+    },
+    "edge_hoover_nv_mw": 1039.4,
+    "edge_hoover_az_mw": 1039.4,
+    "edge_nevp_total_operating_mw": 16056.9,
+    "palo_verde_units": [
+      {
+        "generator_id": "1",
+        "mw_nameplate": 1403.2,
+        "mw_net_summer": 1311.0,
+        "operating_year": 1986
+      },
+      {
+        "generator_id": "2",
+        "mw_nameplate": 1403.2,
+        "mw_net_summer": 1314.0,
+        "operating_year": 1986
+      },
+      {
+        "generator_id": "3",
+        "mw_nameplate": 1403.2,
+        "mw_net_summer": 1312.0,
+        "operating_year": 1988
+      }
+    ],
+    "palo_verde_total_mw": 4209.6,
+    "eia_planned_dsw_units": 125,
+    "eia_planned_dsw_nameplate_mw": 18877.5,
+    "eia_planned_dsw_by_status_mw": {
+      "(L) Regulatory approvals pending. Not under construction": 5491.0,
+      "(P) Planned for installation, but regulatory approvals not initiated": 5055.0,
+      "(T) Regulatory approvals received. Not under construction": 521.0,
+      "(TS) Construction complete, but not yet in commercial operation": 868.0,
+      "(U) Under construction, less than or equal to 50 percent complete": 4388.9,
+      "(V) Under construction, more than 50 percent complete": 2553.6
+    },
+    "eia_planned_under_construction_mw": 7810.5,
+    "eia_planned_max_operation_year": 2030,
+    "overlap_operating2026_vs_planned2026_units": 0,
+    "overlap_retired2026_vs_plannedret2026_units": 0,
+    "planned_total_mw_2026_2036": 28202.2
+  },
+  "files": {
+    "plants": "dsw_capacity_plants.csv",
+    "stack": "dsw_capacity_stack.csv",
+    "changelog": "dsw_capacity_changelog.csv",
+    "summary": "summary.json",
+    "charts": [
+      "01_stacked_area.png",
+      "02_net_change_forward.png"
+    ]
+  }
+}
