@@ -1,0 +1,191 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+67669.0,Arlington Battery Energy Storage System,ABESS,WA,Battery Storage,Wind,2026,25.0,,2026.0,25.0,unchanged,
+68799.0,Boise Bench BESS,BOBS,ID,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+68341.0,Greenwater BESS,GREE,WA,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+66325.0,Hemmingway BESS,3,ID,Battery Storage,Wind,2026,50.0,,2026.0,50.0,unchanged,
+68021.0,IFP Peaking Plant,IFPP1,ID,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+68021.0,IFP Peaking Plant,IFPP2,ID,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+68021.0,IFP Peaking Plant,IFPP3,ID,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+68021.0,IFP Peaking Plant,IFPP4,ID,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+68021.0,IFP Peaking Plant,IFPP5,ID,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+68021.0,IFP Peaking Plant,IFPP6,ID,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+68021.0,IFP Peaking Plant,IFPP7,ID,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+54950.0,Univ of Oregon Central Power Station,DG4,OR,Oil,Wind,2026,3.0,,2026.0,3.0,unchanged,
+69781.0,Cartwright Solar I,CW140,OR,Solar,Solar,2026,44.0,,2026.0,44.0,unchanged,
+69782.0,Cartwright Solar II,CW216,OR,Solar,Solar,2026,17.6,,2026.0,17.6,unchanged,
+70412.0,Lincoln Solar LLC (OR),3002,OR,Solar,Solar,2026,3.5,,2026.0,3.5,unchanged,
+66384.0,"Ostrea Solar, LLC",GEN1,WA,Solar,Solar,2026,80.0,,2026.0,80.0,unchanged,
+68487.0,Pleasant Valley Solar 2 Project,PVS2,ID,Solar,Solar,2026,125.0,,2026.0,125.0,unchanged,
+68252.0,SR Quincy Valley,QUVAL,WA,Solar,Solar,2026,130.0,,2026.0,130.0,unchanged,
+68329.0,"Tower Solar, LLC",TWS,OR,Solar,Solar,2026,120.0,,2026.0,120.0,unchanged,
+70451.0,Tutuilla Solar,OCS24,OR,Solar,Solar,2026,1.6,,2026.0,1.6,unchanged,
+68315.0,Anthelope Hills Solar Generation BESS,ARFL2,MT,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+65407.0,Beartooth Energy Storage LLC,BEAR1,MT,Battery Storage,Wind,2027,50.0,,2027.0,50.0,unchanged,
+68316.0,Biglow Solar Generation and BESS,BIGL2,OR,Battery Storage,Wind,2027,125.0,,2027.0,125.0,unchanged,
+69059.0,Crimson Orchard Solar and BESS,COBA,ID,Battery Storage,Wind,2027,100.0,,2027.0,100.0,unchanged,
+67741.0,OIT BESS,I,OR,Battery Storage,Wind,2027,2.0,,2027.0,2.0,unchanged,
+70419.0,Royal Slope,RSBA,WA,Battery Storage,Wind,2027,260.0,,2027.0,260.0,unchanged,
+68396.0,Sunstone Solar,PGB45,OR,Battery Storage,Wind,2027,1200.0,,2027.0,1200.0,unchanged,
+68299.0,Tualatin Battery Energy Storage System,TUAL,OR,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+70420.0,Wheatridge Optimization I,BA1,OR,Battery Storage,Wind,2027,65.0,,2027.0,65.0,unchanged,
+70450.0,Wheatridge Optimization II,BA1,OR,Battery Storage,Wind,2027,60.0,,2027.0,60.0,unchanged,
+68315.0,Anthelope Hills Solar Generation BESS,ARFL1,MT,Solar,Solar,2027,200.0,,2026.0,0.01416982535690248,MIDC,slip_-1
+68315.0,Anthelope Hills Solar Generation BESS,ARFL1,MT,Solar,Solar,2027,200.0,,2027.0,23.4368911403167,MIDC,slip_0
+68315.0,Anthelope Hills Solar Generation BESS,ARFL1,MT,Solar,Solar,2027,200.0,,2028.0,62.446420347869214,MIDC,slip_1
+68315.0,Anthelope Hills Solar Generation BESS,ARFL1,MT,Solar,Solar,2027,200.0,,2029.0,32.378050940522165,MIDC,slip_2
+68315.0,Anthelope Hills Solar Generation BESS,ARFL1,MT,Solar,Solar,2027,200.0,,2030.0,38.08140564667541,MIDC,slip_3plus
+68315.0,Anthelope Hills Solar Generation BESS,ARFL1,MT,Solar,Solar,2027,200.0,,,43.64306209925963,MIDC,never
+68316.0,Biglow Solar Generation and BESS,BIGL1,OR,Solar,Solar,2027,125.0,,2027.0,11.431172029769238,ST:OR,slip_0
+68316.0,Biglow Solar Generation and BESS,BIGL1,OR,Solar,Solar,2027,125.0,,2028.0,37.23831450447074,ST:OR,slip_1
+68316.0,Biglow Solar Generation and BESS,BIGL1,OR,Solar,Solar,2027,125.0,,2029.0,24.227659688386787,ST:OR,slip_2
+68316.0,Biglow Solar Generation and BESS,BIGL1,OR,Solar,Solar,2027,125.0,,2030.0,34.96948118006104,ST:OR,slip_3plus
+68316.0,Biglow Solar Generation and BESS,BIGL1,OR,Solar,Solar,2027,125.0,,,17.133372597312203,ST:OR,never
+69553.0,Blacks Creek Solar,BCS,ID,Solar,Solar,2027,400.0,,2026.0,0.02833965071380496,MIDC,slip_-1
+69553.0,Blacks Creek Solar,BCS,ID,Solar,Solar,2027,400.0,,2027.0,46.8737822806334,MIDC,slip_0
+69553.0,Blacks Creek Solar,BCS,ID,Solar,Solar,2027,400.0,,2028.0,124.89284069573843,MIDC,slip_1
+69553.0,Blacks Creek Solar,BCS,ID,Solar,Solar,2027,400.0,,2029.0,64.75610188104433,MIDC,slip_2
+69553.0,Blacks Creek Solar,BCS,ID,Solar,Solar,2027,400.0,,2030.0,76.16281129335081,MIDC,slip_3plus
+69553.0,Blacks Creek Solar,BCS,ID,Solar,Solar,2027,400.0,,,87.28612419851926,MIDC,never
+69482.0,Bluebird Solar,BBS1,WA,Solar,Solar,2027,140.0,,2026.0,0.009918877749831736,MIDC,slip_-1
+69482.0,Bluebird Solar,BBS1,WA,Solar,Solar,2027,140.0,,2027.0,16.40582379822169,MIDC,slip_0
+69482.0,Bluebird Solar,BBS1,WA,Solar,Solar,2027,140.0,,2028.0,43.71249424350845,MIDC,slip_1
+69482.0,Bluebird Solar,BBS1,WA,Solar,Solar,2027,140.0,,2029.0,22.664635658365516,MIDC,slip_2
+69482.0,Bluebird Solar,BBS1,WA,Solar,Solar,2027,140.0,,2030.0,26.656983952672785,MIDC,slip_3plus
+69482.0,Bluebird Solar,BBS1,WA,Solar,Solar,2027,140.0,,,30.550143469481743,MIDC,never
+70452.0,Buckaroo Solar 1,OCS62,OR,Solar,Solar,2027,2.4,,2027.0,0.21947850297156934,ST:OR,slip_0
+70452.0,Buckaroo Solar 1,OCS62,OR,Solar,Solar,2027,2.4,,2028.0,0.7149756384858382,ST:OR,slip_1
+70452.0,Buckaroo Solar 1,OCS62,OR,Solar,Solar,2027,2.4,,2029.0,0.4651710660170263,ST:OR,slip_2
+70452.0,Buckaroo Solar 1,OCS62,OR,Solar,Solar,2027,2.4,,2030.0,0.671414038657172,ST:OR,slip_3plus
+70452.0,Buckaroo Solar 1,OCS62,OR,Solar,Solar,2027,2.4,,,0.3289607538683943,ST:OR,never
+66340.0,Canyonville Solar LLC (CSG),PV1,OR,Solar,Solar,2027,2.5,,2027.0,0.22862344059538475,ST:OR,slip_0
+66340.0,Canyonville Solar LLC (CSG),PV1,OR,Solar,Solar,2027,2.5,,2028.0,0.7447662900894149,ST:OR,slip_1
+66340.0,Canyonville Solar LLC (CSG),PV1,OR,Solar,Solar,2027,2.5,,2029.0,0.48455319376773576,ST:OR,slip_2
+66340.0,Canyonville Solar LLC (CSG),PV1,OR,Solar,Solar,2027,2.5,,2030.0,0.6993896236012208,ST:OR,slip_3plus
+66340.0,Canyonville Solar LLC (CSG),PV1,OR,Solar,Solar,2027,2.5,,,0.3426674519462441,ST:OR,never
+69059.0,Crimson Orchard Solar and BESS,COPV,ID,Solar,Solar,2027,100.0,,2026.0,0.00708491267845124,MIDC,slip_-1
+69059.0,Crimson Orchard Solar and BESS,COPV,ID,Solar,Solar,2027,100.0,,2027.0,11.71844557015835,MIDC,slip_0
+69059.0,Crimson Orchard Solar and BESS,COPV,ID,Solar,Solar,2027,100.0,,2028.0,31.223210173934607,MIDC,slip_1
+69059.0,Crimson Orchard Solar and BESS,COPV,ID,Solar,Solar,2027,100.0,,2029.0,16.189025470261083,MIDC,slip_2
+69059.0,Crimson Orchard Solar and BESS,COPV,ID,Solar,Solar,2027,100.0,,2030.0,19.040702823337703,MIDC,slip_3plus
+69059.0,Crimson Orchard Solar and BESS,COPV,ID,Solar,Solar,2027,100.0,,,21.821531049629815,MIDC,never
+70516.0,Fry Ontario Solar Project,PV1,OR,Solar,Solar,2027,4.2,,2027.0,0.3840873802002464,ST:OR,slip_0
+70516.0,Fry Ontario Solar Project,PV1,OR,Solar,Solar,2027,4.2,,2028.0,1.251207367350217,ST:OR,slip_1
+70516.0,Fry Ontario Solar Project,PV1,OR,Solar,Solar,2027,4.2,,2029.0,0.8140493655297961,ST:OR,slip_2
+70516.0,Fry Ontario Solar Project,PV1,OR,Solar,Solar,2027,4.2,,2030.0,1.174974567650051,ST:OR,slip_3plus
+70516.0,Fry Ontario Solar Project,PV1,OR,Solar,Solar,2027,4.2,,,0.5756813192696901,ST:OR,never
+60070.0,Nolin Hills,GEN2,OR,Solar,Solar,2027,300.0,,2027.0,27.43481287144617,ST:OR,slip_0
+60070.0,Nolin Hills,GEN2,OR,Solar,Solar,2027,300.0,,2028.0,89.37195481072979,ST:OR,slip_1
+60070.0,Nolin Hills,GEN2,OR,Solar,Solar,2027,300.0,,2029.0,58.14638325212829,ST:OR,slip_2
+60070.0,Nolin Hills,GEN2,OR,Solar,Solar,2027,300.0,,2030.0,83.9267548321465,ST:OR,slip_3plus
+60070.0,Nolin Hills,GEN2,OR,Solar,Solar,2027,300.0,,,41.12009423354929,ST:OR,never
+69294.0,Oregon Trail Solar,OTS,OR,Solar,Solar,2027,41.0,,2027.0,3.74942442576431,ST:OR,slip_0
+69294.0,Oregon Trail Solar,OTS,OR,Solar,Solar,2027,41.0,,2028.0,12.214167157466404,ST:OR,slip_1
+69294.0,Oregon Trail Solar,OTS,OR,Solar,Solar,2027,41.0,,2029.0,7.9466723777908665,ST:OR,slip_2
+69294.0,Oregon Trail Solar,OTS,OR,Solar,Solar,2027,41.0,,2030.0,11.46998982706002,ST:OR,slip_3plus
+69294.0,Oregon Trail Solar,OTS,OR,Solar,Solar,2027,41.0,,,5.619746211918403,ST:OR,never
+67157.0,Powell Solar,PV1,OR,Solar,Solar,2027,55.9,,2027.0,5.112020131712803,ST:OR,slip_0
+67157.0,Powell Solar,PV1,OR,Solar,Solar,2027,55.9,,2028.0,16.652974246399317,ST:OR,slip_1
+67157.0,Powell Solar,PV1,OR,Solar,Solar,2027,55.9,,2029.0,10.834609412646572,ST:OR,slip_2
+67157.0,Powell Solar,PV1,OR,Solar,Solar,2027,55.9,,2030.0,15.638351983723297,ST:OR,slip_3plus
+67157.0,Powell Solar,PV1,OR,Solar,Solar,2027,55.9,,,7.6620442255180174,ST:OR,never
+70419.0,Royal Slope,RSPV,WA,Solar,Solar,2027,260.0,,2026.0,0.018420772963973223,MIDC,slip_-1
+70419.0,Royal Slope,RSPV,WA,Solar,Solar,2027,260.0,,2027.0,30.467958482411706,MIDC,slip_0
+70419.0,Royal Slope,RSPV,WA,Solar,Solar,2027,260.0,,2028.0,81.18034645222998,MIDC,slip_1
+70419.0,Royal Slope,RSPV,WA,Solar,Solar,2027,260.0,,2029.0,42.09146622267881,MIDC,slip_2
+70419.0,Royal Slope,RSPV,WA,Solar,Solar,2027,260.0,,2030.0,49.50582734067803,MIDC,slip_3plus
+70419.0,Royal Slope,RSPV,WA,Solar,Solar,2027,260.0,,,56.73598072903752,MIDC,never
+68396.0,Sunstone Solar,PGR45,OR,Solar,Solar,2027,1200.0,,2027.0,109.73925148578468,ST:OR,slip_0
+68396.0,Sunstone Solar,PGR45,OR,Solar,Solar,2027,1200.0,,2028.0,357.48781924291916,ST:OR,slip_1
+68396.0,Sunstone Solar,PGR45,OR,Solar,Solar,2027,1200.0,,2029.0,232.58553300851315,ST:OR,slip_2
+68396.0,Sunstone Solar,PGR45,OR,Solar,Solar,2027,1200.0,,2030.0,335.707019328586,ST:OR,slip_3plus
+68396.0,Sunstone Solar,PGR45,OR,Solar,Solar,2027,1200.0,,,164.48037693419715,ST:OR,never
+70420.0,Wheatridge Optimization I,PV1,OR,Solar,Solar,2027,110.0,,2027.0,10.059431386196929,ST:OR,slip_0
+70420.0,Wheatridge Optimization I,PV1,OR,Solar,Solar,2027,110.0,,2028.0,32.769716763934255,ST:OR,slip_1
+70420.0,Wheatridge Optimization I,PV1,OR,Solar,Solar,2027,110.0,,2029.0,21.320340525780374,ST:OR,slip_2
+70420.0,Wheatridge Optimization I,PV1,OR,Solar,Solar,2027,110.0,,2030.0,30.773143438453715,ST:OR,slip_3plus
+70420.0,Wheatridge Optimization I,PV1,OR,Solar,Solar,2027,110.0,,,15.07736788563474,ST:OR,never
+70450.0,Wheatridge Optimization II,PV1,OR,Solar,Solar,2027,130.0,,2027.0,11.888418910960008,ST:OR,slip_0
+70450.0,Wheatridge Optimization II,PV1,OR,Solar,Solar,2027,130.0,,2028.0,38.727847084649575,ST:OR,slip_1
+70450.0,Wheatridge Optimization II,PV1,OR,Solar,Solar,2027,130.0,,2029.0,25.19676607592226,ST:OR,slip_2
+70450.0,Wheatridge Optimization II,PV1,OR,Solar,Solar,2027,130.0,,2030.0,36.36826042726348,ST:OR,slip_3plus
+70450.0,Wheatridge Optimization II,PV1,OR,Solar,Solar,2027,130.0,,,17.818707501204692,ST:OR,never
+66651.0,Arco Wind and Solar Project,PLANT,ID,Wind,Wind,2027,153.0,,2028.0,153.0,wind_override,
+66651.0,Arco Wind and Solar Project,PLANT,ID,Wind,Wind,2027,153.0,,2029.0,206.0,wind_override,
+60070.0,Nolin Hills,PLANT,OR,Wind,Wind,2027,300.0,,2030.0,300.0,wind_override,
+68282.0,Centralia Battery Energy Storage System,CENT,WA,Battery Storage,Wind,2028,200.0,,2028.0,200.0,unchanged,
+70225.0,Shutler Energy Storage,SES,OR,Battery Storage,Wind,2028,41.0,,2028.0,41.0,unchanged,
+2185.0,Hauser,HAU9,MT,Hydro,Wind,2028,3.5,,2028.0,3.5,unchanged,
+69099.0,Orion - Helion,HEWA1,WA,Other,Wind,2028,50.0,,2028.0,50.0,unchanged,
+67653.0,Carriger,CARRI,WA,Solar,Solar,2028,160.0,,2027.0,1.1239828682815491,NATIONAL,slip_-1
+67653.0,Carriger,CARRI,WA,Solar,Solar,2028,160.0,,2028.0,23.335491597291863,NATIONAL,slip_0
+67653.0,Carriger,CARRI,WA,Solar,Solar,2028,160.0,,2029.0,23.71243040452928,NATIONAL,slip_1
+67653.0,Carriger,CARRI,WA,Solar,Solar,2028,160.0,,2030.0,13.879767044163549,NATIONAL,slip_2
+67653.0,Carriger,CARRI,WA,Solar,Solar,2028,160.0,,2031.0,59.91741650678999,NATIONAL,slip_3plus
+67653.0,Carriger,CARRI,WA,Solar,Solar,2028,160.0,,,38.03091157894377,NATIONAL,never
+63488.0,Obsidian Solar Center,OBSLR,OR,Solar,Solar,2028,400.0,,2027.0,2.809957170703873,NATIONAL,slip_-1
+63488.0,Obsidian Solar Center,OBSLR,OR,Solar,Solar,2028,400.0,,2028.0,58.33872899322966,NATIONAL,slip_0
+63488.0,Obsidian Solar Center,OBSLR,OR,Solar,Solar,2028,400.0,,2029.0,59.281076011323194,NATIONAL,slip_1
+63488.0,Obsidian Solar Center,OBSLR,OR,Solar,Solar,2028,400.0,,2030.0,34.69941761040887,NATIONAL,slip_2
+63488.0,Obsidian Solar Center,OBSLR,OR,Solar,Solar,2028,400.0,,2031.0,149.79354126697498,NATIONAL,slip_3plus
+63488.0,Obsidian Solar Center,OBSLR,OR,Solar,Solar,2028,400.0,,,95.07727894735943,NATIONAL,never
+65326.0,Sunset Solar,SS1,OR,Solar,Solar,2028,103.0,,2027.0,0.7235639714562473,NATIONAL,slip_-1
+65326.0,Sunset Solar,SS1,OR,Solar,Solar,2028,103.0,,2028.0,15.022222715756637,NATIONAL,slip_0
+65326.0,Sunset Solar,SS1,OR,Solar,Solar,2028,103.0,,2029.0,15.264877072915723,NATIONAL,slip_1
+65326.0,Sunset Solar,SS1,OR,Solar,Solar,2028,103.0,,2030.0,8.935100034680284,NATIONAL,slip_2
+65326.0,Sunset Solar,SS1,OR,Solar,Solar,2028,103.0,,2031.0,38.57183687624605,NATIONAL,slip_3plus
+65326.0,Sunset Solar,SS1,OR,Solar,Solar,2028,103.0,,,24.482399328945053,NATIONAL,never
+68366.0,AGATE BESS,AGAT,WA,Battery Storage,Wind,2029,170.0,,2029.0,170.0,unchanged,
+68763.0,Deschutes Solar and BESS,DECH2,OR,Battery Storage,Wind,2029,1000.0,,2029.0,1000.0,unchanged,
+68344.0,Lower Snake Solar Generation BESS,LOSN2,WA,Battery Storage,Wind,2029,300.0,,2029.0,300.0,unchanged,
+68370.0,Salmonfly Solar and Storage,SALM2,OR,Battery Storage,Wind,2029,247.0,,2029.0,247.0,unchanged,
+2185.0,Hauser,HAU12,MT,Hydro,Wind,2029,3.5,,2029.0,3.5,unchanged,
+68763.0,Deschutes Solar and BESS,DECH1,OR,Solar,Solar,2029,1000.0,,2028.0,31.05911585050212,NATIONAL,slip_-1
+68763.0,Deschutes Solar and BESS,DECH1,OR,Solar,Solar,2029,1000.0,,2029.0,31.818338682403287,NATIONAL,slip_0
+68763.0,Deschutes Solar and BESS,DECH1,OR,Solar,Solar,2029,1000.0,,2030.0,144.59053732270422,NATIONAL,slip_1
+68763.0,Deschutes Solar and BESS,DECH1,OR,Solar,Solar,2029,1000.0,,2031.0,150.25710045898472,NATIONAL,slip_2
+68763.0,Deschutes Solar and BESS,DECH1,OR,Solar,Solar,2029,1000.0,,2032.0,424.5436035476413,NATIONAL,slip_3plus
+68763.0,Deschutes Solar and BESS,DECH1,OR,Solar,Solar,2029,1000.0,,,217.73130413776443,NATIONAL,never
+65325.0,High Top Solar,98936,WA,Solar,Solar,2029,80.0,,2028.0,2.48472926804017,NATIONAL,slip_-1
+65325.0,High Top Solar,98936,WA,Solar,Solar,2029,80.0,,2029.0,2.5454670945922633,NATIONAL,slip_0
+65325.0,High Top Solar,98936,WA,Solar,Solar,2029,80.0,,2030.0,11.567242985816337,NATIONAL,slip_1
+65325.0,High Top Solar,98936,WA,Solar,Solar,2029,80.0,,2031.0,12.020568036718778,NATIONAL,slip_2
+65325.0,High Top Solar,98936,WA,Solar,Solar,2029,80.0,,2032.0,33.9634882838113,NATIONAL,slip_3plus
+65325.0,High Top Solar,98936,WA,Solar,Solar,2029,80.0,,,17.418504331021154,NATIONAL,never
+68344.0,Lower Snake Solar Generation BESS,LOSN1,WA,Solar,Solar,2029,300.0,,2028.0,9.317734755150637,NATIONAL,slip_-1
+68344.0,Lower Snake Solar Generation BESS,LOSN1,WA,Solar,Solar,2029,300.0,,2029.0,9.545501604720986,NATIONAL,slip_0
+68344.0,Lower Snake Solar Generation BESS,LOSN1,WA,Solar,Solar,2029,300.0,,2030.0,43.377161196811265,NATIONAL,slip_1
+68344.0,Lower Snake Solar Generation BESS,LOSN1,WA,Solar,Solar,2029,300.0,,2031.0,45.07713013769541,NATIONAL,slip_2
+68344.0,Lower Snake Solar Generation BESS,LOSN1,WA,Solar,Solar,2029,300.0,,2032.0,127.36308106429237,NATIONAL,slip_3plus
+68344.0,Lower Snake Solar Generation BESS,LOSN1,WA,Solar,Solar,2029,300.0,,,65.31939124132933,NATIONAL,never
+68370.0,Salmonfly Solar and Storage,SALM,OR,Solar,Solar,2029,247.0,,2028.0,7.6716016150740245,NATIONAL,slip_-1
+68370.0,Salmonfly Solar and Storage,SALM,OR,Solar,Solar,2029,247.0,,2029.0,7.8591296545536125,NATIONAL,slip_0
+68370.0,Salmonfly Solar and Storage,SALM,OR,Solar,Solar,2029,247.0,,2030.0,35.713862718707944,NATIONAL,slip_1
+68370.0,Salmonfly Solar and Storage,SALM,OR,Solar,Solar,2029,247.0,,2031.0,37.11350381336923,NATIONAL,slip_2
+68370.0,Salmonfly Solar and Storage,SALM,OR,Solar,Solar,2029,247.0,,2032.0,104.8622700762674,NATIONAL,slip_3plus
+68370.0,Salmonfly Solar and Storage,SALM,OR,Solar,Solar,2029,247.0,,,53.77963212202781,NATIONAL,never
+58175.0,Jawbone Wind Project,JWPI,MT,Wind,Wind,2029,80.0,,2030.0,0.4885736800630418,NATIONAL,slip_1
+58175.0,Jawbone Wind Project,JWPI,MT,Wind,Wind,2029,80.0,,2032.0,55.49251379038613,NATIONAL,slip_3plus
+58175.0,Jawbone Wind Project,JWPI,MT,Wind,Wind,2029,80.0,,,24.018912529550825,NATIONAL,never
+62263.0,Saddle Mountain East Wind Farm,GEN1,WA,Wind,Wind,2029,126.0,,2030.0,0.7695035460992908,NATIONAL,slip_1
+62263.0,Saddle Mountain East Wind Farm,GEN1,WA,Wind,Wind,2029,126.0,,2032.0,87.40070921985816,NATIONAL,slip_3plus
+62263.0,Saddle Mountain East Wind Farm,GEN1,WA,Wind,Wind,2029,126.0,,,37.82978723404255,NATIONAL,never
+68342.0,Hop Hill Solar Generation and BESS,HOHI2,WA,Battery Storage,Wind,2031,500.0,,2031.0,500.0,unchanged,
+66011.0,Cedar Island Solar LLC,PV1,OR,Solar,Solar,2031,800.0,,2030.0,24.847292680401697,NATIONAL,slip_-1
+66011.0,Cedar Island Solar LLC,PV1,OR,Solar,Solar,2031,800.0,,2031.0,25.45467094592263,NATIONAL,slip_0
+66011.0,Cedar Island Solar LLC,PV1,OR,Solar,Solar,2031,800.0,,2032.0,115.67242985816337,NATIONAL,slip_1
+66011.0,Cedar Island Solar LLC,PV1,OR,Solar,Solar,2031,800.0,,2033.0,120.20568036718777,NATIONAL,slip_2
+66011.0,Cedar Island Solar LLC,PV1,OR,Solar,Solar,2031,800.0,,2034.0,339.634882838113,NATIONAL,slip_3plus
+66011.0,Cedar Island Solar LLC,PV1,OR,Solar,Solar,2031,800.0,,,174.18504331021154,NATIONAL,never
+68342.0,Hop Hill Solar Generation and BESS,HOHI1,WA,Solar,Solar,2031,500.0,,2030.0,15.52955792525106,NATIONAL,slip_-1
+68342.0,Hop Hill Solar Generation and BESS,HOHI1,WA,Solar,Solar,2031,500.0,,2031.0,15.909169341201643,NATIONAL,slip_0
+68342.0,Hop Hill Solar Generation and BESS,HOHI1,WA,Solar,Solar,2031,500.0,,2032.0,72.29526866135211,NATIONAL,slip_1
+68342.0,Hop Hill Solar Generation and BESS,HOHI1,WA,Solar,Solar,2031,500.0,,2033.0,75.12855022949236,NATIONAL,slip_2
+68342.0,Hop Hill Solar Generation and BESS,HOHI1,WA,Solar,Solar,2031,500.0,,2034.0,212.27180177382064,NATIONAL,slip_3plus
+68342.0,Hop Hill Solar Generation and BESS,HOHI1,WA,Solar,Solar,2031,500.0,,,108.86565206888221,NATIONAL,never
+63878.0,Haymaker Hybrid,PLANT,MT,Wind,Wind,2031,630.0,,2028.0,315.0,wind_override,
+63878.0,Haymaker Hybrid,PLANT,MT,Wind,Wind,2031,630.0,,2031.0,315.0,wind_override,
+68342.0,Hop Hill Solar Generation and BESS,HOHI,WA,Wind,Wind,2031,200.0,,2032.0,1.2214342001576044,NATIONAL,slip_1
+68342.0,Hop Hill Solar Generation and BESS,HOHI,WA,Wind,Wind,2031,200.0,,2034.0,138.7312844759653,NATIONAL,slip_3plus
+68342.0,Hop Hill Solar Generation and BESS,HOHI,WA,Wind,Wind,2031,200.0,,,60.047281323877066,NATIONAL,never
+3845.0,Transalta Centralia Generation (gas conversion),2,WA,Natural Gas,Wind,2028,729.9,,2028.0,729.9,unchanged,
+371.0,Columbia Generating Station,2,WA,Nuclear,Wind,2031,186.0,,2031.0,186.0,unchanged,

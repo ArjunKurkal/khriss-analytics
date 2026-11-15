@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capacity Stacks &amp; Renewables Lag — khriss-analytics</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  :root { --bg:#0f1420; --panel:#161c2b; --line:#232c42; --text:#e6ebf2; --muted:#93a1b5; --accent:#4da3ff; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; background:var(--bg); color:var(--text);
+    font:14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { padding:10px 16px 6px; display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+  header h1 { margin:0; font-size:17px; font-weight:600; }
+  header .sub { color:var(--muted); font-size:12px; }
+  main { padding:6px 12px 16px; display:grid; gap:12px; }
+  .controls { display:flex; gap:10px; flex-wrap:wrap; align-items:center; background:var(--panel);
+    border:1px solid var(--line); border-radius:8px; padding:8px 12px; }
+  .controls label { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+  select { background:#0f1420; color:var(--text); border:1px solid var(--line); border-radius:6px; padding:4px 8px; font-size:13px; }
+  .seg { display:flex; border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+  .seg button { background:#0f1420; color:var(--muted); border:0; padding:5px 10px; font-size:13px; cursor:pointer; }
+  .seg button.on { background:var(--accent); color:#0f1420; font-weight:600; }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:10px; }
+  .kpi { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:10px 12px; }
+  .kpi .label { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em; }
+  .kpi .value { font-size:20px; margin-top:2px; }
+  .kpi .note { color:var(--muted); font-size:12px; }
+  .neg { color:#ff8f8f; } .pos { color:#7ee2a8; }
+  section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:12px 14px; }
+  section h2 { margin:0 0 2px; font-size:15px; }
+  section p { color:var(--muted); margin:0 0 8px; font-size:12.5px; }
+  .chart { width:100%; height:400px; }
+  .chart.tall { height:460px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  @media (max-width: 900px) { .grid2 { grid-template-columns:1fr; } }
+  table { border-collapse:collapse; width:100%; font-size:12.5px; }
+  th, td { border-bottom:1px solid var(--line); padding:5px 8px; text-align:left; }
+  th { color:var(--muted); font-weight:600; }
+  td.num, th.num { text-align:right; }
+  #err { display:none; margin:12px; padding:12px; border:1px solid #7a2d2d; background:#2a1616; border-radius:8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Capacity Stacks &amp; Renewables Lag</h1>
+  <span class="sub">Ten US regions · EIA-860M Sep 2026 · v1 EIA-only · v2 manual corrections · v3 lag-adjusted · nameplate MW</span>
+</header>
+<div id="err"></div>
+<main id="app" style="display:none">
+  <div class="controls">
+    <label for="region">Region</label>
+    <select id="region"></select>
+    <span id="subwrap" style="display:none"><label for="subregion">Subregion</label>
+    <select id="subregion"></select></span>
+    <label>View</label>
+    <div class="seg" id="mode">
+      <button data-m="stack" class="on">Stack by fuel</button>
+      <button data-m="compare">Compare v1/v2/v3</button>
+      <button data-m="delta">&Delta; v3 &minus; v2</button>
+    </div>
+    <span id="verwrap"><label for="version">Version</label>
+    <select id="version"><option value="v3">v3</option><option value="v2">v2</option><option value="v1">v1</option></select></span>
+  </div>
+  <div class="kpis" id="kpis"></div>
+  <section>
+    <h2 id="mainTitle">Capacity stack</h2>
+    <p id="mainNote"></p>
+    <div class="chart tall" id="mainChart"></div>
+  </section>
+  <section>
+    <h2>Renewables lag — measured realization (national)</h2>
+    <p>September EIA-860M snapshot cohorts 2016–2025, tracked through all 129 monthly vintages to Sep 2026. Resolved cohorts (target year &le; 2024), share of planned MW. Pull-forwards are negligible (&le;2%).</p>
+    <div class="chart" id="lagNat"></div>
+  </section>
+  <div class="grid2">
+    <section>
+      <h2>On-time share by region (1 year out)</h2>
+      <p>Same cohorts, horizon h=1. Regional spread is the reason v3 adjusts per region/state, not nationally.</p>
+      <div class="chart" id="lagRegion"></div>
+    </section>
+    <section>
+      <h2>COD slip distribution</h2>
+      <p>Share of resolved MW landing in target year T+k, or never. This distribution is the v3 adjustment engine.</p>
+      <div class="chart" id="lagSlip"></div>
+    </section>
+  </div>
+  <div class="grid2">
+    <section>
+      <h2>Is the bias improving?</h2>
+      <p>On-time share at h=1 by vintage year. No monotone trend — a 2021–22 deterioration, then back to range. The bias is structural, not fading.</p>
+      <div class="chart" id="lagTrend"></div>
+    </section>
+    <section>
+      <h2>Wind &ge;300 MW — project-by-project verdicts</h2>
+      <p>18 plants, 14.8 GW, checked individually against public sources (Nov 2026). These override the statistical profile in v3.</p>
+      <div style="max-height:400px; overflow-y:auto"><table id="windTable"></table></div>
+    </section>
+  </div>
+  <section>
+    <h2>Method notes</h2>
+    <p id="notes"></p>
+    <p>Stacks are not additive across regions (documented seam overlaps: DSW&cap;SPP 2,826 MW, DSW&cap;CAISO 2,704 MW, MIDC&cap;MISO/SPP 324 MW). v3 restates only forward solar/wind additions; retirements and other fuels are unchanged from v2. Full method: renewables-lag research log in this repository.</p>
+  </section>
+</main>
+<script>
+const FUEL_COLORS = { "Coal":"#8a8f98", "Natural Gas":"#f0a35e", "Nuclear":"#b48be8", "Solar":"#ffd94d",
+  "Wind":"#4dd0a6", "Hydro":"#4da3ff", "Pumped Storage":"#7ab8d9", "Battery Storage":"#ff7a90",
+  "Oil":"#c96f4a", "Other":"#5c6675" };
+const PLOT = { paper_bgcolor:"rgba(0,0,0,0)", plot_bgcolor:"rgba(0,0,0,0)",
+  font:{ color:"#e6ebf2", family:"system-ui, sans-serif", size:12 },
+  xaxis:{ gridcolor:"#232c42", linecolor:"#232c42" }, yaxis:{ gridcolor:"#232c42", linecolor:"#232c42" },
+  legend:{ orientation:"h", y:-0.12 }, margin:{ t:10, r:10, b:40, l:56 } };
+const CFG = { responsive:true, displayModeBar:false };
+let D = null, mode = "stack";
+const $ = id => document.getElementById(id);
+const fmt = n => n == null ? "—" : Math.round(n).toLocaleString("en-US");
+const fmtS = n => (n < 0 ? "−" : "+") + fmt(Math.abs(n));
+
+function cur() {
+  const r = D.regions.find(x => x.key === $("region").value);
+  const sub = $("subregion").value;
+  if (sub && sub !== "__all" && r.subregions && r.subregions[sub]) return r.subregions[sub];
+  return r.versions;
+}
+function renderMain() {
+  const r = D.regions.find(x => x.key === $("region").value);
+  const data = cur(), years = (data.v3 || data.v2 || data.v1).years;
+  const ver = $("version").value;
+  $("verwrap").style.display = mode === "stack" ? "" : "none";
+  let traces = [], title = "", note = "";
+  if (mode === "stack") {
+    const blk = data[ver];
+    traces = Object.keys(blk.fuels).sort().map(f => ({ x: years, y: blk.fuels[f], name: f,
+      type: "scatter", mode: "lines", stackgroup: "one",
+      line: { width: 0.5, color: FUEL_COLORS[f] || "#999" }, fillcolor: FUEL_COLORS[f] || "#999" }));
+    title = `${r.label} capacity stack — ${ver.toUpperCase()}`;
+    note = "Stacked nameplate MW by fuel, 2016–2036. Trailing years are reconstructed history; 2025 is the anchor; forward years are anchor + changelog.";
+  } else if (mode === "compare") {
+    traces = ["v1", "v2", "v3"].filter(v => data[v]).map(v => ({ x: years, y: data[v].total,
+      name: v.toUpperCase(), type: "scatter", mode: "lines",
+      line: { width: v === "v3" ? 3 : 1.6, color: v === "v3" ? "#4da3ff" : v === "v2" ? "#ffd94d" : "#8a8f98" } }));
+    title = `${r.label} total capacity — v1 vs v2 vs v3`;
+    note = "v1: EIA-860M changelog only. v2: + manual large-plant corrections and the behind-the-meter rule. v3: v2 with solar/wind restated under the measured lag profile.";
+  } else {
+    const fuels = Object.keys(data.v2.fuels).sort();
+    traces = fuels.map(f => ({ x: years, y: years.map((y, i) => (data.v3.fuels[f][i] || 0) - (data.v2.fuels[f][i] || 0)),
+      name: f, type: "bar", marker: { color: FUEL_COLORS[f] || "#999" } }));
+    title = `${r.label} — v3 minus v2 by fuel`;
+    note = "Only solar and wind move in v3; all other fuels are zero by construction. Negative = capacity delayed past the year or removed as never-built.";
+  }
+  $("mainTitle").textContent = title; $("mainNote").textContent = note;
+  const layout = JSON.parse(JSON.stringify(PLOT));
+  if (mode === "delta") layout.barmode = "relative";
+  layout.yaxis.title = { text: "MW" };
+  Plotly.react("mainChart", traces, layout, CFG);
+  // KPIs
+  const s = D.summaries[r.key];
+  const at = (blk, yr) => blk ? blk.total[yr - 2016] : null;
+  const whole = r.versions;
+  const d30 = at(whole.v3, 2030) - at(whole.v2, 2030), d36 = at(whole.v3, 2036) - at(whole.v2, 2036);
+  $("kpis").innerHTML = [
+    ["2030 total — v2", fmt(at(whole.v2, 2030)), "MW"],
+    ["2030 total — v3", fmt(at(whole.v3, 2030)), `<span class="${d30 < 0 ? "neg" : "pos"}">${fmtS(d30)} vs v2</span>`],
+    ["2036 total — v1", fmt(at(whole.v1, 2036)), "MW"],
+    ["2036 total — v2", fmt(at(whole.v2, 2036)), "MW"],
+    ["2036 total — v3", fmt(at(whole.v3, 2036)), `<span class="${d36 < 0 ? "neg" : "pos"}">${fmtS(d36)} vs v2</span>`],
+    ["Renewables removed (never)", fmt(s.renewable_mw_removed_never), "MW across 2027–36 additions"],
+  ].map(k => `<div class="kpi"><div class="label">${k[0]}</div><div class="value">${k[1]}</div><div class="note">${k[2]}</div></div>`).join("");
+}
+function renderLag() {
+  const L = JSON.parse(JSON.stringify(PLOT));
+  // national realization: stacked 100% bars
+  const nat = D.lag.national_by_horizon.filter(x => x.horizon <= 3);
+  const cats = [["on_time", "On time", "#4dd0a6"], ["early", "Early", "#7ee2a8"], ["delayed", "Delayed", "#ffd94d"],
+    ["canceled", "Canceled", "#ff8f8f"], ["vanished", "Vanished", "#c96f4a"], ["still_planned", "Still planned", "#5c6675"]];
+  const labels = nat.map(x => `${x.tech} h=${x.horizon}`);
+  Plotly.react("lagNat", cats.map(([k, name, c]) => ({ x: labels, y: nat.map(x => x.shares[k] * 100),
+    name, type: "bar", marker: { color: c } })),
+    { ...L, barmode: "stack", yaxis: { ...L.yaxis, title: { text: "% of planned MW" }, range: [0, 100] } }, CFG);
+  // region on-time h=1
+  const reg = D.lag.region_by_horizon.filter(x => x.horizon === 1 && (x.tech === "Solar" || x.tech === "Wind"));
+  Plotly.react("lagRegion", ["Solar", "Wind"].map(t => {
+    const rows = reg.filter(x => x.tech === t).sort((a, b) => a.shares.on_time - b.shares.on_time);
+    return { y: rows.map(x => x.region), x: rows.map(x => x.shares.on_time * 100), name: t,
+      type: "bar", orientation: "h", marker: { color: t === "Solar" ? "#ffd94d" : "#4dd0a6" } };
+  }), { ...L, barmode: "group", xaxis: { ...L.xaxis, title: { text: "on-time %" }, range: [0, 100] } }, CFG);
+  // slip distribution
+  const slip = D.lag.slip_distribution.filter(x => x.horizon <= 2 && x.tech !== "Offshore Wind");
+  const keys = ["-1", "0", "1", "2", "3", "4", "5", "never"];
+  const cols = { "-1": "#7ee2a8", "0": "#4dd0a6", "1": "#ffd94d", "2": "#f0a35e", "3": "#e07b4d", "4": "#c96f4a", "5": "#b45a3c", "never": "#ff8f8f" };
+  Plotly.react("lagSlip", keys.map(k => ({ x: slip.map(x => `${x.tech} h=${x.horizon}`),
+    y: slip.map(x => (x.dist[k] || 0) * 100), name: k === "never" ? "never" : `T${k >= 0 ? "+" : ""}${k}`,
+    type: "bar", marker: { color: cols[k] } })),
+    { ...L, barmode: "stack", yaxis: { ...L.yaxis, title: { text: "% of resolved MW" }, range: [0, 100] } }, CFG);
+  // trend
+  Plotly.react("lagTrend", D.lag.trend_h1.filter(t => t.tech !== "Offshore Wind").map(t => ({
+    x: t.points.map(p => p.vintage), y: t.points.map(p => p.on_time * 100), name: t.tech,
+    type: "scatter", mode: "lines+markers",
+    line: { color: t.tech === "Solar" ? "#ffd94d" : "#4dd0a6", width: 2 } })),
+    { ...L, yaxis: { ...L.yaxis, title: { text: "on-time % at h=1" }, range: [0, 60] } }, CFG);
+  // wind projects table
+  $("windTable").innerHTML = "<tr><th>Project</th><th>State</th><th class='num'>MW</th><th>EIA COD</th><th>Verdict</th><th>Modeled in v3</th></tr>" +
+    D.lag.wind_projects.map(p => `<tr><td>${p.name}</td><td>${p.state}</td><td class="num">${fmt(p.mw)}</td><td>${p.eia_cod}</td><td>${p.verdict}</td><td>${p.modeled}</td></tr>`).join("");
+  $("notes").textContent = D.notes.stacks + " " + D.notes.lag;
+}
+function fillRegions() {
+  $("region").innerHTML = D.regions.map(r => `<option value="${r.key}">${r.label}</option>`).join("");
+  $("region").value = "ercot";
+  fillSubs(); renderMain(); renderLag();
+}
+function fillSubs() {
+  const r = D.regions.find(x => x.key === $("region").value);
+  const names = r.subregions ? Object.keys(r.subregions) : [];
+  $("subwrap").style.display = names.length ? "" : "none";
+  $("subregion").innerHTML = names.length ? `<option value="__all">All (combined)</option>` + names.map(n => `<option>${n}</option>`).join("") : "";
+}
+fetch("data.json").then(async r => {
+  if (!r.ok) throw new Error("fetch");
+  try { D = await r.json(); } catch (e) { throw new Error("parse"); }
+  $("app").style.display = ""; fillRegions();
+}).catch(e => {
+  const el = $("err"); el.style.display = "";
+  el.textContent = e.message === "parse" ? "data.json could not be parsed." : "data.json could not be loaded.";
+});
+$("region").addEventListener("change", () => { fillSubs(); renderMain(); });
+$("subregion").addEventListener("change", renderMain);
+$("version").addEventListener("change", renderMain);
+$("mode").addEventListener("click", e => {
+  if (e.target.tagName !== "BUTTON") return;
+  mode = e.target.dataset.m;
+  [...$("mode").children].forEach(b => b.classList.toggle("on", b.dataset.m === mode));
+  renderMain();
+});
+</script>
+</body>
+</html>

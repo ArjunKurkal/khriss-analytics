@@ -1,0 +1,31 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+68315.0,Anthelope Hills Solar Generation BESS,ARFL1,MT,Solar,Solar,2027,200.0,,MIDC
+68316.0,Biglow Solar Generation and BESS,BIGL1,OR,Solar,Solar,2027,125.0,,ST:OR
+69553.0,Blacks Creek Solar,BCS,ID,Solar,Solar,2027,400.0,,MIDC
+69482.0,Bluebird Solar,BBS1,WA,Solar,Solar,2027,140.0,,MIDC
+70452.0,Buckaroo Solar 1,OCS62,OR,Solar,Solar,2027,2.4,,ST:OR
+66340.0,Canyonville Solar LLC (CSG),PV1,OR,Solar,Solar,2027,2.5,,ST:OR
+69059.0,Crimson Orchard Solar and BESS,COPV,ID,Solar,Solar,2027,100.0,,MIDC
+70516.0,Fry Ontario Solar Project,PV1,OR,Solar,Solar,2027,4.2,,ST:OR
+60070.0,Nolin Hills,GEN2,OR,Solar,Solar,2027,300.0,,ST:OR
+69294.0,Oregon Trail Solar,OTS,OR,Solar,Solar,2027,41.0,,ST:OR
+67157.0,Powell Solar,PV1,OR,Solar,Solar,2027,55.9,,ST:OR
+70419.0,Royal Slope,RSPV,WA,Solar,Solar,2027,260.0,,MIDC
+68396.0,Sunstone Solar,PGR45,OR,Solar,Solar,2027,1200.0,,ST:OR
+70420.0,Wheatridge Optimization I,PV1,OR,Solar,Solar,2027,110.0,,ST:OR
+70450.0,Wheatridge Optimization II,PV1,OR,Solar,Solar,2027,130.0,,ST:OR
+66651.0,Arco Wind and Solar Project,37565,ID,Wind,Wind,2027,153.0,,wind_override
+60070.0,Nolin Hills,GEN,OR,Wind,Wind,2027,300.0,,wind_override
+67653.0,Carriger,CARRI,WA,Solar,Solar,2028,160.0,,NATIONAL
+63488.0,Obsidian Solar Center,OBSLR,OR,Solar,Solar,2028,400.0,,NATIONAL
+65326.0,Sunset Solar,SS1,OR,Solar,Solar,2028,103.0,,NATIONAL
+68763.0,Deschutes Solar and BESS,DECH1,OR,Solar,Solar,2029,1000.0,,NATIONAL
+65325.0,High Top Solar,98936,WA,Solar,Solar,2029,80.0,,NATIONAL
+68344.0,Lower Snake Solar Generation BESS,LOSN1,WA,Solar,Solar,2029,300.0,,NATIONAL
+68370.0,Salmonfly Solar and Storage,SALM,OR,Solar,Solar,2029,247.0,,NATIONAL
+58175.0,Jawbone Wind Project,JWPI,MT,Wind,Wind,2029,80.0,,NATIONAL
+62263.0,Saddle Mountain East Wind Farm,GEN1,WA,Wind,Wind,2029,126.0,,NATIONAL
+66011.0,Cedar Island Solar LLC,PV1,OR,Solar,Solar,2031,800.0,,NATIONAL
+68342.0,Hop Hill Solar Generation and BESS,HOHI1,WA,Solar,Solar,2031,500.0,,NATIONAL
+63878.0,Haymaker Hybrid,HAY,MT,Wind,Wind,2031,630.0,,wind_override
+68342.0,Hop Hill Solar Generation and BESS,HOHI,WA,Wind,Wind,2031,200.0,,NATIONAL

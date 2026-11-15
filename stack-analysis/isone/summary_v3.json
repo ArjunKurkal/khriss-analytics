@@ -1,0 +1,18 @@
+{
+ "region": "isone",
+ "changelog_rebuild_max_diff_mw": 0.0,
+ "total_2030_v2": 41579.1,
+ "total_2030_v3": 41023.4,
+ "total_2036_v2": 41608.4,
+ "total_2036_v3": 41397.3,
+ "solar_2036_v2": 4799.9,
+ "solar_2036_v3": 4588.8,
+ "wind_2036_v2": 3225.5,
+ "wind_2036_v3": 3225.5,
+ "renewable_mw_removed_never": 211.1,
+ "renewable_mw_pushed_beyond_2036": 0.0,
+ "scopes_used": {
+  "ISONE": 18,
+  "NATIONAL": 13
+ }
+}

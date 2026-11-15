@@ -1,0 +1,1030 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+69311.0,Blount BESS,BLTB,WI,Battery Storage,Wind,2026,7.0,Central,2026.0,7.0,unchanged,
+69878.0,Emmons-Logan Energy Storage,5869,ND,Battery Storage,Wind,2026,140.0,North,2026.0,140.0,unchanged,
+69312.0,Huiskamp BESS,HKPB,WI,Battery Storage,Wind,2026,7.0,Central,2026.0,7.0,unchanged,
+65401.0,Newton Solar BESS LLC,BA,IL,Battery Storage,Wind,2026,2.0,Central,2026.0,2.0,unchanged,
+69428.0,Petersburg Energy Center,BA,IN,Battery Storage,Wind,2026,250.0,Central,2026.0,250.0,unchanged,
+68054.0,Sunnyside Solar Energy Center,SNSB,WI,Battery Storage,Wind,2026,40.0,Central,2026.0,40.0,unchanged,
+69313.0,West Middleton BESS,WMB,WI,Battery Storage,Wind,2026,7.0,Central,2026.0,7.0,unchanged,
+67538.0,Wever Solar (150MW),BESS1,IA,Battery Storage,Wind,2026,99.0,North,2026.0,99.0,unchanged,
+50328.0,Byllesby,NOR-1,MN,Hydro,Wind,2026,2.2,North,2026.0,2.2,unchanged,
+50328.0,Byllesby,SOU-2,MN,Hydro,Wind,2026,2.2,North,2026.0,2.2,unchanged,
+57625.0,"Bos Dairy, LLC",BOS5,IN,Natural Gas,Wind,2026,1.0,Central,2026.0,1.0,unchanged,
+50969.0,MU Combined Heat and Power Plant,GEN10,MO,Natural Gas,Wind,2026,9.0,Central,2026.0,9.0,unchanged,
+66621.0,Orange County Advanced Power Station,1A,TX,Natural Gas,Wind,2026,453.0,South,2026.0,453.0,unchanged,
+66621.0,Orange County Advanced Power Station,1B,TX,Natural Gas,Wind,2026,453.0,South,2026.0,453.0,unchanged,
+66621.0,Orange County Advanced Power Station,1C,TX,Natural Gas,Wind,2026,400.0,South,2026.0,400.0,unchanged,
+971.0,Waterloo,14,IL,Natural Gas,Wind,2026,8.0,Central,2026.0,8.0,unchanged,
+4014.0,Wheaton,WHT08,WI,Natural Gas,Wind,2026,249.1,North,2026.0,249.1,unchanged,
+70292.0,1150th Sun,14591,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+69787.0,AC IL - Hillsboro CSG,HILLS,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+68927.0,"Adelite Solar, LLC",ADELI,MO,Solar,Solar,2026,25.0,Central,2026.0,25.0,unchanged,
+69521.0,Archtop Solar,ARCH1,IL,Solar,Solar,2026,61.4,Central,2026.0,61.4,unchanged,
+69521.0,Archtop Solar,ARCH2,IL,Solar,Solar,2026,53.3,Central,2026.0,53.3,unchanged,
+69521.0,Archtop Solar,ARCH3,IL,Solar,Solar,2026,36.9,Central,2026.0,36.9,unchanged,
+69521.0,Archtop Solar,ARCH4,IL,Solar,Solar,2026,24.6,Central,2026.0,24.6,unchanged,
+69521.0,Archtop Solar,ARCH5,IL,Solar,Solar,2026,49.2,Central,2026.0,49.2,unchanged,
+69521.0,Archtop Solar,ARCH6,IL,Solar,Solar,2026,61.4,Central,2026.0,61.4,unchanged,
+69813.0,Argenta Solar,ARGEN,IL,Solar,Solar,2026,1.5,Central,2026.0,1.5,unchanged,
+69174.0,Arlington 1,11238,IL,Solar,Solar,2026,4.5,Central,2026.0,4.5,unchanged,
+69175.0,Arlington 2,11239,IL,Solar,Solar,2026,4.5,Central,2026.0,4.5,unchanged,
+68974.0,Ashley Solar LLC PV,13526,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69874.0,"Bee Hollow Solar, LLC",BHSF,IL,Solar,Solar,2026,150.0,Central,2026.0,150.0,unchanged,
+69043.0,Big Creek Solar (IL) (CSG),BC25,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69629.0,Big Muddy Solar,BIGM1,IL,Solar,Solar,2026,95.0,Central,2026.0,95.0,unchanged,
+70468.0,"Big Rapids Solar WI, LLC",20265,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+69931.0,Bjorn,BJORN,WI,Solar,Solar,2026,5.0,North,2026.0,5.0,unchanged,
+69850.0,"Blue Iris Solar, LLC CSG",BLUIR,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+68926.0,"Blue Jay Road Solar, LLC",BLUEJ,MO,Solar,Solar,2026,66.0,Central,2026.0,66.0,unchanged,
+69841.0,"Bluestar Solar Project, LLC",BLUST,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+66697.0,Branch Solar Project,BS1,MI,Solar,Solar,2026,200.0,Central,2026.0,200.0,unchanged,
+70562.0,"Bungalow Solar, LLC",BUNGA,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69840.0,CVE US IL Ridge Farm 324 LLC (CSG),RIDGF,IL,Solar,Solar,2026,2.5,Central,2026.0,2.5,unchanged,
+69845.0,CVE US IL TAMAROA 316 LLC,TAMAR,IL,Solar,Solar,2026,3.6,Central,2026.0,3.6,unchanged,
+70469.0,"Campbellsport Solar WI, LLC",20261,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+69578.0,"Casey Fork Solar, LLC",CFSPV,IL,Solar,Solar,2026,150.0,Central,2026.0,150.0,unchanged,
+69932.0,Castle Rock Lake Solar,CSTLO,WI,Solar,Solar,2026,4.5,Central,2026.0,4.5,unchanged,
+70548.0,Cenergy IL - Worden,WRDEN,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69178.0,Cherry Solar 1,11237,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+67992.0,Cherry Valley PV I,CHVLY,AR,Solar,Solar,2026,135.0,South,2026.0,135.0,unchanged,
+69465.0,City of Detroit Castle Solar,CSTSP,MI,Solar,Solar,2026,10.0,Central,2026.0,10.0,unchanged,
+68208.0,City of Little Rock Solar Array,LRZBR,AR,Solar,Solar,2026,4.9,South,2026.0,4.9,unchanged,
+70048.0,City of Milwaukee- Airport Expansion,AIREX,WI,Solar,Solar,2026,4.6,Central,2026.0,4.6,unchanged,
+69933.0,Clark Solar-Longwood,CLARK,WI,Solar,Solar,2026,2.5,Central,2026.0,2.5,unchanged,
+70375.0,Clinton Solar 5,CLIN5,IL,Solar,Solar,2026,2.6,Central,2026.0,2.6,unchanged,
+69471.0,Cold Creek Solar Park,CLCSP,MI,Solar,Solar,2026,100.0,Central,2026.0,100.0,unchanged,
+67991.0,Cooks Mill PV I,CKML,IL,Solar,Solar,2026,99.0,Central,2026.0,99.0,unchanged,
+69849.0,Corfee Solar LLC,CORFE,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70444.0,Cottonwood - IL,11131,IL,Solar,Solar,2026,4.9,Central,2026.0,4.9,unchanged,
+67993.0,Crooked Creek PV I,CRDCK,IL,Solar,Solar,2026,99.0,Central,2026.0,99.0,unchanged,
+70457.0,DeVillez,DEVIZ,IL,Solar,Solar,2026,3.3,Central,2026.0,3.3,unchanged,
+70513.0,Delta Bobcat Solar,3988,MO,Solar,Solar,2026,200.0,Central,2026.0,200.0,unchanged,
+68785.0,Dolet Hills Solar,DHS1,LA,Solar,Solar,2026,240.0,South,2026.0,240.0,unchanged,
+70446.0,Dragon's Breath Solar LLC PV,33699,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69156.0,Duff Solar Park,GEN01,IN,Solar,Solar,2026,100.0,Central,2026.0,100.0,unchanged,
+70503.0,EESolar22,PV1,MN,Solar,Solar,2026,2.6,North,2026.0,2.6,unchanged,
+70504.0,EESolar33,PV1,MN,Solar,Solar,2026,4.0,North,2026.0,4.0,unchanged,
+70447.0,Ember Sun LLC PV,45629,IL,Solar,Solar,2026,3.0,Central,2026.0,3.0,unchanged,
+69305.0,Enterprise MN - Fitzthum,FITZH,MN,Solar,Solar,2026,1.0,North,2026.0,1.0,unchanged,
+69934.0,Falun,FALUN,WI,Solar,Solar,2026,2.5,North,2026.0,2.5,unchanged,
+69997.0,Fast Ave Solar LLC,FASTA,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+67754.0,Fish Creek Solar Park,FSCSP,MI,Solar,Solar,2026,146.2,Central,2026.0,146.2,unchanged,
+70493.0,Four Mile Creek,FMCS,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70494.0,Four Mile Creek Solar Two,FMCS2,IL,Solar,Solar,2026,3.0,Central,2026.0,3.0,unchanged,
+70471.0,"Germantown - Rockfield Rd Solar WI, LLC",20263,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+69846.0,"Gerstenschlager Family Solar 1, LLC (CSG)",GRST1,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69935.0,Gilman,GILMN,WI,Solar,Solar,2026,3.8,North,2026.0,3.8,unchanged,
+70520.0,Granite City Solar,14233,IL,Solar,Solar,2026,4.0,Central,2026.0,4.0,unchanged,
+68850.0,Gratiot Solar Park,GRTSP,MI,Solar,Solar,2026,50.0,Central,2026.0,50.0,unchanged,
+69586.0,"Great Plains Solar, LLC",GPS,IL,Solar,Solar,2026,100.0,Central,2026.0,100.0,unchanged,
+70497.0,Greenfield Solar 1 (IL),GF1,IL,Solar,Solar,2026,3.6,Central,2026.0,3.6,unchanged,
+68515.0,Greer Solar Plant,GREER,MS,Solar,Solar,2026,200.0,South,2026.0,200.0,unchanged,
+70001.0,"Harper Creek Solar, LLC",HARPC,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+66778.0,Hart Solar Project,HS1,MI,Solar,Solar,2026,120.0,Central,2026.0,120.0,unchanged,
+67677.0,Heartwood Solar,HWS,MI,Solar,Solar,2026,150.0,Central,2026.0,150.0,unchanged,
+70563.0,"Hibiscus Solar, LLC",HIBIS,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70470.0,"Honey Creek Solar WI, LLC",20262,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+69844.0,"Horseshoe Solar Project, LLC",HORSE,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70350.0,IL - Forefront Ameren- Route 40,RT40,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+70431.0,IL - Nexamp Argenta,ARGEN,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70064.0,IL - Nexamp Kewanee,KWNEE,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70065.0,IL - Nexamp Percy (CSG),PERCY,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70351.0,IL-Forefront Ameren-St. Joseph 1,JOE01,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+70353.0,IL-Forefront Ameren-Truitt 1,TRU1,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+70354.0,IL-Forefront Ameren-Truitt 2,TRU2,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+70352.0,IL-Forefront-Ameren-St. Joseph 2,JOE02,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+69053.0,ILL060-Sangamon-Atchison,IL60,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+69647.0,"Jackson County Solar, LLC",JCKSN,MI,Solar,Solar,2026,125.0,Central,2026.0,125.0,unchanged,
+70442.0,KN216,11224,IL,Solar,Solar,2026,4.9,Central,2026.0,4.9,unchanged,
+69936.0,Kalmar,KALMR,MN,Solar,Solar,2026,2.5,North,2026.0,2.5,unchanged,
+67998.0,Karn Solar Energy Center,KSEC,MI,Solar,Solar,2026,80.0,Central,2026.0,80.0,unchanged,
+70448.0,Keithsburg North Solar LLC PV,22258,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+69321.0,Kelso 2 Solar,KLSO2,MO,Solar,Solar,2026,149.0,Central,2026.0,149.0,unchanged,
+70176.0,Kieser,KIESE,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69479.0,Koshkonong Solar Energy Center LLC,KSHKS,WI,Solar,Solar,2026,300.0,Central,2026.0,300.0,unchanged,
+70380.0,Kraemer Garden,GEN4,MN,Solar,Solar,2026,4.0,North,2026.0,4.0,unchanged,
+70498.0,Ladd Solar 3,LS3,IL,Solar,Solar,2026,4.5,Central,2026.0,4.5,unchanged,
+66745.0,Lake Iris Solar Project,LIS1,MI,Solar,Solar,2026,100.0,Central,2026.0,100.0,unchanged,
+70472.0,"Lime Kiln Solar, LLC",20268,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+69204.0,Little Creek,11241,IL,Solar,Solar,2026,4.0,Central,2026.0,4.0,unchanged,
+70473.0,"Little Rose Solar WI, LLC",20267,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+67755.0,Little Trout Solar,LTRSP,MI,Solar,Solar,2026,150.0,Central,2026.0,150.0,unchanged,
+68571.0,"Lowe's - 1440 - Rockford, IL RDC (POI 1)",7481,IL,Solar,Solar,2026,2.3,Central,2026.0,2.3,unchanged,
+68572.0,"Lowe's - 1440 - Rockford, IL RDC (POI 2)",7824,IL,Solar,Solar,2026,2.3,Central,2026.0,2.3,unchanged,
+70474.0,"Lyndon Solar WI, LLC",20266,WI,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70475.0,"Maple Creek Solar WI, LLC",20264,WI,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70382.0,Mazaska Garden,GEN3,MN,Solar,Solar,2026,5.0,North,2026.0,5.0,unchanged,
+69852.0,"McCray Solar 1, LLC",MCCR1,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70510.0,McDonough Solar 4 LLC,MCD4,IL,Solar,Solar,2026,4.0,Central,2026.0,4.0,unchanged,
+68501.0,McFarland Schools Customer Hosted,PV1,WI,Solar,Solar,2026,1.4,Central,2026.0,1.4,unchanged,
+70107.0,Mills Solar Project,MSP,IA,Solar,Solar,2026,50.0,North,2026.0,50.0,unchanged,
+67756.0,Mission Road Solar Park,MSRSP,MI,Solar,Solar,2026,172.0,Central,2026.0,172.0,unchanged,
+69937.0,Mondovi,MNDVI,WI,Solar,Solar,2026,3.0,North,2026.0,3.0,unchanged,
+68263.0,Mondu Solar LLC,M4515,LA,Solar,Solar,2026,150.0,South,2026.0,150.0,unchanged,
+65572.0,Muskegon Solar,MSP,MI,Solar,Solar,2026,250.0,Central,2026.0,250.0,unchanged,
+69308.0,NL IL - Esmen East CSG,ESMNE,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70465.0,New Florence Renewable Energy Center,NFREC,MO,Solar,Solar,2026,7.0,Central,2026.0,7.0,unchanged,
+65401.0,Newton Solar BESS LLC,PV,IL,Solar,Solar,2026,51.8,Central,2026.0,51.8,unchanged,
+70499.0,North Pana,NP,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69797.0,Northern Sun,POPL,MN,Solar,Solar,2026,1.0,North,2026.0,1.0,unchanged,
+65006.0,Novel Bo Hu 1 Solar (CSG),BOHU1,MN,Solar,Solar,2026,1.0,North,2026.0,1.0,unchanged,
+69983.0,Novel Gertken Solar LLC,GRTKN,MN,Solar,Solar,2026,1.0,North,2026.0,1.0,unchanged,
+70108.0,PIKE Solar,PIKE,IL,Solar,Solar,2026,18.0,Central,2026.0,18.0,unchanged,
+69838.0,"Paris Solar, LLC (CSG)",PARIS,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70500.0,Pawpaw (IL),PAW,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70427.0,Peony,11131,IL,Solar,Solar,2026,4.9,Central,2026.0,4.9,unchanged,
+69503.0,"Perch Solar WI, LLC",20257,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+69428.0,Petersburg Energy Center,PECPV,IN,Solar,Solar,2026,250.0,Central,2026.0,250.0,unchanged,
+70467.0,Pine Hill Solar,PHS,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+70099.0,Pivot Energy IL 7 LLC,IL007,IL,Solar,Solar,2026,1.4,Central,2026.0,1.4,unchanged,
+64536.0,Prairie Solar LLC,KOV4A,IL,Solar,Solar,2026,135.0,Central,2026.0,135.0,unchanged,
+69394.0,Redfield Solar,REDF1,AR,Solar,Solar,2026,100.0,South,2026.0,100.0,unchanged,
+69476.0,Renegade Solar Energy LLC,RNGDE,MI,Solar,Solar,2026,100.0,Central,2026.0,100.0,unchanged,
+68973.0,Ridge Farm Renewables LLC PV,13359,IL,Solar,Solar,2026,4.0,Central,2026.0,4.0,unchanged,
+69938.0,Ringe,RINGE,MN,Solar,Solar,2026,2.5,North,2026.0,2.5,unchanged,
+69540.0,Rock Creek Solar,RCS01,IA,Solar,Solar,2026,150.0,North,2026.0,150.0,unchanged,
+70476.0,"Root River Solar WI, LLC",20260,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+68929.0,"Ruby Solar, LLC",RUBY,IL,Solar,Solar,2026,50.0,Central,2026.0,50.0,unchanged,
+69789.0,SPG IL Green River CSG,GREEN,IL,Solar,Solar,2026,2.8,Central,2026.0,2.8,unchanged,
+68094.0,SR Arcadia,ARCAD,LA,Solar,Solar,2026,4.5,South,2026.0,4.5,unchanged,
+68097.0,SR Cherry Valley,CHERR,AR,Solar,Solar,2026,4.8,South,2026.0,4.8,unchanged,
+68230.0,SR Des Arc,DESAR,AR,Solar,Solar,2026,4.8,South,2026.0,4.8,unchanged,
+68100.0,SR Dumas,DUMAS,AR,Solar,Solar,2026,4.8,South,2026.0,4.8,unchanged,
+68101.0,SR Fisher,FISHR,AR,Solar,Solar,2026,4.8,South,2026.0,4.8,unchanged,
+68256.0,SR South Bastrop,SBAST,LA,Solar,Solar,2026,4.8,South,2026.0,4.8,unchanged,
+68257.0,SR Winnsboro,WINN,LA,Solar,Solar,2026,4.8,South,2026.0,4.8,unchanged,
+69811.0,SV CSG Angelly 1,ANGEL,IL,Solar,Solar,2026,3.6,Central,2026.0,3.6,unchanged,
+68933.0,SV CSG Corbell,CORB,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+69159.0,SV CSG Diel 1,DIEL,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+68936.0,SV CSG Naplate,NAP1,IL,Solar,Solar,2026,3.9,Central,2026.0,3.9,unchanged,
+68935.0,SV CSG Roxana 1,ROX1,IL,Solar,Solar,2026,2.5,Central,2026.0,2.5,unchanged,
+69851.0,"Salvia Solar, LLC",SALVI,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+70574.0,Sandoval 2,14237,IL,Solar,Solar,2026,2.0,Central,2026.0,2.0,unchanged,
+70425.0,Sebree Solar II,SB002,KY,Solar,Solar,2026,150.0,Central,2026.0,150.0,unchanged,
+68777.0,Sherco Solar III,SHS03,MN,Solar,Solar,2026,250.0,North,2026.0,250.0,unchanged,
+68325.0,Show Me State Solar,SMS,MO,Solar,Solar,2026,250.0,Central,2026.0,250.0,unchanged,
+70090.0,"Snapdragon Solar, LLC",SNPDR,IL,Solar,Solar,2026,28.0,Central,2026.0,28.0,unchanged,
+68340.0,Solway Solar,1,MN,Solar,Solar,2026,50.0,North,2026.0,50.0,unchanged,
+70501.0,South Cherry Solar 1,SCS1,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69848.0,Spillertown CSG 1 LLC,SPIL1,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69847.0,Spillertown CSG 2 LLC,SPIL2,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69475.0,Split Rail Solar Energy LLC,SPTRL,MO,Solar,Solar,2026,300.0,Central,2026.0,300.0,unchanged,
+69939.0,Spooner,SPOON,WI,Solar,Solar,2026,2.3,North,2026.0,2.3,unchanged,
+67999.0,Spring Creek Agri-Energy Center,SCAEC,MI,Solar,Solar,2026,140.0,Central,2026.0,140.0,unchanged,
+66681.0,Sterlington Solar,STS,LA,Solar,Solar,2026,49.0,South,2026.0,49.0,unchanged,
+69504.0,"Strawberry Creek Solar WI, LLC",20258,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+68745.0,Sunfish Solar 2,SS2,MI,Solar,Solar,2026,360.0,Central,2026.0,360.0,unchanged,
+68054.0,Sunnyside Solar Energy Center,SNSS,WI,Solar,Solar,2026,20.0,Central,2026.0,20.0,unchanged,
+70502.0,Sunset Road Solar 2,SRS2,IL,Solar,Solar,2026,2.5,Central,2026.0,2.5,unchanged,
+69231.0,Sunset Road Solar 3 Community Solar,SR3,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+69232.0,Sunset Road Solar 4 Community Solar,SR4,IL,Solar,Solar,2026,2.5,Central,2026.0,2.5,unchanged,
+69594.0,"Switchgrass Plains Solar, LLC",SPS,IL,Solar,Solar,2026,100.0,Central,2026.0,100.0,unchanged,
+69940.0,Teeple Creek,TEEPL,IA,Solar,Solar,2026,2.5,North,2026.0,2.5,unchanged,
+69217.0,Thoroman,11219,IL,Solar,Solar,2026,2.5,Central,2026.0,2.5,unchanged,
+70478.0,"Tichigan Solar WI, LLC",20259,WI,Solar,Solar,2026,6.0,Central,2026.0,6.0,unchanged,
+70565.0,Trenton CSG 1 LLC,TREN1,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+68757.0,USS Beard Solar,USBRD,IL,Solar,Solar,2026,3.5,Central,2026.0,3.5,unchanged,
+68975.0,Washington Street Solar 1 LLC,17340,IL,Solar,Solar,2026,5.0,Central,2026.0,5.0,unchanged,
+68534.0,Wheatland,OEIN1,IN,Solar,Solar,2026,150.0,Central,2026.0,150.0,unchanged,
+69843.0,Wild Cat Solar 22 LLC,WILD2,IL,Solar,Solar,2026,2.3,Central,2026.0,2.3,unchanged,
+70031.0,"Zebrawood Solar, LLC",ZEBRA,IL,Solar,Solar,2026,2.5,Central,2026.0,2.5,unchanged,
+64342.0,"Badger Wind, LLC",5555,ND,Wind,Wind,2026,250.0,North,2026.0,250.0,unchanged,
+68192.0,Lotus Wind,LOTUS,IL,Wind,Wind,2026,200.0,Central,2026.0,200.0,unchanged,
+68319.0,Nimbus Wind Farm,NIM,AR,Wind,Wind,2026,183.0,South,2026.0,183.0,unchanged,
+70098.0,Blue Lake BESS,BEB,MN,Battery Storage,Wind,2027,135.5,North,2027.0,135.5,unchanged,
+2038.0,Cambridge CT Hybrid,BA1,MN,Battery Storage,Wind,2027,1.0,North,2027.0,1.0,unchanged,
+4050.0,Edgewater,BESS1,WI,Battery Storage,Wind,2027,99.0,Central,2027.0,99.0,unchanged,
+70403.0,Grand Basin Energy Storage,GRBS1,MI,Battery Storage,Wind,2027,100.0,Central,2027.0,100.0,unchanged,
+70544.0,Greer Energy Storage,GBESS,MS,Battery Storage,Wind,2027,150.0,South,2027.0,150.0,unchanged,
+70035.0,"North Star Energy Storage, LLC",NSES,MN,Battery Storage,Wind,2027,80.0,North,2027.0,80.0,unchanged,
+69949.0,SV CSG Bloomington,BLOMB,IL,Battery Storage,Wind,2027,5.0,Central,2027.0,5.0,unchanged,
+68031.0,Scopus Solar,SCPSB,MO,Battery Storage,Wind,2027,200.0,Central,2027.0,200.0,unchanged,
+70097.0,Sherco BESS,SWB,MN,Battery Storage,Wind,2027,300.0,North,2027.0,300.0,unchanged,
+70097.0,Sherco BESS,SSB,MN,Battery Storage,Wind,2027,300.0,North,2027.0,300.0,unchanged,
+69992.0,Sherwood Forest BESS,BA1,LA,Battery Storage,Wind,2027,7.7,South,2027.0,7.7,unchanged,
+67759.0,Trenton Channel Energy Center,TCHEC,MI,Battery Storage,Wind,2027,220.0,Central,2027.0,220.0,unchanged,
+68036.0,Vichy Solar,VCHSB,MO,Battery Storage,Wind,2027,200.0,Central,2027.0,200.0,unchanged,
+68426.0,Voyager Energy Storage,VOYGR,MI,Battery Storage,Wind,2027,100.0,Central,2027.0,100.0,unchanged,
+70545.0,Wildwood Energy Storage,WBESS,MS,Battery Storage,Wind,2027,75.0,South,2027.0,75.0,unchanged,
+58903.0,Marseilles Lock and Dam Hydro,UNIT1,IL,Hydro,Wind,2027,2.6,Central,2027.0,2.6,unchanged,
+58903.0,Marseilles Lock and Dam Hydro,UNIT2,IL,Hydro,Wind,2027,2.6,Central,2027.0,2.6,unchanged,
+58903.0,Marseilles Lock and Dam Hydro,UNIT3,IL,Hydro,Wind,2027,2.6,Central,2027.0,2.6,unchanged,
+58903.0,Marseilles Lock and Dam Hydro,UNIT4,IL,Hydro,Wind,2027,2.6,Central,2027.0,2.6,unchanged,
+67576.0,Castle Bluff Energy Center,1,MO,Natural Gas,Wind,2027,216.0,Central,2027.0,216.0,unchanged,
+67576.0,Castle Bluff Energy Center,2,MO,Natural Gas,Wind,2027,216.0,Central,2027.0,216.0,unchanged,
+67576.0,Castle Bluff Energy Center,3,MO,Natural Gas,Wind,2027,216.0,Central,2027.0,216.0,unchanged,
+1024.0,Crawfordsville Power Plant,8,IN,Natural Gas,Wind,2027,16.3,Central,2027.0,16.3,unchanged,
+54918.0,Ergon Refining Vicksburg,TM02,MS,Natural Gas,Wind,2027,7.9,South,2027.0,7.9,unchanged,
+54918.0,Ergon Refining Vicksburg,TM03,MS,Natural Gas,Wind,2027,7.9,South,2027.0,7.9,unchanged,
+54224.0,Franklin Heating Station,CTG1,MN,Natural Gas,Wind,2027,7.5,North,2027.0,7.5,unchanged,
+69868.0,Fulton Energy Center,UNIT1,MO,Natural Gas,Wind,2027,16.5,Central,2027.0,16.5,unchanged,
+1167.0,Muscatine Plant #1,10,IA,Natural Gas,Wind,2027,35.0,North,2027.0,35.0,unchanged,
+6085.0,R M Schahfer,19A,IN,Natural Gas,Wind,2027,71.5,Central,2027.0,71.5,unchanged,
+6085.0,R M Schahfer,19B,IN,Natural Gas,Wind,2027,71.5,Central,2027.0,71.5,unchanged,
+6085.0,R M Schahfer,19C,IN,Natural Gas,Wind,2027,71.5,Central,2027.0,71.5,unchanged,
+6085.0,R M Schahfer,20,IN,Natural Gas,Wind,2027,233.8,Central,2027.0,233.8,unchanged,
+935.0,Bushnell,8,IL,Oil,Wind,2027,2.5,Central,2027.0,2.5,unchanged,
+54224.0,Franklin Heating Station,EG11,MN,Oil,Wind,2027,3.4,North,2027.0,3.4,unchanged,
+54224.0,Franklin Heating Station,EG12,MN,Oil,Wind,2027,3.4,North,2027.0,3.4,unchanged,
+54224.0,Franklin Heating Station,EG13,MN,Oil,Wind,2027,3.4,North,2027.0,3.4,unchanged,
+54224.0,Franklin Heating Station,EG14,MN,Oil,Wind,2027,3.4,North,2027.0,3.4,unchanged,
+54224.0,Franklin Heating Station,EG15,MN,Oil,Wind,2027,3.4,North,2027.0,3.4,unchanged,
+69385.0,Hastings Generating Facility,GEN1,MI,Other,Wind,2027,1.6,Central,2027.0,1.6,unchanged,
+70177.0,Allen CSG,ALLEN,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+70177.0,Allen CSG,ALLEN,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+70177.0,Allen CSG,ALLEN,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+70177.0,Allen CSG,ALLEN,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+70177.0,Allen CSG,ALLEN,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+66703.0,Austin Creek Solar,11103,IL,Solar,Solar,2027,140.0,Central,2027.0,98.35276419706658,ST:IL,slip_0
+66703.0,Austin Creek Solar,11103,IL,Solar,Solar,2027,140.0,Central,2028.0,20.84994358781497,ST:IL,slip_1
+66703.0,Austin Creek Solar,11103,IL,Solar,Solar,2027,140.0,Central,2029.0,18.349003384731102,ST:IL,slip_2
+66703.0,Austin Creek Solar,11103,IL,Solar,Solar,2027,140.0,Central,2030.0,2.316660398646108,ST:IL,slip_3plus
+66703.0,Austin Creek Solar,11103,IL,Solar,Solar,2027,140.0,Central,,0.13162843174125613,ST:IL,never
+68900.0,Badger State Solar LLC,BSS,WI,Solar,Solar,2027,149.0,Central,2026.0,2.5242935685973658,ST:WI,slip_-1
+68900.0,Badger State Solar LLC,BSS,WI,Solar,Solar,2027,149.0,Central,2027.0,83.06354686101521,ST:WI,slip_0
+68900.0,Badger State Solar LLC,BSS,WI,Solar,Solar,2027,149.0,Central,2028.0,46.43747602608362,ST:WI,slip_1
+68900.0,Badger State Solar LLC,BSS,WI,Solar,Solar,2027,149.0,Central,2029.0,11.907045134893234,ST:WI,slip_2
+68900.0,Badger State Solar LLC,BSS,WI,Solar,Solar,2027,149.0,Central,,5.067638409410561,ST:WI,never
+69463.0,Beecher Solar Park,BCRSP,MI,Solar,Solar,2027,80.0,Central,2026.0,0.6178814903301546,MISO,slip_-1
+69463.0,Beecher Solar Park,BCRSP,MI,Solar,Solar,2027,80.0,Central,2027.0,46.85024612279364,MISO,slip_0
+69463.0,Beecher Solar Park,BCRSP,MI,Solar,Solar,2027,80.0,Central,2028.0,20.094329907523733,MISO,slip_1
+69463.0,Beecher Solar Park,BCRSP,MI,Solar,Solar,2027,80.0,Central,2029.0,4.7873457870780385,MISO,slip_2
+69463.0,Beecher Solar Park,BCRSP,MI,Solar,Solar,2027,80.0,Central,2030.0,2.3248820876155953,MISO,slip_3plus
+69463.0,Beecher Solar Park,BCRSP,MI,Solar,Solar,2027,80.0,Central,,5.325314604658827,MISO,never
+69589.0,Beekman Solar,BEEK1,LA,Solar,Solar,2027,206.8,South,2026.0,1.5972236525034498,MISO,slip_-1
+69589.0,Beekman Solar,BEEK1,LA,Solar,Solar,2027,206.8,South,2027.0,121.10788622742157,MISO,slip_0
+69589.0,Beekman Solar,BEEK1,LA,Solar,Solar,2027,206.8,South,2028.0,51.94384281094885,MISO,slip_1
+69589.0,Beekman Solar,BEEK1,LA,Solar,Solar,2027,206.8,South,2029.0,12.37528885959673,MISO,slip_2
+69589.0,Beekman Solar,BEEK1,LA,Solar,Solar,2027,206.8,South,2030.0,6.009820196486314,MISO,slip_3plus
+69589.0,Beekman Solar,BEEK1,LA,Solar,Solar,2027,206.8,South,,13.765938253043066,MISO,never
+64670.0,Big Creek Solar LLC,KOV4A,AR,Solar,Solar,2027,400.0,South,2026.0,3.0894074516507732,MISO,slip_-1
+64670.0,Big Creek Solar LLC,KOV4A,AR,Solar,Solar,2027,400.0,South,2027.0,234.25123061396823,MISO,slip_0
+64670.0,Big Creek Solar LLC,KOV4A,AR,Solar,Solar,2027,400.0,South,2028.0,100.47164953761867,MISO,slip_1
+64670.0,Big Creek Solar LLC,KOV4A,AR,Solar,Solar,2027,400.0,South,2029.0,23.936728935390192,MISO,slip_2
+64670.0,Big Creek Solar LLC,KOV4A,AR,Solar,Solar,2027,400.0,South,2030.0,11.624410438077975,MISO,slip_3plus
+64670.0,Big Creek Solar LLC,KOV4A,AR,Solar,Solar,2027,400.0,South,,26.62657302329413,MISO,never
+69977.0,Blue Branch Solar,BBPV,IL,Solar,Solar,2027,35.9,Central,2027.0,25.22045881910493,ST:IL,slip_0
+69977.0,Blue Branch Solar,BBPV,IL,Solar,Solar,2027,35.9,Central,2028.0,5.346521248589696,ST:IL,slip_1
+69977.0,Blue Branch Solar,BBPV,IL,Solar,Solar,2027,35.9,Central,2029.0,4.705208725084619,ST:IL,slip_2
+69977.0,Blue Branch Solar,BBPV,IL,Solar,Solar,2027,35.9,Central,2030.0,0.5940579165099662,ST:IL,slip_3plus
+69977.0,Blue Branch Solar,BBPV,IL,Solar,Solar,2027,35.9,Central,,0.03375329071079353,ST:IL,never
+69176.0,Bonacci 1,11218,IL,Solar,Solar,2027,2.5,Central,2027.0,1.7562993606619033,ST:IL,slip_0
+69176.0,Bonacci 1,11218,IL,Solar,Solar,2027,2.5,Central,2028.0,0.3723204212109816,ST:IL,slip_1
+69176.0,Bonacci 1,11218,IL,Solar,Solar,2027,2.5,Central,2029.0,0.3276607747273411,ST:IL,slip_2
+69176.0,Bonacci 1,11218,IL,Solar,Solar,2027,2.5,Central,2030.0,0.04136893569010907,ST:IL,slip_3plus
+69176.0,Bonacci 1,11218,IL,Solar,Solar,2027,2.5,Central,,0.002350507709665288,ST:IL,never
+69177.0,Bonacci 2,11218,IL,Solar,Solar,2027,2.5,Central,2027.0,1.7562993606619033,ST:IL,slip_0
+69177.0,Bonacci 2,11218,IL,Solar,Solar,2027,2.5,Central,2028.0,0.3723204212109816,ST:IL,slip_1
+69177.0,Bonacci 2,11218,IL,Solar,Solar,2027,2.5,Central,2029.0,0.3276607747273411,ST:IL,slip_2
+69177.0,Bonacci 2,11218,IL,Solar,Solar,2027,2.5,Central,2030.0,0.04136893569010907,ST:IL,slip_3plus
+69177.0,Bonacci 2,11218,IL,Solar,Solar,2027,2.5,Central,,0.002350507709665288,ST:IL,never
+70205.0,Bureau Solar 2 LLC,BURS2,IL,Solar,Solar,2027,2.5,Central,2027.0,1.7562993606619033,ST:IL,slip_0
+70205.0,Bureau Solar 2 LLC,BURS2,IL,Solar,Solar,2027,2.5,Central,2028.0,0.3723204212109816,ST:IL,slip_1
+70205.0,Bureau Solar 2 LLC,BURS2,IL,Solar,Solar,2027,2.5,Central,2029.0,0.3276607747273411,ST:IL,slip_2
+70205.0,Bureau Solar 2 LLC,BURS2,IL,Solar,Solar,2027,2.5,Central,2030.0,0.04136893569010907,ST:IL,slip_3plus
+70205.0,Bureau Solar 2 LLC,BURS2,IL,Solar,Solar,2027,2.5,Central,,0.002350507709665288,ST:IL,never
+70198.0,"CF IL Solar Marigold Lane, Flora2 LLC",FLOR2,IL,Solar,Solar,2027,2.0,Central,2027.0,1.4050394885295225,ST:IL,slip_0
+70198.0,"CF IL Solar Marigold Lane, Flora2 LLC",FLOR2,IL,Solar,Solar,2027,2.0,Central,2028.0,0.2978563369687853,ST:IL,slip_1
+70198.0,"CF IL Solar Marigold Lane, Flora2 LLC",FLOR2,IL,Solar,Solar,2027,2.0,Central,2029.0,0.2621286197818729,ST:IL,slip_2
+70198.0,"CF IL Solar Marigold Lane, Flora2 LLC",FLOR2,IL,Solar,Solar,2027,2.0,Central,2030.0,0.033095148552087256,ST:IL,slip_3plus
+70198.0,"CF IL Solar Marigold Lane, Flora2 LLC",FLOR2,IL,Solar,Solar,2027,2.0,Central,,0.0018804061677322303,ST:IL,never
+70381.0,Carver Garden,GEN1,MN,Solar,Solar,2027,1.0,North,2026.0,0.007723518629126933,MISO,slip_-1
+70381.0,Carver Garden,GEN1,MN,Solar,Solar,2027,1.0,North,2027.0,0.5856280765349205,MISO,slip_0
+70381.0,Carver Garden,GEN1,MN,Solar,Solar,2027,1.0,North,2028.0,0.25117912384404667,MISO,slip_1
+70381.0,Carver Garden,GEN1,MN,Solar,Solar,2027,1.0,North,2029.0,0.05984182233847548,MISO,slip_2
+70381.0,Carver Garden,GEN1,MN,Solar,Solar,2027,1.0,North,2030.0,0.02906102609519494,MISO,slip_3plus
+70381.0,Carver Garden,GEN1,MN,Solar,Solar,2027,1.0,North,,0.06656643255823533,MISO,never
+69464.0,Cedar Field Solar Park,CDFSP,MI,Solar,Solar,2027,145.0,Central,2026.0,1.1199102012234052,MISO,slip_-1
+69464.0,Cedar Field Solar Park,CDFSP,MI,Solar,Solar,2027,145.0,Central,2027.0,84.91607109756347,MISO,slip_0
+69464.0,Cedar Field Solar Park,CDFSP,MI,Solar,Solar,2027,145.0,Central,2028.0,36.420972957386766,MISO,slip_1
+69464.0,Cedar Field Solar Park,CDFSP,MI,Solar,Solar,2027,145.0,Central,2029.0,8.677064239078945,MISO,slip_2
+69464.0,Cedar Field Solar Park,CDFSP,MI,Solar,Solar,2027,145.0,Central,2030.0,4.213848783803266,MISO,slip_3plus
+69464.0,Cedar Field Solar Park,CDFSP,MI,Solar,Solar,2027,145.0,Central,,9.652132720944122,MISO,never
+68772.0,Chalk Bluff Solar,CHALK,AR,Solar,Solar,2027,450.0,South,2026.0,3.47558338310712,MISO,slip_-1
+68772.0,Chalk Bluff Solar,CHALK,AR,Solar,Solar,2027,450.0,South,2027.0,263.5326344407143,MISO,slip_0
+68772.0,Chalk Bluff Solar,CHALK,AR,Solar,Solar,2027,450.0,South,2028.0,113.030605729821,MISO,slip_1
+68772.0,Chalk Bluff Solar,CHALK,AR,Solar,Solar,2027,450.0,South,2029.0,26.928820052313966,MISO,slip_2
+68772.0,Chalk Bluff Solar,CHALK,AR,Solar,Solar,2027,450.0,South,2030.0,13.077461742837723,MISO,slip_3plus
+68772.0,Chalk Bluff Solar,CHALK,AR,Solar,Solar,2027,450.0,South,,29.954894651205898,MISO,never
+67253.0,Cherry Valley,761,IL,Solar,Solar,2027,12.5,Central,2027.0,8.781496803309516,ST:IL,slip_0
+67253.0,Cherry Valley,761,IL,Solar,Solar,2027,12.5,Central,2028.0,1.861602106054908,ST:IL,slip_1
+67253.0,Cherry Valley,761,IL,Solar,Solar,2027,12.5,Central,2029.0,1.6383038736367057,ST:IL,slip_2
+67253.0,Cherry Valley,761,IL,Solar,Solar,2027,12.5,Central,2030.0,0.20684467845054536,ST:IL,slip_3plus
+67253.0,Cherry Valley,761,IL,Solar,Solar,2027,12.5,Central,,0.01175253854832644,ST:IL,never
+70025.0,Cincinnati CSG 1 LLC,CINC1,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+70025.0,Cincinnati CSG 1 LLC,CINC1,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+70025.0,Cincinnati CSG 1 LLC,CINC1,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+70025.0,Cincinnati CSG 1 LLC,CINC1,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+70025.0,Cincinnati CSG 1 LLC,CINC1,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+70026.0,Cincinnati CSG 2 LLC,CINC2,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+70026.0,Cincinnati CSG 2 LLC,CINC2,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+70026.0,Cincinnati CSG 2 LLC,CINC2,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+70026.0,Cincinnati CSG 2 LLC,CINC2,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+70026.0,Cincinnati CSG 2 LLC,CINC2,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+69466.0,City of Detroit Greenfield,GRESP,MI,Solar,Solar,2027,7.0,Central,2026.0,0.054064630403888536,MISO,slip_-1
+69466.0,City of Detroit Greenfield,GRESP,MI,Solar,Solar,2027,7.0,Central,2027.0,4.099396535744444,MISO,slip_0
+69466.0,City of Detroit Greenfield,GRESP,MI,Solar,Solar,2027,7.0,Central,2028.0,1.7582538669083267,MISO,slip_1
+69466.0,City of Detroit Greenfield,GRESP,MI,Solar,Solar,2027,7.0,Central,2029.0,0.4188927563693284,MISO,slip_2
+69466.0,City of Detroit Greenfield,GRESP,MI,Solar,Solar,2027,7.0,Central,2030.0,0.20342718266636456,MISO,slip_3plus
+69466.0,City of Detroit Greenfield,GRESP,MI,Solar,Solar,2027,7.0,Central,,0.46596502790764727,MISO,never
+68939.0,Coggon Solar LLC,COGPV,IA,Solar,Solar,2027,100.0,North,2026.0,0.7723518629126933,MISO,slip_-1
+68939.0,Coggon Solar LLC,COGPV,IA,Solar,Solar,2027,100.0,North,2027.0,58.56280765349206,MISO,slip_0
+68939.0,Coggon Solar LLC,COGPV,IA,Solar,Solar,2027,100.0,North,2028.0,25.11791238440467,MISO,slip_1
+68939.0,Coggon Solar LLC,COGPV,IA,Solar,Solar,2027,100.0,North,2029.0,5.984182233847548,MISO,slip_2
+68939.0,Coggon Solar LLC,COGPV,IA,Solar,Solar,2027,100.0,North,2030.0,2.9061026095194937,MISO,slip_3plus
+68939.0,Coggon Solar LLC,COGPV,IA,Solar,Solar,2027,100.0,North,,6.656643255823533,MISO,never
+70378.0,Crane Creek Garden,GEN5,MN,Solar,Solar,2027,5.0,North,2026.0,0.03861759314563466,MISO,slip_-1
+70378.0,Crane Creek Garden,GEN5,MN,Solar,Solar,2027,5.0,North,2027.0,2.9281403826746026,MISO,slip_0
+70378.0,Crane Creek Garden,GEN5,MN,Solar,Solar,2027,5.0,North,2028.0,1.2558956192202333,MISO,slip_1
+70378.0,Crane Creek Garden,GEN5,MN,Solar,Solar,2027,5.0,North,2029.0,0.2992091116923774,MISO,slip_2
+70378.0,Crane Creek Garden,GEN5,MN,Solar,Solar,2027,5.0,North,2030.0,0.1453051304759747,MISO,slip_3plus
+70378.0,Crane Creek Garden,GEN5,MN,Solar,Solar,2027,5.0,North,,0.33283216279117667,MISO,never
+66441.0,Crossvine Solar,INCV1,IN,Solar,Solar,2027,100.0,Central,2026.0,0.3771248452099516,ST:IN,slip_-1
+66441.0,Crossvine Solar,INCV1,IN,Solar,Solar,2027,100.0,Central,2027.0,45.26623888326015,ST:IN,slip_0
+66441.0,Crossvine Solar,INCV1,IN,Solar,Solar,2027,100.0,Central,2028.0,43.09917820556118,ST:IN,slip_1
+66441.0,Crossvine Solar,INCV1,IN,Solar,Solar,2027,100.0,Central,2030.0,11.257458065968704,ST:IN,slip_3plus
+70022.0,Decoy Solar Energy LLC,DCYSO,AR,Solar,Solar,2027,155.0,South,2026.0,1.1971453875146747,MISO,slip_-1
+70022.0,Decoy Solar Energy LLC,DCYSO,AR,Solar,Solar,2027,155.0,South,2027.0,90.77235186291269,MISO,slip_0
+70022.0,Decoy Solar Energy LLC,DCYSO,AR,Solar,Solar,2027,155.0,South,2028.0,38.93276419582723,MISO,slip_1
+70022.0,Decoy Solar Energy LLC,DCYSO,AR,Solar,Solar,2027,155.0,South,2029.0,9.2754824624637,MISO,slip_2
+70022.0,Decoy Solar Energy LLC,DCYSO,AR,Solar,Solar,2027,155.0,South,2030.0,4.504459044755215,MISO,slip_3plus
+70022.0,Decoy Solar Energy LLC,DCYSO,AR,Solar,Solar,2027,155.0,South,,10.317797046526476,MISO,never
+68028.0,Delta Solar Plant,DSP,LA,Solar,Solar,2027,80.0,South,2026.0,0.6178814903301546,MISO,slip_-1
+68028.0,Delta Solar Plant,DSP,LA,Solar,Solar,2027,80.0,South,2027.0,46.85024612279364,MISO,slip_0
+68028.0,Delta Solar Plant,DSP,LA,Solar,Solar,2027,80.0,South,2028.0,20.094329907523733,MISO,slip_1
+68028.0,Delta Solar Plant,DSP,LA,Solar,Solar,2027,80.0,South,2029.0,4.7873457870780385,MISO,slip_2
+68028.0,Delta Solar Plant,DSP,LA,Solar,Solar,2027,80.0,South,2030.0,2.3248820876155953,MISO,slip_3plus
+68028.0,Delta Solar Plant,DSP,LA,Solar,Solar,2027,80.0,South,,5.325314604658827,MISO,never
+69894.0,E 1300 Street Solar LLC,13PV1,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+69894.0,E 1300 Street Solar LLC,13PV1,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+69894.0,E 1300 Street Solar LLC,13PV1,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+69894.0,E 1300 Street Solar LLC,13PV1,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+69894.0,E 1300 Street Solar LLC,13PV1,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+70554.0,EESolar29,PV1,MN,Solar,Solar,2027,5.0,North,2026.0,0.03861759314563466,MISO,slip_-1
+70554.0,EESolar29,PV1,MN,Solar,Solar,2027,5.0,North,2027.0,2.9281403826746026,MISO,slip_0
+70554.0,EESolar29,PV1,MN,Solar,Solar,2027,5.0,North,2028.0,1.2558956192202333,MISO,slip_1
+70554.0,EESolar29,PV1,MN,Solar,Solar,2027,5.0,North,2029.0,0.2992091116923774,MISO,slip_2
+70554.0,EESolar29,PV1,MN,Solar,Solar,2027,5.0,North,2030.0,0.1453051304759747,MISO,slip_3plus
+70554.0,EESolar29,PV1,MN,Solar,Solar,2027,5.0,North,,0.33283216279117667,MISO,never
+68898.0,Eagle Creek Solar Park LLC,ECS1,MI,Solar,Solar,2027,120.0,Central,2026.0,0.926822235495232,MISO,slip_-1
+68898.0,Eagle Creek Solar Park LLC,ECS1,MI,Solar,Solar,2027,120.0,Central,2027.0,70.27536918419047,MISO,slip_0
+68898.0,Eagle Creek Solar Park LLC,ECS1,MI,Solar,Solar,2027,120.0,Central,2028.0,30.1414948612856,MISO,slip_1
+68898.0,Eagle Creek Solar Park LLC,ECS1,MI,Solar,Solar,2027,120.0,Central,2029.0,7.181018680617058,MISO,slip_2
+68898.0,Eagle Creek Solar Park LLC,ECS1,MI,Solar,Solar,2027,120.0,Central,2030.0,3.4873231314233926,MISO,slip_3plus
+68898.0,Eagle Creek Solar Park LLC,ECS1,MI,Solar,Solar,2027,120.0,Central,,7.987971906988239,MISO,never
+66851.0,Fairview Solar (AR),FAIR1,AR,Solar,Solar,2027,75.0,South,2026.0,0.57926389718452,MISO,slip_-1
+66851.0,Fairview Solar (AR),FAIR1,AR,Solar,Solar,2027,75.0,South,2027.0,43.922105740119044,MISO,slip_0
+66851.0,Fairview Solar (AR),FAIR1,AR,Solar,Solar,2027,75.0,South,2028.0,18.8384342883035,MISO,slip_1
+66851.0,Fairview Solar (AR),FAIR1,AR,Solar,Solar,2027,75.0,South,2029.0,4.488136675385661,MISO,slip_2
+66851.0,Fairview Solar (AR),FAIR1,AR,Solar,Solar,2027,75.0,South,2030.0,2.1795769571396204,MISO,slip_3plus
+66851.0,Fairview Solar (AR),FAIR1,AR,Solar,Solar,2027,75.0,South,,4.99248244186765,MISO,never
+69170.0,"Freshwater Solar II, LLC",FW2,MI,Solar,Solar,2027,100.0,Central,2026.0,0.7723518629126933,MISO,slip_-1
+69170.0,"Freshwater Solar II, LLC",FW2,MI,Solar,Solar,2027,100.0,Central,2027.0,58.56280765349206,MISO,slip_0
+69170.0,"Freshwater Solar II, LLC",FW2,MI,Solar,Solar,2027,100.0,Central,2028.0,25.11791238440467,MISO,slip_1
+69170.0,"Freshwater Solar II, LLC",FW2,MI,Solar,Solar,2027,100.0,Central,2029.0,5.984182233847548,MISO,slip_2
+69170.0,"Freshwater Solar II, LLC",FW2,MI,Solar,Solar,2027,100.0,Central,2030.0,2.9061026095194937,MISO,slip_3plus
+69170.0,"Freshwater Solar II, LLC",FW2,MI,Solar,Solar,2027,100.0,Central,,6.656643255823533,MISO,never
+69169.0,"Freshwater Solar, LLC",FWS,MI,Solar,Solar,2027,200.0,Central,2026.0,1.5447037258253866,MISO,slip_-1
+69169.0,"Freshwater Solar, LLC",FWS,MI,Solar,Solar,2027,200.0,Central,2027.0,117.12561530698412,MISO,slip_0
+69169.0,"Freshwater Solar, LLC",FWS,MI,Solar,Solar,2027,200.0,Central,2028.0,50.23582476880934,MISO,slip_1
+69169.0,"Freshwater Solar, LLC",FWS,MI,Solar,Solar,2027,200.0,Central,2029.0,11.968364467695096,MISO,slip_2
+69169.0,"Freshwater Solar, LLC",FWS,MI,Solar,Solar,2027,200.0,Central,2030.0,5.8122052190389875,MISO,slip_3plus
+69169.0,"Freshwater Solar, LLC",FWS,MI,Solar,Solar,2027,200.0,Central,,13.313286511647066,MISO,never
+70379.0,Fuller Garden,GEN2,MN,Solar,Solar,2027,1.0,North,2026.0,0.007723518629126933,MISO,slip_-1
+70379.0,Fuller Garden,GEN2,MN,Solar,Solar,2027,1.0,North,2027.0,0.5856280765349205,MISO,slip_0
+70379.0,Fuller Garden,GEN2,MN,Solar,Solar,2027,1.0,North,2028.0,0.25117912384404667,MISO,slip_1
+70379.0,Fuller Garden,GEN2,MN,Solar,Solar,2027,1.0,North,2029.0,0.05984182233847548,MISO,slip_2
+70379.0,Fuller Garden,GEN2,MN,Solar,Solar,2027,1.0,North,2030.0,0.02906102609519494,MISO,slip_3plus
+70379.0,Fuller Garden,GEN2,MN,Solar,Solar,2027,1.0,North,,0.06656643255823533,MISO,never
+68972.0,Gilman Solar LLC,11253,IL,Solar,Solar,2027,4.5,Central,2027.0,3.161338849191426,ST:IL,slip_0
+68972.0,Gilman Solar LLC,11253,IL,Solar,Solar,2027,4.5,Central,2028.0,0.6701767581797669,ST:IL,slip_1
+68972.0,Gilman Solar LLC,11253,IL,Solar,Solar,2027,4.5,Central,2029.0,0.5897893945092141,ST:IL,slip_2
+68972.0,Gilman Solar LLC,11253,IL,Solar,Solar,2027,4.5,Central,2030.0,0.07446408424219633,ST:IL,slip_3plus
+68972.0,Gilman Solar LLC,11253,IL,Solar,Solar,2027,4.5,Central,,0.0042309138773975186,ST:IL,never
+69981.0,"Grant Solar, LLC",GRNTS,SD,Solar,Solar,2027,99.0,North,2026.0,0.7646283442835664,MISO,slip_-1
+69981.0,"Grant Solar, LLC",GRNTS,SD,Solar,Solar,2027,99.0,North,2027.0,57.977179576957134,MISO,slip_0
+69981.0,"Grant Solar, LLC",GRNTS,SD,Solar,Solar,2027,99.0,North,2028.0,24.866733260560622,MISO,slip_1
+69981.0,"Grant Solar, LLC",GRNTS,SD,Solar,Solar,2027,99.0,North,2029.0,5.924340411509072,MISO,slip_2
+69981.0,"Grant Solar, LLC",GRNTS,SD,Solar,Solar,2027,99.0,North,2030.0,2.877041583424299,MISO,slip_3plus
+69981.0,"Grant Solar, LLC",GRNTS,SD,Solar,Solar,2027,99.0,North,,6.5900768232652975,MISO,never
+69793.0,Henderson County Solar,HEPV1,KY,Solar,Solar,2027,51.1,Central,2026.0,0.3946718019483863,MISO,slip_-1
+69793.0,Henderson County Solar,HEPV1,KY,Solar,Solar,2027,51.1,Central,2027.0,29.92559471093444,MISO,slip_0
+69793.0,Henderson County Solar,HEPV1,KY,Solar,Solar,2027,51.1,Central,2028.0,12.835253228430785,MISO,slip_1
+69793.0,Henderson County Solar,HEPV1,KY,Solar,Solar,2027,51.1,Central,2029.0,3.057917121496097,MISO,slip_2
+69793.0,Henderson County Solar,HEPV1,KY,Solar,Solar,2027,51.1,Central,2030.0,1.4850184334644614,MISO,slip_3plus
+69793.0,Henderson County Solar,HEPV1,KY,Solar,Solar,2027,51.1,Central,,3.4015447037258255,MISO,never
+69480.0,High Noon Solar Energy LLC,HGHNN,WI,Solar,Solar,2027,300.0,Central,2026.0,5.08247027234369,ST:WI,slip_-1
+69480.0,High Noon Solar Energy LLC,HGHNN,WI,Solar,Solar,2027,300.0,Central,2027.0,167.24204065976218,ST:WI,slip_0
+69480.0,High Noon Solar Energy LLC,HGHNN,WI,Solar,Solar,2027,300.0,Central,2028.0,93.49827387802071,ST:WI,slip_1
+69480.0,High Noon Solar Energy LLC,HGHNN,WI,Solar,Solar,2027,300.0,Central,2029.0,23.973916378979666,ST:WI,slip_2
+69480.0,High Noon Solar Energy LLC,HGHNN,WI,Solar,Solar,2027,300.0,Central,,10.203298810893747,ST:WI,never
+67231.0,"Hinds Solar, LLC",HS,MS,Solar,Solar,2027,150.0,South,2026.0,1.15852779436904,MISO,slip_-1
+67231.0,"Hinds Solar, LLC",HS,MS,Solar,Solar,2027,150.0,South,2027.0,87.84421148023809,MISO,slip_0
+67231.0,"Hinds Solar, LLC",HS,MS,Solar,Solar,2027,150.0,South,2028.0,37.676868576607,MISO,slip_1
+67231.0,"Hinds Solar, LLC",HS,MS,Solar,Solar,2027,150.0,South,2029.0,8.976273350771322,MISO,slip_2
+67231.0,"Hinds Solar, LLC",HS,MS,Solar,Solar,2027,150.0,South,2030.0,4.359153914279241,MISO,slip_3plus
+67231.0,"Hinds Solar, LLC",HS,MS,Solar,Solar,2027,150.0,South,,9.9849648837353,MISO,never
+69590.0,Hollis Creek Solar,HC1,LA,Solar,Solar,2027,220.0,South,2026.0,1.6991740984079253,MISO,slip_-1
+69590.0,Hollis Creek Solar,HC1,LA,Solar,Solar,2027,220.0,South,2027.0,128.8381768376825,MISO,slip_0
+69590.0,Hollis Creek Solar,HC1,LA,Solar,Solar,2027,220.0,South,2028.0,55.25940724569027,MISO,slip_1
+69590.0,Hollis Creek Solar,HC1,LA,Solar,Solar,2027,220.0,South,2029.0,13.165200914464606,MISO,slip_2
+69590.0,Hollis Creek Solar,HC1,LA,Solar,Solar,2027,220.0,South,2030.0,6.393425740942886,MISO,slip_3plus
+69590.0,Hollis Creek Solar,HC1,LA,Solar,Solar,2027,220.0,South,,14.644615162811773,MISO,never
+68744.0,Liberty Solar Energy Center,LSEC,MI,Solar,Solar,2027,220.0,Central,2026.0,1.6991740984079253,MISO,slip_-1
+68744.0,Liberty Solar Energy Center,LSEC,MI,Solar,Solar,2027,220.0,Central,2027.0,128.8381768376825,MISO,slip_0
+68744.0,Liberty Solar Energy Center,LSEC,MI,Solar,Solar,2027,220.0,Central,2028.0,55.25940724569027,MISO,slip_1
+68744.0,Liberty Solar Energy Center,LSEC,MI,Solar,Solar,2027,220.0,Central,2029.0,13.165200914464606,MISO,slip_2
+68744.0,Liberty Solar Energy Center,LSEC,MI,Solar,Solar,2027,220.0,Central,2030.0,6.393425740942886,MISO,slip_3plus
+68744.0,Liberty Solar Energy Center,LSEC,MI,Solar,Solar,2027,220.0,Central,,14.644615162811773,MISO,never
+66904.0,"Lumberton PV I, LLC",LBTN,TX,Solar,Solar,2027,200.0,South,2026.0,2.395836815654286,ST:TX,slip_-1
+66904.0,"Lumberton PV I, LLC",LBTN,TX,Solar,Solar,2027,200.0,South,2027.0,66.74021328519372,ST:TX,slip_0
+66904.0,"Lumberton PV I, LLC",LBTN,TX,Solar,Solar,2027,200.0,South,2028.0,44.58429445391634,ST:TX,slip_1
+66904.0,"Lumberton PV I, LLC",LBTN,TX,Solar,Solar,2027,200.0,South,2029.0,24.453136317543095,ST:TX,slip_2
+66904.0,"Lumberton PV I, LLC",LBTN,TX,Solar,Solar,2027,200.0,South,2030.0,38.633704409454076,ST:TX,slip_3plus
+66904.0,"Lumberton PV I, LLC",LBTN,TX,Solar,Solar,2027,200.0,South,,23.192814718238445,ST:TX,never
+70301.0,MN CSG 2019-57,BOHRE,MN,Solar,Solar,2027,1.0,North,2026.0,0.007723518629126933,MISO,slip_-1
+70301.0,MN CSG 2019-57,BOHRE,MN,Solar,Solar,2027,1.0,North,2027.0,0.5856280765349205,MISO,slip_0
+70301.0,MN CSG 2019-57,BOHRE,MN,Solar,Solar,2027,1.0,North,2028.0,0.25117912384404667,MISO,slip_1
+70301.0,MN CSG 2019-57,BOHRE,MN,Solar,Solar,2027,1.0,North,2029.0,0.05984182233847548,MISO,slip_2
+70301.0,MN CSG 2019-57,BOHRE,MN,Solar,Solar,2027,1.0,North,2030.0,0.02906102609519494,MISO,slip_3plus
+70301.0,MN CSG 2019-57,BOHRE,MN,Solar,Solar,2027,1.0,North,,0.06656643255823533,MISO,never
+69825.0,Madden Creek Solar,MADCR,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+69825.0,Madden Creek Solar,MADCR,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+69825.0,Madden Creek Solar,MADCR,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+69825.0,Madden Creek Solar,MADCR,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+69825.0,Madden Creek Solar,MADCR,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+69804.0,Menard 1,MEPV1,IL,Solar,Solar,2027,2.8,Central,2027.0,1.9670552839413313,ST:IL,slip_0
+69804.0,Menard 1,MEPV1,IL,Solar,Solar,2027,2.8,Central,2028.0,0.41699887175629935,ST:IL,slip_1
+69804.0,Menard 1,MEPV1,IL,Solar,Solar,2027,2.8,Central,2029.0,0.36698006769462205,ST:IL,slip_2
+69804.0,Menard 1,MEPV1,IL,Solar,Solar,2027,2.8,Central,2030.0,0.046333207972922154,ST:IL,slip_3plus
+69804.0,Menard 1,MEPV1,IL,Solar,Solar,2027,2.8,Central,,0.0026325686348251222,ST:IL,never
+66558.0,Mowata Solar,LAMO1,LA,Solar,Solar,2027,150.0,South,2026.0,1.15852779436904,MISO,slip_-1
+66558.0,Mowata Solar,LAMO1,LA,Solar,Solar,2027,150.0,South,2027.0,87.84421148023809,MISO,slip_0
+66558.0,Mowata Solar,LAMO1,LA,Solar,Solar,2027,150.0,South,2028.0,37.676868576607,MISO,slip_1
+66558.0,Mowata Solar,LAMO1,LA,Solar,Solar,2027,150.0,South,2029.0,8.976273350771322,MISO,slip_2
+66558.0,Mowata Solar,LAMO1,LA,Solar,Solar,2027,150.0,South,2030.0,4.359153914279241,MISO,slip_3plus
+66558.0,Mowata Solar,LAMO1,LA,Solar,Solar,2027,150.0,South,,9.9849648837353,MISO,never
+68897.0,New Frontiers Solar,PVSI,KY,Solar,Solar,2027,100.0,Central,2026.0,0.7723518629126933,MISO,slip_-1
+68897.0,New Frontiers Solar,PVSI,KY,Solar,Solar,2027,100.0,Central,2027.0,58.56280765349206,MISO,slip_0
+68897.0,New Frontiers Solar,PVSI,KY,Solar,Solar,2027,100.0,Central,2028.0,25.11791238440467,MISO,slip_1
+68897.0,New Frontiers Solar,PVSI,KY,Solar,Solar,2027,100.0,Central,2029.0,5.984182233847548,MISO,slip_2
+68897.0,New Frontiers Solar,PVSI,KY,Solar,Solar,2027,100.0,Central,2030.0,2.9061026095194937,MISO,slip_3plus
+68897.0,New Frontiers Solar,PVSI,KY,Solar,Solar,2027,100.0,Central,,6.656643255823533,MISO,never
+70466.0,Nine Springs Solar,NSP,WI,Solar,Solar,2027,8.0,Central,2026.0,0.13553254059583172,ST:WI,slip_-1
+70466.0,Nine Springs Solar,NSP,WI,Solar,Solar,2027,8.0,Central,2027.0,4.459787750926991,ST:WI,slip_0
+70466.0,Nine Springs Solar,NSP,WI,Solar,Solar,2027,8.0,Central,2028.0,2.4932873034138856,ST:WI,slip_1
+70466.0,Nine Springs Solar,NSP,WI,Solar,Solar,2027,8.0,Central,2029.0,0.6393044367727911,ST:WI,slip_2
+70466.0,Nine Springs Solar,NSP,WI,Solar,Solar,2027,8.0,Central,,0.2720879682904999,ST:WI,never
+64865.0,Novel Blilie Solar LLC,BLILE,MN,Solar,Solar,2027,1.0,North,2026.0,0.007723518629126933,MISO,slip_-1
+64865.0,Novel Blilie Solar LLC,BLILE,MN,Solar,Solar,2027,1.0,North,2027.0,0.5856280765349205,MISO,slip_0
+64865.0,Novel Blilie Solar LLC,BLILE,MN,Solar,Solar,2027,1.0,North,2028.0,0.25117912384404667,MISO,slip_1
+64865.0,Novel Blilie Solar LLC,BLILE,MN,Solar,Solar,2027,1.0,North,2029.0,0.05984182233847548,MISO,slip_2
+64865.0,Novel Blilie Solar LLC,BLILE,MN,Solar,Solar,2027,1.0,North,2030.0,0.02906102609519494,MISO,slip_3plus
+64865.0,Novel Blilie Solar LLC,BLILE,MN,Solar,Solar,2027,1.0,North,,0.06656643255823533,MISO,never
+68876.0,Okolona Solar,6339,MS,Solar,Solar,2027,145.0,South,2026.0,1.1199102012234052,MISO,slip_-1
+68876.0,Okolona Solar,6339,MS,Solar,Solar,2027,145.0,South,2027.0,84.91607109756347,MISO,slip_0
+68876.0,Okolona Solar,6339,MS,Solar,Solar,2027,145.0,South,2028.0,36.420972957386766,MISO,slip_1
+68876.0,Okolona Solar,6339,MS,Solar,Solar,2027,145.0,South,2029.0,8.677064239078945,MISO,slip_2
+68876.0,Okolona Solar,6339,MS,Solar,Solar,2027,145.0,South,2030.0,4.213848783803266,MISO,slip_3plus
+68876.0,Okolona Solar,6339,MS,Solar,Solar,2027,145.0,South,,9.652132720944122,MISO,never
+66706.0,Patoka Solar,11101,IN,Solar,Solar,2027,250.0,Central,2026.0,0.942812113024879,ST:IN,slip_-1
+66706.0,Patoka Solar,11101,IN,Solar,Solar,2027,250.0,Central,2027.0,113.16559720815037,ST:IN,slip_0
+66706.0,Patoka Solar,11101,IN,Solar,Solar,2027,250.0,Central,2028.0,107.74794551390296,ST:IN,slip_1
+66706.0,Patoka Solar,11101,IN,Solar,Solar,2027,250.0,Central,2030.0,28.143645164921757,ST:IN,slip_3plus
+69724.0,Pike County Solar,PIKE,IL,Solar,Solar,2027,1.0,Central,2027.0,0.7025197442647613,ST:IL,slip_0
+69724.0,Pike County Solar,PIKE,IL,Solar,Solar,2027,1.0,Central,2028.0,0.14892816848439264,ST:IL,slip_1
+69724.0,Pike County Solar,PIKE,IL,Solar,Solar,2027,1.0,Central,2029.0,0.13106430989093645,ST:IL,slip_2
+69724.0,Pike County Solar,PIKE,IL,Solar,Solar,2027,1.0,Central,2030.0,0.016547574276043628,ST:IL,slip_3plus
+69724.0,Pike County Solar,PIKE,IL,Solar,Solar,2027,1.0,Central,,0.0009402030838661151,ST:IL,never
+67995.0,Piney Woods Solar,PWS,TX,Solar,Solar,2027,150.0,South,2026.0,1.7968776117407144,ST:TX,slip_-1
+67995.0,Piney Woods Solar,PWS,TX,Solar,Solar,2027,150.0,South,2027.0,50.055159963895285,ST:TX,slip_0
+67995.0,Piney Woods Solar,PWS,TX,Solar,Solar,2027,150.0,South,2028.0,33.43822084043726,ST:TX,slip_1
+67995.0,Piney Woods Solar,PWS,TX,Solar,Solar,2027,150.0,South,2029.0,18.33985223815732,ST:TX,slip_2
+67995.0,Piney Woods Solar,PWS,TX,Solar,Solar,2027,150.0,South,2030.0,28.975278307090555,ST:TX,slip_3plus
+67995.0,Piney Woods Solar,PWS,TX,Solar,Solar,2027,150.0,South,,17.394611038678832,ST:TX,never
+69034.0,Pivot Energy Minnesota Solar 2,PMI2,MN,Solar,Solar,2027,1.0,North,2026.0,0.007723518629126933,MISO,slip_-1
+69034.0,Pivot Energy Minnesota Solar 2,PMI2,MN,Solar,Solar,2027,1.0,North,2027.0,0.5856280765349205,MISO,slip_0
+69034.0,Pivot Energy Minnesota Solar 2,PMI2,MN,Solar,Solar,2027,1.0,North,2028.0,0.25117912384404667,MISO,slip_1
+69034.0,Pivot Energy Minnesota Solar 2,PMI2,MN,Solar,Solar,2027,1.0,North,2029.0,0.05984182233847548,MISO,slip_2
+69034.0,Pivot Energy Minnesota Solar 2,PMI2,MN,Solar,Solar,2027,1.0,North,2030.0,0.02906102609519494,MISO,slip_3plus
+69034.0,Pivot Energy Minnesota Solar 2,PMI2,MN,Solar,Solar,2027,1.0,North,,0.06656643255823533,MISO,never
+69887.0,"Portage Solar, LLC",PRTGS,WI,Solar,Solar,2027,250.0,Central,2026.0,4.235391893619742,ST:WI,slip_-1
+69887.0,"Portage Solar, LLC",PRTGS,WI,Solar,Solar,2027,250.0,Central,2027.0,139.36836721646847,ST:WI,slip_0
+69887.0,"Portage Solar, LLC",PRTGS,WI,Solar,Solar,2027,250.0,Central,2028.0,77.91522823168393,ST:WI,slip_1
+69887.0,"Portage Solar, LLC",PRTGS,WI,Solar,Solar,2027,250.0,Central,2029.0,19.978263649149724,ST:WI,slip_2
+69887.0,"Portage Solar, LLC",PRTGS,WI,Solar,Solar,2027,250.0,Central,,8.502749009078123,ST:WI,never
+66707.0,Prairie Oak Solar,11102,IL,Solar,Solar,2027,250.0,Central,2027.0,175.6299360661903,ST:IL,slip_0
+66707.0,Prairie Oak Solar,11102,IL,Solar,Solar,2027,250.0,Central,2028.0,37.23204212109816,ST:IL,slip_1
+66707.0,Prairie Oak Solar,11102,IL,Solar,Solar,2027,250.0,Central,2029.0,32.76607747273411,ST:IL,slip_2
+66707.0,Prairie Oak Solar,11102,IL,Solar,Solar,2027,250.0,Central,2030.0,4.1368935690109065,ST:IL,slip_3plus
+66707.0,Prairie Oak Solar,11102,IL,Solar,Solar,2027,250.0,Central,,0.2350507709665288,ST:IL,never
+68557.0,SR Forrest City,FORRC,AR,Solar,Solar,2027,4.8,South,2026.0,0.037072889419809275,MISO,slip_-1
+68557.0,SR Forrest City,FORRC,AR,Solar,Solar,2027,4.8,South,2027.0,2.8110147673676185,MISO,slip_0
+68557.0,SR Forrest City,FORRC,AR,Solar,Solar,2027,4.8,South,2028.0,1.205659794451424,MISO,slip_1
+68557.0,SR Forrest City,FORRC,AR,Solar,Solar,2027,4.8,South,2029.0,0.2872407472246823,MISO,slip_2
+68557.0,SR Forrest City,FORRC,AR,Solar,Solar,2027,4.8,South,2030.0,0.1394929252569357,MISO,slip_3plus
+68557.0,SR Forrest City,FORRC,AR,Solar,Solar,2027,4.8,South,,0.3195188762795296,MISO,never
+68567.0,SR Sunset,SUNST,LA,Solar,Solar,2027,4.3,South,2026.0,0.03321113010524581,MISO,slip_-1
+68567.0,SR Sunset,SUNST,LA,Solar,Solar,2027,4.3,South,2027.0,2.5182007291001582,MISO,slip_0
+68567.0,SR Sunset,SUNST,LA,Solar,Solar,2027,4.3,South,2028.0,1.0800702325294007,MISO,slip_1
+68567.0,SR Sunset,SUNST,LA,Solar,Solar,2027,4.3,South,2029.0,0.25731983605544456,MISO,slip_2
+68567.0,SR Sunset,SUNST,LA,Solar,Solar,2027,4.3,South,2030.0,0.12496241220933824,MISO,slip_3plus
+68567.0,SR Sunset,SUNST,LA,Solar,Solar,2027,4.3,South,,0.2862356600004119,MISO,never
+68569.0,SR Ulm,ULM,AR,Solar,Solar,2027,4.8,South,2026.0,0.037072889419809275,MISO,slip_-1
+68569.0,SR Ulm,ULM,AR,Solar,Solar,2027,4.8,South,2027.0,2.8110147673676185,MISO,slip_0
+68569.0,SR Ulm,ULM,AR,Solar,Solar,2027,4.8,South,2028.0,1.205659794451424,MISO,slip_1
+68569.0,SR Ulm,ULM,AR,Solar,Solar,2027,4.8,South,2029.0,0.2872407472246823,MISO,slip_2
+68569.0,SR Ulm,ULM,AR,Solar,Solar,2027,4.8,South,2030.0,0.1394929252569357,MISO,slip_3plus
+68569.0,SR Ulm,ULM,AR,Solar,Solar,2027,4.8,South,,0.3195188762795296,MISO,never
+68570.0,SR West Helena,WHELN,AR,Solar,Solar,2027,4.8,South,2026.0,0.037072889419809275,MISO,slip_-1
+68570.0,SR West Helena,WHELN,AR,Solar,Solar,2027,4.8,South,2027.0,2.8110147673676185,MISO,slip_0
+68570.0,SR West Helena,WHELN,AR,Solar,Solar,2027,4.8,South,2028.0,1.205659794451424,MISO,slip_1
+68570.0,SR West Helena,WHELN,AR,Solar,Solar,2027,4.8,South,2029.0,0.2872407472246823,MISO,slip_2
+68570.0,SR West Helena,WHELN,AR,Solar,Solar,2027,4.8,South,2030.0,0.1394929252569357,MISO,slip_3plus
+68570.0,SR West Helena,WHELN,AR,Solar,Solar,2027,4.8,South,,0.3195188762795296,MISO,never
+69949.0,SV CSG Bloomington,BLOOM,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+69949.0,SV CSG Bloomington,BLOOM,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+69949.0,SV CSG Bloomington,BLOOM,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+69949.0,SV CSG Bloomington,BLOOM,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+69949.0,SV CSG Bloomington,BLOOM,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+69812.0,SV CSG Brownstown 1,BROWN,IL,Solar,Solar,2027,1.0,Central,2027.0,0.7025197442647613,ST:IL,slip_0
+69812.0,SV CSG Brownstown 1,BROWN,IL,Solar,Solar,2027,1.0,Central,2028.0,0.14892816848439264,ST:IL,slip_1
+69812.0,SV CSG Brownstown 1,BROWN,IL,Solar,Solar,2027,1.0,Central,2029.0,0.13106430989093645,ST:IL,slip_2
+69812.0,SV CSG Brownstown 1,BROWN,IL,Solar,Solar,2027,1.0,Central,2030.0,0.016547574276043628,ST:IL,slip_3plus
+69812.0,SV CSG Brownstown 1,BROWN,IL,Solar,Solar,2027,1.0,Central,,0.0009402030838661151,ST:IL,never
+68934.0,SV CSG East St Louis,EAST1,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+68934.0,SV CSG East St Louis,EAST1,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+68934.0,SV CSG East St Louis,EAST1,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+68934.0,SV CSG East St Louis,EAST1,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+68934.0,SV CSG East St Louis,EAST1,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+69160.0,SV CSG Ottawa 1,OTTA1,IL,Solar,Solar,2027,3.0,Central,2027.0,2.1075592327942836,ST:IL,slip_0
+69160.0,SV CSG Ottawa 1,OTTA1,IL,Solar,Solar,2027,3.0,Central,2028.0,0.44678450545317794,ST:IL,slip_1
+69160.0,SV CSG Ottawa 1,OTTA1,IL,Solar,Solar,2027,3.0,Central,2029.0,0.3931929296728094,ST:IL,slip_2
+69160.0,SV CSG Ottawa 1,OTTA1,IL,Solar,Solar,2027,3.0,Central,2030.0,0.049642722828130884,ST:IL,slip_3plus
+69160.0,SV CSG Ottawa 1,OTTA1,IL,Solar,Solar,2027,3.0,Central,,0.0028206092515983454,ST:IL,never
+69158.0,SV CSG Reeder Solar,REEDR,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+69158.0,SV CSG Reeder Solar,REEDR,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+69158.0,SV CSG Reeder Solar,REEDR,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+69158.0,SV CSG Reeder Solar,REEDR,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+69158.0,SV CSG Reeder Solar,REEDR,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+68031.0,Scopus Solar,SCPSR,MO,Solar,Solar,2027,200.0,Central,2026.0,1.5447037258253866,MISO,slip_-1
+68031.0,Scopus Solar,SCPSR,MO,Solar,Solar,2027,200.0,Central,2027.0,117.12561530698412,MISO,slip_0
+68031.0,Scopus Solar,SCPSR,MO,Solar,Solar,2027,200.0,Central,2028.0,50.23582476880934,MISO,slip_1
+68031.0,Scopus Solar,SCPSR,MO,Solar,Solar,2027,200.0,Central,2029.0,11.968364467695096,MISO,slip_2
+68031.0,Scopus Solar,SCPSR,MO,Solar,Solar,2027,200.0,Central,2030.0,5.8122052190389875,MISO,slip_3plus
+68031.0,Scopus Solar,SCPSR,MO,Solar,Solar,2027,200.0,Central,,13.313286511647066,MISO,never
+69299.0,Singer Solar,4519,LA,Solar,Solar,2027,300.0,South,2026.0,2.31705558873808,MISO,slip_-1
+69299.0,Singer Solar,4519,LA,Solar,Solar,2027,300.0,South,2027.0,175.68842296047617,MISO,slip_0
+69299.0,Singer Solar,4519,LA,Solar,Solar,2027,300.0,South,2028.0,75.353737153214,MISO,slip_1
+69299.0,Singer Solar,4519,LA,Solar,Solar,2027,300.0,South,2029.0,17.952546701542644,MISO,slip_2
+69299.0,Singer Solar,4519,LA,Solar,Solar,2027,300.0,South,2030.0,8.718307828558482,MISO,slip_3plus
+69299.0,Singer Solar,4519,LA,Solar,Solar,2027,300.0,South,,19.9699297674706,MISO,never
+69215.0,Sommer,11216,IL,Solar,Solar,2027,2.0,Central,2027.0,1.4050394885295225,ST:IL,slip_0
+69215.0,Sommer,11216,IL,Solar,Solar,2027,2.0,Central,2028.0,0.2978563369687853,ST:IL,slip_1
+69215.0,Sommer,11216,IL,Solar,Solar,2027,2.0,Central,2029.0,0.2621286197818729,ST:IL,slip_2
+69215.0,Sommer,11216,IL,Solar,Solar,2027,2.0,Central,2030.0,0.033095148552087256,ST:IL,slip_3plus
+69215.0,Sommer,11216,IL,Solar,Solar,2027,2.0,Central,,0.0018804061677322303,ST:IL,never
+69978.0,Station Solar,STPV,IL,Solar,Solar,2027,40.0,Central,2027.0,28.100789770590453,ST:IL,slip_0
+69978.0,Station Solar,STPV,IL,Solar,Solar,2027,40.0,Central,2028.0,5.957126739375705,ST:IL,slip_1
+69978.0,Station Solar,STPV,IL,Solar,Solar,2027,40.0,Central,2029.0,5.242572395637458,ST:IL,slip_2
+69978.0,Station Solar,STPV,IL,Solar,Solar,2027,40.0,Central,2030.0,0.6619029710417451,ST:IL,slip_3plus
+69978.0,Station Solar,STPV,IL,Solar,Solar,2027,40.0,Central,,0.037608123354644606,ST:IL,never
+70477.0,"Stone Elephant Solar WI, LLC",20269,WI,Solar,Solar,2027,3.0,Central,2026.0,0.05082470272343689,ST:WI,slip_-1
+70477.0,"Stone Elephant Solar WI, LLC",20269,WI,Solar,Solar,2027,3.0,Central,2027.0,1.6724204065976216,ST:WI,slip_0
+70477.0,"Stone Elephant Solar WI, LLC",20269,WI,Solar,Solar,2027,3.0,Central,2028.0,0.9349827387802071,ST:WI,slip_1
+70477.0,"Stone Elephant Solar WI, LLC",20269,WI,Solar,Solar,2027,3.0,Central,2029.0,0.23973916378979668,ST:WI,slip_2
+70477.0,"Stone Elephant Solar WI, LLC",20269,WI,Solar,Solar,2027,3.0,Central,,0.10203298810893746,ST:WI,never
+70092.0,"Two Blues Solar, LLC",2BLUE,IL,Solar,Solar,2027,40.0,Central,2027.0,28.100789770590453,ST:IL,slip_0
+70092.0,"Two Blues Solar, LLC",2BLUE,IL,Solar,Solar,2027,40.0,Central,2028.0,5.957126739375705,ST:IL,slip_1
+70092.0,"Two Blues Solar, LLC",2BLUE,IL,Solar,Solar,2027,40.0,Central,2029.0,5.242572395637458,ST:IL,slip_2
+70092.0,"Two Blues Solar, LLC",2BLUE,IL,Solar,Solar,2027,40.0,Central,2030.0,0.6619029710417451,ST:IL,slip_3plus
+70092.0,"Two Blues Solar, LLC",2BLUE,IL,Solar,Solar,2027,40.0,Central,,0.037608123354644606,ST:IL,never
+65964.0,"Ursa Solar, LLC",URSA,WI,Solar,Solar,2027,200.0,Central,2026.0,3.3883135148957932,ST:WI,slip_-1
+65964.0,"Ursa Solar, LLC",URSA,WI,Solar,Solar,2027,200.0,Central,2027.0,111.49469377317477,ST:WI,slip_0
+65964.0,"Ursa Solar, LLC",URSA,WI,Solar,Solar,2027,200.0,Central,2028.0,62.33218258534714,ST:WI,slip_1
+65964.0,"Ursa Solar, LLC",URSA,WI,Solar,Solar,2027,200.0,Central,2029.0,15.982610919319779,ST:WI,slip_2
+65964.0,"Ursa Solar, LLC",URSA,WI,Solar,Solar,2027,200.0,Central,,6.802199207262498,ST:WI,never
+67645.0,Varnsen,TWNDA,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+67645.0,Varnsen,TWNDA,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+67645.0,Varnsen,TWNDA,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+67645.0,Varnsen,TWNDA,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+67645.0,Varnsen,TWNDA,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+65935.0,Vermillion Rise Solar,14,IN,Solar,Solar,2027,185.0,Central,2026.0,0.6976809636384105,ST:IN,slip_-1
+65935.0,Vermillion Rise Solar,14,IN,Solar,Solar,2027,185.0,Central,2027.0,83.74254193403128,ST:IN,slip_0
+65935.0,Vermillion Rise Solar,14,IN,Solar,Solar,2027,185.0,Central,2028.0,79.73347968028818,ST:IN,slip_1
+65935.0,Vermillion Rise Solar,14,IN,Solar,Solar,2027,185.0,Central,2030.0,20.826297422042103,ST:IN,slip_3plus
+68036.0,Vichy Solar,VCHSR,MO,Solar,Solar,2027,200.0,Central,2026.0,1.5447037258253866,MISO,slip_-1
+68036.0,Vichy Solar,VCHSR,MO,Solar,Solar,2027,200.0,Central,2027.0,117.12561530698412,MISO,slip_0
+68036.0,Vichy Solar,VCHSR,MO,Solar,Solar,2027,200.0,Central,2028.0,50.23582476880934,MISO,slip_1
+68036.0,Vichy Solar,VCHSR,MO,Solar,Solar,2027,200.0,Central,2029.0,11.968364467695096,MISO,slip_2
+68036.0,Vichy Solar,VCHSR,MO,Solar,Solar,2027,200.0,Central,2030.0,5.8122052190389875,MISO,slip_3plus
+68036.0,Vichy Solar,VCHSR,MO,Solar,Solar,2027,200.0,Central,,13.313286511647066,MISO,never
+68502.0,Vienna Walbec Customer Hosted,PV1,WI,Solar,Solar,2027,1.4,Central,2026.0,0.02371819460427055,ST:WI,slip_-1
+68502.0,Vienna Walbec Customer Hosted,PV1,WI,Solar,Solar,2027,1.4,Central,2027.0,0.7804628564122235,ST:WI,slip_0
+68502.0,Vienna Walbec Customer Hosted,PV1,WI,Solar,Solar,2027,1.4,Central,2028.0,0.43632527809742994,ST:WI,slip_1
+68502.0,Vienna Walbec Customer Hosted,PV1,WI,Solar,Solar,2027,1.4,Central,2029.0,0.11187827643523844,ST:WI,slip_2
+68502.0,Vienna Walbec Customer Hosted,PV1,WI,Solar,Solar,2027,1.4,Central,,0.047615394450837484,ST:WI,never
+69945.0,Watertown Solar,WTRTN,MI,Solar,Solar,2027,154.0,Central,2026.0,1.1894218688855478,MISO,slip_-1
+69945.0,Watertown Solar,WTRTN,MI,Solar,Solar,2027,154.0,Central,2027.0,90.18672378637777,MISO,slip_0
+69945.0,Watertown Solar,WTRTN,MI,Solar,Solar,2027,154.0,Central,2028.0,38.681585071983186,MISO,slip_1
+69945.0,Watertown Solar,WTRTN,MI,Solar,Solar,2027,154.0,Central,2029.0,9.215640640125224,MISO,slip_2
+69945.0,Watertown Solar,WTRTN,MI,Solar,Solar,2027,154.0,Central,2030.0,4.47539801866002,MISO,slip_3plus
+69945.0,Watertown Solar,WTRTN,MI,Solar,Solar,2027,154.0,Central,,10.251230613968241,MISO,never
+69929.0,Weirs Creek,WC001,KY,Solar,Solar,2027,150.0,Central,2026.0,1.15852779436904,MISO,slip_-1
+69929.0,Weirs Creek,WC001,KY,Solar,Solar,2027,150.0,Central,2027.0,87.84421148023809,MISO,slip_0
+69929.0,Weirs Creek,WC001,KY,Solar,Solar,2027,150.0,Central,2028.0,37.676868576607,MISO,slip_1
+69929.0,Weirs Creek,WC001,KY,Solar,Solar,2027,150.0,Central,2029.0,8.976273350771322,MISO,slip_2
+69929.0,Weirs Creek,WC001,KY,Solar,Solar,2027,150.0,Central,2030.0,4.359153914279241,MISO,slip_3plus
+69929.0,Weirs Creek,WC001,KY,Solar,Solar,2027,150.0,Central,,9.9849648837353,MISO,never
+70009.0,"Willis Solar 1, LLC - (IL)",WILL1,IL,Solar,Solar,2027,5.0,Central,2027.0,3.5125987213238066,ST:IL,slip_0
+70009.0,"Willis Solar 1, LLC - (IL)",WILL1,IL,Solar,Solar,2027,5.0,Central,2028.0,0.7446408424219632,ST:IL,slip_1
+70009.0,"Willis Solar 1, LLC - (IL)",WILL1,IL,Solar,Solar,2027,5.0,Central,2029.0,0.6553215494546822,ST:IL,slip_2
+70009.0,"Willis Solar 1, LLC - (IL)",WILL1,IL,Solar,Solar,2027,5.0,Central,2030.0,0.08273787138021814,ST:IL,slip_3plus
+70009.0,"Willis Solar 1, LLC - (IL)",WILL1,IL,Solar,Solar,2027,5.0,Central,,0.004701015419330576,ST:IL,never
+68184.0,Coles Wind,PLANT,IL,Wind,Wind,2027,300.0,Central,2027.0,300.0,wind_override,
+62437.0,Dodge County Wind,WT,MN,Wind,Wind,2027,228.0,North,2026.0,19.399047015276388,MISO,slip_-1
+62437.0,Dodge County Wind,WT,MN,Wind,Wind,2027,228.0,North,2027.0,85.60665862287573,MISO,slip_0
+62437.0,Dodge County Wind,WT,MN,Wind,Wind,2027,228.0,North,2028.0,35.32906603407023,MISO,slip_1
+62437.0,Dodge County Wind,WT,MN,Wind,Wind,2027,228.0,North,2029.0,3.9819219206936753,MISO,slip_2
+62437.0,Dodge County Wind,WT,MN,Wind,Wind,2027,228.0,North,2030.0,36.24061841755455,MISO,slip_3plus
+62437.0,Dodge County Wind,WT,MN,Wind,Wind,2027,228.0,North,,47.44268798952944,MISO,never
+65049.0,Pike Creek Wind,CPCW1,IL,Wind,Wind,2027,202.5,Central,2027.0,69.96493888705366,ST:IL,slip_0
+65049.0,Pike Creek Wind,CPCW1,IL,Wind,Wind,2027,202.5,Central,2028.0,50.40759482266735,ST:IL,slip_1
+65049.0,Pike Creek Wind,CPCW1,IL,Wind,Wind,2027,202.5,Central,2030.0,63.883675185441,ST:IL,slip_3plus
+65049.0,Pike Creek Wind,CPCW1,IL,Wind,Wind,2027,202.5,Central,,18.24379110483798,ST:IL,never
+69659.0,Red Butte Wind,RBW,ND,Wind,Wind,2027,202.0,North,2026.0,17.186874987218555,MISO,slip_-1
+69659.0,Red Butte Wind,RBW,ND,Wind,Wind,2027,202.0,North,2027.0,75.84449579746008,MISO,slip_0
+69659.0,Red Butte Wind,RBW,ND,Wind,Wind,2027,202.0,North,2028.0,31.300312889834153,MISO,slip_1
+69659.0,Red Butte Wind,RBW,ND,Wind,Wind,2027,202.0,North,2029.0,3.5278431051759753,MISO,slip_2
+69659.0,Red Butte Wind,RBW,ND,Wind,Wind,2027,202.0,North,2030.0,32.1079163173071,MISO,slip_3plus
+69659.0,Red Butte Wind,RBW,ND,Wind,Wind,2027,202.0,North,,42.03255690300415,MISO,never
+68179.0,Templeton Wind,TEMPW,IN,Wind,Wind,2027,200.2,Central,2026.0,17.03372461604532,MISO,slip_-1
+68179.0,Templeton Wind,TEMPW,IN,Wind,Wind,2027,200.2,Central,2027.0,75.16865375570053,MISO,slip_0
+68179.0,Templeton Wind,TEMPW,IN,Wind,Wind,2027,200.2,Central,2028.0,31.02139921061781,MISO,slip_1
+68179.0,Templeton Wind,TEMPW,IN,Wind,Wind,2027,200.2,Central,2029.0,3.496406879486288,MISO,slip_2
+68179.0,Templeton Wind,TEMPW,IN,Wind,Wind,2027,200.2,Central,2030.0,31.821806171905354,MISO,slip_3plus
+68179.0,Templeton Wind,TEMPW,IN,Wind,Wind,2027,200.2,Central,,41.658009366244706,MISO,never
+67379.0,Whitetail Wind Farm,1,WI,Wind,Wind,2027,67.2,Central,2026.0,5.7176138571340935,MISO,slip_-1
+67379.0,Whitetail Wind Farm,1,WI,Wind,Wind,2027,67.2,Central,2027.0,25.23143622568969,MISO,slip_0
+67379.0,Whitetail Wind Farm,1,WI,Wind,Wind,2027,67.2,Central,2028.0,10.412777357410175,MISO,slip_1
+67379.0,Whitetail Wind Farm,1,WI,Wind,Wind,2027,67.2,Central,2029.0,1.173619092414978,MISO,slip_2
+67379.0,Whitetail Wind Farm,1,WI,Wind,Wind,2027,67.2,Central,2030.0,10.681445428331868,MISO,slip_3plus
+67379.0,Whitetail Wind Farm,1,WI,Wind,Wind,2027,67.2,Central,,13.983108039019204,MISO,never
+67986.0,Meadow Springs Renewable Energy (Hybrid),MSPRB,IL,Battery Storage,Wind,2028,150.0,Central,2028.0,150.0,unchanged,
+68876.0,Okolona Solar,6340,MS,Battery Storage,Wind,2028,145.0,South,2028.0,145.0,unchanged,
+68988.0,Sherco LDES,SHB01,MN,Battery Storage,Wind,2028,10.0,North,2028.0,10.0,unchanged,
+70397.0,Steel River Solar Phase 1,SRSB1,AR,Battery Storage,Wind,2028,250.0,South,2028.0,250.0,unchanged,
+62391.0,Overton Hydroelectric Project,NA1,LA,Hydro,Wind,2028,8.1,South,2028.0,8.1,unchanged,
+62391.0,Overton Hydroelectric Project,NA2,LA,Hydro,Wind,2028,8.1,South,2028.0,8.1,unchanged,
+62391.0,Overton Hydroelectric Project,NA3,LA,Hydro,Wind,2028,8.1,South,2028.0,8.1,unchanged,
+62391.0,Overton Hydroelectric Project,NA4,LA,Hydro,Wind,2028,8.1,South,2028.0,8.1,unchanged,
+62391.0,Overton Hydroelectric Project,NA5,LA,Hydro,Wind,2028,8.1,South,2028.0,8.1,unchanged,
+62391.0,Overton Hydroelectric Project,NA6,LA,Hydro,Wind,2028,8.1,South,2028.0,8.1,unchanged,
+67914.0,Delta Blues Advanced Power Station,1A,MS,Natural Gas,Wind,2028,477.0,South,2028.0,477.0,unchanged,
+67914.0,Delta Blues Advanced Power Station,1C,MS,Natural Gas,Wind,2028,341.7,South,2028.0,341.7,unchanged,
+70360.0,Foundry Ridge Energy Center LLC,FNDRD,WI,Natural Gas,Wind,2028,108.0,Central,2028.0,108.0,unchanged,
+70360.0,Foundry Ridge Energy Center LLC,FNRD2,WI,Natural Gas,Wind,2028,108.0,Central,2028.0,108.0,unchanged,
+70360.0,Foundry Ridge Energy Center LLC,FNRD3,WI,Natural Gas,Wind,2028,108.0,Central,2028.0,108.0,unchanged,
+68214.0,Franklin Farms 1&2,1A,LA,Natural Gas,Wind,2028,469.3,South,2028.0,469.3,unchanged,
+68214.0,Franklin Farms 1&2,1B,LA,Natural Gas,Wind,2028,311.0,South,2028.0,311.0,unchanged,
+68214.0,Franklin Farms 1&2,2A,LA,Natural Gas,Wind,2028,469.3,South,2028.0,469.3,unchanged,
+68214.0,Franklin Farms 1&2,2B,LA,Natural Gas,Wind,2028,311.0,South,2028.0,311.0,unchanged,
+69750.0,Ironwood Power Station,1A,AR,Natural Gas,Wind,2028,467.3,South,2028.0,467.3,unchanged,
+69077.0,Lone Star Power Station,1A,TX,Natural Gas,Wind,2028,467.3,South,2028.0,467.3,unchanged,
+69537.0,Lyon County Generating Station,1,MN,Natural Gas,Wind,2028,210.0,North,2028.0,210.0,unchanged,
+69537.0,Lyon County Generating Station,2,MN,Natural Gas,Wind,2028,210.0,North,2028.0,210.0,unchanged,
+4041.0,South Oak Creek,11,WI,Natural Gas,Wind,2028,236.3,Central,2028.0,236.3,unchanged,
+4041.0,South Oak Creek,12,WI,Natural Gas,Wind,2028,236.3,Central,2028.0,236.3,unchanged,
+4041.0,South Oak Creek,13,WI,Natural Gas,Wind,2028,236.3,Central,2028.0,236.3,unchanged,
+4041.0,South Oak Creek,14,WI,Natural Gas,Wind,2028,236.3,Central,2028.0,236.3,unchanged,
+4041.0,South Oak Creek,15,WI,Natural Gas,Wind,2028,236.3,Central,2028.0,236.3,unchanged,
+10328.0,T B Simon Power Plant,GEN11,MI,Natural Gas,Wind,2028,15.0,Central,2028.0,15.0,unchanged,
+70187.0,Traceview Advanced Power Station,CT1,MS,Natural Gas,Wind,2029,477.7,South,2029.0,477.7,unchanged,
+70187.0,Traceview Advanced Power Station,ST1,MS,Natural Gas,Wind,2029,341.7,South,2029.0,341.7,unchanged,
+69223.0,Vicksburg Advanced Power Station,GT1,MS,Natural Gas,Wind,2028,477.7,South,2028.0,477.7,unchanged,
+69223.0,Vicksburg Advanced Power Station,ST1,MS,Natural Gas,Wind,2028,341.7,South,2028.0,341.7,unchanged,
+54224.0,Franklin Heating Station,DG9,MN,Oil,Wind,2028,3.1,North,2028.0,3.1,unchanged,
+68339.0,Abercrombie Solar,1,ND,Solar,Solar,2028,295.1,North,2027.0,3.73743002608982,MISO,slip_-1
+68339.0,Abercrombie Solar,1,ND,Solar,Solar,2028,295.1,North,2028.0,89.24235416297273,MISO,slip_0
+68339.0,Abercrombie Solar,1,ND,Solar,Solar,2028,295.1,North,2029.0,51.9502773626485,MISO,slip_1
+68339.0,Abercrombie Solar,1,ND,Solar,Solar,2028,295.1,North,2030.0,52.473517566301076,MISO,slip_2
+68339.0,Abercrombie Solar,1,ND,Solar,Solar,2028,295.1,North,2031.0,29.89944020871856,MISO,slip_3plus
+68339.0,Abercrombie Solar,1,ND,Solar,Solar,2028,295.1,North,,67.79698067326933,MISO,never
+69462.0,Au Gres Solar Park,AUGSP,MI,Solar,Solar,2028,175.0,Central,2027.0,2.216368195749639,MISO,slip_-1
+69462.0,Au Gres Solar Park,AUGSP,MI,Solar,Solar,2028,175.0,Central,2028.0,52.92243977810988,MISO,slip_0
+69462.0,Au Gres Solar Park,AUGSP,MI,Solar,Solar,2028,175.0,Central,2029.0,30.807517920919985,MISO,slip_1
+69462.0,Au Gres Solar Park,AUGSP,MI,Solar,Solar,2028,175.0,Central,2030.0,31.117809468324932,MISO,slip_2
+69462.0,Au Gres Solar Park,AUGSP,MI,Solar,Solar,2028,175.0,Central,2031.0,17.73094556599711,MISO,slip_3plus
+69462.0,Au Gres Solar Park,AUGSP,MI,Solar,Solar,2028,175.0,Central,,40.20491907089845,MISO,never
+69990.0,Bogalusa West Solar Station,BW1,LA,Solar,Solar,2028,200.0,South,2027.0,2.532992223713873,MISO,slip_-1
+69990.0,Bogalusa West Solar Station,BW1,LA,Solar,Solar,2028,200.0,South,2028.0,60.48278831783986,MISO,slip_0
+69990.0,Bogalusa West Solar Station,BW1,LA,Solar,Solar,2028,200.0,South,2029.0,35.20859190962284,MISO,slip_1
+69990.0,Bogalusa West Solar Station,BW1,LA,Solar,Solar,2028,200.0,South,2030.0,35.56321082094278,MISO,slip_2
+69990.0,Bogalusa West Solar Station,BW1,LA,Solar,Solar,2028,200.0,South,2031.0,20.263937789710983,MISO,slip_3plus
+69990.0,Bogalusa West Solar Station,BW1,LA,Solar,Solar,2028,200.0,South,,45.94847893816966,MISO,never
+65293.0,Covington (MS),OEMS4,MS,Solar,Solar,2028,96.0,South,2027.0,1.215836267382659,MISO,slip_-1
+65293.0,Covington (MS),OEMS4,MS,Solar,Solar,2028,96.0,South,2028.0,29.031738392563135,MISO,slip_0
+65293.0,Covington (MS),OEMS4,MS,Solar,Solar,2028,96.0,South,2029.0,16.90012411661896,MISO,slip_1
+65293.0,Covington (MS),OEMS4,MS,Solar,Solar,2028,96.0,South,2030.0,17.070341194052535,MISO,slip_2
+65293.0,Covington (MS),OEMS4,MS,Solar,Solar,2028,96.0,South,2031.0,9.726690139061272,MISO,slip_3plus
+65293.0,Covington (MS),OEMS4,MS,Solar,Solar,2028,96.0,South,,22.055269890321433,MISO,never
+69952.0,Cypress Harvest Solar Station,CH1,LA,Solar,Solar,2028,200.0,South,2027.0,2.532992223713873,MISO,slip_-1
+69952.0,Cypress Harvest Solar Station,CH1,LA,Solar,Solar,2028,200.0,South,2028.0,60.48278831783986,MISO,slip_0
+69952.0,Cypress Harvest Solar Station,CH1,LA,Solar,Solar,2028,200.0,South,2029.0,35.20859190962284,MISO,slip_1
+69952.0,Cypress Harvest Solar Station,CH1,LA,Solar,Solar,2028,200.0,South,2030.0,35.56321082094278,MISO,slip_2
+69952.0,Cypress Harvest Solar Station,CH1,LA,Solar,Solar,2028,200.0,South,2031.0,20.263937789710983,MISO,slip_3plus
+69952.0,Cypress Harvest Solar Station,CH1,LA,Solar,Solar,2028,200.0,South,,45.94847893816966,MISO,never
+69776.0,Deckerville Solar Park,DKVSP,MI,Solar,Solar,2028,200.0,Central,2027.0,2.532992223713873,MISO,slip_-1
+69776.0,Deckerville Solar Park,DKVSP,MI,Solar,Solar,2028,200.0,Central,2028.0,60.48278831783986,MISO,slip_0
+69776.0,Deckerville Solar Park,DKVSP,MI,Solar,Solar,2028,200.0,Central,2029.0,35.20859190962284,MISO,slip_1
+69776.0,Deckerville Solar Park,DKVSP,MI,Solar,Solar,2028,200.0,Central,2030.0,35.56321082094278,MISO,slip_2
+69776.0,Deckerville Solar Park,DKVSP,MI,Solar,Solar,2028,200.0,Central,2031.0,20.263937789710983,MISO,slip_3plus
+69776.0,Deckerville Solar Park,DKVSP,MI,Solar,Solar,2028,200.0,Central,,45.94847893816966,MISO,never
+69450.0,Emerald Bluffs Solar Park,GEN01,WI,Solar,Solar,2028,225.0,Central,2027.0,2.849616251678107,MISO,slip_-1
+69450.0,Emerald Bluffs Solar Park,GEN01,WI,Solar,Solar,2028,225.0,Central,2028.0,68.04313685756985,MISO,slip_0
+69450.0,Emerald Bluffs Solar Park,GEN01,WI,Solar,Solar,2028,225.0,Central,2029.0,39.609665898325694,MISO,slip_1
+69450.0,Emerald Bluffs Solar Park,GEN01,WI,Solar,Solar,2028,225.0,Central,2030.0,40.00861217356063,MISO,slip_2
+69450.0,Emerald Bluffs Solar Park,GEN01,WI,Solar,Solar,2028,225.0,Central,2031.0,22.796930013424856,MISO,slip_3plus
+69450.0,Emerald Bluffs Solar Park,GEN01,WI,Solar,Solar,2028,225.0,Central,,51.692038805440866,MISO,never
+68352.0,Girasol Solar Farm,GIPV1,MS,Solar,Solar,2028,100.0,South,2027.0,1.2664961118569364,MISO,slip_-1
+68352.0,Girasol Solar Farm,GIPV1,MS,Solar,Solar,2028,100.0,South,2028.0,30.24139415891993,MISO,slip_0
+68352.0,Girasol Solar Farm,GIPV1,MS,Solar,Solar,2028,100.0,South,2029.0,17.60429595481142,MISO,slip_1
+68352.0,Girasol Solar Farm,GIPV1,MS,Solar,Solar,2028,100.0,South,2030.0,17.78160541047139,MISO,slip_2
+68352.0,Girasol Solar Farm,GIPV1,MS,Solar,Solar,2028,100.0,South,2031.0,10.131968894855492,MISO,slip_3plus
+68352.0,Girasol Solar Farm,GIPV1,MS,Solar,Solar,2028,100.0,South,,22.97423946908483,MISO,never
+70258.0,"Hawkeye Solar II, LLC",H2SLR,IA,Solar,Solar,2028,250.0,North,2027.0,3.1662402796423414,MISO,slip_-1
+70258.0,"Hawkeye Solar II, LLC",H2SLR,IA,Solar,Solar,2028,250.0,North,2028.0,75.60348539729983,MISO,slip_0
+70258.0,"Hawkeye Solar II, LLC",H2SLR,IA,Solar,Solar,2028,250.0,North,2029.0,44.01073988702855,MISO,slip_1
+70258.0,"Hawkeye Solar II, LLC",H2SLR,IA,Solar,Solar,2028,250.0,North,2030.0,44.45401352617848,MISO,slip_2
+70258.0,"Hawkeye Solar II, LLC",H2SLR,IA,Solar,Solar,2028,250.0,North,2031.0,25.32992223713873,MISO,slip_3plus
+70258.0,"Hawkeye Solar II, LLC",H2SLR,IA,Solar,Solar,2028,250.0,North,,57.43559867271207,MISO,never
+70257.0,"Hawkeye Solar, LLC",H1SLR,IA,Solar,Solar,2028,200.0,North,2027.0,2.532992223713873,MISO,slip_-1
+70257.0,"Hawkeye Solar, LLC",H1SLR,IA,Solar,Solar,2028,200.0,North,2028.0,60.48278831783986,MISO,slip_0
+70257.0,"Hawkeye Solar, LLC",H1SLR,IA,Solar,Solar,2028,200.0,North,2029.0,35.20859190962284,MISO,slip_1
+70257.0,"Hawkeye Solar, LLC",H1SLR,IA,Solar,Solar,2028,200.0,North,2030.0,35.56321082094278,MISO,slip_2
+70257.0,"Hawkeye Solar, LLC",H1SLR,IA,Solar,Solar,2028,200.0,North,2031.0,20.263937789710983,MISO,slip_3plus
+70257.0,"Hawkeye Solar, LLC",H1SLR,IA,Solar,Solar,2028,200.0,North,,45.94847893816966,MISO,never
+70522.0,Hecate Energy Sunfish Solar LLC,SSLR,MI,Solar,Solar,2028,499.0,Central,2027.0,6.319815598166113,MISO,slip_-1
+70522.0,Hecate Energy Sunfish Solar LLC,SSLR,MI,Solar,Solar,2028,499.0,Central,2028.0,150.90455685301046,MISO,slip_0
+70522.0,Hecate Energy Sunfish Solar LLC,SSLR,MI,Solar,Solar,2028,499.0,Central,2029.0,87.84543681450899,MISO,slip_1
+70522.0,Hecate Energy Sunfish Solar LLC,SSLR,MI,Solar,Solar,2028,499.0,Central,2030.0,88.73021099825223,MISO,slip_2
+70522.0,Hecate Energy Sunfish Solar LLC,SSLR,MI,Solar,Solar,2028,499.0,Central,2031.0,50.558524785328906,MISO,slip_3plus
+70522.0,Hecate Energy Sunfish Solar LLC,SSLR,MI,Solar,Solar,2028,499.0,Central,,114.64145495073329,MISO,never
+66978.0,MPW Solar 1,MS1,IA,Solar,Solar,2028,24.0,North,2027.0,0.30395906684566476,MISO,slip_-1
+66978.0,MPW Solar 1,MS1,IA,Solar,Solar,2028,24.0,North,2028.0,7.257934598140784,MISO,slip_0
+66978.0,MPW Solar 1,MS1,IA,Solar,Solar,2028,24.0,North,2029.0,4.22503102915474,MISO,slip_1
+66978.0,MPW Solar 1,MS1,IA,Solar,Solar,2028,24.0,North,2030.0,4.267585298513134,MISO,slip_2
+66978.0,MPW Solar 1,MS1,IA,Solar,Solar,2028,24.0,North,2031.0,2.431672534765318,MISO,slip_3plus
+66978.0,MPW Solar 1,MS1,IA,Solar,Solar,2028,24.0,North,,5.513817472580358,MISO,never
+67986.0,Meadow Springs Renewable Energy (Hybrid),MSPRE,IL,Solar,Solar,2028,150.0,Central,2027.0,1.8997441677854048,MISO,slip_-1
+67986.0,Meadow Springs Renewable Energy (Hybrid),MSPRE,IL,Solar,Solar,2028,150.0,Central,2028.0,45.3620912383799,MISO,slip_0
+67986.0,Meadow Springs Renewable Energy (Hybrid),MSPRE,IL,Solar,Solar,2028,150.0,Central,2029.0,26.40644393221713,MISO,slip_1
+67986.0,Meadow Springs Renewable Energy (Hybrid),MSPRE,IL,Solar,Solar,2028,150.0,Central,2030.0,26.672408115707086,MISO,slip_2
+67986.0,Meadow Springs Renewable Energy (Hybrid),MSPRE,IL,Solar,Solar,2028,150.0,Central,2031.0,15.197953342283238,MISO,slip_3plus
+67986.0,Meadow Springs Renewable Energy (Hybrid),MSPRE,IL,Solar,Solar,2028,150.0,Central,,34.46135920362724,MISO,never
+66114.0,Merrillville Solar,INRD1,IN,Solar,Solar,2028,100.0,Central,2027.0,1.2664961118569364,MISO,slip_-1
+66114.0,Merrillville Solar,INRD1,IN,Solar,Solar,2028,100.0,Central,2028.0,30.24139415891993,MISO,slip_0
+66114.0,Merrillville Solar,INRD1,IN,Solar,Solar,2028,100.0,Central,2029.0,17.60429595481142,MISO,slip_1
+66114.0,Merrillville Solar,INRD1,IN,Solar,Solar,2028,100.0,Central,2030.0,17.78160541047139,MISO,slip_2
+66114.0,Merrillville Solar,INRD1,IN,Solar,Solar,2028,100.0,Central,2031.0,10.131968894855492,MISO,slip_3plus
+66114.0,Merrillville Solar,INRD1,IN,Solar,Solar,2028,100.0,Central,,22.97423946908483,MISO,never
+66958.0,Northern Prairie 1,NOPR1,WI,Solar,Solar,2028,101.0,Central,2027.0,1.2791610729755059,MISO,slip_-1
+66958.0,Northern Prairie 1,NOPR1,WI,Solar,Solar,2028,101.0,Central,2028.0,30.543808100509132,MISO,slip_0
+66958.0,Northern Prairie 1,NOPR1,WI,Solar,Solar,2028,101.0,Central,2029.0,17.780338914359533,MISO,slip_1
+66958.0,Northern Prairie 1,NOPR1,WI,Solar,Solar,2028,101.0,Central,2030.0,17.959421464576103,MISO,slip_2
+66958.0,Northern Prairie 1,NOPR1,WI,Solar,Solar,2028,101.0,Central,2031.0,10.233288583804047,MISO,slip_3plus
+66958.0,Northern Prairie 1,NOPR1,WI,Solar,Solar,2028,101.0,Central,,23.203981863775677,MISO,never
+69467.0,Peatville Solar Park,PETSP,MI,Solar,Solar,2028,185.0,Central,2027.0,2.3430178069353325,MISO,slip_-1
+69467.0,Peatville Solar Park,PETSP,MI,Solar,Solar,2028,185.0,Central,2028.0,55.94657919400188,MISO,slip_0
+69467.0,Peatville Solar Park,PETSP,MI,Solar,Solar,2028,185.0,Central,2029.0,32.56794751640113,MISO,slip_1
+69467.0,Peatville Solar Park,PETSP,MI,Solar,Solar,2028,185.0,Central,2030.0,32.89597000937207,MISO,slip_2
+69467.0,Peatville Solar Park,PETSP,MI,Solar,Solar,2028,185.0,Central,2031.0,18.74414245548266,MISO,slip_3plus
+69467.0,Peatville Solar Park,PETSP,MI,Solar,Solar,2028,185.0,Central,,42.50234301780693,MISO,never
+68029.0,Penton Solar Plant,PSP,MS,Solar,Solar,2028,190.0,South,2027.0,2.4063426125281793,MISO,slip_-1
+68029.0,Penton Solar Plant,PSP,MS,Solar,Solar,2028,190.0,South,2028.0,57.45864890194787,MISO,slip_0
+68029.0,Penton Solar Plant,PSP,MS,Solar,Solar,2028,190.0,South,2029.0,33.4481623141417,MISO,slip_1
+68029.0,Penton Solar Plant,PSP,MS,Solar,Solar,2028,190.0,South,2030.0,33.78505027989564,MISO,slip_2
+68029.0,Penton Solar Plant,PSP,MS,Solar,Solar,2028,190.0,South,2031.0,19.250740900225434,MISO,slip_3plus
+68029.0,Penton Solar Plant,PSP,MS,Solar,Solar,2028,190.0,South,,43.65105499126118,MISO,never
+69468.0,Poseyville Solar Park,PSVSP,MI,Solar,Solar,2028,206.4,Central,2027.0,2.614047974872717,MISO,slip_-1
+69468.0,Poseyville Solar Park,PSVSP,MI,Solar,Solar,2028,206.4,Central,2028.0,62.41823754401074,MISO,slip_0
+69468.0,Poseyville Solar Park,PSVSP,MI,Solar,Solar,2028,206.4,Central,2029.0,36.33526685073077,MISO,slip_1
+69468.0,Poseyville Solar Park,PSVSP,MI,Solar,Solar,2028,206.4,Central,2030.0,36.70123356721295,MISO,slip_2
+69468.0,Poseyville Solar Park,PSVSP,MI,Solar,Solar,2028,206.4,Central,2031.0,20.912383798981736,MISO,slip_3plus
+69468.0,Poseyville Solar Park,PSVSP,MI,Solar,Solar,2028,206.4,Central,,47.41883026419109,MISO,never
+69021.0,Rustic Hills Solar I,RH1PV,IN,Solar,Solar,2028,100.0,Central,2027.0,1.2664961118569364,MISO,slip_-1
+69021.0,Rustic Hills Solar I,RH1PV,IN,Solar,Solar,2028,100.0,Central,2028.0,30.24139415891993,MISO,slip_0
+69021.0,Rustic Hills Solar I,RH1PV,IN,Solar,Solar,2028,100.0,Central,2029.0,17.60429595481142,MISO,slip_1
+69021.0,Rustic Hills Solar I,RH1PV,IN,Solar,Solar,2028,100.0,Central,2030.0,17.78160541047139,MISO,slip_2
+69021.0,Rustic Hills Solar I,RH1PV,IN,Solar,Solar,2028,100.0,Central,2031.0,10.131968894855492,MISO,slip_3plus
+69021.0,Rustic Hills Solar I,RH1PV,IN,Solar,Solar,2028,100.0,Central,,22.97423946908483,MISO,never
+69022.0,Rustic Hills Solar II LLC,RH2PV,IN,Solar,Solar,2028,100.0,Central,2027.0,1.2664961118569364,MISO,slip_-1
+69022.0,Rustic Hills Solar II LLC,RH2PV,IN,Solar,Solar,2028,100.0,Central,2028.0,30.24139415891993,MISO,slip_0
+69022.0,Rustic Hills Solar II LLC,RH2PV,IN,Solar,Solar,2028,100.0,Central,2029.0,17.60429595481142,MISO,slip_1
+69022.0,Rustic Hills Solar II LLC,RH2PV,IN,Solar,Solar,2028,100.0,Central,2030.0,17.78160541047139,MISO,slip_2
+69022.0,Rustic Hills Solar II LLC,RH2PV,IN,Solar,Solar,2028,100.0,Central,2031.0,10.131968894855492,MISO,slip_3plus
+69022.0,Rustic Hills Solar II LLC,RH2PV,IN,Solar,Solar,2028,100.0,Central,,22.97423946908483,MISO,never
+69810.0,SV CSG Mahomet,MAHOM,IL,Solar,Solar,2028,3.5,Central,2027.0,0.04432736391499278,MISO,slip_-1
+69810.0,SV CSG Mahomet,MAHOM,IL,Solar,Solar,2028,3.5,Central,2028.0,1.0584487955621977,MISO,slip_0
+69810.0,SV CSG Mahomet,MAHOM,IL,Solar,Solar,2028,3.5,Central,2029.0,0.6161503584183997,MISO,slip_1
+69810.0,SV CSG Mahomet,MAHOM,IL,Solar,Solar,2028,3.5,Central,2030.0,0.6223561893664986,MISO,slip_2
+69810.0,SV CSG Mahomet,MAHOM,IL,Solar,Solar,2028,3.5,Central,2031.0,0.3546189113199422,MISO,slip_3plus
+69810.0,SV CSG Mahomet,MAHOM,IL,Solar,Solar,2028,3.5,Central,,0.804098381417969,MISO,never
+69821.0,SV CSG South Roxana,SROX,IL,Solar,Solar,2028,5.0,Central,2027.0,0.06332480559284683,MISO,slip_-1
+69821.0,SV CSG South Roxana,SROX,IL,Solar,Solar,2028,5.0,Central,2028.0,1.5120697079459966,MISO,slip_0
+69821.0,SV CSG South Roxana,SROX,IL,Solar,Solar,2028,5.0,Central,2029.0,0.880214797740571,MISO,slip_1
+69821.0,SV CSG South Roxana,SROX,IL,Solar,Solar,2028,5.0,Central,2030.0,0.8890802705235695,MISO,slip_2
+69821.0,SV CSG South Roxana,SROX,IL,Solar,Solar,2028,5.0,Central,2031.0,0.5065984447427746,MISO,slip_3plus
+69821.0,SV CSG South Roxana,SROX,IL,Solar,Solar,2028,5.0,Central,,1.1487119734542415,MISO,never
+69470.0,Silver Creek Solar Park,SVCSP,MI,Solar,Solar,2028,200.0,Central,2027.0,2.532992223713873,MISO,slip_-1
+69470.0,Silver Creek Solar Park,SVCSP,MI,Solar,Solar,2028,200.0,Central,2028.0,60.48278831783986,MISO,slip_0
+69470.0,Silver Creek Solar Park,SVCSP,MI,Solar,Solar,2028,200.0,Central,2029.0,35.20859190962284,MISO,slip_1
+69470.0,Silver Creek Solar Park,SVCSP,MI,Solar,Solar,2028,200.0,Central,2030.0,35.56321082094278,MISO,slip_2
+69470.0,Silver Creek Solar Park,SVCSP,MI,Solar,Solar,2028,200.0,Central,2031.0,20.263937789710983,MISO,slip_3plus
+69470.0,Silver Creek Solar Park,SVCSP,MI,Solar,Solar,2028,200.0,Central,,45.94847893816966,MISO,never
+69608.0,Sinnissippi Solar Energy LLC,SNSPI,WI,Solar,Solar,2028,100.0,Central,2027.0,1.2664961118569364,MISO,slip_-1
+69608.0,Sinnissippi Solar Energy LLC,SNSPI,WI,Solar,Solar,2028,100.0,Central,2028.0,30.24139415891993,MISO,slip_0
+69608.0,Sinnissippi Solar Energy LLC,SNSPI,WI,Solar,Solar,2028,100.0,Central,2029.0,17.60429595481142,MISO,slip_1
+69608.0,Sinnissippi Solar Energy LLC,SNSPI,WI,Solar,Solar,2028,100.0,Central,2030.0,17.78160541047139,MISO,slip_2
+69608.0,Sinnissippi Solar Energy LLC,SNSPI,WI,Solar,Solar,2028,100.0,Central,2031.0,10.131968894855492,MISO,slip_3plus
+69608.0,Sinnissippi Solar Energy LLC,SNSPI,WI,Solar,Solar,2028,100.0,Central,,22.97423946908483,MISO,never
+70397.0,Steel River Solar Phase 1,SRSP1,AR,Solar,Solar,2028,500.0,South,2027.0,6.332480559284683,MISO,slip_-1
+70397.0,Steel River Solar Phase 1,SRSP1,AR,Solar,Solar,2028,500.0,South,2028.0,151.20697079459967,MISO,slip_0
+70397.0,Steel River Solar Phase 1,SRSP1,AR,Solar,Solar,2028,500.0,South,2029.0,88.0214797740571,MISO,slip_1
+70397.0,Steel River Solar Phase 1,SRSP1,AR,Solar,Solar,2028,500.0,South,2030.0,88.90802705235696,MISO,slip_2
+70397.0,Steel River Solar Phase 1,SRSP1,AR,Solar,Solar,2028,500.0,South,2031.0,50.65984447427746,MISO,slip_3plus
+70397.0,Steel River Solar Phase 1,SRSP1,AR,Solar,Solar,2028,500.0,South,,114.87119734542414,MISO,never
+69775.0,Strasburg Solar Park,STBSP,MI,Solar,Solar,2028,100.0,Central,2027.0,1.2664961118569364,MISO,slip_-1
+69775.0,Strasburg Solar Park,STBSP,MI,Solar,Solar,2028,100.0,Central,2028.0,30.24139415891993,MISO,slip_0
+69775.0,Strasburg Solar Park,STBSP,MI,Solar,Solar,2028,100.0,Central,2029.0,17.60429595481142,MISO,slip_1
+69775.0,Strasburg Solar Park,STBSP,MI,Solar,Solar,2028,100.0,Central,2030.0,17.78160541047139,MISO,slip_2
+69775.0,Strasburg Solar Park,STBSP,MI,Solar,Solar,2028,100.0,Central,2031.0,10.131968894855492,MISO,slip_3plus
+69775.0,Strasburg Solar Park,STBSP,MI,Solar,Solar,2028,100.0,Central,,22.97423946908483,MISO,never
+69577.0,"Superior Solar Project, LLC",SPROR,MI,Solar,Solar,2028,150.0,Central,2027.0,1.8997441677854048,MISO,slip_-1
+69577.0,"Superior Solar Project, LLC",SPROR,MI,Solar,Solar,2028,150.0,Central,2028.0,45.3620912383799,MISO,slip_0
+69577.0,"Superior Solar Project, LLC",SPROR,MI,Solar,Solar,2028,150.0,Central,2029.0,26.40644393221713,MISO,slip_1
+69577.0,"Superior Solar Project, LLC",SPROR,MI,Solar,Solar,2028,150.0,Central,2030.0,26.672408115707086,MISO,slip_2
+69577.0,"Superior Solar Project, LLC",SPROR,MI,Solar,Solar,2028,150.0,Central,2031.0,15.197953342283238,MISO,slip_3plus
+69577.0,"Superior Solar Project, LLC",SPROR,MI,Solar,Solar,2028,150.0,Central,,34.46135920362724,MISO,never
+67551.0,Vista Sands Solar,VISTA,WI,Solar,Solar,2028,1182.0,Central,2027.0,14.96998404214899,MISO,slip_-1
+67551.0,Vista Sands Solar,VISTA,WI,Solar,Solar,2028,1182.0,Central,2028.0,357.4532789584336,MISO,slip_0
+67551.0,Vista Sands Solar,VISTA,WI,Solar,Solar,2028,1182.0,Central,2029.0,208.08277818587098,MISO,slip_1
+67551.0,Vista Sands Solar,VISTA,WI,Solar,Solar,2028,1182.0,Central,2030.0,210.17857595177185,MISO,slip_2
+67551.0,Vista Sands Solar,VISTA,WI,Solar,Solar,2028,1182.0,Central,2031.0,119.75987233719192,MISO,slip_3plus
+67551.0,Vista Sands Solar,VISTA,WI,Solar,Solar,2028,1182.0,Central,,271.55551052458264,MISO,never
+69657.0,New Salem Wind I,NS1,ND,Wind,Wind,2028,200.0,North,2028.0,21.770439093010015,MISO,slip_0
+69657.0,New Salem Wind I,NS1,ND,Wind,Wind,2028,200.0,North,2029.0,19.050808855544762,MISO,slip_1
+69657.0,New Salem Wind I,NS1,ND,Wind,Wind,2028,200.0,North,2030.0,3.101450246173427,MISO,slip_2
+69657.0,New Salem Wind I,NS1,ND,Wind,Wind,2028,200.0,North,2031.0,66.98596644003082,MISO,slip_3plus
+69657.0,New Salem Wind I,NS1,ND,Wind,Wind,2028,200.0,North,,89.09133536524098,MISO,never
+69658.0,New Salem Wind II,NS2,ND,Wind,Wind,2028,226.0,North,2028.0,24.60059617510132,MISO,slip_0
+69658.0,New Salem Wind II,NS2,ND,Wind,Wind,2028,226.0,North,2029.0,21.527414006765582,MISO,slip_1
+69658.0,New Salem Wind II,NS2,ND,Wind,Wind,2028,226.0,North,2030.0,3.5046387781759725,MISO,slip_2
+69658.0,New Salem Wind II,NS2,ND,Wind,Wind,2028,226.0,North,2031.0,75.69414207723483,MISO,slip_3plus
+69658.0,New Salem Wind II,NS2,ND,Wind,Wind,2028,226.0,North,,100.67320896272231,MISO,never
+61687.0,Plum Creek,PLMCK,MN,Wind,Wind,2028,200.0,North,2028.0,21.770439093010015,MISO,slip_0
+61687.0,Plum Creek,PLMCK,MN,Wind,Wind,2028,200.0,North,2029.0,19.050808855544762,MISO,slip_1
+61687.0,Plum Creek,PLMCK,MN,Wind,Wind,2028,200.0,North,2030.0,3.101450246173427,MISO,slip_2
+61687.0,Plum Creek,PLMCK,MN,Wind,Wind,2028,200.0,North,2031.0,66.98596644003082,MISO,slip_3plus
+61687.0,Plum Creek,PLMCK,MN,Wind,Wind,2028,200.0,North,,89.09133536524098,MISO,never
+69989.0,Arkansas Cypress Solar Station,PB2,AR,Battery Storage,Wind,2029,350.0,South,2029.0,350.0,unchanged,
+69952.0,Cypress Harvest Solar Station,CH2,LA,Battery Storage,Wind,2029,200.0,South,2029.0,200.0,unchanged,
+69761.0,Dawn Break Solar,DBBES,WI,Battery Storage,Wind,2029,180.0,Central,2029.0,180.0,unchanged,
+70398.0,Steel River Solar Phase 2,SRSB2,AR,Battery Storage,Wind,2029,250.0,South,2029.0,250.0,unchanged,
+69869.0,Hannibal Energy Center,UNIT1,MO,Natural Gas,Wind,2029,38.0,Central,2029.0,38.0,unchanged,
+69869.0,Hannibal Energy Center,UNIT2,MO,Natural Gas,Wind,2029,38.0,Central,2029.0,38.0,unchanged,
+69185.0,Jefferson Power Station,JPS1,AR,Natural Gas,Wind,2029,342.0,South,2029.0,342.0,unchanged,
+69185.0,Jefferson Power Station,JPSCT,AR,Natural Gas,Wind,2029,478.0,South,2029.0,478.0,unchanged,
+70453.0,Red Oak Ridge Energy Center LLC,CT4,WI,Natural Gas,Wind,2029,242.0,Central,2029.0,242.0,unchanged,
+70453.0,Red Oak Ridge Energy Center LLC,CT5,WI,Natural Gas,Wind,2029,242.0,Central,2029.0,242.0,unchanged,
+70453.0,Red Oak Ridge Energy Center LLC,RDOR1,WI,Natural Gas,Wind,2029,242.0,Central,2029.0,242.0,unchanged,
+70453.0,Red Oak Ridge Energy Center LLC,RDOR2,WI,Natural Gas,Wind,2029,242.0,Central,2029.0,242.0,unchanged,
+70453.0,Red Oak Ridge Energy Center LLC,RDOR3,WI,Natural Gas,Wind,2029,242.0,Central,2029.0,242.0,unchanged,
+69102.0,Toronto Power Plant,U1,SD,Natural Gas,Wind,2029,36.3,North,2029.0,36.3,unchanged,
+69102.0,Toronto Power Plant,U2,SD,Natural Gas,Wind,2029,36.3,North,2029.0,36.3,unchanged,
+69102.0,Toronto Power Plant,U3,SD,Natural Gas,Wind,2029,36.3,North,2029.0,36.3,unchanged,
+69102.0,Toronto Power Plant,U4,SD,Natural Gas,Wind,2029,36.3,North,2029.0,36.3,unchanged,
+69184.0,Waterford 5,WF5CT,LA,Natural Gas,Wind,2029,478.0,South,2029.0,478.0,unchanged,
+69184.0,Waterford 5,WF5ST,LA,Natural Gas,Wind,2029,342.0,South,2029.0,342.0,unchanged,
+69642.0,Arkana Solar,96513,AR,Solar,Solar,2029,100.0,South,2028.0,3.105911585050212,NATIONAL,slip_-1
+69642.0,Arkana Solar,96513,AR,Solar,Solar,2029,100.0,South,2029.0,3.1818338682403287,NATIONAL,slip_0
+69642.0,Arkana Solar,96513,AR,Solar,Solar,2029,100.0,South,2030.0,14.459053732270421,NATIONAL,slip_1
+69642.0,Arkana Solar,96513,AR,Solar,Solar,2029,100.0,South,2031.0,15.025710045898471,NATIONAL,slip_2
+69642.0,Arkana Solar,96513,AR,Solar,Solar,2029,100.0,South,2032.0,42.45436035476413,NATIONAL,slip_3plus
+69642.0,Arkana Solar,96513,AR,Solar,Solar,2029,100.0,South,,21.773130413776443,NATIONAL,never
+69989.0,Arkansas Cypress Solar Station,PB1,AR,Solar,Solar,2029,600.0,South,2028.0,18.635469510301274,NATIONAL,slip_-1
+69989.0,Arkansas Cypress Solar Station,PB1,AR,Solar,Solar,2029,600.0,South,2029.0,19.091003209441972,NATIONAL,slip_0
+69989.0,Arkansas Cypress Solar Station,PB1,AR,Solar,Solar,2029,600.0,South,2030.0,86.75432239362253,NATIONAL,slip_1
+69989.0,Arkansas Cypress Solar Station,PB1,AR,Solar,Solar,2029,600.0,South,2031.0,90.15426027539083,NATIONAL,slip_2
+69989.0,Arkansas Cypress Solar Station,PB1,AR,Solar,Solar,2029,600.0,South,2032.0,254.72616212858475,NATIONAL,slip_3plus
+69989.0,Arkansas Cypress Solar Station,PB1,AR,Solar,Solar,2029,600.0,South,,130.63878248265866,NATIONAL,never
+69761.0,Dawn Break Solar,DBSOL,WI,Solar,Solar,2029,180.0,Central,2028.0,5.590640853090382,NATIONAL,slip_-1
+69761.0,Dawn Break Solar,DBSOL,WI,Solar,Solar,2029,180.0,Central,2029.0,5.727300962832592,NATIONAL,slip_0
+69761.0,Dawn Break Solar,DBSOL,WI,Solar,Solar,2029,180.0,Central,2030.0,26.02629671808676,NATIONAL,slip_1
+69761.0,Dawn Break Solar,DBSOL,WI,Solar,Solar,2029,180.0,Central,2031.0,27.04627808261725,NATIONAL,slip_2
+69761.0,Dawn Break Solar,DBSOL,WI,Solar,Solar,2029,180.0,Central,2032.0,76.41784863857542,NATIONAL,slip_3plus
+69761.0,Dawn Break Solar,DBSOL,WI,Solar,Solar,2029,180.0,Central,,39.1916347447976,NATIONAL,never
+64904.0,Elliot Solar LLC,1,IN,Solar,Solar,2029,200.0,Central,2028.0,6.211823170100424,NATIONAL,slip_-1
+64904.0,Elliot Solar LLC,1,IN,Solar,Solar,2029,200.0,Central,2029.0,6.363667736480657,NATIONAL,slip_0
+64904.0,Elliot Solar LLC,1,IN,Solar,Solar,2029,200.0,Central,2030.0,28.918107464540842,NATIONAL,slip_1
+64904.0,Elliot Solar LLC,1,IN,Solar,Solar,2029,200.0,Central,2031.0,30.051420091796942,NATIONAL,slip_2
+64904.0,Elliot Solar LLC,1,IN,Solar,Solar,2029,200.0,Central,2032.0,84.90872070952825,NATIONAL,slip_3plus
+64904.0,Elliot Solar LLC,1,IN,Solar,Solar,2029,200.0,Central,,43.546260827552885,NATIONAL,never
+68288.0,Flag Run Solar,MAHI,IN,Solar,Solar,2029,200.0,Central,2028.0,6.211823170100424,NATIONAL,slip_-1
+68288.0,Flag Run Solar,MAHI,IN,Solar,Solar,2029,200.0,Central,2029.0,6.363667736480657,NATIONAL,slip_0
+68288.0,Flag Run Solar,MAHI,IN,Solar,Solar,2029,200.0,Central,2030.0,28.918107464540842,NATIONAL,slip_1
+68288.0,Flag Run Solar,MAHI,IN,Solar,Solar,2029,200.0,Central,2031.0,30.051420091796942,NATIONAL,slip_2
+68288.0,Flag Run Solar,MAHI,IN,Solar,Solar,2029,200.0,Central,2032.0,84.90872070952825,NATIONAL,slip_3plus
+68288.0,Flag Run Solar,MAHI,IN,Solar,Solar,2029,200.0,Central,,43.546260827552885,NATIONAL,never
+69633.0,Lion Solar,99757,AR,Solar,Solar,2029,200.0,South,2028.0,6.211823170100424,NATIONAL,slip_-1
+69633.0,Lion Solar,99757,AR,Solar,Solar,2029,200.0,South,2029.0,6.363667736480657,NATIONAL,slip_0
+69633.0,Lion Solar,99757,AR,Solar,Solar,2029,200.0,South,2030.0,28.918107464540842,NATIONAL,slip_1
+69633.0,Lion Solar,99757,AR,Solar,Solar,2029,200.0,South,2031.0,30.051420091796942,NATIONAL,slip_2
+69633.0,Lion Solar,99757,AR,Solar,Solar,2029,200.0,South,2032.0,84.90872070952825,NATIONAL,slip_3plus
+69633.0,Lion Solar,99757,AR,Solar,Solar,2029,200.0,South,,43.546260827552885,NATIONAL,never
+68368.0,Mayfield Solar and Storage,MYSO,KY,Solar,Solar,2029,200.0,Central,2028.0,6.211823170100424,NATIONAL,slip_-1
+68368.0,Mayfield Solar and Storage,MYSO,KY,Solar,Solar,2029,200.0,Central,2029.0,6.363667736480657,NATIONAL,slip_0
+68368.0,Mayfield Solar and Storage,MYSO,KY,Solar,Solar,2029,200.0,Central,2030.0,28.918107464540842,NATIONAL,slip_1
+68368.0,Mayfield Solar and Storage,MYSO,KY,Solar,Solar,2029,200.0,Central,2031.0,30.051420091796942,NATIONAL,slip_2
+68368.0,Mayfield Solar and Storage,MYSO,KY,Solar,Solar,2029,200.0,Central,2032.0,84.90872070952825,NATIONAL,slip_3plus
+68368.0,Mayfield Solar and Storage,MYSO,KY,Solar,Solar,2029,200.0,Central,,43.546260827552885,NATIONAL,never
+69991.0,Segno Solar Station,SN1,TX,Solar,Solar,2029,170.0,South,2028.0,5.280049694585361,NATIONAL,slip_-1
+69991.0,Segno Solar Station,SN1,TX,Solar,Solar,2029,170.0,South,2029.0,5.409117576008559,NATIONAL,slip_0
+69991.0,Segno Solar Station,SN1,TX,Solar,Solar,2029,170.0,South,2030.0,24.580391344859716,NATIONAL,slip_1
+69991.0,Segno Solar Station,SN1,TX,Solar,Solar,2029,170.0,South,2031.0,25.543707078027403,NATIONAL,slip_2
+69991.0,Segno Solar Station,SN1,TX,Solar,Solar,2029,170.0,South,2032.0,72.17241260309902,NATIONAL,slip_3plus
+69991.0,Segno Solar Station,SN1,TX,Solar,Solar,2029,170.0,South,,37.01432170341995,NATIONAL,never
+70398.0,Steel River Solar Phase 2,SRSP2,AR,Solar,Solar,2029,500.0,South,2028.0,15.52955792525106,NATIONAL,slip_-1
+70398.0,Steel River Solar Phase 2,SRSP2,AR,Solar,Solar,2029,500.0,South,2029.0,15.909169341201643,NATIONAL,slip_0
+70398.0,Steel River Solar Phase 2,SRSP2,AR,Solar,Solar,2029,500.0,South,2030.0,72.29526866135211,NATIONAL,slip_1
+70398.0,Steel River Solar Phase 2,SRSP2,AR,Solar,Solar,2029,500.0,South,2031.0,75.12855022949236,NATIONAL,slip_2
+70398.0,Steel River Solar Phase 2,SRSP2,AR,Solar,Solar,2029,500.0,South,2032.0,212.27180177382064,NATIONAL,slip_3plus
+70398.0,Steel River Solar Phase 2,SRSP2,AR,Solar,Solar,2029,500.0,South,,108.86565206888221,NATIONAL,never
+69993.0,Votaw Solar Station,VT1,TX,Solar,Solar,2029,141.0,South,2028.0,4.379335334920799,NATIONAL,slip_-1
+69993.0,Votaw Solar Station,VT1,TX,Solar,Solar,2029,141.0,South,2029.0,4.486385754218864,NATIONAL,slip_0
+69993.0,Votaw Solar Station,VT1,TX,Solar,Solar,2029,141.0,South,2030.0,20.387265762501293,NATIONAL,slip_1
+69993.0,Votaw Solar Station,VT1,TX,Solar,Solar,2029,141.0,South,2031.0,21.186251164716843,NATIONAL,slip_2
+69993.0,Votaw Solar Station,VT1,TX,Solar,Solar,2029,141.0,South,2032.0,59.86064810021742,NATIONAL,slip_3plus
+69993.0,Votaw Solar Station,VT1,TX,Solar,Solar,2029,141.0,South,,30.700113883424784,NATIONAL,never
+68413.0,Old Town Wind,OT,IL,Wind,Wind,2029,178.0,Central,2030.0,1.087076438140268,NATIONAL,slip_1
+68413.0,Old Town Wind,OT,IL,Wind,Wind,2029,178.0,Central,2032.0,123.47084318360913,NATIONAL,slip_3plus
+68413.0,Old Town Wind,OT,IL,Wind,Wind,2029,178.0,Central,,53.44208037825059,NATIONAL,never
+68843.0,Tupper Lake Wind,TLCP,MI,Wind,Wind,2029,200.0,Central,2030.0,1.2214342001576044,NATIONAL,slip_1
+68843.0,Tupper Lake Wind,TLCP,MI,Wind,Wind,2029,200.0,Central,2032.0,138.7312844759653,NATIONAL,slip_3plus
+68843.0,Tupper Lake Wind,TLCP,MI,Wind,Wind,2029,200.0,Central,,60.047281323877066,NATIONAL,never
+70399.0,Steel River Solar Phase 3,SRSB3,AR,Battery Storage,Wind,2029,250.0,South,2029.0,250.0,unchanged,
+62022.0,Lincoln Land Energy Center,GEN1,IL,Natural Gas,Wind,2030,638.4,Central,2030.0,638.4,unchanged,
+62022.0,Lincoln Land Energy Center,GEN2,IL,Natural Gas,Wind,2030,638.4,Central,2030.0,638.4,unchanged,
+69449.0,Richland Parish Power Station 1&2,1A,LA,Natural Gas,Wind,2030,469.3,South,2030.0,469.3,unchanged,
+69449.0,Richland Parish Power Station 1&2,1B,LA,Natural Gas,Wind,2030,311.0,South,2030.0,311.0,unchanged,
+69449.0,Richland Parish Power Station 1&2,2A,LA,Natural Gas,Wind,2030,469.3,South,2030.0,469.3,unchanged,
+69449.0,Richland Parish Power Station 1&2,2B,LA,Natural Gas,Wind,2030,311.0,South,2030.0,311.0,unchanged,
+69649.0,Richland Parish Power Station 3,3A,LA,Natural Gas,Wind,2030,469.3,South,2030.0,469.3,unchanged,
+69649.0,Richland Parish Power Station 3,3B,LA,Natural Gas,Wind,2030,311.0,South,2030.0,311.0,unchanged,
+69650.0,Richland Parish Power Station 4,4A,LA,Natural Gas,Wind,2030,469.3,South,2030.0,469.3,unchanged,
+69650.0,Richland Parish Power Station 4,4B,LA,Natural Gas,Wind,2030,311.0,South,2030.0,311.0,unchanged,
+69445.0,Waterford 6,CT1,LA,Natural Gas,Wind,2030,478.0,South,2030.0,478.0,unchanged,
+69445.0,Waterford 6,ST1,LA,Natural Gas,Wind,2030,342.0,South,2030.0,342.0,unchanged,
+69426.0,Westlake Power Station,CA1,LA,Natural Gas,Wind,2030,341.7,South,2030.0,341.7,unchanged,
+69426.0,Westlake Power Station,CT1,LA,Natural Gas,Wind,2030,477.7,South,2030.0,477.7,unchanged,
+69638.0,Landshark Energy Generation Facility,11767,MS,Solar,Solar,2030,160.0,South,2029.0,4.96945853608034,NATIONAL,slip_-1
+69638.0,Landshark Energy Generation Facility,11767,MS,Solar,Solar,2030,160.0,South,2030.0,5.090934189184527,NATIONAL,slip_0
+69638.0,Landshark Energy Generation Facility,11767,MS,Solar,Solar,2030,160.0,South,2031.0,23.134485971632675,NATIONAL,slip_1
+69638.0,Landshark Energy Generation Facility,11767,MS,Solar,Solar,2030,160.0,South,2032.0,24.041136073437556,NATIONAL,slip_2
+69638.0,Landshark Energy Generation Facility,11767,MS,Solar,Solar,2030,160.0,South,2033.0,67.9269765676226,NATIONAL,slip_3plus
+69638.0,Landshark Energy Generation Facility,11767,MS,Solar,Solar,2030,160.0,South,,34.83700866204231,NATIONAL,never
+70399.0,Steel River Solar Phase 3,SRSP3,AR,Solar,Solar,2029,500.0,South,2028.0,15.52955792525106,NATIONAL,slip_-1
+70399.0,Steel River Solar Phase 3,SRSP3,AR,Solar,Solar,2029,500.0,South,2029.0,15.909169341201643,NATIONAL,slip_0
+70399.0,Steel River Solar Phase 3,SRSP3,AR,Solar,Solar,2029,500.0,South,2030.0,72.29526866135211,NATIONAL,slip_1
+70399.0,Steel River Solar Phase 3,SRSP3,AR,Solar,Solar,2029,500.0,South,2031.0,75.12855022949236,NATIONAL,slip_2
+70399.0,Steel River Solar Phase 3,SRSP3,AR,Solar,Solar,2029,500.0,South,2032.0,212.27180177382064,NATIONAL,slip_3plus
+70399.0,Steel River Solar Phase 3,SRSP3,AR,Solar,Solar,2029,500.0,South,,108.86565206888221,NATIONAL,never
+69639.0,Triune Solar,16777,TX,Solar,Solar,2030,100.0,South,2029.0,3.105911585050212,NATIONAL,slip_-1
+69639.0,Triune Solar,16777,TX,Solar,Solar,2030,100.0,South,2030.0,3.1818338682403287,NATIONAL,slip_0
+69639.0,Triune Solar,16777,TX,Solar,Solar,2030,100.0,South,2031.0,14.459053732270421,NATIONAL,slip_1
+69639.0,Triune Solar,16777,TX,Solar,Solar,2030,100.0,South,2032.0,15.025710045898471,NATIONAL,slip_2
+69639.0,Triune Solar,16777,TX,Solar,Solar,2030,100.0,South,2033.0,42.45436035476413,NATIONAL,slip_3plus
+69639.0,Triune Solar,16777,TX,Solar,Solar,2030,100.0,South,,21.773130413776443,NATIONAL,never
+69695.0,Colonel Charles D. Maynard Project,CCM-1,AR,Hydro,Wind,2031,8.6,South,2031.0,8.6,unchanged,
+69695.0,Colonel Charles D. Maynard Project,CCM-2,AR,Hydro,Wind,2031,8.6,South,2031.0,8.6,unchanged,
+69695.0,Colonel Charles D. Maynard Project,CCM-3,AR,Hydro,Wind,2031,8.6,South,2031.0,8.6,unchanged,
+69944.0,Pointe Coupee Power Station,PC1A,LA,Natural Gas,Wind,2031,469.3,South,2031.0,469.3,unchanged,
+69944.0,Pointe Coupee Power Station,PC1B,LA,Natural Gas,Wind,2031,311.0,South,2031.0,311.0,unchanged,
+69944.0,Pointe Coupee Power Station,PC2A,LA,Natural Gas,Wind,2031,469.3,South,2031.0,469.3,unchanged,
+69944.0,Pointe Coupee Power Station,PC2B,LA,Natural Gas,Wind,2031,311.0,South,2031.0,311.0,unchanged,
+69944.0,Pointe Coupee Power Station,PC3A,LA,Natural Gas,Wind,2031,469.3,South,2031.0,469.3,unchanged,
+69944.0,Pointe Coupee Power Station,PC3B,LA,Natural Gas,Wind,2031,311.0,South,2031.0,311.0,unchanged,
+63911.0,MEC North,MECN,MI,Natural Gas,Wind,2034,500.0,Central,2034.0,500.0,unchanged,
+63912.0,MEC South,MECS,MI,Natural Gas,Wind,2034,500.0,Central,2034.0,500.0,unchanged,
+,Cayuga Energy Complex,CC1,IN,Natural Gas,Wind,2029,738.0,Central,2029.0,738.0,unchanged,
+,Cayuga Energy Complex,CC2,IN,Natural Gas,Wind,2030,738.0,Central,2030.0,738.0,unchanged,
+68053.0,Legend Power Station,1,TX,Natural Gas,Wind,2028,754.0,South,2028.0,754.0,unchanged,
+,DTE Handy Township,1,MI,Natural Gas,Wind,2031,1400.0,Central,2031.0,1400.0,unchanged,
+,DTE Milan Township,1,MI,Natural Gas,Wind,2032,700.0,Central,2032.0,700.0,unchanged,
+,Consumers Energy Karn,1,MI,Natural Gas,Wind,2031,750.0,Central,2031.0,750.0,unchanged,
+,Consumers Energy Thetford,1,MI,Natural Gas,Wind,2031,750.0,Central,2031.0,750.0,unchanged,
+,Fermi 2,1,MI,Nuclear,Wind,2036,177.0,Central,2036.0,177.0,unchanged,
+6034.0,Belle River (gas conversion),ST1,MI,Natural Gas,Wind,2026,697.5,Central,2026.0,697.5,unchanged,
+6034.0,Belle River (gas conversion),ST2,MI,Natural Gas,Wind,2026,697.5,Central,2026.0,697.5,unchanged,
+994.0,AES Petersburg (gas conversion),ST3,IN,Natural Gas,Wind,2026,670.9,Central,2026.0,670.9,unchanged,
+994.0,AES Petersburg (gas conversion),4,IN,Natural Gas,Wind,2026,670.9,Central,2026.0,670.9,unchanged,

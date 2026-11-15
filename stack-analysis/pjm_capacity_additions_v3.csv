@@ -1,0 +1,1258 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+70231.0,"Bethlehem Energy Center, LLC - (VA)",BETHL,VA,Battery Storage,Wind,2026,20.0,,2026.0,20.0,unchanged,
+70552.0,Colleen VA BESS 1,90913,VA,Battery Storage,Wind,2026,4.0,,2026.0,4.0,unchanged,
+69552.0,Danville VA BESS 2,90916,VA,Battery Storage,Wind,2026,11.0,,2026.0,11.0,unchanged,
+65043.0,Dulles Solar and Storage,DUST,VA,Battery Storage,Wind,2026,50.0,,2026.0,50.0,unchanged,
+70232.0,"Evergreen Energy Center, LLC",EVERG,VA,Battery Storage,Wind,2026,20.0,,2026.0,20.0,unchanged,
+69593.0,MCCo BESS Generating Facility,1,OH,Battery Storage,Wind,2026,3.9,,2026.0,3.9,unchanged,
+69593.0,MCCo BESS Generating Facility,2,OH,Battery Storage,Wind,2026,3.9,,2026.0,3.9,unchanged,
+69593.0,MCCo BESS Generating Facility,3,OH,Battery Storage,Wind,2026,3.9,,2026.0,3.9,unchanged,
+69593.0,MCCo BESS Generating Facility,4,OH,Battery Storage,Wind,2026,3.9,,2026.0,3.9,unchanged,
+70550.0,Meadow Creek VA BESS 1,9014,VA,Battery Storage,Wind,2026,4.0,,2026.0,4.0,unchanged,
+70296.0,Milltown Onsite BESS,MTBAT,NJ,Battery Storage,Wind,2026,13.2,,2026.0,13.2,unchanged,
+70551.0,Piney River VA BESS 1,90915,VA,Battery Storage,Wind,2026,4.0,,2026.0,4.0,unchanged,
+68055.0,Prospect Power BESS,PPB,VA,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+70233.0,"Railroad Energy Center, LLC",RAILR,VA,Battery Storage,Wind,2026,20.0,,2026.0,20.0,unchanged,
+70234.0,"Reid Energy Center, LLC",REID,VA,Battery Storage,Wind,2026,20.0,,2026.0,20.0,unchanged,
+70553.0,Salem VA BESS 1,90912,VA,Battery Storage,Wind,2026,4.0,,2026.0,4.0,unchanged,
+70244.0,South River 2,SOUR2,NJ,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+69871.0,Tanglewood BESS,BAT1,NC,Battery Storage,Wind,2026,3.9,,2026.0,3.9,unchanged,
+69872.0,Windsor BESS,BAT1,NC,Battery Storage,Wind,2026,3.9,,2026.0,3.9,unchanged,
+62749.0,Heidelberg Hydroelectric Project,1,KY,Hydro,Wind,2026,0.6,,2026.0,0.6,unchanged,
+62749.0,Heidelberg Hydroelectric Project,2,KY,Hydro,Wind,2026,0.6,,2026.0,0.6,unchanged,
+62749.0,Heidelberg Hydroelectric Project,3,KY,Hydro,Wind,2026,0.2,,2026.0,0.2,unchanged,
+62749.0,Heidelberg Hydroelectric Project,4,KY,Hydro,Wind,2026,0.2,,2026.0,0.2,unchanged,
+62749.0,Heidelberg Hydroelectric Project,5,KY,Hydro,Wind,2026,0.6,,2026.0,0.6,unchanged,
+62749.0,Heidelberg Hydroelectric Project,6,KY,Hydro,Wind,2026,0.6,,2026.0,0.6,unchanged,
+67265.0,CHP Plant,CTG-1,DC,Natural Gas,Wind,2026,5.7,,2026.0,5.7,unchanged,
+66918.0,Trumbull Energy Center,GT11,OH,Natural Gas,Wind,2026,308.7,,2026.0,308.7,unchanged,
+66918.0,Trumbull Energy Center,GT12,OH,Natural Gas,Wind,2026,308.7,,2026.0,308.7,unchanged,
+66918.0,Trumbull Energy Center,STG,OH,Natural Gas,Wind,2026,332.6,,2026.0,332.6,unchanged,
+52149.0,West Point (PA),GEN21,PA,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+67264.0,Jackson Pike WWTP Cogen Engines,1,OH,Other,Wind,2026,1.4,,2026.0,1.4,unchanged,
+67264.0,Jackson Pike WWTP Cogen Engines,2,OH,Other,Wind,2026,1.4,,2026.0,1.4,unchanged,
+70373.0,100a Swiss Dale Farm,SDF1A,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69987.0,2065 George St Community Solar,PV1,IL,Solar,Solar,2026,3.2,,2026.0,3.2,unchanged,
+70508.0,"4786A George Washington, LLC",4786A,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70509.0,"4786B George Washington, LLC",4786B,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69753.0,50 Meister Ave,13790,NJ,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+70227.0,AC IL - Lockport East,LOCKE,IL,Solar,Solar,2026,3.1,,2026.0,3.1,unchanged,
+70228.0,AC IL - Lockport West,LOCKW,IL,Solar,Solar,2026,3.4,,2026.0,3.4,unchanged,
+68118.0,Addison 11-SLCHI404,CH404,IL,Solar,Solar,2026,1.6,,2026.0,1.6,unchanged,
+68070.0,Alberta Solar,ALBER,VA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+69950.0,Allium,11135,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69554.0,BPL NJ - Belmont,BELMO,NJ,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+69791.0,BPL NJ - Union Distribution Center,NJUDC,NJ,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+69833.0,Bayonne Solar 2 LLC (CSG),BAYO2,NJ,Solar,Solar,2026,2.1,,2026.0,2.1,unchanged,
+68120.0,Bensenville 13-SLCHI513,CH513,IL,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+68122.0,Bensenville 2-SLCHI526,CH526,IL,Solar,Solar,2026,1.9,,2026.0,1.9,unchanged,
+68124.0,Bensenville Ind Park 11,CH411,IL,Solar,Solar,2026,1.2,,2026.0,1.2,unchanged,
+66960.0,Blackford Solar,BLKSL,IN,Solar,Solar,2026,150.0,,2026.0,150.0,unchanged,
+68000.0,Blue Moon,BLUMN,KY,Solar,Solar,2026,70.0,,2026.0,70.0,unchanged,
+68968.0,Border Basin Solar,ENX37,OH,Solar,Solar,2026,120.0,,2026.0,120.0,unchanged,
+70056.0,CE DE - Harbeson,HRBSN,DE,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+68431.0,Cadence Solar Energy Center,CADNC,OH,Solar,Solar,2026,240.0,,2026.0,240.0,unchanged,
+69842.0,Carneys Point Solar 1 LLC,CARN1,NJ,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+70555.0,Cenergy IL - Zion Park District,ZIONP,IL,Solar,Solar,2026,2.3,,2026.0,2.3,unchanged,
+68074.0,Cerulean Solar,CERUL,VA,Solar,Solar,2026,62.0,,2026.0,62.0,unchanged,
+69832.0,Chaberton Solar Biggins Creek LLC,BIGGC,DE,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+69831.0,Chaberton Solar Blue Hen LLC,BLUHN,DE,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+69259.0,Changewater 1,CGWTR,NJ,Solar,Solar,2026,11.0,,2026.0,11.0,unchanged,
+67444.0,Cherrywood Solar I,6794,MD,Solar,Solar,2026,145.0,,2026.0,145.0,unchanged,
+69555.0,Citrine NJ - West Pkwy,WESTP,NJ,Solar,Solar,2026,2.3,,2026.0,2.3,unchanged,
+65130.0,City of Bowie,PV2,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+67870.0,Clermont Solar,ENX34,PA,Solar,Solar,2026,120.0,,2026.0,120.0,unchanged,
+70043.0,Clover - (IL) CSG,16877,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70185.0,Copenhagen Ct,PV1,IL,Solar,Solar,2026,3.5,,2026.0,3.5,unchanged,
+70414.0,DE-ECA CS East Evens,EEVNS,DE,Solar,Solar,2026,1.3,,2026.0,1.3,unchanged,
+68195.0,Delaware Ave Solar,DEAVE,DE,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+68130.0,Des Plaines 11-SLCHI211,CH211,IL,Solar,Solar,2026,1.6,,2026.0,1.6,unchanged,
+70537.0,Downsville II,DOWII,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+65043.0,Dulles Solar and Storage,DUSO,VA,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+69790.0,Elizabeth Metropolitan Logistics Center,EZMLC,NJ,Solar,Solar,2026,1.2,,2026.0,1.2,unchanged,
+68132.0,Elk Grove 1-SLCHI701,CH701,IL,Solar,Solar,2026,1.7,,2026.0,1.7,unchanged,
+66647.0,Elkhart County Solar Project,USELT,IN,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+69291.0,Esky Solar,ESKY1,NJ,Solar,Solar,2026,7.0,,2026.0,7.0,unchanged,
+69666.0,FR_Williamsport LLC,WSSPV,PA,Solar,Solar,2026,20.0,,2026.0,20.0,unchanged,
+69837.0,"Falconhead Solar, LLC",FALCH,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+68135.0,Franklin Park 2-SLCHI802,CH802,IL,Solar,Solar,2026,1.2,,2026.0,1.2,unchanged,
+67637.0,Gillard,GILLD,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69434.0,Gourmet Lane - SLNNJ480,NN480,NJ,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69839.0,"Gracy Solar 1, LLC",GRACY,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70459.0,Green Acres PA,SP435,PA,Solar,Solar,2026,20.0,,2026.0,20.0,unchanged,
+69197.0,Halifax County Solar,HALIF,NC,Solar,Solar,2026,80.0,,2026.0,80.0,unchanged,
+69516.0,Hamms Landfill,HAMM,NJ,Solar,Solar,2026,6.0,,2026.0,6.0,unchanged,
+69830.0,Hampden CSG 1 LLC,HMPD1,PA,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+66830.0,Harrah's Atlantic City - POI 1 (Meeting,P5376,NJ,Solar,Solar,2026,2.3,,2026.0,2.3,unchanged,
+68970.0,Ho-Fel Solar,HOFEL,VA,Solar,Solar,2026,50.2,,2026.0,50.2,unchanged,
+70278.0,IL - Ameresco - Freeport North,FRPTN,IL,Solar,Solar,2026,2.7,,2026.0,2.7,unchanged,
+70279.0,IL - Ameresco - Freeport South,FRPTS,IL,Solar,Solar,2026,3.9,,2026.0,3.9,unchanged,
+70014.0,IL - ForeFront CS (BBCHS 1) Community Solar,BCHS1,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70015.0,IL - ForeFront CS (BBCHS 2) Community Solar,BCHS2,IL,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70488.0,IL - Renewable Properties - Bobcat - Wes,BOBW,IL,Solar,Solar,2026,4.5,,2026.0,4.5,unchanged,
+70486.0,IL - Renewable Properties - Bobcat - Whi,WHWIL,IL,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+68778.0,IL Chicago 2635 S Western Ave. (West),20421,IL,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+68392.0,IL2 - W109,IL2PV,IL,Solar,Solar,2026,4.9,,2026.0,4.9,unchanged,
+70532.0,Jacob's Place,3155,MD,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+68938.0,"Juliet Energy Project, LLC",OHJE1,OH,Solar,Solar,2026,50.0,,2026.0,50.0,unchanged,
+69182.0,KA 340,11225,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69201.0,KA361,11220,IL,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69202.0,KE109,11203,IL,Solar,Solar,2026,3.5,,2026.0,3.5,unchanged,
+69203.0,KN07,11227,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69829.0,Kanesolar01 LLC,KANE1,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+68418.0,Keydet Solar Center,KEYDT,VA,Solar,Solar,2026,120.0,,2026.0,120.0,unchanged,
+69570.0,Kieffer Funk,KIEFF,MD,Solar,Solar,2026,12.0,,2026.0,12.0,unchanged,
+70539.0,LI77,16057,IL,Solar,Solar,2026,4.5,,2026.0,4.5,unchanged,
+70521.0,Lily Creek Solar,17491,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70416.0,MD-CPG Salisbury Airport 1,SAIR1,MD,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+70417.0,MD-CPG Salisbury Airport 2,SAIR2,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70418.0,MD-ECA Salsibury,SLBRY,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69052.0,MDD109-NCBP BLDG 11-Manekin,MD11,MD,Solar,Solar,2026,2.4,,2026.0,2.4,unchanged,
+68514.0,Mammoth Central II Solar Facility,MC201,IN,Solar,Solar,2026,300.0,,2026.0,300.0,unchanged,
+66546.0,Mammoth Central Solar Project,MMTHC,IN,Solar,Solar,2026,300.0,,2026.0,300.0,unchanged,
+66545.0,Mammoth South Solar Project,MMTHS,IN,Solar,Solar,2026,300.0,,2026.0,300.0,unchanged,
+66860.0,Marion County Solar Project,USMNC,OH,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+65050.0,Mark Center Solar Project,MRC1,OH,Solar,Solar,2026,94.0,,2026.0,94.0,unchanged,
+70523.0,Marley Neck 3 - SLBAL005,BA005,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70524.0,Marley Neck 4 - SLBAL006,BA006,MD,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+70540.0,Maverick One,2998,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+68139.0,McCook 2-SLCHI102,CH102,IL,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69371.0,Middle Road Solar Partners,HALIF,PA,Solar,Solar,2026,2.5,,2026.0,2.5,unchanged,
+68597.0,Mingoville PV I,PV1,PA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+68598.0,Mingoville PV II,PV1,PA,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70004.0,Monroe Route 35 Solar LLC,MONRO,PA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+68062.0,Montpelier Solar Project,MPLR,OH,Solar,Solar,2026,49.0,,2026.0,49.0,unchanged,
+66313.0,Moon Corner Solar,MOCO,VA,Solar,Solar,2026,60.0,,2026.0,60.0,unchanged,
+66843.0,Morgnec Solar,MORG1,MD,Solar,Solar,2026,55.8,,2026.0,55.8,unchanged,
+68971.0,Moseley Hermon Solar,39302,VA,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69827.0,Mount Laurel Solar 2 LLC CSG,MTLA2,NJ,Solar,Solar,2026,1.9,,2026.0,1.9,unchanged,
+70483.0,Mountain Point- Sharptown,SP241,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69064.0,"NCBP TWELVE, LLC",NC12,MD,Solar,Solar,2026,1.2,,2026.0,1.2,unchanged,
+70487.0,NJ - CS Energy - Tabernacle Sands Solar,TABER,NJ,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+69792.0,NL DE Taylor CSG,NLDET,DE,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+70517.0,NL IL 1400 East,1400E,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70294.0,NL IL 2700 East,EAST,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70045.0,NL IL Bastian CSG,BASTN,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70440.0,NL IL Braceville,BRACE,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70044.0,NL IL Kane Rd CSG,KNERD,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70295.0,NL IL Lake,LAKE,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70580.0,NL IL Old Stage,OLSTG,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69249.0,National Park Solar,NTLPK,NJ,Solar,Solar,2026,6.0,,2026.0,6.0,unchanged,
+69377.0,New Freedom Solar Partners,NEWFR,PA,Solar,Solar,2026,2.5,,2026.0,2.5,unchanged,
+68142.0,Northlake 3-SLCHI303,CH303,IL,Solar,Solar,2026,1.6,,2026.0,1.6,unchanged,
+70046.0,OER IL - Groundhog,GNDHG,IL,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69826.0,Ohara CSG 1 LLC,OHAR1,PA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+69207.0,Osman Trust,11215,IL,Solar,Solar,2026,4.5,,2026.0,4.5,unchanged,
+69996.0,Penn Hemlock Solar LLC,HEMLK,PA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+69525.0,Pennsville Landfill (CSG),PNSVL,NJ,Solar,Solar,2026,4.3,,2026.0,4.3,unchanged,
+70006.0,Perry Route 104 Solar LLC,PERRR,PA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+70339.0,Pivot Energy IL 55 LLC,IL55B,IL,Solar,Solar,2026,3.1,,2026.0,3.1,unchanged,
+69477.0,Pleasant Prairie Solar Energy LLC,PLSNT,OH,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+67876.0,Potter Solar,ENX35,PA,Solar,Solar,2026,35.0,,2026.0,35.0,unchanged,
+70181.0,Prologis - SLCNJ001 - Community Solar,CN001,NJ,Solar,Solar,2026,3.2,,2026.0,3.2,unchanged,
+70507.0,Prologis - SLNNJ036 - Community Solar,NN036,NJ,Solar,Solar,2026,1.6,,2026.0,1.6,unchanged,
+69438.0,Prologis Edison 0405 - SLCNJ405 - Community Solar,CN405,NJ,Solar,Solar,2026,1.2,,2026.0,1.2,unchanged,
+69619.0,Prologis Edison 0503 - SLCNJ005 - Community Solar,CN005,NJ,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+68196.0,Rifle Range Road Solar,RIFPV,DE,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+70275.0,Roxbury,PV1,MD,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+69788.0,SPG IL Valley Run CSG,VARUN,IL,Solar,Solar,2026,2.3,,2026.0,2.3,unchanged,
+69815.0,SV CSG Kingston Solar 1,KINGS,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69157.0,SV CSG Paloma Solar,PALOM,IL,Solar,Solar,2026,4.4,,2026.0,4.4,unchanged,
+69814.0,SV CSG Sun Trust Solar,SUNSO,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69670.0,Samaritan Solar,SAMPV,PA,Solar,Solar,2026,12.0,,2026.0,12.0,unchanged,
+67643.0,Solitude,SOLIT,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70036.0,St. Josephs Wayne,SP418,NJ,Solar,Solar,2026,2.5,,2026.0,2.5,unchanged,
+69835.0,Starke Solar LLC (CSG),STARK,NJ,Solar,Solar,2026,2.5,,2026.0,2.5,unchanged,
+70182.0,Steger,PV1,IL,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70393.0,Stephenson County IL S1,S1,IL,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+67215.0,Sun Ridge Solar,ENX25,VA,Solar,Solar,2026,50.0,,2026.0,50.0,unchanged,
+69561.0,Sunrise Solar Lincoln DE (CSG),LINCO,DE,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+70293.0,Swanton Coopers ANEM,COOP1,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70361.0,Swanton MD Coopers CDG A2,COOP2,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70362.0,Swanton MD Coopers CDG A3,COOP3,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70363.0,Swanton MD Coopers CDG A4,COOP4,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70342.0,Swanton MD Mt Zion Rd ANEM Solar LLC (CSG),ZION1,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70274.0,Swanton MD Mt Zion Rd CDG A2,ZION2,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70273.0,Swanton MD Mt Zion Rd CDG A3,ZION3,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70272.0,Swanton MD Mt Zion Rd CDG A4,ZION4,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69768.0,TPE MD PR232,PR232,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69769.0,TPE MD PR270,PR270,MD,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69111.0,Trade Post Solar,TRADE,IN,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+69616.0,USS Lyndon Solar LLC,USLYN,IL,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+69882.0,USS Middle Solar,USMID,IL,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69885.0,USS Mourning,USMOU,IL,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69886.0,USS Swank Solar,USSWA,IL,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+65338.0,Union Ridge Solar,UNIS1,OH,Solar,Solar,2026,108.0,,2026.0,108.0,unchanged,
+69951.0,Vineland Solar LLC,VNLD2,NJ,Solar,Solar,2026,15.0,,2026.0,15.0,unchanged,
+70445.0,W 167th St,PV1,IL,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+70456.0,W Belmont Ave,PV1,IL,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+70364.0,Walker Solar,GEN1,PA,Solar,Solar,2026,80.0,,2026.0,80.0,unchanged,
+70495.0,Welcome Solar II,WEL02,PA,Solar,Solar,2026,21.0,,2026.0,21.0,unchanged,
+70496.0,Welcome Solar III,WEL03,PA,Solar,Solar,2026,21.0,,2026.0,21.0,unchanged,
+69836.0,West Deptford Solar 1 LLC,DEPT1,NJ,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+69853.0,West Deptford Solar 2 LLC CSG,DEPT2,NJ,Solar,Solar,2026,1.7,,2026.0,1.7,unchanged,
+66968.0,Blackford Wind,BFW00,IN,Wind,Wind,2026,200.0,,2026.0,200.0,unchanged,
+67348.0,"CPV Rogue's Wind, LLC",ROGUE,PA,Wind,Wind,2026,114.0,,2026.0,114.0,unchanged,
+66359.0,"Grover Hill Wind, LLC",GHW,OH,Wind,Wind,2026,140.3,,2026.0,140.3,unchanged,
+67347.0,Osagrove Flats Wind,OF1,IL,Wind,Wind,2026,150.0,,2026.0,150.0,unchanged,
+63818.0,"Panther Grove Wind, LLC",78787,IL,Wind,Wind,2026,423.0,,2026.0,423.0,unchanged,
+68197.0,Rocky Forge Wind,ROCKY,VA,Wind,Wind,2026,78.0,,2026.0,78.0,unchanged,
+65304.0,ENGIE Solidago Solar Project - Hybrid,BESS,DE,Battery Storage,Wind,2027,12.5,,2027.0,12.5,unchanged,
+68911.0,Flint,27288,OH,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+65821.0,Honey Creek Solar,HNYBA,IN,Battery Storage,Wind,2027,20.0,,2027.0,20.0,unchanged,
+70240.0,PF Onsite BESS,PFNON,PA,Battery Storage,Wind,2027,21.0,,2027.0,21.0,unchanged,
+67874.0,Parks Valley Energy LLC,ENX32,WV,Battery Storage,Wind,2027,150.0,,2027.0,150.0,unchanged,
+65305.0,Powells Creek Solar - Hybrid,BESS,VA,Battery Storage,Wind,2027,17.5,,2027.0,17.5,unchanged,
+68235.0,Romeoville 34 - SLCHI234 - BSCHI234,C34BB,IL,Battery Storage,Wind,2027,0.5,,2027.0,0.5,unchanged,
+69948.0,SV CSG Manteno,MANTB,IL,Battery Storage,Wind,2027,5.0,,2027.0,5.0,unchanged,
+65302.0,Salt City Solar Project - Hybrid,BESS,OH,Battery Storage,Wind,2027,12.5,,2027.0,12.5,unchanged,
+65307.0,Sunnybrook Solar Project - Hybrid,SUNB,VA,Battery Storage,Wind,2027,12.5,,2027.0,12.5,unchanged,
+67884.0,Two Oaks Solar and Storage LLC,ENX28,VA,Battery Storage,Wind,2027,50.0,,2027.0,50.0,unchanged,
+59091.0,Braddock Lock and Dam,GEN1,PA,Hydro,Wind,2027,5.3,,2027.0,5.3,unchanged,
+62390.0,KY No. 11 L&D Hydroelectric Project,6,KY,Hydro,Wind,2027,0.6,,2027.0,0.6,unchanged,
+62390.0,KY No. 11 L&D Hydroelectric Project,NA1,KY,Hydro,Wind,2027,0.6,,2027.0,0.6,unchanged,
+62390.0,KY No. 11 L&D Hydroelectric Project,NA2,KY,Hydro,Wind,2027,0.6,,2027.0,0.6,unchanged,
+62390.0,KY No. 11 L&D Hydroelectric Project,NA3,KY,Hydro,Wind,2027,0.2,,2027.0,0.2,unchanged,
+62390.0,KY No. 11 L&D Hydroelectric Project,NA4,KY,Hydro,Wind,2027,0.2,,2027.0,0.2,unchanged,
+62390.0,KY No. 11 L&D Hydroelectric Project,NA5,KY,Hydro,Wind,2027,0.6,,2027.0,0.6,unchanged,
+52021.0,ITT Cogen Facility,GEN3,IL,Natural Gas,Wind,2027,4.1,,2027.0,4.1,unchanged,
+52021.0,ITT Cogen Facility,GEN4,IL,Natural Gas,Wind,2027,4.1,,2027.0,4.1,unchanged,
+68119.0,Aurora 7-SLCHI307,CH307,IL,Solar,Solar,2027,1.9,,2027.0,1.3347875141030463,ST:IL,slip_0
+68119.0,Aurora 7-SLCHI307,CH307,IL,Solar,Solar,2027,1.9,,2028.0,0.282963520120346,ST:IL,slip_1
+68119.0,Aurora 7-SLCHI307,CH307,IL,Solar,Solar,2027,1.9,,2029.0,0.24902218879277924,ST:IL,slip_2
+68119.0,Aurora 7-SLCHI307,CH307,IL,Solar,Solar,2027,1.9,,2030.0,0.031440391124482894,ST:IL,slip_3plus
+68119.0,Aurora 7-SLCHI307,CH307,IL,Solar,Solar,2027,1.9,,,0.0017863858593456187,ST:IL,never
+66850.0,Beaver Creek Solar,BEAC1,PA,Solar,Solar,2027,34.2,,2026.0,0.6558884542024588,PJM,slip_-1
+66850.0,Beaver Creek Solar,BEAC1,PA,Solar,Solar,2027,34.2,,2027.0,12.004068108093058,PJM,slip_0
+66850.0,Beaver Creek Solar,BEAC1,PA,Solar,Solar,2027,34.2,,2028.0,10.22114664401966,PJM,slip_1
+66850.0,Beaver Creek Solar,BEAC1,PA,Solar,Solar,2027,34.2,,2029.0,3.0366087961351584,PJM,slip_2
+66850.0,Beaver Creek Solar,BEAC1,PA,Solar,Solar,2027,34.2,,2030.0,6.950036894204131,PJM,slip_3plus
+66850.0,Beaver Creek Solar,BEAC1,PA,Solar,Solar,2027,34.2,,,1.3322511033455386,PJM,never
+68121.0,Bensenville 14-SLCHI414,CH414,IL,Solar,Solar,2027,1.3,,2027.0,0.9132756675441897,ST:IL,slip_0
+68121.0,Bensenville 14-SLCHI414,CH414,IL,Solar,Solar,2027,1.3,,2028.0,0.19360661902971044,ST:IL,slip_1
+68121.0,Bensenville 14-SLCHI414,CH414,IL,Solar,Solar,2027,1.3,,2029.0,0.1703836028582174,ST:IL,slip_2
+68121.0,Bensenville 14-SLCHI414,CH414,IL,Solar,Solar,2027,1.3,,2030.0,0.021511846558856716,ST:IL,slip_3plus
+68121.0,Bensenville 14-SLCHI414,CH414,IL,Solar,Solar,2027,1.3,,,0.0012222640090259497,ST:IL,never
+68123.0,Bensenville Ind Park 10-SLCHI410,CH410,IL,Solar,Solar,2027,1.2,,2027.0,0.8430236931177135,ST:IL,slip_0
+68123.0,Bensenville Ind Park 10-SLCHI410,CH410,IL,Solar,Solar,2027,1.2,,2028.0,0.17871380218127117,ST:IL,slip_1
+68123.0,Bensenville Ind Park 10-SLCHI410,CH410,IL,Solar,Solar,2027,1.2,,2029.0,0.15727717186912374,ST:IL,slip_2
+68123.0,Bensenville Ind Park 10-SLCHI410,CH410,IL,Solar,Solar,2027,1.2,,2030.0,0.019857089131252354,ST:IL,slip_3plus
+68123.0,Bensenville Ind Park 10-SLCHI410,CH410,IL,Solar,Solar,2027,1.2,,,0.0011282437006393381,ST:IL,never
+68126.0,Bensenville Ind Park 2-SLCHI402,CH402,IL,Solar,Solar,2027,1.1,,2027.0,0.7727717186912375,ST:IL,slip_0
+68126.0,Bensenville Ind Park 2-SLCHI402,CH402,IL,Solar,Solar,2027,1.1,,2028.0,0.1638209853328319,ST:IL,slip_1
+68126.0,Bensenville Ind Park 2-SLCHI402,CH402,IL,Solar,Solar,2027,1.1,,2029.0,0.14417074088003012,ST:IL,slip_2
+68126.0,Bensenville Ind Park 2-SLCHI402,CH402,IL,Solar,Solar,2027,1.1,,2030.0,0.018202331703647993,ST:IL,slip_3plus
+68126.0,Bensenville Ind Park 2-SLCHI402,CH402,IL,Solar,Solar,2027,1.1,,,0.0010342233922527267,ST:IL,never
+68127.0,Bensenville Ind Park 4-SLCHI424,CH424,IL,Solar,Solar,2027,1.7,,2027.0,1.194283565250094,ST:IL,slip_0
+68127.0,Bensenville Ind Park 4-SLCHI424,CH424,IL,Solar,Solar,2027,1.7,,2028.0,0.2531778864234675,ST:IL,slip_1
+68127.0,Bensenville Ind Park 4-SLCHI424,CH424,IL,Solar,Solar,2027,1.7,,2029.0,0.22280932681459195,ST:IL,slip_2
+68127.0,Bensenville Ind Park 4-SLCHI424,CH424,IL,Solar,Solar,2027,1.7,,2030.0,0.028130876269274168,ST:IL,slip_3plus
+68127.0,Bensenville Ind Park 4-SLCHI424,CH424,IL,Solar,Solar,2027,1.7,,,0.0015983452425723957,ST:IL,never
+70075.0,Bigler - PA 0409 (Flango 1),409,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70075.0,Bigler - PA 0409 (Flango 1),409,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70075.0,Bigler - PA 0409 (Flango 1),409,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70075.0,Bigler - PA 0409 (Flango 1),409,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70075.0,Bigler - PA 0409 (Flango 1),409,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70075.0,Bigler - PA 0409 (Flango 1),409,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70077.0,Bigler - PA 0437 (Flango 3),437,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70077.0,Bigler - PA 0437 (Flango 3),437,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70077.0,Bigler - PA 0437 (Flango 3),437,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70077.0,Bigler - PA 0437 (Flango 3),437,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70077.0,Bigler - PA 0437 (Flango 3),437,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70077.0,Bigler - PA 0437 (Flango 3),437,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70078.0,Bigler - PA 0438 (Flango 4),438,PA,Solar,Solar,2027,2.0,,2026.0,0.03835604995336016,PJM,slip_-1
+70078.0,Bigler - PA 0438 (Flango 4),438,PA,Solar,Solar,2027,2.0,,2027.0,0.7019922870229858,PJM,slip_0
+70078.0,Bigler - PA 0438 (Flango 4),438,PA,Solar,Solar,2027,2.0,,2028.0,0.5977278739192783,PJM,slip_1
+70078.0,Bigler - PA 0438 (Flango 4),438,PA,Solar,Solar,2027,2.0,,2029.0,0.17757946176228995,PJM,slip_2
+70078.0,Bigler - PA 0438 (Flango 4),438,PA,Solar,Solar,2027,2.0,,2030.0,0.4064349060938088,PJM,slip_3plus
+70078.0,Bigler - PA 0438 (Flango 4),438,PA,Solar,Solar,2027,2.0,,,0.07790942124827711,PJM,never
+68073.0,Blue Ridge Solar,BLUER,VA,Solar,Solar,2027,95.0,,2026.0,2.2297436531486974,ST:VA,slip_-1
+68073.0,Blue Ridge Solar,BLUER,VA,Solar,Solar,2027,95.0,,2027.0,38.911865314869765,ST:VA,slip_0
+68073.0,Blue Ridge Solar,BLUER,VA,Solar,Solar,2027,95.0,,2028.0,19.084961259479062,ST:VA,slip_1
+68073.0,Blue Ridge Solar,BLUER,VA,Solar,Solar,2027,95.0,,2029.0,4.371393834487306,ST:VA,slip_2
+68073.0,Blue Ridge Solar,BLUER,VA,Solar,Solar,2027,95.0,,2030.0,25.703717441477085,ST:VA,slip_3plus
+68073.0,Blue Ridge Solar,BLUER,VA,Solar,Solar,2027,95.0,,,4.69831849653808,ST:VA,never
+68014.0,Bradford Solar PA,BRDFS,PA,Solar,Solar,2027,100.5,,2026.0,1.927391510156348,PJM,slip_-1
+68014.0,Bradford Solar PA,BRDFS,PA,Solar,Solar,2027,100.5,,2027.0,35.27511242290503,PJM,slip_0
+68014.0,Bradford Solar PA,BRDFS,PA,Solar,Solar,2027,100.5,,2028.0,30.035825664443735,PJM,slip_1
+68014.0,Bradford Solar PA,BRDFS,PA,Solar,Solar,2027,100.5,,2029.0,8.92336795355507,PJM,slip_2
+68014.0,Bradford Solar PA,BRDFS,PA,Solar,Solar,2027,100.5,,2030.0,20.42335403121389,PJM,slip_3plus
+68014.0,Bradford Solar PA,BRDFS,PA,Solar,Solar,2027,100.5,,,3.914948417725925,PJM,never
+67990.0,Bright Mountain Solar,BM1,KY,Solar,Solar,2027,80.0,,2026.0,1.5342419981344064,PJM,slip_-1
+67990.0,Bright Mountain Solar,BM1,KY,Solar,Solar,2027,80.0,,2027.0,28.07969148091943,PJM,slip_0
+67990.0,Bright Mountain Solar,BM1,KY,Solar,Solar,2027,80.0,,2028.0,23.90911495677113,PJM,slip_1
+67990.0,Bright Mountain Solar,BM1,KY,Solar,Solar,2027,80.0,,2029.0,7.1031784704915975,PJM,slip_2
+67990.0,Bright Mountain Solar,BM1,KY,Solar,Solar,2027,80.0,,2030.0,16.25739624375235,PJM,slip_3plus
+67990.0,Bright Mountain Solar,BM1,KY,Solar,Solar,2027,80.0,,,3.1163768499310844,PJM,never
+70079.0,Buckingham - PA 0151 (Crea),151,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70079.0,Buckingham - PA 0151 (Crea),151,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70079.0,Buckingham - PA 0151 (Crea),151,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70079.0,Buckingham - PA 0151 (Crea),151,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70079.0,Buckingham - PA 0151 (Crea),151,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70079.0,Buckingham - PA 0151 (Crea),151,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70080.0,Burrell - PA 0396 (Copeland),396,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70080.0,Burrell - PA 0396 (Copeland),396,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70080.0,Burrell - PA 0396 (Copeland),396,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70080.0,Burrell - PA 0396 (Copeland),396,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70080.0,Burrell - PA 0396 (Copeland),396,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70080.0,Burrell - PA 0396 (Copeland),396,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70081.0,CVE US PA Dayton 379,379,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70081.0,CVE US PA Dayton 379,379,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70081.0,CVE US PA Dayton 379,379,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70081.0,CVE US PA Dayton 379,379,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70081.0,CVE US PA Dayton 379,379,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70081.0,CVE US PA Dayton 379,379,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70374.0,Chaberton Solar Crestone,CSC52,DE,Solar,Solar,2027,4.0,,2026.0,0.07671209990672032,PJM,slip_-1
+70374.0,Chaberton Solar Crestone,CSC52,DE,Solar,Solar,2027,4.0,,2027.0,1.4039845740459715,PJM,slip_0
+70374.0,Chaberton Solar Crestone,CSC52,DE,Solar,Solar,2027,4.0,,2028.0,1.1954557478385566,PJM,slip_1
+70374.0,Chaberton Solar Crestone,CSC52,DE,Solar,Solar,2027,4.0,,2029.0,0.3551589235245799,PJM,slip_2
+70374.0,Chaberton Solar Crestone,CSC52,DE,Solar,Solar,2027,4.0,,2030.0,0.8128698121876176,PJM,slip_3plus
+70374.0,Chaberton Solar Crestone,CSC52,DE,Solar,Solar,2027,4.0,,,0.15581884249655423,PJM,never
+69582.0,"Chester Solar Technology Park, LLC",CSTP,VA,Solar,Solar,2027,160.0,,2026.0,3.755357731618859,ST:VA,slip_-1
+69582.0,"Chester Solar Technology Park, LLC",CSTP,VA,Solar,Solar,2027,160.0,,2027.0,65.53577316188593,ST:VA,slip_0
+69582.0,"Chester Solar Technology Park, LLC",CSTP,VA,Solar,Solar,2027,160.0,,2028.0,32.14309264754368,ST:VA,slip_1
+69582.0,"Chester Solar Technology Park, LLC",CSTP,VA,Solar,Solar,2027,160.0,,2029.0,7.3623475107154635,ST:VA,slip_2
+69582.0,"Chester Solar Technology Park, LLC",CSTP,VA,Solar,Solar,2027,160.0,,2030.0,43.29047148038246,ST:VA,slip_3plus
+69582.0,"Chester Solar Technology Park, LLC",CSTP,VA,Solar,Solar,2027,160.0,,,7.91295746785361,ST:VA,never
+68129.0,Cicero 3-SLCHI603,CH603,IL,Solar,Solar,2027,1.9,,2027.0,1.3347875141030463,ST:IL,slip_0
+68129.0,Cicero 3-SLCHI603,CH603,IL,Solar,Solar,2027,1.9,,2028.0,0.282963520120346,ST:IL,slip_1
+68129.0,Cicero 3-SLCHI603,CH603,IL,Solar,Solar,2027,1.9,,2029.0,0.24902218879277924,ST:IL,slip_2
+68129.0,Cicero 3-SLCHI603,CH603,IL,Solar,Solar,2027,1.9,,2030.0,0.031440391124482894,ST:IL,slip_3plus
+68129.0,Cicero 3-SLCHI603,CH603,IL,Solar,Solar,2027,1.9,,,0.0017863858593456187,ST:IL,never
+66315.0,Clover Creek Solar,CCSO,VA,Solar,Solar,2027,77.2,,2026.0,1.8119601055060996,ST:VA,slip_-1
+66315.0,Clover Creek Solar,CCSO,VA,Solar,Solar,2027,77.2,,2027.0,31.62101055060996,ST:VA,slip_0
+66315.0,Clover Creek Solar,CCSO,VA,Solar,Solar,2027,77.2,,2028.0,15.509042202439828,ST:VA,slip_1
+66315.0,Clover Creek Solar,CCSO,VA,Solar,Solar,2027,77.2,,2029.0,3.5523326739202115,ST:VA,slip_2
+66315.0,Clover Creek Solar,CCSO,VA,Solar,Solar,2027,77.2,,2030.0,20.887652489284537,ST:VA,slip_3plus
+66315.0,Clover Creek Solar,CCSO,VA,Solar,Solar,2027,77.2,,,3.8180019782393666,ST:VA,never
+69742.0,Cooperative Solar Three-Marion,PV3,KY,Solar,Solar,2027,96.0,,2026.0,1.8410903977612876,PJM,slip_-1
+69742.0,Cooperative Solar Three-Marion,PV3,KY,Solar,Solar,2027,96.0,,2027.0,33.69562977710332,PJM,slip_0
+69742.0,Cooperative Solar Three-Marion,PV3,KY,Solar,Solar,2027,96.0,,2028.0,28.69093794812536,PJM,slip_1
+69742.0,Cooperative Solar Three-Marion,PV3,KY,Solar,Solar,2027,96.0,,2029.0,8.523814164589918,PJM,slip_2
+69742.0,Cooperative Solar Three-Marion,PV3,KY,Solar,Solar,2027,96.0,,2030.0,19.50887549250282,PJM,slip_3plus
+69742.0,Cooperative Solar Three-Marion,PV3,KY,Solar,Solar,2027,96.0,,,3.7396522199173017,PJM,never
+69741.0,Cooperative Solar Two-Fayette,PV2,KY,Solar,Solar,2027,40.0,,2026.0,0.7671209990672032,PJM,slip_-1
+69741.0,Cooperative Solar Two-Fayette,PV2,KY,Solar,Solar,2027,40.0,,2027.0,14.039845740459715,PJM,slip_0
+69741.0,Cooperative Solar Two-Fayette,PV2,KY,Solar,Solar,2027,40.0,,2028.0,11.954557478385565,PJM,slip_1
+69741.0,Cooperative Solar Two-Fayette,PV2,KY,Solar,Solar,2027,40.0,,2029.0,3.5515892352457987,PJM,slip_2
+69741.0,Cooperative Solar Two-Fayette,PV2,KY,Solar,Solar,2027,40.0,,2030.0,8.128698121876175,PJM,slip_3plus
+69741.0,Cooperative Solar Two-Fayette,PV2,KY,Solar,Solar,2027,40.0,,,1.5581884249655422,PJM,never
+70196.0,"DEL022-30423B Thorogoods Rd, LLC",DEL22,DE,Solar,Solar,2027,2.0,,2026.0,0.03835604995336016,PJM,slip_-1
+70196.0,"DEL022-30423B Thorogoods Rd, LLC",DEL22,DE,Solar,Solar,2027,2.0,,2027.0,0.7019922870229858,PJM,slip_0
+70196.0,"DEL022-30423B Thorogoods Rd, LLC",DEL22,DE,Solar,Solar,2027,2.0,,2028.0,0.5977278739192783,PJM,slip_1
+70196.0,"DEL022-30423B Thorogoods Rd, LLC",DEL22,DE,Solar,Solar,2027,2.0,,2029.0,0.17757946176228995,PJM,slip_2
+70196.0,"DEL022-30423B Thorogoods Rd, LLC",DEL22,DE,Solar,Solar,2027,2.0,,2030.0,0.4064349060938088,PJM,slip_3plus
+70196.0,"DEL022-30423B Thorogoods Rd, LLC",DEL22,DE,Solar,Solar,2027,2.0,,,0.07790942124827711,PJM,never
+70082.0,Dayton - PA 0404 (Good East),404,PA,Solar,Solar,2027,2.5,,2026.0,0.0479450624417002,PJM,slip_-1
+70082.0,Dayton - PA 0404 (Good East),404,PA,Solar,Solar,2027,2.5,,2027.0,0.8774903587787322,PJM,slip_0
+70082.0,Dayton - PA 0404 (Good East),404,PA,Solar,Solar,2027,2.5,,2028.0,0.7471598423990978,PJM,slip_1
+70082.0,Dayton - PA 0404 (Good East),404,PA,Solar,Solar,2027,2.5,,2029.0,0.22197432720286242,PJM,slip_2
+70082.0,Dayton - PA 0404 (Good East),404,PA,Solar,Solar,2027,2.5,,2030.0,0.5080436326172609,PJM,slip_3plus
+70082.0,Dayton - PA 0404 (Good East),404,PA,Solar,Solar,2027,2.5,,,0.09738677656034639,PJM,never
+68995.0,Dover Solar (PA),ENX38,PA,Solar,Solar,2027,75.0,,2026.0,1.4383518732510059,PJM,slip_-1
+68995.0,Dover Solar (PA),ENX38,PA,Solar,Solar,2027,75.0,,2027.0,26.324710763361967,PJM,slip_0
+68995.0,Dover Solar (PA),ENX38,PA,Solar,Solar,2027,75.0,,2028.0,22.414795271972935,PJM,slip_1
+68995.0,Dover Solar (PA),ENX38,PA,Solar,Solar,2027,75.0,,2029.0,6.659229816085873,PJM,slip_2
+68995.0,Dover Solar (PA),ENX38,PA,Solar,Solar,2027,75.0,,2030.0,15.241308978517829,PJM,slip_3plus
+68995.0,Dover Solar (PA),ENX38,PA,Solar,Solar,2027,75.0,,,2.9216032968103915,PJM,never
+70023.0,Edgecombe Solar LLC,EDGCM,NC,Solar,Solar,2027,75.0,,2026.0,1.9584473902746595,ST:NC,slip_-1
+70023.0,Edgecombe Solar LLC,EDGCM,NC,Solar,Solar,2027,75.0,,2027.0,21.623658229016083,ST:NC,slip_0
+70023.0,Edgecombe Solar LLC,EDGCM,NC,Solar,Solar,2027,75.0,,2028.0,14.14280441669486,ST:NC,slip_1
+70023.0,Edgecombe Solar LLC,EDGCM,NC,Solar,Solar,2027,75.0,,2029.0,2.678159505428597,ST:NC,slip_2
+70023.0,Edgecombe Solar LLC,EDGCM,NC,Solar,Solar,2027,75.0,,2030.0,19.05391689478055,ST:NC,slip_3plus
+70023.0,Edgecombe Solar LLC,EDGCM,NC,Solar,Solar,2027,75.0,,,15.543013563805246,ST:NC,never
+68133.0,Elk Grove 51-SLCHI151,CH151,IL,Solar,Solar,2027,1.4,,2027.0,0.9835276419706657,ST:IL,slip_0
+68133.0,Elk Grove 51-SLCHI151,CH151,IL,Solar,Solar,2027,1.4,,2028.0,0.20849943587814967,ST:IL,slip_1
+68133.0,Elk Grove 51-SLCHI151,CH151,IL,Solar,Solar,2027,1.4,,2029.0,0.18349003384731102,ST:IL,slip_2
+68133.0,Elk Grove 51-SLCHI151,CH151,IL,Solar,Solar,2027,1.4,,2030.0,0.023166603986461077,ST:IL,slip_3plus
+68133.0,Elk Grove 51-SLCHI151,CH151,IL,Solar,Solar,2027,1.4,,,0.0013162843174125611,ST:IL,never
+67984.0,Firefly Solar PA,FFLPA,PA,Solar,Solar,2027,401.6,,2026.0,7.70189483063472,PJM,slip_-1
+67984.0,Firefly Solar PA,FFLPA,PA,Solar,Solar,2027,401.6,,2027.0,140.96005123421554,PJM,slip_0
+67984.0,Firefly Solar PA,FFLPA,PA,Solar,Solar,2027,401.6,,2028.0,120.02375708299108,PJM,slip_1
+67984.0,Firefly Solar PA,FFLPA,PA,Solar,Solar,2027,401.6,,2029.0,35.657955921867824,PJM,slip_2
+67984.0,Firefly Solar PA,FFLPA,PA,Solar,Solar,2027,401.6,,2030.0,81.6121291436368,PJM,slip_3plus
+67984.0,Firefly Solar PA,FFLPA,PA,Solar,Solar,2027,401.6,,,15.644211786654045,PJM,never
+67937.0,Flora Solar,FLOSO,IL,Solar,Solar,2027,125.0,,2027.0,87.81496803309516,ST:IL,slip_0
+67937.0,Flora Solar,FLOSO,IL,Solar,Solar,2027,125.0,,2028.0,18.61602106054908,ST:IL,slip_1
+67937.0,Flora Solar,FLOSO,IL,Solar,Solar,2027,125.0,,2029.0,16.383038736367055,ST:IL,slip_2
+67937.0,Flora Solar,FLOSO,IL,Solar,Solar,2027,125.0,,2030.0,2.0684467845054533,ST:IL,slip_3plus
+67937.0,Flora Solar,FLOSO,IL,Solar,Solar,2027,125.0,,,0.1175253854832644,ST:IL,never
+69998.0,Franklin White Church Road Solar LLC,WHTCH,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+69998.0,Franklin White Church Road Solar LLC,WHTCH,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+69998.0,Franklin White Church Road Solar LLC,WHTCH,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+69998.0,Franklin White Church Road Solar LLC,WHTCH,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+69998.0,Franklin White Church Road Solar LLC,WHTCH,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+69998.0,Franklin White Church Road Solar LLC,WHTCH,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+69862.0,Galva School,GALF,IL,Solar,Solar,2027,1.5,,2027.0,1.0537796163971418,ST:IL,slip_0
+69862.0,Galva School,GALF,IL,Solar,Solar,2027,1.5,,2028.0,0.22339225272658897,ST:IL,slip_1
+69862.0,Galva School,GALF,IL,Solar,Solar,2027,1.5,,2029.0,0.1965964648364047,ST:IL,slip_2
+69862.0,Galva School,GALF,IL,Solar,Solar,2027,1.5,,2030.0,0.024821361414065442,ST:IL,slip_3plus
+69862.0,Galva School,GALF,IL,Solar,Solar,2027,1.5,,,0.0014103046257991727,ST:IL,never
+67871.0,Gladys Solar LLC,ENX29,VA,Solar,Solar,2027,60.4,,2026.0,1.4176475436861193,ST:VA,slip_-1
+67871.0,Gladys Solar LLC,ENX29,VA,Solar,Solar,2027,60.4,,2027.0,24.739754368611937,ST:VA,slip_0
+67871.0,Gladys Solar LLC,ENX29,VA,Solar,Solar,2027,60.4,,2028.0,12.13401747444774,ST:VA,slip_1
+67871.0,Gladys Solar LLC,ENX29,VA,Solar,Solar,2027,60.4,,2029.0,2.779286185295087,ST:VA,slip_2
+67871.0,Gladys Solar LLC,ENX29,VA,Solar,Solar,2027,60.4,,2030.0,16.34215298384438,ST:VA,slip_3plus
+67871.0,Gladys Solar LLC,ENX29,VA,Solar,Solar,2027,60.4,,,2.9871414441147377,ST:VA,never
+68137.0,Glendale Heights 10-SLCHI910,CH910,IL,Solar,Solar,2027,1.3,,2027.0,0.9132756675441897,ST:IL,slip_0
+68137.0,Glendale Heights 10-SLCHI910,CH910,IL,Solar,Solar,2027,1.3,,2028.0,0.19360661902971044,ST:IL,slip_1
+68137.0,Glendale Heights 10-SLCHI910,CH910,IL,Solar,Solar,2027,1.3,,2029.0,0.1703836028582174,ST:IL,slip_2
+68137.0,Glendale Heights 10-SLCHI910,CH910,IL,Solar,Solar,2027,1.3,,2030.0,0.021511846558856716,ST:IL,slip_3plus
+68137.0,Glendale Heights 10-SLCHI910,CH910,IL,Solar,Solar,2027,1.3,,,0.0012222640090259497,ST:IL,never
+68211.0,Grears Corner Solar,GRER,DE,Solar,Solar,2027,4.0,,2026.0,0.07671209990672032,PJM,slip_-1
+68211.0,Grears Corner Solar,GRER,DE,Solar,Solar,2027,4.0,,2027.0,1.4039845740459715,PJM,slip_0
+68211.0,Grears Corner Solar,GRER,DE,Solar,Solar,2027,4.0,,2028.0,1.1954557478385566,PJM,slip_1
+68211.0,Grears Corner Solar,GRER,DE,Solar,Solar,2027,4.0,,2029.0,0.3551589235245799,PJM,slip_2
+68211.0,Grears Corner Solar,GRER,DE,Solar,Solar,2027,4.0,,2030.0,0.8128698121876176,PJM,slip_3plus
+68211.0,Grears Corner Solar,GRER,DE,Solar,Solar,2027,4.0,,,0.15581884249655423,PJM,never
+64073.0,"Great Bear Solar, LLC",GBS,OH,Solar,Solar,2027,46.0,,2027.0,11.928293246178837,ST:OH,slip_0
+64073.0,"Great Bear Solar, LLC",GBS,OH,Solar,Solar,2027,46.0,,2028.0,18.550521557038575,ST:OH,slip_1
+64073.0,"Great Bear Solar, LLC",GBS,OH,Solar,Solar,2027,46.0,,2029.0,6.838287962111279,ST:OH,slip_2
+64073.0,"Great Bear Solar, LLC",GBS,OH,Solar,Solar,2027,46.0,,2030.0,8.237274203965008,ST:OH,slip_3plus
+64073.0,"Great Bear Solar, LLC",GBS,OH,Solar,Solar,2027,46.0,,,0.4456230307063037,ST:OH,never
+69999.0,Greenwood Bottom Road Solar LLC,GREEB,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+69999.0,Greenwood Bottom Road Solar LLC,GREEB,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+69999.0,Greenwood Bottom Road Solar LLC,GREEB,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+69999.0,Greenwood Bottom Road Solar LLC,GREEB,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+69999.0,Greenwood Bottom Road Solar LLC,GREEB,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+69999.0,Greenwood Bottom Road Solar LLC,GREEB,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70000.0,Greenwood Route 254 Solar LLC,GREER,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70000.0,Greenwood Route 254 Solar LLC,GREER,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70000.0,Greenwood Route 254 Solar LLC,GREER,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70000.0,Greenwood Route 254 Solar LLC,GREER,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70000.0,Greenwood Route 254 Solar LLC,GREER,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70000.0,Greenwood Route 254 Solar LLC,GREER,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+65821.0,Honey Creek Solar,HNYSR,IN,Solar,Solar,2027,200.0,,2026.0,0.7542496904199032,ST:IN,slip_-1
+65821.0,Honey Creek Solar,HNYSR,IN,Solar,Solar,2027,200.0,,2027.0,90.5324777665203,ST:IN,slip_0
+65821.0,Honey Creek Solar,HNYSR,IN,Solar,Solar,2027,200.0,,2028.0,86.19835641112236,ST:IN,slip_1
+65821.0,Honey Creek Solar,HNYSR,IN,Solar,Solar,2027,200.0,,2030.0,22.514916131937408,ST:IN,slip_3plus
+67173.0,Hoosier Line Solar,HLW00,IN,Solar,Solar,2027,180.0,,2026.0,0.6788247213779128,ST:IN,slip_-1
+67173.0,Hoosier Line Solar,HLW00,IN,Solar,Solar,2027,180.0,,2027.0,81.47922998986827,ST:IN,slip_0
+67173.0,Hoosier Line Solar,HLW00,IN,Solar,Solar,2027,180.0,,2028.0,77.57852077001013,ST:IN,slip_1
+67173.0,Hoosier Line Solar,HLW00,IN,Solar,Solar,2027,180.0,,2030.0,20.263424518743665,ST:IN,slip_3plus
+68138.0,Internationale Ctr 11-SLCHI321,CH321,IL,Solar,Solar,2027,1.8,,2027.0,1.2645355396765703,ST:IL,slip_0
+68138.0,Internationale Ctr 11-SLCHI321,CH321,IL,Solar,Solar,2027,1.8,,2028.0,0.26807070327190674,ST:IL,slip_1
+68138.0,Internationale Ctr 11-SLCHI321,CH321,IL,Solar,Solar,2027,1.8,,2029.0,0.23591575780368562,ST:IL,slip_2
+68138.0,Internationale Ctr 11-SLCHI321,CH321,IL,Solar,Solar,2027,1.8,,2030.0,0.02978563369687853,ST:IL,slip_3plus
+68138.0,Internationale Ctr 11-SLCHI321,CH321,IL,Solar,Solar,2027,1.8,,,0.0016923655509590073,ST:IL,never
+70546.0,Jarratt Energy Facility,JAR-1,VA,Solar,Solar,2027,16.3,,2026.0,0.38257706890867127,ST:VA,slip_-1
+70546.0,Jarratt Energy Facility,JAR-1,VA,Solar,Solar,2027,16.3,,2027.0,6.6764568908671285,ST:VA,slip_0
+70546.0,Jarratt Energy Facility,JAR-1,VA,Solar,Solar,2027,16.3,,2028.0,3.274577563468513,ST:VA,slip_1
+70546.0,Jarratt Energy Facility,JAR-1,VA,Solar,Solar,2027,16.3,,2029.0,0.7500391526541379,ST:VA,slip_2
+70546.0,Jarratt Energy Facility,JAR-1,VA,Solar,Solar,2027,16.3,,2030.0,4.410216782063963,ST:VA,slip_3plus
+70546.0,Jarratt Energy Facility,JAR-1,VA,Solar,Solar,2027,16.3,,,0.8061325420375866,ST:VA,never
+70546.0,Jarratt Energy Facility,JAR-2,VA,Solar,Solar,2027,14.9,,2026.0,0.34971768875700626,ST:VA,slip_-1
+70546.0,Jarratt Energy Facility,JAR-2,VA,Solar,Solar,2027,14.9,,2027.0,6.103018875700627,ST:VA,slip_0
+70546.0,Jarratt Energy Facility,JAR-2,VA,Solar,Solar,2027,14.9,,2028.0,2.9933255028025054,ST:VA,slip_1
+70546.0,Jarratt Energy Facility,JAR-2,VA,Solar,Solar,2027,14.9,,2029.0,0.6856186119353775,ST:VA,slip_2
+70546.0,Jarratt Energy Facility,JAR-2,VA,Solar,Solar,2027,14.9,,2030.0,4.0314251566106165,ST:VA,slip_3plus
+70546.0,Jarratt Energy Facility,JAR-2,VA,Solar,Solar,2027,14.9,,,0.7368941641938674,ST:VA,never
+70546.0,Jarratt Energy Facility,JAR-3,VA,Solar,Solar,2027,22.4,,2026.0,0.5257500824266402,ST:VA,slip_-1
+70546.0,Jarratt Energy Facility,JAR-3,VA,Solar,Solar,2027,22.4,,2027.0,9.17500824266403,ST:VA,slip_0
+70546.0,Jarratt Energy Facility,JAR-3,VA,Solar,Solar,2027,22.4,,2028.0,4.5000329706561155,ST:VA,slip_1
+70546.0,Jarratt Energy Facility,JAR-3,VA,Solar,Solar,2027,22.4,,2029.0,1.0307286515001648,ST:VA,slip_2
+70546.0,Jarratt Energy Facility,JAR-3,VA,Solar,Solar,2027,22.4,,2030.0,6.060666007253544,ST:VA,slip_3plus
+70546.0,Jarratt Energy Facility,JAR-3,VA,Solar,Solar,2027,22.4,,,1.1078140454995054,ST:VA,never
+70083.0,Jones - PA 0399 (Rhodes),399,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70083.0,Jones - PA 0399 (Rhodes),399,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70083.0,Jones - PA 0399 (Rhodes),399,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70083.0,Jones - PA 0399 (Rhodes),399,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70083.0,Jones - PA 0399 (Rhodes),399,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70083.0,Jones - PA 0399 (Rhodes),399,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70170.0,Jones - PA 0429 (Rhodes South),429,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70170.0,Jones - PA 0429 (Rhodes South),429,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70170.0,Jones - PA 0429 (Rhodes South),429,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70170.0,Jones - PA 0429 (Rhodes South),429,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70170.0,Jones - PA 0429 (Rhodes South),429,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70170.0,Jones - PA 0429 (Rhodes South),429,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+67647.0,Kinglet,KINGL,VA,Solar,Solar,2027,5.0,,2026.0,0.11735492911308934,ST:VA,slip_-1
+67647.0,Kinglet,KINGL,VA,Solar,Solar,2027,5.0,,2027.0,2.0479929113089352,ST:VA,slip_0
+67647.0,Kinglet,KINGL,VA,Solar,Solar,2027,5.0,,2028.0,1.00447164523574,ST:VA,slip_1
+67647.0,Kinglet,KINGL,VA,Solar,Solar,2027,5.0,,2029.0,0.23007335970985823,ST:VA,slip_2
+67647.0,Kinglet,KINGL,VA,Solar,Solar,2027,5.0,,2030.0,1.3528272337619518,ST:VA,slip_3plus
+67647.0,Kinglet,KINGL,VA,Solar,Solar,2027,5.0,,,0.2472799208704253,ST:VA,never
+65425.0,Kingwood Solar,KWOOD,OH,Solar,Solar,2027,175.0,,2027.0,45.379376480028185,ST:OH,slip_0
+65425.0,Kingwood Solar,KWOOD,OH,Solar,Solar,2027,175.0,,2028.0,70.57263635829892,ST:OH,slip_1
+65425.0,Kingwood Solar,KWOOD,OH,Solar,Solar,2027,175.0,,2029.0,26.01522594281465,ST:OH,slip_2
+65425.0,Kingwood Solar,KWOOD,OH,Solar,Solar,2027,175.0,,2030.0,31.337456210736445,ST:OH,slip_3plus
+65425.0,Kingwood Solar,KWOOD,OH,Solar,Solar,2027,175.0,,,1.6953050081218075,ST:OH,never
+70172.0,Kittanning - PA 0383 (Hoeter),383,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70172.0,Kittanning - PA 0383 (Hoeter),383,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70172.0,Kittanning - PA 0383 (Hoeter),383,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70172.0,Kittanning - PA 0383 (Hoeter),383,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70172.0,Kittanning - PA 0383 (Hoeter),383,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70172.0,Kittanning - PA 0383 (Hoeter),383,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+68302.0,Lake Trout Solar,LAKET,IN,Solar,Solar,2027,245.0,,2026.0,0.9239558707643813,ST:IN,slip_-1
+68302.0,Lake Trout Solar,LAKET,IN,Solar,Solar,2027,245.0,,2027.0,110.90228526398737,ST:IN,slip_0
+68302.0,Lake Trout Solar,LAKET,IN,Solar,Solar,2027,245.0,,2028.0,105.5929866036249,ST:IN,slip_1
+68302.0,Lake Trout Solar,LAKET,IN,Solar,Solar,2027,245.0,,2030.0,27.580772261623324,ST:IN,slip_3plus
+70167.0,Latrobe - PA 0408 (Soccerhound B),408,PA,Solar,Solar,2027,1.0,,2026.0,0.01917802497668008,PJM,slip_-1
+70167.0,Latrobe - PA 0408 (Soccerhound B),408,PA,Solar,Solar,2027,1.0,,2027.0,0.3509961435114929,PJM,slip_0
+70167.0,Latrobe - PA 0408 (Soccerhound B),408,PA,Solar,Solar,2027,1.0,,2028.0,0.29886393695963914,PJM,slip_1
+70167.0,Latrobe - PA 0408 (Soccerhound B),408,PA,Solar,Solar,2027,1.0,,2029.0,0.08878973088114497,PJM,slip_2
+70167.0,Latrobe - PA 0408 (Soccerhound B),408,PA,Solar,Solar,2027,1.0,,2030.0,0.2032174530469044,PJM,slip_3plus
+70167.0,Latrobe - PA 0408 (Soccerhound B),408,PA,Solar,Solar,2027,1.0,,,0.03895471062413856,PJM,never
+68930.0,MC Solar,ENX36,PA,Solar,Solar,2027,50.0,,2026.0,0.958901248834004,PJM,slip_-1
+68930.0,MC Solar,ENX36,PA,Solar,Solar,2027,50.0,,2027.0,17.549807175574646,PJM,slip_0
+68930.0,MC Solar,ENX36,PA,Solar,Solar,2027,50.0,,2028.0,14.943196847981957,PJM,slip_1
+68930.0,MC Solar,ENX36,PA,Solar,Solar,2027,50.0,,2029.0,4.439486544057249,PJM,slip_2
+68930.0,MC Solar,ENX36,PA,Solar,Solar,2027,50.0,,2030.0,10.160872652345219,PJM,slip_3plus
+68930.0,MC Solar,ENX36,PA,Solar,Solar,2027,50.0,,,1.9477355312069278,PJM,never
+70003.0,Madison Taylor Road Solar LLC,TAYLR,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70003.0,Madison Taylor Road Solar LLC,TAYLR,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70003.0,Madison Taylor Road Solar LLC,TAYLR,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70003.0,Madison Taylor Road Solar LLC,TAYLR,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70003.0,Madison Taylor Road Solar LLC,TAYLR,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70003.0,Madison Taylor Road Solar LLC,TAYLR,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+68212.0,Maryland Line Road Solar,MDLN,DE,Solar,Solar,2027,2.5,,2026.0,0.0479450624417002,PJM,slip_-1
+68212.0,Maryland Line Road Solar,MDLN,DE,Solar,Solar,2027,2.5,,2027.0,0.8774903587787322,PJM,slip_0
+68212.0,Maryland Line Road Solar,MDLN,DE,Solar,Solar,2027,2.5,,2028.0,0.7471598423990978,PJM,slip_1
+68212.0,Maryland Line Road Solar,MDLN,DE,Solar,Solar,2027,2.5,,2029.0,0.22197432720286242,PJM,slip_2
+68212.0,Maryland Line Road Solar,MDLN,DE,Solar,Solar,2027,2.5,,2030.0,0.5080436326172609,PJM,slip_3plus
+68212.0,Maryland Line Road Solar,MDLN,DE,Solar,Solar,2027,2.5,,,0.09738677656034639,PJM,never
+68140.0,Melrose Park 2-SLCHI547,CH547,IL,Solar,Solar,2027,3.0,,2027.0,2.1075592327942836,ST:IL,slip_0
+68140.0,Melrose Park 2-SLCHI547,CH547,IL,Solar,Solar,2027,3.0,,2028.0,0.44678450545317794,ST:IL,slip_1
+68140.0,Melrose Park 2-SLCHI547,CH547,IL,Solar,Solar,2027,3.0,,2029.0,0.3931929296728094,ST:IL,slip_2
+68140.0,Melrose Park 2-SLCHI547,CH547,IL,Solar,Solar,2027,3.0,,2030.0,0.049642722828130884,ST:IL,slip_3plus
+68140.0,Melrose Park 2-SLCHI547,CH547,IL,Solar,Solar,2027,3.0,,,0.0028206092515983454,ST:IL,never
+70168.0,Monroe - PA 0485 (Lawrence),485,PA,Solar,Solar,2027,2.4,,2026.0,0.04602725994403219,PJM,slip_-1
+70168.0,Monroe - PA 0485 (Lawrence),485,PA,Solar,Solar,2027,2.4,,2027.0,0.8423907444275829,PJM,slip_0
+70168.0,Monroe - PA 0485 (Lawrence),485,PA,Solar,Solar,2027,2.4,,2028.0,0.7172734487031339,PJM,slip_1
+70168.0,Monroe - PA 0485 (Lawrence),485,PA,Solar,Solar,2027,2.4,,2029.0,0.21309535411474792,PJM,slip_2
+70168.0,Monroe - PA 0485 (Lawrence),485,PA,Solar,Solar,2027,2.4,,2030.0,0.4877218873125705,PJM,slip_3plus
+70168.0,Monroe - PA 0485 (Lawrence),485,PA,Solar,Solar,2027,2.4,,,0.09349130549793254,PJM,never
+70169.0,Monroe - PA 0486 (Acey),486,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70169.0,Monroe - PA 0486 (Acey),486,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70169.0,Monroe - PA 0486 (Acey),486,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70169.0,Monroe - PA 0486 (Acey),486,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70169.0,Monroe - PA 0486 (Acey),486,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70169.0,Monroe - PA 0486 (Acey),486,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+69994.0,Montour Tower Drive Solar LLC,MONTR,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+69994.0,Montour Tower Drive Solar LLC,MONTR,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+69994.0,Montour Tower Drive Solar LLC,MONTR,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+69994.0,Montour Tower Drive Solar LLC,MONTR,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+69994.0,Montour Tower Drive Solar LLC,MONTR,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+69994.0,Montour Tower Drive Solar LLC,MONTR,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+68810.0,Mora Solar,MORA,PA,Solar,Solar,2027,60.0,,2026.0,1.1506814986008047,PJM,slip_-1
+68810.0,Mora Solar,MORA,PA,Solar,Solar,2027,60.0,,2027.0,21.059768610689574,PJM,slip_0
+68810.0,Mora Solar,MORA,PA,Solar,Solar,2027,60.0,,2028.0,17.931836217578347,PJM,slip_1
+68810.0,Mora Solar,MORA,PA,Solar,Solar,2027,60.0,,2029.0,5.3273838528686985,PJM,slip_2
+68810.0,Mora Solar,MORA,PA,Solar,Solar,2027,60.0,,2030.0,12.193047182814263,PJM,slip_3plus
+68810.0,Mora Solar,MORA,PA,Solar,Solar,2027,60.0,,,2.3372826374483133,PJM,never
+69995.0,Muncy Creek Lime Bluff Road Solar,MUNCL,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+69995.0,Muncy Creek Lime Bluff Road Solar,MUNCL,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+69995.0,Muncy Creek Lime Bluff Road Solar,MUNCL,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+69995.0,Muncy Creek Lime Bluff Road Solar,MUNCL,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+69995.0,Muncy Creek Lime Bluff Road Solar,MUNCL,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+69995.0,Muncy Creek Lime Bluff Road Solar,MUNCL,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70089.0,"Murch Solar, LLC",MURCH,MI,Solar,Solar,2027,85.0,,2026.0,1.6301321230178067,PJM,slip_-1
+70089.0,"Murch Solar, LLC",MURCH,MI,Solar,Solar,2027,85.0,,2027.0,29.834672198476895,PJM,slip_0
+70089.0,"Murch Solar, LLC",MURCH,MI,Solar,Solar,2027,85.0,,2028.0,25.403434641569326,PJM,slip_1
+70089.0,"Murch Solar, LLC",MURCH,MI,Solar,Solar,2027,85.0,,2029.0,7.547127124897322,PJM,slip_2
+70089.0,"Murch Solar, LLC",MURCH,MI,Solar,Solar,2027,85.0,,2030.0,17.273483508986875,PJM,slip_3plus
+70089.0,"Murch Solar, LLC",MURCH,MI,Solar,Solar,2027,85.0,,,3.3111504030517773,PJM,never
+69859.0,Murphysboro 1,MURP1,IL,Solar,Solar,2027,5.0,,2027.0,3.5125987213238066,ST:IL,slip_0
+69859.0,Murphysboro 1,MURP1,IL,Solar,Solar,2027,5.0,,2028.0,0.7446408424219632,ST:IL,slip_1
+69859.0,Murphysboro 1,MURP1,IL,Solar,Solar,2027,5.0,,2029.0,0.6553215494546822,ST:IL,slip_2
+69859.0,Murphysboro 1,MURP1,IL,Solar,Solar,2027,5.0,,2030.0,0.08273787138021814,ST:IL,slip_3plus
+69859.0,Murphysboro 1,MURP1,IL,Solar,Solar,2027,5.0,,,0.004701015419330576,ST:IL,never
+69860.0,Murphysboro 2,MURP2,IL,Solar,Solar,2027,1.3,,2027.0,0.9132756675441897,ST:IL,slip_0
+69860.0,Murphysboro 2,MURP2,IL,Solar,Solar,2027,1.3,,2028.0,0.19360661902971044,ST:IL,slip_1
+69860.0,Murphysboro 2,MURP2,IL,Solar,Solar,2027,1.3,,2029.0,0.1703836028582174,ST:IL,slip_2
+69860.0,Murphysboro 2,MURP2,IL,Solar,Solar,2027,1.3,,2030.0,0.021511846558856716,ST:IL,slip_3plus
+69860.0,Murphysboro 2,MURP2,IL,Solar,Solar,2027,1.3,,,0.0012222640090259497,ST:IL,never
+70336.0,"NCBP ONE, LLC",NCBP1,MD,Solar,Solar,2027,2.5,,2026.0,0.0479450624417002,PJM,slip_-1
+70336.0,"NCBP ONE, LLC",NCBP1,MD,Solar,Solar,2027,2.5,,2027.0,0.8774903587787322,PJM,slip_0
+70336.0,"NCBP ONE, LLC",NCBP1,MD,Solar,Solar,2027,2.5,,2028.0,0.7471598423990978,PJM,slip_1
+70336.0,"NCBP ONE, LLC",NCBP1,MD,Solar,Solar,2027,2.5,,2029.0,0.22197432720286242,PJM,slip_2
+70336.0,"NCBP ONE, LLC",NCBP1,MD,Solar,Solar,2027,2.5,,2030.0,0.5080436326172609,PJM,slip_3plus
+70336.0,"NCBP ONE, LLC",NCBP1,MD,Solar,Solar,2027,2.5,,,0.09738677656034639,PJM,never
+69767.0,NCBP Seven,NCBP7,MD,Solar,Solar,2027,2.4,,2026.0,0.04602725994403219,PJM,slip_-1
+69767.0,NCBP Seven,NCBP7,MD,Solar,Solar,2027,2.4,,2027.0,0.8423907444275829,PJM,slip_0
+69767.0,NCBP Seven,NCBP7,MD,Solar,Solar,2027,2.4,,2028.0,0.7172734487031339,PJM,slip_1
+69767.0,NCBP Seven,NCBP7,MD,Solar,Solar,2027,2.4,,2029.0,0.21309535411474792,PJM,slip_2
+69767.0,NCBP Seven,NCBP7,MD,Solar,Solar,2027,2.4,,2030.0,0.4877218873125705,PJM,slip_3plus
+69767.0,NCBP Seven,NCBP7,MD,Solar,Solar,2027,2.4,,,0.09349130549793254,PJM,never
+70338.0,"NCBP TEN, LLC",NCB10,MD,Solar,Solar,2027,1.4,,2026.0,0.026849234967352108,PJM,slip_-1
+70338.0,"NCBP TEN, LLC",NCB10,MD,Solar,Solar,2027,1.4,,2027.0,0.49139460091609,PJM,slip_0
+70338.0,"NCBP TEN, LLC",NCB10,MD,Solar,Solar,2027,1.4,,2028.0,0.4184095117434948,PJM,slip_1
+70338.0,"NCBP TEN, LLC",NCB10,MD,Solar,Solar,2027,1.4,,2029.0,0.12430562323360296,PJM,slip_2
+70338.0,"NCBP TEN, LLC",NCB10,MD,Solar,Solar,2027,1.4,,2030.0,0.28450443426566613,PJM,slip_3plus
+70338.0,"NCBP TEN, LLC",NCB10,MD,Solar,Solar,2027,1.4,,,0.054536594873793975,PJM,never
+70114.0,New Alexandria  - PA 0363 (Weimer North),363,PA,Solar,Solar,2027,1.5,,2026.0,0.02876703746502012,PJM,slip_-1
+70114.0,New Alexandria  - PA 0363 (Weimer North),363,PA,Solar,Solar,2027,1.5,,2027.0,0.5264942152672394,PJM,slip_0
+70114.0,New Alexandria  - PA 0363 (Weimer North),363,PA,Solar,Solar,2027,1.5,,2028.0,0.44829590543945874,PJM,slip_1
+70114.0,New Alexandria  - PA 0363 (Weimer North),363,PA,Solar,Solar,2027,1.5,,2029.0,0.13318459632171747,PJM,slip_2
+70114.0,New Alexandria  - PA 0363 (Weimer North),363,PA,Solar,Solar,2027,1.5,,2030.0,0.30482617957035657,PJM,slip_3plus
+70114.0,New Alexandria  - PA 0363 (Weimer North),363,PA,Solar,Solar,2027,1.5,,,0.05843206593620784,PJM,never
+70120.0,New Alexandria - PA 0185 (Weimer),185,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70120.0,New Alexandria - PA 0185 (Weimer),185,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70120.0,New Alexandria - PA 0185 (Weimer),185,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70120.0,New Alexandria - PA 0185 (Weimer),185,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70120.0,New Alexandria - PA 0185 (Weimer),185,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70120.0,New Alexandria - PA 0185 (Weimer),185,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+69861.0,Norris City 2,NORR2,IL,Solar,Solar,2027,3.2,,2027.0,2.248063181647236,ST:IL,slip_0
+69861.0,Norris City 2,NORR2,IL,Solar,Solar,2027,3.2,,2028.0,0.47657013915005647,ST:IL,slip_1
+69861.0,Norris City 2,NORR2,IL,Solar,Solar,2027,3.2,,2029.0,0.4194057916509967,ST:IL,slip_2
+69861.0,Norris City 2,NORR2,IL,Solar,Solar,2027,3.2,,2030.0,0.05295223768333961,ST:IL,slip_3plus
+69861.0,Norris City 2,NORR2,IL,Solar,Solar,2027,3.2,,,0.0030086498683715686,ST:IL,never
+68141.0,Northlake 2-SLCHI302,CH302,IL,Solar,Solar,2027,1.6,,2027.0,1.124031590823618,ST:IL,slip_0
+68141.0,Northlake 2-SLCHI302,CH302,IL,Solar,Solar,2027,1.6,,2028.0,0.23828506957502824,ST:IL,slip_1
+68141.0,Northlake 2-SLCHI302,CH302,IL,Solar,Solar,2027,1.6,,2029.0,0.20970289582549834,ST:IL,slip_2
+68141.0,Northlake 2-SLCHI302,CH302,IL,Solar,Solar,2027,1.6,,2030.0,0.026476118841669807,ST:IL,slip_3plus
+68141.0,Northlake 2-SLCHI302,CH302,IL,Solar,Solar,2027,1.6,,,0.0015043249341857843,ST:IL,never
+68143.0,Northlake 4-SLCHI304,CH304,IL,Solar,Solar,2027,1.4,,2027.0,0.9835276419706657,ST:IL,slip_0
+68143.0,Northlake 4-SLCHI304,CH304,IL,Solar,Solar,2027,1.4,,2028.0,0.20849943587814967,ST:IL,slip_1
+68143.0,Northlake 4-SLCHI304,CH304,IL,Solar,Solar,2027,1.4,,2029.0,0.18349003384731102,ST:IL,slip_2
+68143.0,Northlake 4-SLCHI304,CH304,IL,Solar,Solar,2027,1.4,,2030.0,0.023166603986461077,ST:IL,slip_3plus
+68143.0,Northlake 4-SLCHI304,CH304,IL,Solar,Solar,2027,1.4,,,0.0013162843174125611,ST:IL,never
+68144.0,Northlake 5-SLCHI305,CH305,IL,Solar,Solar,2027,2.5,,2027.0,1.7562993606619033,ST:IL,slip_0
+68144.0,Northlake 5-SLCHI305,CH305,IL,Solar,Solar,2027,2.5,,2028.0,0.3723204212109816,ST:IL,slip_1
+68144.0,Northlake 5-SLCHI305,CH305,IL,Solar,Solar,2027,2.5,,2029.0,0.3276607747273411,ST:IL,slip_2
+68144.0,Northlake 5-SLCHI305,CH305,IL,Solar,Solar,2027,2.5,,2030.0,0.04136893569010907,ST:IL,slip_3plus
+68144.0,Northlake 5-SLCHI305,CH305,IL,Solar,Solar,2027,2.5,,,0.002350507709665288,ST:IL,never
+66658.0,Nottingham Solar,NOTT,OH,Solar,Solar,2027,100.0,,2027.0,25.93107227430182,ST:OH,slip_0
+66658.0,Nottingham Solar,NOTT,OH,Solar,Solar,2027,100.0,,2028.0,40.32722077617081,ST:OH,slip_1
+66658.0,Nottingham Solar,NOTT,OH,Solar,Solar,2027,100.0,,2029.0,14.865843395894085,ST:OH,slip_2
+66658.0,Nottingham Solar,NOTT,OH,Solar,Solar,2027,100.0,,2030.0,17.90711783470654,ST:OH,slip_3plus
+66658.0,Nottingham Solar,NOTT,OH,Solar,Solar,2027,100.0,,,0.9687457189267471,ST:OH,never
+63784.0,Palomino Solar,PLMNO,OH,Solar,Solar,2027,200.0,,2027.0,51.86214454860364,ST:OH,slip_0
+63784.0,Palomino Solar,PLMNO,OH,Solar,Solar,2027,200.0,,2028.0,80.65444155234162,ST:OH,slip_1
+63784.0,Palomino Solar,PLMNO,OH,Solar,Solar,2027,200.0,,2029.0,29.73168679178817,ST:OH,slip_2
+63784.0,Palomino Solar,PLMNO,OH,Solar,Solar,2027,200.0,,2030.0,35.81423566941308,ST:OH,slip_3plus
+63784.0,Palomino Solar,PLMNO,OH,Solar,Solar,2027,200.0,,,1.9374914378534942,ST:OH,never
+70005.0,Penn Shoofly Solar LLC,SHOOF,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70005.0,Penn Shoofly Solar LLC,SHOOF,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70005.0,Penn Shoofly Solar LLC,SHOOF,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70005.0,Penn Shoofly Solar LLC,SHOOF,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70005.0,Penn Shoofly Solar LLC,SHOOF,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70005.0,Penn Shoofly Solar LLC,SHOOF,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70123.0,Petersburg - VA 0224 (Murphy),224,VA,Solar,Solar,2027,2.6,,2026.0,0.06102456313880646,ST:VA,slip_-1
+70123.0,Petersburg - VA 0224 (Murphy),224,VA,Solar,Solar,2027,2.6,,2027.0,1.0649563138806464,ST:VA,slip_0
+70123.0,Petersburg - VA 0224 (Murphy),224,VA,Solar,Solar,2027,2.6,,2028.0,0.5223252555225849,ST:VA,slip_1
+70123.0,Petersburg - VA 0224 (Murphy),224,VA,Solar,Solar,2027,2.6,,2029.0,0.11963814704912629,ST:VA,slip_2
+70123.0,Petersburg - VA 0224 (Murphy),224,VA,Solar,Solar,2027,2.6,,2030.0,0.703470161556215,ST:VA,slip_3plus
+70123.0,Petersburg - VA 0224 (Murphy),224,VA,Solar,Solar,2027,2.6,,,0.12858555885262116,ST:VA,never
+70376.0,Pivot Energy IL 52,IL52,IL,Solar,Solar,2027,5.0,,2027.0,3.5125987213238066,ST:IL,slip_0
+70376.0,Pivot Energy IL 52,IL52,IL,Solar,Solar,2027,5.0,,2028.0,0.7446408424219632,ST:IL,slip_1
+70376.0,Pivot Energy IL 52,IL52,IL,Solar,Solar,2027,5.0,,2029.0,0.6553215494546822,ST:IL,slip_2
+70376.0,Pivot Energy IL 52,IL52,IL,Solar,Solar,2027,5.0,,2030.0,0.08273787138021814,ST:IL,slip_3plus
+70376.0,Pivot Energy IL 52,IL52,IL,Solar,Solar,2027,5.0,,,0.004701015419330576,ST:IL,never
+70334.0,Pivot Energy IL 55b LLC,IL55B,IL,Solar,Solar,2027,2.8,,2027.0,1.9670552839413313,ST:IL,slip_0
+70334.0,Pivot Energy IL 55b LLC,IL55B,IL,Solar,Solar,2027,2.8,,2028.0,0.41699887175629935,ST:IL,slip_1
+70334.0,Pivot Energy IL 55b LLC,IL55B,IL,Solar,Solar,2027,2.8,,2029.0,0.36698006769462205,ST:IL,slip_2
+70334.0,Pivot Energy IL 55b LLC,IL55B,IL,Solar,Solar,2027,2.8,,2030.0,0.046333207972922154,ST:IL,slip_3plus
+70334.0,Pivot Energy IL 55b LLC,IL55B,IL,Solar,Solar,2027,2.8,,,0.0026325686348251222,ST:IL,never
+70100.0,Pivot Energy IL 70 LLC,IL070,IL,Solar,Solar,2027,5.0,,2027.0,3.5125987213238066,ST:IL,slip_0
+70100.0,Pivot Energy IL 70 LLC,IL070,IL,Solar,Solar,2027,5.0,,2028.0,0.7446408424219632,ST:IL,slip_1
+70100.0,Pivot Energy IL 70 LLC,IL070,IL,Solar,Solar,2027,5.0,,2029.0,0.6553215494546822,ST:IL,slip_2
+70100.0,Pivot Energy IL 70 LLC,IL070,IL,Solar,Solar,2027,5.0,,2030.0,0.08273787138021814,ST:IL,slip_3plus
+70100.0,Pivot Energy IL 70 LLC,IL070,IL,Solar,Solar,2027,5.0,,,0.004701015419330576,ST:IL,never
+63846.0,Raceway Solar,RACE,DE,Solar,Solar,2027,50.0,,2026.0,0.958901248834004,PJM,slip_-1
+63846.0,Raceway Solar,RACE,DE,Solar,Solar,2027,50.0,,2027.0,17.549807175574646,PJM,slip_0
+63846.0,Raceway Solar,RACE,DE,Solar,Solar,2027,50.0,,2028.0,14.943196847981957,PJM,slip_1
+63846.0,Raceway Solar,RACE,DE,Solar,Solar,2027,50.0,,2029.0,4.439486544057249,PJM,slip_2
+63846.0,Raceway Solar,RACE,DE,Solar,Solar,2027,50.0,,2030.0,10.160872652345219,PJM,slip_3plus
+63846.0,Raceway Solar,RACE,DE,Solar,Solar,2027,50.0,,,1.9477355312069278,PJM,never
+70007.0,Richmond Road Solar LLC,RICHR,VA,Solar,Solar,2027,5.0,,2026.0,0.11735492911308934,ST:VA,slip_-1
+70007.0,Richmond Road Solar LLC,RICHR,VA,Solar,Solar,2027,5.0,,2027.0,2.0479929113089352,ST:VA,slip_0
+70007.0,Richmond Road Solar LLC,RICHR,VA,Solar,Solar,2027,5.0,,2028.0,1.00447164523574,ST:VA,slip_1
+70007.0,Richmond Road Solar LLC,RICHR,VA,Solar,Solar,2027,5.0,,2029.0,0.23007335970985823,ST:VA,slip_2
+70007.0,Richmond Road Solar LLC,RICHR,VA,Solar,Solar,2027,5.0,,2030.0,1.3528272337619518,ST:VA,slip_3plus
+70007.0,Richmond Road Solar LLC,RICHR,VA,Solar,Solar,2027,5.0,,,0.2472799208704253,ST:VA,never
+68510.0,Ritter Solar,CFC1,OH,Solar,Solar,2027,199.0,,2027.0,51.60283382586062,ST:OH,slip_0
+68510.0,Ritter Solar,CFC1,OH,Solar,Solar,2027,199.0,,2028.0,80.25116934457992,ST:OH,slip_1
+68510.0,Ritter Solar,CFC1,OH,Solar,Solar,2027,199.0,,2029.0,29.583028357829228,ST:OH,slip_2
+68510.0,Ritter Solar,CFC1,OH,Solar,Solar,2027,199.0,,2030.0,35.635164491066014,ST:OH,slip_3plus
+68510.0,Ritter Solar,CFC1,OH,Solar,Solar,2027,199.0,,,1.9278039806642269,ST:OH,never
+68194.0,Riverstone Solar,RIVER,VA,Solar,Solar,2027,149.5,,2026.0,3.5089123804813713,ST:VA,slip_-1
+68194.0,Riverstone Solar,RIVER,VA,Solar,Solar,2027,149.5,,2027.0,61.23498804813716,ST:VA,slip_0
+68194.0,Riverstone Solar,RIVER,VA,Solar,Solar,2027,149.5,,2028.0,30.033702192548628,ST:VA,slip_1
+68194.0,Riverstone Solar,RIVER,VA,Solar,Solar,2027,149.5,,2029.0,6.879193455324761,ST:VA,slip_2
+68194.0,Riverstone Solar,RIVER,VA,Solar,Solar,2027,149.5,,2030.0,40.44953428948236,ST:VA,slip_3plus
+68194.0,Riverstone Solar,RIVER,VA,Solar,Solar,2027,149.5,,,7.393669634025716,ST:VA,never
+69805.0,Rockford Plant 7,RFRD7,IL,Solar,Solar,2027,1.5,,2027.0,1.0537796163971418,ST:IL,slip_0
+69805.0,Rockford Plant 7,RFRD7,IL,Solar,Solar,2027,1.5,,2028.0,0.22339225272658897,ST:IL,slip_1
+69805.0,Rockford Plant 7,RFRD7,IL,Solar,Solar,2027,1.5,,2029.0,0.1965964648364047,ST:IL,slip_2
+69805.0,Rockford Plant 7,RFRD7,IL,Solar,Solar,2027,1.5,,2030.0,0.024821361414065442,ST:IL,slip_3plus
+69805.0,Rockford Plant 7,RFRD7,IL,Solar,Solar,2027,1.5,,,0.0014103046257991727,ST:IL,never
+65471.0,Rose Gold Solar,RGS23,IN,Solar,Solar,2027,100.0,,2026.0,0.3771248452099516,ST:IN,slip_-1
+65471.0,Rose Gold Solar,RGS23,IN,Solar,Solar,2027,100.0,,2027.0,45.26623888326015,ST:IN,slip_0
+65471.0,Rose Gold Solar,RGS23,IN,Solar,Solar,2027,100.0,,2028.0,43.09917820556118,ST:IN,slip_1
+65471.0,Rose Gold Solar,RGS23,IN,Solar,Solar,2027,100.0,,2030.0,11.257458065968704,ST:IN,slip_3plus
+70126.0,Roulette - PA 0467,467,PA,Solar,Solar,2027,2.6,,2026.0,0.04986286493936821,PJM,slip_-1
+70126.0,Roulette - PA 0467,467,PA,Solar,Solar,2027,2.6,,2027.0,0.9125899731298815,PJM,slip_0
+70126.0,Roulette - PA 0467,467,PA,Solar,Solar,2027,2.6,,2028.0,0.7770462360950618,PJM,slip_1
+70126.0,Roulette - PA 0467,467,PA,Solar,Solar,2027,2.6,,2029.0,0.23085330029097695,PJM,slip_2
+70126.0,Roulette - PA 0467,467,PA,Solar,Solar,2027,2.6,,2030.0,0.5283653779219515,PJM,slip_3plus
+70126.0,Roulette - PA 0467,467,PA,Solar,Solar,2027,2.6,,,0.10128224762276025,PJM,never
+70128.0,Roulette - PA 0479,479,PA,Solar,Solar,2027,1.1,,2026.0,0.02109582747434809,PJM,slip_-1
+70128.0,Roulette - PA 0479,479,PA,Solar,Solar,2027,1.1,,2027.0,0.3860957578626422,PJM,slip_0
+70128.0,Roulette - PA 0479,479,PA,Solar,Solar,2027,1.1,,2028.0,0.3287503306556031,PJM,slip_1
+70128.0,Roulette - PA 0479,479,PA,Solar,Solar,2027,1.1,,2029.0,0.09766870396925947,PJM,slip_2
+70128.0,Roulette - PA 0479,479,PA,Solar,Solar,2027,1.1,,2030.0,0.22353919835159486,PJM,slip_3plus
+70128.0,Roulette - PA 0479,479,PA,Solar,Solar,2027,1.1,,,0.04285018168655241,PJM,never
+69948.0,SV CSG Manteno,MANTO,IL,Solar,Solar,2027,5.0,,2027.0,3.5125987213238066,ST:IL,slip_0
+69948.0,SV CSG Manteno,MANTO,IL,Solar,Solar,2027,5.0,,2028.0,0.7446408424219632,ST:IL,slip_1
+69948.0,SV CSG Manteno,MANTO,IL,Solar,Solar,2027,5.0,,2029.0,0.6553215494546822,ST:IL,slip_2
+69948.0,SV CSG Manteno,MANTO,IL,Solar,Solar,2027,5.0,,2030.0,0.08273787138021814,ST:IL,slip_3plus
+69948.0,SV CSG Manteno,MANTO,IL,Solar,Solar,2027,5.0,,,0.004701015419330576,ST:IL,never
+69818.0,SV CSG North Creek 1,NCREK,IL,Solar,Solar,2027,2.1,,2027.0,1.4752914629559988,ST:IL,slip_0
+69818.0,SV CSG North Creek 1,NCREK,IL,Solar,Solar,2027,2.1,,2028.0,0.31274915381722457,ST:IL,slip_1
+69818.0,SV CSG North Creek 1,NCREK,IL,Solar,Solar,2027,2.1,,2029.0,0.27523505077096655,ST:IL,slip_2
+69818.0,SV CSG North Creek 1,NCREK,IL,Solar,Solar,2027,2.1,,2030.0,0.03474990597969162,ST:IL,slip_3plus
+69818.0,SV CSG North Creek 1,NCREK,IL,Solar,Solar,2027,2.1,,,0.001974426476118842,ST:IL,never
+69817.0,SV CSG St Anne 1,SANNE,IL,Solar,Solar,2027,5.0,,2027.0,3.5125987213238066,ST:IL,slip_0
+69817.0,SV CSG St Anne 1,SANNE,IL,Solar,Solar,2027,5.0,,2028.0,0.7446408424219632,ST:IL,slip_1
+69817.0,SV CSG St Anne 1,SANNE,IL,Solar,Solar,2027,5.0,,2029.0,0.6553215494546822,ST:IL,slip_2
+69817.0,SV CSG St Anne 1,SANNE,IL,Solar,Solar,2027,5.0,,2030.0,0.08273787138021814,ST:IL,slip_3plus
+69817.0,SV CSG St Anne 1,SANNE,IL,Solar,Solar,2027,5.0,,,0.004701015419330576,ST:IL,never
+70564.0,Salem Route 11 Solar LLC,SALER,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70564.0,Salem Route 11 Solar LLC,SALER,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70564.0,Salem Route 11 Solar LLC,SALER,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70564.0,Salem Route 11 Solar LLC,SALER,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70564.0,Salem Route 11 Solar LLC,SALER,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70564.0,Salem Route 11 Solar LLC,SALER,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+68086.0,South Branch Solar,SBS,OH,Solar,Solar,2027,115.0,,2027.0,29.820733115447094,ST:OH,slip_0
+68086.0,South Branch Solar,SBS,OH,Solar,Solar,2027,115.0,,2028.0,46.37630389259643,ST:OH,slip_1
+68086.0,South Branch Solar,SBS,OH,Solar,Solar,2027,115.0,,2029.0,17.095719905278198,ST:OH,slip_2
+68086.0,South Branch Solar,SBS,OH,Solar,Solar,2027,115.0,,2030.0,20.593185509912523,ST:OH,slip_3plus
+68086.0,South Branch Solar,SBS,OH,Solar,Solar,2027,115.0,,,1.1140575767657592,ST:OH,never
+65900.0,"Springwater Solar, LLC",SPRIN,OH,Solar,Solar,2027,155.0,,2027.0,40.19316202516782,ST:OH,slip_0
+65900.0,"Springwater Solar, LLC",SPRIN,OH,Solar,Solar,2027,155.0,,2028.0,62.50719220306476,ST:OH,slip_1
+65900.0,"Springwater Solar, LLC",SPRIN,OH,Solar,Solar,2027,155.0,,2029.0,23.042057263635833,ST:OH,slip_2
+65900.0,"Springwater Solar, LLC",SPRIN,OH,Solar,Solar,2027,155.0,,2030.0,27.756032643795137,ST:OH,slip_3plus
+65900.0,"Springwater Solar, LLC",SPRIN,OH,Solar,Solar,2027,155.0,,,1.5015558643364582,ST:OH,never
+66672.0,"Stark Solar, LLC",AG239,OH,Solar,Solar,2027,150.0,,2027.0,38.89660841145273,ST:OH,slip_0
+66672.0,"Stark Solar, LLC",AG239,OH,Solar,Solar,2027,150.0,,2028.0,60.49083116425622,ST:OH,slip_1
+66672.0,"Stark Solar, LLC",AG239,OH,Solar,Solar,2027,150.0,,2029.0,22.298765093841126,ST:OH,slip_2
+66672.0,"Stark Solar, LLC",AG239,OH,Solar,Solar,2027,150.0,,2030.0,26.86067675205981,ST:OH,slip_3plus
+66672.0,"Stark Solar, LLC",AG239,OH,Solar,Solar,2027,150.0,,,1.4531185783901208,ST:OH,never
+68969.0,Strinestown Solar,ENX39,PA,Solar,Solar,2027,79.6,,2026.0,1.5265707881437343,PJM,slip_-1
+68969.0,Strinestown Solar,ENX39,PA,Solar,Solar,2027,79.6,,2027.0,27.939293023514832,PJM,slip_0
+68969.0,Strinestown Solar,ENX39,PA,Solar,Solar,2027,79.6,,2028.0,23.789569381987274,PJM,slip_1
+68969.0,Strinestown Solar,ENX39,PA,Solar,Solar,2027,79.6,,2029.0,7.06766257813914,PJM,slip_2
+68969.0,Strinestown Solar,ENX39,PA,Solar,Solar,2027,79.6,,2030.0,16.17610926253359,PJM,slip_3plus
+68969.0,Strinestown Solar,ENX39,PA,Solar,Solar,2027,79.6,,,3.100794965681429,PJM,never
+69560.0,Sunrise Magnolia DE,MAGNO,DE,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+69560.0,Sunrise Magnolia DE,MAGNO,DE,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+69560.0,Sunrise Magnolia DE,MAGNO,DE,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+69560.0,Sunrise Magnolia DE,MAGNO,DE,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+69560.0,Sunrise Magnolia DE,MAGNO,DE,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+69560.0,Sunrise Magnolia DE,MAGNO,DE,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+68271.0,Sweetleaf Solar LLC,SWLS1,NC,Solar,Solar,2027,93.0,,2026.0,2.4284747639405775,ST:NC,slip_-1
+68271.0,Sweetleaf Solar LLC,SWLS1,NC,Solar,Solar,2027,93.0,,2027.0,26.813336203979944,ST:NC,slip_0
+68271.0,Sweetleaf Solar LLC,SWLS1,NC,Solar,Solar,2027,93.0,,2028.0,17.537077476701626,ST:NC,slip_1
+68271.0,Sweetleaf Solar LLC,SWLS1,NC,Solar,Solar,2027,93.0,,2029.0,3.3209177867314605,ST:NC,slip_2
+68271.0,Sweetleaf Solar LLC,SWLS1,NC,Solar,Solar,2027,93.0,,2030.0,23.62685694952788,ST:NC,slip_3plus
+68271.0,Sweetleaf Solar LLC,SWLS1,NC,Solar,Solar,2027,93.0,,,19.273336819118505,ST:NC,never
+69819.0,Trenton Solar - (OH),TRNTN,OH,Solar,Solar,2027,9.5,,2027.0,2.463451866058673,ST:OH,slip_0
+69819.0,Trenton Solar - (OH),TRNTN,OH,Solar,Solar,2027,9.5,,2028.0,3.8310859737362275,ST:OH,slip_1
+69819.0,Trenton Solar - (OH),TRNTN,OH,Solar,Solar,2027,9.5,,2029.0,1.412255122609938,ST:OH,slip_2
+69819.0,Trenton Solar - (OH),TRNTN,OH,Solar,Solar,2027,9.5,,2030.0,1.7011761942971213,ST:OH,slip_3plus
+69819.0,Trenton Solar - (OH),TRNTN,OH,Solar,Solar,2027,9.5,,,0.09203084329804098,ST:OH,never
+70166.0,Unity - PA 0385 (Soccerhound),385,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70166.0,Unity - PA 0385 (Soccerhound),385,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70166.0,Unity - PA 0385 (Soccerhound),385,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70166.0,Unity - PA 0385 (Soccerhound),385,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70166.0,Unity - PA 0385 (Soccerhound),385,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70166.0,Unity - PA 0385 (Soccerhound),385,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70132.0,Waynesboro - VA 0426 (Patterson B),426,VA,Solar,Solar,2027,5.0,,2026.0,0.11735492911308934,ST:VA,slip_-1
+70132.0,Waynesboro - VA 0426 (Patterson B),426,VA,Solar,Solar,2027,5.0,,2027.0,2.0479929113089352,ST:VA,slip_0
+70132.0,Waynesboro - VA 0426 (Patterson B),426,VA,Solar,Solar,2027,5.0,,2028.0,1.00447164523574,ST:VA,slip_1
+70132.0,Waynesboro - VA 0426 (Patterson B),426,VA,Solar,Solar,2027,5.0,,2029.0,0.23007335970985823,ST:VA,slip_2
+70132.0,Waynesboro - VA 0426 (Patterson B),426,VA,Solar,Solar,2027,5.0,,2030.0,1.3528272337619518,ST:VA,slip_3plus
+70132.0,Waynesboro - VA 0426 (Patterson B),426,VA,Solar,Solar,2027,5.0,,,0.2472799208704253,ST:VA,never
+70008.0,West Perry Planing Mill Road Solar LLC,WPERR,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70008.0,West Perry Planing Mill Road Solar LLC,WPERR,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70008.0,West Perry Planing Mill Road Solar LLC,WPERR,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70008.0,West Perry Planing Mill Road Solar LLC,WPERR,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70008.0,West Perry Planing Mill Road Solar LLC,WPERR,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70008.0,West Perry Planing Mill Road Solar LLC,WPERR,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70171.0,Wetmore - PA 0187 (Chittester),187,PA,Solar,Solar,2027,3.0,,2026.0,0.05753407493004024,PJM,slip_-1
+70171.0,Wetmore - PA 0187 (Chittester),187,PA,Solar,Solar,2027,3.0,,2027.0,1.0529884305344788,PJM,slip_0
+70171.0,Wetmore - PA 0187 (Chittester),187,PA,Solar,Solar,2027,3.0,,2028.0,0.8965918108789175,PJM,slip_1
+70171.0,Wetmore - PA 0187 (Chittester),187,PA,Solar,Solar,2027,3.0,,2029.0,0.26636919264343495,PJM,slip_2
+70171.0,Wetmore - PA 0187 (Chittester),187,PA,Solar,Solar,2027,3.0,,2030.0,0.6096523591407131,PJM,slip_3plus
+70171.0,Wetmore - PA 0187 (Chittester),187,PA,Solar,Solar,2027,3.0,,,0.11686413187241568,PJM,never
+70410.0,Willow Solar,ENX42,VA,Solar,Solar,2027,12.0,,2026.0,0.28165182987141446,ST:VA,slip_-1
+70410.0,Willow Solar,ENX42,VA,Solar,Solar,2027,12.0,,2027.0,4.915182987141444,ST:VA,slip_0
+70410.0,Willow Solar,ENX42,VA,Solar,Solar,2027,12.0,,2028.0,2.4107319485657763,ST:VA,slip_1
+70410.0,Willow Solar,ENX42,VA,Solar,Solar,2027,12.0,,2029.0,0.5521760633036598,ST:VA,slip_2
+70410.0,Willow Solar,ENX42,VA,Solar,Solar,2027,12.0,,2030.0,3.2467853610286843,ST:VA,slip_3plus
+70410.0,Willow Solar,ENX42,VA,Solar,Solar,2027,12.0,,,0.5934718100890207,ST:VA,never
+66901.0,Wylie Ridge Solar,WRS,WV,Solar,Solar,2027,8.4,,2026.0,0.16109540980411266,PJM,slip_-1
+66901.0,Wylie Ridge Solar,WRS,WV,Solar,Solar,2027,8.4,,2027.0,2.94836760549654,PJM,slip_0
+66901.0,Wylie Ridge Solar,WRS,WV,Solar,Solar,2027,8.4,,2028.0,2.5104570704609688,PJM,slip_1
+66901.0,Wylie Ridge Solar,WRS,WV,Solar,Solar,2027,8.4,,2029.0,0.7458337394016178,PJM,slip_2
+66901.0,Wylie Ridge Solar,WRS,WV,Solar,Solar,2027,8.4,,2030.0,1.7070266055939969,PJM,slip_3plus
+66901.0,Wylie Ridge Solar,WRS,WV,Solar,Solar,2027,8.4,,,0.3272195692427639,PJM,never
+69963.0,Yellow Wood Solar Energy LLC,YLWWD,OH,Solar,Solar,2027,300.0,,2027.0,77.79321682290546,ST:OH,slip_0
+69963.0,Yellow Wood Solar Energy LLC,YLWWD,OH,Solar,Solar,2027,300.0,,2028.0,120.98166232851244,ST:OH,slip_1
+69963.0,Yellow Wood Solar Energy LLC,YLWWD,OH,Solar,Solar,2027,300.0,,2029.0,44.59753018768225,ST:OH,slip_2
+69963.0,Yellow Wood Solar Energy LLC,YLWWD,OH,Solar,Solar,2027,300.0,,2030.0,53.72135350411962,ST:OH,slip_3plus
+69963.0,Yellow Wood Solar Energy LLC,YLWWD,OH,Solar,Solar,2027,300.0,,,2.9062371567802416,ST:OH,never
+64550.0,Coastal Virginia Offshore Wind (CVOW) Commercial Project,PLANT,VA,Wind,Offshore Wind,2027,2640.0,,2026.0,800.0,wind_override,
+64550.0,Coastal Virginia Offshore Wind (CVOW) Commercial Project,PLANT,VA,Wind,Offshore Wind,2027,2640.0,,2027.0,1840.0,wind_override,
+68186.0,Firelands Wind,FIRE,OH,Wind,Wind,2027,297.0,,2026.0,10.870360881341044,PJM,slip_-1
+68186.0,Firelands Wind,FIRE,OH,Wind,Wind,2027,297.0,,2027.0,50.20657345728716,PJM,slip_0
+68186.0,Firelands Wind,FIRE,OH,Wind,Wind,2027,297.0,,2028.0,51.06895542054022,PJM,slip_1
+68186.0,Firelands Wind,FIRE,OH,Wind,Wind,2027,297.0,,2029.0,13.711148524998167,PJM,slip_2
+68186.0,Firelands Wind,FIRE,OH,Wind,Wind,2027,297.0,,2030.0,57.975258033818896,PJM,slip_3plus
+68186.0,Firelands Wind,FIRE,OH,Wind,Wind,2027,297.0,,,113.16770368201448,PJM,never
+69690.0,Panther Grove 2,PLANT,IL,Wind,Wind,2027,472.5,,2027.0,472.5,wind_override,
+68019.0,Richwood Solar and Storage,RICBA,OH,Battery Storage,Wind,2028,50.0,,2028.0,50.0,unchanged,
+62388.0,Grays Landing L&D Hydroelectric Project,NA1,PA,Hydro,Wind,2028,6.0,,2028.0,6.0,unchanged,
+62388.0,Grays Landing L&D Hydroelectric Project,NA2,PA,Hydro,Wind,2028,6.0,,2028.0,6.0,unchanged,
+62385.0,Maxwell L&D Hydroelectric Project,NA1,PA,Hydro,Wind,2028,6.0,,2028.0,6.0,unchanged,
+62385.0,Maxwell L&D Hydroelectric Project,NA2,PA,Hydro,Wind,2028,6.0,,2028.0,6.0,unchanged,
+62404.0,Monongahela L&D4 Hydroelectric Project,NA1,PA,Hydro,Wind,2028,6.0,,2028.0,6.0,unchanged,
+62404.0,Monongahela L&D4 Hydroelectric Project,NA2,PA,Hydro,Wind,2028,6.0,,2028.0,6.0,unchanged,
+62400.0,Montgomery L&D Hydroelectric Project,NA1,PA,Hydro,Wind,2028,6.8,,2028.0,6.8,unchanged,
+62400.0,Montgomery L&D Hydroelectric Project,NA2,PA,Hydro,Wind,2028,6.8,,2028.0,6.8,unchanged,
+62400.0,Montgomery L&D Hydroelectric Project,NA3,PA,Hydro,Wind,2028,6.8,,2028.0,6.8,unchanged,
+62387.0,Morgantown L&D Hydroelectric Project,NA1,WV,Hydro,Wind,2028,2.5,,2028.0,2.5,unchanged,
+62387.0,Morgantown L&D Hydroelectric Project,NA2,WV,Hydro,Wind,2028,2.5,,2028.0,2.5,unchanged,
+62386.0,Opekiska L&D Hydroelectric Project,NA1,WV,Hydro,Wind,2028,3.0,,2028.0,3.0,unchanged,
+62386.0,Opekiska L&D Hydroelectric Project,NA2,WV,Hydro,Wind,2028,3.0,,2028.0,3.0,unchanged,
+62384.0,Point Marion L&D Hydroelectric Project,NA1,PA,Hydro,Wind,2028,2.5,,2028.0,2.5,unchanged,
+62384.0,Point Marion L&D Hydroelectric Project,NA2,PA,Hydro,Wind,2028,2.5,,2028.0,2.5,unchanged,
+69726.0,Liberty Station,L1,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L10,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L11,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L12,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L2,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L3,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L4,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L5,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L6,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L7,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L8,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+69726.0,Liberty Station,L9,KY,Natural Gas,Wind,2028,18.1,,2028.0,18.1,unchanged,
+60206.0,Wolf Summit Energy,HCCA1,WV,Natural Gas,Wind,2028,228.5,,2028.0,228.5,unchanged,
+60206.0,Wolf Summit Energy,HCCT1,WV,Natural Gas,Wind,2028,371.5,,2028.0,371.5,unchanged,
+64658.0,"AEUG Fleming Solar, LLC",AFS,KY,Solar,Solar,2028,188.5,,2027.0,0.049567000911577036,PJM,slip_-1
+64658.0,"AEUG Fleming Solar, LLC",AFS,KY,Solar,Solar,2028,188.5,,2028.0,20.37203737465816,PJM,slip_0
+64658.0,"AEUG Fleming Solar, LLC",AFS,KY,Solar,Solar,2028,188.5,,2029.0,34.86212397447585,PJM,slip_1
+64658.0,"AEUG Fleming Solar, LLC",AFS,KY,Solar,Solar,2028,188.5,,2030.0,5.452370100273473,PJM,slip_2
+64658.0,"AEUG Fleming Solar, LLC",AFS,KY,Solar,Solar,2028,188.5,,2031.0,85.20567456700091,PJM,slip_3plus
+64658.0,"AEUG Fleming Solar, LLC",AFS,KY,Solar,Solar,2028,188.5,,,42.55822698268005,PJM,never
+64659.0,"AEUG Madison Solar, LLC",AMS,KY,Solar,Solar,2028,100.0,,2027.0,0.026295491199775617,PJM,slip_-1
+64659.0,"AEUG Madison Solar, LLC",AMS,KY,Solar,Solar,2028,100.0,,2028.0,10.807446883107778,PJM,slip_0
+64659.0,"AEUG Madison Solar, LLC",AMS,KY,Solar,Solar,2028,100.0,,2029.0,18.494495477175516,PJM,slip_1
+64659.0,"AEUG Madison Solar, LLC",AMS,KY,Solar,Solar,2028,100.0,,2030.0,2.8925040319753172,PJM,slip_2
+64659.0,"AEUG Madison Solar, LLC",AMS,KY,Solar,Solar,2028,100.0,,2031.0,45.201949372414276,PJM,slip_3plus
+64659.0,"AEUG Madison Solar, LLC",AMS,KY,Solar,Solar,2028,100.0,,,22.577308744127343,PJM,never
+65462.0,Axton Solar,AXTON,VA,Solar,Solar,2028,201.1,,2027.0,0.20253122062575532,ST:VA,slip_-1
+65462.0,Axton Solar,AXTON,VA,Solar,Solar,2028,201.1,,2028.0,59.1256143413455,ST:VA,slip_0
+65462.0,Axton Solar,AXTON,VA,Solar,Solar,2028,201.1,,2029.0,76.96186383778702,ST:VA,slip_1
+65462.0,Axton Solar,AXTON,VA,Solar,Solar,2028,201.1,,2030.0,2.0253122062575533,ST:VA,slip_2
+65462.0,Axton Solar,AXTON,VA,Solar,Solar,2028,201.1,,2031.0,33.75520343762589,ST:VA,slip_3plus
+65462.0,Axton Solar,AXTON,VA,Solar,Solar,2028,201.1,,,29.029474956358264,ST:VA,never
+67955.0,BAI-Boyles Run-Phase 2,BRPV2,PA,Solar,Solar,2028,15.9,,2027.0,0.004180983100764323,PJM,slip_-1
+67955.0,BAI-Boyles Run-Phase 2,BRPV2,PA,Solar,Solar,2028,15.9,,2028.0,1.7183840544141367,PJM,slip_0
+67955.0,BAI-Boyles Run-Phase 2,BRPV2,PA,Solar,Solar,2028,15.9,,2029.0,2.940624780870907,PJM,slip_1
+67955.0,BAI-Boyles Run-Phase 2,BRPV2,PA,Solar,Solar,2028,15.9,,2030.0,0.45990814108407546,PJM,slip_2
+67955.0,BAI-Boyles Run-Phase 2,BRPV2,PA,Solar,Solar,2028,15.9,,2031.0,7.187109950213871,PJM,slip_3plus
+67955.0,BAI-Boyles Run-Phase 2,BRPV2,PA,Solar,Solar,2028,15.9,,,3.589792090316248,PJM,never
+67954.0,BAI-Boyles Run-Phase I,BRPV1,PA,Solar,Solar,2028,15.9,,2027.0,0.004180983100764323,PJM,slip_-1
+67954.0,BAI-Boyles Run-Phase I,BRPV1,PA,Solar,Solar,2028,15.9,,2028.0,1.7183840544141367,PJM,slip_0
+67954.0,BAI-Boyles Run-Phase I,BRPV1,PA,Solar,Solar,2028,15.9,,2029.0,2.940624780870907,PJM,slip_1
+67954.0,BAI-Boyles Run-Phase I,BRPV1,PA,Solar,Solar,2028,15.9,,2030.0,0.45990814108407546,PJM,slip_2
+67954.0,BAI-Boyles Run-Phase I,BRPV1,PA,Solar,Solar,2028,15.9,,2031.0,7.187109950213871,PJM,slip_3plus
+67954.0,BAI-Boyles Run-Phase I,BRPV1,PA,Solar,Solar,2028,15.9,,,3.589792090316248,PJM,never
+70203.0,Bealeton Solar,GEN1,VA,Solar,Solar,2028,14.2,,2027.0,0.014301060829864374,ST:VA,slip_-1
+70203.0,Bealeton Solar,GEN1,VA,Solar,Solar,2028,14.2,,2028.0,4.174956358265073,ST:VA,slip_0
+70203.0,Bealeton Solar,GEN1,VA,Solar,Solar,2028,14.2,,2029.0,5.434403115348462,ST:VA,slip_1
+70203.0,Bealeton Solar,GEN1,VA,Solar,Solar,2028,14.2,,2030.0,0.14301060829864373,ST:VA,slip_2
+70203.0,Bealeton Solar,GEN1,VA,Solar,Solar,2028,14.2,,2031.0,2.383510138310729,ST:VA,slip_3plus
+70203.0,Bealeton Solar,GEN1,VA,Solar,Solar,2028,14.2,,,2.049818718947227,ST:VA,never
+70024.0,Beaver Gross Road Solar LLC,BEAVE,PA,Solar,Solar,2028,3.0,,2027.0,0.0007888647359932685,PJM,slip_-1
+70024.0,Beaver Gross Road Solar LLC,BEAVE,PA,Solar,Solar,2028,3.0,,2028.0,0.32422340649323333,PJM,slip_0
+70024.0,Beaver Gross Road Solar LLC,BEAVE,PA,Solar,Solar,2028,3.0,,2029.0,0.5548348643152654,PJM,slip_1
+70024.0,Beaver Gross Road Solar LLC,BEAVE,PA,Solar,Solar,2028,3.0,,2030.0,0.08677512095925952,PJM,slip_2
+70024.0,Beaver Gross Road Solar LLC,BEAVE,PA,Solar,Solar,2028,3.0,,2031.0,1.3560584811724283,PJM,slip_3plus
+70024.0,Beaver Gross Road Solar LLC,BEAVE,PA,Solar,Solar,2028,3.0,,,0.6773192623238203,PJM,never
+64848.0,"Bedington Energy Facility, LLC",BEF1,WV,Solar,Solar,2028,100.0,,2027.0,0.026295491199775617,PJM,slip_-1
+64848.0,"Bedington Energy Facility, LLC",BEF1,WV,Solar,Solar,2028,100.0,,2028.0,10.807446883107778,PJM,slip_0
+64848.0,"Bedington Energy Facility, LLC",BEF1,WV,Solar,Solar,2028,100.0,,2029.0,18.494495477175516,PJM,slip_1
+64848.0,"Bedington Energy Facility, LLC",BEF1,WV,Solar,Solar,2028,100.0,,2030.0,2.8925040319753172,PJM,slip_2
+64848.0,"Bedington Energy Facility, LLC",BEF1,WV,Solar,Solar,2028,100.0,,2031.0,45.201949372414276,PJM,slip_3plus
+64848.0,"Bedington Energy Facility, LLC",BEF1,WV,Solar,Solar,2028,100.0,,,22.577308744127343,PJM,never
+70076.0,Bigler - PA 0436 (Flango 2),436,PA,Solar,Solar,2028,3.0,,2027.0,0.0007888647359932685,PJM,slip_-1
+70076.0,Bigler - PA 0436 (Flango 2),436,PA,Solar,Solar,2028,3.0,,2028.0,0.32422340649323333,PJM,slip_0
+70076.0,Bigler - PA 0436 (Flango 2),436,PA,Solar,Solar,2028,3.0,,2029.0,0.5548348643152654,PJM,slip_1
+70076.0,Bigler - PA 0436 (Flango 2),436,PA,Solar,Solar,2028,3.0,,2030.0,0.08677512095925952,PJM,slip_2
+70076.0,Bigler - PA 0436 (Flango 2),436,PA,Solar,Solar,2028,3.0,,2031.0,1.3560584811724283,PJM,slip_3plus
+70076.0,Bigler - PA 0436 (Flango 2),436,PA,Solar,Solar,2028,3.0,,,0.6773192623238203,PJM,never
+68072.0,Bridleton Solar,BRIDL,VA,Solar,Solar,2028,20.0,,2027.0,0.020142339196992078,ST:VA,slip_-1
+68072.0,Bridleton Solar,BRIDL,VA,Solar,Solar,2028,20.0,,2028.0,5.880220222908553,ST:VA,slip_0
+68072.0,Bridleton Solar,BRIDL,VA,Solar,Solar,2028,20.0,,2029.0,7.654088894856988,ST:VA,slip_1
+68072.0,Bridleton Solar,BRIDL,VA,Solar,Solar,2028,20.0,,2030.0,0.20142339196992076,ST:VA,slip_2
+68072.0,Bridleton Solar,BRIDL,VA,Solar,Solar,2028,20.0,,2031.0,3.3570565328320128,ST:VA,slip_3plus
+68072.0,Bridleton Solar,BRIDL,VA,Solar,Solar,2028,20.0,,,2.887068618235531,ST:VA,never
+64036.0,"Caden Energix New Kent, LLC",ENX08,VA,Solar,Solar,2028,20.0,,2027.0,0.020142339196992078,ST:VA,slip_-1
+64036.0,"Caden Energix New Kent, LLC",ENX08,VA,Solar,Solar,2028,20.0,,2028.0,5.880220222908553,ST:VA,slip_0
+64036.0,"Caden Energix New Kent, LLC",ENX08,VA,Solar,Solar,2028,20.0,,2029.0,7.654088894856988,ST:VA,slip_1
+64036.0,"Caden Energix New Kent, LLC",ENX08,VA,Solar,Solar,2028,20.0,,2030.0,0.20142339196992076,ST:VA,slip_2
+64036.0,"Caden Energix New Kent, LLC",ENX08,VA,Solar,Solar,2028,20.0,,2031.0,3.3570565328320128,ST:VA,slip_3plus
+64036.0,"Caden Energix New Kent, LLC",ENX08,VA,Solar,Solar,2028,20.0,,,2.887068618235531,ST:VA,never
+65286.0,Caden Energix Piney River LLC,ENX18,VA,Solar,Solar,2028,50.0,,2027.0,0.05035584799248019,ST:VA,slip_-1
+65286.0,Caden Energix Piney River LLC,ENX18,VA,Solar,Solar,2028,50.0,,2028.0,14.700550557271383,ST:VA,slip_0
+65286.0,Caden Energix Piney River LLC,ENX18,VA,Solar,Solar,2028,50.0,,2029.0,19.13522223714247,ST:VA,slip_1
+65286.0,Caden Energix Piney River LLC,ENX18,VA,Solar,Solar,2028,50.0,,2030.0,0.503558479924802,ST:VA,slip_2
+65286.0,Caden Energix Piney River LLC,ENX18,VA,Solar,Solar,2028,50.0,,2031.0,8.392641332080032,ST:VA,slip_3plus
+65286.0,Caden Energix Piney River LLC,ENX18,VA,Solar,Solar,2028,50.0,,,7.217671545588828,ST:VA,never
+64543.0,Cedar Creek Solar,1,DE,Solar,Solar,2028,114.0,,2027.0,0.029976859967744202,PJM,slip_-1
+64543.0,Cedar Creek Solar,1,DE,Solar,Solar,2028,114.0,,2028.0,12.320489446742865,PJM,slip_0
+64543.0,Cedar Creek Solar,1,DE,Solar,Solar,2028,114.0,,2029.0,21.083724843980086,PJM,slip_1
+64543.0,Cedar Creek Solar,1,DE,Solar,Solar,2028,114.0,,2030.0,3.297454596451862,PJM,slip_2
+64543.0,Cedar Creek Solar,1,DE,Solar,Solar,2028,114.0,,2031.0,51.53022228455228,PJM,slip_3plus
+64543.0,Cedar Creek Solar,1,DE,Solar,Solar,2028,114.0,,,25.738131968305172,PJM,never
+66870.0,Davis Solar (WV),DAVS,WV,Solar,Solar,2028,11.5,,2027.0,0.0030239814879741956,PJM,slip_-1
+66870.0,Davis Solar (WV),DAVS,WV,Solar,Solar,2028,11.5,,2028.0,1.2428563915573942,PJM,slip_0
+66870.0,Davis Solar (WV),DAVS,WV,Solar,Solar,2028,11.5,,2029.0,2.1268669798751842,PJM,slip_1
+66870.0,Davis Solar (WV),DAVS,WV,Solar,Solar,2028,11.5,,2030.0,0.33263796367716153,PJM,slip_2
+66870.0,Davis Solar (WV),DAVS,WV,Solar,Solar,2028,11.5,,2031.0,5.198224177827642,PJM,slip_3plus
+66870.0,Davis Solar (WV),DAVS,WV,Solar,Solar,2028,11.5,,,2.596390505574645,PJM,never
+70028.0,Delaware Conrath Road Solar LLC,CONRR,PA,Solar,Solar,2028,3.0,,2027.0,0.0007888647359932685,PJM,slip_-1
+70028.0,Delaware Conrath Road Solar LLC,CONRR,PA,Solar,Solar,2028,3.0,,2028.0,0.32422340649323333,PJM,slip_0
+70028.0,Delaware Conrath Road Solar LLC,CONRR,PA,Solar,Solar,2028,3.0,,2029.0,0.5548348643152654,PJM,slip_1
+70028.0,Delaware Conrath Road Solar LLC,CONRR,PA,Solar,Solar,2028,3.0,,2030.0,0.08677512095925952,PJM,slip_2
+70028.0,Delaware Conrath Road Solar LLC,CONRR,PA,Solar,Solar,2028,3.0,,2031.0,1.3560584811724283,PJM,slip_3plus
+70028.0,Delaware Conrath Road Solar LLC,CONRR,PA,Solar,Solar,2028,3.0,,,0.6773192623238203,PJM,never
+70029.0,East Windsor Solar 1 LLC,EWIN1,NJ,Solar,Solar,2028,1.4,,2027.0,0.0003681368767968586,PJM,slip_-1
+70029.0,East Windsor Solar 1 LLC,EWIN1,NJ,Solar,Solar,2028,1.4,,2028.0,0.15130425636350886,PJM,slip_0
+70029.0,East Windsor Solar 1 LLC,EWIN1,NJ,Solar,Solar,2028,1.4,,2029.0,0.2589229366804572,PJM,slip_1
+70029.0,East Windsor Solar 1 LLC,EWIN1,NJ,Solar,Solar,2028,1.4,,2030.0,0.04049505644765444,PJM,slip_2
+70029.0,East Windsor Solar 1 LLC,EWIN1,NJ,Solar,Solar,2028,1.4,,2031.0,0.6328272912137999,PJM,slip_3plus
+70029.0,East Windsor Solar 1 LLC,EWIN1,NJ,Solar,Solar,2028,1.4,,,0.3160823224177828,PJM,never
+69108.0,Eastern Cottontail Solar,COT01,OH,Solar,Solar,2028,220.0,,2027.0,0.057850080639506356,PJM,slip_-1
+69108.0,Eastern Cottontail Solar,COT01,OH,Solar,Solar,2028,220.0,,2028.0,23.77638314283711,PJM,slip_0
+69108.0,Eastern Cottontail Solar,COT01,OH,Solar,Solar,2028,220.0,,2029.0,40.687890049786134,PJM,slip_1
+69108.0,Eastern Cottontail Solar,COT01,OH,Solar,Solar,2028,220.0,,2030.0,6.363508870345698,PJM,slip_2
+69108.0,Eastern Cottontail Solar,COT01,OH,Solar,Solar,2028,220.0,,2031.0,99.44428861931142,PJM,slip_3plus
+69108.0,Eastern Cottontail Solar,COT01,OH,Solar,Solar,2028,220.0,,,49.67007923708016,PJM,never
+65313.0,Elm Spring Solar 1,ES,VA,Solar,Solar,2028,3.0,,2027.0,0.0030213508795488113,ST:VA,slip_-1
+65313.0,Elm Spring Solar 1,ES,VA,Solar,Solar,2028,3.0,,2028.0,0.8820330334362829,ST:VA,slip_0
+65313.0,Elm Spring Solar 1,ES,VA,Solar,Solar,2028,3.0,,2029.0,1.1481133342285483,ST:VA,slip_1
+65313.0,Elm Spring Solar 1,ES,VA,Solar,Solar,2028,3.0,,2030.0,0.030213508795488116,ST:VA,slip_2
+65313.0,Elm Spring Solar 1,ES,VA,Solar,Solar,2028,3.0,,2031.0,0.503558479924802,ST:VA,slip_3plus
+65313.0,Elm Spring Solar 1,ES,VA,Solar,Solar,2028,3.0,,,0.43306029273532964,ST:VA,never
+68061.0,Gemstone Solar LLC,GEMPV,MI,Solar,Solar,2028,150.0,,2027.0,0.039443236799663425,PJM,slip_-1
+68061.0,Gemstone Solar LLC,GEMPV,MI,Solar,Solar,2028,150.0,,2028.0,16.211170324661666,PJM,slip_0
+68061.0,Gemstone Solar LLC,GEMPV,MI,Solar,Solar,2028,150.0,,2029.0,27.74174321576327,PJM,slip_1
+68061.0,Gemstone Solar LLC,GEMPV,MI,Solar,Solar,2028,150.0,,2030.0,4.338756047962976,PJM,slip_2
+68061.0,Gemstone Solar LLC,GEMPV,MI,Solar,Solar,2028,150.0,,2031.0,67.80292405862141,PJM,slip_3plus
+68061.0,Gemstone Solar LLC,GEMPV,MI,Solar,Solar,2028,150.0,,,33.86596311619102,PJM,never
+68205.0,Greenwood Solar I,GRNWD,VA,Solar,Solar,2028,100.0,,2027.0,0.10071169598496038,ST:VA,slip_-1
+68205.0,Greenwood Solar I,GRNWD,VA,Solar,Solar,2028,100.0,,2028.0,29.401101114542765,ST:VA,slip_0
+68205.0,Greenwood Solar I,GRNWD,VA,Solar,Solar,2028,100.0,,2029.0,38.27044447428494,ST:VA,slip_1
+68205.0,Greenwood Solar I,GRNWD,VA,Solar,Solar,2028,100.0,,2030.0,1.007116959849604,ST:VA,slip_2
+68205.0,Greenwood Solar I,GRNWD,VA,Solar,Solar,2028,100.0,,2031.0,16.785282664160064,ST:VA,slip_3plus
+68205.0,Greenwood Solar I,GRNWD,VA,Solar,Solar,2028,100.0,,,14.435343091177655,ST:VA,never
+69796.0,Harvey Solar,HARVS,OH,Solar,Solar,2028,350.0,,2027.0,0.09203421919921466,PJM,slip_-1
+69796.0,Harvey Solar,HARVS,OH,Solar,Solar,2028,350.0,,2028.0,37.82606409087722,PJM,slip_0
+69796.0,Harvey Solar,HARVS,OH,Solar,Solar,2028,350.0,,2029.0,64.7307341701143,PJM,slip_1
+69796.0,Harvey Solar,HARVS,OH,Solar,Solar,2028,350.0,,2030.0,10.12376411191361,PJM,slip_2
+69796.0,Harvey Solar,HARVS,OH,Solar,Solar,2028,350.0,,2031.0,158.20682280344997,PJM,slip_3plus
+69796.0,Harvey Solar,HARVS,OH,Solar,Solar,2028,350.0,,,79.02058060444571,PJM,never
+65665.0,Hecate Energy Pulaski 1,HEPU1,VA,Solar,Solar,2028,150.0,,2027.0,0.15106754397744057,ST:VA,slip_-1
+65665.0,Hecate Energy Pulaski 1,HEPU1,VA,Solar,Solar,2028,150.0,,2028.0,44.101651671814146,ST:VA,slip_0
+65665.0,Hecate Energy Pulaski 1,HEPU1,VA,Solar,Solar,2028,150.0,,2029.0,57.405666711427415,ST:VA,slip_1
+65665.0,Hecate Energy Pulaski 1,HEPU1,VA,Solar,Solar,2028,150.0,,2030.0,1.5106754397744058,ST:VA,slip_2
+65665.0,Hecate Energy Pulaski 1,HEPU1,VA,Solar,Solar,2028,150.0,,2031.0,25.177923996240096,ST:VA,slip_3plus
+65665.0,Hecate Energy Pulaski 1,HEPU1,VA,Solar,Solar,2028,150.0,,,21.653014636766482,ST:VA,never
+68511.0,Henry Solar,CHC1,OH,Solar,Solar,2028,206.0,,2027.0,0.05416871187153777,PJM,slip_-1
+68511.0,Henry Solar,CHC1,OH,Solar,Solar,2028,206.0,,2028.0,22.26334057920202,PJM,slip_0
+68511.0,Henry Solar,CHC1,OH,Solar,Solar,2028,206.0,,2029.0,38.09866068298156,PJM,slip_1
+68511.0,Henry Solar,CHC1,OH,Solar,Solar,2028,206.0,,2030.0,5.958558305869154,PJM,slip_2
+68511.0,Henry Solar,CHC1,OH,Solar,Solar,2028,206.0,,2031.0,93.11601570717342,PJM,slip_3plus
+68511.0,Henry Solar,CHC1,OH,Solar,Solar,2028,206.0,,,46.50925601290233,PJM,never
+70409.0,Hera Solar,ENX41,VA,Solar,Solar,2028,13.3,,2027.0,0.013394655565999732,ST:VA,slip_-1
+70409.0,Hera Solar,ENX41,VA,Solar,Solar,2028,13.3,,2028.0,3.910346448234188,ST:VA,slip_0
+70409.0,Hera Solar,ENX41,VA,Solar,Solar,2028,13.3,,2029.0,5.089969115079898,ST:VA,slip_1
+70409.0,Hera Solar,ENX41,VA,Solar,Solar,2028,13.3,,2030.0,0.13394655565999733,ST:VA,slip_2
+70409.0,Hera Solar,ENX41,VA,Solar,Solar,2028,13.3,,2031.0,2.2324425943332886,ST:VA,slip_3plus
+70409.0,Hera Solar,ENX41,VA,Solar,Solar,2028,13.3,,,1.9199006311266282,ST:VA,never
+69763.0,Heritage Prairie Solar LLC,HPS,IL,Solar,Solar,2028,300.0,,2027.0,0.07888647359932685,PJM,slip_-1
+69763.0,Heritage Prairie Solar LLC,HPS,IL,Solar,Solar,2028,300.0,,2028.0,32.42234064932333,PJM,slip_0
+69763.0,Heritage Prairie Solar LLC,HPS,IL,Solar,Solar,2028,300.0,,2029.0,55.48348643152654,PJM,slip_1
+69763.0,Heritage Prairie Solar LLC,HPS,IL,Solar,Solar,2028,300.0,,2030.0,8.677512095925952,PJM,slip_2
+69763.0,Heritage Prairie Solar LLC,HPS,IL,Solar,Solar,2028,300.0,,2031.0,135.60584811724283,PJM,slip_3plus
+69763.0,Heritage Prairie Solar LLC,HPS,IL,Solar,Solar,2028,300.0,,,67.73192623238204,PJM,never
+66695.0,Horsepen Branch Solar,HRSPN,VA,Solar,Solar,2028,25.0,,2027.0,0.025177923996240095,ST:VA,slip_-1
+66695.0,Horsepen Branch Solar,HRSPN,VA,Solar,Solar,2028,25.0,,2028.0,7.350275278635691,ST:VA,slip_0
+66695.0,Horsepen Branch Solar,HRSPN,VA,Solar,Solar,2028,25.0,,2029.0,9.567611118571236,ST:VA,slip_1
+66695.0,Horsepen Branch Solar,HRSPN,VA,Solar,Solar,2028,25.0,,2030.0,0.251779239962401,ST:VA,slip_2
+66695.0,Horsepen Branch Solar,HRSPN,VA,Solar,Solar,2028,25.0,,2031.0,4.196320666040016,ST:VA,slip_3plus
+66695.0,Horsepen Branch Solar,HRSPN,VA,Solar,Solar,2028,25.0,,,3.608835772794414,ST:VA,never
+70164.0,Kittanning - PA 0406 (Hoeter B),406,PA,Solar,Solar,2028,3.0,,2027.0,0.0007888647359932685,PJM,slip_-1
+70164.0,Kittanning - PA 0406 (Hoeter B),406,PA,Solar,Solar,2028,3.0,,2028.0,0.32422340649323333,PJM,slip_0
+70164.0,Kittanning - PA 0406 (Hoeter B),406,PA,Solar,Solar,2028,3.0,,2029.0,0.5548348643152654,PJM,slip_1
+70164.0,Kittanning - PA 0406 (Hoeter B),406,PA,Solar,Solar,2028,3.0,,2030.0,0.08677512095925952,PJM,slip_2
+70164.0,Kittanning - PA 0406 (Hoeter B),406,PA,Solar,Solar,2028,3.0,,2031.0,1.3560584811724283,PJM,slip_3plus
+70164.0,Kittanning - PA 0406 (Hoeter B),406,PA,Solar,Solar,2028,3.0,,,0.6773192623238203,PJM,never
+70165.0,Kittanning - PA 0407 (Hoeter C),407,PA,Solar,Solar,2028,3.0,,2027.0,0.0007888647359932685,PJM,slip_-1
+70165.0,Kittanning - PA 0407 (Hoeter C),407,PA,Solar,Solar,2028,3.0,,2028.0,0.32422340649323333,PJM,slip_0
+70165.0,Kittanning - PA 0407 (Hoeter C),407,PA,Solar,Solar,2028,3.0,,2029.0,0.5548348643152654,PJM,slip_1
+70165.0,Kittanning - PA 0407 (Hoeter C),407,PA,Solar,Solar,2028,3.0,,2030.0,0.08677512095925952,PJM,slip_2
+70165.0,Kittanning - PA 0407 (Hoeter C),407,PA,Solar,Solar,2028,3.0,,2031.0,1.3560584811724283,PJM,slip_3plus
+70165.0,Kittanning - PA 0407 (Hoeter C),407,PA,Solar,Solar,2028,3.0,,,0.6773192623238203,PJM,never
+70032.0,Liberty Keefer Mill Road Solar LLC,KEEFE,PA,Solar,Solar,2028,3.0,,2027.0,0.0007888647359932685,PJM,slip_-1
+70032.0,Liberty Keefer Mill Road Solar LLC,KEEFE,PA,Solar,Solar,2028,3.0,,2028.0,0.32422340649323333,PJM,slip_0
+70032.0,Liberty Keefer Mill Road Solar LLC,KEEFE,PA,Solar,Solar,2028,3.0,,2029.0,0.5548348643152654,PJM,slip_1
+70032.0,Liberty Keefer Mill Road Solar LLC,KEEFE,PA,Solar,Solar,2028,3.0,,2030.0,0.08677512095925952,PJM,slip_2
+70032.0,Liberty Keefer Mill Road Solar LLC,KEEFE,PA,Solar,Solar,2028,3.0,,2031.0,1.3560584811724283,PJM,slip_3plus
+70032.0,Liberty Keefer Mill Road Solar LLC,KEEFE,PA,Solar,Solar,2028,3.0,,,0.6773192623238203,PJM,never
+68993.0,MPG Solar,ENX40,PA,Solar,Solar,2028,162.0,,2027.0,0.0425986957436365,PJM,slip_-1
+68993.0,MPG Solar,ENX40,PA,Solar,Solar,2028,162.0,,2028.0,17.5080639506346,PJM,slip_0
+68993.0,MPG Solar,ENX40,PA,Solar,Solar,2028,162.0,,2029.0,29.961082673024336,PJM,slip_1
+68993.0,MPG Solar,ENX40,PA,Solar,Solar,2028,162.0,,2030.0,4.685856531800014,PJM,slip_2
+68993.0,MPG Solar,ENX40,PA,Solar,Solar,2028,162.0,,2031.0,73.22715798331113,PJM,slip_3plus
+68993.0,MPG Solar,ENX40,PA,Solar,Solar,2028,162.0,,,36.5752401654863,PJM,never
+70559.0,Mammoth,GEN1,WV,Solar,Solar,2028,86.0,,2027.0,0.022614122431807028,PJM,slip_-1
+70559.0,Mammoth,GEN1,WV,Solar,Solar,2028,86.0,,2028.0,9.294404319472688,PJM,slip_0
+70559.0,Mammoth,GEN1,WV,Solar,Solar,2028,86.0,,2029.0,15.905266110370944,PJM,slip_1
+70559.0,Mammoth,GEN1,WV,Solar,Solar,2028,86.0,,2030.0,2.487553467498773,PJM,slip_2
+70559.0,Mammoth,GEN1,WV,Solar,Solar,2028,86.0,,2031.0,38.87367646027628,PJM,slip_3plus
+70559.0,Mammoth,GEN1,WV,Solar,Solar,2028,86.0,,,19.416485519949518,PJM,never
+69970.0,Maple Ridge A,MPLRA,PA,Solar,Solar,2028,3.0,,2027.0,0.0007888647359932685,PJM,slip_-1
+69970.0,Maple Ridge A,MPLRA,PA,Solar,Solar,2028,3.0,,2028.0,0.32422340649323333,PJM,slip_0
+69970.0,Maple Ridge A,MPLRA,PA,Solar,Solar,2028,3.0,,2029.0,0.5548348643152654,PJM,slip_1
+69970.0,Maple Ridge A,MPLRA,PA,Solar,Solar,2028,3.0,,2030.0,0.08677512095925952,PJM,slip_2
+69970.0,Maple Ridge A,MPLRA,PA,Solar,Solar,2028,3.0,,2031.0,1.3560584811724283,PJM,slip_3plus
+69970.0,Maple Ridge A,MPLRA,PA,Solar,Solar,2028,3.0,,,0.6773192623238203,PJM,never
+69971.0,Maple Ridge B,MPLRB,PA,Solar,Solar,2028,3.0,,2027.0,0.0007888647359932685,PJM,slip_-1
+69971.0,Maple Ridge B,MPLRB,PA,Solar,Solar,2028,3.0,,2028.0,0.32422340649323333,PJM,slip_0
+69971.0,Maple Ridge B,MPLRB,PA,Solar,Solar,2028,3.0,,2029.0,0.5548348643152654,PJM,slip_1
+69971.0,Maple Ridge B,MPLRB,PA,Solar,Solar,2028,3.0,,2030.0,0.08677512095925952,PJM,slip_2
+69971.0,Maple Ridge B,MPLRB,PA,Solar,Solar,2028,3.0,,2031.0,1.3560584811724283,PJM,slip_3plus
+69971.0,Maple Ridge B,MPLRB,PA,Solar,Solar,2028,3.0,,,0.6773192623238203,PJM,never
+67966.0,New Jay PV & BESS,NEWJ1,IN,Solar,Solar,2028,39.0,,2027.0,0.01025524156791249,PJM,slip_-1
+67966.0,New Jay PV & BESS,NEWJ1,IN,Solar,Solar,2028,39.0,,2028.0,4.214904284412033,PJM,slip_0
+67966.0,New Jay PV & BESS,NEWJ1,IN,Solar,Solar,2028,39.0,,2029.0,7.212853236098451,PJM,slip_1
+67966.0,New Jay PV & BESS,NEWJ1,IN,Solar,Solar,2028,39.0,,2030.0,1.1280765724703739,PJM,slip_2
+67966.0,New Jay PV & BESS,NEWJ1,IN,Solar,Solar,2028,39.0,,2031.0,17.62876025524157,PJM,slip_3plus
+67966.0,New Jay PV & BESS,NEWJ1,IN,Solar,Solar,2028,39.0,,,8.805150410209665,PJM,never
+68085.0,Red Maple LRE,RMS1,IL,Solar,Solar,2028,95.0,,2027.0,0.024980716639786835,PJM,slip_-1
+68085.0,Red Maple LRE,RMS1,IL,Solar,Solar,2028,95.0,,2028.0,10.267074538952388,PJM,slip_0
+68085.0,Red Maple LRE,RMS1,IL,Solar,Solar,2028,95.0,,2029.0,17.56977070331674,PJM,slip_1
+68085.0,Red Maple LRE,RMS1,IL,Solar,Solar,2028,95.0,,2030.0,2.7478788303765516,PJM,slip_2
+68085.0,Red Maple LRE,RMS1,IL,Solar,Solar,2028,95.0,,2031.0,42.94185190379356,PJM,slip_3plus
+68085.0,Red Maple LRE,RMS1,IL,Solar,Solar,2028,95.0,,,21.44844330692098,PJM,never
+65930.0,Redbud Run Solar,10,VA,Solar,Solar,2028,30.0,,2027.0,0.030213508795488116,ST:VA,slip_-1
+65930.0,Redbud Run Solar,10,VA,Solar,Solar,2028,30.0,,2028.0,8.82033033436283,ST:VA,slip_0
+65930.0,Redbud Run Solar,10,VA,Solar,Solar,2028,30.0,,2029.0,11.481133342285483,ST:VA,slip_1
+65930.0,Redbud Run Solar,10,VA,Solar,Solar,2028,30.0,,2030.0,0.30213508795488114,ST:VA,slip_2
+65930.0,Redbud Run Solar,10,VA,Solar,Solar,2028,30.0,,2031.0,5.035584799248019,ST:VA,slip_3plus
+65930.0,Redbud Run Solar,10,VA,Solar,Solar,2028,30.0,,,4.330602927353296,ST:VA,never
+70547.0,Rippon Energy Facility,PV-1,WV,Solar,Solar,2028,117.1,,2027.0,0.030792020194937243,PJM,slip_-1
+70547.0,Rippon Energy Facility,PV-1,WV,Solar,Solar,2028,117.1,,2028.0,12.655520300119207,PJM,slip_0
+70547.0,Rippon Energy Facility,PV-1,WV,Solar,Solar,2028,117.1,,2029.0,21.657054203772528,PJM,slip_1
+70547.0,Rippon Energy Facility,PV-1,WV,Solar,Solar,2028,117.1,,2030.0,3.3871222214430965,PJM,slip_2
+70547.0,Rippon Energy Facility,PV-1,WV,Solar,Solar,2028,117.1,,2031.0,52.93148271509712,PJM,slip_3plus
+70547.0,Rippon Energy Facility,PV-1,WV,Solar,Solar,2028,117.1,,,26.438028539373118,PJM,never
+68076.0,Rocky Run Solar,ROCKY,VA,Solar,Solar,2031,290.0,,2030.0,9.007143596645616,NATIONAL,slip_-1
+68076.0,Rocky Run Solar,ROCKY,VA,Solar,Solar,2031,290.0,,2031.0,9.227318217896954,NATIONAL,slip_0
+68076.0,Rocky Run Solar,ROCKY,VA,Solar,Solar,2031,290.0,,2032.0,41.93125582358422,NATIONAL,slip_1
+68076.0,Rocky Run Solar,ROCKY,VA,Solar,Solar,2031,290.0,,2033.0,43.574559133105566,NATIONAL,slip_2
+68076.0,Rocky Run Solar,ROCKY,VA,Solar,Solar,2031,290.0,,2034.0,123.11764502881597,NATIONAL,slip_3plus
+68076.0,Rocky Run Solar,ROCKY,VA,Solar,Solar,2031,290.0,,,63.14207819995168,NATIONAL,never
+69816.0,SV CSG Wilson School Solar,WILSN,IL,Solar,Solar,2028,5.0,,2027.0,0.0013147745599887807,PJM,slip_-1
+69816.0,SV CSG Wilson School Solar,WILSN,IL,Solar,Solar,2028,5.0,,2028.0,0.5403723441553888,PJM,slip_0
+69816.0,SV CSG Wilson School Solar,WILSN,IL,Solar,Solar,2028,5.0,,2029.0,0.9247247738587758,PJM,slip_1
+69816.0,SV CSG Wilson School Solar,WILSN,IL,Solar,Solar,2028,5.0,,2030.0,0.14462520159876588,PJM,slip_2
+69816.0,SV CSG Wilson School Solar,WILSN,IL,Solar,Solar,2028,5.0,,2031.0,2.260097468620714,PJM,slip_3plus
+69816.0,SV CSG Wilson School Solar,WILSN,IL,Solar,Solar,2028,5.0,,,1.1288654372063673,PJM,never
+66238.0,Sculpin Solar,1SPS,IN,Solar,Solar,2028,180.0,,2027.0,0.047331884159596105,PJM,slip_-1
+66238.0,Sculpin Solar,1SPS,IN,Solar,Solar,2028,180.0,,2028.0,19.453404389594,PJM,slip_0
+66238.0,Sculpin Solar,1SPS,IN,Solar,Solar,2028,180.0,,2029.0,33.29009185891593,PJM,slip_1
+66238.0,Sculpin Solar,1SPS,IN,Solar,Solar,2028,180.0,,2030.0,5.206507257555572,PJM,slip_2
+66238.0,Sculpin Solar,1SPS,IN,Solar,Solar,2028,180.0,,2031.0,81.3635088703457,PJM,slip_3plus
+66238.0,Sculpin Solar,1SPS,IN,Solar,Solar,2028,180.0,,,40.63915573942922,PJM,never
+66657.0,Steubenville Solar,STEUB,OH,Solar,Solar,2028,43.0,,2027.0,0.011307061215903514,PJM,slip_-1
+66657.0,Steubenville Solar,STEUB,OH,Solar,Solar,2028,43.0,,2028.0,4.647202159736344,PJM,slip_0
+66657.0,Steubenville Solar,STEUB,OH,Solar,Solar,2028,43.0,,2029.0,7.952633055185472,PJM,slip_1
+66657.0,Steubenville Solar,STEUB,OH,Solar,Solar,2028,43.0,,2030.0,1.2437767337493866,PJM,slip_2
+66657.0,Steubenville Solar,STEUB,OH,Solar,Solar,2028,43.0,,2031.0,19.43683823013814,PJM,slip_3plus
+66657.0,Steubenville Solar,STEUB,OH,Solar,Solar,2028,43.0,,,9.708242759974759,PJM,never
+67879.0,Stony Creek Solar,ENX26,PA,Solar,Solar,2028,15.0,,2027.0,0.003944323679966342,PJM,slip_-1
+67879.0,Stony Creek Solar,ENX26,PA,Solar,Solar,2028,15.0,,2028.0,1.6211170324661666,PJM,slip_0
+67879.0,Stony Creek Solar,ENX26,PA,Solar,Solar,2028,15.0,,2029.0,2.7741743215763273,PJM,slip_1
+67879.0,Stony Creek Solar,ENX26,PA,Solar,Solar,2028,15.0,,2030.0,0.4338756047962976,PJM,slip_2
+67879.0,Stony Creek Solar,ENX26,PA,Solar,Solar,2028,15.0,,2031.0,6.780292405862142,PJM,slip_3plus
+67879.0,Stony Creek Solar,ENX26,PA,Solar,Solar,2028,15.0,,,3.3865963116191016,PJM,never
+69474.0,Sweet Sue Solar,SWTSU,VA,Solar,Solar,2028,74.8,,2027.0,0.07533234859675036,ST:VA,slip_-1
+69474.0,Sweet Sue Solar,SWTSU,VA,Solar,Solar,2028,74.8,,2028.0,21.992023633677988,ST:VA,slip_0
+69474.0,Sweet Sue Solar,SWTSU,VA,Solar,Solar,2028,74.8,,2029.0,28.626292466765136,ST:VA,slip_1
+69474.0,Sweet Sue Solar,SWTSU,VA,Solar,Solar,2028,74.8,,2030.0,0.7533234859675036,ST:VA,slip_2
+69474.0,Sweet Sue Solar,SWTSU,VA,Solar,Solar,2028,74.8,,2031.0,12.555391432791728,ST:VA,slip_3plus
+69474.0,Sweet Sue Solar,SWTSU,VA,Solar,Solar,2028,74.8,,,10.797636632200886,ST:VA,never
+66124.0,"Switchgrass Solar, LLC",SSPV,VA,Solar,Solar,2028,70.0,,2027.0,0.07049818718947228,ST:VA,slip_-1
+66124.0,"Switchgrass Solar, LLC",SSPV,VA,Solar,Solar,2028,70.0,,2028.0,20.580770780179936,ST:VA,slip_0
+66124.0,"Switchgrass Solar, LLC",SSPV,VA,Solar,Solar,2028,70.0,,2029.0,26.789311131999458,ST:VA,slip_1
+66124.0,"Switchgrass Solar, LLC",SSPV,VA,Solar,Solar,2028,70.0,,2030.0,0.7049818718947227,ST:VA,slip_2
+66124.0,"Switchgrass Solar, LLC",SSPV,VA,Solar,Solar,2028,70.0,,2031.0,11.749697864912045,ST:VA,slip_3plus
+66124.0,"Switchgrass Solar, LLC",SSPV,VA,Solar,Solar,2028,70.0,,,10.104740163824358,ST:VA,never
+69764.0,Illinois Generation LLC,PLANT,IL,Wind,Wind,2028,616.5,,2028.0,616.5,wind_override,
+70559.0,Mammoth,BESS1,WV,Battery Storage,Wind,2029,70.0,,2029.0,70.0,unchanged,
+70559.0,Mammoth,BESS2,WV,Battery Storage,Wind,2029,10.0,,2029.0,10.0,unchanged,
+62748.0,Evelyn Hydroelectric Project,1,KY,Hydro,Wind,2029,0.6,,2029.0,0.6,unchanged,
+62748.0,Evelyn Hydroelectric Project,2,KY,Hydro,Wind,2029,0.6,,2029.0,0.6,unchanged,
+62748.0,Evelyn Hydroelectric Project,3,KY,Hydro,Wind,2029,0.2,,2029.0,0.2,unchanged,
+62748.0,Evelyn Hydroelectric Project,4,KY,Hydro,Wind,2029,0.2,,2029.0,0.2,unchanged,
+62748.0,Evelyn Hydroelectric Project,5,KY,Hydro,Wind,2029,0.6,,2029.0,0.6,unchanged,
+62748.0,Evelyn Hydroelectric Project,6,KY,Hydro,Wind,2029,0.6,,2029.0,0.6,unchanged,
+69701.0,New Cumberland Hydroelectric Project,NC-1,WV,Hydro,Wind,2029,10.0,,2029.0,10.0,unchanged,
+69701.0,New Cumberland Hydroelectric Project,NC-2,WV,Hydro,Wind,2029,10.0,,2029.0,10.0,unchanged,
+69702.0,Pike Island Hydroelectric Project,PI-1,OH,Hydro,Wind,2029,10.0,,2029.0,10.0,unchanged,
+69702.0,Pike Island Hydroelectric Project,PI-2,OH,Hydro,Wind,2029,10.0,,2029.0,10.0,unchanged,
+69704.0,R.C. Byrd L&D Hydroelectric Project,RC-1,WV,Hydro,Wind,2029,4.8,,2029.0,4.8,unchanged,
+69704.0,R.C. Byrd L&D Hydroelectric Project,RC-2,WV,Hydro,Wind,2029,4.8,,2029.0,4.8,unchanged,
+69704.0,R.C. Byrd L&D Hydroelectric Project,RC-3,WV,Hydro,Wind,2029,4.8,,2029.0,4.8,unchanged,
+69704.0,R.C. Byrd L&D Hydroelectric Project,RC-4,WV,Hydro,Wind,2029,4.8,,2029.0,4.8,unchanged,
+69704.0,R.C. Byrd L&D Hydroelectric Project,RC-5,WV,Hydro,Wind,2029,4.8,,2029.0,4.8,unchanged,
+69704.0,R.C. Byrd L&D Hydroelectric Project,RC-6,WV,Hydro,Wind,2029,4.8,,2029.0,4.8,unchanged,
+64171.0,Tygart Hydropower,1,WV,Hydro,Wind,2029,10.0,,2029.0,10.0,unchanged,
+64171.0,Tygart Hydropower,2,WV,Hydro,Wind,2029,10.0,,2029.0,10.0,unchanged,
+64171.0,Tygart Hydropower,3,WV,Hydro,Wind,2029,10.0,,2029.0,10.0,unchanged,
+3797.0,Chesterfield,CERC1,VA,Natural Gas,Wind,2029,236.0,,2029.0,236.0,unchanged,
+3797.0,Chesterfield,CERC2,VA,Natural Gas,Wind,2029,236.0,,2029.0,236.0,unchanged,
+3797.0,Chesterfield,CERC3,VA,Natural Gas,Wind,2029,236.0,,2029.0,236.0,unchanged,
+3797.0,Chesterfield,CERC4,VA,Natural Gas,Wind,2029,236.0,,2029.0,236.0,unchanged,
+70359.0,"Sycamore Riverside Energy, LLC",SYRVS,IN,Natural Gas,Wind,2029,918.0,,2029.0,918.0,unchanged,
+70055.0,Allen Acres Solar,AA1,IL,Solar,Solar,2029,150.0,,2028.0,4.658867377575318,NATIONAL,slip_-1
+70055.0,Allen Acres Solar,AA1,IL,Solar,Solar,2029,150.0,,2029.0,4.772750802360493,NATIONAL,slip_0
+70055.0,Allen Acres Solar,AA1,IL,Solar,Solar,2029,150.0,,2030.0,21.688580598405633,NATIONAL,slip_1
+70055.0,Allen Acres Solar,AA1,IL,Solar,Solar,2029,150.0,,2031.0,22.538565068847706,NATIONAL,slip_2
+70055.0,Allen Acres Solar,AA1,IL,Solar,Solar,2029,150.0,,2032.0,63.68154053214619,NATIONAL,slip_3plus
+70055.0,Allen Acres Solar,AA1,IL,Solar,Solar,2029,150.0,,,32.659695620664664,NATIONAL,never
+66138.0,Mayapple Solar 1,INMA1,IN,Solar,Solar,2029,224.0,,2028.0,6.957241950512476,NATIONAL,slip_-1
+66138.0,Mayapple Solar 1,INMA1,IN,Solar,Solar,2029,224.0,,2029.0,7.127307864858336,NATIONAL,slip_0
+66138.0,Mayapple Solar 1,INMA1,IN,Solar,Solar,2029,224.0,,2030.0,32.38828036028575,NATIONAL,slip_1
+66138.0,Mayapple Solar 1,INMA1,IN,Solar,Solar,2029,224.0,,2031.0,33.657590502812575,NATIONAL,slip_2
+66138.0,Mayapple Solar 1,INMA1,IN,Solar,Solar,2029,224.0,,2032.0,95.09776719467165,NATIONAL,slip_3plus
+66138.0,Mayapple Solar 1,INMA1,IN,Solar,Solar,2029,224.0,,,48.77181212685923,NATIONAL,never
+64767.0,Pigeon Run Solar Project,TC001,VA,Solar,Solar,2029,60.0,,2028.0,1.8635469510301272,NATIONAL,slip_-1
+64767.0,Pigeon Run Solar Project,TC001,VA,Solar,Solar,2029,60.0,,2029.0,1.9091003209441972,NATIONAL,slip_0
+64767.0,Pigeon Run Solar Project,TC001,VA,Solar,Solar,2029,60.0,,2030.0,8.675432239362253,NATIONAL,slip_1
+64767.0,Pigeon Run Solar Project,TC001,VA,Solar,Solar,2029,60.0,,2031.0,9.015426027539084,NATIONAL,slip_2
+64767.0,Pigeon Run Solar Project,TC001,VA,Solar,Solar,2029,60.0,,2032.0,25.472616212858476,NATIONAL,slip_3plus
+64767.0,Pigeon Run Solar Project,TC001,VA,Solar,Solar,2029,60.0,,,13.063878248265866,NATIONAL,never
+65312.0,Shenvalee Solar,SV,VA,Solar,Solar,2029,3.0,,2028.0,0.09317734755150636,NATIONAL,slip_-1
+65312.0,Shenvalee Solar,SV,VA,Solar,Solar,2029,3.0,,2029.0,0.09545501604720986,NATIONAL,slip_0
+65312.0,Shenvalee Solar,SV,VA,Solar,Solar,2029,3.0,,2030.0,0.43377161196811265,NATIONAL,slip_1
+65312.0,Shenvalee Solar,SV,VA,Solar,Solar,2029,3.0,,2031.0,0.45077130137695415,NATIONAL,slip_2
+65312.0,Shenvalee Solar,SV,VA,Solar,Solar,2029,3.0,,2032.0,1.2736308106429237,NATIONAL,slip_3plus
+65312.0,Shenvalee Solar,SV,VA,Solar,Solar,2029,3.0,,,0.6531939124132933,NATIONAL,never
+68369.0,Starfire Mountain Solar,STMO,KY,Solar,Solar,2029,410.0,,2028.0,12.73423749870587,NATIONAL,slip_-1
+68369.0,Starfire Mountain Solar,STMO,KY,Solar,Solar,2029,410.0,,2029.0,13.045518859785348,NATIONAL,slip_0
+68369.0,Starfire Mountain Solar,STMO,KY,Solar,Solar,2029,410.0,,2030.0,59.282120302308726,NATIONAL,slip_1
+68369.0,Starfire Mountain Solar,STMO,KY,Solar,Solar,2029,410.0,,2031.0,61.60541118818373,NATIONAL,slip_2
+68369.0,Starfire Mountain Solar,STMO,KY,Solar,Solar,2029,410.0,,2032.0,174.06287745453292,NATIONAL,slip_3plus
+68369.0,Starfire Mountain Solar,STMO,KY,Solar,Solar,2029,410.0,,,89.26983469648341,NATIONAL,never
+65301.0,Steward Creek Solar Phase 1,SC1,IL,Solar,Solar,2029,600.0,,2028.0,18.635469510301274,NATIONAL,slip_-1
+65301.0,Steward Creek Solar Phase 1,SC1,IL,Solar,Solar,2029,600.0,,2029.0,19.091003209441972,NATIONAL,slip_0
+65301.0,Steward Creek Solar Phase 1,SC1,IL,Solar,Solar,2029,600.0,,2030.0,86.75432239362253,NATIONAL,slip_1
+65301.0,Steward Creek Solar Phase 1,SC1,IL,Solar,Solar,2029,600.0,,2031.0,90.15426027539083,NATIONAL,slip_2
+65301.0,Steward Creek Solar Phase 1,SC1,IL,Solar,Solar,2029,600.0,,2032.0,254.72616212858475,NATIONAL,slip_3plus
+65301.0,Steward Creek Solar Phase 1,SC1,IL,Solar,Solar,2029,600.0,,,130.63878248265866,NATIONAL,never
+68040.0,Sycamore Cross Solar,SYCAM,VA,Solar,Solar,2029,208.2,,2028.0,6.466507920074541,NATIONAL,slip_-1
+68040.0,Sycamore Cross Solar,SYCAM,VA,Solar,Solar,2029,208.2,,2029.0,6.624578113676364,NATIONAL,slip_0
+68040.0,Sycamore Cross Solar,SYCAM,VA,Solar,Solar,2029,208.2,,2030.0,30.103749870587016,NATIONAL,slip_1
+68040.0,Sycamore Cross Solar,SYCAM,VA,Solar,Solar,2029,208.2,,2031.0,31.283528315560616,NATIONAL,slip_2
+68040.0,Sycamore Cross Solar,SYCAM,VA,Solar,Solar,2029,208.2,,2032.0,88.38997825861891,NATIONAL,slip_3plus
+68040.0,Sycamore Cross Solar,SYCAM,VA,Solar,Solar,2029,208.2,,,45.33165752148255,NATIONAL,never
+67884.0,Two Oaks Solar and Storage LLC,ENX27,VA,Solar,Solar,2029,118.0,,2028.0,3.6649756703592504,NATIONAL,slip_-1
+67884.0,Two Oaks Solar and Storage LLC,ENX27,VA,Solar,Solar,2029,118.0,,2029.0,3.754563964523588,NATIONAL,slip_0
+67884.0,Two Oaks Solar and Storage LLC,ENX27,VA,Solar,Solar,2029,118.0,,2030.0,17.061683404079098,NATIONAL,slip_1
+67884.0,Two Oaks Solar and Storage LLC,ENX27,VA,Solar,Solar,2029,118.0,,2031.0,17.730337854160197,NATIONAL,slip_2
+67884.0,Two Oaks Solar and Storage LLC,ENX27,VA,Solar,Solar,2029,118.0,,2032.0,50.09614521862167,NATIONAL,slip_3plus
+67884.0,Two Oaks Solar and Storage LLC,ENX27,VA,Solar,Solar,2029,118.0,,,25.692293888256202,NATIONAL,never
+62401.0,Allegheny L&D2 Hydroelectric Project,NA1,PA,Hydro,Wind,2030,4.5,,2030.0,4.5,unchanged,
+62401.0,Allegheny L&D2 Hydroelectric Project,NA2,PA,Hydro,Wind,2030,4.5,,2030.0,4.5,unchanged,
+69698.0,Dashields Hydroelectric Project,DAS-1,PA,Hydro,Wind,2030,1.1,,2030.0,1.1,unchanged,
+69698.0,Dashields Hydroelectric Project,DAS-2,PA,Hydro,Wind,2030,1.1,,2030.0,1.1,unchanged,
+69698.0,Dashields Hydroelectric Project,DAS-3,PA,Hydro,Wind,2030,1.1,,2030.0,1.1,unchanged,
+69698.0,Dashields Hydroelectric Project,DAS-4,PA,Hydro,Wind,2030,1.1,,2030.0,1.1,unchanged,
+69698.0,Dashields Hydroelectric Project,DAS-5,PA,Hydro,Wind,2030,1.1,,2030.0,1.1,unchanged,
+69698.0,Dashields Hydroelectric Project,DAS-6,PA,Hydro,Wind,2030,1.1,,2030.0,1.1,unchanged,
+69698.0,Dashields Hydroelectric Project,DAS-7,PA,Hydro,Wind,2030,1.1,,2030.0,1.1,unchanged,
+69698.0,Dashields Hydroelectric Project,DAS-8,PA,Hydro,Wind,2030,1.1,,2030.0,1.1,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-1,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-10,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-2,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-3,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-4,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-5,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-6,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-7,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-8,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+69699.0,Dresden Island Hydroelectric Project,DI-9,IL,Hydro,Wind,2030,1.0,,2030.0,1.0,unchanged,
+62434.0,Emsworth BC Hydroelectric Project,NA1,PA,Hydro,Wind,2030,6.0,,2030.0,6.0,unchanged,
+62434.0,Emsworth BC Hydroelectric Project,NA2,PA,Hydro,Wind,2030,6.0,,2030.0,6.0,unchanged,
+62434.0,Emsworth BC Hydroelectric Project,NA3,PA,Hydro,Wind,2030,6.8,,2030.0,6.8,unchanged,
+62433.0,Emsworth L&D Hydroelectric Project,NA1,PA,Hydro,Wind,2030,6.8,,2030.0,6.8,unchanged,
+62433.0,Emsworth L&D Hydroelectric Project,NA2,PA,Hydro,Wind,2030,6.8,,2030.0,6.8,unchanged,
+62433.0,Emsworth L&D Hydroelectric Project,NA3,PA,Hydro,Wind,2030,6.8,,2030.0,6.8,unchanged,
+67352.0,"CPV County Line Solar, LLC",CPVCL,VA,Solar,Solar,2030,150.0,,2029.0,4.658867377575318,NATIONAL,slip_-1
+67352.0,"CPV County Line Solar, LLC",CPVCL,VA,Solar,Solar,2030,150.0,,2030.0,4.772750802360493,NATIONAL,slip_0
+67352.0,"CPV County Line Solar, LLC",CPVCL,VA,Solar,Solar,2030,150.0,,2031.0,21.688580598405633,NATIONAL,slip_1
+67352.0,"CPV County Line Solar, LLC",CPVCL,VA,Solar,Solar,2030,150.0,,2032.0,22.538565068847706,NATIONAL,slip_2
+67352.0,"CPV County Line Solar, LLC",CPVCL,VA,Solar,Solar,2030,150.0,,2033.0,63.68154053214619,NATIONAL,slip_3plus
+67352.0,"CPV County Line Solar, LLC",CPVCL,VA,Solar,Solar,2030,150.0,,,32.659695620664664,NATIONAL,never
+66312.0,Courthouse Solar,CHSL,VA,Solar,Solar,2030,167.0,,2029.0,5.186872347033854,NATIONAL,slip_-1
+66312.0,Courthouse Solar,CHSL,VA,Solar,Solar,2030,167.0,,2030.0,5.313662559961349,NATIONAL,slip_0
+66312.0,Courthouse Solar,CHSL,VA,Solar,Solar,2030,167.0,,2031.0,24.146619732891605,NATIONAL,slip_1
+66312.0,Courthouse Solar,CHSL,VA,Solar,Solar,2030,167.0,,2032.0,25.092935776650446,NATIONAL,slip_2
+66312.0,Courthouse Solar,CHSL,VA,Solar,Solar,2030,167.0,,2033.0,70.89878179245609,NATIONAL,slip_3plus
+66312.0,Courthouse Solar,CHSL,VA,Solar,Solar,2030,167.0,,,36.36112779100666,NATIONAL,never
+68075.0,Pineside Solar,PINES,VA,Solar,Solar,2030,74.9,,2029.0,2.326327777202609,NATIONAL,slip_-1
+68075.0,Pineside Solar,PINES,VA,Solar,Solar,2030,74.9,,2030.0,2.3831935673120066,NATIONAL,slip_0
+68075.0,Pineside Solar,PINES,VA,Solar,Solar,2030,74.9,,2031.0,10.829831245470547,NATIONAL,slip_1
+68075.0,Pineside Solar,PINES,VA,Solar,Solar,2030,74.9,,2032.0,11.254256824377956,NATIONAL,slip_2
+68075.0,Pineside Solar,PINES,VA,Solar,Solar,2030,74.9,,2033.0,31.798315905718333,NATIONAL,slip_3plus
+68075.0,Pineside Solar,PINES,VA,Solar,Solar,2030,74.9,,,16.30807467991856,NATIONAL,never
+64768.0,Zenith Solar,TC001,VA,Solar,Solar,2030,60.0,,2029.0,1.8635469510301272,NATIONAL,slip_-1
+64768.0,Zenith Solar,TC001,VA,Solar,Solar,2030,60.0,,2030.0,1.9091003209441972,NATIONAL,slip_0
+64768.0,Zenith Solar,TC001,VA,Solar,Solar,2030,60.0,,2031.0,8.675432239362253,NATIONAL,slip_1
+64768.0,Zenith Solar,TC001,VA,Solar,Solar,2030,60.0,,2032.0,9.015426027539084,NATIONAL,slip_2
+64768.0,Zenith Solar,TC001,VA,Solar,Solar,2030,60.0,,2033.0,25.472616212858476,NATIONAL,slip_3plus
+64768.0,Zenith Solar,TC001,VA,Solar,Solar,2030,60.0,,,13.063878248265866,NATIONAL,never
+69694.0,Allegheny Lock and Dam 4,AL4-1,PA,Hydro,Wind,2031,0.8,,2031.0,0.8,unchanged,
+69694.0,Allegheny Lock and Dam 4,AL4-2,PA,Hydro,Wind,2031,0.8,,2031.0,0.8,unchanged,
+69694.0,Allegheny Lock and Dam 4,AL4-3,PA,Hydro,Wind,2031,0.8,,2031.0,0.8,unchanged,
+69694.0,Allegheny Lock and Dam 4,AL4-4,PA,Hydro,Wind,2031,0.8,,2031.0,0.8,unchanged,
+69694.0,Allegheny Lock and Dam 4,AL4-5,PA,Hydro,Wind,2031,0.8,,2031.0,0.8,unchanged,
+69694.0,Allegheny Lock and Dam 4,AL4-6,PA,Hydro,Wind,2031,0.8,,2031.0,0.8,unchanged,
+69694.0,Allegheny Lock and Dam 4,AL4-7,PA,Hydro,Wind,2031,0.8,,2031.0,0.8,unchanged,
+69694.0,Allegheny Lock and Dam 4,AL4-8,PA,Hydro,Wind,2031,0.8,,2031.0,0.8,unchanged,
+69697.0,CW Bill Young Hydropower Project,CW-1,PA,Hydro,Wind,2031,1.2,,2031.0,1.2,unchanged,
+69697.0,CW Bill Young Hydropower Project,CW-2,PA,Hydro,Wind,2031,1.2,,2031.0,1.2,unchanged,
+69697.0,CW Bill Young Hydropower Project,CW-3,PA,Hydro,Wind,2031,1.2,,2031.0,1.2,unchanged,
+69697.0,CW Bill Young Hydropower Project,CW-4,PA,Hydro,Wind,2031,1.2,,2031.0,1.2,unchanged,
+69697.0,CW Bill Young Hydropower Project,CW-5,PA,Hydro,Wind,2031,1.2,,2031.0,1.2,unchanged,
+69697.0,CW Bill Young Hydropower Project,CW-6,PA,Hydro,Wind,2031,1.2,,2031.0,1.2,unchanged,
+69697.0,CW Bill Young Hydropower Project,CW-7,PA,Hydro,Wind,2031,1.2,,2031.0,1.2,unchanged,
+,Crane Clean Energy Center,1,PA,Nuclear,Wind,2027,835.0,,2027.0,835.0,unchanged,
+,Cumberland Energy Center,U1,VA,Natural Gas,Wind,2033,1500.0,,2033.0,1500.0,unchanged,
+,Cumberland Energy Center,U2,VA,Natural Gas,Wind,2034,1500.0,,2034.0,1500.0,unchanged,
+,Mt. Storm Combined Cycle Station,U1,WV,Natural Gas,Wind,2033,1300.0,,2033.0,1300.0,unchanged,
+,Mt. Storm Combined Cycle Station,U2,WV,Natural Gas,Wind,2034,1300.0,,2034.0,1300.0,unchanged,
+,CPV Shay Energy Center,CC,WV,Natural Gas,Wind,2031,2100.0,,2031.0,2100.0,unchanged,
+,Rockport Energy Center,CC,IN,Natural Gas,Wind,2030,1520.0,,2030.0,1520.0,unchanged,
+,Expedition Generating Station,CC,VA,Natural Gas,Wind,2031,1540.0,,2031.0,1540.0,unchanged,
+,Maidsville / Fort Martin,CC,WV,Natural Gas,Wind,2031,1200.0,,2031.0,1200.0,unchanged,
+,Cooper CCGT,CC,KY,Natural Gas,Wind,2030,745.0,,2030.0,745.0,unchanged,
+,Big Sandy (new CC),CC,KY,Natural Gas,Wind,2031,760.0,,2031.0,760.0,unchanged,
+,Hunterstown,UPRATE,PA,Natural Gas,Wind,2029,455.0,,2029.0,455.0,unchanged,
+,Talen Montour CT,CC,PA,Natural Gas,Wind,2031,1310.0,,2031.0,1310.0,unchanged,
+,Miami Fort,7,OH,Natural Gas,Wind,2028,557.1,,2028.0,557.1,unchanged,
+,Miami Fort,8,OH,Natural Gas,Wind,2028,557.7,,2028.0,557.7,unchanged,
+,Steward Creek Solar Phase 2,SC2,IL,Solar,Solar,2030,600.0,,2029.0,18.635469510301274,NATIONAL,slip_-1
+,Steward Creek Solar Phase 2,SC2,IL,Solar,Solar,2030,600.0,,2030.0,19.091003209441972,NATIONAL,slip_0
+,Steward Creek Solar Phase 2,SC2,IL,Solar,Solar,2030,600.0,,2031.0,86.75432239362253,NATIONAL,slip_1
+,Steward Creek Solar Phase 2,SC2,IL,Solar,Solar,2030,600.0,,2032.0,90.15426027539083,NATIONAL,slip_2
+,Steward Creek Solar Phase 2,SC2,IL,Solar,Solar,2030,600.0,,2033.0,254.72616212858475,NATIONAL,slip_3plus
+,Steward Creek Solar Phase 2,SC2,IL,Solar,Solar,2030,600.0,,,130.63878248265866,NATIONAL,never

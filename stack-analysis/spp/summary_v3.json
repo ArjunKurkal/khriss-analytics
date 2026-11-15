@@ -1,0 +1,21 @@
+{
+ "region": "spp",
+ "changelog_rebuild_max_diff_mw": 0.0,
+ "total_2030_v2": 135844.4,
+ "total_2030_v3": 133444.6,
+ "total_2036_v2": 133216.0,
+ "total_2036_v3": 132296.3,
+ "solar_2036_v2": 9399.6,
+ "solar_2036_v3": 8756.1,
+ "wind_2036_v2": 38931.7,
+ "wind_2036_v3": 38655.5,
+ "renewable_mw_removed_never": 919.7,
+ "renewable_mw_pushed_beyond_2036": 0.0,
+ "scopes_used": {
+  "SPP": 9,
+  "ST:CO": 9,
+  "SPP-East": 3,
+  "NATIONAL": 8,
+  "wind_override": 1
+ }
+}

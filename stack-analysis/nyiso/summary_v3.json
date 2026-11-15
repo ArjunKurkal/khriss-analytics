@@ -1,0 +1,20 @@
+{
+ "region": "nyiso",
+ "changelog_rebuild_max_diff_mw": 0.0,
+ "total_2030_v2": 52351.7,
+ "total_2030_v3": 49528.7,
+ "total_2036_v2": 52401.0,
+ "total_2036_v3": 51382.7,
+ "solar_2036_v2": 7415.3,
+ "solar_2036_v3": 6552.0,
+ "wind_2036_v2": 5565.6,
+ "wind_2036_v3": 5410.6,
+ "renewable_mw_removed_never": 1018.4,
+ "renewable_mw_pushed_beyond_2036": 0.0,
+ "scopes_used": {
+  "wind_override": 3,
+  "ST:NY": 51,
+  "NYISO": 1,
+  "NATIONAL": 16
+ }
+}

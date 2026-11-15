@@ -1,0 +1,232 @@
+year,fuel,mw,period,anchor_year,source_note
+2016,Coal,20134.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Natural Gas,63642.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Wind,18981.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Solar,575.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Oil,879.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Battery Storage,46.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Other,436.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Total,110403.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Coal,20134.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Natural Gas,64917.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Wind,20813.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Solar,1234.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Oil,874.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Battery Storage,78.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Other,435.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Total,114193.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Coal,15715.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Natural Gas,65724.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Wind,22319.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Solar,1893.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Oil,872.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Battery Storage,99.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Other,425.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Total,112756.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Coal,15261.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Natural Gas,65478.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Wind,25706.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Solar,2592.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Oil,869.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Battery Storage,119.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Other,412.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Total,116147.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Coal,15261.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Natural Gas,65399.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Wind,27807.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Solar,4865.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Oil,875.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Battery Storage,230.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Other,410.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Total,120557.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Coal,15261.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Natural Gas,66544.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Wind,31544.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Solar,8836.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Oil,875.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Battery Storage,834.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Other,400.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Total,130006.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Coal,15261.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Natural Gas,67198.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Wind,35395.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Solar,11361.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Oil,875.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Battery Storage,2143.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Other,388.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Total,138331.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Coal,14329.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Natural Gas,67943.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Wind,36845.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Solar,14914.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Oil,875.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Battery Storage,4182.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Other,378.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Total,145177.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Coal,14329.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Natural Gas,68568.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Nuclear,5138.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Hydro,568.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Wind,38580.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Solar,22201.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Oil,874.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Battery Storage,8298.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Other,355.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Total,158916.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Coal,14329.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Natural Gas,68756.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Nuclear,5138.6,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Hydro,567.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Pumped Storage,0.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Wind,40247.8,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Solar,30017.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Oil,874.1,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Battery Storage,13914.3,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Other,420.3,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Total,174266.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2026,Battery Storage,23633.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Coal,13707.3,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Natural Gas,70569.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Oil,884.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Other,430.2,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Solar,43855.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Wind,41655.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2026,Total,200442.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Battery Storage,33275.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Coal,13707.3,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Natural Gas,71203.7,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Oil,893.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Other,430.2,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Solar,47969.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Wind,42187.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2027,Total,215374.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Battery Storage,39637.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Natural Gas,75140.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Oil,893.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Solar,52100.3,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Wind,43225.2,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2028,Total,229381.1,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Battery Storage,42288.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Natural Gas,76139.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Oil,891.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Solar,54864.3,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Wind,43806.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2029,Total,236374.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Battery Storage,42948.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Natural Gas,76139.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Oil,891.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Solar,58421.7,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Wind,44095.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2030,Total,240880.3,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Battery Storage,43358.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Natural Gas,76139.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Oil,891.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Solar,62316.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Wind,44303.2,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2031,Total,245393.7,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Battery Storage,43348.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Natural Gas,76139.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Oil,891.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Solar,63588.3,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Wind,44633.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2032,Total,246985.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Battery Storage,43348.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Natural Gas,76139.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Oil,891.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Solar,64062.7,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Wind,44804.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2033,Total,247630.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Battery Storage,43348.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Natural Gas,76139.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Oil,891.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Solar,64062.7,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Wind,44804.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2034,Total,247630.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Battery Storage,43348.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Natural Gas,76139.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Oil,891.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Solar,64062.7,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Wind,44804.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2035,Total,247630.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Battery Storage,43348.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Coal,12218.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Hydro,567.5,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Natural Gas,76139.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Nuclear,5138.6,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Oil,891.9,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Other,458.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Pumped Storage,0.0,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Solar,64062.7,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Wind,44804.4,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)
+2036,Total,247630.8,forward,False,v3: v2 anchor + lag-adjusted changelog (renewables-lag)

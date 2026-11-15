@@ -1,0 +1,766 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+69688.0,Allatoona Substation #10,BES02,GA,Battery Storage,Wind,2026,10.0,SERC-Central,2026.0,10.0,unchanged,
+69429.0,Asheville BESS,AVLB1,NC,Battery Storage,Wind,2026,17.3,SERC-Central,2026.0,17.3,unchanged,
+69165.0,Bayside Battery Storage,BESS1,FL,Battery Storage,Wind,2026,20.0,Florida,2026.0,20.0,unchanged,
+69404.0,Craggy Energy Storage,CRAGB,NC,Battery Storage,Wind,2026,30.5,SERC-Central,2026.0,30.5,unchanged,
+69444.0,Elm City BESS,ECB1,NC,Battery Storage,Wind,2026,20.0,SERC-Central,2026.0,20.0,unchanged,
+69626.0,FRP Miller Solar,BMF,FL,Battery Storage,Wind,2026,50.0,Florida,2026.0,50.0,unchanged,
+69446.0,Frieden,FRD1,NC,Battery Storage,Wind,2026,3.5,SERC-Central,2026.0,3.5,unchanged,
+708.0,Hammond,5,GA,Battery Storage,Wind,2026,57.5,SERC-Central,2026.0,57.5,unchanged,
+69195.0,Longtown Energy Storage,LONTB,SC,Battery Storage,Wind,2026,4.5,SERC-Central,2026.0,4.5,unchanged,
+68512.0,McGrau Ford Battery Storage Facility,1,GA,Battery Storage,Wind,2026,265.0,SERC-Central,2026.0,265.0,unchanged,
+68512.0,McGrau Ford Battery Storage Facility,2,GA,Battery Storage,Wind,2026,265.0,SERC-Central,2026.0,265.0,unchanged,
+62377.0,Moody Air Force Base Solar,2,GA,Battery Storage,Wind,2026,49.5,SERC-Central,2026.0,49.5,unchanged,
+69196.0,Nebo Energy Storage,NEBOB,NC,Battery Storage,Wind,2026,2.7,SERC-Central,2026.0,2.7,unchanged,
+68536.0,Optimist,MS7_S,MS,Battery Storage,Wind,2026,50.0,SERC-Central,2026.0,50.0,unchanged,
+69870.0,Parkwood BESS,BAT1,NC,Battery Storage,Wind,2026,11.6,SERC-Central,2026.0,11.6,unchanged,
+61648.0,Robins Air Force Base Solar,2,GA,Battery Storage,Wind,2026,128.0,SERC-Central,2026.0,128.0,unchanged,
+64255.0,Vonore Battery Energy Storage System,VBESS,TN,Battery Storage,Wind,2026,20.0,SERC-Central,2026.0,20.0,unchanged,
+69988.0,Warsaw 2 Energy Storage,WBA2,NC,Battery Storage,Wind,2026,11.0,SERC-Central,2026.0,11.0,unchanged,
+63802.0,Shady Hills Combined Cycle Facility,G001,FL,Natural Gas,Wind,2026,612.0,Florida,2026.0,612.0,unchanged,
+70084.0,Alligator Creek Solar,AC,GA,Solar,Solar,2026,80.0,SERC-Central,2026.0,80.0,unchanged,
+67997.0,Apex NC Solar,PGR28,NC,Solar,Solar,2026,28.9,SERC-Central,2026.0,28.9,unchanged,
+69357.0,Asheville Solar,PV1,NC,Solar,Solar,2026,9.5,SERC-Central,2026.0,9.5,unchanged,
+67701.0,Ashwood Solar I,AS1,KY,Solar,Solar,2026,86.0,SERC-Central,2026.0,86.0,unchanged,
+62181.0,B & K Solar,23,SC,Solar,Solar,2026,74.9,SERC-Central,2026.0,74.9,unchanged,
+68052.0,Bailey Mill Solar,PV1,FL,Solar,Solar,2026,74.9,Florida,2026.0,74.9,unchanged,
+60434.0,Baxter Creek Solar,PV1,NC,Solar,Solar,2026,30.0,SERC-Central,2026.0,30.0,unchanged,
+68223.0,Beaverdam Renewable Energy Center,67693,SC,Solar,Solar,2026,40.8,SERC-Central,2026.0,40.8,unchanged,
+68820.0,Big Brook,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+65885.0,Boardwalk,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+69522.0,Brewster Solar,1,FL,Solar,Solar,2026,40.0,Florida,2026.0,40.0,unchanged,
+68821.0,Clover FL,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+69548.0,FRP Forest Trail Solar,SFE,FL,Solar,Solar,2026,50.0,Florida,2026.0,50.0,unchanged,
+69626.0,FRP Miller Solar,SMF,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+68822.0,Flatford,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+68002.0,"Foley Solar, LLC",FOLEY,AL,Solar,Solar,2026,80.0,SERC-Central,2026.0,80.0,unchanged,
+68823.0,Goldenrod,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+66687.0,"Graceland Solar, LLC",GRA1,TN,Solar,Solar,2026,150.0,SERC-Central,2026.0,150.0,unchanged,
+64346.0,Highland Solar South,9999,FL,Solar,Solar,2026,74.9,Florida,2026.0,74.9,unchanged,
+64167.0,Hornet Solar,GEN,NC,Solar,Solar,2026,73.0,SERC-Central,2026.0,73.0,unchanged,
+69627.0,Jumper Creek Solar Plant,JCSP1,FL,Solar,Solar,2026,74.9,Florida,2026.0,74.9,unchanged,
+69461.0,Keene Branch Solar,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+67723.0,Kingstree West 115,SOLAR,SC,Solar,Solar,2026,74.9,SERC-Central,2026.0,74.9,unchanged,
+68472.0,Long Branch Solar,1,FL,Solar,Solar,2026,74.9,Florida,2026.0,74.9,unchanged,
+68817.0,Mallard,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+65905.0,Mare Branch,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+69523.0,Mattaniah Solar,1,FL,Solar,Solar,2026,52.0,Florida,2026.0,52.0,unchanged,
+67857.0,McDowell Creek Solar LLC,MCDOW,NC,Solar,Solar,2026,2.0,SERC-Central,2026.0,2.0,unchanged,
+70303.0,"Midfield Solar, LLC",20,NC,Solar,Solar,2026,25.0,SERC-Central,2026.0,25.0,unchanged,
+65883.0,North Orange,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+68001.0,"Old Hayneville Solar, LLC",OLHAY,AL,Solar,Solar,2026,80.0,SERC-Central,2026.0,80.0,unchanged,
+68536.0,Optimist,OEMS7,MS,Solar,Solar,2026,200.0,SERC-Central,2026.0,200.0,unchanged,
+68549.0,"Pineview Solar, LLC",PNVW1,GA,Solar,Solar,2026,80.0,SERC-Central,2026.0,80.0,unchanged,
+65887.0,Price Creek,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+69436.0,Prologis Portside 2509 - SLSAV502,SA502,GA,Solar,Solar,2026,2.2,SERC-Central,2026.0,2.2,unchanged,
+62293.0,Pruger Solar II,64,SC,Solar,Solar,2026,2.0,SERC-Central,2026.0,2.0,unchanged,
+56915.0,SAS Solar Farm,5,NC,Solar,Solar,2026,1.0,SERC-Central,2026.0,1.0,unchanged,
+68224.0,SR Adamsville,ADAMV,TN,Solar,Solar,2026,25.0,SERC-Central,2026.0,25.0,unchanged,
+68226.0,SR Bacon,BACON,GA,Solar,Solar,2026,85.0,SERC-Central,2026.0,85.0,unchanged,
+68095.0,SR Benton,BENTN,TN,Solar,Solar,2026,3.0,SERC-Central,2026.0,3.0,unchanged,
+68229.0,SR Denmark,DEMRK,TN,Solar,Solar,2026,42.0,SERC-Central,2026.0,42.0,unchanged,
+68247.0,SR Georgetown,GRGTN,SC,Solar,Solar,2026,50.0,SERC-Central,2026.0,50.0,unchanged,
+68248.0,SR Gray,GRAY,TN,Solar,Solar,2026,6.0,SERC-Central,2026.0,6.0,unchanged,
+68103.0,SR Hickman,HICK,TN,Solar,Solar,2026,5.5,SERC-Central,2026.0,5.5,unchanged,
+67134.0,"SR Marshall, LLC",MARSH,MS,Solar,Solar,2026,4.8,SERC-Central,2026.0,4.8,unchanged,
+68326.0,SR Millington II,MILL2,TN,Solar,Solar,2026,74.9,SERC-Central,2026.0,74.9,unchanged,
+68253.0,SR Rochelle I,ROCH1,GA,Solar,Solar,2026,90.0,SERC-Central,2026.0,90.0,unchanged,
+68254.0,SR Sequatchie,SEQUA,TN,Solar,Solar,2026,8.0,SERC-Central,2026.0,8.0,unchanged,
+68112.0,SR South Gibson,GIBSN,TN,Solar,Solar,2026,4.8,SERC-Central,2026.0,4.8,unchanged,
+68818.0,Sand Pine,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+68819.0,Sea Grape,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+68276.0,Swamp Cabbage,1,FL,Solar,Solar,2026,74.5,Florida,2026.0,74.5,unchanged,
+70305.0,"Tanglewood Solar, LLC",23,NC,Solar,Solar,2026,8.4,SERC-Central,2026.0,8.4,unchanged,
+67969.0,Two Hearted Solar,PGR28,NC,Solar,Solar,2026,22.0,SERC-Central,2026.0,22.0,unchanged,
+68670.0,Walker Springs I,OEALG,AL,Solar,Solar,2026,80.0,SERC-Central,2026.0,80.0,unchanged,
+68669.0,Walker Springs II,OEALH,AL,Solar,Solar,2026,80.0,SERC-Central,2026.0,80.0,unchanged,
+70306.0,"Westfield Solar, LLC",21,NC,Solar,Solar,2026,40.0,SERC-Central,2026.0,40.0,unchanged,
+63026.0,Yum Yum Solar LLC,GEN1,TN,Solar,Solar,2026,147.0,SERC-Central,2026.0,147.0,unchanged,
+69148.0,Allen 2 BESS,BESS1,NC,Battery Storage,Wind,2027,167.0,SERC-Central,2027.0,167.0,unchanged,
+62184.0,Big Fork Solar,27,SC,Battery Storage,Wind,2027,74.9,SERC-Central,2027.0,74.9,unchanged,
+69823.0,Cabokenze Energy Storage,CABOK,GA,Battery Storage,Wind,2027,76.0,SERC-Central,2027.0,76.0,unchanged,
+1355.0,E W Brown,BESS,KY,Battery Storage,Wind,2027,125.0,SERC-Central,2027.0,125.0,unchanged,
+69194.0,Maiden Creek Battery,MCBA,NC,Battery Storage,Wind,2027,50.0,SERC-Central,2027.0,50.0,unchanged,
+69119.0,New Hill 1 Battery,NHBA1,NC,Battery Storage,Wind,2027,56.0,SERC-Central,2027.0,56.0,unchanged,
+70395.0,Pace Road Battery Storage,BESS1,FL,Battery Storage,Wind,2027,20.0,Florida,2027.0,20.0,unchanged,
+70020.0,Pinopolis BESS,1,SC,Battery Storage,Wind,2027,300.0,SERC-Central,2027.0,300.0,unchanged,
+69356.0,Powerline Energy Storage,PWLNB,FL,Battery Storage,Wind,2027,100.0,Florida,2027.0,100.0,unchanged,
+68453.0,KYMEA Energy Center I,1,KY,Natural Gas,Wind,2027,18.8,SERC-Central,2027.0,18.8,unchanged,
+68453.0,KYMEA Energy Center I,2,KY,Natural Gas,Wind,2027,18.8,SERC-Central,2027.0,18.8,unchanged,
+68453.0,KYMEA Energy Center I,3,KY,Natural Gas,Wind,2027,18.8,SERC-Central,2027.0,18.8,unchanged,
+68453.0,KYMEA Energy Center I,4,KY,Natural Gas,Wind,2027,18.8,SERC-Central,2027.0,18.8,unchanged,
+3407.0,Kingston,CTG1,TN,Natural Gas,Wind,2027,454.8,SERC-Central,2027.0,454.8,unchanged,
+3407.0,Kingston,G1,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G10,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G11,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G12,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G13,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G14,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G15,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G16,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G2,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G3,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G4,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G5,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G6,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G7,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G8,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,G9,TN,Natural Gas,Wind,2027,65.8,SERC-Central,2027.0,65.8,unchanged,
+3407.0,Kingston,STG1,TN,Natural Gas,Wind,2027,323.0,SERC-Central,2027.0,323.0,unchanged,
+1364.0,Mill Creek (KY),5,KY,Natural Gas,Wind,2027,740.0,SERC-Central,2027.0,740.0,unchanged,
+67262.0,Ripley Energy Center,RP1,OK,Natural Gas,Wind,2027,419.0,SERC-Central,2027.0,419.0,unchanged,
+63535.0,Solar BESS Hybrid,GEN02,GA,Natural Gas,Wind,2027,2.0,SERC-Central,2027.0,2.0,unchanged,
+63535.0,Solar BESS Hybrid,GEN03,GA,Natural Gas,Wind,2027,2.0,SERC-Central,2027.0,2.0,unchanged,
+63535.0,Solar BESS Hybrid,GEN04,GA,Natural Gas,Wind,2027,2.0,SERC-Central,2027.0,2.0,unchanged,
+67263.0,Turney Energy Center,TN1,MO,Natural Gas,Wind,2027,419.0,SERC-Central,2027.0,419.0,unchanged,
+728.0,Yates,8,GA,Natural Gas,Wind,2027,482.8,SERC-Central,2027.0,482.8,unchanged,
+728.0,Yates,10,GA,Natural Gas,Wind,2027,482.8,SERC-Central,2027.0,482.8,unchanged,
+728.0,Yates,9,GA,Natural Gas,Wind,2027,482.8,SERC-Central,2027.0,482.8,unchanged,
+6249.0,Winyah,5,SC,Oil,Wind,2027,57.0,SERC-Central,2027.0,57.0,unchanged,
+6249.0,Winyah,6,SC,Oil,Wind,2027,57.0,SERC-Central,2027.0,57.0,unchanged,
+50666.0,Pasco Cnty Solid Waste Resource Recovery,GEN2,FL,Other,Wind,2027,17.0,Florida,2027.0,17.0,unchanged,
+68057.0,Alabama Creek Solar,BAMA1,AL,Solar,Solar,2027,80.0,SERC-Central,2026.0,1.3577573593960321,SERC-Central,slip_-1
+68057.0,Alabama Creek Solar,BAMA1,AL,Solar,Solar,2027,80.0,SERC-Central,2027.0,23.043639413979434,SERC-Central,slip_0
+68057.0,Alabama Creek Solar,BAMA1,AL,Solar,Solar,2027,80.0,SERC-Central,2028.0,16.62004252745752,SERC-Central,slip_1
+68057.0,Alabama Creek Solar,BAMA1,AL,Solar,Solar,2027,80.0,SERC-Central,2029.0,5.292912740680048,SERC-Central,slip_2
+68057.0,Alabama Creek Solar,BAMA1,AL,Solar,Solar,2027,80.0,SERC-Central,2030.0,19.991806636624332,SERC-Central,slip_3plus
+68057.0,Alabama Creek Solar,BAMA1,AL,Solar,Solar,2027,80.0,SERC-Central,,13.693841321862624,SERC-Central,never
+68829.0,Ambersweet,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68829.0,Ambersweet,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68829.0,Ambersweet,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68829.0,Ambersweet,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+64168.0,Bear Branch Solar,GEN,NC,Solar,Solar,2027,34.5,SERC-Central,2026.0,0.9008857995263433,ST:NC,slip_-1
+64168.0,Bear Branch Solar,GEN,NC,Solar,Solar,2027,34.5,SERC-Central,2027.0,9.946882785347398,ST:NC,slip_0
+64168.0,Bear Branch Solar,GEN,NC,Solar,Solar,2027,34.5,SERC-Central,2028.0,6.505690031679635,ST:NC,slip_1
+64168.0,Bear Branch Solar,GEN,NC,Solar,Solar,2027,34.5,SERC-Central,2029.0,1.2319533724971548,ST:NC,slip_2
+64168.0,Bear Branch Solar,GEN,NC,Solar,Solar,2027,34.5,SERC-Central,2030.0,8.764801771599053,ST:NC,slip_3plus
+64168.0,Bear Branch Solar,GEN,NC,Solar,Solar,2027,34.5,SERC-Central,,7.149786239350413,ST:NC,never
+66363.0,"Black Walnut Solar, LLC",GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2026.0,2.0890105496263036,ST:NC,slip_-1
+66363.0,"Black Walnut Solar, LLC",GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2027.0,23.06523544428382,ST:NC,slip_0
+66363.0,"Black Walnut Solar, LLC",GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2028.0,15.085658044474517,ST:NC,slip_1
+66363.0,"Black Walnut Solar, LLC",GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2029.0,2.8567034724571707,ST:NC,slip_2
+66363.0,"Black Walnut Solar, LLC",GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2030.0,20.324178021099254,ST:NC,slip_3plus
+66363.0,"Black Walnut Solar, LLC",GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,,16.57921446805893,ST:NC,never
+68830.0,Catfish,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68830.0,Catfish,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68830.0,Catfish,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68830.0,Catfish,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+68831.0,Cocoplum,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68831.0,Cocoplum,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68831.0,Cocoplum,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68831.0,Cocoplum,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+66671.0,"Conez Solar, LLC",CONEZ,GA,Solar,Solar,2027,150.0,SERC-Central,2026.0,7.814399333171256,ST:GA,slip_-1
+66671.0,"Conez Solar, LLC",CONEZ,GA,Solar,Solar,2027,150.0,SERC-Central,2027.0,67.49036224082242,ST:GA,slip_0
+66671.0,"Conez Solar, LLC",CONEZ,GA,Solar,Solar,2027,150.0,SERC-Central,2028.0,43.046921126662724,ST:GA,slip_1
+66671.0,"Conez Solar, LLC",CONEZ,GA,Solar,Solar,2027,150.0,SERC-Central,2029.0,14.534782759698537,ST:GA,slip_2
+66671.0,"Conez Solar, LLC",CONEZ,GA,Solar,Solar,2027,150.0,SERC-Central,,17.113534539645052,ST:GA,never
+59572.0,Cotton Solar,PV1,SC,Solar,Solar,2027,16.0,SERC-Central,2026.0,0.0935672514619883,ST:SC,slip_-1
+59572.0,Cotton Solar,PV1,SC,Solar,Solar,2027,16.0,SERC-Central,2027.0,3.2628237259816206,ST:SC,slip_0
+59572.0,Cotton Solar,PV1,SC,Solar,Solar,2027,16.0,SERC-Central,2028.0,1.8118629908103594,ST:SC,slip_1
+59572.0,Cotton Solar,PV1,SC,Solar,Solar,2027,16.0,SERC-Central,2029.0,0.10827067669172932,ST:SC,slip_2
+59572.0,Cotton Solar,PV1,SC,Solar,Solar,2027,16.0,SERC-Central,2030.0,7.8997493734335835,ST:SC,slip_3plus
+59572.0,Cotton Solar,PV1,SC,Solar,Solar,2027,16.0,SERC-Central,,2.8237259816207185,ST:SC,never
+68832.0,County Line,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68832.0,County Line,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68832.0,County Line,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68832.0,County Line,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+62221.0,Culpepper Solar,33,SC,Solar,Solar,2027,74.9,SERC-Central,2026.0,0.43801169590643274,ST:SC,slip_-1
+62221.0,Culpepper Solar,33,SC,Solar,Solar,2027,74.9,SERC-Central,2027.0,15.274093567251462,ST:SC,slip_0
+62221.0,Culpepper Solar,33,SC,Solar,Solar,2027,74.9,SERC-Central,2028.0,8.481783625730996,ST:SC,slip_1
+62221.0,Culpepper Solar,33,SC,Solar,Solar,2027,74.9,SERC-Central,2029.0,0.506842105263158,ST:SC,slip_2
+62221.0,Culpepper Solar,33,SC,Solar,Solar,2027,74.9,SERC-Central,2030.0,36.98070175438597,ST:SC,slip_3plus
+62221.0,Culpepper Solar,33,SC,Solar,Solar,2027,74.9,SERC-Central,,13.21856725146199,ST:SC,never
+67858.0,Dill Holdings LLC,DILL1,NC,Solar,Solar,2027,10.0,SERC-Central,2026.0,0.26112631870328795,ST:NC,slip_-1
+67858.0,Dill Holdings LLC,DILL1,NC,Solar,Solar,2027,10.0,SERC-Central,2027.0,2.8831544305354777,ST:NC,slip_0
+67858.0,Dill Holdings LLC,DILL1,NC,Solar,Solar,2027,10.0,SERC-Central,2028.0,1.8857072555593146,ST:NC,slip_1
+67858.0,Dill Holdings LLC,DILL1,NC,Solar,Solar,2027,10.0,SERC-Central,2029.0,0.35708793405714634,ST:NC,slip_2
+67858.0,Dill Holdings LLC,DILL1,NC,Solar,Solar,2027,10.0,SERC-Central,2030.0,2.5405222526374067,ST:NC,slip_3plus
+67858.0,Dill Holdings LLC,DILL1,NC,Solar,Solar,2027,10.0,SERC-Central,,2.072401808507366,ST:NC,never
+67989.0,Drawhorn Solar,PGR28,GA,Solar,Solar,2027,80.0,SERC-Central,2026.0,4.167679644358003,ST:GA,slip_-1
+67989.0,Drawhorn Solar,PGR28,GA,Solar,Solar,2027,80.0,SERC-Central,2027.0,35.99485986177196,ST:GA,slip_0
+67989.0,Drawhorn Solar,PGR28,GA,Solar,Solar,2027,80.0,SERC-Central,2028.0,22.958357934220118,ST:GA,slip_1
+67989.0,Drawhorn Solar,PGR28,GA,Solar,Solar,2027,80.0,SERC-Central,2029.0,7.751884138505886,ST:GA,slip_2
+67989.0,Drawhorn Solar,PGR28,GA,Solar,Solar,2027,80.0,SERC-Central,,9.127218421144027,ST:GA,never
+68293.0,Frontier Solar,FRON,KY,Solar,Solar,2027,120.0,SERC-Central,2026.0,2.036636039094048,SERC-Central,slip_-1
+68293.0,Frontier Solar,FRON,KY,Solar,Solar,2027,120.0,SERC-Central,2027.0,34.56545912096915,SERC-Central,slip_0
+68293.0,Frontier Solar,FRON,KY,Solar,Solar,2027,120.0,SERC-Central,2028.0,24.93006379118628,SERC-Central,slip_1
+68293.0,Frontier Solar,FRON,KY,Solar,Solar,2027,120.0,SERC-Central,2029.0,7.939369111020072,SERC-Central,slip_2
+68293.0,Frontier Solar,FRON,KY,Solar,Solar,2027,120.0,SERC-Central,2030.0,29.9877099549365,SERC-Central,slip_3plus
+68293.0,Frontier Solar,FRON,KY,Solar,Solar,2027,120.0,SERC-Central,,20.54076198279394,SERC-Central,never
+68278.0,Greater Wise Solar Project,21066,VA,Solar,Solar,2027,20.0,SERC-Central,2026.0,0.46941971645235736,ST:VA,slip_-1
+68278.0,Greater Wise Solar Project,21066,VA,Solar,Solar,2027,20.0,SERC-Central,2027.0,8.191971645235741,ST:VA,slip_0
+68278.0,Greater Wise Solar Project,21066,VA,Solar,Solar,2027,20.0,SERC-Central,2028.0,4.01788658094296,ST:VA,slip_1
+68278.0,Greater Wise Solar Project,21066,VA,Solar,Solar,2027,20.0,SERC-Central,2029.0,0.9202934388394329,ST:VA,slip_2
+68278.0,Greater Wise Solar Project,21066,VA,Solar,Solar,2027,20.0,SERC-Central,2030.0,5.411308935047807,ST:VA,slip_3plus
+68278.0,Greater Wise Solar Project,21066,VA,Solar,Solar,2027,20.0,SERC-Central,,0.9891196834817012,ST:VA,never
+70302.0,"Gum Swamp Solar, LLC",22,NC,Solar,Solar,2027,80.0,SERC-Central,2026.0,2.0890105496263036,ST:NC,slip_-1
+70302.0,"Gum Swamp Solar, LLC",22,NC,Solar,Solar,2027,80.0,SERC-Central,2027.0,23.06523544428382,ST:NC,slip_0
+70302.0,"Gum Swamp Solar, LLC",22,NC,Solar,Solar,2027,80.0,SERC-Central,2028.0,15.085658044474517,ST:NC,slip_1
+70302.0,"Gum Swamp Solar, LLC",22,NC,Solar,Solar,2027,80.0,SERC-Central,2029.0,2.8567034724571707,ST:NC,slip_2
+70302.0,"Gum Swamp Solar, LLC",22,NC,Solar,Solar,2027,80.0,SERC-Central,2030.0,20.324178021099254,ST:NC,slip_3plus
+70302.0,"Gum Swamp Solar, LLC",22,NC,Solar,Solar,2027,80.0,SERC-Central,,16.57921446805893,ST:NC,never
+68833.0,Hardwood Hammock,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68833.0,Hardwood Hammock,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68833.0,Hardwood Hammock,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68833.0,Hardwood Hammock,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+66382.0,"Healing Springs Solar, LLC",GEN1,NC,Solar,Solar,2027,55.0,SERC-Central,2026.0,1.4361947528680836,ST:NC,slip_-1
+66382.0,"Healing Springs Solar, LLC",GEN1,NC,Solar,Solar,2027,55.0,SERC-Central,2027.0,15.857349367945128,ST:NC,slip_0
+66382.0,"Healing Springs Solar, LLC",GEN1,NC,Solar,Solar,2027,55.0,SERC-Central,2028.0,10.37138990557623,ST:NC,slip_1
+66382.0,"Healing Springs Solar, LLC",GEN1,NC,Solar,Solar,2027,55.0,SERC-Central,2029.0,1.9639836373143047,ST:NC,slip_2
+66382.0,"Healing Springs Solar, LLC",GEN1,NC,Solar,Solar,2027,55.0,SERC-Central,2030.0,13.972872389505737,ST:NC,slip_3plus
+66382.0,"Healing Springs Solar, LLC",GEN1,NC,Solar,Solar,2027,55.0,SERC-Central,,11.398209946790514,ST:NC,never
+68834.0,Hendry,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68834.0,Hendry,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68834.0,Hendry,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68834.0,Hendry,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+64345.0,Highland Solar North,1112,FL,Solar,Solar,2027,74.9,Florida,2027.0,68.26360040774722,ST:FL,slip_0
+64345.0,Highland Solar North,1112,FL,Solar,Solar,2027,74.9,Florida,2028.0,3.5864451240231063,ST:FL,slip_1
+64345.0,Highland Solar North,1112,FL,Solar,Solar,2027,74.9,Florida,2029.0,0.7624886170574247,ST:FL,slip_2
+64345.0,Highland Solar North,1112,FL,Solar,Solar,2027,74.9,Florida,2030.0,2.2874658511722736,ST:FL,slip_3plus
+66852.0,Hillsboro Solar 3,HILL3,AL,Solar,Solar,2027,200.0,SERC-Central,2026.0,3.39439339849008,SERC-Central,slip_-1
+66852.0,Hillsboro Solar 3,HILL3,AL,Solar,Solar,2027,200.0,SERC-Central,2027.0,57.609098534948586,SERC-Central,slip_0
+66852.0,Hillsboro Solar 3,HILL3,AL,Solar,Solar,2027,200.0,SERC-Central,2028.0,41.550106318643806,SERC-Central,slip_1
+66852.0,Hillsboro Solar 3,HILL3,AL,Solar,Solar,2027,200.0,SERC-Central,2029.0,13.23228185170012,SERC-Central,slip_2
+66852.0,Hillsboro Solar 3,HILL3,AL,Solar,Solar,2027,200.0,SERC-Central,2030.0,49.97951659156083,SERC-Central,slip_3plus
+66852.0,Hillsboro Solar 3,HILL3,AL,Solar,Solar,2027,200.0,SERC-Central,,34.23460330465657,SERC-Central,never
+66383.0,Hyco Solar LLC,GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2026.0,2.0890105496263036,ST:NC,slip_-1
+66383.0,Hyco Solar LLC,GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2027.0,23.06523544428382,ST:NC,slip_0
+66383.0,Hyco Solar LLC,GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2028.0,15.085658044474517,ST:NC,slip_1
+66383.0,Hyco Solar LLC,GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2029.0,2.8567034724571707,ST:NC,slip_2
+66383.0,Hyco Solar LLC,GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,2030.0,20.324178021099254,ST:NC,slip_3plus
+66383.0,Hyco Solar LLC,GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,,16.57921446805893,ST:NC,never
+68835.0,Joshua Creek,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68835.0,Joshua Creek,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68835.0,Joshua Creek,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68835.0,Joshua Creek,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+62234.0,Juniper Solar,48,SC,Solar,Solar,2027,74.9,SERC-Central,2026.0,0.43801169590643274,ST:SC,slip_-1
+62234.0,Juniper Solar,48,SC,Solar,Solar,2027,74.9,SERC-Central,2027.0,15.274093567251462,ST:SC,slip_0
+62234.0,Juniper Solar,48,SC,Solar,Solar,2027,74.9,SERC-Central,2028.0,8.481783625730996,ST:SC,slip_1
+62234.0,Juniper Solar,48,SC,Solar,Solar,2027,74.9,SERC-Central,2029.0,0.506842105263158,ST:SC,slip_2
+62234.0,Juniper Solar,48,SC,Solar,Solar,2027,74.9,SERC-Central,2030.0,36.98070175438597,ST:SC,slip_3plus
+62234.0,Juniper Solar,48,SC,Solar,Solar,2027,74.9,SERC-Central,,13.21856725146199,ST:SC,never
+67233.0,Lawrence County Solar,SOL1,AL,Solar,Solar,2027,193.0,SERC-Central,2026.0,3.275589629542927,SERC-Central,slip_-1
+67233.0,Lawrence County Solar,SOL1,AL,Solar,Solar,2027,193.0,SERC-Central,2027.0,55.59278008622539,SERC-Central,slip_0
+67233.0,Lawrence County Solar,SOL1,AL,Solar,Solar,2027,193.0,SERC-Central,2028.0,40.09585259749127,SERC-Central,slip_1
+67233.0,Lawrence County Solar,SOL1,AL,Solar,Solar,2027,193.0,SERC-Central,2029.0,12.769151986890616,SERC-Central,slip_2
+67233.0,Lawrence County Solar,SOL1,AL,Solar,Solar,2027,193.0,SERC-Central,2030.0,48.2302335108562,SERC-Central,slip_3plus
+67233.0,Lawrence County Solar,SOL1,AL,Solar,Solar,2027,193.0,SERC-Central,,33.03639218899358,SERC-Central,never
+70222.0,Lonesome Camp Solar Plant,LCSP1,FL,Solar,Solar,2027,74.9,Florida,2027.0,68.26360040774722,ST:FL,slip_0
+70222.0,Lonesome Camp Solar Plant,LCSP1,FL,Solar,Solar,2027,74.9,Florida,2028.0,3.5864451240231063,ST:FL,slip_1
+70222.0,Lonesome Camp Solar Plant,LCSP1,FL,Solar,Solar,2027,74.9,Florida,2029.0,0.7624886170574247,ST:FL,slip_2
+70222.0,Lonesome Camp Solar Plant,LCSP1,FL,Solar,Solar,2027,74.9,Florida,2030.0,2.2874658511722736,ST:FL,slip_3plus
+68337.0,Lotus Solar,LOTUS,SC,Solar,Solar,2027,75.0,SERC-Central,2026.0,0.43859649122807015,ST:SC,slip_-1
+68337.0,Lotus Solar,LOTUS,SC,Solar,Solar,2027,75.0,SERC-Central,2027.0,15.294486215538846,ST:SC,slip_0
+68337.0,Lotus Solar,LOTUS,SC,Solar,Solar,2027,75.0,SERC-Central,2028.0,8.49310776942356,ST:SC,slip_1
+68337.0,Lotus Solar,LOTUS,SC,Solar,Solar,2027,75.0,SERC-Central,2029.0,0.5075187969924811,ST:SC,slip_2
+68337.0,Lotus Solar,LOTUS,SC,Solar,Solar,2027,75.0,SERC-Central,2030.0,37.03007518796992,ST:SC,slip_3plus
+68337.0,Lotus Solar,LOTUS,SC,Solar,Solar,2027,75.0,SERC-Central,,13.236215538847118,ST:SC,never
+67195.0,Maple Leaf Solar,GEN,NC,Solar,Solar,2027,73.0,SERC-Central,2026.0,1.9062221265340018,ST:NC,slip_-1
+67195.0,Maple Leaf Solar,GEN,NC,Solar,Solar,2027,73.0,SERC-Central,2027.0,21.047027342908986,ST:NC,slip_0
+67195.0,Maple Leaf Solar,GEN,NC,Solar,Solar,2027,73.0,SERC-Central,2028.0,13.765662965582997,ST:NC,slip_1
+67195.0,Maple Leaf Solar,GEN,NC,Solar,Solar,2027,73.0,SERC-Central,2029.0,2.606741918617168,ST:NC,slip_2
+67195.0,Maple Leaf Solar,GEN,NC,Solar,Solar,2027,73.0,SERC-Central,2030.0,18.54581244425307,ST:NC,slip_3plus
+67195.0,Maple Leaf Solar,GEN,NC,Solar,Solar,2027,73.0,SERC-Central,,15.128533202103773,ST:NC,never
+68836.0,Maple Trail,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68836.0,Maple Trail,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68836.0,Maple Trail,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68836.0,Maple Trail,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+68824.0,Middle Lake,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68824.0,Middle Lake,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68824.0,Middle Lake,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68824.0,Middle Lake,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+68825.0,Pinecone,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68825.0,Pinecone,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68825.0,Pinecone,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68825.0,Pinecone,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+67977.0,Quaker Creek Farm Solar,QUACR,NC,Solar,Solar,2027,34.9,SERC-Central,2026.0,0.9113308522744749,ST:NC,slip_-1
+67977.0,Quaker Creek Farm Solar,QUACR,NC,Solar,Solar,2027,34.9,SERC-Central,2027.0,10.062208962568818,ST:NC,slip_0
+67977.0,Quaker Creek Farm Solar,QUACR,NC,Solar,Solar,2027,34.9,SERC-Central,2028.0,6.581118321902008,ST:NC,slip_1
+67977.0,Quaker Creek Farm Solar,QUACR,NC,Solar,Solar,2027,34.9,SERC-Central,2029.0,1.2462368898594405,ST:NC,slip_2
+67977.0,Quaker Creek Farm Solar,QUACR,NC,Solar,Solar,2027,34.9,SERC-Central,2030.0,8.866422661704549,ST:NC,slip_3plus
+67977.0,Quaker Creek Farm Solar,QUACR,NC,Solar,Solar,2027,34.9,SERC-Central,,7.2326823116907075,ST:NC,never
+59596.0,Rhubarb One SC,PV1,SC,Solar,Solar,2027,9.6,SERC-Central,2026.0,0.05614035087719298,ST:SC,slip_-1
+59596.0,Rhubarb One SC,PV1,SC,Solar,Solar,2027,9.6,SERC-Central,2027.0,1.9576942355889724,ST:SC,slip_0
+59596.0,Rhubarb One SC,PV1,SC,Solar,Solar,2027,9.6,SERC-Central,2028.0,1.0871177944862156,ST:SC,slip_1
+59596.0,Rhubarb One SC,PV1,SC,Solar,Solar,2027,9.6,SERC-Central,2029.0,0.0649624060150376,ST:SC,slip_2
+59596.0,Rhubarb One SC,PV1,SC,Solar,Solar,2027,9.6,SERC-Central,2030.0,4.73984962406015,ST:SC,slip_3plus
+59596.0,Rhubarb One SC,PV1,SC,Solar,Solar,2027,9.6,SERC-Central,,1.694235588972431,ST:SC,never
+70220.0,Robinson Solar Plant,RSP1,SC,Solar,Solar,2027,76.0,SERC-Central,2026.0,0.4444444444444444,ST:SC,slip_-1
+70220.0,Robinson Solar Plant,RSP1,SC,Solar,Solar,2027,76.0,SERC-Central,2027.0,15.498412698412698,ST:SC,slip_0
+70220.0,Robinson Solar Plant,RSP1,SC,Solar,Solar,2027,76.0,SERC-Central,2028.0,8.606349206349208,ST:SC,slip_1
+70220.0,Robinson Solar Plant,RSP1,SC,Solar,Solar,2027,76.0,SERC-Central,2029.0,0.5142857142857142,ST:SC,slip_2
+70220.0,Robinson Solar Plant,RSP1,SC,Solar,Solar,2027,76.0,SERC-Central,2030.0,37.52380952380952,ST:SC,slip_3plus
+70220.0,Robinson Solar Plant,RSP1,SC,Solar,Solar,2027,76.0,SERC-Central,,13.412698412698413,ST:SC,never
+67226.0,Rock House Solar,ROCKH,GA,Solar,Solar,2027,250.0,SERC-Central,2026.0,13.02399888861876,ST:GA,slip_-1
+67226.0,Rock House Solar,ROCKH,GA,Solar,Solar,2027,250.0,SERC-Central,2027.0,112.48393706803736,ST:GA,slip_0
+67226.0,Rock House Solar,ROCKH,GA,Solar,Solar,2027,250.0,SERC-Central,2028.0,71.74486854443788,ST:GA,slip_1
+67226.0,Rock House Solar,ROCKH,GA,Solar,Solar,2027,250.0,SERC-Central,2029.0,24.224637932830895,ST:GA,slip_2
+67226.0,Rock House Solar,ROCKH,GA,Solar,Solar,2027,250.0,SERC-Central,,28.522557566075086,ST:GA,never
+62295.0,Rollins Solar,67,SC,Solar,Solar,2027,74.9,SERC-Central,2026.0,0.43801169590643274,ST:SC,slip_-1
+62295.0,Rollins Solar,67,SC,Solar,Solar,2027,74.9,SERC-Central,2027.0,15.274093567251462,ST:SC,slip_0
+62295.0,Rollins Solar,67,SC,Solar,Solar,2027,74.9,SERC-Central,2028.0,8.481783625730996,ST:SC,slip_1
+62295.0,Rollins Solar,67,SC,Solar,Solar,2027,74.9,SERC-Central,2029.0,0.506842105263158,ST:SC,slip_2
+62295.0,Rollins Solar,67,SC,Solar,Solar,2027,74.9,SERC-Central,2030.0,36.98070175438597,ST:SC,slip_3plus
+62295.0,Rollins Solar,67,SC,Solar,Solar,2027,74.9,SERC-Central,,13.21856725146199,ST:SC,never
+62296.0,Ross Solar,68,SC,Solar,Solar,2027,74.9,SERC-Central,2026.0,0.43801169590643274,ST:SC,slip_-1
+62296.0,Ross Solar,68,SC,Solar,Solar,2027,74.9,SERC-Central,2027.0,15.274093567251462,ST:SC,slip_0
+62296.0,Ross Solar,68,SC,Solar,Solar,2027,74.9,SERC-Central,2028.0,8.481783625730996,ST:SC,slip_1
+62296.0,Ross Solar,68,SC,Solar,Solar,2027,74.9,SERC-Central,2029.0,0.506842105263158,ST:SC,slip_2
+62296.0,Ross Solar,68,SC,Solar,Solar,2027,74.9,SERC-Central,2030.0,36.98070175438597,ST:SC,slip_3plus
+62296.0,Ross Solar,68,SC,Solar,Solar,2027,74.9,SERC-Central,,13.21856725146199,ST:SC,never
+68553.0,SR Bacon II,BACN2,GA,Solar,Solar,2027,115.0,SERC-Central,2026.0,5.991039488764629,ST:GA,slip_-1
+68553.0,SR Bacon II,BACN2,GA,Solar,Solar,2027,115.0,SERC-Central,2027.0,51.74261105129719,ST:GA,slip_0
+68553.0,SR Bacon II,BACN2,GA,Solar,Solar,2027,115.0,SERC-Central,2028.0,33.00263953044142,ST:GA,slip_1
+68553.0,SR Bacon II,BACN2,GA,Solar,Solar,2027,115.0,SERC-Central,2029.0,11.143333449102212,ST:GA,slip_2
+68553.0,SR Bacon II,BACN2,GA,Solar,Solar,2027,115.0,SERC-Central,,13.12037648039454,ST:GA,never
+68554.0,SR Bacon III,BACN3,GA,Solar,Solar,2027,100.0,SERC-Central,2026.0,5.209599555447504,ST:GA,slip_-1
+68554.0,SR Bacon III,BACN3,GA,Solar,Solar,2027,100.0,SERC-Central,2027.0,44.99357482721494,ST:GA,slip_0
+68554.0,SR Bacon III,BACN3,GA,Solar,Solar,2027,100.0,SERC-Central,2028.0,28.69794741777515,ST:GA,slip_1
+68554.0,SR Bacon III,BACN3,GA,Solar,Solar,2027,100.0,SERC-Central,2029.0,9.689855173132358,ST:GA,slip_2
+68554.0,SR Bacon III,BACN3,GA,Solar,Solar,2027,100.0,SERC-Central,,11.409023026430035,ST:GA,never
+68243.0,SR Bear Creek,BEAR,AL,Solar,Solar,2027,4.5,SERC-Central,2026.0,0.07637385146602681,SERC-Central,slip_-1
+68243.0,SR Bear Creek,BEAR,AL,Solar,Solar,2027,4.5,SERC-Central,2027.0,1.2962047170363433,SERC-Central,slip_0
+68243.0,SR Bear Creek,BEAR,AL,Solar,Solar,2027,4.5,SERC-Central,2028.0,0.9348773921694856,SERC-Central,slip_1
+68243.0,SR Bear Creek,BEAR,AL,Solar,Solar,2027,4.5,SERC-Central,2029.0,0.2977263416632527,SERC-Central,slip_2
+68243.0,SR Bear Creek,BEAR,AL,Solar,Solar,2027,4.5,SERC-Central,2030.0,1.1245391233101187,SERC-Central,slip_3plus
+68243.0,SR Bear Creek,BEAR,AL,Solar,Solar,2027,4.5,SERC-Central,,0.7702785743547726,SERC-Central,never
+68099.0,SR Copeland,COPE,TN,Solar,Solar,2027,110.0,SERC-Central,2026.0,1.866916369169544,SERC-Central,slip_-1
+68099.0,SR Copeland,COPE,TN,Solar,Solar,2027,110.0,SERC-Central,2027.0,31.685004194221722,SERC-Central,slip_0
+68099.0,SR Copeland,COPE,TN,Solar,Solar,2027,110.0,SERC-Central,2028.0,22.852558475254092,SERC-Central,slip_1
+68099.0,SR Copeland,COPE,TN,Solar,Solar,2027,110.0,SERC-Central,2029.0,7.277755018435066,SERC-Central,slip_2
+68099.0,SR Copeland,COPE,TN,Solar,Solar,2027,110.0,SERC-Central,2030.0,27.488734125358455,SERC-Central,slip_3plus
+68099.0,SR Copeland,COPE,TN,Solar,Solar,2027,110.0,SERC-Central,,18.82903181756111,SERC-Central,never
+68555.0,SR Cordova,CORDV,SC,Solar,Solar,2027,100.0,SERC-Central,2026.0,0.5847953216374269,ST:SC,slip_-1
+68555.0,SR Cordova,CORDV,SC,Solar,Solar,2027,100.0,SERC-Central,2027.0,20.39264828738513,ST:SC,slip_0
+68555.0,SR Cordova,CORDV,SC,Solar,Solar,2027,100.0,SERC-Central,2028.0,11.324143692564746,ST:SC,slip_1
+68555.0,SR Cordova,CORDV,SC,Solar,Solar,2027,100.0,SERC-Central,2029.0,0.6766917293233082,ST:SC,slip_2
+68555.0,SR Cordova,CORDV,SC,Solar,Solar,2027,100.0,SERC-Central,2030.0,49.373433583959894,ST:SC,slip_3plus
+68555.0,SR Cordova,CORDV,SC,Solar,Solar,2027,100.0,SERC-Central,,17.648287385129493,ST:SC,never
+68556.0,SR Durhamville,DURHM,TN,Solar,Solar,2027,66.0,SERC-Central,2026.0,1.1201498215017265,SERC-Central,slip_-1
+68556.0,SR Durhamville,DURHM,TN,Solar,Solar,2027,66.0,SERC-Central,2027.0,19.011002516533033,SERC-Central,slip_0
+68556.0,SR Durhamville,DURHM,TN,Solar,Solar,2027,66.0,SERC-Central,2028.0,13.711535085152455,SERC-Central,slip_1
+68556.0,SR Durhamville,DURHM,TN,Solar,Solar,2027,66.0,SERC-Central,2029.0,4.3666530110610395,SERC-Central,slip_2
+68556.0,SR Durhamville,DURHM,TN,Solar,Solar,2027,66.0,SERC-Central,2030.0,16.493240475215075,SERC-Central,slip_3plus
+68556.0,SR Durhamville,DURHM,TN,Solar,Solar,2027,66.0,SERC-Central,,11.297419090536666,SERC-Central,never
+68104.0,SR Hope Hull,HPHUL,AL,Solar,Solar,2027,80.0,SERC-Central,2026.0,1.3577573593960321,SERC-Central,slip_-1
+68104.0,SR Hope Hull,HPHUL,AL,Solar,Solar,2027,80.0,SERC-Central,2027.0,23.043639413979434,SERC-Central,slip_0
+68104.0,SR Hope Hull,HPHUL,AL,Solar,Solar,2027,80.0,SERC-Central,2028.0,16.62004252745752,SERC-Central,slip_1
+68104.0,SR Hope Hull,HPHUL,AL,Solar,Solar,2027,80.0,SERC-Central,2029.0,5.292912740680048,SERC-Central,slip_2
+68104.0,SR Hope Hull,HPHUL,AL,Solar,Solar,2027,80.0,SERC-Central,2030.0,19.991806636624332,SERC-Central,slip_3plus
+68104.0,SR Hope Hull,HPHUL,AL,Solar,Solar,2027,80.0,SERC-Central,,13.693841321862624,SERC-Central,never
+68249.0,SR Horus,METTR,KY,Solar,Solar,2027,79.7,SERC-Central,2026.0,1.352665769298297,SERC-Central,slip_-1
+68249.0,SR Horus,METTR,KY,Solar,Solar,2027,79.7,SERC-Central,2027.0,22.957225766177014,SERC-Central,slip_0
+68249.0,SR Horus,METTR,KY,Solar,Solar,2027,79.7,SERC-Central,2028.0,16.557717367979556,SERC-Central,slip_1
+68249.0,SR Horus,METTR,KY,Solar,Solar,2027,79.7,SERC-Central,2029.0,5.273064317902498,SERC-Central,slip_2
+68249.0,SR Horus,METTR,KY,Solar,Solar,2027,79.7,SERC-Central,2030.0,19.91683736173699,SERC-Central,slip_3plus
+68249.0,SR Horus,METTR,KY,Solar,Solar,2027,79.7,SERC-Central,,13.642489416905642,SERC-Central,never
+68558.0,SR Lott,LOTT,AL,Solar,Solar,2027,8.3,SERC-Central,2026.0,0.14086732603733834,SERC-Central,slip_-1
+68558.0,SR Lott,LOTT,AL,Solar,Solar,2027,8.3,SERC-Central,2027.0,2.3907775892003666,SERC-Central,slip_0
+68558.0,SR Lott,LOTT,AL,Solar,Solar,2027,8.3,SERC-Central,2028.0,1.724329412223718,SERC-Central,slip_1
+68558.0,SR Lott,LOTT,AL,Solar,Solar,2027,8.3,SERC-Central,2029.0,0.5491396968455551,SERC-Central,slip_2
+68558.0,SR Lott,LOTT,AL,Solar,Solar,2027,8.3,SERC-Central,2030.0,2.0741499385497746,SERC-Central,slip_3plus
+68558.0,SR Lott,LOTT,AL,Solar,Solar,2027,8.3,SERC-Central,,1.4207360371432476,SERC-Central,never
+68559.0,SR Magnolia,MAGNA,MS,Solar,Solar,2027,160.0,SERC-Central,2026.0,2.7155147187920643,SERC-Central,slip_-1
+68559.0,SR Magnolia,MAGNA,MS,Solar,Solar,2027,160.0,SERC-Central,2027.0,46.08727882795887,SERC-Central,slip_0
+68559.0,SR Magnolia,MAGNA,MS,Solar,Solar,2027,160.0,SERC-Central,2028.0,33.24008505491504,SERC-Central,slip_1
+68559.0,SR Magnolia,MAGNA,MS,Solar,Solar,2027,160.0,SERC-Central,2029.0,10.585825481360096,SERC-Central,slip_2
+68559.0,SR Magnolia,MAGNA,MS,Solar,Solar,2027,160.0,SERC-Central,2030.0,39.983613273248665,SERC-Central,slip_3plus
+68559.0,SR Magnolia,MAGNA,MS,Solar,Solar,2027,160.0,SERC-Central,,27.38768264372525,SERC-Central,never
+68560.0,SR Marion Junction,MARJT,AL,Solar,Solar,2027,15.0,SERC-Central,2026.0,0.254579504886756,SERC-Central,slip_-1
+68560.0,SR Marion Junction,MARJT,AL,Solar,Solar,2027,15.0,SERC-Central,2027.0,4.320682390121144,SERC-Central,slip_0
+68560.0,SR Marion Junction,MARJT,AL,Solar,Solar,2027,15.0,SERC-Central,2028.0,3.116257973898285,SERC-Central,slip_1
+68560.0,SR Marion Junction,MARJT,AL,Solar,Solar,2027,15.0,SERC-Central,2029.0,0.992421138877509,SERC-Central,slip_2
+68560.0,SR Marion Junction,MARJT,AL,Solar,Solar,2027,15.0,SERC-Central,2030.0,3.7484637443670623,SERC-Central,slip_3plus
+68560.0,SR Marion Junction,MARJT,AL,Solar,Solar,2027,15.0,SERC-Central,,2.5675952478492423,SERC-Central,never
+68561.0,SR Middleton,MIDDN,TN,Solar,Solar,2027,55.0,SERC-Central,2026.0,0.933458184584772,SERC-Central,slip_-1
+68561.0,SR Middleton,MIDDN,TN,Solar,Solar,2027,55.0,SERC-Central,2027.0,15.842502097110861,SERC-Central,slip_0
+68561.0,SR Middleton,MIDDN,TN,Solar,Solar,2027,55.0,SERC-Central,2028.0,11.426279237627046,SERC-Central,slip_1
+68561.0,SR Middleton,MIDDN,TN,Solar,Solar,2027,55.0,SERC-Central,2029.0,3.638877509217533,SERC-Central,slip_2
+68561.0,SR Middleton,MIDDN,TN,Solar,Solar,2027,55.0,SERC-Central,2030.0,13.744367062679228,SERC-Central,slip_3plus
+68561.0,SR Middleton,MIDDN,TN,Solar,Solar,2027,55.0,SERC-Central,,9.414515908780555,SERC-Central,never
+68562.0,SR Mount Pleasant,MTPLT,MS,Solar,Solar,2027,50.0,SERC-Central,2026.0,0.84859834962252,SERC-Central,slip_-1
+68562.0,SR Mount Pleasant,MTPLT,MS,Solar,Solar,2027,50.0,SERC-Central,2027.0,14.402274633737147,SERC-Central,slip_0
+68562.0,SR Mount Pleasant,MTPLT,MS,Solar,Solar,2027,50.0,SERC-Central,2028.0,10.387526579660951,SERC-Central,slip_1
+68562.0,SR Mount Pleasant,MTPLT,MS,Solar,Solar,2027,50.0,SERC-Central,2029.0,3.30807046292503,SERC-Central,slip_2
+68562.0,SR Mount Pleasant,MTPLT,MS,Solar,Solar,2027,50.0,SERC-Central,2030.0,12.494879147890208,SERC-Central,slip_3plus
+68562.0,SR Mount Pleasant,MTPLT,MS,Solar,Solar,2027,50.0,SERC-Central,,8.558650826164142,SERC-Central,never
+68563.0,SR Norwood,NORWD,GA,Solar,Solar,2027,107.0,SERC-Central,2026.0,5.57427152432883,ST:GA,slip_-1
+68563.0,SR Norwood,NORWD,GA,Solar,Solar,2027,107.0,SERC-Central,2027.0,48.14312506511999,ST:GA,slip_0
+68563.0,SR Norwood,NORWD,GA,Solar,Solar,2027,107.0,SERC-Central,2028.0,30.70680373701941,ST:GA,slip_1
+68563.0,SR Norwood,NORWD,GA,Solar,Solar,2027,107.0,SERC-Central,2029.0,10.368145035251624,ST:GA,slip_2
+68563.0,SR Norwood,NORWD,GA,Solar,Solar,2027,107.0,SERC-Central,,12.207654638280138,ST:GA,never
+68564.0,SR Puryear,PURYR,TN,Solar,Solar,2027,50.0,SERC-Central,2026.0,0.84859834962252,SERC-Central,slip_-1
+68564.0,SR Puryear,PURYR,TN,Solar,Solar,2027,50.0,SERC-Central,2027.0,14.402274633737147,SERC-Central,slip_0
+68564.0,SR Puryear,PURYR,TN,Solar,Solar,2027,50.0,SERC-Central,2028.0,10.387526579660951,SERC-Central,slip_1
+68564.0,SR Puryear,PURYR,TN,Solar,Solar,2027,50.0,SERC-Central,2029.0,3.30807046292503,SERC-Central,slip_2
+68564.0,SR Puryear,PURYR,TN,Solar,Solar,2027,50.0,SERC-Central,2030.0,12.494879147890208,SERC-Central,slip_3plus
+68564.0,SR Puryear,PURYR,TN,Solar,Solar,2027,50.0,SERC-Central,,8.558650826164142,SERC-Central,never
+68565.0,SR Rochelle II,ROCH2,GA,Solar,Solar,2027,50.0,SERC-Central,2026.0,2.604799777723752,ST:GA,slip_-1
+68565.0,SR Rochelle II,ROCH2,GA,Solar,Solar,2027,50.0,SERC-Central,2027.0,22.49678741360747,ST:GA,slip_0
+68565.0,SR Rochelle II,ROCH2,GA,Solar,Solar,2027,50.0,SERC-Central,2028.0,14.348973708887575,ST:GA,slip_1
+68565.0,SR Rochelle II,ROCH2,GA,Solar,Solar,2027,50.0,SERC-Central,2029.0,4.844927586566179,ST:GA,slip_2
+68565.0,SR Rochelle II,ROCH2,GA,Solar,Solar,2027,50.0,SERC-Central,,5.704511513215017,ST:GA,never
+68255.0,SR Shelby,SHELB,TN,Solar,Solar,2027,9.8,SERC-Central,2026.0,0.16632527652601395,SERC-Central,slip_-1
+68255.0,SR Shelby,SHELB,TN,Solar,Solar,2027,9.8,SERC-Central,2027.0,2.822845828212481,SERC-Central,slip_0
+68255.0,SR Shelby,SHELB,TN,Solar,Solar,2027,9.8,SERC-Central,2028.0,2.0359552096135465,SERC-Central,slip_1
+68255.0,SR Shelby,SHELB,TN,Solar,Solar,2027,9.8,SERC-Central,2029.0,0.6483818107333059,SERC-Central,slip_2
+68255.0,SR Shelby,SHELB,TN,Solar,Solar,2027,9.8,SERC-Central,2030.0,2.448996312986481,SERC-Central,slip_3plus
+68255.0,SR Shelby,SHELB,TN,Solar,Solar,2027,9.8,SERC-Central,,1.6774955619281717,SERC-Central,never
+68566.0,SR Sipsey,SIPSY,AL,Solar,Solar,2027,10.0,SERC-Central,2026.0,0.16971966992450402,SERC-Central,slip_-1
+68566.0,SR Sipsey,SIPSY,AL,Solar,Solar,2027,10.0,SERC-Central,2027.0,2.8804549267474293,SERC-Central,slip_0
+68566.0,SR Sipsey,SIPSY,AL,Solar,Solar,2027,10.0,SERC-Central,2028.0,2.07750531593219,SERC-Central,slip_1
+68566.0,SR Sipsey,SIPSY,AL,Solar,Solar,2027,10.0,SERC-Central,2029.0,0.661614092585006,SERC-Central,slip_2
+68566.0,SR Sipsey,SIPSY,AL,Solar,Solar,2027,10.0,SERC-Central,2030.0,2.4989758295780415,SERC-Central,slip_3plus
+68566.0,SR Sipsey,SIPSY,AL,Solar,Solar,2027,10.0,SERC-Central,,1.711730165232828,SERC-Central,never
+68568.0,SR Tullahoma,TULLA,TN,Solar,Solar,2027,200.0,SERC-Central,2026.0,3.39439339849008,SERC-Central,slip_-1
+68568.0,SR Tullahoma,TULLA,TN,Solar,Solar,2027,200.0,SERC-Central,2027.0,57.609098534948586,SERC-Central,slip_0
+68568.0,SR Tullahoma,TULLA,TN,Solar,Solar,2027,200.0,SERC-Central,2028.0,41.550106318643806,SERC-Central,slip_1
+68568.0,SR Tullahoma,TULLA,TN,Solar,Solar,2027,200.0,SERC-Central,2029.0,13.23228185170012,SERC-Central,slip_2
+68568.0,SR Tullahoma,TULLA,TN,Solar,Solar,2027,200.0,SERC-Central,2030.0,49.97951659156083,SERC-Central,slip_3plus
+68568.0,SR Tullahoma,TULLA,TN,Solar,Solar,2027,200.0,SERC-Central,,34.23460330465657,SERC-Central,never
+68826.0,Saddle,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68826.0,Saddle,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68826.0,Saddle,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68826.0,Saddle,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+67988.0,Sandersville Solar,PGR28,GA,Solar,Solar,2027,50.0,SERC-Central,2026.0,2.604799777723752,ST:GA,slip_-1
+67988.0,Sandersville Solar,PGR28,GA,Solar,Solar,2027,50.0,SERC-Central,2027.0,22.49678741360747,ST:GA,slip_0
+67988.0,Sandersville Solar,PGR28,GA,Solar,Solar,2027,50.0,SERC-Central,2028.0,14.348973708887575,ST:GA,slip_1
+67988.0,Sandersville Solar,PGR28,GA,Solar,Solar,2027,50.0,SERC-Central,2029.0,4.844927586566179,ST:GA,slip_2
+67988.0,Sandersville Solar,PGR28,GA,Solar,Solar,2027,50.0,SERC-Central,,5.704511513215017,ST:GA,never
+67663.0,Scotch Grove Solar,SGROV,NC,Solar,Solar,2027,80.0,SERC-Central,2026.0,2.0890105496263036,ST:NC,slip_-1
+67663.0,Scotch Grove Solar,SGROV,NC,Solar,Solar,2027,80.0,SERC-Central,2027.0,23.06523544428382,ST:NC,slip_0
+67663.0,Scotch Grove Solar,SGROV,NC,Solar,Solar,2027,80.0,SERC-Central,2028.0,15.085658044474517,ST:NC,slip_1
+67663.0,Scotch Grove Solar,SGROV,NC,Solar,Solar,2027,80.0,SERC-Central,2029.0,2.8567034724571707,ST:NC,slip_2
+67663.0,Scotch Grove Solar,SGROV,NC,Solar,Solar,2027,80.0,SERC-Central,2030.0,20.324178021099254,ST:NC,slip_3plus
+67663.0,Scotch Grove Solar,SGROV,NC,Solar,Solar,2027,80.0,SERC-Central,,16.57921446805893,ST:NC,never
+62310.0,Shorthorn Solar,74,SC,Solar,Solar,2027,60.0,SERC-Central,2026.0,0.3508771929824561,ST:SC,slip_-1
+62310.0,Shorthorn Solar,74,SC,Solar,Solar,2027,60.0,SERC-Central,2027.0,12.235588972431078,ST:SC,slip_0
+62310.0,Shorthorn Solar,74,SC,Solar,Solar,2027,60.0,SERC-Central,2028.0,6.794486215538848,ST:SC,slip_1
+62310.0,Shorthorn Solar,74,SC,Solar,Solar,2027,60.0,SERC-Central,2029.0,0.40601503759398494,ST:SC,slip_2
+62310.0,Shorthorn Solar,74,SC,Solar,Solar,2027,60.0,SERC-Central,2030.0,29.62406015037594,ST:SC,slip_3plus
+62310.0,Shorthorn Solar,74,SC,Solar,Solar,2027,60.0,SERC-Central,,10.588972431077694,ST:SC,never
+70304.0,"Sleepy Creek Solar, LLC",24,NC,Solar,Solar,2027,80.0,SERC-Central,2026.0,2.0890105496263036,ST:NC,slip_-1
+70304.0,"Sleepy Creek Solar, LLC",24,NC,Solar,Solar,2027,80.0,SERC-Central,2027.0,23.06523544428382,ST:NC,slip_0
+70304.0,"Sleepy Creek Solar, LLC",24,NC,Solar,Solar,2027,80.0,SERC-Central,2028.0,15.085658044474517,ST:NC,slip_1
+70304.0,"Sleepy Creek Solar, LLC",24,NC,Solar,Solar,2027,80.0,SERC-Central,2029.0,2.8567034724571707,ST:NC,slip_2
+70304.0,"Sleepy Creek Solar, LLC",24,NC,Solar,Solar,2027,80.0,SERC-Central,2030.0,20.324178021099254,ST:NC,slip_3plus
+70304.0,"Sleepy Creek Solar, LLC",24,NC,Solar,Solar,2027,80.0,SERC-Central,,16.57921446805893,ST:NC,never
+67665.0,South Davidson,SDAVI,NC,Solar,Solar,2027,80.0,SERC-Central,2026.0,2.0890105496263036,ST:NC,slip_-1
+67665.0,South Davidson,SDAVI,NC,Solar,Solar,2027,80.0,SERC-Central,2027.0,23.06523544428382,ST:NC,slip_0
+67665.0,South Davidson,SDAVI,NC,Solar,Solar,2027,80.0,SERC-Central,2028.0,15.085658044474517,ST:NC,slip_1
+67665.0,South Davidson,SDAVI,NC,Solar,Solar,2027,80.0,SERC-Central,2029.0,2.8567034724571707,ST:NC,slip_2
+67665.0,South Davidson,SDAVI,NC,Solar,Solar,2027,80.0,SERC-Central,2030.0,20.324178021099254,ST:NC,slip_3plus
+67665.0,South Davidson,SDAVI,NC,Solar,Solar,2027,80.0,SERC-Central,,16.57921446805893,ST:NC,never
+68827.0,Spanish Moss,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68827.0,Spanish Moss,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68827.0,Spanish Moss,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68827.0,Spanish Moss,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+70130.0,Suffolk - VA 0141 (Johnson South),141,VA,Solar,Solar,2027,5.0,SERC-Central,2026.0,0.11735492911308934,ST:VA,slip_-1
+70130.0,Suffolk - VA 0141 (Johnson South),141,VA,Solar,Solar,2027,5.0,SERC-Central,2027.0,2.0479929113089352,ST:VA,slip_0
+70130.0,Suffolk - VA 0141 (Johnson South),141,VA,Solar,Solar,2027,5.0,SERC-Central,2028.0,1.00447164523574,ST:VA,slip_1
+70130.0,Suffolk - VA 0141 (Johnson South),141,VA,Solar,Solar,2027,5.0,SERC-Central,2029.0,0.23007335970985823,ST:VA,slip_2
+70130.0,Suffolk - VA 0141 (Johnson South),141,VA,Solar,Solar,2027,5.0,SERC-Central,2030.0,1.3528272337619518,ST:VA,slip_3plus
+70130.0,Suffolk - VA 0141 (Johnson South),141,VA,Solar,Solar,2027,5.0,SERC-Central,,0.2472799208704253,ST:VA,never
+68828.0,Tangelo,1,FL,Solar,Solar,2027,74.5,Florida,2027.0,67.89904179408768,ST:FL,slip_0
+68828.0,Tangelo,1,FL,Solar,Solar,2027,74.5,Florida,2028.0,3.567291879034999,ST:FL,slip_1
+68828.0,Tangelo,1,FL,Solar,Solar,2027,74.5,Florida,2029.0,0.7584165817193342,ST:FL,slip_2
+68828.0,Tangelo,1,FL,Solar,Solar,2027,74.5,Florida,2030.0,2.2752497451580025,ST:FL,slip_3plus
+70223.0,Turnpike Solar Plant,TPSP1,FL,Solar,Solar,2027,74.9,Florida,2027.0,68.26360040774722,ST:FL,slip_0
+70223.0,Turnpike Solar Plant,TPSP1,FL,Solar,Solar,2027,74.9,Florida,2028.0,3.5864451240231063,ST:FL,slip_1
+70223.0,Turnpike Solar Plant,TPSP1,FL,Solar,Solar,2027,74.9,Florida,2029.0,0.7624886170574247,ST:FL,slip_2
+70223.0,Turnpike Solar Plant,TPSP1,FL,Solar,Solar,2027,74.9,Florida,2030.0,2.2874658511722736,ST:FL,slip_3plus
+63806.0,"West River Solar, LLC",PGR28,NC,Solar,Solar,2027,40.0,SERC-Central,2026.0,1.0445052748131518,ST:NC,slip_-1
+63806.0,"West River Solar, LLC",PGR28,NC,Solar,Solar,2027,40.0,SERC-Central,2027.0,11.53261772214191,ST:NC,slip_0
+63806.0,"West River Solar, LLC",PGR28,NC,Solar,Solar,2027,40.0,SERC-Central,2028.0,7.5428290222372585,ST:NC,slip_1
+63806.0,"West River Solar, LLC",PGR28,NC,Solar,Solar,2027,40.0,SERC-Central,2029.0,1.4283517362285854,ST:NC,slip_2
+63806.0,"West River Solar, LLC",PGR28,NC,Solar,Solar,2027,40.0,SERC-Central,2030.0,10.162089010549627,ST:NC,slip_3plus
+63806.0,"West River Solar, LLC",PGR28,NC,Solar,Solar,2027,40.0,SERC-Central,,8.289607234029464,ST:NC,never
+70454.0,Big Bend III Battery Storage,BESS1,FL,Battery Storage,Wind,2028,75.0,Florida,2028.0,75.0,unchanged,
+66363.0,"Black Walnut Solar, LLC",GEN1B,NC,Battery Storage,Wind,2028,32.0,SERC-Central,2028.0,32.0,unchanged,
+69771.0,Clark Creek Solar Plant,CCBS1,NC,Battery Storage,Wind,2028,14.0,SERC-Central,2028.0,14.0,unchanged,
+68043.0,Robeson Solar I,ROBSS,NC,Battery Storage,Wind,2028,28.0,SERC-Central,2028.0,28.0,unchanged,
+68871.0,Timber Mill Solar,TIMIB,NC,Battery Storage,Wind,2028,32.0,SERC-Central,2028.0,32.0,unchanged,
+62402.0,Arkabutla Lake Hydroelectric Project,NA1,MS,Hydro,Wind,2028,2.5,SERC-Central,2028.0,2.5,unchanged,
+62402.0,Arkabutla Lake Hydroelectric Project,NA2,MS,Hydro,Wind,2028,2.5,SERC-Central,2028.0,2.5,unchanged,
+62432.0,Enid Lake Hydroelectric Project,NA1,MS,Hydro,Wind,2028,2.5,SERC-Central,2028.0,2.5,unchanged,
+62432.0,Enid Lake Hydroelectric Project,NA2,MS,Hydro,Wind,2028,2.5,SERC-Central,2028.0,2.5,unchanged,
+62430.0,Grenada Lake Hydroelectric Project,NA1,MS,Hydro,Wind,2028,5.0,SERC-Central,2028.0,5.0,unchanged,
+62430.0,Grenada Lake Hydroelectric Project,NA2,MS,Hydro,Wind,2028,5.0,SERC-Central,2028.0,5.0,unchanged,
+62425.0,Sardis Lake Hydroelectric Project,NA1,MS,Hydro,Wind,2028,7.5,SERC-Central,2028.0,7.5,unchanged,
+62425.0,Sardis Lake Hydroelectric Project,NA2,MS,Hydro,Wind,2028,7.5,SERC-Central,2028.0,7.5,unchanged,
+69147.0,New Caledonia,G1,MS,Natural Gas,Wind,2028,84.0,SERC-Central,2028.0,84.0,unchanged,
+69147.0,New Caledonia,G2,MS,Natural Gas,Wind,2028,84.0,SERC-Central,2028.0,84.0,unchanged,
+69147.0,New Caledonia,G3,MS,Natural Gas,Wind,2028,84.0,SERC-Central,2028.0,84.0,unchanged,
+69147.0,New Caledonia,G4,MS,Natural Gas,Wind,2028,84.0,SERC-Central,2028.0,84.0,unchanged,
+69147.0,New Caledonia,G5,MS,Natural Gas,Wind,2028,84.0,SERC-Central,2028.0,84.0,unchanged,
+69147.0,New Caledonia,G6,MS,Natural Gas,Wind,2028,84.0,SERC-Central,2028.0,84.0,unchanged,
+62184.0,Big Fork Solar,26,SC,Solar,Solar,2028,74.9,SERC-Central,2027.0,2.483297880143769,ST:SC,slip_-1
+62184.0,Big Fork Solar,26,SC,Solar,Solar,2028,74.9,SERC-Central,2028.0,0.5603902295899654,ST:SC,slip_0
+62184.0,Big Fork Solar,26,SC,Solar,Solar,2028,74.9,SERC-Central,2029.0,8.076212132325972,ST:SC,slip_1
+62184.0,Big Fork Solar,26,SC,Solar,Solar,2028,74.9,SERC-Central,2030.0,3.955695738282109,ST:SC,slip_2
+62184.0,Big Fork Solar,26,SC,Solar,Solar,2028,74.9,SERC-Central,2031.0,50.083503264138486,ST:SC,slip_3plus
+62184.0,Big Fork Solar,26,SC,Solar,Solar,2028,74.9,SERC-Central,,9.740900755519695,ST:SC,never
+69772.0,Bush River Solar Plant,BRSP1,SC,Solar,Solar,2028,45.0,SERC-Central,2027.0,1.491968018777965,ST:SC,slip_-1
+69772.0,Bush River Solar Plant,BRSP1,SC,Solar,Solar,2028,45.0,SERC-Central,2028.0,0.33668304848529296,ST:SC,slip_0
+69772.0,Bush River Solar Plant,BRSP1,SC,Solar,Solar,2028,45.0,SERC-Central,2029.0,4.852196875229223,ST:SC,slip_1
+69772.0,Bush River Solar Plant,BRSP1,SC,Solar,Solar,2028,45.0,SERC-Central,2030.0,2.376586224602068,ST:SC,slip_2
+69772.0,Bush River Solar Plant,BRSP1,SC,Solar,Solar,2028,45.0,SERC-Central,2031.0,30.090222254822855,ST:SC,slip_3plus
+69772.0,Bush River Solar Plant,BRSP1,SC,Solar,Solar,2028,45.0,SERC-Central,,5.852343578082593,ST:SC,never
+69771.0,Clark Creek Solar Plant,CCSP1,NC,Solar,Solar,2028,40.0,SERC-Central,2027.0,0.5682318184675341,SERC-Central,slip_-1
+69771.0,Clark Creek Solar Plant,CCSP1,NC,Solar,Solar,2028,40.0,SERC-Central,2028.0,4.490539945942548,SERC-Central,slip_0
+69771.0,Clark Creek Solar Plant,CCSP1,NC,Solar,Solar,2028,40.0,SERC-Central,2029.0,5.907348041988811,SERC-Central,slip_1
+69771.0,Clark Creek Solar Plant,CCSP1,NC,Solar,Solar,2028,40.0,SERC-Central,2030.0,0.905148029417311,SERC-Central,slip_2
+69771.0,Clark Creek Solar Plant,CCSP1,NC,Solar,Solar,2028,40.0,SERC-Central,2031.0,15.005342887673645,SERC-Central,slip_3plus
+69771.0,Clark Creek Solar Plant,CCSP1,NC,Solar,Solar,2028,40.0,SERC-Central,,13.123389276510153,SERC-Central,never
+62188.0,Colleton Solar,30,SC,Solar,Solar,2028,74.9,SERC-Central,2027.0,2.483297880143769,ST:SC,slip_-1
+62188.0,Colleton Solar,30,SC,Solar,Solar,2028,74.9,SERC-Central,2028.0,0.5603902295899654,ST:SC,slip_0
+62188.0,Colleton Solar,30,SC,Solar,Solar,2028,74.9,SERC-Central,2029.0,8.076212132325972,ST:SC,slip_1
+62188.0,Colleton Solar,30,SC,Solar,Solar,2028,74.9,SERC-Central,2030.0,3.955695738282109,ST:SC,slip_2
+62188.0,Colleton Solar,30,SC,Solar,Solar,2028,74.9,SERC-Central,2031.0,50.083503264138486,ST:SC,slip_3plus
+62188.0,Colleton Solar,30,SC,Solar,Solar,2028,74.9,SERC-Central,,9.740900755519695,ST:SC,never
+62190.0,Crossroads Solar,32,SC,Solar,Solar,2028,50.0,SERC-Central,2027.0,1.6577422430866278,ST:SC,slip_-1
+62190.0,Crossroads Solar,32,SC,Solar,Solar,2028,50.0,SERC-Central,2028.0,0.37409227609476997,ST:SC,slip_0
+62190.0,Crossroads Solar,32,SC,Solar,Solar,2028,50.0,SERC-Central,2029.0,5.3913298613658025,ST:SC,slip_1
+62190.0,Crossroads Solar,32,SC,Solar,Solar,2028,50.0,SERC-Central,2030.0,2.6406513606689646,ST:SC,slip_2
+62190.0,Crossroads Solar,32,SC,Solar,Solar,2028,50.0,SERC-Central,2031.0,33.43358028313651,ST:SC,slip_3plus
+62190.0,Crossroads Solar,32,SC,Solar,Solar,2028,50.0,SERC-Central,,6.502603975647325,ST:SC,never
+62217.0,GEB Solar,40,SC,Solar,Solar,2028,50.0,SERC-Central,2027.0,1.6577422430866278,ST:SC,slip_-1
+62217.0,GEB Solar,40,SC,Solar,Solar,2028,50.0,SERC-Central,2028.0,0.37409227609476997,ST:SC,slip_0
+62217.0,GEB Solar,40,SC,Solar,Solar,2028,50.0,SERC-Central,2029.0,5.3913298613658025,ST:SC,slip_1
+62217.0,GEB Solar,40,SC,Solar,Solar,2028,50.0,SERC-Central,2030.0,2.6406513606689646,ST:SC,slip_2
+62217.0,GEB Solar,40,SC,Solar,Solar,2028,50.0,SERC-Central,2031.0,33.43358028313651,ST:SC,slip_3plus
+62217.0,GEB Solar,40,SC,Solar,Solar,2028,50.0,SERC-Central,,6.502603975647325,ST:SC,never
+62229.0,Holliday Solar I,43,SC,Solar,Solar,2028,74.0,SERC-Central,2027.0,2.4534585197682093,ST:SC,slip_-1
+62229.0,Holliday Solar I,43,SC,Solar,Solar,2028,74.0,SERC-Central,2028.0,0.5536565686202596,ST:SC,slip_0
+62229.0,Holliday Solar I,43,SC,Solar,Solar,2028,74.0,SERC-Central,2029.0,7.979168194821388,ST:SC,slip_1
+62229.0,Holliday Solar I,43,SC,Solar,Solar,2028,74.0,SERC-Central,2030.0,3.9081640137900675,ST:SC,slip_2
+62229.0,Holliday Solar I,43,SC,Solar,Solar,2028,74.0,SERC-Central,2031.0,49.48169881904203,ST:SC,slip_3plus
+62229.0,Holliday Solar I,43,SC,Solar,Solar,2028,74.0,SERC-Central,,9.623853883958041,ST:SC,never
+70221.0,Hudson Place Solar Plant,HPSP1,SC,Solar,Solar,2028,70.7,SERC-Central,2027.0,2.3440475317244918,ST:SC,slip_-1
+70221.0,Hudson Place Solar Plant,HPSP1,SC,Solar,Solar,2028,70.7,SERC-Central,2028.0,0.5289664783980047,ST:SC,slip_0
+70221.0,Hudson Place Solar Plant,HPSP1,SC,Solar,Solar,2028,70.7,SERC-Central,2029.0,7.6233404239712454,ST:SC,slip_1
+70221.0,Hudson Place Solar Plant,HPSP1,SC,Solar,Solar,2028,70.7,SERC-Central,2030.0,3.733881023985916,ST:SC,slip_2
+70221.0,Hudson Place Solar Plant,HPSP1,SC,Solar,Solar,2028,70.7,SERC-Central,2031.0,47.27508252035502,ST:SC,slip_3plus
+70221.0,Hudson Place Solar Plant,HPSP1,SC,Solar,Solar,2028,70.7,SERC-Central,,9.194682021565319,ST:SC,never
+68480.0,Laurens Solar,LS1,GA,Solar,Solar,2028,150.0,SERC-Central,2027.0,2.1308693192532533,SERC-Central,slip_-1
+68480.0,Laurens Solar,LS1,GA,Solar,Solar,2028,150.0,SERC-Central,2028.0,16.839524797284557,SERC-Central,slip_0
+68480.0,Laurens Solar,LS1,GA,Solar,Solar,2028,150.0,SERC-Central,2029.0,22.152555157458043,SERC-Central,slip_1
+68480.0,Laurens Solar,LS1,GA,Solar,Solar,2028,150.0,SERC-Central,2030.0,3.3943051103149164,SERC-Central,slip_2
+68480.0,Laurens Solar,LS1,GA,Solar,Solar,2028,150.0,SERC-Central,2031.0,56.270035828776166,SERC-Central,slip_3plus
+68480.0,Laurens Solar,LS1,GA,Solar,Solar,2028,150.0,SERC-Central,,49.212709786913074,SERC-Central,never
+62280.0,Melsam Solar,58,SC,Solar,Solar,2028,65.0,SERC-Central,2027.0,2.1550649160126163,ST:SC,slip_-1
+62280.0,Melsam Solar,58,SC,Solar,Solar,2028,65.0,SERC-Central,2028.0,0.48631995892320096,ST:SC,slip_0
+62280.0,Melsam Solar,58,SC,Solar,Solar,2028,65.0,SERC-Central,2029.0,7.008728819775543,ST:SC,slip_1
+62280.0,Melsam Solar,58,SC,Solar,Solar,2028,65.0,SERC-Central,2030.0,3.432846768869654,ST:SC,slip_2
+62280.0,Melsam Solar,58,SC,Solar,Solar,2028,65.0,SERC-Central,2031.0,43.46365436807746,ST:SC,slip_3plus
+62280.0,Melsam Solar,58,SC,Solar,Solar,2028,65.0,SERC-Central,,8.453385168341523,ST:SC,never
+66385.0,"Panther Branch Solar, LLC",GEN1,NC,Solar,Solar,2028,80.0,SERC-Central,2027.0,1.1364636369350682,SERC-Central,slip_-1
+66385.0,"Panther Branch Solar, LLC",GEN1,NC,Solar,Solar,2028,80.0,SERC-Central,2028.0,8.981079891885097,SERC-Central,slip_0
+66385.0,"Panther Branch Solar, LLC",GEN1,NC,Solar,Solar,2028,80.0,SERC-Central,2029.0,11.814696083977623,SERC-Central,slip_1
+66385.0,"Panther Branch Solar, LLC",GEN1,NC,Solar,Solar,2028,80.0,SERC-Central,2030.0,1.810296058834622,SERC-Central,slip_2
+66385.0,"Panther Branch Solar, LLC",GEN1,NC,Solar,Solar,2028,80.0,SERC-Central,2031.0,30.01068577534729,SERC-Central,slip_3plus
+66385.0,"Panther Branch Solar, LLC",GEN1,NC,Solar,Solar,2028,80.0,SERC-Central,,26.246778553020306,SERC-Central,never
+62299.0,Quest Solar,66,SC,Solar,Solar,2028,50.0,SERC-Central,2027.0,1.6577422430866278,ST:SC,slip_-1
+62299.0,Quest Solar,66,SC,Solar,Solar,2028,50.0,SERC-Central,2028.0,0.37409227609476997,ST:SC,slip_0
+62299.0,Quest Solar,66,SC,Solar,Solar,2028,50.0,SERC-Central,2029.0,5.3913298613658025,ST:SC,slip_1
+62299.0,Quest Solar,66,SC,Solar,Solar,2028,50.0,SERC-Central,2030.0,2.6406513606689646,ST:SC,slip_2
+62299.0,Quest Solar,66,SC,Solar,Solar,2028,50.0,SERC-Central,2031.0,33.43358028313651,ST:SC,slip_3plus
+62299.0,Quest Solar,66,SC,Solar,Solar,2028,50.0,SERC-Central,,6.502603975647325,ST:SC,never
+68043.0,Robeson Solar I,ROBES,NC,Solar,Solar,2028,80.0,SERC-Central,2027.0,1.1364636369350682,SERC-Central,slip_-1
+68043.0,Robeson Solar I,ROBES,NC,Solar,Solar,2028,80.0,SERC-Central,2028.0,8.981079891885097,SERC-Central,slip_0
+68043.0,Robeson Solar I,ROBES,NC,Solar,Solar,2028,80.0,SERC-Central,2029.0,11.814696083977623,SERC-Central,slip_1
+68043.0,Robeson Solar I,ROBES,NC,Solar,Solar,2028,80.0,SERC-Central,2030.0,1.810296058834622,SERC-Central,slip_2
+68043.0,Robeson Solar I,ROBES,NC,Solar,Solar,2028,80.0,SERC-Central,2031.0,30.01068577534729,SERC-Central,slip_3plus
+68043.0,Robeson Solar I,ROBES,NC,Solar,Solar,2028,80.0,SERC-Central,,26.246778553020306,SERC-Central,never
+68110.0,SR Milan,MILAN,TN,Solar,Solar,2028,2.8,SERC-Central,2027.0,0.03977622729272739,SERC-Central,slip_-1
+68110.0,SR Milan,MILAN,TN,Solar,Solar,2028,2.8,SERC-Central,2028.0,0.31433779621597835,SERC-Central,slip_0
+68110.0,SR Milan,MILAN,TN,Solar,Solar,2028,2.8,SERC-Central,2029.0,0.4135143629392168,SERC-Central,slip_1
+68110.0,SR Milan,MILAN,TN,Solar,Solar,2028,2.8,SERC-Central,2030.0,0.06336036205921176,SERC-Central,slip_2
+68110.0,SR Milan,MILAN,TN,Solar,Solar,2028,2.8,SERC-Central,2031.0,1.050374002137155,SERC-Central,slip_3plus
+68110.0,SR Milan,MILAN,TN,Solar,Solar,2028,2.8,SERC-Central,,0.9186372493557107,SERC-Central,never
+69867.0,"SR Shelby II, LLC",SHEII,TN,Solar,Solar,2028,6.0,SERC-Central,2027.0,0.08523477277013013,SERC-Central,slip_-1
+69867.0,"SR Shelby II, LLC",SHEII,TN,Solar,Solar,2028,6.0,SERC-Central,2028.0,0.6735809918913822,SERC-Central,slip_0
+69867.0,"SR Shelby II, LLC",SHEII,TN,Solar,Solar,2028,6.0,SERC-Central,2029.0,0.8861022062983217,SERC-Central,slip_1
+69867.0,"SR Shelby II, LLC",SHEII,TN,Solar,Solar,2028,6.0,SERC-Central,2030.0,0.13577220441259666,SERC-Central,slip_2
+69867.0,"SR Shelby II, LLC",SHEII,TN,Solar,Solar,2028,6.0,SERC-Central,2031.0,2.2508014331510466,SERC-Central,slip_3plus
+69867.0,"SR Shelby II, LLC",SHEII,TN,Solar,Solar,2028,6.0,SERC-Central,,1.9685083914765231,SERC-Central,never
+62309.0,Shining Sun Solar,73,SC,Solar,Solar,2028,74.0,SERC-Central,2027.0,2.4534585197682093,ST:SC,slip_-1
+62309.0,Shining Sun Solar,73,SC,Solar,Solar,2028,74.0,SERC-Central,2028.0,0.5536565686202596,ST:SC,slip_0
+62309.0,Shining Sun Solar,73,SC,Solar,Solar,2028,74.0,SERC-Central,2029.0,7.979168194821388,ST:SC,slip_1
+62309.0,Shining Sun Solar,73,SC,Solar,Solar,2028,74.0,SERC-Central,2030.0,3.9081640137900675,ST:SC,slip_2
+62309.0,Shining Sun Solar,73,SC,Solar,Solar,2028,74.0,SERC-Central,2031.0,49.48169881904203,ST:SC,slip_3plus
+62309.0,Shining Sun Solar,73,SC,Solar,Solar,2028,74.0,SERC-Central,,9.623853883958041,ST:SC,never
+66858.0,Spring Valley Solar 2,SPRV2,AL,Solar,Solar,2028,200.0,SERC-Central,2027.0,2.841159092337671,SERC-Central,slip_-1
+66858.0,Spring Valley Solar 2,SPRV2,AL,Solar,Solar,2028,200.0,SERC-Central,2028.0,22.45269972971274,SERC-Central,slip_0
+66858.0,Spring Valley Solar 2,SPRV2,AL,Solar,Solar,2028,200.0,SERC-Central,2029.0,29.536740209944057,SERC-Central,slip_1
+66858.0,Spring Valley Solar 2,SPRV2,AL,Solar,Solar,2028,200.0,SERC-Central,2030.0,4.525740147086555,SERC-Central,slip_2
+66858.0,Spring Valley Solar 2,SPRV2,AL,Solar,Solar,2028,200.0,SERC-Central,2031.0,75.02671443836823,SERC-Central,slip_3plus
+66858.0,Spring Valley Solar 2,SPRV2,AL,Solar,Solar,2028,200.0,SERC-Central,,65.61694638255076,SERC-Central,never
+68871.0,Timber Mill Solar,TIMIL,NC,Solar,Solar,2028,80.0,SERC-Central,2027.0,1.1364636369350682,SERC-Central,slip_-1
+68871.0,Timber Mill Solar,TIMIL,NC,Solar,Solar,2028,80.0,SERC-Central,2028.0,8.981079891885097,SERC-Central,slip_0
+68871.0,Timber Mill Solar,TIMIL,NC,Solar,Solar,2028,80.0,SERC-Central,2029.0,11.814696083977623,SERC-Central,slip_1
+68871.0,Timber Mill Solar,TIMIL,NC,Solar,Solar,2028,80.0,SERC-Central,2030.0,1.810296058834622,SERC-Central,slip_2
+68871.0,Timber Mill Solar,TIMIL,NC,Solar,Solar,2028,80.0,SERC-Central,2031.0,30.01068577534729,SERC-Central,slip_3plus
+68871.0,Timber Mill Solar,TIMIL,NC,Solar,Solar,2028,80.0,SERC-Central,,26.246778553020306,SERC-Central,never
+63567.0,Westminister NC,WSMTR,NC,Solar,Solar,2028,60.0,SERC-Central,2027.0,0.8523477277013013,SERC-Central,slip_-1
+63567.0,Westminister NC,WSMTR,NC,Solar,Solar,2028,60.0,SERC-Central,2028.0,6.735809918913822,SERC-Central,slip_0
+63567.0,Westminister NC,WSMTR,NC,Solar,Solar,2028,60.0,SERC-Central,2029.0,8.861022062983217,SERC-Central,slip_1
+63567.0,Westminister NC,WSMTR,NC,Solar,Solar,2028,60.0,SERC-Central,2030.0,1.3577220441259665,SERC-Central,slip_2
+63567.0,Westminister NC,WSMTR,NC,Solar,Solar,2028,60.0,SERC-Central,2031.0,22.508014331510466,SERC-Central,slip_3plus
+63567.0,Westminister NC,WSMTR,NC,Solar,Solar,2028,60.0,SERC-Central,,19.68508391476523,SERC-Central,never
+70138.0,Crawfish Creek Energy Storage,CRAW1,AL,Battery Storage,Wind,2029,200.0,SERC-Central,2029.0,200.0,unchanged,
+68332.0,Dega Solar and Storage,DEGA2,AL,Battery Storage,Wind,2029,200.0,SERC-Central,2029.0,200.0,unchanged,
+66385.0,"Panther Branch Solar, LLC",GEN1B,NC,Battery Storage,Wind,2029,32.0,SERC-Central,2029.0,32.0,unchanged,
+68367.0,Pepper Hammock Solar and Storage,PEHA2,GA,Battery Storage,Wind,2029,400.0,SERC-Central,2029.0,400.0,unchanged,
+65445.0,Ridgely Energy Farm,RBESS,TN,Battery Storage,Wind,2029,50.0,SERC-Central,2029.0,50.0,unchanged,
+3399.0,Cumberland (TN),CTG2,TN,Natural Gas,Wind,2026,454.8,SERC-Central,2026.0,454.8,unchanged,
+3399.0,Cumberland (TN),STG2,TN,Natural Gas,Wind,2026,323.0,SERC-Central,2026.0,323.0,unchanged,
+56.0,Lowman Energy Center,LEC3,AL,Natural Gas,Wind,2029,438.0,SERC-Central,2029.0,438.0,unchanged,
+68546.0,Smarr Combined Cycle Energy Facility,1,GA,Natural Gas,Wind,2029,459.0,SERC-Central,2029.0,459.0,unchanged,
+68546.0,Smarr Combined Cycle Energy Facility,2,GA,Natural Gas,Wind,2029,345.0,SERC-Central,2029.0,345.0,unchanged,
+7916.0,Talbot County Energy,7,GA,Natural Gas,Wind,2029,262.0,SERC-Central,2029.0,262.0,unchanged,
+68331.0,Caverns Solar,CVSO,FL,Solar,Solar,2029,75.0,Florida,2028.0,2.329433688787659,NATIONAL,slip_-1
+68331.0,Caverns Solar,CVSO,FL,Solar,Solar,2029,75.0,Florida,2029.0,2.3863754011802465,NATIONAL,slip_0
+68331.0,Caverns Solar,CVSO,FL,Solar,Solar,2029,75.0,Florida,2030.0,10.844290299202816,NATIONAL,slip_1
+68331.0,Caverns Solar,CVSO,FL,Solar,Solar,2029,75.0,Florida,2031.0,11.269282534423853,NATIONAL,slip_2
+68331.0,Caverns Solar,CVSO,FL,Solar,Solar,2029,75.0,Florida,2032.0,31.840770266073093,NATIONAL,slip_3plus
+68331.0,Caverns Solar,CVSO,FL,Solar,Solar,2029,75.0,Florida,,16.329847810332332,NATIONAL,never
+68333.0,Crossroads Solar - GA,CROS,GA,Solar,Solar,2029,150.0,SERC-Central,2028.0,4.658867377575318,NATIONAL,slip_-1
+68333.0,Crossroads Solar - GA,CROS,GA,Solar,Solar,2029,150.0,SERC-Central,2029.0,4.772750802360493,NATIONAL,slip_0
+68333.0,Crossroads Solar - GA,CROS,GA,Solar,Solar,2029,150.0,SERC-Central,2030.0,21.688580598405633,NATIONAL,slip_1
+68333.0,Crossroads Solar - GA,CROS,GA,Solar,Solar,2029,150.0,SERC-Central,2031.0,22.538565068847706,NATIONAL,slip_2
+68333.0,Crossroads Solar - GA,CROS,GA,Solar,Solar,2029,150.0,SERC-Central,2032.0,63.68154053214619,NATIONAL,slip_3plus
+68333.0,Crossroads Solar - GA,CROS,GA,Solar,Solar,2029,150.0,SERC-Central,,32.659695620664664,NATIONAL,never
+68332.0,Dega Solar and Storage,DEGA1,AL,Solar,Solar,2029,200.0,SERC-Central,2028.0,6.211823170100424,NATIONAL,slip_-1
+68332.0,Dega Solar and Storage,DEGA1,AL,Solar,Solar,2029,200.0,SERC-Central,2029.0,6.363667736480657,NATIONAL,slip_0
+68332.0,Dega Solar and Storage,DEGA1,AL,Solar,Solar,2029,200.0,SERC-Central,2030.0,28.918107464540842,NATIONAL,slip_1
+68332.0,Dega Solar and Storage,DEGA1,AL,Solar,Solar,2029,200.0,SERC-Central,2031.0,30.051420091796942,NATIONAL,slip_2
+68332.0,Dega Solar and Storage,DEGA1,AL,Solar,Solar,2029,200.0,SERC-Central,2032.0,84.90872070952825,NATIONAL,slip_3plus
+68332.0,Dega Solar and Storage,DEGA1,AL,Solar,Solar,2029,200.0,SERC-Central,,43.546260827552885,NATIONAL,never
+68290.0,Dyers Spring Solar,DYSP,KY,Solar,Solar,2029,200.0,SERC-Central,2028.0,6.211823170100424,NATIONAL,slip_-1
+68290.0,Dyers Spring Solar,DYSP,KY,Solar,Solar,2029,200.0,SERC-Central,2029.0,6.363667736480657,NATIONAL,slip_0
+68290.0,Dyers Spring Solar,DYSP,KY,Solar,Solar,2029,200.0,SERC-Central,2030.0,28.918107464540842,NATIONAL,slip_1
+68290.0,Dyers Spring Solar,DYSP,KY,Solar,Solar,2029,200.0,SERC-Central,2031.0,30.051420091796942,NATIONAL,slip_2
+68290.0,Dyers Spring Solar,DYSP,KY,Solar,Solar,2029,200.0,SERC-Central,2032.0,84.90872070952825,NATIONAL,slip_3plus
+68290.0,Dyers Spring Solar,DYSP,KY,Solar,Solar,2029,200.0,SERC-Central,,43.546260827552885,NATIONAL,never
+68292.0,Gage Solar,GGSO,KY,Solar,Solar,2029,200.0,SERC-Central,2028.0,6.211823170100424,NATIONAL,slip_-1
+68292.0,Gage Solar,GGSO,KY,Solar,Solar,2029,200.0,SERC-Central,2029.0,6.363667736480657,NATIONAL,slip_0
+68292.0,Gage Solar,GGSO,KY,Solar,Solar,2029,200.0,SERC-Central,2030.0,28.918107464540842,NATIONAL,slip_1
+68292.0,Gage Solar,GGSO,KY,Solar,Solar,2029,200.0,SERC-Central,2031.0,30.051420091796942,NATIONAL,slip_2
+68292.0,Gage Solar,GGSO,KY,Solar,Solar,2029,200.0,SERC-Central,2032.0,84.90872070952825,NATIONAL,slip_3plus
+68292.0,Gage Solar,GGSO,KY,Solar,Solar,2029,200.0,SERC-Central,,43.546260827552885,NATIONAL,never
+67862.0,Kingstree East 230 Solar Project,SOLAR,SC,Solar,Solar,2029,249.0,SERC-Central,2028.0,7.7337198467750286,NATIONAL,slip_-1
+67862.0,Kingstree East 230 Solar Project,SOLAR,SC,Solar,Solar,2029,249.0,SERC-Central,2029.0,7.922766331918419,NATIONAL,slip_0
+67862.0,Kingstree East 230 Solar Project,SOLAR,SC,Solar,Solar,2029,249.0,SERC-Central,2030.0,36.00304379335335,NATIONAL,slip_1
+67862.0,Kingstree East 230 Solar Project,SOLAR,SC,Solar,Solar,2029,249.0,SERC-Central,2031.0,37.414018014287194,NATIONAL,slip_2
+67862.0,Kingstree East 230 Solar Project,SOLAR,SC,Solar,Solar,2029,249.0,SERC-Central,2032.0,105.71135728336267,NATIONAL,slip_3plus
+67862.0,Kingstree East 230 Solar Project,SOLAR,SC,Solar,Solar,2029,249.0,SERC-Central,,54.21509473030334,NATIONAL,never
+68367.0,Pepper Hammock Solar and Storage,PEHA,GA,Solar,Solar,2029,900.0,SERC-Central,2028.0,27.95320426545191,NATIONAL,slip_-1
+68367.0,Pepper Hammock Solar and Storage,PEHA,GA,Solar,Solar,2029,900.0,SERC-Central,2029.0,28.636504814162958,NATIONAL,slip_0
+68367.0,Pepper Hammock Solar and Storage,PEHA,GA,Solar,Solar,2029,900.0,SERC-Central,2030.0,130.1314835904338,NATIONAL,slip_1
+68367.0,Pepper Hammock Solar and Storage,PEHA,GA,Solar,Solar,2029,900.0,SERC-Central,2031.0,135.23139041308625,NATIONAL,slip_2
+68367.0,Pepper Hammock Solar and Storage,PEHA,GA,Solar,Solar,2029,900.0,SERC-Central,2032.0,382.0892431928771,NATIONAL,slip_3plus
+68367.0,Pepper Hammock Solar and Storage,PEHA,GA,Solar,Solar,2029,900.0,SERC-Central,,195.95817372398798,NATIONAL,never
+68367.0,Pepper Hammock Solar and Storage,PEHA1,GA,Solar,Solar,2029,1200.0,SERC-Central,2028.0,37.27093902060255,NATIONAL,slip_-1
+68367.0,Pepper Hammock Solar and Storage,PEHA1,GA,Solar,Solar,2029,1200.0,SERC-Central,2029.0,38.182006418883944,NATIONAL,slip_0
+68367.0,Pepper Hammock Solar and Storage,PEHA1,GA,Solar,Solar,2029,1200.0,SERC-Central,2030.0,173.50864478724506,NATIONAL,slip_1
+68367.0,Pepper Hammock Solar and Storage,PEHA1,GA,Solar,Solar,2029,1200.0,SERC-Central,2031.0,180.30852055078165,NATIONAL,slip_2
+68367.0,Pepper Hammock Solar and Storage,PEHA1,GA,Solar,Solar,2029,1200.0,SERC-Central,2032.0,509.4523242571695,NATIONAL,slip_3plus
+68367.0,Pepper Hammock Solar and Storage,PEHA1,GA,Solar,Solar,2029,1200.0,SERC-Central,,261.2775649653173,NATIONAL,never
+68105.0,SR Jasper,JASP,MS,Solar,Solar,2029,150.0,SERC-Central,2028.0,4.658867377575318,NATIONAL,slip_-1
+68105.0,SR Jasper,JASP,MS,Solar,Solar,2029,150.0,SERC-Central,2029.0,4.772750802360493,NATIONAL,slip_0
+68105.0,SR Jasper,JASP,MS,Solar,Solar,2029,150.0,SERC-Central,2030.0,21.688580598405633,NATIONAL,slip_1
+68105.0,SR Jasper,JASP,MS,Solar,Solar,2029,150.0,SERC-Central,2031.0,22.538565068847706,NATIONAL,slip_2
+68105.0,SR Jasper,JASP,MS,Solar,Solar,2029,150.0,SERC-Central,2032.0,63.68154053214619,NATIONAL,slip_3plus
+68105.0,SR Jasper,JASP,MS,Solar,Solar,2029,150.0,SERC-Central,,32.659695620664664,NATIONAL,never
+66701.0,Buffalo Branch Wind and Solar LLC,BB1,MO,Wind,Wind,2029,247.0,SERC-Central,2030.0,1.5084712371946414,NATIONAL,slip_1
+66701.0,Buffalo Branch Wind and Solar LLC,BB1,MO,Wind,Wind,2029,247.0,SERC-Central,2032.0,171.3331363278172,NATIONAL,slip_3plus
+66701.0,Buffalo Branch Wind and Solar LLC,BB1,MO,Wind,Wind,2029,247.0,SERC-Central,,74.15839243498817,NATIONAL,never
+69635.0,Peach Wood Solar,74964,GA,Solar,Solar,2030,261.0,SERC-Central,2029.0,8.106429236981054,NATIONAL,slip_-1
+69635.0,Peach Wood Solar,74964,GA,Solar,Solar,2030,261.0,SERC-Central,2030.0,8.304586396107258,NATIONAL,slip_0
+69635.0,Peach Wood Solar,74964,GA,Solar,Solar,2030,261.0,SERC-Central,2031.0,37.738130241225804,NATIONAL,slip_1
+69635.0,Peach Wood Solar,74964,GA,Solar,Solar,2030,261.0,SERC-Central,2032.0,39.217103219795014,NATIONAL,slip_2
+69635.0,Peach Wood Solar,74964,GA,Solar,Solar,2030,261.0,SERC-Central,2033.0,110.80588052593437,NATIONAL,slip_3plus
+69635.0,Peach Wood Solar,74964,GA,Solar,Solar,2030,261.0,SERC-Central,,56.827870379956515,NATIONAL,never
+68812.0,Stevens Mill Solar,STVML,NC,Solar,Solar,2030,80.0,SERC-Central,2029.0,2.48472926804017,NATIONAL,slip_-1
+68812.0,Stevens Mill Solar,STVML,NC,Solar,Solar,2030,80.0,SERC-Central,2030.0,2.5454670945922633,NATIONAL,slip_0
+68812.0,Stevens Mill Solar,STVML,NC,Solar,Solar,2030,80.0,SERC-Central,2031.0,11.567242985816337,NATIONAL,slip_1
+68812.0,Stevens Mill Solar,STVML,NC,Solar,Solar,2030,80.0,SERC-Central,2032.0,12.020568036718778,NATIONAL,slip_2
+68812.0,Stevens Mill Solar,STVML,NC,Solar,Solar,2030,80.0,SERC-Central,2033.0,33.9634882838113,NATIONAL,slip_3plus
+68812.0,Stevens Mill Solar,STVML,NC,Solar,Solar,2030,80.0,SERC-Central,,17.418504331021154,NATIONAL,never
+3399.0,Cumberland (TN),CTG1,TN,Natural Gas,Wind,2027,454.8,SERC-Central,2027.0,454.8,unchanged,
+3399.0,Cumberland (TN),STG1,TN,Natural Gas,Wind,2027,323.0,SERC-Central,2027.0,323.0,unchanged,
+,Plant Bowen (Units 7-8 CC),7-8,GA,Natural Gas,Wind,2029,1482.0,SERC-Central,2029.0,1482.0,unchanged,
+,Plant Wansley (Units 10-11 CC),10-11,GA,Natural Gas,Wind,2029,1453.0,SERC-Central,2029.0,1453.0,unchanged,
+,McIntosh Combined Cycle (Unit 12),12,GA,Natural Gas,Wind,2030,757.0,SERC-Central,2030.0,757.0,unchanged,
+,Person County Energy Complex (Roxboro CC1),CC1,NC,Natural Gas,Wind,2029,1360.0,SERC-Central,2029.0,1360.0,unchanged,
+,Person County Energy Complex (Roxboro CC2),CC2,NC,Natural Gas,Wind,2030,1360.0,SERC-Central,2030.0,1360.0,unchanged,
+,Marshall (NC) (Advanced CTs),CT1,NC,Natural Gas,Wind,2028,425.0,SERC-Central,2028.0,425.0,unchanged,
+,Marshall (NC) (Advanced CTs),CT2,NC,Natural Gas,Wind,2028,425.0,SERC-Central,2028.0,425.0,unchanged,
+,Canadys Joint Resource,CC,SC,Natural Gas,Wind,2033,2180.0,SERC-Central,2033.0,2180.0,unchanged,
+,Kingston (BESS),BESS,TN,Battery Storage,Wind,2027,100.0,SERC-Central,2027.0,100.0,unchanged,
+,E C Gaston (gas conversion),5,AL,Natural Gas,Wind,2028,952.0,SERC-Central,2028.0,952.0,unchanged,
+,Barry (gas conversion),5,AL,Natural Gas,Wind,2028,788.8,SERC-Central,2028.0,788.8,unchanged,
+,E W Brown (Unit 12 CC),12,KY,Natural Gas,Wind,2030,645.0,SERC-Central,2030.0,645.0,unchanged,
+,Brunswick (uprate),UPR,NC,Nuclear,Wind,2029,26.0,SERC-Central,2029.0,26.0,unchanged,
+,McGuire (uprate),UPR,NC,Nuclear,Wind,2031,150.0,SERC-Central,2031.0,150.0,unchanged,
+,Catawba (uprate),UPR,SC,Nuclear,Wind,2031,75.0,SERC-Central,2031.0,75.0,unchanged,
+,FPL combined-cycle upgrades,2027,FL,Natural Gas,Wind,2027,43.0,Florida,2027.0,43.0,unchanged,
+,FPL combined-cycle upgrades,2028,FL,Natural Gas,Wind,2028,19.0,Florida,2028.0,19.0,unchanged,
+,Wadley BESS,WAD,GA,Battery Storage,Wind,2027,260.0,SERC-Central,2027.0,260.0,unchanged,
+,South Hall BESS,SH,GA,Battery Storage,Wind,2028,250.0,SERC-Central,2028.0,250.0,unchanged,
+,Bowen BESS Phase I,B1,GA,Battery Storage,Wind,2028,250.0,SERC-Central,2028.0,250.0,unchanged,
+,Wansley BESS,WAN,GA,Battery Storage,Wind,2028,500.0,SERC-Central,2028.0,500.0,unchanged,
+,Yates BESS Phase I,Y1,GA,Battery Storage,Wind,2028,320.0,SERC-Central,2028.0,320.0,unchanged,
+,Yates BESS Phase II,Y2,GA,Battery Storage,Wind,2028,250.0,SERC-Central,2028.0,250.0,unchanged,
+,Bowen BESS Phase II,B2,GA,Battery Storage,Wind,2029,250.0,SERC-Central,2029.0,250.0,unchanged,
+,Thomson BESS,THO,GA,Battery Storage,Wind,2029,500.0,SERC-Central,2029.0,500.0,unchanged,
+,Hammond BESS Phase II,H2,GA,Battery Storage,Wind,2030,193.0,SERC-Central,2030.0,193.0,unchanged,
+,McIntosh BESS,MCI,GA,Battery Storage,Wind,2030,250.0,SERC-Central,2030.0,250.0,unchanged,
+,FPL solar build (TYSP tranche),S2027,FL,Solar,Solar,2027,223.5,Florida,2027.0,203.69712538226304,ST:FL,slip_0
+,FPL solar build (TYSP tranche),S2027,FL,Solar,Solar,2027,223.5,Florida,2028.0,10.701875637104996,ST:FL,slip_1
+,FPL solar build (TYSP tranche),S2027,FL,Solar,Solar,2027,223.5,Florida,2029.0,2.2752497451580025,ST:FL,slip_2
+,FPL solar build (TYSP tranche),S2027,FL,Solar,Solar,2027,223.5,Florida,2030.0,6.8257492354740075,ST:FL,slip_3plus
+,FPL solar build (TYSP tranche),S2028,FL,Solar,Solar,2028,1788.0,Florida,2028.0,1547.7425316158335,ST:FL,slip_0
+,FPL solar build (TYSP tranche),S2028,FL,Solar,Solar,2028,1788.0,Florida,2029.0,36.752672174151364,ST:FL,slip_1
+,FPL solar build (TYSP tranche),S2028,FL,Solar,Solar,2028,1788.0,Florida,2030.0,52.43381230178929,ST:FL,slip_2
+,FPL solar build (TYSP tranche),S2028,FL,Solar,Solar,2028,1788.0,Florida,2031.0,87.43635722955248,ST:FL,slip_3plus
+,FPL solar build (TYSP tranche),S2028,FL,Solar,Solar,2028,1788.0,Florida,,63.63462667867351,ST:FL,never
+,FPL solar build (TYSP tranche),S2029,FL,Solar,Solar,2029,2309.0,Florida,2028.0,71.7154984988094,NATIONAL,slip_-1
+,FPL solar build (TYSP tranche),S2029,FL,Solar,Solar,2029,2309.0,Florida,2029.0,73.46854401766919,NATIONAL,slip_0
+,FPL solar build (TYSP tranche),S2029,FL,Solar,Solar,2029,2309.0,Florida,2030.0,333.85955067812404,NATIONAL,slip_1
+,FPL solar build (TYSP tranche),S2029,FL,Solar,Solar,2029,2309.0,Florida,2031.0,346.94364495979573,NATIONAL,slip_2
+,FPL solar build (TYSP tranche),S2029,FL,Solar,Solar,2029,2309.0,Florida,2032.0,980.2711805915037,NATIONAL,slip_3plus
+,FPL solar build (TYSP tranche),S2029,FL,Solar,Solar,2029,2309.0,Florida,,502.74158125409804,NATIONAL,never
+,FPL solar build (TYSP tranche),S2030,FL,Solar,Solar,2030,2980.0,Florida,2029.0,92.55616523449632,NATIONAL,slip_-1
+,FPL solar build (TYSP tranche),S2030,FL,Solar,Solar,2030,2980.0,Florida,2030.0,94.8186492735618,NATIONAL,slip_0
+,FPL solar build (TYSP tranche),S2030,FL,Solar,Solar,2030,2980.0,Florida,2031.0,430.87980122165857,NATIONAL,slip_1
+,FPL solar build (TYSP tranche),S2030,FL,Solar,Solar,2030,2980.0,Florida,2032.0,447.76615936777443,NATIONAL,slip_2
+,FPL solar build (TYSP tranche),S2030,FL,Solar,Solar,2030,2980.0,Florida,2033.0,1265.139938571971,NATIONAL,slip_3plus
+,FPL solar build (TYSP tranche),S2030,FL,Solar,Solar,2030,2980.0,Florida,,648.839286330538,NATIONAL,never
+,FPL solar build (TYSP tranche),S2034,FL,Solar,Solar,2034,1490.0,Florida,2033.0,46.27808261724816,NATIONAL,slip_-1
+,FPL solar build (TYSP tranche),S2034,FL,Solar,Solar,2034,1490.0,Florida,2034.0,47.4093246367809,NATIONAL,slip_0
+,FPL solar build (TYSP tranche),S2034,FL,Solar,Solar,2034,1490.0,Florida,2035.0,215.43990061082928,NATIONAL,slip_1
+,FPL solar build (TYSP tranche),S2034,FL,Solar,Solar,2034,1490.0,Florida,2036.0,223.88307968388722,NATIONAL,slip_2
+,FPL solar build (TYSP tranche),S2034,FL,Solar,Solar,2034,1490.0,Florida,2037.0,632.5699692859855,NATIONAL,slip_3plus
+,FPL solar build (TYSP tranche),S2034,FL,Solar,Solar,2034,1490.0,Florida,,324.419643165269,NATIONAL,never
+,FPL solar build (TYSP tranche),S2035,FL,Solar,Solar,2035,1564.5,Florida,2034.0,48.59198674811057,NATIONAL,slip_-1
+,FPL solar build (TYSP tranche),S2035,FL,Solar,Solar,2035,1564.5,Florida,2035.0,49.77979086861995,NATIONAL,slip_0
+,FPL solar build (TYSP tranche),S2035,FL,Solar,Solar,2035,1564.5,Florida,2036.0,226.21189564137075,NATIONAL,slip_1
+,FPL solar build (TYSP tranche),S2035,FL,Solar,Solar,2035,1564.5,Florida,2037.0,235.0772336680816,NATIONAL,slip_2
+,FPL solar build (TYSP tranche),S2035,FL,Solar,Solar,2035,1564.5,Florida,2038.0,664.1984677502847,NATIONAL,slip_3plus
+,FPL solar build (TYSP tranche),S2035,FL,Solar,Solar,2035,1564.5,Florida,,340.64062532353245,NATIONAL,never
+,FPL battery build (TYSP tranche),B2026,FL,Battery Storage,Wind,2026,1419.5,Florida,2026.0,1419.5,unchanged,
+,FPL battery build (TYSP tranche),B2027,FL,Battery Storage,Wind,2027,819.5,Florida,2027.0,819.5,unchanged,
+,FPL battery build (TYSP tranche),B2028,FL,Battery Storage,Wind,2028,596.0,Florida,2028.0,596.0,unchanged,
+,FPL battery build (TYSP tranche),B2029,FL,Battery Storage,Wind,2029,596.0,Florida,2029.0,596.0,unchanged,
+,FPL battery build (TYSP tranche),B2030,FL,Battery Storage,Wind,2030,596.0,Florida,2030.0,596.0,unchanged,
+,FPL battery build (TYSP tranche),B2031,FL,Battery Storage,Wind,2031,1192.0,Florida,2031.0,1192.0,unchanged,
+,FPL battery build (TYSP tranche),B2032,FL,Battery Storage,Wind,2032,596.0,Florida,2032.0,596.0,unchanged,
+,FPL battery build (TYSP tranche),B2033,FL,Battery Storage,Wind,2033,596.0,Florida,2033.0,596.0,unchanged,
+,FPL battery build (TYSP tranche),B2034,FL,Battery Storage,Wind,2034,223.5,Florida,2034.0,223.5,unchanged,
+,FPL battery build (TYSP tranche),B2035,FL,Battery Storage,Wind,2035,819.5,Florida,2035.0,819.5,unchanged,
+,FPL future CTs (TYSP tranche),CT2032,FL,Natural Gas,Wind,2032,936.0,Florida,2032.0,936.0,unchanged,
+,FPL future CTs (TYSP tranche),CT2033,FL,Natural Gas,Wind,2033,936.0,Florida,2033.0,936.0,unchanged,
+,FPL future CTs (TYSP tranche),CT2034,FL,Natural Gas,Wind,2034,936.0,Florida,2034.0,936.0,unchanged,
+,FPL future CTs (TYSP tranche),CT2035,FL,Natural Gas,Wind,2035,468.0,Florida,2035.0,468.0,unchanged,

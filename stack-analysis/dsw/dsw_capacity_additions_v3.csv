@@ -1,0 +1,320 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+67964.0,Agave,A400M,AZ,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+68323.0,Atlas VIII,ALT8A,AZ,Battery Storage,Wind,2026,210.0,,2026.0,210.0,unchanged,
+67184.0,Beehive Energy Storage,BHV1,AZ,Battery Storage,Wind,2026,250.0,,2026.0,250.0,unchanged,
+69517.0,Buena Vista Energy Center III,BV3BA,NM,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+67230.0,"Carne Energy Storage, LLC",CS,NM,Battery Storage,Wind,2026,130.0,,2026.0,130.0,unchanged,
+68414.0,Catclaw Solar,SV,AZ,Battery Storage,Wind,2026,250.0,,2026.0,250.0,unchanged,
+68466.0,Centennial Flats,CFB1,AZ,Battery Storage,Wind,2026,89.0,,2026.0,89.0,unchanged,
+68466.0,Centennial Flats,CFB2,AZ,Battery Storage,Wind,2026,89.0,,2026.0,89.0,unchanged,
+68466.0,Centennial Flats,CFB3,AZ,Battery Storage,Wind,2026,89.0,,2026.0,89.0,unchanged,
+69258.0,Cunningham Solar I & BESS,CHCB,NM,Battery Storage,Wind,2026,36.0,,2026.0,36.0,unchanged,
+69290.0,Desert Bloom,DSBLM,AZ,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+69778.0,Hashknife Energy Center LLC,HK1ST,AZ,Battery Storage,Wind,2026,275.0,,2026.0,275.0,unchanged,
+69469.0,Justice Energy Storage,JES1,AZ,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+68452.0,Kitt Solar,KITTB,AZ,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+69684.0,Maricopa Solar,70125,AZ,Battery Storage,Wind,2026,550.0,,2026.0,550.0,unchanged,
+68477.0,Pediment BESS I,1,AZ,Battery Storage,Wind,2026,250.0,,2026.0,250.0,unchanged,
+67204.0,Quail Ranch Solar and BESS,QRBES,NM,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+68937.0,Roadrunner Reserve Phase 2,RDR2,AZ,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+67823.0,Roadrunner Solar and BESS,RRBES,AZ,Battery Storage,Wind,2026,235.0,,2026.0,235.0,unchanged,
+68210.0,Sandia Energy Center,BESS,NM,Battery Storage,Wind,2026,60.0,,2026.0,60.0,unchanged,
+68866.0,Santa Teresa Solar,SAN,NM,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+69497.0,Star Light Energy Center,SLB,NM,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+68492.0,Sun Pond,GEN02,AZ,Battery Storage,Wind,2026,85.0,,2026.0,85.0,unchanged,
+69254.0,Wilmot Energy Center II,WIL2B,AZ,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+69524.0,Windy Lane Energy Center,WLB,NM,Battery Storage,Wind,2026,68.0,,2026.0,68.0,unchanged,
+56948.0,Coolidge Generation Station,COE13,AZ,Natural Gas,Wind,2026,49.5,,2026.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE14,AZ,Natural Gas,Wind,2026,49.5,,2026.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE15,AZ,Natural Gas,Wind,2026,49.5,,2026.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE16,AZ,Natural Gas,Wind,2026,49.5,,2026.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE17,AZ,Natural Gas,Wind,2026,49.5,,2026.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE18,AZ,Natural Gas,Wind,2026,49.5,,2026.0,49.5,unchanged,
+69054.0,ATLAS II,ALT2,AZ,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+69055.0,ATLAS SOLAR IV,ALTS4,AZ,Solar,Solar,2026,300.0,,2026.0,300.0,unchanged,
+69237.0,"ATLAS Solar V, LLC",ATL5,AZ,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+69238.0,"ATLAS Solar VI, LLC",ATL6,AZ,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+57679.0,Arlington Valley Solar Energy I,AVSE1,AZ,Solar,Solar,2026,127.0,,2026.0,127.0,unchanged,
+63798.0,Atlas,ATL01,AZ,Solar,Solar,2026,300.0,,2026.0,300.0,unchanged,
+67797.0,Babacomari Solar,BS,AZ,Solar,Solar,2026,160.0,,2026.0,160.0,unchanged,
+69517.0,Buena Vista Energy Center III,BV3SO,NM,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+68414.0,Catclaw Solar,CC8,AZ,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+68466.0,Centennial Flats,CFPV1,AZ,Solar,Solar,2026,166.7,,2026.0,166.7,unchanged,
+68466.0,Centennial Flats,CFPV2,AZ,Solar,Solar,2026,166.7,,2026.0,166.7,unchanged,
+68466.0,Centennial Flats,CFPV3,AZ,Solar,Solar,2026,166.7,,2026.0,166.7,unchanged,
+58413.0,Copper Crossing Energy and Research Cent,CXS01,AZ,Solar,Solar,2026,17.6,,2026.0,17.6,unchanged,
+58413.0,Copper Crossing Energy and Research Cent,CXS02,AZ,Solar,Solar,2026,17.6,,2026.0,17.6,unchanged,
+58413.0,Copper Crossing Energy and Research Cent,CXS03,AZ,Solar,Solar,2026,19.2,,2026.0,19.2,unchanged,
+69258.0,Cunningham Solar I & BESS,CHCS1,NM,Solar,Solar,2026,72.0,,2026.0,72.0,unchanged,
+69778.0,Hashknife Energy Center LLC,HK1SO,AZ,Solar,Solar,2026,275.0,,2026.0,275.0,unchanged,
+68397.0,Ironwood Solar,I168M,AZ,Solar,Solar,2026,168.0,,2026.0,168.0,unchanged,
+69270.0,Juniper Sol Solar CSG,JUNIP,NM,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+68452.0,Kitt Solar,KITTS,AZ,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+69684.0,Maricopa Solar,70124,AZ,Solar,Solar,2026,550.0,,2026.0,550.0,unchanged,
+69256.0,Papago PV,PPAPV,AZ,Solar,Solar,2026,150.0,,2026.0,150.0,unchanged,
+69556.0,Pluma - Clovis Concrete North CSG,CLOCN,NM,Solar,Solar,2026,3.4,,2026.0,3.4,unchanged,
+69557.0,Pluma - Reynolds (CSG),REYNO,NM,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69558.0,Pluma - SLT Grant,GRANT,NM,Solar,Solar,2026,4.8,,2026.0,4.8,unchanged,
+69559.0,Pluma - SLT Hidalgo CSG,DALGO,NM,Solar,Solar,2026,3.8,,2026.0,3.8,unchanged,
+69266.0,Rockhound Sol Solar CSG,ROCKH,NM,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+69105.0,SLO-2,SLO-2,NM,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+68866.0,Santa Teresa Solar,STS,NM,Solar,Solar,2026,150.0,,2026.0,150.0,unchanged,
+67260.0,Solar PV Development NM 18 II LLC,SPD,NM,Solar,Solar,2026,130.0,,2026.0,130.0,unchanged,
+69497.0,Star Light Energy Center,SLS,NM,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+68492.0,Sun Pond,GEN01,AZ,Solar,Solar,2026,85.0,,2026.0,85.0,unchanged,
+63028.0,Tip Top Solar Energy Center LLC,GEN1,NM,Solar,Solar,2026,220.0,,2026.0,220.0,unchanged,
+69888.0,USS Fletcher Solar,USFLE,NM,Solar,Solar,2026,1.7,,2026.0,1.7,unchanged,
+69889.0,USS Gold Solar,USGOL,NM,Solar,Solar,2026,4.3,,2026.0,4.3,unchanged,
+69881.0,USS Hermanas Solar,USHER,NM,Solar,Solar,2026,3.3,,2026.0,3.3,unchanged,
+69883.0,USS Jornada Solar,USJOR,NM,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69884.0,USS Meadow Lake Solar,USMED,NM,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+69254.0,Wilmot Energy Center II,WIL2S,AZ,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+69524.0,Windy Lane Energy Center,WLS,NM,Solar,Solar,2026,90.0,,2026.0,90.0,unchanged,
+69107.0,XCEL-1 Community Solar,XCL-1,NM,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+66924.0,SunZia Wind North,SZW-N,NM,Wind,Wind,2026,1089.0,,2026.0,1089.0,unchanged,
+66923.0,SunZia Wind South,SZW-S,NM,Wind,Wind,2026,2561.2,,2026.0,2561.2,unchanged,
+69451.0,West Camp Wind Farm,WCAMP,AZ,Wind,Wind,2026,500.0,,2026.0,500.0,unchanged,
+68321.0,Atlas BESS IV LLC,ALT4,AZ,Battery Storage,Wind,2027,150.0,,2027.0,150.0,unchanged,
+68323.0,Atlas VIII,ALT8B,AZ,Battery Storage,Wind,2027,172.4,,2027.0,172.4,unchanged,
+69058.0,CO Bar C Solar and BESS,CBCBA,AZ,Battery Storage,Wind,2027,206.0,,2027.0,206.0,unchanged,
+69056.0,CO Bar Solar and BESS,CBBA,AZ,Battery Storage,Wind,2027,400.0,,2027.0,400.0,unchanged,
+69974.0,Corazon Energy Storage,CRZN1,NM,Battery Storage,Wind,2027,150.0,,2027.0,150.0,unchanged,
+69966.0,"Four Mile Mesa Solar, LLC",FMMS,NM,Battery Storage,Wind,2027,100.0,,2027.0,100.0,unchanged,
+69967.0,"Foxtail Flats Solar, LLC",FTB,NM,Battery Storage,Wind,2027,80.0,,2027.0,80.0,unchanged,
+69779.0,Hashknife Energy Center II LLC,HK2ST,AZ,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+68328.0,Pioneer Clean Energy Center,ORCH2,AZ,Battery Storage,Wind,2027,300.0,,2027.0,300.0,unchanged,
+64216.0,Rockmont Solar and Storage Project,309SJ,NM,Battery Storage,Wind,2027,30.0,,2027.0,30.0,unchanged,
+70193.0,Romero Energy Center,REC01,AZ,Battery Storage,Wind,2027,225.0,,2027.0,225.0,unchanged,
+70218.0,Selma Energy Center,SEL1B,AZ,Battery Storage,Wind,2027,150.0,,2027.0,150.0,unchanged,
+69060.0,Snowflake A Solar and BESS,SNFBA,AZ,Battery Storage,Wind,2027,475.0,,2027.0,475.0,unchanged,
+70219.0,Valley Farms Energy Center,VALLE,AZ,Battery Storage,Wind,2027,400.0,,2027.0,400.0,unchanged,
+70033.0,White Tank Energy Storage,WT001,AZ,Battery Storage,Wind,2027,100.0,,2027.0,100.0,unchanged,
+70405.0,"Winchester Solar I, LLC",BA-1,AZ,Battery Storage,Wind,2027,87.8,,2027.0,87.8,unchanged,
+70406.0,"Winchester Solar II, LLC",BA-2,AZ,Battery Storage,Wind,2027,87.8,,2027.0,87.8,unchanged,
+56948.0,Coolidge Generation Station,COE19,AZ,Natural Gas,Wind,2027,49.5,,2027.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE20,AZ,Natural Gas,Wind,2027,49.5,,2027.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE21,AZ,Natural Gas,Wind,2027,49.5,,2027.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE22,AZ,Natural Gas,Wind,2027,49.5,,2027.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE23,AZ,Natural Gas,Wind,2027,49.5,,2027.0,49.5,unchanged,
+56948.0,Coolidge Generation Station,COE24,AZ,Natural Gas,Wind,2027,49.5,,2027.0,49.5,unchanged,
+69773.0,Mohave Energy Park,GT1,AZ,Natural Gas,Wind,2027,60.5,,2027.0,60.5,unchanged,
+69773.0,Mohave Energy Park,GT2,AZ,Natural Gas,Wind,2027,60.5,,2027.0,60.5,unchanged,
+69773.0,Mohave Energy Park,GT3,AZ,Natural Gas,Wind,2027,60.5,,2027.0,60.5,unchanged,
+69773.0,Mohave Energy Park,GT4,AZ,Natural Gas,Wind,2027,60.5,,2027.0,60.5,unchanged,
+55455.0,Red Hawk,CT10,AZ,Natural Gas,Wind,2027,49.0,,2027.0,49.0,unchanged,
+55455.0,Red Hawk,CT3,AZ,Natural Gas,Wind,2027,49.0,,2027.0,49.0,unchanged,
+55455.0,Red Hawk,CT4,AZ,Natural Gas,Wind,2027,49.0,,2027.0,49.0,unchanged,
+55455.0,Red Hawk,CT5,AZ,Natural Gas,Wind,2027,49.0,,2027.0,49.0,unchanged,
+55455.0,Red Hawk,CT6,AZ,Natural Gas,Wind,2027,49.0,,2027.0,49.0,unchanged,
+55455.0,Red Hawk,CT7,AZ,Natural Gas,Wind,2027,49.0,,2027.0,49.0,unchanged,
+55455.0,Red Hawk,CT8,AZ,Natural Gas,Wind,2027,49.0,,2027.0,49.0,unchanged,
+55455.0,Red Hawk,CT9,AZ,Natural Gas,Wind,2027,49.0,,2027.0,49.0,unchanged,
+70261.0,Westside - (NM),WS01,NM,Natural Gas,Wind,2027,16.0,,2027.0,16.0,unchanged,
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,,2027.0,34.10873577360812,DSW,slip_0
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,,2028.0,8.175369117194709,DSW,slip_1
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,,2029.0,9.040487542294677,DSW,slip_2
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,,2030.0,23.646570286065824,DSW,slip_3plus
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,,,0.02883728083666564,DSW,never
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2027.0,102.32620732082435,DSW,slip_0
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2028.0,24.526107351584127,DSW,slip_1
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2029.0,27.121462626884036,DSW,slip_2
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2030.0,70.93971085819747,DSW,slip_3plus
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,,0.08651184250999691,DSW,never
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2027.0,90.95662872962164,DSW,slip_0
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2028.0,21.800984312519223,DSW,slip_1
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2029.0,24.107966779452475,DSW,slip_2
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2030.0,63.0575207628422,DSW,slip_3plus
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,,0.0768994155644417,DSW,never
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,,2027.0,90.95662872962164,DSW,slip_0
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,,2028.0,21.800984312519223,DSW,slip_1
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,,2029.0,24.107966779452475,DSW,slip_2
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,,2030.0,63.0575207628422,DSW,slip_3plus
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,,,0.0768994155644417,DSW,never
+69058.0,CO Bar C Solar and BESS,CBCPV,AZ,Solar,Solar,2027,206.0,,2027.0,93.6853275915103,DSW,slip_0
+69058.0,CO Bar C Solar and BESS,CBCPV,AZ,Solar,Solar,2027,206.0,,2028.0,22.4550138418948,DSW,slip_1
+69058.0,CO Bar C Solar and BESS,CBCPV,AZ,Solar,Solar,2027,206.0,,2029.0,24.83120578283605,DSW,slip_2
+69058.0,CO Bar C Solar and BESS,CBCPV,AZ,Solar,Solar,2027,206.0,,2030.0,64.94924638572746,DSW,slip_3plus
+69058.0,CO Bar C Solar and BESS,CBCPV,AZ,Solar,Solar,2027,206.0,,,0.07920639803137496,DSW,never
+69056.0,CO Bar Solar and BESS,CBPV,AZ,Solar,Solar,2027,400.0,,2027.0,181.91325745924328,DSW,slip_0
+69056.0,CO Bar Solar and BESS,CBPV,AZ,Solar,Solar,2027,400.0,,2028.0,43.601968625038445,DSW,slip_1
+69056.0,CO Bar Solar and BESS,CBPV,AZ,Solar,Solar,2027,400.0,,2029.0,48.21593355890495,DSW,slip_2
+69056.0,CO Bar Solar and BESS,CBPV,AZ,Solar,Solar,2027,400.0,,2030.0,126.1150415256844,DSW,slip_3plus
+69056.0,CO Bar Solar and BESS,CBPV,AZ,Solar,Solar,2027,400.0,,,0.1537988311288834,DSW,never
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,,2027.0,89.13749615502921,DSW,slip_0
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,,2028.0,21.364964626268836,DSW,slip_1
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,,2029.0,23.625807443863426,DSW,slip_2
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,,2030.0,61.79637034758536,DSW,slip_3plus
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,,,0.07536142725315287,DSW,never
+69966.0,"Four Mile Mesa Solar, LLC",FMM,NM,Solar,Solar,2027,100.0,,2027.0,45.47831436481082,DSW,slip_0
+69966.0,"Four Mile Mesa Solar, LLC",FMM,NM,Solar,Solar,2027,100.0,,2028.0,10.900492156259611,DSW,slip_1
+69966.0,"Four Mile Mesa Solar, LLC",FMM,NM,Solar,Solar,2027,100.0,,2029.0,12.053983389726238,DSW,slip_2
+69966.0,"Four Mile Mesa Solar, LLC",FMM,NM,Solar,Solar,2027,100.0,,2030.0,31.5287603814211,DSW,slip_3plus
+69966.0,"Four Mile Mesa Solar, LLC",FMM,NM,Solar,Solar,2027,100.0,,,0.03844970778222085,DSW,never
+69967.0,"Foxtail Flats Solar, LLC",FTS,NM,Solar,Solar,2027,170.0,,2027.0,77.3131344201784,DSW,slip_0
+69967.0,"Foxtail Flats Solar, LLC",FTS,NM,Solar,Solar,2027,170.0,,2028.0,18.53083666564134,DSW,slip_1
+69967.0,"Foxtail Flats Solar, LLC",FTS,NM,Solar,Solar,2027,170.0,,2029.0,20.491771762534604,DSW,slip_2
+69967.0,"Foxtail Flats Solar, LLC",FTS,NM,Solar,Solar,2027,170.0,,2030.0,53.59889264841587,DSW,slip_3plus
+69967.0,"Foxtail Flats Solar, LLC",FTS,NM,Solar,Solar,2027,170.0,,,0.06536450322977544,DSW,never
+70587.0,Gonzo Sol Solar CSG,GONZO,NM,Solar,Solar,2027,5.0,,2027.0,2.2739157182405414,DSW,slip_0
+70587.0,Gonzo Sol Solar CSG,GONZO,NM,Solar,Solar,2027,5.0,,2028.0,0.5450246078129806,DSW,slip_1
+70587.0,Gonzo Sol Solar CSG,GONZO,NM,Solar,Solar,2027,5.0,,2029.0,0.6026991694863119,DSW,slip_2
+70587.0,Gonzo Sol Solar CSG,GONZO,NM,Solar,Solar,2027,5.0,,2030.0,1.576438019071055,DSW,slip_3plus
+70587.0,Gonzo Sol Solar CSG,GONZO,NM,Solar,Solar,2027,5.0,,,0.0019224853891110425,DSW,never
+69779.0,Hashknife Energy Center II LLC,HK2SO,AZ,Solar,Solar,2027,200.0,,2027.0,90.95662872962164,DSW,slip_0
+69779.0,Hashknife Energy Center II LLC,HK2SO,AZ,Solar,Solar,2027,200.0,,2028.0,21.800984312519223,DSW,slip_1
+69779.0,Hashknife Energy Center II LLC,HK2SO,AZ,Solar,Solar,2027,200.0,,2029.0,24.107966779452475,DSW,slip_2
+69779.0,Hashknife Energy Center II LLC,HK2SO,AZ,Solar,Solar,2027,200.0,,2030.0,63.0575207628422,DSW,slip_3plus
+69779.0,Hashknife Energy Center II LLC,HK2SO,AZ,Solar,Solar,2027,200.0,,,0.0768994155644417,DSW,never
+68328.0,Pioneer Clean Energy Center,ORCH1,AZ,Solar,Solar,2027,300.0,,2027.0,136.43494309443247,DSW,slip_0
+68328.0,Pioneer Clean Energy Center,ORCH1,AZ,Solar,Solar,2027,300.0,,2028.0,32.701476468778836,DSW,slip_1
+68328.0,Pioneer Clean Energy Center,ORCH1,AZ,Solar,Solar,2027,300.0,,2029.0,36.16195016917871,DSW,slip_2
+68328.0,Pioneer Clean Energy Center,ORCH1,AZ,Solar,Solar,2027,300.0,,2030.0,94.5862811442633,DSW,slip_3plus
+68328.0,Pioneer Clean Energy Center,ORCH1,AZ,Solar,Solar,2027,300.0,,,0.11534912334666256,DSW,never
+70586.0,Raven Sol Solar CSG,RAVEN,NM,Solar,Solar,2027,5.0,,2027.0,2.2739157182405414,DSW,slip_0
+70586.0,Raven Sol Solar CSG,RAVEN,NM,Solar,Solar,2027,5.0,,2028.0,0.5450246078129806,DSW,slip_1
+70586.0,Raven Sol Solar CSG,RAVEN,NM,Solar,Solar,2027,5.0,,2029.0,0.6026991694863119,DSW,slip_2
+70586.0,Raven Sol Solar CSG,RAVEN,NM,Solar,Solar,2027,5.0,,2030.0,1.576438019071055,DSW,slip_3plus
+70586.0,Raven Sol Solar CSG,RAVEN,NM,Solar,Solar,2027,5.0,,,0.0019224853891110425,DSW,never
+64216.0,Rockmont Solar and Storage Project,201LC,NM,Solar,Solar,2027,100.0,,2027.0,45.47831436481082,DSW,slip_0
+64216.0,Rockmont Solar and Storage Project,201LC,NM,Solar,Solar,2027,100.0,,2028.0,10.900492156259611,DSW,slip_1
+64216.0,Rockmont Solar and Storage Project,201LC,NM,Solar,Solar,2027,100.0,,2029.0,12.053983389726238,DSW,slip_2
+64216.0,Rockmont Solar and Storage Project,201LC,NM,Solar,Solar,2027,100.0,,2030.0,31.5287603814211,DSW,slip_3plus
+64216.0,Rockmont Solar and Storage Project,201LC,NM,Solar,Solar,2027,100.0,,,0.03844970778222085,DSW,never
+70218.0,Selma Energy Center,SEL1S,AZ,Solar,Solar,2027,125.0,,2027.0,56.84789295601353,DSW,slip_0
+70218.0,Selma Energy Center,SEL1S,AZ,Solar,Solar,2027,125.0,,2028.0,13.625615195324514,DSW,slip_1
+70218.0,Selma Energy Center,SEL1S,AZ,Solar,Solar,2027,125.0,,2029.0,15.067479237157796,DSW,slip_2
+70218.0,Selma Energy Center,SEL1S,AZ,Solar,Solar,2027,125.0,,2030.0,39.41095047677638,DSW,slip_3plus
+70218.0,Selma Energy Center,SEL1S,AZ,Solar,Solar,2027,125.0,,,0.04806213472777606,DSW,never
+70049.0,Sierra Solar,NUCPV,AZ,Solar,Solar,2027,25.0,,2027.0,11.369578591202705,DSW,slip_0
+70049.0,Sierra Solar,NUCPV,AZ,Solar,Solar,2027,25.0,,2028.0,2.725123039064903,DSW,slip_1
+70049.0,Sierra Solar,NUCPV,AZ,Solar,Solar,2027,25.0,,2029.0,3.0134958474315594,DSW,slip_2
+70049.0,Sierra Solar,NUCPV,AZ,Solar,Solar,2027,25.0,,2030.0,7.882190095355275,DSW,slip_3plus
+70049.0,Sierra Solar,NUCPV,AZ,Solar,Solar,2027,25.0,,,0.009612426945555213,DSW,never
+69060.0,Snowflake A Solar and BESS,SNFA,AZ,Solar,Solar,2027,475.0,,2027.0,216.0219932328514,DSW,slip_0
+69060.0,Snowflake A Solar and BESS,SNFA,AZ,Solar,Solar,2027,475.0,,2028.0,51.77733774223315,DSW,slip_1
+69060.0,Snowflake A Solar and BESS,SNFA,AZ,Solar,Solar,2027,475.0,,2029.0,57.25642110119963,DSW,slip_2
+69060.0,Snowflake A Solar and BESS,SNFA,AZ,Solar,Solar,2027,475.0,,2030.0,149.7616118117502,DSW,slip_3plus
+69060.0,Snowflake A Solar and BESS,SNFA,AZ,Solar,Solar,2027,475.0,,,0.18263611196554905,DSW,never
+70585.0,Trigo Sol Solar CSG,TRIGO,NM,Solar,Solar,2027,4.6,,2027.0,2.092002460781298,DSW,slip_0
+70585.0,Trigo Sol Solar CSG,TRIGO,NM,Solar,Solar,2027,4.6,,2028.0,0.501422639187942,DSW,slip_1
+70585.0,Trigo Sol Solar CSG,TRIGO,NM,Solar,Solar,2027,4.6,,2029.0,0.5544832359274069,DSW,slip_2
+70585.0,Trigo Sol Solar CSG,TRIGO,NM,Solar,Solar,2027,4.6,,2030.0,1.4503229775453705,DSW,slip_3plus
+70585.0,Trigo Sol Solar CSG,TRIGO,NM,Solar,Solar,2027,4.6,,,0.001768686557982159,DSW,never
+70405.0,"Winchester Solar I, LLC",PV-1,AZ,Solar,Solar,2027,87.8,,2027.0,39.9299600123039,DSW,slip_0
+70405.0,"Winchester Solar I, LLC",PV-1,AZ,Solar,Solar,2027,87.8,,2028.0,9.570632113195938,DSW,slip_1
+70405.0,"Winchester Solar I, LLC",PV-1,AZ,Solar,Solar,2027,87.8,,2029.0,10.583397416179636,DSW,slip_2
+70405.0,"Winchester Solar I, LLC",PV-1,AZ,Solar,Solar,2027,87.8,,2030.0,27.682251614887726,DSW,slip_3plus
+70405.0,"Winchester Solar I, LLC",PV-1,AZ,Solar,Solar,2027,87.8,,,0.033758843432789905,DSW,never
+70406.0,"Winchester Solar II, LLC",PV-2,AZ,Solar,Solar,2027,87.8,,2027.0,39.9299600123039,DSW,slip_0
+70406.0,"Winchester Solar II, LLC",PV-2,AZ,Solar,Solar,2027,87.8,,2028.0,9.570632113195938,DSW,slip_1
+70406.0,"Winchester Solar II, LLC",PV-2,AZ,Solar,Solar,2027,87.8,,2029.0,10.583397416179636,DSW,slip_2
+70406.0,"Winchester Solar II, LLC",PV-2,AZ,Solar,Solar,2027,87.8,,2030.0,27.682251614887726,DSW,slip_3plus
+70406.0,"Winchester Solar II, LLC",PV-2,AZ,Solar,Solar,2027,87.8,,,0.033758843432789905,DSW,never
+69057.0,CO Bar D Solar and BESS,CBDBA,AZ,Battery Storage,Wind,2028,394.0,,2028.0,394.0,unchanged,
+68283.0,Desert Sand BESS,DESA,AZ,Battery Storage,Wind,2028,300.0,,2028.0,300.0,unchanged,
+68287.0,Eagle Eye Solar and Storage,EAGL2,AZ,Battery Storage,Wind,2028,400.0,,2028.0,400.0,unchanged,
+69973.0,Oso Negro,OSON1,NM,Battery Storage,Wind,2028,100.0,,2028.0,100.0,unchanged,
+64208.0,Red Antelope Solar & Energy Storage Farm,30PNB,AZ,Battery Storage,Wind,2028,300.0,,2028.0,300.0,unchanged,
+70194.0,"Romero Energy Center II, LLC",REC02,AZ,Battery Storage,Wind,2028,225.0,,2028.0,225.0,unchanged,
+68883.0,Sawtooth Solar,STBA,AZ,Battery Storage,Wind,2028,250.0,,2028.0,250.0,unchanged,
+64849.0,Wildcat Solar Power Plant LLC,ATMWS,NM,Battery Storage,Wind,2028,50.0,,2028.0,50.0,unchanged,
+66478.0,NTEC Gas Plant,GEN1,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN10,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN11,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN12,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN13,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN14,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN15,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN16,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN17,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN18,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN2,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN3,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN4,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN5,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN6,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN7,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN8,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+66478.0,NTEC Gas Plant,GEN9,NM,Natural Gas,Wind,2028,60.5,,2028.0,60.5,unchanged,
+70261.0,Westside - (NM),WS02,NM,Natural Gas,Wind,2028,24.0,,2028.0,24.0,unchanged,
+70261.0,Westside - (NM),WS03,NM,Natural Gas,Wind,2028,20.0,,2028.0,20.0,unchanged,
+69057.0,CO Bar D Solar and BESS,CBDPV,AZ,Solar,Solar,2028,394.0,,2027.0,2.767807813143315,NATIONAL,slip_-1
+69057.0,CO Bar D Solar and BESS,CBDPV,AZ,Solar,Solar,2028,394.0,,2028.0,57.463648058331216,NATIONAL,slip_0
+69057.0,CO Bar D Solar and BESS,CBDPV,AZ,Solar,Solar,2028,394.0,,2029.0,58.39185987115335,NATIONAL,slip_1
+69057.0,CO Bar D Solar and BESS,CBDPV,AZ,Solar,Solar,2028,394.0,,2030.0,34.17892634625274,NATIONAL,slip_2
+69057.0,CO Bar D Solar and BESS,CBDPV,AZ,Solar,Solar,2028,394.0,,2031.0,147.54663814797036,NATIONAL,slip_3plus
+69057.0,CO Bar D Solar and BESS,CBDPV,AZ,Solar,Solar,2028,394.0,,,93.65111976314904,NATIONAL,never
+68283.0,Desert Sand BESS,DESA1,AZ,Solar,Solar,2028,300.0,,2027.0,2.107467878027905,NATIONAL,slip_-1
+68283.0,Desert Sand BESS,DESA1,AZ,Solar,Solar,2028,300.0,,2028.0,43.75404674492224,NATIONAL,slip_0
+68283.0,Desert Sand BESS,DESA1,AZ,Solar,Solar,2028,300.0,,2029.0,44.460807008492395,NATIONAL,slip_1
+68283.0,Desert Sand BESS,DESA1,AZ,Solar,Solar,2028,300.0,,2030.0,26.024563207806654,NATIONAL,slip_2
+68283.0,Desert Sand BESS,DESA1,AZ,Solar,Solar,2028,300.0,,2031.0,112.34515595023123,NATIONAL,slip_3plus
+68283.0,Desert Sand BESS,DESA1,AZ,Solar,Solar,2028,300.0,,,71.30795921051957,NATIONAL,never
+68287.0,Eagle Eye Solar and Storage,EAGL1,AZ,Solar,Solar,2028,400.0,,2027.0,2.809957170703873,NATIONAL,slip_-1
+68287.0,Eagle Eye Solar and Storage,EAGL1,AZ,Solar,Solar,2028,400.0,,2028.0,58.33872899322966,NATIONAL,slip_0
+68287.0,Eagle Eye Solar and Storage,EAGL1,AZ,Solar,Solar,2028,400.0,,2029.0,59.281076011323194,NATIONAL,slip_1
+68287.0,Eagle Eye Solar and Storage,EAGL1,AZ,Solar,Solar,2028,400.0,,2030.0,34.69941761040887,NATIONAL,slip_2
+68287.0,Eagle Eye Solar and Storage,EAGL1,AZ,Solar,Solar,2028,400.0,,2031.0,149.79354126697498,NATIONAL,slip_3plus
+68287.0,Eagle Eye Solar and Storage,EAGL1,AZ,Solar,Solar,2028,400.0,,,95.07727894735943,NATIONAL,never
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2027.0,2.4587125243658887,NATIONAL,slip_-1
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2028.0,51.04638786907595,NATIONAL,slip_0
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2029.0,51.870941509907794,NATIONAL,slip_1
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2030.0,30.361990409107765,NATIONAL,slip_2
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2031.0,131.0693486086031,NATIONAL,slip_3plus
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,,83.1926190789395,NATIONAL,never
+64208.0,Red Antelope Solar & Energy Storage Farm,30PNA,AZ,Solar,Solar,2028,400.0,,2027.0,2.809957170703873,NATIONAL,slip_-1
+64208.0,Red Antelope Solar & Energy Storage Farm,30PNA,AZ,Solar,Solar,2028,400.0,,2028.0,58.33872899322966,NATIONAL,slip_0
+64208.0,Red Antelope Solar & Energy Storage Farm,30PNA,AZ,Solar,Solar,2028,400.0,,2029.0,59.281076011323194,NATIONAL,slip_1
+64208.0,Red Antelope Solar & Energy Storage Farm,30PNA,AZ,Solar,Solar,2028,400.0,,2030.0,34.69941761040887,NATIONAL,slip_2
+64208.0,Red Antelope Solar & Energy Storage Farm,30PNA,AZ,Solar,Solar,2028,400.0,,2031.0,149.79354126697498,NATIONAL,slip_3plus
+64208.0,Red Antelope Solar & Energy Storage Farm,30PNA,AZ,Solar,Solar,2028,400.0,,,95.07727894735943,NATIONAL,never
+68883.0,Sawtooth Solar,STPV,AZ,Solar,Solar,2028,250.0,,2027.0,1.7562232316899207,NATIONAL,slip_-1
+68883.0,Sawtooth Solar,STPV,AZ,Solar,Solar,2028,250.0,,2028.0,36.46170562076854,NATIONAL,slip_0
+68883.0,Sawtooth Solar,STPV,AZ,Solar,Solar,2028,250.0,,2029.0,37.050672507076996,NATIONAL,slip_1
+68883.0,Sawtooth Solar,STPV,AZ,Solar,Solar,2028,250.0,,2030.0,21.687136006505547,NATIONAL,slip_2
+68883.0,Sawtooth Solar,STPV,AZ,Solar,Solar,2028,250.0,,2031.0,93.62096329185935,NATIONAL,slip_3plus
+68883.0,Sawtooth Solar,STPV,AZ,Solar,Solar,2028,250.0,,,59.42329934209965,NATIONAL,never
+64849.0,Wildcat Solar Power Plant LLC,WILDC,NM,Solar,Solar,2028,90.0,,2027.0,0.6322403634083714,NATIONAL,slip_-1
+64849.0,Wildcat Solar Power Plant LLC,WILDC,NM,Solar,Solar,2028,90.0,,2028.0,13.126214023476674,NATIONAL,slip_0
+64849.0,Wildcat Solar Power Plant LLC,WILDC,NM,Solar,Solar,2028,90.0,,2029.0,13.338242102547719,NATIONAL,slip_1
+64849.0,Wildcat Solar Power Plant LLC,WILDC,NM,Solar,Solar,2028,90.0,,2030.0,7.807368962341997,NATIONAL,slip_2
+64849.0,Wildcat Solar Power Plant LLC,WILDC,NM,Solar,Solar,2028,90.0,,2031.0,33.70354678506937,NATIONAL,slip_3plus
+64849.0,Wildcat Solar Power Plant LLC,WILDC,NM,Solar,Solar,2028,90.0,,,21.392387763155874,NATIONAL,never
+59047.0,"Gallegos Wind Farm, Phase 1",GEN 1,NM,Wind,Wind,2028,190.0,,2028.0,21.581947405828007,NATIONAL,slip_0
+59047.0,"Gallegos Wind Farm, Phase 1",GEN 1,NM,Wind,Wind,2028,190.0,,2029.0,10.293579720445395,NATIONAL,slip_1
+59047.0,"Gallegos Wind Farm, Phase 1",GEN 1,NM,Wind,Wind,2028,190.0,,2030.0,6.27481639421938,NATIONAL,slip_2
+59047.0,"Gallegos Wind Farm, Phase 1",GEN 1,NM,Wind,Wind,2028,190.0,,2031.0,80.37526652452027,NATIONAL,slip_3plus
+59047.0,"Gallegos Wind Farm, Phase 1",GEN 1,NM,Wind,Wind,2028,190.0,,,71.47438995498699,NATIONAL,never
+68298.0,THREE SISTERS Solar Generation and BESS,THSI1,AZ,Battery Storage,Wind,2029,300.0,,2029.0,300.0,unchanged,
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,,2028.0,7.143596645615488,NATIONAL,slip_-1
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,,2029.0,7.318217896952756,NATIONAL,slip_0
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,,2030.0,33.25582358422197,NATIONAL,slip_1
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,,2031.0,34.55913310556649,NATIONAL,slip_2
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,,2032.0,97.64502881595749,NATIONAL,slip_3plus
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,,,50.07819995168582,NATIONAL,never
+68298.0,THREE SISTERS Solar Generation and BESS,THSI2,AZ,Solar,Solar,2029,300.0,,2028.0,9.317734755150637,NATIONAL,slip_-1
+68298.0,THREE SISTERS Solar Generation and BESS,THSI2,AZ,Solar,Solar,2029,300.0,,2029.0,9.545501604720986,NATIONAL,slip_0
+68298.0,THREE SISTERS Solar Generation and BESS,THSI2,AZ,Solar,Solar,2029,300.0,,2030.0,43.377161196811265,NATIONAL,slip_1
+68298.0,THREE SISTERS Solar Generation and BESS,THSI2,AZ,Solar,Solar,2029,300.0,,2031.0,45.07713013769541,NATIONAL,slip_2
+68298.0,THREE SISTERS Solar Generation and BESS,THSI2,AZ,Solar,Solar,2029,300.0,,2032.0,127.36308106429237,NATIONAL,slip_3plus
+68298.0,THREE SISTERS Solar Generation and BESS,THSI2,AZ,Solar,Solar,2029,300.0,,,65.31939124132933,NATIONAL,never
+70236.0,Sierra Luna Energy Storage,SLRN1,AZ,Battery Storage,Wind,2030,150.0,,2030.0,150.0,unchanged,
+69595.0,Saddleback Generation Station,GTGEN,AZ,Natural Gas,Wind,2030,375.0,,2030.0,375.0,unchanged,
+69595.0,Saddleback Generation Station,GTGN2,AZ,Natural Gas,Wind,2030,375.0,,2030.0,375.0,unchanged,
+69595.0,Saddleback Generation Station,STGEN,AZ,Natural Gas,Wind,2030,250.0,,2030.0,250.0,unchanged,
+69595.0,Saddleback Generation Station,STGN2,AZ,Natural Gas,Wind,2030,250.0,,2030.0,250.0,unchanged,
+58652.0,La Paz Solar Tower,1,AZ,Solar,Solar,2030,200.0,,2029.0,6.211823170100424,NATIONAL,slip_-1
+58652.0,La Paz Solar Tower,1,AZ,Solar,Solar,2030,200.0,,2030.0,6.363667736480657,NATIONAL,slip_0
+58652.0,La Paz Solar Tower,1,AZ,Solar,Solar,2030,200.0,,2031.0,28.918107464540842,NATIONAL,slip_1
+58652.0,La Paz Solar Tower,1,AZ,Solar,Solar,2030,200.0,,2032.0,30.051420091796942,NATIONAL,slip_2
+58652.0,La Paz Solar Tower,1,AZ,Solar,Solar,2030,200.0,,2033.0,84.90872070952825,NATIONAL,slip_3plus
+58652.0,La Paz Solar Tower,1,AZ,Solar,Solar,2030,200.0,,,43.546260827552885,NATIONAL,never
+6177.0,Coronado (gas conversion),CO1,AZ,Natural Gas,Wind,2029,410.9,,2029.0,410.9,unchanged,
+6177.0,Coronado (gas conversion),CO2,AZ,Natural Gas,Wind,2029,410.9,,2029.0,410.9,unchanged,
+8223.0,Springerville (gas conversion),1,AZ,Natural Gas,Wind,2030,424.8,,2030.0,424.8,unchanged,
+8223.0,Springerville (gas conversion),2,AZ,Natural Gas,Wind,2030,424.8,,2030.0,424.8,unchanged,
+8223.0,Springerville (gas conversion),4,AZ,Natural Gas,Wind,2029,458.1,,2029.0,458.1,unchanged,
+160.0,Apache Station (gas conversion),ST3,AZ,Natural Gas,Wind,2027,204.0,,2027.0,204.0,unchanged,
+113.0,Cholla (gas repower),1,AZ,Natural Gas,Wind,2030,387.0,,2030.0,387.0,unchanged,
+,Desert Sun Power Plant,1,AZ,Natural Gas,Wind,2032,1238.0,,2032.0,1238.0,unchanged,
+,Project Baccara,1,AZ,Natural Gas,Wind,2028,744.0,,2028.0,744.0,unchanged,

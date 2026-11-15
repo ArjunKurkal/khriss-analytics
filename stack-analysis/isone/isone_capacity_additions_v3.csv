@@ -1,0 +1,234 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+70538.0,Belchertown Solar PV + Battery Project,BRHBA,MA,Battery Storage,Wind,2026,2.8,,2026.0,2.8,unchanged,
+67279.0,Borrego - Highland Ave,6572B,MA,Battery Storage,Wind,2026,5.0,,2026.0,5.0,unchanged,
+70386.0,Chicopee BESS,BESS1,MA,Battery Storage,Wind,2026,5.0,,2026.0,5.0,unchanged,
+69602.0,Essex VT BESS 1,90918,VT,Battery Storage,Wind,2026,16.0,,2026.0,16.0,unchanged,
+70387.0,Framingham BESS,BESS1,MA,Battery Storage,Wind,2026,5.0,,2026.0,5.0,unchanged,
+69551.0,Holyoke MA BESS 1,90915,MA,Battery Storage,Wind,2026,5.0,,2026.0,5.0,unchanged,
+69603.0,Ipswich MA BESS 1,90917,MA,Battery Storage,Wind,2026,5.0,,2026.0,5.0,unchanged,
+69720.0,Medway Grid,MEDWA,MA,Battery Storage,Wind,2026,250.0,,2026.0,250.0,unchanged,
+63541.0,Solar Carver 1 Hybrid,BCRV1,MA,Battery Storage,Wind,2026,2.0,,2026.0,2.0,unchanged,
+63506.0,Solar Carver 3 Hybrid,BCRV3,MA,Battery Storage,Wind,2026,1.0,,2026.0,1.0,unchanged,
+70556.0,"AbbieVie, Inc. - Worcester, MA",G001,MA,Natural Gas,Wind,2026,3.0,,2026.0,3.0,unchanged,
+70538.0,Belchertown Solar PV + Battery Project,BRH,MA,Solar,Solar,2026,2.8,,2026.0,2.8,unchanged,
+67279.0,Borrego - Highland Ave,6572,MA,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+65045.0,Emery Shute Solar One,VCP14,ME,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+66042.0,Eureka North Solar,63232,NY,Solar,Solar,2026,3.5,,2026.0,3.5,unchanged,
+66041.0,Eureka South Solar,63231,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+66768.0,Hogs Bay,694,ME,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70051.0,Kearsarge Grissom,GRISS,NH,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+69515.0,Mansfield Landfill,MNSFL,CT,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+69535.0,Nutes Solar,NS1,NH,Solar,Solar,2026,20.0,,2026.0,20.0,unchanged,
+69794.0,Rose Solar,ROSE,MA,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+70458.0,Sapphire Solar NY,SAPHI,NY,Solar,Solar,2026,2.4,,2026.0,2.4,unchanged,
+63541.0,Solar Carver 1 Hybrid,SCRV1,MA,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+63506.0,Solar Carver 3 Hybrid,SCRV3,MA,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+69282.0,Stafford Solar One,STFRD,CT,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+63677.0,Sturbridge Road Solar,STURB,MA,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+63386.0,"Three Rivers Solar Power, LLC",3RIVS,ME,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+69807.0,Windsor Locks,WNSRL,CT,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+65139.0,Woodstock Solar One,VCP19,CT,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+65500.0,Revolution Wind,REVWD,RI,Wind,Offshore Wind,2026,704.0,,2026.0,704.0,unchanged,
+63093.0,Vineyard Wind 1,VW01,MA,Wind,Offshore Wind,2026,800.0,,2026.0,800.0,unchanged,
+66497.0,Bensonhurst Energy Storage 1 LLC,BHBA1,NY,Battery Storage,Wind,2027,5.0,,2027.0,5.0,unchanged,
+68215.0,Braley Hill North Solar,BRAES,MA,Battery Storage,Wind,2027,5.0,,2027.0,5.0,unchanged,
+68216.0,Cushman Road Solar,CUSES,MA,Battery Storage,Wind,2027,3.0,,2027.0,3.0,unchanged,
+66786.0,Elevate Middletown,ELVMT,CT,Battery Storage,Wind,2027,275.0,,2027.0,275.0,unchanged,
+69721.0,Energizar BESS,BESS1,MA,Battery Storage,Wind,2027,250.0,,2027.0,250.0,unchanged,
+68217.0,Featherbed Lane South Solar,FEAES,MA,Battery Storage,Wind,2027,1.0,,2027.0,1.0,unchanged,
+66513.0,MA Acushnet 540R Main St,B8229,MA,Battery Storage,Wind,2027,2.0,,2027.0,2.0,unchanged,
+50736.0,Pure Hedge LLC,FSS13,CT,Battery Storage,Wind,2027,20.0,,2027.0,20.0,unchanged,
+68218.0,Randall Lane Solar,RANES,MA,Battery Storage,Wind,2027,5.0,,2027.0,5.0,unchanged,
+64615.0,"Sanford ESS, LLC",1,ME,Battery Storage,Wind,2027,5.0,,2027.0,5.0,unchanged,
+68219.0,Snipatuit Road Solar,SNIES,MA,Battery Storage,Wind,2027,4.0,,2027.0,4.0,unchanged,
+64616.0,"South Portland ESS, LLC",1,ME,Battery Storage,Wind,2027,10.0,,2027.0,10.0,unchanged,
+69723.0,Taft BESS,BESS1,MA,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+68543.0,Town of Sharon Portfolio -Mt St Landfill,3850B,MA,Battery Storage,Wind,2027,5.7,,2027.0,5.7,unchanged,
+61037.0,Apple Hill Solar,APPL,VT,Solar,Solar,2027,2.0,,2026.0,0.02528914724036675,ISONE,slip_-1
+61037.0,Apple Hill Solar,APPL,VT,Solar,Solar,2027,2.0,,2027.0,0.2380296038832624,ISONE,slip_0
+61037.0,Apple Hill Solar,APPL,VT,Solar,Solar,2027,2.0,,2028.0,0.3871277042008749,ISONE,slip_1
+61037.0,Apple Hill Solar,APPL,VT,Solar,Solar,2027,2.0,,2029.0,0.16000479415113558,ISONE,slip_2
+61037.0,Apple Hill Solar,APPL,VT,Solar,Solar,2027,2.0,,2030.0,0.6653083238449091,ISONE,slip_3plus
+61037.0,Apple Hill Solar,APPL,VT,Solar,Solar,2027,2.0,,,0.5242404266794509,ISONE,never
+68215.0,Braley Hill North Solar,BRAPV,MA,Solar,Solar,2027,5.0,,2026.0,0.06322286810091687,ISONE,slip_-1
+68215.0,Braley Hill North Solar,BRAPV,MA,Solar,Solar,2027,5.0,,2027.0,0.5950740097081559,ISONE,slip_0
+68215.0,Braley Hill North Solar,BRAPV,MA,Solar,Solar,2027,5.0,,2028.0,0.9678192605021873,ISONE,slip_1
+68215.0,Braley Hill North Solar,BRAPV,MA,Solar,Solar,2027,5.0,,2029.0,0.40001198537783894,ISONE,slip_2
+68215.0,Braley Hill North Solar,BRAPV,MA,Solar,Solar,2027,5.0,,2030.0,1.6632708096122728,ISONE,slip_3plus
+68215.0,Braley Hill North Solar,BRAPV,MA,Solar,Solar,2027,5.0,,,1.3106010666986272,ISONE,never
+65146.0,CT Airport Authority Solar One,VCP16,CT,Solar,Solar,2027,4.0,,2026.0,0.0505782944807335,ISONE,slip_-1
+65146.0,CT Airport Authority Solar One,VCP16,CT,Solar,Solar,2027,4.0,,2027.0,0.4760592077665248,ISONE,slip_0
+65146.0,CT Airport Authority Solar One,VCP16,CT,Solar,Solar,2027,4.0,,2028.0,0.7742554084017498,ISONE,slip_1
+65146.0,CT Airport Authority Solar One,VCP16,CT,Solar,Solar,2027,4.0,,2029.0,0.32000958830227116,ISONE,slip_2
+65146.0,CT Airport Authority Solar One,VCP16,CT,Solar,Solar,2027,4.0,,2030.0,1.3306166476898182,ISONE,slip_3plus
+65146.0,CT Airport Authority Solar One,VCP16,CT,Solar,Solar,2027,4.0,,,1.0484808533589018,ISONE,never
+70401.0,Clems Way Solar,CLEM,MA,Solar,Solar,2027,5.0,,2026.0,0.06322286810091687,ISONE,slip_-1
+70401.0,Clems Way Solar,CLEM,MA,Solar,Solar,2027,5.0,,2027.0,0.5950740097081559,ISONE,slip_0
+70401.0,Clems Way Solar,CLEM,MA,Solar,Solar,2027,5.0,,2028.0,0.9678192605021873,ISONE,slip_1
+70401.0,Clems Way Solar,CLEM,MA,Solar,Solar,2027,5.0,,2029.0,0.40001198537783894,ISONE,slip_2
+70401.0,Clems Way Solar,CLEM,MA,Solar,Solar,2027,5.0,,2030.0,1.6632708096122728,ISONE,slip_3plus
+70401.0,Clems Way Solar,CLEM,MA,Solar,Solar,2027,5.0,,,1.3106010666986272,ISONE,never
+68216.0,Cushman Road Solar,CUSPV,MA,Solar,Solar,2027,3.0,,2026.0,0.03793372086055012,ISONE,slip_-1
+68216.0,Cushman Road Solar,CUSPV,MA,Solar,Solar,2027,3.0,,2027.0,0.3570444058248936,ISONE,slip_0
+68216.0,Cushman Road Solar,CUSPV,MA,Solar,Solar,2027,3.0,,2028.0,0.5806915563013123,ISONE,slip_1
+68216.0,Cushman Road Solar,CUSPV,MA,Solar,Solar,2027,3.0,,2029.0,0.2400071912267034,ISONE,slip_2
+68216.0,Cushman Road Solar,CUSPV,MA,Solar,Solar,2027,3.0,,2030.0,0.9979624857673637,ISONE,slip_3plus
+68216.0,Cushman Road Solar,CUSPV,MA,Solar,Solar,2027,3.0,,,0.7863606400191764,ISONE,never
+65366.0,Emery Meadow Solar Station,EMSS,ME,Solar,Solar,2027,16.4,,2026.0,0.20737100737100733,ISONE,slip_-1
+65366.0,Emery Meadow Solar Station,EMSS,ME,Solar,Solar,2027,16.4,,2027.0,1.9518427518427515,ISONE,slip_0
+65366.0,Emery Meadow Solar Station,EMSS,ME,Solar,Solar,2027,16.4,,2028.0,3.174447174447174,ISONE,slip_1
+65366.0,Emery Meadow Solar Station,EMSS,ME,Solar,Solar,2027,16.4,,2029.0,1.3120393120393117,ISONE,slip_2
+65366.0,Emery Meadow Solar Station,EMSS,ME,Solar,Solar,2027,16.4,,2030.0,5.455528255528255,ISONE,slip_3plus
+65366.0,Emery Meadow Solar Station,EMSS,ME,Solar,Solar,2027,16.4,,,4.298771498771497,ISONE,never
+68217.0,Featherbed Lane South Solar,FEAPV,MA,Solar,Solar,2027,1.0,,2026.0,0.012644573620183374,ISONE,slip_-1
+68217.0,Featherbed Lane South Solar,FEAPV,MA,Solar,Solar,2027,1.0,,2027.0,0.1190148019416312,ISONE,slip_0
+68217.0,Featherbed Lane South Solar,FEAPV,MA,Solar,Solar,2027,1.0,,2028.0,0.19356385210043744,ISONE,slip_1
+68217.0,Featherbed Lane South Solar,FEAPV,MA,Solar,Solar,2027,1.0,,2029.0,0.08000239707556779,ISONE,slip_2
+68217.0,Featherbed Lane South Solar,FEAPV,MA,Solar,Solar,2027,1.0,,2030.0,0.33265416192245456,ISONE,slip_3plus
+68217.0,Featherbed Lane South Solar,FEAPV,MA,Solar,Solar,2027,1.0,,,0.26212021333972546,ISONE,never
+70437.0,Groton Flanders Road Landfill,GROTN,CT,Solar,Solar,2027,5.0,,2026.0,0.06322286810091687,ISONE,slip_-1
+70437.0,Groton Flanders Road Landfill,GROTN,CT,Solar,Solar,2027,5.0,,2027.0,0.5950740097081559,ISONE,slip_0
+70437.0,Groton Flanders Road Landfill,GROTN,CT,Solar,Solar,2027,5.0,,2028.0,0.9678192605021873,ISONE,slip_1
+70437.0,Groton Flanders Road Landfill,GROTN,CT,Solar,Solar,2027,5.0,,2029.0,0.40001198537783894,ISONE,slip_2
+70437.0,Groton Flanders Road Landfill,GROTN,CT,Solar,Solar,2027,5.0,,2030.0,1.6632708096122728,ISONE,slip_3plus
+70437.0,Groton Flanders Road Landfill,GROTN,CT,Solar,Solar,2027,5.0,,,1.3106010666986272,ISONE,never
+70402.0,Logging Swamp North,LOGN,MA,Solar,Solar,2027,5.0,,2026.0,0.06322286810091687,ISONE,slip_-1
+70402.0,Logging Swamp North,LOGN,MA,Solar,Solar,2027,5.0,,2027.0,0.5950740097081559,ISONE,slip_0
+70402.0,Logging Swamp North,LOGN,MA,Solar,Solar,2027,5.0,,2028.0,0.9678192605021873,ISONE,slip_1
+70402.0,Logging Swamp North,LOGN,MA,Solar,Solar,2027,5.0,,2029.0,0.40001198537783894,ISONE,slip_2
+70402.0,Logging Swamp North,LOGN,MA,Solar,Solar,2027,5.0,,2030.0,1.6632708096122728,ISONE,slip_3plus
+70402.0,Logging Swamp North,LOGN,MA,Solar,Solar,2027,5.0,,,1.3106010666986272,ISONE,never
+70404.0,Logging Swamp South,LOGS,MA,Solar,Solar,2027,5.0,,2026.0,0.06322286810091687,ISONE,slip_-1
+70404.0,Logging Swamp South,LOGS,MA,Solar,Solar,2027,5.0,,2027.0,0.5950740097081559,ISONE,slip_0
+70404.0,Logging Swamp South,LOGS,MA,Solar,Solar,2027,5.0,,2028.0,0.9678192605021873,ISONE,slip_1
+70404.0,Logging Swamp South,LOGS,MA,Solar,Solar,2027,5.0,,2029.0,0.40001198537783894,ISONE,slip_2
+70404.0,Logging Swamp South,LOGS,MA,Solar,Solar,2027,5.0,,2030.0,1.6632708096122728,ISONE,slip_3plus
+70404.0,Logging Swamp South,LOGS,MA,Solar,Solar,2027,5.0,,,1.3106010666986272,ISONE,never
+66513.0,MA Acushnet 540R Main St,18229,MA,Solar,Solar,2027,4.0,,2026.0,0.0505782944807335,ISONE,slip_-1
+66513.0,MA Acushnet 540R Main St,18229,MA,Solar,Solar,2027,4.0,,2027.0,0.4760592077665248,ISONE,slip_0
+66513.0,MA Acushnet 540R Main St,18229,MA,Solar,Solar,2027,4.0,,2028.0,0.7742554084017498,ISONE,slip_1
+66513.0,MA Acushnet 540R Main St,18229,MA,Solar,Solar,2027,4.0,,2029.0,0.32000958830227116,ISONE,slip_2
+66513.0,MA Acushnet 540R Main St,18229,MA,Solar,Solar,2027,4.0,,2030.0,1.3306166476898182,ISONE,slip_3plus
+66513.0,MA Acushnet 540R Main St,18229,MA,Solar,Solar,2027,4.0,,,1.0484808533589018,ISONE,never
+70461.0,Plainfield Solar One,PLNFD,CT,Solar,Solar,2027,4.0,,2026.0,0.0505782944807335,ISONE,slip_-1
+70461.0,Plainfield Solar One,PLNFD,CT,Solar,Solar,2027,4.0,,2027.0,0.4760592077665248,ISONE,slip_0
+70461.0,Plainfield Solar One,PLNFD,CT,Solar,Solar,2027,4.0,,2028.0,0.7742554084017498,ISONE,slip_1
+70461.0,Plainfield Solar One,PLNFD,CT,Solar,Solar,2027,4.0,,2029.0,0.32000958830227116,ISONE,slip_2
+70461.0,Plainfield Solar One,PLNFD,CT,Solar,Solar,2027,4.0,,2030.0,1.3306166476898182,ISONE,slip_3plus
+70461.0,Plainfield Solar One,PLNFD,CT,Solar,Solar,2027,4.0,,,1.0484808533589018,ISONE,never
+50736.0,Pure Hedge LLC,FSS17,CT,Solar,Solar,2027,70.0,,2026.0,0.8851201534128362,ISONE,slip_-1
+50736.0,Pure Hedge LLC,FSS17,CT,Solar,Solar,2027,70.0,,2027.0,8.331036135914184,ISONE,slip_0
+50736.0,Pure Hedge LLC,FSS17,CT,Solar,Solar,2027,70.0,,2028.0,13.549469647030621,ISONE,slip_1
+50736.0,Pure Hedge LLC,FSS17,CT,Solar,Solar,2027,70.0,,2029.0,5.600167795289745,ISONE,slip_2
+50736.0,Pure Hedge LLC,FSS17,CT,Solar,Solar,2027,70.0,,2030.0,23.28579133457182,ISONE,slip_3plus
+50736.0,Pure Hedge LLC,FSS17,CT,Solar,Solar,2027,70.0,,,18.34841493378078,ISONE,never
+65710.0,Putnam Meadow Solar Station,PTNM,CT,Solar,Solar,2027,4.0,,2026.0,0.0505782944807335,ISONE,slip_-1
+65710.0,Putnam Meadow Solar Station,PTNM,CT,Solar,Solar,2027,4.0,,2027.0,0.4760592077665248,ISONE,slip_0
+65710.0,Putnam Meadow Solar Station,PTNM,CT,Solar,Solar,2027,4.0,,2028.0,0.7742554084017498,ISONE,slip_1
+65710.0,Putnam Meadow Solar Station,PTNM,CT,Solar,Solar,2027,4.0,,2029.0,0.32000958830227116,ISONE,slip_2
+65710.0,Putnam Meadow Solar Station,PTNM,CT,Solar,Solar,2027,4.0,,2030.0,1.3306166476898182,ISONE,slip_3plus
+65710.0,Putnam Meadow Solar Station,PTNM,CT,Solar,Solar,2027,4.0,,,1.0484808533589018,ISONE,never
+68218.0,Randall Lane Solar,RANPV,MA,Solar,Solar,2027,5.0,,2026.0,0.06322286810091687,ISONE,slip_-1
+68218.0,Randall Lane Solar,RANPV,MA,Solar,Solar,2027,5.0,,2027.0,0.5950740097081559,ISONE,slip_0
+68218.0,Randall Lane Solar,RANPV,MA,Solar,Solar,2027,5.0,,2028.0,0.9678192605021873,ISONE,slip_1
+68218.0,Randall Lane Solar,RANPV,MA,Solar,Solar,2027,5.0,,2029.0,0.40001198537783894,ISONE,slip_2
+68218.0,Randall Lane Solar,RANPV,MA,Solar,Solar,2027,5.0,,2030.0,1.6632708096122728,ISONE,slip_3plus
+68218.0,Randall Lane Solar,RANPV,MA,Solar,Solar,2027,5.0,,,1.3106010666986272,ISONE,never
+68219.0,Snipatuit Road Solar,SNIPV,MA,Solar,Solar,2027,4.0,,2026.0,0.0505782944807335,ISONE,slip_-1
+68219.0,Snipatuit Road Solar,SNIPV,MA,Solar,Solar,2027,4.0,,2027.0,0.4760592077665248,ISONE,slip_0
+68219.0,Snipatuit Road Solar,SNIPV,MA,Solar,Solar,2027,4.0,,2028.0,0.7742554084017498,ISONE,slip_1
+68219.0,Snipatuit Road Solar,SNIPV,MA,Solar,Solar,2027,4.0,,2029.0,0.32000958830227116,ISONE,slip_2
+68219.0,Snipatuit Road Solar,SNIPV,MA,Solar,Solar,2027,4.0,,2030.0,1.3306166476898182,ISONE,slip_3plus
+68219.0,Snipatuit Road Solar,SNIPV,MA,Solar,Solar,2027,4.0,,,1.0484808533589018,ISONE,never
+68543.0,Town of Sharon Portfolio -Mt St Landfill,3850G,MA,Solar,Solar,2027,5.0,,2026.0,0.06322286810091687,ISONE,slip_-1
+68543.0,Town of Sharon Portfolio -Mt St Landfill,3850G,MA,Solar,Solar,2027,5.0,,2027.0,0.5950740097081559,ISONE,slip_0
+68543.0,Town of Sharon Portfolio -Mt St Landfill,3850G,MA,Solar,Solar,2027,5.0,,2028.0,0.9678192605021873,ISONE,slip_1
+68543.0,Town of Sharon Portfolio -Mt St Landfill,3850G,MA,Solar,Solar,2027,5.0,,2029.0,0.40001198537783894,ISONE,slip_2
+68543.0,Town of Sharon Portfolio -Mt St Landfill,3850G,MA,Solar,Solar,2027,5.0,,2030.0,1.6632708096122728,ISONE,slip_3plus
+68543.0,Town of Sharon Portfolio -Mt St Landfill,3850G,MA,Solar,Solar,2027,5.0,,,1.3106010666986272,ISONE,never
+70460.0,"Willington Solar One, LLC",WILS1,CT,Solar,Solar,2027,2.0,,2026.0,0.02528914724036675,ISONE,slip_-1
+70460.0,"Willington Solar One, LLC",WILS1,CT,Solar,Solar,2027,2.0,,2027.0,0.2380296038832624,ISONE,slip_0
+70460.0,"Willington Solar One, LLC",WILS1,CT,Solar,Solar,2027,2.0,,2028.0,0.3871277042008749,ISONE,slip_1
+70460.0,"Willington Solar One, LLC",WILS1,CT,Solar,Solar,2027,2.0,,2029.0,0.16000479415113558,ISONE,slip_2
+70460.0,"Willington Solar One, LLC",WILS1,CT,Solar,Solar,2027,2.0,,2030.0,0.6653083238449091,ISONE,slip_3plus
+70460.0,"Willington Solar One, LLC",WILS1,CT,Solar,Solar,2027,2.0,,,0.5242404266794509,ISONE,never
+69722.0,Salt Cod BESS,BESS1,MA,Battery Storage,Wind,2028,168.0,,2028.0,168.0,unchanged,
+64067.0,Auburn PV - BD Solar Auburn LLC,AUBPV,ME,Solar,Solar,2028,5.0,,2027.0,0.03512446463379841,NATIONAL,slip_-1
+64067.0,Auburn PV - BD Solar Auburn LLC,AUBPV,ME,Solar,Solar,2028,5.0,,2028.0,0.7292341124153707,NATIONAL,slip_0
+64067.0,Auburn PV - BD Solar Auburn LLC,AUBPV,ME,Solar,Solar,2028,5.0,,2029.0,0.74101345014154,NATIONAL,slip_1
+64067.0,Auburn PV - BD Solar Auburn LLC,AUBPV,ME,Solar,Solar,2028,5.0,,2030.0,0.4337427201301109,NATIONAL,slip_2
+64067.0,Auburn PV - BD Solar Auburn LLC,AUBPV,ME,Solar,Solar,2028,5.0,,2031.0,1.8724192658371872,NATIONAL,slip_3plus
+64067.0,Auburn PV - BD Solar Auburn LLC,AUBPV,ME,Solar,Solar,2028,5.0,,,1.188465986841993,NATIONAL,never
+68490.0,Broadleaf Solar,BLS,CT,Solar,Solar,2028,200.0,,2027.0,1.4049785853519365,NATIONAL,slip_-1
+68490.0,Broadleaf Solar,BLS,CT,Solar,Solar,2028,200.0,,2028.0,29.16936449661483,NATIONAL,slip_0
+68490.0,Broadleaf Solar,BLS,CT,Solar,Solar,2028,200.0,,2029.0,29.640538005661597,NATIONAL,slip_1
+68490.0,Broadleaf Solar,BLS,CT,Solar,Solar,2028,200.0,,2030.0,17.349708805204436,NATIONAL,slip_2
+68490.0,Broadleaf Solar,BLS,CT,Solar,Solar,2028,200.0,,2031.0,74.89677063348749,NATIONAL,slip_3plus
+68490.0,Broadleaf Solar,BLS,CT,Solar,Solar,2028,200.0,,,47.538639473679716,NATIONAL,never
+69667.0,Fair Haven Solar,FHS1,VT,Solar,Solar,2028,20.0,,2027.0,0.14049785853519364,NATIONAL,slip_-1
+69667.0,Fair Haven Solar,FHS1,VT,Solar,Solar,2028,20.0,,2028.0,2.916936449661483,NATIONAL,slip_0
+69667.0,Fair Haven Solar,FHS1,VT,Solar,Solar,2028,20.0,,2029.0,2.96405380056616,NATIONAL,slip_1
+69667.0,Fair Haven Solar,FHS1,VT,Solar,Solar,2028,20.0,,2030.0,1.7349708805204436,NATIONAL,slip_2
+69667.0,Fair Haven Solar,FHS1,VT,Solar,Solar,2028,20.0,,2031.0,7.489677063348749,NATIONAL,slip_3plus
+69667.0,Fair Haven Solar,FHS1,VT,Solar,Solar,2028,20.0,,,4.753863947367972,NATIONAL,never
+65060.0,Hope Solar One,VCP02,RI,Solar,Solar,2028,3.5,,2027.0,0.02458712524365889,NATIONAL,slip_-1
+65060.0,Hope Solar One,VCP02,RI,Solar,Solar,2028,3.5,,2028.0,0.5104638786907595,NATIONAL,slip_0
+65060.0,Hope Solar One,VCP02,RI,Solar,Solar,2028,3.5,,2029.0,0.518709415099078,NATIONAL,slip_1
+65060.0,Hope Solar One,VCP02,RI,Solar,Solar,2028,3.5,,2030.0,0.30361990409107764,NATIONAL,slip_2
+65060.0,Hope Solar One,VCP02,RI,Solar,Solar,2028,3.5,,2031.0,1.310693486086031,NATIONAL,slip_3plus
+65060.0,Hope Solar One,VCP02,RI,Solar,Solar,2028,3.5,,,0.831926190789395,NATIONAL,never
+64071.0,Lewiston Jn PV - BD Solar Lewiston Jn LL,LJNPV,ME,Solar,Solar,2028,5.0,,2027.0,0.03512446463379841,NATIONAL,slip_-1
+64071.0,Lewiston Jn PV - BD Solar Lewiston Jn LL,LJNPV,ME,Solar,Solar,2028,5.0,,2028.0,0.7292341124153707,NATIONAL,slip_0
+64071.0,Lewiston Jn PV - BD Solar Lewiston Jn LL,LJNPV,ME,Solar,Solar,2028,5.0,,2029.0,0.74101345014154,NATIONAL,slip_1
+64071.0,Lewiston Jn PV - BD Solar Lewiston Jn LL,LJNPV,ME,Solar,Solar,2028,5.0,,2030.0,0.4337427201301109,NATIONAL,slip_2
+64071.0,Lewiston Jn PV - BD Solar Lewiston Jn LL,LJNPV,ME,Solar,Solar,2028,5.0,,2031.0,1.8724192658371872,NATIONAL,slip_3plus
+64071.0,Lewiston Jn PV - BD Solar Lewiston Jn LL,LJNPV,ME,Solar,Solar,2028,5.0,,,1.188465986841993,NATIONAL,never
+68213.0,Panton,1,VT,Solar,Solar,2028,50.0,,2027.0,0.35124464633798413,NATIONAL,slip_-1
+68213.0,Panton,1,VT,Solar,Solar,2028,50.0,,2028.0,7.292341124153707,NATIONAL,slip_0
+68213.0,Panton,1,VT,Solar,Solar,2028,50.0,,2029.0,7.410134501415399,NATIONAL,slip_1
+68213.0,Panton,1,VT,Solar,Solar,2028,50.0,,2030.0,4.337427201301109,NATIONAL,slip_2
+68213.0,Panton,1,VT,Solar,Solar,2028,50.0,,2031.0,18.724192658371873,NATIONAL,slip_3plus
+68213.0,Panton,1,VT,Solar,Solar,2028,50.0,,,11.884659868419929,NATIONAL,never
+64064.0,Shaftsbury Solar,SHAFT,VT,Solar,Solar,2028,20.0,,2027.0,0.14049785853519364,NATIONAL,slip_-1
+64064.0,Shaftsbury Solar,SHAFT,VT,Solar,Solar,2028,20.0,,2028.0,2.916936449661483,NATIONAL,slip_0
+64064.0,Shaftsbury Solar,SHAFT,VT,Solar,Solar,2028,20.0,,2029.0,2.96405380056616,NATIONAL,slip_1
+64064.0,Shaftsbury Solar,SHAFT,VT,Solar,Solar,2028,20.0,,2030.0,1.7349708805204436,NATIONAL,slip_2
+64064.0,Shaftsbury Solar,SHAFT,VT,Solar,Solar,2028,20.0,,2031.0,7.489677063348749,NATIONAL,slip_3plus
+64064.0,Shaftsbury Solar,SHAFT,VT,Solar,Solar,2028,20.0,,,4.753863947367972,NATIONAL,never
+65369.0,Topsham Meadow Solar Station,TMSS,ME,Solar,Solar,2028,17.2,,2027.0,0.12082815834026653,NATIONAL,slip_-1
+65369.0,Topsham Meadow Solar Station,TMSS,ME,Solar,Solar,2028,17.2,,2028.0,2.5085653467088753,NATIONAL,slip_0
+65369.0,Topsham Meadow Solar Station,TMSS,ME,Solar,Solar,2028,17.2,,2029.0,2.5490862684868976,NATIONAL,slip_1
+65369.0,Topsham Meadow Solar Station,TMSS,ME,Solar,Solar,2028,17.2,,2030.0,1.4920749572475815,NATIONAL,slip_2
+65369.0,Topsham Meadow Solar Station,TMSS,ME,Solar,Solar,2028,17.2,,2031.0,6.441122274479923,NATIONAL,slip_3plus
+65369.0,Topsham Meadow Solar Station,TMSS,ME,Solar,Solar,2028,17.2,,,4.088322994736456,NATIONAL,never
+65709.0,Turner Meadow Solar Station,TRNR,ME,Solar,Solar,2028,19.8,,2027.0,0.1390928799498417,NATIONAL,slip_-1
+65709.0,Turner Meadow Solar Station,TRNR,ME,Solar,Solar,2028,19.8,,2028.0,2.8877670851648682,NATIONAL,slip_0
+65709.0,Turner Meadow Solar Station,TRNR,ME,Solar,Solar,2028,19.8,,2029.0,2.9344132625604984,NATIONAL,slip_1
+65709.0,Turner Meadow Solar Station,TRNR,ME,Solar,Solar,2028,19.8,,2030.0,1.7176211717152392,NATIONAL,slip_2
+65709.0,Turner Meadow Solar Station,TRNR,ME,Solar,Solar,2028,19.8,,2031.0,7.414780292715261,NATIONAL,slip_3plus
+65709.0,Turner Meadow Solar Station,TRNR,ME,Solar,Solar,2028,19.8,,,4.706325307894292,NATIONAL,never
+65708.0,Warren Meadow Solar Station,WMSS,ME,Solar,Solar,2028,74.5,,2027.0,0.5233545230435963,NATIONAL,slip_-1
+65708.0,Warren Meadow Solar Station,WMSS,ME,Solar,Solar,2028,74.5,,2028.0,10.865588274989024,NATIONAL,slip_0
+65708.0,Warren Meadow Solar Station,WMSS,ME,Solar,Solar,2028,74.5,,2029.0,11.041100407108946,NATIONAL,slip_1
+65708.0,Warren Meadow Solar Station,WMSS,ME,Solar,Solar,2028,74.5,,2030.0,6.462766529938652,NATIONAL,slip_2
+65708.0,Warren Meadow Solar Station,WMSS,ME,Solar,Solar,2028,74.5,,2031.0,27.899047060974087,NATIONAL,slip_3plus
+65708.0,Warren Meadow Solar Station,WMSS,ME,Solar,Solar,2028,74.5,,,17.708143203945696,NATIONAL,never
+65371.0,West Baldwin Solar Station,WBSS,ME,Solar,Solar,2028,17.1,,2027.0,0.12012566904759057,NATIONAL,slip_-1
+65371.0,West Baldwin Solar Station,WBSS,ME,Solar,Solar,2028,17.1,,2028.0,2.493980664460568,NATIONAL,slip_0
+65371.0,West Baldwin Solar Station,WBSS,ME,Solar,Solar,2028,17.1,,2029.0,2.534265999484067,NATIONAL,slip_1
+65371.0,West Baldwin Solar Station,WBSS,ME,Solar,Solar,2028,17.1,,2030.0,1.4834001028449795,NATIONAL,slip_2
+65371.0,West Baldwin Solar Station,WBSS,ME,Solar,Solar,2028,17.1,,2031.0,6.403673889163181,NATIONAL,slip_3plus
+65371.0,West Baldwin Solar Station,WBSS,ME,Solar,Solar,2028,17.1,,,4.064553674999616,NATIONAL,never
+68416.0,Crooked Trail Solar,CTS1,ME,Solar,Solar,2029,68.0,,2028.0,2.112019877834144,NATIONAL,slip_-1
+68416.0,Crooked Trail Solar,CTS1,ME,Solar,Solar,2029,68.0,,2029.0,2.1636470304034234,NATIONAL,slip_0
+68416.0,Crooked Trail Solar,CTS1,ME,Solar,Solar,2029,68.0,,2030.0,9.832156537943886,NATIONAL,slip_1
+68416.0,Crooked Trail Solar,CTS1,ME,Solar,Solar,2029,68.0,,2031.0,10.21748283121096,NATIONAL,slip_2
+68416.0,Crooked Trail Solar,CTS1,ME,Solar,Solar,2029,68.0,,2032.0,28.868965041239605,NATIONAL,slip_3plus
+68416.0,Crooked Trail Solar,CTS1,ME,Solar,Solar,2029,68.0,,,14.805728681367981,NATIONAL,never
+68491.0,Freedom Pine Solar,FPS,ME,Solar,Solar,2029,250.0,,2028.0,7.76477896262553,NATIONAL,slip_-1
+68491.0,Freedom Pine Solar,FPS,ME,Solar,Solar,2029,250.0,,2029.0,7.954584670600822,NATIONAL,slip_0
+68491.0,Freedom Pine Solar,FPS,ME,Solar,Solar,2029,250.0,,2030.0,36.147634330676055,NATIONAL,slip_1
+68491.0,Freedom Pine Solar,FPS,ME,Solar,Solar,2029,250.0,,2031.0,37.56427511474618,NATIONAL,slip_2
+68491.0,Freedom Pine Solar,FPS,ME,Solar,Solar,2029,250.0,,2032.0,106.13590088691032,NATIONAL,slip_3plus
+68491.0,Freedom Pine Solar,FPS,ME,Solar,Solar,2029,250.0,,,54.432826034441106,NATIONAL,never
+66879.0,"KCE CT 1, LLC",CT1,CT,Battery Storage,Wind,2031,45.0,,2031.0,45.0,unchanged,

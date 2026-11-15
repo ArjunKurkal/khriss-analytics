@@ -1,0 +1,32 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+61037.0,Apple Hill Solar,APPL,VT,Solar,Solar,2027,2.0,,ISONE
+68215.0,Braley Hill North Solar,BRAPV,MA,Solar,Solar,2027,5.0,,ISONE
+65146.0,CT Airport Authority Solar One,VCP16,CT,Solar,Solar,2027,4.0,,ISONE
+70401.0,Clems Way Solar,CLEM,MA,Solar,Solar,2027,5.0,,ISONE
+68216.0,Cushman Road Solar,CUSPV,MA,Solar,Solar,2027,3.0,,ISONE
+65366.0,Emery Meadow Solar Station,EMSS,ME,Solar,Solar,2027,16.4,,ISONE
+68217.0,Featherbed Lane South Solar,FEAPV,MA,Solar,Solar,2027,1.0,,ISONE
+70437.0,Groton Flanders Road Landfill,GROTN,CT,Solar,Solar,2027,5.0,,ISONE
+70402.0,Logging Swamp North,LOGN,MA,Solar,Solar,2027,5.0,,ISONE
+70404.0,Logging Swamp South,LOGS,MA,Solar,Solar,2027,5.0,,ISONE
+66513.0,MA Acushnet 540R Main St,18229,MA,Solar,Solar,2027,4.0,,ISONE
+70461.0,Plainfield Solar One,PLNFD,CT,Solar,Solar,2027,4.0,,ISONE
+50736.0,Pure Hedge LLC,FSS17,CT,Solar,Solar,2027,70.0,,ISONE
+65710.0,Putnam Meadow Solar Station,PTNM,CT,Solar,Solar,2027,4.0,,ISONE
+68218.0,Randall Lane Solar,RANPV,MA,Solar,Solar,2027,5.0,,ISONE
+68219.0,Snipatuit Road Solar,SNIPV,MA,Solar,Solar,2027,4.0,,ISONE
+68543.0,Town of Sharon Portfolio -Mt St Landfill,3850G,MA,Solar,Solar,2027,5.0,,ISONE
+70460.0,"Willington Solar One, LLC",WILS1,CT,Solar,Solar,2027,2.0,,ISONE
+64067.0,Auburn PV - BD Solar Auburn LLC,AUBPV,ME,Solar,Solar,2028,5.0,,NATIONAL
+68490.0,Broadleaf Solar,BLS,CT,Solar,Solar,2028,200.0,,NATIONAL
+69667.0,Fair Haven Solar,FHS1,VT,Solar,Solar,2028,20.0,,NATIONAL
+65060.0,Hope Solar One,VCP02,RI,Solar,Solar,2028,3.5,,NATIONAL
+64071.0,Lewiston Jn PV - BD Solar Lewiston Jn LL,LJNPV,ME,Solar,Solar,2028,5.0,,NATIONAL
+68213.0,Panton,1,VT,Solar,Solar,2028,50.0,,NATIONAL
+64064.0,Shaftsbury Solar,SHAFT,VT,Solar,Solar,2028,20.0,,NATIONAL
+65369.0,Topsham Meadow Solar Station,TMSS,ME,Solar,Solar,2028,17.2,,NATIONAL
+65709.0,Turner Meadow Solar Station,TRNR,ME,Solar,Solar,2028,19.8,,NATIONAL
+65708.0,Warren Meadow Solar Station,WMSS,ME,Solar,Solar,2028,74.5,,NATIONAL
+65371.0,West Baldwin Solar Station,WBSS,ME,Solar,Solar,2028,17.1,,NATIONAL
+68416.0,Crooked Trail Solar,CTS1,ME,Solar,Solar,2029,68.0,,NATIONAL
+68491.0,Freedom Pine Solar,FPS,ME,Solar,Solar,2029,250.0,,NATIONAL

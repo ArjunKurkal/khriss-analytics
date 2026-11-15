@@ -1,0 +1,135 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+70300.0,Adams Creek Solar Project,USADC,TX,Solar,Solar,2027,250.0,,ST:TX
+66894.0,"Albatross Solar, LLC",ALBPV,TX,Solar,Solar,2027,101.0,,ST:TX
+64349.0,Armadillo Solar Center,6666,TX,Solar,Solar,2027,175.0,,ST:TX
+70330.0,Bighorn Ridge Solar,BRSPV,TX,Solar,Solar,2027,300.0,,ST:TX
+66691.0,"Briggs Solar, LLC",BRIGG,TX,Solar,Solar,2027,305.0,,ST:TX
+67581.0,Cairos Solar and Storage,CIRSA,TX,Solar,Solar,2027,153.3,,ST:TX
+70204.0,Cantaloupe Solar,CANPV,TX,Solar,Solar,2027,300.0,,ST:TX
+68901.0,Cedar Range Solar,PVCLA,TX,Solar,Solar,2027,150.0,,ST:TX
+68078.0,Chisme Solar and Storage,CHIPV,TX,Solar,Solar,2027,147.0,,ST:TX
+65842.0,Clear Fork Creek Solar and BESS SLF,CFCPV,TX,Solar,Solar,2027,600.0,,ST:TX
+67956.0,Concho Pearl Solar and Storage,CONPV,TX,Solar,Solar,2027,171.9,,ST:TX
+67773.0,Cosper Solar,GRS20,TX,Solar,Solar,2027,148.2,,ST:TX
+68478.0,Darkwood Solar,DRK,TX,Solar,Solar,2027,150.7,,ST:TX
+66421.0,Despain Solar,GRS13,TX,Solar,Solar,2027,236.2,,ST:TX
+69982.0,Diamondback Solar,3569,TX,Solar,Solar,2027,200.0,,ST:TX
+68902.0,Echols Grove Solar,ECHPV,TX,Solar,Solar,2027,201.0,,ST:TX
+69660.0,El Patrimonio,HS,TX,Solar,Solar,2027,150.0,,ST:TX
+67552.0,Elm Flats Solar,ELMFL,TX,Solar,Solar,2027,125.0,,ST:TX
+70183.0,Flatland Solar,FSPV,TX,Solar,Solar,2027,180.0,,ST:TX
+68769.0,Greenalia Solar Power Misae III,M3GSP,TX,Solar,Solar,2027,169.6,,ST:TX
+67657.0,Hanson,HANSO,TX,Solar,Solar,2027,396.0,,ST:TX
+69262.0,Hillsboro Solar Project,HILL1,TX,Solar,Solar,2027,5.0,,ST:TX
+69262.0,Hillsboro Solar Project,HILL2,TX,Solar,Solar,2027,5.0,,ST:TX
+65851.0,Hollow Branch Creek,HB2PV,TX,Solar,Solar,2027,460.0,,ST:TX
+70514.0,Hoyte Solar,GEN1,TX,Solar,Solar,2027,206.8,,ST:TX
+66891.0,Indigo Solar & Storage,IS245,TX,Solar,Solar,2027,150.0,,ST:TX
+67358.0,Lake Whitney Solar,4670,TX,Solar,Solar,2027,150.0,,ST:TX
+67781.0,Lampe Solar,GRS7,TX,Solar,Solar,2027,60.2,,ST:TX
+69687.0,Lucky 7 Solar Farm LLC,L7SF,TX,Solar,Solar,2027,100.0,,ST:TX
+70200.0,Lucy Solar,64205,TX,Solar,Solar,2027,351.3,,ST:TX
+66895.0,"Lupinus Solar 1, LLC",LP1PV,TX,Solar,Solar,2027,165.0,,ST:TX
+66896.0,"Lupinus Solar 2, LLC",LP2PV,TX,Solar,Solar,2027,244.0,,ST:TX
+66396.0,Naduah Solar,NDUAH,TX,Solar,Solar,2027,102.3,,ST:TX
+70533.0,Nash Solar,NASH,TX,Solar,Solar,2027,10.0,,ST:TX
+65344.0,Noria Hondo Solar (Hybrid),66148,TX,Solar,Solar,2027,145.0,,ST:TX
+66401.0,OCI Hillsboro,OHLPV,TX,Solar,Solar,2027,200.0,,ST:TX
+65893.0,OCI SunRoper,OCIRO,TX,Solar,Solar,2027,260.0,,ST:TX
+69780.0,Oystercatcher Solar,OCPV1,TX,Solar,Solar,2027,197.0,,ST:TX
+64999.0,Pecan Prairie North Solar,CPNS1,TX,Solar,Solar,2027,324.1,,ST:TX
+64981.0,Pecan Prairie South Solar,CPSS1,TX,Solar,Solar,2027,132.9,,ST:TX
+68359.0,Pepper Solar Farm,OCPSF,TX,Solar,Solar,2027,120.0,,ST:TX
+68030.0,Red Hollow Renewable Energy,RDHLW,TX,Solar,Solar,2027,300.0,,ST:TX
+65310.0,Renegade Solar Project (Dawn),DAWN1,TX,Solar,Solar,2027,515.0,,ST:TX
+67341.0,SGT Hoskins Solar Project Hybrid,NOSPV,TX,Solar,Solar,2027,204.1,,ST:TX
+70047.0,Selenite Springs Solar,SSPV,TX,Solar,Solar,2027,250.0,,ST:TX
+68903.0,Solex Ridge Solar,MUSPV,TX,Solar,Solar,2027,100.0,,ST:TX
+68033.0,Sunrose Renewable Energy,SNRSE,TX,Solar,Solar,2027,300.0,,ST:TX
+68175.0,Symank Solar,SYMPV,TX,Solar,Solar,2027,66.6,,ST:TX
+63202.0,TREX US Red Holly,701,TX,Solar,Solar,2027,250.0,,ST:TX
+67575.0,TX Nazareth Solar,NZRTH,TX,Solar,Solar,2027,201.0,,ST:TX
+65855.0,Tehuacana Creek Solar,TE1PV,TX,Solar,Solar,2027,644.8,,ST:TX
+66309.0,Uvalde Solar 2,UVPV2,TX,Solar,Solar,2027,300.0,,ST:TX
+67354.0,Waco Solar II,5698,TX,Solar,Solar,2027,200.0,,ST:TX
+70093.0,Wallace Solar - (TX),WSPV1,TX,Solar,Solar,2027,36.0,,ST:TX
+67222.0,Yellow Viking Solar,1,TX,Solar,Solar,2027,170.0,,ST:TX
+70175.0,ZSS Solar,ZSPV,TX,Solar,Solar,2027,450.0,,ST:TX
+68082.0,Bluebonnet Prairie Wind,BBP,TX,Wind,Wind,2027,170.0,,ST:TX
+66976.0,"Carol Wind, LLC",WAPPA,TX,Wind,Wind,2027,167.8,,ST:TX
+60272.0,"Cone Renewable Energy Project, LLC",WT1,TX,Wind,Wind,2027,150.0,,ST:TX
+59971.0,Easter,ESTR1,TX,Wind,Wind,2027,152.0,,ST:TX
+69403.0,Goodnight Wind II,GOOD2,TX,Wind,Wind,2027,265.5,,ST:TX
+69606.0,"Monarch Creek Wind, LLC",7496,TX,Wind,Wind,2027,287.6,,ST:TX
+62846.0,Water Valley Wind Energy,WWE1,TX,Wind,Wind,2027,180.0,,ST:TX
+68347.0,Abeja Solar Farm,ABPV1,TX,Solar,Solar,2028,200.0,,ST:TX
+66673.0,"Accalia Point Solar, LLC",66666,TX,Solar,Solar,2028,190.5,,ST:TX
+67250.0,Alina Energy LLC,ALIPV,TX,Solar,Solar,2028,200.0,,ST:TX
+65853.0,Banita Creek- Spindlepop Solar,MIDPV,TX,Solar,Solar,2028,371.0,,ST:TX
+67772.0,Braswell Solar,GRS9,TX,Solar,Solar,2028,44.2,,ST:TX
+67561.0,Callan Solar,RIC93,TX,Solar,Solar,2028,90.0,,ST:TX
+68738.0,Cannibal Draw Solar and Storage,CANPV,TX,Solar,Solar,2028,149.5,,ST:TX
+67776.0,Cuchillas PV and BESS,GRS2P,TX,Solar,Solar,2028,305.6,,ST:TX
+68604.0,Dahlia Energy,DALPV,TX,Solar,Solar,2028,200.0,,ST:TX
+67543.0,Donegal Solar Project,DOGSP,TX,Solar,Solar,2028,204.2,,ST:TX
+67560.0,Edens Solar,RIC94,TX,Solar,Solar,2028,70.0,,ST:TX
+65847.0,Eldora Energy LLC,ELDPV,TX,Solar,Solar,2028,200.0,,ST:TX
+67353.0,Erath County Solar,4666,TX,Solar,Solar,2028,204.0,,ST:TX
+66398.0,Eytcheson Solar,EYTCH,TX,Solar,Solar,2028,76.4,,ST:TX
+67778.0,Findley PV and BESS,GR16P,TX,Solar,Solar,2028,50.3,,ST:TX
+69506.0,Gail Mountain Solar,GAIPV,TX,Solar,Solar,2028,244.4,,ST:TX
+68305.0,Gigawatt Solar,GWT1,TX,Solar,Solar,2028,429.0,,ST:TX
+68305.0,Gigawatt Solar,GWT2,TX,Solar,Solar,2028,344.0,,ST:TX
+69984.0,Hackberry Creek Solar,6059,TX,Solar,Solar,2028,175.0,,ST:TX
+67777.0,Harryoung PV and BESS,GRS4P,TX,Solar,Solar,2028,190.0,,ST:TX
+64234.0,Hecate Energy Harley Hand Solar LLC,19936,TX,Solar,Solar,2028,514.0,,ST:TX
+67985.0,Hornet Solar II (TX) (Hybrid),HRNT2,TX,Solar,Solar,2028,200.0,,ST:TX
+68203.0,IP Meitner Solar,MEITS,TX,Solar,Solar,2028,500.0,,ST:TX
+68201.0,IP Roman Solar,ROMS,TX,Solar,Solar,2028,500.0,,ST:TX
+68354.0,La Salle Solar,LSPV1,TX,Solar,Solar,2028,500.0,,ST:TX
+68172.0,Myers Solar and Storage,MYEPV,TX,Solar,Solar,2028,100.9,,ST:TX
+67987.0,Mystic Springs Renewable Energy (Hybrid),MYSPS,TX,Solar,Solar,2028,250.0,,ST:TX
+68411.0,Noor Solar,NORPV,TX,Solar,Solar,2028,188.2,,ST:TX
+67078.0,Quarter Ranch Solar,GRS3,TX,Solar,Solar,2028,154.1,,ST:TX
+67782.0,RedSun PV and BESS,GS22P,TX,Solar,Solar,2028,84.0,,ST:TX
+69584.0,Rising Star Solar,3572,TX,Solar,Solar,2028,500.0,,ST:TX
+65854.0,Rowdy Creek Solar and BESS,RDYPV,TX,Solar,Solar,2028,455.0,,ST:TX
+68173.0,Sandford Solar and Storage,SANPV,TX,Solar,Solar,2028,126.2,,ST:TX
+68479.0,Short Creek Solar,SHRT,TX,Solar,Solar,2028,606.4,,ST:TX
+67664.0,Soleil,SOLEI,TX,Solar,Solar,2028,450.0,,ST:TX
+67562.0,Stonewall Solar,RIC92,TX,Solar,Solar,2028,60.2,,ST:TX
+68034.0,Sunscape Renewable Energy,SNSCP,TX,Solar,Solar,2028,500.0,,ST:TX
+66922.0,Timber Cove Solar,59957,TX,Solar,Solar,2028,100.0,,ST:TX
+66397.0,Tokio Solar,TOKIO,TX,Solar,Solar,2028,170.4,,ST:TX
+66132.0,Trinity River Solar 1,TXTR1,TX,Solar,Solar,2028,150.0,,ST:TX
+68739.0,Uva Creek Solar,UVAPV,TX,Solar,Solar,2028,301.0,,ST:TX
+67567.0,Wensowitch Solar Park,WEGSP,TX,Solar,Solar,2028,145.6,,ST:TX
+67785.0,Whistle Solar,GRS19,TX,Solar,Solar,2028,56.3,,ST:TX
+68459.0,"Bob Creek Wind, LLC",5961,TX,Wind,Wind,2028,175.0,,ST:TX
+59243.0,Changing Winds,CHAN1,TX,Wind,Wind,2028,288.0,,ST:TX
+68204.0,IP Meitner Wind,MEITW,TX,Wind,Wind,2028,500.0,,wind_override
+68202.0,IP Roman Wind,ROMW,TX,Wind,Wind,2028,670.5,,wind_override
+67649.0,Amerada,AMERA,TX,Solar,Solar,2029,300.0,,NATIONAL
+69640.0,Cazadores Solar,73509,TX,Solar,Solar,2029,300.0,,NATIONAL
+68351.0,Clairemont Solar,CLAPV,TX,Solar,Solar,2029,250.0,,NATIONAL
+68275.0,Erin,1,TX,Solar,Solar,2029,202.0,,NATIONAL
+68357.0,Lazy U Solar 1,LUPV1,TX,Solar,Solar,2029,250.0,,NATIONAL
+68358.0,Lazy U Solar 2,LUPV2,TX,Solar,Solar,2029,250.0,,NATIONAL
+67996.0,Leuven Solar LLC,SEPAS,TX,Solar,Solar,2029,217.0,,NATIONAL
+69636.0,Main Horn Solar,69363,TX,Solar,Solar,2029,100.0,,NATIONAL
+68080.0,Marcos PV and BESS,GRS8P,TX,Solar,Solar,2029,115.9,,NATIONAL
+69892.0,Oak Valley Solar,OAK,TX,Solar,Solar,2029,251.3,,NATIONAL
+67563.0,Ratcliff Solar Park,RAGSP,TX,Solar,Solar,2029,78.8,,NATIONAL
+67564.0,Reis Solar Park,REGSP,TX,Solar,Solar,2029,105.5,,NATIONAL
+67566.0,Roscommon Solar Park,ROGSP,TX,Solar,Solar,2029,82.8,,NATIONAL
+67568.0,Wittig Solar Park,WIGSP,TX,Solar,Solar,2029,96.0,,NATIONAL
+67542.0,Blue Hills Wind Project,BHWP,TX,Wind,Wind,2029,276.0,,NATIONAL
+68090.0,Willow Beach Wind,WILLO,TX,Wind,Wind,2029,200.0,,NATIONAL
+63193.0,Alira,UNIT1,TX,Solar,Solar,2030,222.8,,NATIONAL
+67559.0,Dunlay Solar,RIC95,TX,Solar,Solar,2030,180.4,,NATIONAL
+68767.0,Greenalia Solar Power Blackwelder Ranch,BRGSP,TX,Solar,Solar,2030,199.7,,NATIONAL
+68765.0,Hutcherson Solar,HUGSP,TX,Solar,Solar,2030,123.3,,NATIONAL
+67544.0,Leitrim Solar Park,LEGSP,TX,Solar,Solar,2030,91.2,,NATIONAL
+69644.0,Pease River Solar,58441,TX,Solar,Solar,2030,300.0,,NATIONAL
+68768.0,Blackwelder Ranch Wind,BRGWP,TX,Wind,Wind,2030,110.4,,NATIONAL
+68766.0,Pioneer Field Wind Power,PFGWP,TX,Wind,Wind,2030,136.2,,NATIONAL

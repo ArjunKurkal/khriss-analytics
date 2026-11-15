@@ -1,0 +1,32 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,,DSW
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,DSW
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,DSW
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,,DSW
+69058.0,CO Bar C Solar and BESS,CBCPV,AZ,Solar,Solar,2027,206.0,,DSW
+69056.0,CO Bar Solar and BESS,CBPV,AZ,Solar,Solar,2027,400.0,,DSW
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,,DSW
+69966.0,"Four Mile Mesa Solar, LLC",FMM,NM,Solar,Solar,2027,100.0,,DSW
+69967.0,"Foxtail Flats Solar, LLC",FTS,NM,Solar,Solar,2027,170.0,,DSW
+70587.0,Gonzo Sol Solar CSG,GONZO,NM,Solar,Solar,2027,5.0,,DSW
+69779.0,Hashknife Energy Center II LLC,HK2SO,AZ,Solar,Solar,2027,200.0,,DSW
+68328.0,Pioneer Clean Energy Center,ORCH1,AZ,Solar,Solar,2027,300.0,,DSW
+70586.0,Raven Sol Solar CSG,RAVEN,NM,Solar,Solar,2027,5.0,,DSW
+64216.0,Rockmont Solar and Storage Project,201LC,NM,Solar,Solar,2027,100.0,,DSW
+70218.0,Selma Energy Center,SEL1S,AZ,Solar,Solar,2027,125.0,,DSW
+70049.0,Sierra Solar,NUCPV,AZ,Solar,Solar,2027,25.0,,DSW
+69060.0,Snowflake A Solar and BESS,SNFA,AZ,Solar,Solar,2027,475.0,,DSW
+70585.0,Trigo Sol Solar CSG,TRIGO,NM,Solar,Solar,2027,4.6,,DSW
+70405.0,"Winchester Solar I, LLC",PV-1,AZ,Solar,Solar,2027,87.8,,DSW
+70406.0,"Winchester Solar II, LLC",PV-2,AZ,Solar,Solar,2027,87.8,,DSW
+69057.0,CO Bar D Solar and BESS,CBDPV,AZ,Solar,Solar,2028,394.0,,NATIONAL
+68283.0,Desert Sand BESS,DESA1,AZ,Solar,Solar,2028,300.0,,NATIONAL
+68287.0,Eagle Eye Solar and Storage,EAGL1,AZ,Solar,Solar,2028,400.0,,NATIONAL
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,NATIONAL
+64208.0,Red Antelope Solar & Energy Storage Farm,30PNA,AZ,Solar,Solar,2028,400.0,,NATIONAL
+68883.0,Sawtooth Solar,STPV,AZ,Solar,Solar,2028,250.0,,NATIONAL
+64849.0,Wildcat Solar Power Plant LLC,WILDC,NM,Solar,Solar,2028,90.0,,NATIONAL
+59047.0,"Gallegos Wind Farm, Phase 1",GEN 1,NM,Wind,Wind,2028,190.0,,NATIONAL
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,,NATIONAL
+68298.0,THREE SISTERS Solar Generation and BESS,THSI2,AZ,Solar,Solar,2029,300.0,,NATIONAL
+58652.0,La Paz Solar Tower,1,AZ,Solar,Solar,2030,200.0,,NATIONAL

@@ -1,0 +1,31 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,East,SPP
+66113.0,Big Elk Solar,NEBE1,NE,Solar,Solar,2027,100.0,East,SPP
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,East,SPP
+64857.0,Canyonland Solar,C0513,CO,Solar,Solar,2027,140.0,West,ST:CO
+69189.0,Cowboy Solar II,C2PV,WY,Solar,Solar,2027,365.0,West,SPP
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,East,SPP
+70271.0,"Fiddle Leaf Solar, LLC",OKFL1,OK,Solar,Solar,2027,80.0,East,SPP
+70115.0,Fort Lyon Solar,GEN1,CO,Solar,Solar,2027,1.8,West,ST:CO
+69481.0,Foxtrot Solar Energy LLC,FXTRT,MO,Solar,Solar,2027,108.9,East,SPP
+69239.0,High Spring Solar Energy,HSS,OK,Solar,Solar,2027,400.0,East,SPP
+70116.0,La Junta Solar,GEN1,CO,Solar,Solar,2027,4.8,West,ST:CO
+70117.0,Lamar Solar,GEN1,CO,Solar,Solar,2027,4.8,West,ST:CO
+69035.0,Pivot Solar 36,PI36,CO,Solar,Solar,2027,5.0,West,ST:CO
+70119.0,Raceway Solar - (CO),GEN1,CO,Solar,Solar,2027,7.0,East,ST:CO
+69631.0,Sunflower Sky Energy Center,SFS01,KS,Solar,Solar,2027,65.0,East,SPP
+70341.0,"Thunder Wolf II, LLC",TW200,CO,Solar,Solar,2027,200.0,West,ST:CO
+70118.0,Trinidad Solar,GEN1,CO,Solar,Solar,2027,1.8,West,ST:CO
+64744.0,Turkey Creek Solar Project,TC001,CO,Solar,Solar,2027,200.0,West,ST:CO
+70299.0,"Pioneer Creek Wind, LLC",814,KS,Wind,Wind,2027,252.0,East,SPP-East
+65948.0,Plum Nellie Wind Farm LLC,PNW01,KS,Wind,Wind,2027,201.6,East,SPP-East
+70515.0,Burt County Solar (Sandhills Energy),PV1,NE,Solar,Solar,2028,250.0,East,NATIONAL
+68022.0,Cowboy Solar I,CLP20,WY,Solar,Solar,2028,400.0,West,NATIONAL
+70541.0,Swan Solar,SPV,MO,Solar,Solar,2028,650.0,East,NATIONAL
+64835.0,Silver Queen Wind Farm,,IA,Wind,Wind,2028,252.0,East,SPP-East
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,East,NATIONAL
+68317.0,Dutchman Solar generation and BESS,DUTC1,WY,Solar,Solar,2029,499.0,West,NATIONAL
+70186.0,Solstice Solar LLC,SOLPV,OK,Solar,Solar,2029,200.0,East,NATIONAL
+61511.0,Burt County Wind,BCNE,NE,Wind,Wind,2029,75.0,East,NATIONAL
+64847.0,Rail Tie Wind,CRTW1,WY,Wind,Wind,2029,504.0,West,wind_override
+67936.0,Goshen Solar,GS1,WY,Solar,Solar,2030,163.0,West,NATIONAL

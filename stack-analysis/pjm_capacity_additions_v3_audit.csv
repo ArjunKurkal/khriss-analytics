@@ -1,0 +1,165 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+68119.0,Aurora 7-SLCHI307,CH307,IL,Solar,Solar,2027,1.9,,ST:IL
+66850.0,Beaver Creek Solar,BEAC1,PA,Solar,Solar,2027,34.2,,PJM
+68121.0,Bensenville 14-SLCHI414,CH414,IL,Solar,Solar,2027,1.3,,ST:IL
+68123.0,Bensenville Ind Park 10-SLCHI410,CH410,IL,Solar,Solar,2027,1.2,,ST:IL
+68126.0,Bensenville Ind Park 2-SLCHI402,CH402,IL,Solar,Solar,2027,1.1,,ST:IL
+68127.0,Bensenville Ind Park 4-SLCHI424,CH424,IL,Solar,Solar,2027,1.7,,ST:IL
+70075.0,Bigler - PA 0409 (Flango 1),409,PA,Solar,Solar,2027,3.0,,PJM
+70077.0,Bigler - PA 0437 (Flango 3),437,PA,Solar,Solar,2027,3.0,,PJM
+70078.0,Bigler - PA 0438 (Flango 4),438,PA,Solar,Solar,2027,2.0,,PJM
+68073.0,Blue Ridge Solar,BLUER,VA,Solar,Solar,2027,95.0,,ST:VA
+68014.0,Bradford Solar PA,BRDFS,PA,Solar,Solar,2027,100.5,,PJM
+67990.0,Bright Mountain Solar,BM1,KY,Solar,Solar,2027,80.0,,PJM
+70079.0,Buckingham - PA 0151 (Crea),151,PA,Solar,Solar,2027,3.0,,PJM
+70080.0,Burrell - PA 0396 (Copeland),396,PA,Solar,Solar,2027,3.0,,PJM
+70081.0,CVE US PA Dayton 379,379,PA,Solar,Solar,2027,3.0,,PJM
+70374.0,Chaberton Solar Crestone,CSC52,DE,Solar,Solar,2027,4.0,,PJM
+69582.0,"Chester Solar Technology Park, LLC",CSTP,VA,Solar,Solar,2027,160.0,,ST:VA
+68129.0,Cicero 3-SLCHI603,CH603,IL,Solar,Solar,2027,1.9,,ST:IL
+66315.0,Clover Creek Solar,CCSO,VA,Solar,Solar,2027,77.2,,ST:VA
+69742.0,Cooperative Solar Three-Marion,PV3,KY,Solar,Solar,2027,96.0,,PJM
+69741.0,Cooperative Solar Two-Fayette,PV2,KY,Solar,Solar,2027,40.0,,PJM
+70196.0,"DEL022-30423B Thorogoods Rd, LLC",DEL22,DE,Solar,Solar,2027,2.0,,PJM
+70082.0,Dayton - PA 0404 (Good East),404,PA,Solar,Solar,2027,2.5,,PJM
+68995.0,Dover Solar (PA),ENX38,PA,Solar,Solar,2027,75.0,,PJM
+70023.0,Edgecombe Solar LLC,EDGCM,NC,Solar,Solar,2027,75.0,,ST:NC
+68133.0,Elk Grove 51-SLCHI151,CH151,IL,Solar,Solar,2027,1.4,,ST:IL
+67984.0,Firefly Solar PA,FFLPA,PA,Solar,Solar,2027,401.6,,PJM
+67937.0,Flora Solar,FLOSO,IL,Solar,Solar,2027,125.0,,ST:IL
+69998.0,Franklin White Church Road Solar LLC,WHTCH,PA,Solar,Solar,2027,3.0,,PJM
+69862.0,Galva School,GALF,IL,Solar,Solar,2027,1.5,,ST:IL
+67871.0,Gladys Solar LLC,ENX29,VA,Solar,Solar,2027,60.4,,ST:VA
+68137.0,Glendale Heights 10-SLCHI910,CH910,IL,Solar,Solar,2027,1.3,,ST:IL
+68211.0,Grears Corner Solar,GRER,DE,Solar,Solar,2027,4.0,,PJM
+64073.0,"Great Bear Solar, LLC",GBS,OH,Solar,Solar,2027,46.0,,ST:OH
+69999.0,Greenwood Bottom Road Solar LLC,GREEB,PA,Solar,Solar,2027,3.0,,PJM
+70000.0,Greenwood Route 254 Solar LLC,GREER,PA,Solar,Solar,2027,3.0,,PJM
+65821.0,Honey Creek Solar,HNYSR,IN,Solar,Solar,2027,200.0,,ST:IN
+67173.0,Hoosier Line Solar,HLW00,IN,Solar,Solar,2027,180.0,,ST:IN
+68138.0,Internationale Ctr 11-SLCHI321,CH321,IL,Solar,Solar,2027,1.8,,ST:IL
+70546.0,Jarratt Energy Facility,JAR-1,VA,Solar,Solar,2027,16.3,,ST:VA
+70546.0,Jarratt Energy Facility,JAR-2,VA,Solar,Solar,2027,14.9,,ST:VA
+70546.0,Jarratt Energy Facility,JAR-3,VA,Solar,Solar,2027,22.4,,ST:VA
+70083.0,Jones - PA 0399 (Rhodes),399,PA,Solar,Solar,2027,3.0,,PJM
+70170.0,Jones - PA 0429 (Rhodes South),429,PA,Solar,Solar,2027,3.0,,PJM
+67647.0,Kinglet,KINGL,VA,Solar,Solar,2027,5.0,,ST:VA
+65425.0,Kingwood Solar,KWOOD,OH,Solar,Solar,2027,175.0,,ST:OH
+70172.0,Kittanning - PA 0383 (Hoeter),383,PA,Solar,Solar,2027,3.0,,PJM
+68302.0,Lake Trout Solar,LAKET,IN,Solar,Solar,2027,245.0,,ST:IN
+70167.0,Latrobe - PA 0408 (Soccerhound B),408,PA,Solar,Solar,2027,1.0,,PJM
+68930.0,MC Solar,ENX36,PA,Solar,Solar,2027,50.0,,PJM
+70003.0,Madison Taylor Road Solar LLC,TAYLR,PA,Solar,Solar,2027,3.0,,PJM
+68212.0,Maryland Line Road Solar,MDLN,DE,Solar,Solar,2027,2.5,,PJM
+68140.0,Melrose Park 2-SLCHI547,CH547,IL,Solar,Solar,2027,3.0,,ST:IL
+70168.0,Monroe - PA 0485 (Lawrence),485,PA,Solar,Solar,2027,2.4,,PJM
+70169.0,Monroe - PA 0486 (Acey),486,PA,Solar,Solar,2027,3.0,,PJM
+69994.0,Montour Tower Drive Solar LLC,MONTR,PA,Solar,Solar,2027,3.0,,PJM
+68810.0,Mora Solar,MORA,PA,Solar,Solar,2027,60.0,,PJM
+69995.0,Muncy Creek Lime Bluff Road Solar,MUNCL,PA,Solar,Solar,2027,3.0,,PJM
+70089.0,"Murch Solar, LLC",MURCH,MI,Solar,Solar,2027,85.0,,PJM
+69859.0,Murphysboro 1,MURP1,IL,Solar,Solar,2027,5.0,,ST:IL
+69860.0,Murphysboro 2,MURP2,IL,Solar,Solar,2027,1.3,,ST:IL
+70336.0,"NCBP ONE, LLC",NCBP1,MD,Solar,Solar,2027,2.5,,PJM
+69767.0,NCBP Seven,NCBP7,MD,Solar,Solar,2027,2.4,,PJM
+70338.0,"NCBP TEN, LLC",NCB10,MD,Solar,Solar,2027,1.4,,PJM
+70114.0,New Alexandria  - PA 0363 (Weimer North),363,PA,Solar,Solar,2027,1.5,,PJM
+70120.0,New Alexandria - PA 0185 (Weimer),185,PA,Solar,Solar,2027,3.0,,PJM
+69861.0,Norris City 2,NORR2,IL,Solar,Solar,2027,3.2,,ST:IL
+68141.0,Northlake 2-SLCHI302,CH302,IL,Solar,Solar,2027,1.6,,ST:IL
+68143.0,Northlake 4-SLCHI304,CH304,IL,Solar,Solar,2027,1.4,,ST:IL
+68144.0,Northlake 5-SLCHI305,CH305,IL,Solar,Solar,2027,2.5,,ST:IL
+66658.0,Nottingham Solar,NOTT,OH,Solar,Solar,2027,100.0,,ST:OH
+63784.0,Palomino Solar,PLMNO,OH,Solar,Solar,2027,200.0,,ST:OH
+70005.0,Penn Shoofly Solar LLC,SHOOF,PA,Solar,Solar,2027,3.0,,PJM
+70123.0,Petersburg - VA 0224 (Murphy),224,VA,Solar,Solar,2027,2.6,,ST:VA
+70376.0,Pivot Energy IL 52,IL52,IL,Solar,Solar,2027,5.0,,ST:IL
+70334.0,Pivot Energy IL 55b LLC,IL55B,IL,Solar,Solar,2027,2.8,,ST:IL
+70100.0,Pivot Energy IL 70 LLC,IL070,IL,Solar,Solar,2027,5.0,,ST:IL
+63846.0,Raceway Solar,RACE,DE,Solar,Solar,2027,50.0,,PJM
+70007.0,Richmond Road Solar LLC,RICHR,VA,Solar,Solar,2027,5.0,,ST:VA
+68510.0,Ritter Solar,CFC1,OH,Solar,Solar,2027,199.0,,ST:OH
+68194.0,Riverstone Solar,RIVER,VA,Solar,Solar,2027,149.5,,ST:VA
+69805.0,Rockford Plant 7,RFRD7,IL,Solar,Solar,2027,1.5,,ST:IL
+65471.0,Rose Gold Solar,RGS23,IN,Solar,Solar,2027,100.0,,ST:IN
+70126.0,Roulette - PA 0467,467,PA,Solar,Solar,2027,2.6,,PJM
+70128.0,Roulette - PA 0479,479,PA,Solar,Solar,2027,1.1,,PJM
+69948.0,SV CSG Manteno,MANTO,IL,Solar,Solar,2027,5.0,,ST:IL
+69818.0,SV CSG North Creek 1,NCREK,IL,Solar,Solar,2027,2.1,,ST:IL
+69817.0,SV CSG St Anne 1,SANNE,IL,Solar,Solar,2027,5.0,,ST:IL
+70564.0,Salem Route 11 Solar LLC,SALER,PA,Solar,Solar,2027,3.0,,PJM
+68086.0,South Branch Solar,SBS,OH,Solar,Solar,2027,115.0,,ST:OH
+65900.0,"Springwater Solar, LLC",SPRIN,OH,Solar,Solar,2027,155.0,,ST:OH
+66672.0,"Stark Solar, LLC",AG239,OH,Solar,Solar,2027,150.0,,ST:OH
+68969.0,Strinestown Solar,ENX39,PA,Solar,Solar,2027,79.6,,PJM
+69560.0,Sunrise Magnolia DE,MAGNO,DE,Solar,Solar,2027,3.0,,PJM
+68271.0,Sweetleaf Solar LLC,SWLS1,NC,Solar,Solar,2027,93.0,,ST:NC
+69819.0,Trenton Solar - (OH),TRNTN,OH,Solar,Solar,2027,9.5,,ST:OH
+70166.0,Unity - PA 0385 (Soccerhound),385,PA,Solar,Solar,2027,3.0,,PJM
+70132.0,Waynesboro - VA 0426 (Patterson B),426,VA,Solar,Solar,2027,5.0,,ST:VA
+70008.0,West Perry Planing Mill Road Solar LLC,WPERR,PA,Solar,Solar,2027,3.0,,PJM
+70171.0,Wetmore - PA 0187 (Chittester),187,PA,Solar,Solar,2027,3.0,,PJM
+70410.0,Willow Solar,ENX42,VA,Solar,Solar,2027,12.0,,ST:VA
+66901.0,Wylie Ridge Solar,WRS,WV,Solar,Solar,2027,8.4,,PJM
+69963.0,Yellow Wood Solar Energy LLC,YLWWD,OH,Solar,Solar,2027,300.0,,ST:OH
+64550.0,Coastal Virginia Offshore Wind (CVOW) Commercial Project,CVOWC,VA,Wind,Offshore Wind,2027,2640.0,,wind_override
+68186.0,Firelands Wind,FIRE,OH,Wind,Wind,2027,297.0,,PJM
+69690.0,Panther Grove 2,PG2,IL,Wind,Wind,2027,472.5,,wind_override
+64658.0,"AEUG Fleming Solar, LLC",AFS,KY,Solar,Solar,2028,188.5,,PJM
+64659.0,"AEUG Madison Solar, LLC",AMS,KY,Solar,Solar,2028,100.0,,PJM
+65462.0,Axton Solar,AXTON,VA,Solar,Solar,2028,201.1,,ST:VA
+67955.0,BAI-Boyles Run-Phase 2,BRPV2,PA,Solar,Solar,2028,15.9,,PJM
+67954.0,BAI-Boyles Run-Phase I,BRPV1,PA,Solar,Solar,2028,15.9,,PJM
+70203.0,Bealeton Solar,GEN1,VA,Solar,Solar,2028,14.2,,ST:VA
+70024.0,Beaver Gross Road Solar LLC,BEAVE,PA,Solar,Solar,2028,3.0,,PJM
+64848.0,"Bedington Energy Facility, LLC",BEF1,WV,Solar,Solar,2028,100.0,,PJM
+70076.0,Bigler - PA 0436 (Flango 2),436,PA,Solar,Solar,2028,3.0,,PJM
+68072.0,Bridleton Solar,BRIDL,VA,Solar,Solar,2028,20.0,,ST:VA
+64036.0,"Caden Energix New Kent, LLC",ENX08,VA,Solar,Solar,2028,20.0,,ST:VA
+65286.0,Caden Energix Piney River LLC,ENX18,VA,Solar,Solar,2028,50.0,,ST:VA
+64543.0,Cedar Creek Solar,1,DE,Solar,Solar,2028,114.0,,PJM
+66870.0,Davis Solar (WV),DAVS,WV,Solar,Solar,2028,11.5,,PJM
+70028.0,Delaware Conrath Road Solar LLC,CONRR,PA,Solar,Solar,2028,3.0,,PJM
+70029.0,East Windsor Solar 1 LLC,EWIN1,NJ,Solar,Solar,2028,1.4,,PJM
+69108.0,Eastern Cottontail Solar,COT01,OH,Solar,Solar,2028,220.0,,PJM
+65313.0,Elm Spring Solar 1,ES,VA,Solar,Solar,2028,3.0,,ST:VA
+68061.0,Gemstone Solar LLC,GEMPV,MI,Solar,Solar,2028,150.0,,PJM
+68205.0,Greenwood Solar I,GRNWD,VA,Solar,Solar,2028,100.0,,ST:VA
+69796.0,Harvey Solar,HARVS,OH,Solar,Solar,2028,350.0,,PJM
+65665.0,Hecate Energy Pulaski 1,HEPU1,VA,Solar,Solar,2028,150.0,,ST:VA
+68511.0,Henry Solar,CHC1,OH,Solar,Solar,2028,206.0,,PJM
+70409.0,Hera Solar,ENX41,VA,Solar,Solar,2028,13.3,,ST:VA
+69763.0,Heritage Prairie Solar LLC,HPS,IL,Solar,Solar,2028,300.0,,PJM
+66695.0,Horsepen Branch Solar,HRSPN,VA,Solar,Solar,2028,25.0,,ST:VA
+70164.0,Kittanning - PA 0406 (Hoeter B),406,PA,Solar,Solar,2028,3.0,,PJM
+70165.0,Kittanning - PA 0407 (Hoeter C),407,PA,Solar,Solar,2028,3.0,,PJM
+70032.0,Liberty Keefer Mill Road Solar LLC,KEEFE,PA,Solar,Solar,2028,3.0,,PJM
+68993.0,MPG Solar,ENX40,PA,Solar,Solar,2028,162.0,,PJM
+70559.0,Mammoth,GEN1,WV,Solar,Solar,2028,86.0,,PJM
+69970.0,Maple Ridge A,MPLRA,PA,Solar,Solar,2028,3.0,,PJM
+69971.0,Maple Ridge B,MPLRB,PA,Solar,Solar,2028,3.0,,PJM
+67966.0,New Jay PV & BESS,NEWJ1,IN,Solar,Solar,2028,39.0,,PJM
+68085.0,Red Maple LRE,RMS1,IL,Solar,Solar,2028,95.0,,PJM
+65930.0,Redbud Run Solar,10,VA,Solar,Solar,2028,30.0,,ST:VA
+70547.0,Rippon Energy Facility,PV-1,WV,Solar,Solar,2028,117.1,,PJM
+68076.0,Rocky Run Solar,ROCKY,VA,Solar,Solar,2031,290.0,,NATIONAL
+69816.0,SV CSG Wilson School Solar,WILSN,IL,Solar,Solar,2028,5.0,,PJM
+66238.0,Sculpin Solar,1SPS,IN,Solar,Solar,2028,180.0,,PJM
+66657.0,Steubenville Solar,STEUB,OH,Solar,Solar,2028,43.0,,PJM
+67879.0,Stony Creek Solar,ENX26,PA,Solar,Solar,2028,15.0,,PJM
+69474.0,Sweet Sue Solar,SWTSU,VA,Solar,Solar,2028,74.8,,ST:VA
+66124.0,"Switchgrass Solar, LLC",SSPV,VA,Solar,Solar,2028,70.0,,ST:VA
+69764.0,Illinois Generation LLC,HPW,IL,Wind,Wind,2028,616.5,,wind_override
+70055.0,Allen Acres Solar,AA1,IL,Solar,Solar,2029,150.0,,NATIONAL
+66138.0,Mayapple Solar 1,INMA1,IN,Solar,Solar,2029,224.0,,NATIONAL
+64767.0,Pigeon Run Solar Project,TC001,VA,Solar,Solar,2029,60.0,,NATIONAL
+65312.0,Shenvalee Solar,SV,VA,Solar,Solar,2029,3.0,,NATIONAL
+68369.0,Starfire Mountain Solar,STMO,KY,Solar,Solar,2029,410.0,,NATIONAL
+65301.0,Steward Creek Solar Phase 1,SC1,IL,Solar,Solar,2029,600.0,,NATIONAL
+68040.0,Sycamore Cross Solar,SYCAM,VA,Solar,Solar,2029,208.2,,NATIONAL
+67884.0,Two Oaks Solar and Storage LLC,ENX27,VA,Solar,Solar,2029,118.0,,NATIONAL
+67352.0,"CPV County Line Solar, LLC",CPVCL,VA,Solar,Solar,2030,150.0,,NATIONAL
+66312.0,Courthouse Solar,CHSL,VA,Solar,Solar,2030,167.0,,NATIONAL
+68075.0,Pineside Solar,PINES,VA,Solar,Solar,2030,74.9,,NATIONAL
+64768.0,Zenith Solar,TC001,VA,Solar,Solar,2030,60.0,,NATIONAL
+,Steward Creek Solar Phase 2,SC2,IL,Solar,Solar,2030,600.0,,NATIONAL

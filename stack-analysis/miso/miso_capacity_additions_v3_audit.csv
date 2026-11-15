@@ -1,0 +1,128 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+70177.0,Allen CSG,ALLEN,IL,Solar,Solar,2027,5.0,Central,ST:IL
+66703.0,Austin Creek Solar,11103,IL,Solar,Solar,2027,140.0,Central,ST:IL
+68900.0,Badger State Solar LLC,BSS,WI,Solar,Solar,2027,149.0,Central,ST:WI
+69463.0,Beecher Solar Park,BCRSP,MI,Solar,Solar,2027,80.0,Central,MISO
+69589.0,Beekman Solar,BEEK1,LA,Solar,Solar,2027,206.8,South,MISO
+64670.0,Big Creek Solar LLC,KOV4A,AR,Solar,Solar,2027,400.0,South,MISO
+69977.0,Blue Branch Solar,BBPV,IL,Solar,Solar,2027,35.9,Central,ST:IL
+69176.0,Bonacci 1,11218,IL,Solar,Solar,2027,2.5,Central,ST:IL
+69177.0,Bonacci 2,11218,IL,Solar,Solar,2027,2.5,Central,ST:IL
+70205.0,Bureau Solar 2 LLC,BURS2,IL,Solar,Solar,2027,2.5,Central,ST:IL
+70198.0,"CF IL Solar Marigold Lane, Flora2 LLC",FLOR2,IL,Solar,Solar,2027,2.0,Central,ST:IL
+70381.0,Carver Garden,GEN1,MN,Solar,Solar,2027,1.0,North,MISO
+69464.0,Cedar Field Solar Park,CDFSP,MI,Solar,Solar,2027,145.0,Central,MISO
+68772.0,Chalk Bluff Solar,CHALK,AR,Solar,Solar,2027,450.0,South,MISO
+67253.0,Cherry Valley,761,IL,Solar,Solar,2027,12.5,Central,ST:IL
+70025.0,Cincinnati CSG 1 LLC,CINC1,IL,Solar,Solar,2027,5.0,Central,ST:IL
+70026.0,Cincinnati CSG 2 LLC,CINC2,IL,Solar,Solar,2027,5.0,Central,ST:IL
+69466.0,City of Detroit Greenfield,GRESP,MI,Solar,Solar,2027,7.0,Central,MISO
+68939.0,Coggon Solar LLC,COGPV,IA,Solar,Solar,2027,100.0,North,MISO
+70378.0,Crane Creek Garden,GEN5,MN,Solar,Solar,2027,5.0,North,MISO
+66441.0,Crossvine Solar,INCV1,IN,Solar,Solar,2027,100.0,Central,ST:IN
+70022.0,Decoy Solar Energy LLC,DCYSO,AR,Solar,Solar,2027,155.0,South,MISO
+68028.0,Delta Solar Plant,DSP,LA,Solar,Solar,2027,80.0,South,MISO
+69894.0,E 1300 Street Solar LLC,13PV1,IL,Solar,Solar,2027,5.0,Central,ST:IL
+70554.0,EESolar29,PV1,MN,Solar,Solar,2027,5.0,North,MISO
+68898.0,Eagle Creek Solar Park LLC,ECS1,MI,Solar,Solar,2027,120.0,Central,MISO
+66851.0,Fairview Solar (AR),FAIR1,AR,Solar,Solar,2027,75.0,South,MISO
+69170.0,"Freshwater Solar II, LLC",FW2,MI,Solar,Solar,2027,100.0,Central,MISO
+69169.0,"Freshwater Solar, LLC",FWS,MI,Solar,Solar,2027,200.0,Central,MISO
+70379.0,Fuller Garden,GEN2,MN,Solar,Solar,2027,1.0,North,MISO
+68972.0,Gilman Solar LLC,11253,IL,Solar,Solar,2027,4.5,Central,ST:IL
+69981.0,"Grant Solar, LLC",GRNTS,SD,Solar,Solar,2027,99.0,North,MISO
+69793.0,Henderson County Solar,HEPV1,KY,Solar,Solar,2027,51.1,Central,MISO
+69480.0,High Noon Solar Energy LLC,HGHNN,WI,Solar,Solar,2027,300.0,Central,ST:WI
+67231.0,"Hinds Solar, LLC",HS,MS,Solar,Solar,2027,150.0,South,MISO
+69590.0,Hollis Creek Solar,HC1,LA,Solar,Solar,2027,220.0,South,MISO
+68744.0,Liberty Solar Energy Center,LSEC,MI,Solar,Solar,2027,220.0,Central,MISO
+66904.0,"Lumberton PV I, LLC",LBTN,TX,Solar,Solar,2027,200.0,South,ST:TX
+70301.0,MN CSG 2019-57,BOHRE,MN,Solar,Solar,2027,1.0,North,MISO
+69825.0,Madden Creek Solar,MADCR,IL,Solar,Solar,2027,5.0,Central,ST:IL
+69804.0,Menard 1,MEPV1,IL,Solar,Solar,2027,2.8,Central,ST:IL
+66558.0,Mowata Solar,LAMO1,LA,Solar,Solar,2027,150.0,South,MISO
+68897.0,New Frontiers Solar,PVSI,KY,Solar,Solar,2027,100.0,Central,MISO
+70466.0,Nine Springs Solar,NSP,WI,Solar,Solar,2027,8.0,Central,ST:WI
+64865.0,Novel Blilie Solar LLC,BLILE,MN,Solar,Solar,2027,1.0,North,MISO
+68876.0,Okolona Solar,6339,MS,Solar,Solar,2027,145.0,South,MISO
+66706.0,Patoka Solar,11101,IN,Solar,Solar,2027,250.0,Central,ST:IN
+69724.0,Pike County Solar,PIKE,IL,Solar,Solar,2027,1.0,Central,ST:IL
+67995.0,Piney Woods Solar,PWS,TX,Solar,Solar,2027,150.0,South,ST:TX
+69034.0,Pivot Energy Minnesota Solar 2,PMI2,MN,Solar,Solar,2027,1.0,North,MISO
+69887.0,"Portage Solar, LLC",PRTGS,WI,Solar,Solar,2027,250.0,Central,ST:WI
+66707.0,Prairie Oak Solar,11102,IL,Solar,Solar,2027,250.0,Central,ST:IL
+68557.0,SR Forrest City,FORRC,AR,Solar,Solar,2027,4.8,South,MISO
+68567.0,SR Sunset,SUNST,LA,Solar,Solar,2027,4.3,South,MISO
+68569.0,SR Ulm,ULM,AR,Solar,Solar,2027,4.8,South,MISO
+68570.0,SR West Helena,WHELN,AR,Solar,Solar,2027,4.8,South,MISO
+69949.0,SV CSG Bloomington,BLOOM,IL,Solar,Solar,2027,5.0,Central,ST:IL
+69812.0,SV CSG Brownstown 1,BROWN,IL,Solar,Solar,2027,1.0,Central,ST:IL
+68934.0,SV CSG East St Louis,EAST1,IL,Solar,Solar,2027,5.0,Central,ST:IL
+69160.0,SV CSG Ottawa 1,OTTA1,IL,Solar,Solar,2027,3.0,Central,ST:IL
+69158.0,SV CSG Reeder Solar,REEDR,IL,Solar,Solar,2027,5.0,Central,ST:IL
+68031.0,Scopus Solar,SCPSR,MO,Solar,Solar,2027,200.0,Central,MISO
+69299.0,Singer Solar,4519,LA,Solar,Solar,2027,300.0,South,MISO
+69215.0,Sommer,11216,IL,Solar,Solar,2027,2.0,Central,ST:IL
+69978.0,Station Solar,STPV,IL,Solar,Solar,2027,40.0,Central,ST:IL
+70477.0,"Stone Elephant Solar WI, LLC",20269,WI,Solar,Solar,2027,3.0,Central,ST:WI
+70092.0,"Two Blues Solar, LLC",2BLUE,IL,Solar,Solar,2027,40.0,Central,ST:IL
+65964.0,"Ursa Solar, LLC",URSA,WI,Solar,Solar,2027,200.0,Central,ST:WI
+67645.0,Varnsen,TWNDA,IL,Solar,Solar,2027,5.0,Central,ST:IL
+65935.0,Vermillion Rise Solar,14,IN,Solar,Solar,2027,185.0,Central,ST:IN
+68036.0,Vichy Solar,VCHSR,MO,Solar,Solar,2027,200.0,Central,MISO
+68502.0,Vienna Walbec Customer Hosted,PV1,WI,Solar,Solar,2027,1.4,Central,ST:WI
+69945.0,Watertown Solar,WTRTN,MI,Solar,Solar,2027,154.0,Central,MISO
+69929.0,Weirs Creek,WC001,KY,Solar,Solar,2027,150.0,Central,MISO
+70009.0,"Willis Solar 1, LLC - (IL)",WILL1,IL,Solar,Solar,2027,5.0,Central,ST:IL
+68184.0,Coles Wind,COLES,IL,Wind,Wind,2027,300.0,Central,wind_override
+62437.0,Dodge County Wind,WT,MN,Wind,Wind,2027,228.0,North,MISO
+65049.0,Pike Creek Wind,CPCW1,IL,Wind,Wind,2027,202.5,Central,ST:IL
+69659.0,Red Butte Wind,RBW,ND,Wind,Wind,2027,202.0,North,MISO
+68179.0,Templeton Wind,TEMPW,IN,Wind,Wind,2027,200.2,Central,MISO
+67379.0,Whitetail Wind Farm,1,WI,Wind,Wind,2027,67.2,Central,MISO
+68339.0,Abercrombie Solar,1,ND,Solar,Solar,2028,295.1,North,MISO
+69462.0,Au Gres Solar Park,AUGSP,MI,Solar,Solar,2028,175.0,Central,MISO
+69990.0,Bogalusa West Solar Station,BW1,LA,Solar,Solar,2028,200.0,South,MISO
+65293.0,Covington (MS),OEMS4,MS,Solar,Solar,2028,96.0,South,MISO
+69952.0,Cypress Harvest Solar Station,CH1,LA,Solar,Solar,2028,200.0,South,MISO
+69776.0,Deckerville Solar Park,DKVSP,MI,Solar,Solar,2028,200.0,Central,MISO
+69450.0,Emerald Bluffs Solar Park,GEN01,WI,Solar,Solar,2028,225.0,Central,MISO
+68352.0,Girasol Solar Farm,GIPV1,MS,Solar,Solar,2028,100.0,South,MISO
+70258.0,"Hawkeye Solar II, LLC",H2SLR,IA,Solar,Solar,2028,250.0,North,MISO
+70257.0,"Hawkeye Solar, LLC",H1SLR,IA,Solar,Solar,2028,200.0,North,MISO
+70522.0,Hecate Energy Sunfish Solar LLC,SSLR,MI,Solar,Solar,2028,499.0,Central,MISO
+66978.0,MPW Solar 1,MS1,IA,Solar,Solar,2028,24.0,North,MISO
+67986.0,Meadow Springs Renewable Energy (Hybrid),MSPRE,IL,Solar,Solar,2028,150.0,Central,MISO
+66114.0,Merrillville Solar,INRD1,IN,Solar,Solar,2028,100.0,Central,MISO
+66958.0,Northern Prairie 1,NOPR1,WI,Solar,Solar,2028,101.0,Central,MISO
+69467.0,Peatville Solar Park,PETSP,MI,Solar,Solar,2028,185.0,Central,MISO
+68029.0,Penton Solar Plant,PSP,MS,Solar,Solar,2028,190.0,South,MISO
+69468.0,Poseyville Solar Park,PSVSP,MI,Solar,Solar,2028,206.4,Central,MISO
+69021.0,Rustic Hills Solar I,RH1PV,IN,Solar,Solar,2028,100.0,Central,MISO
+69022.0,Rustic Hills Solar II LLC,RH2PV,IN,Solar,Solar,2028,100.0,Central,MISO
+69810.0,SV CSG Mahomet,MAHOM,IL,Solar,Solar,2028,3.5,Central,MISO
+69821.0,SV CSG South Roxana,SROX,IL,Solar,Solar,2028,5.0,Central,MISO
+69470.0,Silver Creek Solar Park,SVCSP,MI,Solar,Solar,2028,200.0,Central,MISO
+69608.0,Sinnissippi Solar Energy LLC,SNSPI,WI,Solar,Solar,2028,100.0,Central,MISO
+70397.0,Steel River Solar Phase 1,SRSP1,AR,Solar,Solar,2028,500.0,South,MISO
+69775.0,Strasburg Solar Park,STBSP,MI,Solar,Solar,2028,100.0,Central,MISO
+69577.0,"Superior Solar Project, LLC",SPROR,MI,Solar,Solar,2028,150.0,Central,MISO
+67551.0,Vista Sands Solar,VISTA,WI,Solar,Solar,2028,1182.0,Central,MISO
+69657.0,New Salem Wind I,NS1,ND,Wind,Wind,2028,200.0,North,MISO
+69658.0,New Salem Wind II,NS2,ND,Wind,Wind,2028,226.0,North,MISO
+61687.0,Plum Creek,PLMCK,MN,Wind,Wind,2028,200.0,North,MISO
+69642.0,Arkana Solar,96513,AR,Solar,Solar,2029,100.0,South,NATIONAL
+69989.0,Arkansas Cypress Solar Station,PB1,AR,Solar,Solar,2029,600.0,South,NATIONAL
+69761.0,Dawn Break Solar,DBSOL,WI,Solar,Solar,2029,180.0,Central,NATIONAL
+64904.0,Elliot Solar LLC,1,IN,Solar,Solar,2029,200.0,Central,NATIONAL
+68288.0,Flag Run Solar,MAHI,IN,Solar,Solar,2029,200.0,Central,NATIONAL
+69633.0,Lion Solar,99757,AR,Solar,Solar,2029,200.0,South,NATIONAL
+68368.0,Mayfield Solar and Storage,MYSO,KY,Solar,Solar,2029,200.0,Central,NATIONAL
+69991.0,Segno Solar Station,SN1,TX,Solar,Solar,2029,170.0,South,NATIONAL
+70398.0,Steel River Solar Phase 2,SRSP2,AR,Solar,Solar,2029,500.0,South,NATIONAL
+69993.0,Votaw Solar Station,VT1,TX,Solar,Solar,2029,141.0,South,NATIONAL
+68413.0,Old Town Wind,OT,IL,Wind,Wind,2029,178.0,Central,NATIONAL
+68843.0,Tupper Lake Wind,TLCP,MI,Wind,Wind,2029,200.0,Central,NATIONAL
+69638.0,Landshark Energy Generation Facility,11767,MS,Solar,Solar,2030,160.0,South,NATIONAL
+70399.0,Steel River Solar Phase 3,SRSP3,AR,Solar,Solar,2029,500.0,South,NATIONAL
+69639.0,Triune Solar,16777,TX,Solar,Solar,2030,100.0,South,NATIONAL

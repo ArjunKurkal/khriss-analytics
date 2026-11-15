@@ -1,0 +1,53 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,CAISO
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,CAISO
+69222.0,American Canyon RV Boat Storage,5381,CA,Solar,Solar,2027,1.9,,ST:CA
+69710.0,Bishop Ranch - BR 3-FF,4148C,CA,Solar,Solar,2027,0.6,,ST:CA
+69710.0,Bishop Ranch - BR 3-FF,4148R,CA,Solar,Solar,2027,0.2,,ST:CA
+69706.0,Bishop Ranch - BR 3-GG,4149C,CA,Solar,Solar,2027,1.1,,ST:CA
+69706.0,Bishop Ranch - BR 3-GG,4149R,CA,Solar,Solar,2027,0.2,,ST:CA
+69708.0,Bishop Ranch - BR 3-HH,4150C,CA,Solar,Solar,2027,0.6,,ST:CA
+69708.0,Bishop Ranch - BR 3-HH,4150R,CA,Solar,Solar,2027,0.2,,ST:CA
+66908.0,Bonanza Solar and Storage Project,BZPV,NV,Solar,Solar,2027,300.0,,ST:NV
+63850.0,Cherry,CHERY,CA,Solar,Solar,2027,249.7,,ST:CA
+70178.0,Cobalt,CBLT,CA,Solar,Solar,2027,250.0,,ST:CA
+68528.0,Dynamo Solar LLC,77,CA,Solar,Solar,2027,24.5,,ST:CA
+68792.0,Fordyce - SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,ST:CA
+70105.0,Gardenia 1,GDNAS,CA,Solar,Solar,2027,3.0,,ST:CA
+69895.0,Gateway#1&2 (Newark CA),Gy1a2,CA,Solar,Solar,2027,1.1,,ST:CA
+67836.0,Gibson Solar Project - Hybrid,GSP1,CA,Solar,Solar,2027,13.0,,ST:CA
+69820.0,Grace Energy Center,GRA1,CA,Solar,Solar,2027,500.0,,ST:CA
+63851.0,Grape,GRAPE,CA,Solar,Solar,2027,246.4,,ST:CA
+64428.0,JVR Energy Park LLC,JVR1A,CA,Solar,Solar,2027,90.0,,ST:CA
+70106.0,Jade Solar 3,JADES,CA,Solar,Solar,2027,1.5,,ST:CA
+70109.0,Jasmine,JASMI,CA,Solar,Solar,2027,70.0,,ST:CA
+66805.0,Lycan Solar Project,LYCAN,CA,Solar,Solar,2027,400.0,,ST:CA
+68932.0,Overnight Solar,OSPV,CA,Solar,Solar,2027,150.0,,ST:CA
+68607.0,Pelicans Jaw Hybrid Solar,PLJW1,CA,Solar,Solar,2027,440.0,,ST:CA
+70101.0,Pivot Energy PPA 29 LLC,PPA29,CA,Solar,Solar,2027,2.2,,ST:CA
+63782.0,Rough Hat,RH1,NV,Solar,Solar,2027,400.0,,ST:NV
+69609.0,San Leandro 10 - sleba702,EB702,CA,Solar,Solar,2027,1.0,,ST:CA
+68236.0,South Bay Dis Ctr 6-SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,ST:CA
+69785.0,Stockton 1 - slcva801,CV801,CA,Solar,Solar,2027,1.0,,ST:CA
+69786.0,Stockton 9 - slcva209,CV209,CA,Solar,Solar,2027,1.0,,ST:CA
+68035.0,Syracuse and Tours Renewable Energy,SYTOR,CA,Solar,Solar,2027,40.0,,ST:CA
+67676.0,Zeta Solar & Storage,GEN01,CA,Solar,Solar,2027,75.0,,ST:CA
+63088.0,Rooney Ranch,ROONR,CA,Wind,Wind,2027,21.0,,NATIONAL
+63126.0,Sand Hill A,SNDHA,CA,Wind,Wind,2027,13.5,,NATIONAL
+63652.0,Sand Hill B,SNDHB,CA,Wind,Wind,2027,17.0,,NATIONAL
+63653.0,Sand Hill C,SNDHC,CA,Wind,Wind,2027,80.0,,NATIONAL
+67982.0,Athens Solar I (Hybrid),ATHS1,CA,Solar,Solar,2028,250.0,,ST:CA
+69661.0,Darden I Solar,IPD1S,CA,Solar,Solar,2028,342.7,,ST:CA
+69662.0,Darden II Solar,IPD2S,CA,Solar,Solar,2028,342.7,,ST:CA
+69663.0,Darden III Solar,IPD3S,CA,Solar,Solar,2028,342.7,,ST:CA
+69664.0,Darden IV Solar,IPD4S,CA,Solar,Solar,2028,342.7,,ST:CA
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,CAISO
+64634.0,Kingsley Solar Farm,90FI8,CA,Solar,Solar,2028,225.0,,ST:CA
+68209.0,Purple Sage Energy Center,PSGPV,NV,Solar,Solar,2028,400.0,,ST:NV
+68485.0,Rexford 2 Solar Farm,22SVA,CA,Solar,Solar,2028,200.0,,ST:CA
+68673.0,Sand Luis West,OESLW,CA,Solar,Solar,2028,125.0,,ST:CA
+64632.0,Sienna Solar Farm,99MT8,CA,Solar,Solar,2028,200.0,,ST:CA
+63841.0,Arida Solar (Hybrid),ARIDA,NV,Solar,Solar,2029,370.0,,CAISO
+68486.0,Sienna 2 Solar and Storage Project,44STA,CA,Solar,Solar,2029,55.0,,ST:CA
+67894.0,Bellefield 3 Solar and Battery Storage,51LVA,CA,Solar,Solar,2030,150.0,,ST:CA
+58987.0,Chokecherry and Sierra Madre Wind,I-A,WY,Wind,Wind,2031,844.2,,wind_override

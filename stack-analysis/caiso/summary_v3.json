@@ -1,0 +1,21 @@
+{
+ "region": "caiso",
+ "changelog_rebuild_max_diff_mw": 0.0,
+ "total_2030_v2": 117126.6,
+ "total_2030_v3": 114250.2,
+ "total_2036_v2": 120802.6,
+ "total_2036_v3": 119821.1,
+ "solar_2036_v2": 35697.1,
+ "solar_2036_v3": 34742.3,
+ "wind_2036_v2": 13801.8,
+ "wind_2036_v3": 13775.1,
+ "renewable_mw_removed_never": 981.6,
+ "renewable_mw_pushed_beyond_2036": 0.0,
+ "scopes_used": {
+  "CAISO": 4,
+  "ST:CA": 40,
+  "ST:NV": 3,
+  "NATIONAL": 4,
+  "wind_override": 1
+ }
+}

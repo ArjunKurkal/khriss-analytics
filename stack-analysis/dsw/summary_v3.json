@@ -1,0 +1,18 @@
+{
+ "region": "dsw",
+ "changelog_rebuild_max_diff_mw": 0.0,
+ "total_2030_v2": 83294.3,
+ "total_2030_v3": 81196.8,
+ "total_2036_v2": 83779.2,
+ "total_2036_v3": 83028.4,
+ "solar_2036_v2": 20265.5,
+ "solar_2036_v3": 19586.2,
+ "wind_2036_v2": 10003.7,
+ "wind_2036_v3": 9932.2,
+ "renewable_mw_removed_never": 750.8,
+ "renewable_mw_pushed_beyond_2036": 0.0,
+ "scopes_used": {
+  "DSW": 20,
+  "NATIONAL": 11
+ }
+}

@@ -1,0 +1,1111 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+69416.0,Aggreko MSR Grid PC2,PC2,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+69417.0,Aggreko MSR Grid PC5,PC5,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+69418.0,Aggreko MSR Grid PC7,PC7,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+69453.0,Alamo Clean Energy Center (BESS),ALBA1,TX,Battery Storage,Wind,2026,10.1,,2026.0,10.1,unchanged,
+69155.0,Apache Hill Energy Center,AHBA1,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+69318.0,Apple BESS,APPLE,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69151.0,Arroyo Storage,ARY_B,TX,Battery Storage,Wind,2026,180.0,,2026.0,180.0,unchanged,
+69296.0,BESS La Feria,LFBA1,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+69297.0,BESS Stadium,STBA1,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+69167.0,Backbone Creek BESS,BCKBN,TX,Battery Storage,Wind,2026,121.0,,2026.0,121.0,unchanged,
+69607.0,Bexar Corrilla BESS,CORR1,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+66400.0,Bexar ESS,OCBEX,TX,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+64202.0,"Big Star Solar, LLC (Hybrid)",BGSTB,TX,Battery Storage,Wind,2026,80.0,,2026.0,80.0,unchanged,
+68495.0,Bird Dog Energy Storage,BDOG1,TX,Battery Storage,Wind,2026,60.0,,2026.0,60.0,unchanged,
+68456.0,Blue Summit II Storage,BSIIS,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+69423.0,Bocanova Energy Storage II,BCNV2,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+69324.0,Buda BESS,BUDA,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+67761.0,Bypass BESS,1,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+68422.0,Callisto II Energy Center,CALII,TX,Battery Storage,Wind,2026,400.0,,2026.0,400.0,unchanged,
+69168.0,Carambola BESS,CRBLA,TX,Battery Storage,Wind,2026,98.4,,2026.0,98.4,unchanged,
+65870.0,Castor,CASTR,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+69864.0,Colorado Clean Energy Center (BESS),COBA1,TX,Battery Storage,Wind,2026,10.1,,2026.0,10.1,unchanged,
+69865.0,Columbus Clean Energy Center (BESS),CLBA1,TX,Battery Storage,Wind,2026,10.1,,2026.0,10.1,unchanged,
+69251.0,Cottonwood Bayou Storage,CTWST,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+69510.0,Cotulla BESS 1,COTUL,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69422.0,County Road BESS,CTRD,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+68499.0,"Crowned Heron 1 - Storage, LLC",CWHBA,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+68500.0,"Crowned Heron 2 - Storage, LLC",CWH2,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+69361.0,DGS Five Points,FPBAT,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+66916.0,Danish Fields Storage,DANST,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+65876.0,Desna,DESNA,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+67654.0,Destiny Storage,DESTS,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+69295.0,Duffy BESS,DFBSS,TX,Battery Storage,Wind,2026,235.9,,2026.0,235.9,unchanged,
+66341.0,Eagle Springs Hybrid,EGSB,TX,Battery Storage,Wind,2026,55.1,,2026.0,55.1,unchanged,
+69903.0,East Bernard,EBERN,TX,Battery Storage,Wind,2026,9.5,,2026.0,9.5,unchanged,
+69322.0,Elm Street BESS,ELMST,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+68334.0,Evans Creek Energy Storage Project,EVCRK,TX,Battery Storage,Wind,2026,103.0,,2026.0,103.0,unchanged,
+68915.0,Ferdinand Energy Center,1,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+69455.0,Fort Stockton Clean Energy Center (BESS),FSBA1,TX,Battery Storage,Wind,2026,10.1,,2026.0,10.1,unchanged,
+66342.0,Gaia Hybrid,GAIAB,TX,Battery Storage,Wind,2026,76.8,,2026.0,76.8,unchanged,
+66410.0,Grizzly Ridge Solar,596,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+69277.0,Gunnar Reliability Project,GR001,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+69252.0,Harlingen #1 BESS 1,HABA1,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+68580.0,Headcamp BESS,MHB,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+68852.0,Hermes Storage BESS,HSBE1,TX,Battery Storage,Wind,2026,100.4,,2026.0,100.4,unchanged,
+69323.0,Highway 6 BESS,HWY6,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69351.0,Honeycomb Solar and Storage,HNYBS,TX,Battery Storage,Wind,2026,76.5,,2026.0,76.5,unchanged,
+64859.0,"IP Radian, LLC",RADBA,TX,Battery Storage,Wind,2026,160.0,,2026.0,160.0,unchanged,
+69226.0,Knapp BESS,KNBA1,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+67867.0,Liberty Hybrid Solar and Storage Project,LIB2,TX,Battery Storage,Wind,2026,65.0,,2026.0,65.0,unchanged,
+66390.0,MRG Goody Solar Project Hybrid,GDYES,TX,Battery Storage,Wind,2026,50.4,,2026.0,50.4,unchanged,
+69681.0,Mallard Energy Storage,DRAKE,TX,Battery Storage,Wind,2026,250.0,,2026.0,250.0,unchanged,
+69866.0,Matagorda Clean Energy Center (BESS),MGBA1,TX,Battery Storage,Wind,2026,10.1,,2026.0,10.1,unchanged,
+69234.0,Meadow Park Energy Center,MPBA1,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+68581.0,Mendoza Trail BESS,MTB,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+69457.0,Mesquite Clean Energy Center (BESS),MEBA1,TX,Battery Storage,Wind,2026,10.1,,2026.0,10.1,unchanged,
+66897.0,"Midpoint Solar, LLC",MIDBA,TX,Battery Storage,Wind,2026,50.0,,2026.0,50.0,unchanged,
+66913.0,Myrtle Storage,MYRST,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+69253.0,North Edinburg BESS 1,NEBA1,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+69458.0,North Pecos Clean Energy Center (BESS),NPBA1,TX,Battery Storage,Wind,2026,10.1,,2026.0,10.1,unchanged,
+68365.0,Old 300 Storage Center,8681,TX,Battery Storage,Wind,2026,250.0,,2026.0,250.0,unchanged,
+69665.0,Orchard BESS,ORCH,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+68913.0,Padua 2,12342,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+68914.0,Padua 3,12343,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+69511.0,Palmview BESS,PALMV,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+68582.0,Pintail BESS,PPB,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+69044.0,Platinum Storage,PLAT,TX,Battery Storage,Wind,2026,348.0,,2026.0,348.0,unchanged,
+69362.0,Plaza Street,PSBAT,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69904.0,Pledger,PLEDG,TX,Battery Storage,Wind,2026,9.5,,2026.0,9.5,unchanged,
+67949.0,Poteet,POTEB,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69286.0,Project Lynx,LYNX,TX,Battery Storage,Wind,2026,125.0,,2026.0,125.0,unchanged,
+68759.0,Quantum BESS,IPQ1B,TX,Battery Storage,Wind,2026,422.4,,2026.0,422.4,unchanged,
+68761.0,Quantum II BESS,IPQ2B,TX,Battery Storage,Wind,2026,422.4,,2026.0,422.4,unchanged,
+68149.0,Raven Storage,RAVEB,TX,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+69332.0,Regis Escondido,ESCON,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69336.0,Regis Gears Harris,GEARS,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69335.0,Regis Hidden Valley,HIDD,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69337.0,Regis Laureles,LAURE,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69338.0,Regis Leakey,LEAKY,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69339.0,Regis Lyssy,LYSSY,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69340.0,Regis Medina,MEDIN,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69341.0,Regis Medina Lake,MEDLA,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69342.0,Regis Milton,MILT,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69343.0,Regis Utopia,UTOP,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69200.0,SAHARA BESS (SOHO BESS),SOHO1,TX,Battery Storage,Wind,2026,204.4,,2026.0,204.4,unchanged,
+69200.0,SAHARA BESS (SOHO BESS),SOHO2,TX,Battery Storage,Wind,2026,204.3,,2026.0,204.3,unchanged,
+69512.0,SE Edinburg BESS,SEEDI,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69367.0,SMT Dallas III BESS,SMTD3,TX,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+66689.0,Seven Flags BESS LLC,7FLAG,TX,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+69027.0,"Stoneridge Solar, LLC",SSBA,TX,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+69329.0,TE Smith Storage,SMITH,TX,Battery Storage,Wind,2026,125.0,,2026.0,125.0,unchanged,
+65855.0,Tehuacana Creek Solar,TE1BS,TX,Battery Storage,Wind,2026,418.0,,2026.0,418.0,unchanged,
+68425.0,Tidwell Prairie II,TWPII,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+68748.0,Tierra Seca,TS,TX,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+69534.0,Torrecillas Energy Storage,TOR_B,TX,Battery Storage,Wind,2026,9.9,,2026.0,9.9,unchanged,
+69255.0,Vertus Energy Storage Plant,VESP1,TX,Battery Storage,Wind,2026,200.0,,2026.0,200.0,unchanged,
+69152.0,Wizard Energy Storage,WZRD,TX,Battery Storage,Wind,2026,150.0,,2026.0,150.0,unchanged,
+65880.0,Zeya,ZEYA,TX,Battery Storage,Wind,2026,250.0,,2026.0,250.0,unchanged,
+69267.0,Cedarvale Gas,CDRV1,TX,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+69267.0,Cedarvale Gas,CDRV2,TX,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+69267.0,Cedarvale Gas,CDRV3,TX,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+69267.0,Cedarvale Gas,CDRV4,TX,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+60468.0,Friendswood Energy,GT-2,TX,Natural Gas,Wind,2026,47.9,,2026.0,47.9,unchanged,
+60468.0,Friendswood Energy,GT-3,TX,Natural Gas,Wind,2026,47.9,,2026.0,47.9,unchanged,
+60468.0,Friendswood Energy,GT-4,TX,Natural Gas,Wind,2026,47.9,,2026.0,47.9,unchanged,
+66601.0,NRG THW GT Electric Generating Station,GT61,TX,Natural Gas,Wind,2026,188.7,,2026.0,188.7,unchanged,
+66601.0,NRG THW GT Electric Generating Station,GT62,TX,Natural Gas,Wind,2026,188.7,,2026.0,188.7,unchanged,
+67500.0,"Pin Oak Creek Energy Center, LLC",GT5,TX,Natural Gas,Wind,2026,222.0,,2026.0,222.0,unchanged,
+67500.0,"Pin Oak Creek Energy Center, LLC",GT6,TX,Natural Gas,Wind,2026,222.0,,2026.0,222.0,unchanged,
+69269.0,Pyote Gas,PYOT1,TX,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+69269.0,Pyote Gas,PYOT2,TX,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+69269.0,Pyote Gas,PYOT3,TX,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+69269.0,Pyote Gas,PYOT4,TX,Natural Gas,Wind,2026,2.5,,2026.0,2.5,unchanged,
+69271.0,Staghorn Gas,STAG1,TX,Natural Gas,Wind,2026,3.3,,2026.0,3.3,unchanged,
+69271.0,Staghorn Gas,STAG2,TX,Natural Gas,Wind,2026,3.3,,2026.0,3.3,unchanged,
+69271.0,Staghorn Gas,STAG3,TX,Natural Gas,Wind,2026,3.3,,2026.0,3.3,unchanged,
+66335.0,Timmerman Power Plant,G11,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G12,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G13,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G14,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G15,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G16,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G17,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G18,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G19,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+66335.0,Timmerman Power Plant,G20,TX,Natural Gas,Wind,2026,18.8,,2026.0,18.8,unchanged,
+65832.0,Olney,OLNYD,TX,Oil,Wind,2026,9.9,,2026.0,9.9,unchanged,
+65834.0,Saddleback BESS2,SDBTD,TX,Other,Wind,2026,9.9,,2026.0,9.9,unchanged,
+66905.0,Ables Springs Solar & Storage,SOLAR,TX,Solar,Solar,2026,151.0,,2026.0,151.0,unchanged,
+69149.0,Anson 2 Solar,ANSN2,TX,Solar,Solar,2026,218.5,,2026.0,218.5,unchanged,
+65070.0,Austin TX GigaFactory,A04,TX,Solar,Solar,2026,2.3,,2026.0,2.3,unchanged,
+69359.0,Barrett Solar Project,BARS1,TX,Solar,Solar,2026,125.0,,2026.0,125.0,unchanged,
+69414.0,Blevins Solar & Storage,BSLR2,TX,Solar,Solar,2026,132.0,,2026.0,132.0,unchanged,
+69414.0,Blevins Solar & Storage,BSLR3,TX,Solar,Solar,2026,138.0,,2026.0,138.0,unchanged,
+64672.0,"Blue Jay Solar I, LLC",BLUJS,TX,Solar,Solar,2026,210.0,,2026.0,210.0,unchanged,
+68410.0,Brazoria Solar I,BRAZ,TX,Solar,Solar,2026,125.0,,2026.0,125.0,unchanged,
+68410.0,Brazoria Solar I,BRAZ2,TX,Solar,Solar,2026,125.0,,2026.0,125.0,unchanged,
+69360.0,Bynum Solar Project,BAYS1,TX,Solar,Solar,2026,56.0,,2026.0,56.0,unchanged,
+67976.0,Cattlemen Solar II,GEN01,TX,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+66168.0,Cattlemen Solar Park,GEN01,TX,Solar,Solar,2026,240.0,,2026.0,240.0,unchanged,
+69877.0,Charger Solar,CHPV1,TX,Solar,Solar,2026,394.4,,2026.0,394.4,unchanged,
+68065.0,Chillingham Solar,CHILS,TX,Solar,Solar,2026,350.0,,2026.0,350.0,unchanged,
+67765.0,Compadre Solar,5191,TX,Solar,Solar,2026,150.0,,2026.0,150.0,unchanged,
+66915.0,Cottonwood Bayou Solar,CTW,TX,Solar,Solar,2026,350.0,,2026.0,350.0,unchanged,
+66914.0,"Danish Fields Solar, LLC",DAN,TX,Solar,Solar,2026,600.0,,2026.0,600.0,unchanged,
+66341.0,Eagle Springs Hybrid,EGSS,TX,Solar,Solar,2026,110.1,,2026.0,110.1,unchanged,
+69272.0,Enbridge Solar (Sequoia II),SEQII,TX,Solar,Solar,2026,415.0,,2026.0,415.0,unchanged,
+67359.0,Funston Solar,4666,TX,Solar,Solar,2026,350.0,,2026.0,350.0,unchanged,
+69628.0,GBG SOLAR,GBPV1,TX,Solar,Solar,2026,22.2,,2026.0,22.2,unchanged,
+66342.0,Gaia Hybrid,GAIAS,TX,Solar,Solar,2026,152.7,,2026.0,152.7,unchanged,
+67046.0,Grimes County Solar,GS1,TX,Solar,Solar,2026,210.0,,2026.0,210.0,unchanged,
+66871.0,"GulfStar Power, LLC",SOLAR,TX,Solar,Solar,2026,451.6,,2026.0,451.6,unchanged,
+68839.0,Hecate Energy Longhorn Solar LLC,RRPS,TX,Solar,Solar,2026,650.0,,2026.0,650.0,unchanged,
+68851.0,Hermes Solar PV,HSPV1,TX,Solar,Solar,2026,100.4,,2026.0,100.4,unchanged,
+66912.0,Hill Solar 1,HS1,TX,Solar,Solar,2026,405.0,,2026.0,405.0,unchanged,
+68481.0,Hill Solar II,HS2,TX,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+69351.0,Honeycomb Solar and Storage,HNYPV,TX,Solar,Solar,2026,74.8,,2026.0,74.8,unchanged,
+68380.0,Isaac Solar,ISCPV,TX,Solar,Solar,2026,51.4,,2026.0,51.4,unchanged,
+66559.0,Jones City 1 Solar,TXJC1,TX,Solar,Solar,2026,215.0,,2026.0,215.0,unchanged,
+66893.0,Jones City 2 Solar,TXJC2,TX,Solar,Solar,2026,185.0,,2026.0,185.0,unchanged,
+69585.0,Kaufman Solar,5568,TX,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+69755.0,King Mountain Solar,5568,TX,Solar,Solar,2026,175.0,,2026.0,175.0,unchanged,
+68853.0,Limewood Bell Renewables Solar,LMWOD,TX,Solar,Solar,2026,204.0,,2026.0,204.0,unchanged,
+69580.0,Lone Wolfe Phase One,LW1,TX,Solar,Solar,2026,1.1,,2026.0,1.1,unchanged,
+66390.0,MRG Goody Solar Project Hybrid,GDYPV,TX,Solar,Solar,2026,170.8,,2026.0,170.8,unchanged,
+69260.0,Mexia Solar Project,MEXA1,TX,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+69260.0,Mexia Solar Project,MEXA2,TX,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+66897.0,"Midpoint Solar, LLC",MIDPV,TX,Solar,Solar,2026,97.5,,2026.0,97.5,unchanged,
+69101.0,Millers Branch Solar,MLB01,TX,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+69101.0,Millers Branch Solar,MLB02,TX,Solar,Solar,2026,180.0,,2026.0,180.0,unchanged,
+69101.0,Millers Branch Solar,MLB03,TX,Solar,Solar,2026,132.0,,2026.0,132.0,unchanged,
+70052.0,Misae Solar IV LLC,LEON,TX,Solar,Solar,2026,209.0,,2026.0,209.0,unchanged,
+66775.0,Morrow Lake Solar,MLPV,TX,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+66910.0,"Myrtle Solar, LLC",MYR,TX,Solar,Solar,2026,313.0,,2026.0,313.0,unchanged,
+69507.0,New Hickory Solar,NHKRY,TX,Solar,Solar,2026,206.0,,2026.0,206.0,unchanged,
+69245.0,Nightfall Solar,NTFL,TX,Solar,Solar,2026,180.0,,2026.0,180.0,unchanged,
+64132.0,Oak Hill - Dry Creek,PV1,TX,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+69496.0,Piedra Solar,PDRA,TX,Solar,Solar,2026,280.0,,2026.0,280.0,unchanged,
+69674.0,Pitts Dudik Solar II,PDII,TX,Solar,Solar,2026,30.4,,2026.0,30.4,unchanged,
+68762.0,Quantum II Solar,IPQ2S,TX,Solar,Solar,2026,362.8,,2026.0,362.8,unchanged,
+68760.0,Quantum Solar,IPQ1S,TX,Solar,Solar,2026,362.8,,2026.0,362.8,unchanged,
+67837.0,Ray Ranch Solar,RAYRS,TX,Solar,Solar,2026,255.2,,2026.0,255.2,unchanged,
+68155.0,Rio Lago Solar,RIOLA,TX,Solar,Solar,2026,123.0,,2026.0,123.0,unchanged,
+68592.0,Rockhound A,OERHA,TX,Solar,Solar,2026,245.0,,2026.0,245.0,unchanged,
+68593.0,Rockhound C,OERHC,TX,Solar,Solar,2026,61.0,,2026.0,61.0,unchanged,
+68594.0,Rockhound D,OERHD,TX,Solar,Solar,2026,28.0,,2026.0,28.0,unchanged,
+65028.0,"Roseland Solar Project, LLC",ROSES,TX,Solar,Solar,2026,500.0,,2026.0,500.0,unchanged,
+70135.0,Swenson Solar,SWNSN,TX,Solar,Solar,2026,600.0,,2026.0,600.0,unchanged,
+69150.0,Sypert Branch Solar,SYPRT,TX,Solar,Solar,2026,293.9,,2026.0,293.9,unchanged,
+66516.0,TX Dallas 7750 Dynasty Drive,19500,TX,Solar,Solar,2026,2.3,,2026.0,2.3,unchanged,
+66519.0,TX Pasadena 10585 Red Bluff Road Solar,19503,TX,Solar,Solar,2026,2.4,,2026.0,2.4,unchanged,
+69605.0,Tennyson Solar,TENN,TX,Solar,Solar,2026,150.0,,2026.0,150.0,unchanged,
+69283.0,Three W Solar,TWPV1,TX,Solar,Solar,2026,110.9,,2026.0,110.9,unchanged,
+67357.0,Tiger Solar,4666,TX,Solar,Solar,2026,250.0,,2026.0,250.0,unchanged,
+66216.0,Yaupon Solar Project (Hybrid),SOL,TX,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+68873.0,Big Sampson Wind,BIGS,TX,Wind,Wind,2026,265.0,,2026.0,265.0,unchanged,
+69579.0,"Honey Mesquite Wind, LLC",HMWT,TX,Wind,Wind,2026,180.5,,2026.0,180.5,unchanged,
+69010.0,Hubbard Wind II,5111,TX,Wind,Wind,2026,304.5,,2026.0,304.5,unchanged,
+63342.0,McCrae Wind Energy II,BKII,TX,Wind,Wind,2026,162.1,,2026.0,162.1,unchanged,
+67356.0,Throckmorton Wind,6794,TX,Wind,Wind,2026,225.6,,2026.0,225.6,unchanged,
+69588.0,"Yellow Cat Wind, LLC",YCWT,TX,Wind,Wind,2026,270.0,,2026.0,270.0,unchanged,
+68348.0,Alamo City ESS,ACESS,TX,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+66894.0,"Albatross Solar, LLC",ALBBA,TX,Battery Storage,Wind,2027,50.4,,2027.0,50.4,unchanged,
+69520.0,Amador BESS,AMDRB,TX,Battery Storage,Wind,2027,220.0,,2027.0,220.0,unchanged,
+69246.0,BESS TX Camarine - BSHOU001,BSOU1,TX,Battery Storage,Wind,2027,9.9,,2027.0,9.9,unchanged,
+65853.0,Banita Creek- Spindlepop Solar,MIDBS,TX,Battery Storage,Wind,2027,302.9,,2027.0,302.9,unchanged,
+69392.0,Barton Branch IA,BBIA,TX,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+70400.0,Bee Branch IA,BEE1A,TX,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+67652.0,Bhalu,BHALU,TX,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+70377.0,Boxcar Energy Storage,BES,TX,Battery Storage,Wind,2027,150.0,,2027.0,150.0,unchanged,
+66691.0,"Briggs Solar, LLC",BRUGG,TX,Battery Storage,Wind,2027,70.5,,2027.0,70.5,unchanged,
+68165.0,Brotherton Storage,BROBA,TX,Battery Storage,Wind,2027,176.1,,2027.0,176.1,unchanged,
+70549.0,CF BESS NINE,DARST,TX,Battery Storage,Wind,2027,9.9,,2027.0,9.9,unchanged,
+67581.0,Cairos Solar and Storage,CIRSB,TX,Battery Storage,Wind,2027,77.3,,2027.0,77.3,unchanged,
+67917.0,"Champaign BESS, LLC",CHMPN,TX,Battery Storage,Wind,2027,202.7,,2027.0,202.7,unchanged,
+68078.0,Chisme Solar and Storage,CHIBS,TX,Battery Storage,Wind,2027,146.0,,2027.0,146.0,unchanged,
+70455.0,City Breeze Energy Storage,BES,TX,Battery Storage,Wind,2027,140.0,,2027.0,140.0,unchanged,
+65842.0,Clear Fork Creek Solar and BESS SLF,CFCBS,TX,Battery Storage,Wind,2027,600.0,,2027.0,600.0,unchanged,
+67956.0,Concho Pearl Solar and Storage,CONBS,TX,Battery Storage,Wind,2027,162.4,,2027.0,162.4,unchanged,
+67768.0,Cumbia Energy Center,CECBA,TX,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+70543.0,Denali Energy Storage,DEN1,TX,Battery Storage,Wind,2027,11.0,,2027.0,11.0,unchanged,
+67918.0,"Dios BESS, LLC",DIOS,TX,Battery Storage,Wind,2027,201.6,,2027.0,201.6,unchanged,
+65850.0,Elio Energy LLC,ELIBS,TX,Battery Storage,Wind,2027,300.0,,2027.0,300.0,unchanged,
+67552.0,Elm Flats Solar,ELMBA,TX,Battery Storage,Wind,2027,250.0,,2027.0,250.0,unchanged,
+68428.0,Gatsby Energy Storage Project,GTSBY,TX,Battery Storage,Wind,2027,103.4,,2027.0,103.4,unchanged,
+66414.0,Hecate Energy Ramsey Storage,RMSY,TX,Battery Storage,Wind,2027,500.0,,2027.0,500.0,unchanged,
+66411.0,Hecate Grid East Valley Storage,RMSY,TX,Battery Storage,Wind,2027,255.0,,2027.0,255.0,unchanged,
+69902.0,Hockley,HOCKL,TX,Battery Storage,Wind,2027,9.9,,2027.0,9.9,unchanged,
+66891.0,Indigo Solar & Storage,245BS,TX,Battery Storage,Wind,2027,180.0,,2027.0,180.0,unchanged,
+67059.0,Iron Belt,1,TX,Battery Storage,Wind,2027,400.0,,2027.0,400.0,unchanged,
+66893.0,Jones City 2 Solar,TXJS2,TX,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+66895.0,"Lupinus Solar 1, LLC",LP1BA,TX,Battery Storage,Wind,2027,83.0,,2027.0,83.0,unchanged,
+66896.0,"Lupinus Solar 2, LLC",LP2BA,TX,Battery Storage,Wind,2027,122.9,,2027.0,122.9,unchanged,
+68171.0,Mcmurtre Storage,MCMBA,TX,Battery Storage,Wind,2027,176.1,,2027.0,176.1,unchanged,
+70542.0,Mount Whitney BESS,WHI1,TX,Battery Storage,Wind,2027,11.0,,2027.0,11.0,unchanged,
+65344.0,Noria Hondo Solar (Hybrid),66149,TX,Battery Storage,Wind,2027,75.0,,2027.0,75.0,unchanged,
+66401.0,OCI Hillsboro,OHLBS,TX,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+69393.0,Pamela Heights I Energy Center,PHIEC,TX,Battery Storage,Wind,2027,100.0,,2027.0,100.0,unchanged,
+69364.0,Red Egret,REDEG,TX,Battery Storage,Wind,2027,300.0,,2027.0,300.0,unchanged,
+68030.0,Red Hollow Renewable Energy,RHLWB,TX,Battery Storage,Wind,2027,300.0,,2027.0,300.0,unchanged,
+68583.0,Rock N' Roll,RRB,TX,Battery Storage,Wind,2027,250.0,,2027.0,250.0,unchanged,
+67249.0,Rock Rose Energy Storage,RRES,TX,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+65854.0,Rowdy Creek Solar and BESS,RDYBS,TX,Battery Storage,Wind,2027,350.0,,2027.0,350.0,unchanged,
+69770.0,Ryan Storage,BRS,TX,Battery Storage,Wind,2027,50.0,,2027.0,50.0,unchanged,
+67341.0,SGT Hoskins Solar Project Hybrid,NOSES,TX,Battery Storage,Wind,2027,102.1,,2027.0,102.1,unchanged,
+70584.0,SOSA Energy Center,SOSBA,TX,Battery Storage,Wind,2027,155.8,,2027.0,155.8,unchanged,
+70021.0,Staccato BESS,STACB,TX,Battery Storage,Wind,2027,200.5,,2027.0,200.5,unchanged,
+67798.0,Steelhead Energy Storage,GRS7,TX,Battery Storage,Wind,2027,193.7,,2027.0,193.7,unchanged,
+68033.0,Sunrose Renewable Energy,SRSEB,TX,Battery Storage,Wind,2027,300.0,,2027.0,300.0,unchanged,
+63202.0,TREX US Red Holly,701-S,TX,Battery Storage,Wind,2027,50.0,,2027.0,50.0,unchanged,
+67667.0,"Third Coast BESS, LLC",3COAS,TX,Battery Storage,Wind,2027,100.0,,2027.0,100.0,unchanged,
+67784.0,Vial BESS,GRS11,TX,Battery Storage,Wind,2027,141.4,,2027.0,141.4,unchanged,
+68176.0,Willis Storage,WILBA,TX,Battery Storage,Wind,2027,176.1,,2027.0,176.1,unchanged,
+66216.0,Yaupon Solar Project (Hybrid),BESS,TX,Battery Storage,Wind,2027,100.0,,2027.0,100.0,unchanged,
+68178.0,Yooperlite Storage,YOOBA,TX,Battery Storage,Wind,2027,175.7,,2027.0,175.7,unchanged,
+58151.0,Central Utility Plant - Texas A&M,STG03,TX,Natural Gas,Wind,2027,5.0,,2027.0,5.0,unchanged,
+69268.0,Coyanosa Gas,COYA1,TX,Natural Gas,Wind,2027,2.5,,2027.0,2.5,unchanged,
+69268.0,Coyanosa Gas,COYA2,TX,Natural Gas,Wind,2027,2.5,,2027.0,2.5,unchanged,
+69268.0,Coyanosa Gas,COYA3,TX,Natural Gas,Wind,2027,2.5,,2027.0,2.5,unchanged,
+69268.0,Coyanosa Gas,COYA4,TX,Natural Gas,Wind,2027,2.5,,2027.0,2.5,unchanged,
+70343.0,GPI WACO Power,WAGT1,TX,Natural Gas,Wind,2027,43.4,,2027.0,43.4,unchanged,
+70560.0,Grey Wolf,GWF-1,TX,Natural Gas,Wind,2027,10.0,,2027.0,10.0,unchanged,
+69760.0,Rock Island Generation Project,RIG1,TX,Natural Gas,Wind,2027,20.3,,2027.0,20.3,unchanged,
+69760.0,Rock Island Generation Project,RIG2,TX,Natural Gas,Wind,2027,20.3,,2027.0,20.3,unchanged,
+69760.0,Rock Island Generation Project,RIG3,TX,Natural Gas,Wind,2027,20.3,,2027.0,20.3,unchanged,
+69760.0,Rock Island Generation Project,RIG4,TX,Natural Gas,Wind,2027,20.3,,2027.0,20.3,unchanged,
+69760.0,Rock Island Generation Project,RIG5,TX,Natural Gas,Wind,2027,20.3,,2027.0,20.3,unchanged,
+69760.0,Rock Island Generation Project,RIG6,TX,Natural Gas,Wind,2027,20.3,,2027.0,20.3,unchanged,
+69689.0,Vast Sands Power,CT11,TX,Natural Gas,Wind,2027,440.0,,2027.0,440.0,unchanged,
+69689.0,Vast Sands Power,CT12,TX,Natural Gas,Wind,2027,440.0,,2027.0,440.0,unchanged,
+70561.0,WT2,WT2-1,TX,Natural Gas,Wind,2027,10.0,,2027.0,10.0,unchanged,
+65811.0,Coyote Springs (TX),CYSTD,TX,Oil,Wind,2027,9.9,,2027.0,9.9,unchanged,
+70300.0,Adams Creek Solar Project,USADC,TX,Solar,Solar,2027,250.0,,2026.0,2.9947960195678576,ST:TX,slip_-1
+70300.0,Adams Creek Solar Project,USADC,TX,Solar,Solar,2027,250.0,,2027.0,83.42526660649214,ST:TX,slip_0
+70300.0,Adams Creek Solar Project,USADC,TX,Solar,Solar,2027,250.0,,2028.0,55.73036806739543,ST:TX,slip_1
+70300.0,Adams Creek Solar Project,USADC,TX,Solar,Solar,2027,250.0,,2029.0,30.56642039692887,ST:TX,slip_2
+70300.0,Adams Creek Solar Project,USADC,TX,Solar,Solar,2027,250.0,,2030.0,48.29213051181759,ST:TX,slip_3plus
+70300.0,Adams Creek Solar Project,USADC,TX,Solar,Solar,2027,250.0,,,28.991018397798054,ST:TX,never
+66894.0,"Albatross Solar, LLC",ALBPV,TX,Solar,Solar,2027,101.0,,2026.0,1.2098975919054145,ST:TX,slip_-1
+66894.0,"Albatross Solar, LLC",ALBPV,TX,Solar,Solar,2027,101.0,,2027.0,33.703807709022826,ST:TX,slip_0
+66894.0,"Albatross Solar, LLC",ALBPV,TX,Solar,Solar,2027,101.0,,2028.0,22.515068699227754,ST:TX,slip_1
+66894.0,"Albatross Solar, LLC",ALBPV,TX,Solar,Solar,2027,101.0,,2029.0,12.348833840359262,ST:TX,slip_2
+66894.0,"Albatross Solar, LLC",ALBPV,TX,Solar,Solar,2027,101.0,,2030.0,19.510020726774307,ST:TX,slip_3plus
+66894.0,"Albatross Solar, LLC",ALBPV,TX,Solar,Solar,2027,101.0,,,11.712371432710414,ST:TX,never
+64349.0,Armadillo Solar Center,6666,TX,Solar,Solar,2027,175.0,,2026.0,2.0963572136975004,ST:TX,slip_-1
+64349.0,Armadillo Solar Center,6666,TX,Solar,Solar,2027,175.0,,2027.0,58.397686624544505,ST:TX,slip_0
+64349.0,Armadillo Solar Center,6666,TX,Solar,Solar,2027,175.0,,2028.0,39.011257647176805,ST:TX,slip_1
+64349.0,Armadillo Solar Center,6666,TX,Solar,Solar,2027,175.0,,2029.0,21.39649427785021,ST:TX,slip_2
+64349.0,Armadillo Solar Center,6666,TX,Solar,Solar,2027,175.0,,2030.0,33.804491358272315,ST:TX,slip_3plus
+64349.0,Armadillo Solar Center,6666,TX,Solar,Solar,2027,175.0,,,20.29371287845864,ST:TX,never
+70330.0,Bighorn Ridge Solar,BRSPV,TX,Solar,Solar,2027,300.0,,2026.0,3.5937552234814287,ST:TX,slip_-1
+70330.0,Bighorn Ridge Solar,BRSPV,TX,Solar,Solar,2027,300.0,,2027.0,100.11031992779057,ST:TX,slip_0
+70330.0,Bighorn Ridge Solar,BRSPV,TX,Solar,Solar,2027,300.0,,2028.0,66.87644168087452,ST:TX,slip_1
+70330.0,Bighorn Ridge Solar,BRSPV,TX,Solar,Solar,2027,300.0,,2029.0,36.67970447631464,ST:TX,slip_2
+70330.0,Bighorn Ridge Solar,BRSPV,TX,Solar,Solar,2027,300.0,,2030.0,57.95055661418111,ST:TX,slip_3plus
+70330.0,Bighorn Ridge Solar,BRSPV,TX,Solar,Solar,2027,300.0,,,34.789222077357664,ST:TX,never
+66691.0,"Briggs Solar, LLC",BRIGG,TX,Solar,Solar,2027,305.0,,2026.0,3.653651143872786,ST:TX,slip_-1
+66691.0,"Briggs Solar, LLC",BRIGG,TX,Solar,Solar,2027,305.0,,2027.0,101.77882525992042,ST:TX,slip_0
+66691.0,"Briggs Solar, LLC",BRIGG,TX,Solar,Solar,2027,305.0,,2028.0,67.99104904222243,ST:TX,slip_1
+66691.0,"Briggs Solar, LLC",BRIGG,TX,Solar,Solar,2027,305.0,,2029.0,37.29103288425322,ST:TX,slip_2
+66691.0,"Briggs Solar, LLC",BRIGG,TX,Solar,Solar,2027,305.0,,2030.0,58.91639922441746,ST:TX,slip_3plus
+66691.0,"Briggs Solar, LLC",BRIGG,TX,Solar,Solar,2027,305.0,,,35.369042445313625,ST:TX,never
+67581.0,Cairos Solar and Storage,CIRSA,TX,Solar,Solar,2027,153.3,,2026.0,1.8364089191990103,ST:TX,slip_-1
+67581.0,Cairos Solar and Storage,CIRSA,TX,Solar,Solar,2027,153.3,,2027.0,51.156373483100985,ST:TX,slip_0
+67581.0,Cairos Solar and Storage,CIRSA,TX,Solar,Solar,2027,153.3,,2028.0,34.173861698926885,ST:TX,slip_1
+67581.0,Cairos Solar and Storage,CIRSA,TX,Solar,Solar,2027,153.3,,2029.0,18.743328987396783,ST:TX,slip_2
+67581.0,Cairos Solar and Storage,CIRSA,TX,Solar,Solar,2027,153.3,,2030.0,29.612734429846547,ST:TX,slip_3plus
+67581.0,Cairos Solar and Storage,CIRSA,TX,Solar,Solar,2027,153.3,,,17.77729248152977,ST:TX,never
+70204.0,Cantaloupe Solar,CANPV,TX,Solar,Solar,2027,300.0,,2026.0,3.5937552234814287,ST:TX,slip_-1
+70204.0,Cantaloupe Solar,CANPV,TX,Solar,Solar,2027,300.0,,2027.0,100.11031992779057,ST:TX,slip_0
+70204.0,Cantaloupe Solar,CANPV,TX,Solar,Solar,2027,300.0,,2028.0,66.87644168087452,ST:TX,slip_1
+70204.0,Cantaloupe Solar,CANPV,TX,Solar,Solar,2027,300.0,,2029.0,36.67970447631464,ST:TX,slip_2
+70204.0,Cantaloupe Solar,CANPV,TX,Solar,Solar,2027,300.0,,2030.0,57.95055661418111,ST:TX,slip_3plus
+70204.0,Cantaloupe Solar,CANPV,TX,Solar,Solar,2027,300.0,,,34.789222077357664,ST:TX,never
+68901.0,Cedar Range Solar,PVCLA,TX,Solar,Solar,2027,150.0,,2026.0,1.7968776117407144,ST:TX,slip_-1
+68901.0,Cedar Range Solar,PVCLA,TX,Solar,Solar,2027,150.0,,2027.0,50.055159963895285,ST:TX,slip_0
+68901.0,Cedar Range Solar,PVCLA,TX,Solar,Solar,2027,150.0,,2028.0,33.43822084043726,ST:TX,slip_1
+68901.0,Cedar Range Solar,PVCLA,TX,Solar,Solar,2027,150.0,,2029.0,18.33985223815732,ST:TX,slip_2
+68901.0,Cedar Range Solar,PVCLA,TX,Solar,Solar,2027,150.0,,2030.0,28.975278307090555,ST:TX,slip_3plus
+68901.0,Cedar Range Solar,PVCLA,TX,Solar,Solar,2027,150.0,,,17.394611038678832,ST:TX,never
+68078.0,Chisme Solar and Storage,CHIPV,TX,Solar,Solar,2027,147.0,,2026.0,1.7609400595059002,ST:TX,slip_-1
+68078.0,Chisme Solar and Storage,CHIPV,TX,Solar,Solar,2027,147.0,,2027.0,49.05405676461738,ST:TX,slip_0
+68078.0,Chisme Solar and Storage,CHIPV,TX,Solar,Solar,2027,147.0,,2028.0,32.76945642362851,ST:TX,slip_1
+68078.0,Chisme Solar and Storage,CHIPV,TX,Solar,Solar,2027,147.0,,2029.0,17.973055193394174,ST:TX,slip_2
+68078.0,Chisme Solar and Storage,CHIPV,TX,Solar,Solar,2027,147.0,,2030.0,28.395772740948743,ST:TX,slip_3plus
+68078.0,Chisme Solar and Storage,CHIPV,TX,Solar,Solar,2027,147.0,,,17.046718817905255,ST:TX,never
+65842.0,Clear Fork Creek Solar and BESS SLF,CFCPV,TX,Solar,Solar,2027,600.0,,2026.0,7.1875104469628575,ST:TX,slip_-1
+65842.0,Clear Fork Creek Solar and BESS SLF,CFCPV,TX,Solar,Solar,2027,600.0,,2027.0,200.22063985558114,ST:TX,slip_0
+65842.0,Clear Fork Creek Solar and BESS SLF,CFCPV,TX,Solar,Solar,2027,600.0,,2028.0,133.75288336174904,ST:TX,slip_1
+65842.0,Clear Fork Creek Solar and BESS SLF,CFCPV,TX,Solar,Solar,2027,600.0,,2029.0,73.35940895262928,ST:TX,slip_2
+65842.0,Clear Fork Creek Solar and BESS SLF,CFCPV,TX,Solar,Solar,2027,600.0,,2030.0,115.90111322836222,ST:TX,slip_3plus
+65842.0,Clear Fork Creek Solar and BESS SLF,CFCPV,TX,Solar,Solar,2027,600.0,,,69.57844415471533,ST:TX,never
+67956.0,Concho Pearl Solar and Storage,CONPV,TX,Solar,Solar,2027,171.9,,2026.0,2.059221743054859,ST:TX,slip_-1
+67956.0,Concho Pearl Solar and Storage,CONPV,TX,Solar,Solar,2027,171.9,,2027.0,57.363213318624,ST:TX,slip_0
+67956.0,Concho Pearl Solar and Storage,CONPV,TX,Solar,Solar,2027,171.9,,2028.0,38.3202010831411,ST:TX,slip_1
+67956.0,Concho Pearl Solar and Storage,CONPV,TX,Solar,Solar,2027,171.9,,2029.0,21.01747066492829,ST:TX,slip_2
+67956.0,Concho Pearl Solar and Storage,CONPV,TX,Solar,Solar,2027,171.9,,2030.0,33.20566893992578,ST:TX,slip_3plus
+67956.0,Concho Pearl Solar and Storage,CONPV,TX,Solar,Solar,2027,171.9,,,19.934224250325943,ST:TX,never
+67773.0,Cosper Solar,GRS20,TX,Solar,Solar,2027,148.2,,2026.0,1.7753150803998257,ST:TX,slip_-1
+67773.0,Cosper Solar,GRS20,TX,Solar,Solar,2027,148.2,,2027.0,49.45449804432854,ST:TX,slip_0
+67773.0,Cosper Solar,GRS20,TX,Solar,Solar,2027,148.2,,2028.0,33.03696219035201,ST:TX,slip_1
+67773.0,Cosper Solar,GRS20,TX,Solar,Solar,2027,148.2,,2029.0,18.11977401129943,ST:TX,slip_2
+67773.0,Cosper Solar,GRS20,TX,Solar,Solar,2027,148.2,,2030.0,28.627574967405465,ST:TX,slip_3plus
+67773.0,Cosper Solar,GRS20,TX,Solar,Solar,2027,148.2,,,17.185875706214684,ST:TX,never
+68478.0,Darkwood Solar,DRK,TX,Solar,Solar,2027,150.7,,2026.0,1.8052630405955044,ST:TX,slip_-1
+68478.0,Darkwood Solar,DRK,TX,Solar,Solar,2027,150.7,,2027.0,50.288750710393465,ST:TX,slip_0
+68478.0,Darkwood Solar,DRK,TX,Solar,Solar,2027,150.7,,2028.0,33.59426587102596,ST:TX,slip_1
+68478.0,Darkwood Solar,DRK,TX,Solar,Solar,2027,150.7,,2029.0,18.42543821526872,ST:TX,slip_2
+68478.0,Darkwood Solar,DRK,TX,Solar,Solar,2027,150.7,,2030.0,29.11049627252364,ST:TX,slip_3plus
+68478.0,Darkwood Solar,DRK,TX,Solar,Solar,2027,150.7,,,17.475785890192668,ST:TX,never
+66421.0,Despain Solar,GRS13,TX,Solar,Solar,2027,236.2,,2026.0,2.8294832792877114,ST:TX,slip_-1
+66421.0,Despain Solar,GRS13,TX,Solar,Solar,2027,236.2,,2027.0,78.82019188981377,ST:TX,slip_0
+66421.0,Despain Solar,GRS13,TX,Solar,Solar,2027,236.2,,2028.0,52.654051750075205,ST:TX,slip_1
+66421.0,Despain Solar,GRS13,TX,Solar,Solar,2027,236.2,,2029.0,28.879153991018395,ST:TX,slip_2
+66421.0,Despain Solar,GRS13,TX,Solar,Solar,2027,236.2,,2030.0,45.62640490756526,ST:TX,slip_3plus
+66421.0,Despain Solar,GRS13,TX,Solar,Solar,2027,236.2,,,27.390714182239602,ST:TX,never
+69982.0,Diamondback Solar,3569,TX,Solar,Solar,2027,200.0,,2026.0,2.395836815654286,ST:TX,slip_-1
+69982.0,Diamondback Solar,3569,TX,Solar,Solar,2027,200.0,,2027.0,66.74021328519372,ST:TX,slip_0
+69982.0,Diamondback Solar,3569,TX,Solar,Solar,2027,200.0,,2028.0,44.58429445391634,ST:TX,slip_1
+69982.0,Diamondback Solar,3569,TX,Solar,Solar,2027,200.0,,2029.0,24.453136317543095,ST:TX,slip_2
+69982.0,Diamondback Solar,3569,TX,Solar,Solar,2027,200.0,,2030.0,38.633704409454076,ST:TX,slip_3plus
+69982.0,Diamondback Solar,3569,TX,Solar,Solar,2027,200.0,,,23.192814718238445,ST:TX,never
+68902.0,Echols Grove Solar,ECHPV,TX,Solar,Solar,2027,201.0,,2026.0,2.4078159997325574,ST:TX,slip_-1
+68902.0,Echols Grove Solar,ECHPV,TX,Solar,Solar,2027,201.0,,2027.0,67.07391435161969,ST:TX,slip_0
+68902.0,Echols Grove Solar,ECHPV,TX,Solar,Solar,2027,201.0,,2028.0,44.807215926185926,ST:TX,slip_1
+68902.0,Echols Grove Solar,ECHPV,TX,Solar,Solar,2027,201.0,,2029.0,24.57540199913081,ST:TX,slip_2
+68902.0,Echols Grove Solar,ECHPV,TX,Solar,Solar,2027,201.0,,2030.0,38.82687293150134,ST:TX,slip_3plus
+68902.0,Echols Grove Solar,ECHPV,TX,Solar,Solar,2027,201.0,,,23.308778791829635,ST:TX,never
+69660.0,El Patrimonio,HS,TX,Solar,Solar,2027,150.0,,2026.0,1.7968776117407144,ST:TX,slip_-1
+69660.0,El Patrimonio,HS,TX,Solar,Solar,2027,150.0,,2027.0,50.055159963895285,ST:TX,slip_0
+69660.0,El Patrimonio,HS,TX,Solar,Solar,2027,150.0,,2028.0,33.43822084043726,ST:TX,slip_1
+69660.0,El Patrimonio,HS,TX,Solar,Solar,2027,150.0,,2029.0,18.33985223815732,ST:TX,slip_2
+69660.0,El Patrimonio,HS,TX,Solar,Solar,2027,150.0,,2030.0,28.975278307090555,ST:TX,slip_3plus
+69660.0,El Patrimonio,HS,TX,Solar,Solar,2027,150.0,,,17.394611038678832,ST:TX,never
+67552.0,Elm Flats Solar,ELMFL,TX,Solar,Solar,2027,125.0,,2026.0,1.4973980097839288,ST:TX,slip_-1
+67552.0,Elm Flats Solar,ELMFL,TX,Solar,Solar,2027,125.0,,2027.0,41.71263330324607,ST:TX,slip_0
+67552.0,Elm Flats Solar,ELMFL,TX,Solar,Solar,2027,125.0,,2028.0,27.865184033697716,ST:TX,slip_1
+67552.0,Elm Flats Solar,ELMFL,TX,Solar,Solar,2027,125.0,,2029.0,15.283210198464435,ST:TX,slip_2
+67552.0,Elm Flats Solar,ELMFL,TX,Solar,Solar,2027,125.0,,2030.0,24.146065255908795,ST:TX,slip_3plus
+67552.0,Elm Flats Solar,ELMFL,TX,Solar,Solar,2027,125.0,,,14.495509198899027,ST:TX,never
+70183.0,Flatland Solar,FSPV,TX,Solar,Solar,2027,180.0,,2026.0,2.1562531340888573,ST:TX,slip_-1
+70183.0,Flatland Solar,FSPV,TX,Solar,Solar,2027,180.0,,2027.0,60.066191956674345,ST:TX,slip_0
+70183.0,Flatland Solar,FSPV,TX,Solar,Solar,2027,180.0,,2028.0,40.12586500852471,ST:TX,slip_1
+70183.0,Flatland Solar,FSPV,TX,Solar,Solar,2027,180.0,,2029.0,22.007822685788785,ST:TX,slip_2
+70183.0,Flatland Solar,FSPV,TX,Solar,Solar,2027,180.0,,2030.0,34.770333968508666,ST:TX,slip_3plus
+70183.0,Flatland Solar,FSPV,TX,Solar,Solar,2027,180.0,,,20.8735332464146,ST:TX,never
+68769.0,Greenalia Solar Power Misae III,M3GSP,TX,Solar,Solar,2027,169.6,,2026.0,2.0316696196748345,ST:TX,slip_-1
+68769.0,Greenalia Solar Power Misae III,M3GSP,TX,Solar,Solar,2027,169.6,,2027.0,56.59570086584427,ST:TX,slip_0
+68769.0,Greenalia Solar Power Misae III,M3GSP,TX,Solar,Solar,2027,169.6,,2028.0,37.80748169692106,ST:TX,slip_1
+68769.0,Greenalia Solar Power Misae III,M3GSP,TX,Solar,Solar,2027,169.6,,2029.0,20.736259597276543,ST:TX,slip_2
+68769.0,Greenalia Solar Power Misae III,M3GSP,TX,Solar,Solar,2027,169.6,,2030.0,32.76138133921705,ST:TX,slip_3plus
+68769.0,Greenalia Solar Power Misae III,M3GSP,TX,Solar,Solar,2027,169.6,,,19.6675068810662,ST:TX,never
+67657.0,Hanson,HANSO,TX,Solar,Solar,2027,396.0,,2026.0,4.743756894995486,ST:TX,slip_-1
+67657.0,Hanson,HANSO,TX,Solar,Solar,2027,396.0,,2027.0,132.14562230468357,ST:TX,slip_0
+67657.0,Hanson,HANSO,TX,Solar,Solar,2027,396.0,,2028.0,88.27690301875437,ST:TX,slip_1
+67657.0,Hanson,HANSO,TX,Solar,Solar,2027,396.0,,2029.0,48.41720990873533,ST:TX,slip_2
+67657.0,Hanson,HANSO,TX,Solar,Solar,2027,396.0,,2030.0,76.49473473071906,ST:TX,slip_3plus
+67657.0,Hanson,HANSO,TX,Solar,Solar,2027,396.0,,,45.92177314211212,ST:TX,never
+69262.0,Hillsboro Solar Project,HILL1,TX,Solar,Solar,2027,5.0,,2026.0,0.059895920391357146,ST:TX,slip_-1
+69262.0,Hillsboro Solar Project,HILL1,TX,Solar,Solar,2027,5.0,,2027.0,1.6685053321298429,ST:TX,slip_0
+69262.0,Hillsboro Solar Project,HILL1,TX,Solar,Solar,2027,5.0,,2028.0,1.1146073613479086,ST:TX,slip_1
+69262.0,Hillsboro Solar Project,HILL1,TX,Solar,Solar,2027,5.0,,2029.0,0.6113284079385773,ST:TX,slip_2
+69262.0,Hillsboro Solar Project,HILL1,TX,Solar,Solar,2027,5.0,,2030.0,0.9658426102363518,ST:TX,slip_3plus
+69262.0,Hillsboro Solar Project,HILL1,TX,Solar,Solar,2027,5.0,,,0.5798203679559611,ST:TX,never
+69262.0,Hillsboro Solar Project,HILL2,TX,Solar,Solar,2027,5.0,,2026.0,0.059895920391357146,ST:TX,slip_-1
+69262.0,Hillsboro Solar Project,HILL2,TX,Solar,Solar,2027,5.0,,2027.0,1.6685053321298429,ST:TX,slip_0
+69262.0,Hillsboro Solar Project,HILL2,TX,Solar,Solar,2027,5.0,,2028.0,1.1146073613479086,ST:TX,slip_1
+69262.0,Hillsboro Solar Project,HILL2,TX,Solar,Solar,2027,5.0,,2029.0,0.6113284079385773,ST:TX,slip_2
+69262.0,Hillsboro Solar Project,HILL2,TX,Solar,Solar,2027,5.0,,2030.0,0.9658426102363518,ST:TX,slip_3plus
+69262.0,Hillsboro Solar Project,HILL2,TX,Solar,Solar,2027,5.0,,,0.5798203679559611,ST:TX,never
+65851.0,Hollow Branch Creek,HB2PV,TX,Solar,Solar,2027,460.0,,2026.0,5.510424676004858,ST:TX,slip_-1
+65851.0,Hollow Branch Creek,HB2PV,TX,Solar,Solar,2027,460.0,,2027.0,153.50249055594554,ST:TX,slip_0
+65851.0,Hollow Branch Creek,HB2PV,TX,Solar,Solar,2027,460.0,,2028.0,102.54387724400759,ST:TX,slip_1
+65851.0,Hollow Branch Creek,HB2PV,TX,Solar,Solar,2027,460.0,,2029.0,56.24221353034912,ST:TX,slip_2
+65851.0,Hollow Branch Creek,HB2PV,TX,Solar,Solar,2027,460.0,,2030.0,88.85752014174437,ST:TX,slip_3plus
+65851.0,Hollow Branch Creek,HB2PV,TX,Solar,Solar,2027,460.0,,,53.343473851948424,ST:TX,never
+70514.0,Hoyte Solar,GEN1,TX,Solar,Solar,2027,206.8,,2026.0,2.477295267386532,ST:TX,slip_-1
+70514.0,Hoyte Solar,GEN1,TX,Solar,Solar,2027,206.8,,2027.0,69.0093805368903,ST:TX,slip_0
+70514.0,Hoyte Solar,GEN1,TX,Solar,Solar,2027,206.8,,2028.0,46.100160465349504,ST:TX,slip_1
+70514.0,Hoyte Solar,GEN1,TX,Solar,Solar,2027,206.8,,2029.0,25.28454295233956,ST:TX,slip_2
+70514.0,Hoyte Solar,GEN1,TX,Solar,Solar,2027,206.8,,2030.0,39.947250359375516,ST:TX,slip_3plus
+70514.0,Hoyte Solar,GEN1,TX,Solar,Solar,2027,206.8,,,23.981370418658553,ST:TX,never
+66891.0,Indigo Solar & Storage,IS245,TX,Solar,Solar,2027,150.0,,2026.0,1.7968776117407144,ST:TX,slip_-1
+66891.0,Indigo Solar & Storage,IS245,TX,Solar,Solar,2027,150.0,,2027.0,50.055159963895285,ST:TX,slip_0
+66891.0,Indigo Solar & Storage,IS245,TX,Solar,Solar,2027,150.0,,2028.0,33.43822084043726,ST:TX,slip_1
+66891.0,Indigo Solar & Storage,IS245,TX,Solar,Solar,2027,150.0,,2029.0,18.33985223815732,ST:TX,slip_2
+66891.0,Indigo Solar & Storage,IS245,TX,Solar,Solar,2027,150.0,,2030.0,28.975278307090555,ST:TX,slip_3plus
+66891.0,Indigo Solar & Storage,IS245,TX,Solar,Solar,2027,150.0,,,17.394611038678832,ST:TX,never
+67358.0,Lake Whitney Solar,4670,TX,Solar,Solar,2027,150.0,,2026.0,1.7968776117407144,ST:TX,slip_-1
+67358.0,Lake Whitney Solar,4670,TX,Solar,Solar,2027,150.0,,2027.0,50.055159963895285,ST:TX,slip_0
+67358.0,Lake Whitney Solar,4670,TX,Solar,Solar,2027,150.0,,2028.0,33.43822084043726,ST:TX,slip_1
+67358.0,Lake Whitney Solar,4670,TX,Solar,Solar,2027,150.0,,2029.0,18.33985223815732,ST:TX,slip_2
+67358.0,Lake Whitney Solar,4670,TX,Solar,Solar,2027,150.0,,2030.0,28.975278307090555,ST:TX,slip_3plus
+67358.0,Lake Whitney Solar,4670,TX,Solar,Solar,2027,150.0,,,17.394611038678832,ST:TX,never
+67781.0,Lampe Solar,GRS7,TX,Solar,Solar,2027,60.2,,2026.0,0.7211468815119401,ST:TX,slip_-1
+67781.0,Lampe Solar,GRS7,TX,Solar,Solar,2027,60.2,,2027.0,20.08880419884331,ST:TX,slip_0
+67781.0,Lampe Solar,GRS7,TX,Solar,Solar,2027,60.2,,2028.0,13.41987263062882,ST:TX,slip_1
+67781.0,Lampe Solar,GRS7,TX,Solar,Solar,2027,60.2,,2029.0,7.360394031580472,ST:TX,slip_2
+67781.0,Lampe Solar,GRS7,TX,Solar,Solar,2027,60.2,,2030.0,11.628745027245676,ST:TX,slip_3plus
+67781.0,Lampe Solar,GRS7,TX,Solar,Solar,2027,60.2,,,6.981037230189772,ST:TX,never
+69687.0,Lucky 7 Solar Farm LLC,L7SF,TX,Solar,Solar,2027,100.0,,2026.0,1.197918407827143,ST:TX,slip_-1
+69687.0,Lucky 7 Solar Farm LLC,L7SF,TX,Solar,Solar,2027,100.0,,2027.0,33.37010664259686,ST:TX,slip_0
+69687.0,Lucky 7 Solar Farm LLC,L7SF,TX,Solar,Solar,2027,100.0,,2028.0,22.29214722695817,ST:TX,slip_1
+69687.0,Lucky 7 Solar Farm LLC,L7SF,TX,Solar,Solar,2027,100.0,,2029.0,12.226568158771547,ST:TX,slip_2
+69687.0,Lucky 7 Solar Farm LLC,L7SF,TX,Solar,Solar,2027,100.0,,2030.0,19.316852204727038,ST:TX,slip_3plus
+69687.0,Lucky 7 Solar Farm LLC,L7SF,TX,Solar,Solar,2027,100.0,,,11.596407359119222,ST:TX,never
+70200.0,Lucy Solar,64205,TX,Solar,Solar,2027,351.3,,2026.0,4.208287366696753,ST:TX,slip_-1
+70200.0,Lucy Solar,64205,TX,Solar,Solar,2027,351.3,,2027.0,117.22918463544276,ST:TX,slip_0
+70200.0,Lucy Solar,64205,TX,Solar,Solar,2027,351.3,,2028.0,78.31231320830406,ST:TX,slip_1
+70200.0,Lucy Solar,64205,TX,Solar,Solar,2027,351.3,,2029.0,42.951933941764445,ST:TX,slip_2
+70200.0,Lucy Solar,64205,TX,Solar,Solar,2027,351.3,,2030.0,67.86010179520608,ST:TX,slip_3plus
+70200.0,Lucy Solar,64205,TX,Solar,Solar,2027,351.3,,,40.73817905258583,ST:TX,never
+66895.0,"Lupinus Solar 1, LLC",LP1PV,TX,Solar,Solar,2027,165.0,,2026.0,1.9765653729147858,ST:TX,slip_-1
+66895.0,"Lupinus Solar 1, LLC",LP1PV,TX,Solar,Solar,2027,165.0,,2027.0,55.06067596028482,ST:TX,slip_0
+66895.0,"Lupinus Solar 1, LLC",LP1PV,TX,Solar,Solar,2027,165.0,,2028.0,36.78204292448098,ST:TX,slip_1
+66895.0,"Lupinus Solar 1, LLC",LP1PV,TX,Solar,Solar,2027,165.0,,2029.0,20.173837461973054,ST:TX,slip_2
+66895.0,"Lupinus Solar 1, LLC",LP1PV,TX,Solar,Solar,2027,165.0,,2030.0,31.87280613779961,ST:TX,slip_3plus
+66895.0,"Lupinus Solar 1, LLC",LP1PV,TX,Solar,Solar,2027,165.0,,,19.134072142546717,ST:TX,never
+66896.0,"Lupinus Solar 2, LLC",LP2PV,TX,Solar,Solar,2027,244.0,,2026.0,2.9229209150982287,ST:TX,slip_-1
+66896.0,"Lupinus Solar 2, LLC",LP2PV,TX,Solar,Solar,2027,244.0,,2027.0,81.42306020793633,ST:TX,slip_0
+66896.0,"Lupinus Solar 2, LLC",LP2PV,TX,Solar,Solar,2027,244.0,,2028.0,54.39283923377794,ST:TX,slip_1
+66896.0,"Lupinus Solar 2, LLC",LP2PV,TX,Solar,Solar,2027,244.0,,2029.0,29.832826307402577,ST:TX,slip_2
+66896.0,"Lupinus Solar 2, LLC",LP2PV,TX,Solar,Solar,2027,244.0,,2030.0,47.133119379533966,ST:TX,slip_3plus
+66896.0,"Lupinus Solar 2, LLC",LP2PV,TX,Solar,Solar,2027,244.0,,,28.2952339562509,ST:TX,never
+66396.0,Naduah Solar,NDUAH,TX,Solar,Solar,2027,102.3,,2026.0,1.2254705312071672,ST:TX,slip_-1
+66396.0,Naduah Solar,NDUAH,TX,Solar,Solar,2027,102.3,,2027.0,34.137619095376586,ST:TX,slip_0
+66396.0,Naduah Solar,NDUAH,TX,Solar,Solar,2027,102.3,,2028.0,22.80486661317821,ST:TX,slip_1
+66396.0,Naduah Solar,NDUAH,TX,Solar,Solar,2027,102.3,,2029.0,12.507779226423292,ST:TX,slip_2
+66396.0,Naduah Solar,NDUAH,TX,Solar,Solar,2027,102.3,,2030.0,19.761139805435757,ST:TX,slip_3plus
+66396.0,Naduah Solar,NDUAH,TX,Solar,Solar,2027,102.3,,,11.863124728378963,ST:TX,never
+70533.0,Nash Solar,NASH,TX,Solar,Solar,2027,10.0,,2026.0,0.11979184078271429,ST:TX,slip_-1
+70533.0,Nash Solar,NASH,TX,Solar,Solar,2027,10.0,,2027.0,3.3370106642596857,ST:TX,slip_0
+70533.0,Nash Solar,NASH,TX,Solar,Solar,2027,10.0,,2028.0,2.229214722695817,ST:TX,slip_1
+70533.0,Nash Solar,NASH,TX,Solar,Solar,2027,10.0,,2029.0,1.2226568158771547,ST:TX,slip_2
+70533.0,Nash Solar,NASH,TX,Solar,Solar,2027,10.0,,2030.0,1.9316852204727035,ST:TX,slip_3plus
+70533.0,Nash Solar,NASH,TX,Solar,Solar,2027,10.0,,,1.1596407359119223,ST:TX,never
+65344.0,Noria Hondo Solar (Hybrid),66148,TX,Solar,Solar,2027,145.0,,2026.0,1.7369816913493572,ST:TX,slip_-1
+65344.0,Noria Hondo Solar (Hybrid),66148,TX,Solar,Solar,2027,145.0,,2027.0,48.386654631765445,ST:TX,slip_0
+65344.0,Noria Hondo Solar (Hybrid),66148,TX,Solar,Solar,2027,145.0,,2028.0,32.32361347908935,ST:TX,slip_1
+65344.0,Noria Hondo Solar (Hybrid),66148,TX,Solar,Solar,2027,145.0,,2029.0,17.728523830218744,ST:TX,slip_2
+65344.0,Noria Hondo Solar (Hybrid),66148,TX,Solar,Solar,2027,145.0,,2030.0,28.009435696854204,ST:TX,slip_3plus
+65344.0,Noria Hondo Solar (Hybrid),66148,TX,Solar,Solar,2027,145.0,,,16.81479067072287,ST:TX,never
+66401.0,OCI Hillsboro,OHLPV,TX,Solar,Solar,2027,200.0,,2026.0,2.395836815654286,ST:TX,slip_-1
+66401.0,OCI Hillsboro,OHLPV,TX,Solar,Solar,2027,200.0,,2027.0,66.74021328519372,ST:TX,slip_0
+66401.0,OCI Hillsboro,OHLPV,TX,Solar,Solar,2027,200.0,,2028.0,44.58429445391634,ST:TX,slip_1
+66401.0,OCI Hillsboro,OHLPV,TX,Solar,Solar,2027,200.0,,2029.0,24.453136317543095,ST:TX,slip_2
+66401.0,OCI Hillsboro,OHLPV,TX,Solar,Solar,2027,200.0,,2030.0,38.633704409454076,ST:TX,slip_3plus
+66401.0,OCI Hillsboro,OHLPV,TX,Solar,Solar,2027,200.0,,,23.192814718238445,ST:TX,never
+65893.0,OCI SunRoper,OCIRO,TX,Solar,Solar,2027,260.0,,2026.0,3.114587860350572,ST:TX,slip_-1
+65893.0,OCI SunRoper,OCIRO,TX,Solar,Solar,2027,260.0,,2027.0,86.76227727075184,ST:TX,slip_0
+65893.0,OCI SunRoper,OCIRO,TX,Solar,Solar,2027,260.0,,2028.0,57.95958279009125,ST:TX,slip_1
+65893.0,OCI SunRoper,OCIRO,TX,Solar,Solar,2027,260.0,,2029.0,31.789077212806024,ST:TX,slip_2
+65893.0,OCI SunRoper,OCIRO,TX,Solar,Solar,2027,260.0,,2030.0,50.2238157322903,ST:TX,slip_3plus
+65893.0,OCI SunRoper,OCIRO,TX,Solar,Solar,2027,260.0,,,30.15065913370998,ST:TX,never
+69780.0,Oystercatcher Solar,OCPV1,TX,Solar,Solar,2027,197.0,,2026.0,2.3598992634194715,ST:TX,slip_-1
+69780.0,Oystercatcher Solar,OCPV1,TX,Solar,Solar,2027,197.0,,2027.0,65.73911008591581,ST:TX,slip_0
+69780.0,Oystercatcher Solar,OCPV1,TX,Solar,Solar,2027,197.0,,2028.0,43.9155300371076,ST:TX,slip_1
+69780.0,Oystercatcher Solar,OCPV1,TX,Solar,Solar,2027,197.0,,2029.0,24.08633927277995,ST:TX,slip_2
+69780.0,Oystercatcher Solar,OCPV1,TX,Solar,Solar,2027,197.0,,2030.0,38.054198843312264,ST:TX,slip_3plus
+69780.0,Oystercatcher Solar,OCPV1,TX,Solar,Solar,2027,197.0,,,22.844922497464868,ST:TX,never
+64999.0,Pecan Prairie North Solar,CPNS1,TX,Solar,Solar,2027,324.1,,2026.0,3.8824535597677707,ST:TX,slip_-1
+64999.0,Pecan Prairie North Solar,CPNS1,TX,Solar,Solar,2027,324.1,,2027.0,108.15251562865643,ST:TX,slip_0
+64999.0,Pecan Prairie North Solar,CPNS1,TX,Solar,Solar,2027,324.1,,2028.0,72.24884916257145,ST:TX,slip_1
+64999.0,Pecan Prairie North Solar,CPNS1,TX,Solar,Solar,2027,324.1,,2029.0,39.62630740257859,ST:TX,slip_2
+64999.0,Pecan Prairie North Solar,CPNS1,TX,Solar,Solar,2027,324.1,,2030.0,62.60591799552033,ST:TX,slip_3plus
+64999.0,Pecan Prairie North Solar,CPNS1,TX,Solar,Solar,2027,324.1,,,37.5839562509054,ST:TX,never
+64981.0,Pecan Prairie South Solar,CPSS1,TX,Solar,Solar,2027,132.9,,2026.0,1.5920335640022731,ST:TX,slip_-1
+64981.0,Pecan Prairie South Solar,CPSS1,TX,Solar,Solar,2027,132.9,,2027.0,44.348871728011225,ST:TX,slip_0
+64981.0,Pecan Prairie South Solar,CPSS1,TX,Solar,Solar,2027,132.9,,2028.0,29.626263664627412,ST:TX,slip_1
+64981.0,Pecan Prairie South Solar,CPSS1,TX,Solar,Solar,2027,132.9,,2029.0,16.249109083007387,ST:TX,slip_2
+64981.0,Pecan Prairie South Solar,CPSS1,TX,Solar,Solar,2027,132.9,,2030.0,25.672096580082233,ST:TX,slip_3plus
+64981.0,Pecan Prairie South Solar,CPSS1,TX,Solar,Solar,2027,132.9,,,15.411625380269447,ST:TX,never
+68359.0,Pepper Solar Farm,OCPSF,TX,Solar,Solar,2027,120.0,,2026.0,1.4375020893925716,ST:TX,slip_-1
+68359.0,Pepper Solar Farm,OCPSF,TX,Solar,Solar,2027,120.0,,2027.0,40.04412797111623,ST:TX,slip_0
+68359.0,Pepper Solar Farm,OCPSF,TX,Solar,Solar,2027,120.0,,2028.0,26.75057667234981,ST:TX,slip_1
+68359.0,Pepper Solar Farm,OCPSF,TX,Solar,Solar,2027,120.0,,2029.0,14.671881790525857,ST:TX,slip_2
+68359.0,Pepper Solar Farm,OCPSF,TX,Solar,Solar,2027,120.0,,2030.0,23.180222645672444,ST:TX,slip_3plus
+68359.0,Pepper Solar Farm,OCPSF,TX,Solar,Solar,2027,120.0,,,13.915688830943067,ST:TX,never
+68030.0,Red Hollow Renewable Energy,RDHLW,TX,Solar,Solar,2027,300.0,,2026.0,3.5937552234814287,ST:TX,slip_-1
+68030.0,Red Hollow Renewable Energy,RDHLW,TX,Solar,Solar,2027,300.0,,2027.0,100.11031992779057,ST:TX,slip_0
+68030.0,Red Hollow Renewable Energy,RDHLW,TX,Solar,Solar,2027,300.0,,2028.0,66.87644168087452,ST:TX,slip_1
+68030.0,Red Hollow Renewable Energy,RDHLW,TX,Solar,Solar,2027,300.0,,2029.0,36.67970447631464,ST:TX,slip_2
+68030.0,Red Hollow Renewable Energy,RDHLW,TX,Solar,Solar,2027,300.0,,2030.0,57.95055661418111,ST:TX,slip_3plus
+68030.0,Red Hollow Renewable Energy,RDHLW,TX,Solar,Solar,2027,300.0,,,34.789222077357664,ST:TX,never
+65310.0,Renegade Solar Project (Dawn),DAWN1,TX,Solar,Solar,2027,515.0,,2026.0,6.169279800309786,ST:TX,slip_-1
+65310.0,Renegade Solar Project (Dawn),DAWN1,TX,Solar,Solar,2027,515.0,,2027.0,171.85604920937382,ST:TX,slip_0
+65310.0,Renegade Solar Project (Dawn),DAWN1,TX,Solar,Solar,2027,515.0,,2028.0,114.80455821883459,ST:TX,slip_1
+65310.0,Renegade Solar Project (Dawn),DAWN1,TX,Solar,Solar,2027,515.0,,2029.0,62.96682601767347,ST:TX,slip_2
+65310.0,Renegade Solar Project (Dawn),DAWN1,TX,Solar,Solar,2027,515.0,,2030.0,99.48178885434423,ST:TX,slip_3plus
+65310.0,Renegade Solar Project (Dawn),DAWN1,TX,Solar,Solar,2027,515.0,,,59.72149789946399,ST:TX,never
+67341.0,SGT Hoskins Solar Project Hybrid,NOSPV,TX,Solar,Solar,2027,204.1,,2026.0,2.444951470375199,ST:TX,slip_-1
+67341.0,SGT Hoskins Solar Project Hybrid,NOSPV,TX,Solar,Solar,2027,204.1,,2027.0,68.10838765754019,ST:TX,slip_0
+67341.0,SGT Hoskins Solar Project Hybrid,NOSPV,TX,Solar,Solar,2027,204.1,,2028.0,45.49827249022163,ST:TX,slip_1
+67341.0,SGT Hoskins Solar Project Hybrid,NOSPV,TX,Solar,Solar,2027,204.1,,2029.0,24.954425612052727,ST:TX,slip_2
+67341.0,SGT Hoskins Solar Project Hybrid,NOSPV,TX,Solar,Solar,2027,204.1,,2030.0,39.42569534984788,ST:TX,slip_3plus
+67341.0,SGT Hoskins Solar Project Hybrid,NOSPV,TX,Solar,Solar,2027,204.1,,,23.66826741996233,ST:TX,never
+70047.0,Selenite Springs Solar,SSPV,TX,Solar,Solar,2027,250.0,,2026.0,2.9947960195678576,ST:TX,slip_-1
+70047.0,Selenite Springs Solar,SSPV,TX,Solar,Solar,2027,250.0,,2027.0,83.42526660649214,ST:TX,slip_0
+70047.0,Selenite Springs Solar,SSPV,TX,Solar,Solar,2027,250.0,,2028.0,55.73036806739543,ST:TX,slip_1
+70047.0,Selenite Springs Solar,SSPV,TX,Solar,Solar,2027,250.0,,2029.0,30.56642039692887,ST:TX,slip_2
+70047.0,Selenite Springs Solar,SSPV,TX,Solar,Solar,2027,250.0,,2030.0,48.29213051181759,ST:TX,slip_3plus
+70047.0,Selenite Springs Solar,SSPV,TX,Solar,Solar,2027,250.0,,,28.991018397798054,ST:TX,never
+68903.0,Solex Ridge Solar,MUSPV,TX,Solar,Solar,2027,100.0,,2026.0,1.197918407827143,ST:TX,slip_-1
+68903.0,Solex Ridge Solar,MUSPV,TX,Solar,Solar,2027,100.0,,2027.0,33.37010664259686,ST:TX,slip_0
+68903.0,Solex Ridge Solar,MUSPV,TX,Solar,Solar,2027,100.0,,2028.0,22.29214722695817,ST:TX,slip_1
+68903.0,Solex Ridge Solar,MUSPV,TX,Solar,Solar,2027,100.0,,2029.0,12.226568158771547,ST:TX,slip_2
+68903.0,Solex Ridge Solar,MUSPV,TX,Solar,Solar,2027,100.0,,2030.0,19.316852204727038,ST:TX,slip_3plus
+68903.0,Solex Ridge Solar,MUSPV,TX,Solar,Solar,2027,100.0,,,11.596407359119222,ST:TX,never
+68033.0,Sunrose Renewable Energy,SNRSE,TX,Solar,Solar,2027,300.0,,2026.0,3.5937552234814287,ST:TX,slip_-1
+68033.0,Sunrose Renewable Energy,SNRSE,TX,Solar,Solar,2027,300.0,,2027.0,100.11031992779057,ST:TX,slip_0
+68033.0,Sunrose Renewable Energy,SNRSE,TX,Solar,Solar,2027,300.0,,2028.0,66.87644168087452,ST:TX,slip_1
+68033.0,Sunrose Renewable Energy,SNRSE,TX,Solar,Solar,2027,300.0,,2029.0,36.67970447631464,ST:TX,slip_2
+68033.0,Sunrose Renewable Energy,SNRSE,TX,Solar,Solar,2027,300.0,,2030.0,57.95055661418111,ST:TX,slip_3plus
+68033.0,Sunrose Renewable Energy,SNRSE,TX,Solar,Solar,2027,300.0,,,34.789222077357664,ST:TX,never
+68175.0,Symank Solar,SYMPV,TX,Solar,Solar,2027,66.6,,2026.0,0.7978136596128771,ST:TX,slip_-1
+68175.0,Symank Solar,SYMPV,TX,Solar,Solar,2027,66.6,,2027.0,22.224491023969506,ST:TX,slip_0
+68175.0,Symank Solar,SYMPV,TX,Solar,Solar,2027,66.6,,2028.0,14.846570053154142,ST:TX,slip_1
+68175.0,Symank Solar,SYMPV,TX,Solar,Solar,2027,66.6,,2029.0,8.14289439374185,ST:TX,slip_2
+68175.0,Symank Solar,SYMPV,TX,Solar,Solar,2027,66.6,,2030.0,12.865023568348205,ST:TX,slip_3plus
+68175.0,Symank Solar,SYMPV,TX,Solar,Solar,2027,66.6,,,7.723207301173401,ST:TX,never
+63202.0,TREX US Red Holly,701,TX,Solar,Solar,2027,250.0,,2026.0,2.9947960195678576,ST:TX,slip_-1
+63202.0,TREX US Red Holly,701,TX,Solar,Solar,2027,250.0,,2027.0,83.42526660649214,ST:TX,slip_0
+63202.0,TREX US Red Holly,701,TX,Solar,Solar,2027,250.0,,2028.0,55.73036806739543,ST:TX,slip_1
+63202.0,TREX US Red Holly,701,TX,Solar,Solar,2027,250.0,,2029.0,30.56642039692887,ST:TX,slip_2
+63202.0,TREX US Red Holly,701,TX,Solar,Solar,2027,250.0,,2030.0,48.29213051181759,ST:TX,slip_3plus
+63202.0,TREX US Red Holly,701,TX,Solar,Solar,2027,250.0,,,28.991018397798054,ST:TX,never
+67575.0,TX Nazareth Solar,NZRTH,TX,Solar,Solar,2027,201.0,,2026.0,2.4078159997325574,ST:TX,slip_-1
+67575.0,TX Nazareth Solar,NZRTH,TX,Solar,Solar,2027,201.0,,2027.0,67.07391435161969,ST:TX,slip_0
+67575.0,TX Nazareth Solar,NZRTH,TX,Solar,Solar,2027,201.0,,2028.0,44.807215926185926,ST:TX,slip_1
+67575.0,TX Nazareth Solar,NZRTH,TX,Solar,Solar,2027,201.0,,2029.0,24.57540199913081,ST:TX,slip_2
+67575.0,TX Nazareth Solar,NZRTH,TX,Solar,Solar,2027,201.0,,2030.0,38.82687293150134,ST:TX,slip_3plus
+67575.0,TX Nazareth Solar,NZRTH,TX,Solar,Solar,2027,201.0,,,23.308778791829635,ST:TX,never
+65855.0,Tehuacana Creek Solar,TE1PV,TX,Solar,Solar,2027,644.8,,2026.0,7.724177893669418,ST:TX,slip_-1
+65855.0,Tehuacana Creek Solar,TE1PV,TX,Solar,Solar,2027,644.8,,2027.0,215.17044763146453,ST:TX,slip_0
+65855.0,Tehuacana Creek Solar,TE1PV,TX,Solar,Solar,2027,644.8,,2028.0,143.73976531942628,ST:TX,slip_1
+65855.0,Tehuacana Creek Solar,TE1PV,TX,Solar,Solar,2027,644.8,,2029.0,78.83691148775893,ST:TX,slip_2
+65855.0,Tehuacana Creek Solar,TE1PV,TX,Solar,Solar,2027,644.8,,2030.0,124.55506301607993,ST:TX,slip_3plus
+65855.0,Tehuacana Creek Solar,TE1PV,TX,Solar,Solar,2027,644.8,,,74.77363465160074,ST:TX,never
+66309.0,Uvalde Solar 2,UVPV2,TX,Solar,Solar,2027,300.0,,2026.0,3.5937552234814287,ST:TX,slip_-1
+66309.0,Uvalde Solar 2,UVPV2,TX,Solar,Solar,2027,300.0,,2027.0,100.11031992779057,ST:TX,slip_0
+66309.0,Uvalde Solar 2,UVPV2,TX,Solar,Solar,2027,300.0,,2028.0,66.87644168087452,ST:TX,slip_1
+66309.0,Uvalde Solar 2,UVPV2,TX,Solar,Solar,2027,300.0,,2029.0,36.67970447631464,ST:TX,slip_2
+66309.0,Uvalde Solar 2,UVPV2,TX,Solar,Solar,2027,300.0,,2030.0,57.95055661418111,ST:TX,slip_3plus
+66309.0,Uvalde Solar 2,UVPV2,TX,Solar,Solar,2027,300.0,,,34.789222077357664,ST:TX,never
+67354.0,Waco Solar II,5698,TX,Solar,Solar,2027,200.0,,2026.0,2.395836815654286,ST:TX,slip_-1
+67354.0,Waco Solar II,5698,TX,Solar,Solar,2027,200.0,,2027.0,66.74021328519372,ST:TX,slip_0
+67354.0,Waco Solar II,5698,TX,Solar,Solar,2027,200.0,,2028.0,44.58429445391634,ST:TX,slip_1
+67354.0,Waco Solar II,5698,TX,Solar,Solar,2027,200.0,,2029.0,24.453136317543095,ST:TX,slip_2
+67354.0,Waco Solar II,5698,TX,Solar,Solar,2027,200.0,,2030.0,38.633704409454076,ST:TX,slip_3plus
+67354.0,Waco Solar II,5698,TX,Solar,Solar,2027,200.0,,,23.192814718238445,ST:TX,never
+70093.0,Wallace Solar - (TX),WSPV1,TX,Solar,Solar,2027,36.0,,2026.0,0.4312506268177715,ST:TX,slip_-1
+70093.0,Wallace Solar - (TX),WSPV1,TX,Solar,Solar,2027,36.0,,2027.0,12.01323839133487,ST:TX,slip_0
+70093.0,Wallace Solar - (TX),WSPV1,TX,Solar,Solar,2027,36.0,,2028.0,8.025173001704943,ST:TX,slip_1
+70093.0,Wallace Solar - (TX),WSPV1,TX,Solar,Solar,2027,36.0,,2029.0,4.401564537157757,ST:TX,slip_2
+70093.0,Wallace Solar - (TX),WSPV1,TX,Solar,Solar,2027,36.0,,2030.0,6.954066793701733,ST:TX,slip_3plus
+70093.0,Wallace Solar - (TX),WSPV1,TX,Solar,Solar,2027,36.0,,,4.17470664928292,ST:TX,never
+67222.0,Yellow Viking Solar,1,TX,Solar,Solar,2027,170.0,,2026.0,2.036461293306143,ST:TX,slip_-1
+67222.0,Yellow Viking Solar,1,TX,Solar,Solar,2027,170.0,,2027.0,56.72918129241466,ST:TX,slip_0
+67222.0,Yellow Viking Solar,1,TX,Solar,Solar,2027,170.0,,2028.0,37.89665028582889,ST:TX,slip_1
+67222.0,Yellow Viking Solar,1,TX,Solar,Solar,2027,170.0,,2029.0,20.78516586991163,ST:TX,slip_2
+67222.0,Yellow Viking Solar,1,TX,Solar,Solar,2027,170.0,,2030.0,32.838648748035965,ST:TX,slip_3plus
+67222.0,Yellow Viking Solar,1,TX,Solar,Solar,2027,170.0,,,19.713892510502678,ST:TX,never
+70175.0,ZSS Solar,ZSPV,TX,Solar,Solar,2027,450.0,,2026.0,5.390632835222143,ST:TX,slip_-1
+70175.0,ZSS Solar,ZSPV,TX,Solar,Solar,2027,450.0,,2027.0,150.16547989168586,ST:TX,slip_0
+70175.0,ZSS Solar,ZSPV,TX,Solar,Solar,2027,450.0,,2028.0,100.31466252131177,ST:TX,slip_1
+70175.0,ZSS Solar,ZSPV,TX,Solar,Solar,2027,450.0,,2029.0,55.01955671447196,ST:TX,slip_2
+70175.0,ZSS Solar,ZSPV,TX,Solar,Solar,2027,450.0,,2030.0,86.92583492127166,ST:TX,slip_3plus
+70175.0,ZSS Solar,ZSPV,TX,Solar,Solar,2027,450.0,,,52.1838331160365,ST:TX,never
+68082.0,Bluebonnet Prairie Wind,BBP,TX,Wind,Wind,2027,170.0,,2027.0,65.91122976268491,ST:TX,slip_0
+68082.0,Bluebonnet Prairie Wind,BBP,TX,Wind,Wind,2027,170.0,,2028.0,29.240409097257288,ST:TX,slip_1
+68082.0,Bluebonnet Prairie Wind,BBP,TX,Wind,Wind,2027,170.0,,2029.0,16.745592643124954,ST:TX,slip_2
+68082.0,Bluebonnet Prairie Wind,BBP,TX,Wind,Wind,2027,170.0,,2030.0,30.225712536123677,ST:TX,slip_3plus
+68082.0,Bluebonnet Prairie Wind,BBP,TX,Wind,Wind,2027,170.0,,,27.877055960809173,ST:TX,never
+66976.0,"Carol Wind, LLC",WAPPA,TX,Wind,Wind,2027,167.8,,2027.0,65.05826090693253,ST:TX,slip_0
+66976.0,"Carol Wind, LLC",WAPPA,TX,Wind,Wind,2027,167.8,,2028.0,28.86200380305749,ST:TX,slip_1
+66976.0,"Carol Wind, LLC",WAPPA,TX,Wind,Wind,2027,167.8,,2029.0,16.52888497362569,ST:TX,slip_2
+66976.0,"Carol Wind, LLC",WAPPA,TX,Wind,Wind,2027,167.8,,2030.0,29.83455625624443,ST:TX,slip_3plus
+66976.0,"Carol Wind, LLC",WAPPA,TX,Wind,Wind,2027,167.8,,,27.51629406013988,ST:TX,never
+60272.0,"Cone Renewable Energy Project, LLC",WT1,TX,Wind,Wind,2027,150.0,,2027.0,58.15696743766316,ST:TX,slip_0
+60272.0,"Cone Renewable Energy Project, LLC",WT1,TX,Wind,Wind,2027,150.0,,2028.0,25.800360968168196,ST:TX,slip_1
+60272.0,"Cone Renewable Energy Project, LLC",WT1,TX,Wind,Wind,2027,150.0,,2029.0,14.77552292040437,ST:TX,slip_2
+60272.0,"Cone Renewable Energy Project, LLC",WT1,TX,Wind,Wind,2027,150.0,,2030.0,26.66974635540324,ST:TX,slip_3plus
+60272.0,"Cone Renewable Energy Project, LLC",WT1,TX,Wind,Wind,2027,150.0,,,24.597402318361038,ST:TX,never
+59971.0,Easter,ESTR1,TX,Wind,Wind,2027,152.0,,2027.0,58.93239367016533,ST:TX,slip_0
+59971.0,Easter,ESTR1,TX,Wind,Wind,2027,152.0,,2028.0,26.144365781077106,ST:TX,slip_1
+59971.0,Easter,ESTR1,TX,Wind,Wind,2027,152.0,,2029.0,14.972529892676429,ST:TX,slip_2
+59971.0,Easter,ESTR1,TX,Wind,Wind,2027,152.0,,2030.0,27.025342973475286,ST:TX,slip_3plus
+59971.0,Easter,ESTR1,TX,Wind,Wind,2027,152.0,,,24.92536768260585,ST:TX,never
+69403.0,Goodnight Wind II,GOOD2,TX,Wind,Wind,2027,265.5,,2027.0,102.93783236466379,ST:TX,slip_0
+69403.0,Goodnight Wind II,GOOD2,TX,Wind,Wind,2027,265.5,,2028.0,45.66663891365771,ST:TX,slip_1
+69403.0,Goodnight Wind II,GOOD2,TX,Wind,Wind,2027,265.5,,2029.0,26.152675569115736,ST:TX,slip_2
+69403.0,Goodnight Wind II,GOOD2,TX,Wind,Wind,2027,265.5,,2030.0,47.20545104906374,ST:TX,slip_3plus
+69403.0,Goodnight Wind II,GOOD2,TX,Wind,Wind,2027,265.5,,,43.53740210349903,ST:TX,never
+69606.0,"Monarch Creek Wind, LLC",7496,TX,Wind,Wind,2027,287.6,,2027.0,111.50629223381284,ST:TX,slip_0
+69606.0,"Monarch Creek Wind, LLC",7496,TX,Wind,Wind,2027,287.6,,2028.0,49.467892096301156,ST:TX,slip_1
+69606.0,"Monarch Creek Wind, LLC",7496,TX,Wind,Wind,2027,287.6,,2029.0,28.32960261272198,ST:TX,slip_2
+69606.0,"Monarch Creek Wind, LLC",7496,TX,Wind,Wind,2027,287.6,,2030.0,51.13479367875982,ST:TX,slip_3plus
+69606.0,"Monarch Creek Wind, LLC",7496,TX,Wind,Wind,2027,287.6,,,47.16141937840423,ST:TX,never
+62846.0,Water Valley Wind Energy,WWE1,TX,Wind,Wind,2027,180.0,,2027.0,69.78836092519579,ST:TX,slip_0
+62846.0,Water Valley Wind Energy,WWE1,TX,Wind,Wind,2027,180.0,,2028.0,30.960433161801834,ST:TX,slip_1
+62846.0,Water Valley Wind Energy,WWE1,TX,Wind,Wind,2027,180.0,,2029.0,17.730627504485245,ST:TX,slip_2
+62846.0,Water Valley Wind Energy,WWE1,TX,Wind,Wind,2027,180.0,,2030.0,32.00369562648389,ST:TX,slip_3plus
+62846.0,Water Valley Wind Energy,WWE1,TX,Wind,Wind,2027,180.0,,,29.516882782033242,ST:TX,never
+69004.0,Adelite Storage Project LLC,ADELI,TX,Battery Storage,Wind,2028,230.0,,2028.0,230.0,unchanged,
+67250.0,Alina Energy LLC,ALIBS,TX,Battery Storage,Wind,2028,200.0,,2028.0,200.0,unchanged,
+66391.0,Ash Creek BESS,BESS,TX,Battery Storage,Wind,2028,306.0,,2028.0,306.0,unchanged,
+67535.0,Bell Creek BESS LLC,ASHU1,TX,Battery Storage,Wind,2028,200.9,,2028.0,200.9,unchanged,
+67558.0,Blackcat BESS,RIC96,TX,Battery Storage,Wind,2028,200.6,,2028.0,200.6,unchanged,
+70365.0,Bodkin BESS,BODES,TX,Battery Storage,Wind,2028,75.0,,2028.0,75.0,unchanged,
+68814.0,Brazos River BESS LLC,ASHU2,TX,Battery Storage,Wind,2028,180.0,,2028.0,180.0,unchanged,
+68738.0,Cannibal Draw Solar and Storage,CANBS,TX,Battery Storage,Wind,2028,98.6,,2028.0,98.6,unchanged,
+68667.0,Chimney Rock BESS,RIC89,TX,Battery Storage,Wind,2028,156.0,,2028.0,156.0,unchanged,
+68668.0,Coke BESS,RIC90,TX,Battery Storage,Wind,2028,220.0,,2028.0,220.0,unchanged,
+69110.0,Coneflower Storage Project LLC,CONEF,TX,Battery Storage,Wind,2028,170.9,,2028.0,170.9,unchanged,
+67776.0,Cuchillas PV and BESS,GRS2B,TX,Battery Storage,Wind,2028,306.9,,2028.0,306.9,unchanged,
+68604.0,Dahlia Energy,DALBS,TX,Battery Storage,Wind,2028,100.0,,2028.0,100.0,unchanged,
+67919.0,"Dolce BESS, LLC",DOLCE,TX,Battery Storage,Wind,2028,101.4,,2028.0,101.4,unchanged,
+68166.0,Dolomite Storage,DOLBA,TX,Battery Storage,Wind,2028,125.7,,2028.0,125.7,unchanged,
+65847.0,Eldora Energy LLC,ELDBS,TX,Battery Storage,Wind,2028,200.0,,2028.0,200.0,unchanged,
+67778.0,Findley PV and BESS,GR16B,TX,Battery Storage,Wind,2028,50.3,,2028.0,50.3,unchanged,
+67777.0,Harryoung PV and BESS,GRS4B,TX,Battery Storage,Wind,2028,190.0,,2028.0,190.0,unchanged,
+67779.0,Hayrick BESS,GRS5,TX,Battery Storage,Wind,2028,113.9,,2028.0,113.9,unchanged,
+67985.0,Hornet Solar II (TX) (Hybrid),HRT2B,TX,Battery Storage,Wind,2028,200.0,,2028.0,200.0,unchanged,
+68168.0,Kahla Storage,KAHBA,TX,Battery Storage,Wind,2028,200.9,,2028.0,200.9,unchanged,
+68172.0,Myers Solar and Storage,MYEBT,TX,Battery Storage,Wind,2028,75.7,,2028.0,75.7,unchanged,
+67987.0,Mystic Springs Renewable Energy (Hybrid),MYSPB,TX,Battery Storage,Wind,2028,250.0,,2028.0,250.0,unchanged,
+70367.0,O'Bannion Energy Storage,OBAES,TX,Battery Storage,Wind,2028,300.0,,2028.0,300.0,unchanged,
+65590.0,Octans,OCTNS,TX,Battery Storage,Wind,2028,125.0,,2028.0,125.0,unchanged,
+67774.0,Pecan BESS,GRS3,TX,Battery Storage,Wind,2028,157.1,,2028.0,157.1,unchanged,
+67782.0,RedSun PV and BESS,GS22B,TX,Battery Storage,Wind,2028,84.0,,2028.0,84.0,unchanged,
+69120.0,Resaca Oasis Storage,RESBS,TX,Battery Storage,Wind,2028,200.7,,2028.0,200.7,unchanged,
+68173.0,Sandford Solar and Storage,SANBT,TX,Battery Storage,Wind,2028,100.9,,2028.0,100.9,unchanged,
+67556.0,Serrano BESS,RIC97,TX,Battery Storage,Wind,2028,185.6,,2028.0,185.6,unchanged,
+68665.0,Summerhill BESS,RIC87,TX,Battery Storage,Wind,2028,143.0,,2028.0,143.0,unchanged,
+68362.0,Sun Angel ESS,SABS1,TX,Battery Storage,Wind,2028,200.0,,2028.0,200.0,unchanged,
+68034.0,Sunscape Renewable Energy,SNSCB,TX,Battery Storage,Wind,2028,500.0,,2028.0,500.0,unchanged,
+67783.0,Ventures BESS,GRS12,TX,Battery Storage,Wind,2028,226.8,,2028.0,226.8,unchanged,
+67555.0,Zephyr Storage,RIC98,TX,Battery Storage,Wind,2028,185.6,,2028.0,185.6,unchanged,
+68606.0,Cedar Bayou 5,5,TX,Natural Gas,Wind,2028,721.0,,2028.0,721.0,unchanged,
+69691.0,Greens Bayou 6,06,TX,Natural Gas,Wind,2028,447.0,,2028.0,447.0,unchanged,
+68504.0,Sandow Lakes Energy Station,SLES1,TX,Natural Gas,Wind,2028,645.0,,2028.0,645.0,unchanged,
+68504.0,Sandow Lakes Energy Station,SLES2,TX,Natural Gas,Wind,2028,645.0,,2028.0,645.0,unchanged,
+60642.0,M&G Resins USA,1,TX,Other,Wind,2028,14.3,,2028.0,14.3,unchanged,
+60642.0,M&G Resins USA,2,TX,Other,Wind,2028,14.3,,2028.0,14.3,unchanged,
+68347.0,Abeja Solar Farm,ABPV1,TX,Solar,Solar,2028,200.0,,2027.0,2.163261332785307,ST:TX,slip_-1
+68347.0,Abeja Solar Farm,ABPV1,TX,Solar,Solar,2028,200.0,,2028.0,26.121380593382586,ST:TX,slip_0
+68347.0,Abeja Solar Farm,ABPV1,TX,Solar,Solar,2028,200.0,,2029.0,22.38975479432793,ST:TX,slip_1
+68347.0,Abeja Solar Farm,ABPV1,TX,Solar,Solar,2028,200.0,,2030.0,15.747460872010647,ST:TX,slip_2
+68347.0,Abeja Solar Farm,ABPV1,TX,Solar,Solar,2028,200.0,,2031.0,63.373822374611976,ST:TX,slip_3plus
+68347.0,Abeja Solar Farm,ABPV1,TX,Solar,Solar,2028,200.0,,,70.20432003288158,ST:TX,never
+66673.0,"Accalia Point Solar, LLC",66666,TX,Solar,Solar,2028,190.5,,2027.0,2.0605064194780054,ST:TX,slip_-1
+66673.0,"Accalia Point Solar, LLC",66666,TX,Solar,Solar,2028,190.5,,2028.0,24.880615015196913,ST:TX,slip_0
+66673.0,"Accalia Point Solar, LLC",66666,TX,Solar,Solar,2028,190.5,,2029.0,21.326241441597354,ST:TX,slip_1
+66673.0,"Accalia Point Solar, LLC",66666,TX,Solar,Solar,2028,190.5,,2030.0,14.99945648059014,ST:TX,slip_2
+66673.0,"Accalia Point Solar, LLC",66666,TX,Solar,Solar,2028,190.5,,2031.0,60.36356581181791,ST:TX,slip_3plus
+66673.0,"Accalia Point Solar, LLC",66666,TX,Solar,Solar,2028,190.5,,,66.86961483131971,ST:TX,never
+67250.0,Alina Energy LLC,ALIPV,TX,Solar,Solar,2028,200.0,,2027.0,2.163261332785307,ST:TX,slip_-1
+67250.0,Alina Energy LLC,ALIPV,TX,Solar,Solar,2028,200.0,,2028.0,26.121380593382586,ST:TX,slip_0
+67250.0,Alina Energy LLC,ALIPV,TX,Solar,Solar,2028,200.0,,2029.0,22.38975479432793,ST:TX,slip_1
+67250.0,Alina Energy LLC,ALIPV,TX,Solar,Solar,2028,200.0,,2030.0,15.747460872010647,ST:TX,slip_2
+67250.0,Alina Energy LLC,ALIPV,TX,Solar,Solar,2028,200.0,,2031.0,63.373822374611976,ST:TX,slip_3plus
+67250.0,Alina Energy LLC,ALIPV,TX,Solar,Solar,2028,200.0,,,70.20432003288158,ST:TX,never
+65853.0,Banita Creek- Spindlepop Solar,MIDPV,TX,Solar,Solar,2028,371.0,,2027.0,4.012849772316745,ST:TX,slip_-1
+65853.0,Banita Creek- Spindlepop Solar,MIDPV,TX,Solar,Solar,2028,371.0,,2028.0,48.4551610007247,ST:TX,slip_0
+65853.0,Banita Creek- Spindlepop Solar,MIDPV,TX,Solar,Solar,2028,371.0,,2029.0,41.53299514347832,ST:TX,slip_1
+65853.0,Banita Creek- Spindlepop Solar,MIDPV,TX,Solar,Solar,2028,371.0,,2030.0,29.21153991757975,ST:TX,slip_2
+65853.0,Banita Creek- Spindlepop Solar,MIDPV,TX,Solar,Solar,2028,371.0,,2031.0,117.55844050490522,ST:TX,slip_3plus
+65853.0,Banita Creek- Spindlepop Solar,MIDPV,TX,Solar,Solar,2028,371.0,,,130.22901366099535,ST:TX,never
+67772.0,Braswell Solar,GRS9,TX,Solar,Solar,2028,44.2,,2027.0,0.47808075454555293,ST:TX,slip_-1
+67772.0,Braswell Solar,GRS9,TX,Solar,Solar,2028,44.2,,2028.0,5.772825111137552,ST:TX,slip_0
+67772.0,Braswell Solar,GRS9,TX,Solar,Solar,2028,44.2,,2029.0,4.948135809546473,ST:TX,slip_1
+67772.0,Braswell Solar,GRS9,TX,Solar,Solar,2028,44.2,,2030.0,3.480188852714353,ST:TX,slip_2
+67772.0,Braswell Solar,GRS9,TX,Solar,Solar,2028,44.2,,2031.0,14.005614744789249,ST:TX,slip_3plus
+67772.0,Braswell Solar,GRS9,TX,Solar,Solar,2028,44.2,,,15.51515472726683,ST:TX,never
+67561.0,Callan Solar,RIC93,TX,Solar,Solar,2028,90.0,,2027.0,0.9734675997533883,ST:TX,slip_-1
+67561.0,Callan Solar,RIC93,TX,Solar,Solar,2028,90.0,,2028.0,11.754621267022165,ST:TX,slip_0
+67561.0,Callan Solar,RIC93,TX,Solar,Solar,2028,90.0,,2029.0,10.07538965744757,ST:TX,slip_1
+67561.0,Callan Solar,RIC93,TX,Solar,Solar,2028,90.0,,2030.0,7.086357392404791,ST:TX,slip_2
+67561.0,Callan Solar,RIC93,TX,Solar,Solar,2028,90.0,,2031.0,28.51822006857539,ST:TX,slip_3plus
+67561.0,Callan Solar,RIC93,TX,Solar,Solar,2028,90.0,,,31.591944014796713,ST:TX,never
+68738.0,Cannibal Draw Solar and Storage,CANPV,TX,Solar,Solar,2028,149.5,,2027.0,1.6170378462570172,ST:TX,slip_-1
+68738.0,Cannibal Draw Solar and Storage,CANPV,TX,Solar,Solar,2028,149.5,,2028.0,19.525731993553485,ST:TX,slip_0
+68738.0,Cannibal Draw Solar and Storage,CANPV,TX,Solar,Solar,2028,149.5,,2029.0,16.73634170876013,ST:TX,slip_1
+68738.0,Cannibal Draw Solar and Storage,CANPV,TX,Solar,Solar,2028,149.5,,2030.0,11.771227001827958,ST:TX,slip_2
+68738.0,Cannibal Draw Solar and Storage,CANPV,TX,Solar,Solar,2028,149.5,,2031.0,47.371932225022455,ST:TX,slip_3plus
+68738.0,Cannibal Draw Solar and Storage,CANPV,TX,Solar,Solar,2028,149.5,,,52.47772922457899,ST:TX,never
+67776.0,Cuchillas PV and BESS,GRS2P,TX,Solar,Solar,2028,305.6,,2027.0,3.30546331649595,ST:TX,slip_-1
+67776.0,Cuchillas PV and BESS,GRS2P,TX,Solar,Solar,2028,305.6,,2028.0,39.913469546688596,ST:TX,slip_0
+67776.0,Cuchillas PV and BESS,GRS2P,TX,Solar,Solar,2028,305.6,,2029.0,34.211545325733084,ST:TX,slip_1
+67776.0,Cuchillas PV and BESS,GRS2P,TX,Solar,Solar,2028,305.6,,2030.0,24.06212021243227,ST:TX,slip_2
+67776.0,Cuchillas PV and BESS,GRS2P,TX,Solar,Solar,2028,305.6,,2031.0,96.8352005884071,ST:TX,slip_3plus
+67776.0,Cuchillas PV and BESS,GRS2P,TX,Solar,Solar,2028,305.6,,,107.27220101024307,ST:TX,never
+68604.0,Dahlia Energy,DALPV,TX,Solar,Solar,2028,200.0,,2027.0,2.163261332785307,ST:TX,slip_-1
+68604.0,Dahlia Energy,DALPV,TX,Solar,Solar,2028,200.0,,2028.0,26.121380593382586,ST:TX,slip_0
+68604.0,Dahlia Energy,DALPV,TX,Solar,Solar,2028,200.0,,2029.0,22.38975479432793,ST:TX,slip_1
+68604.0,Dahlia Energy,DALPV,TX,Solar,Solar,2028,200.0,,2030.0,15.747460872010647,ST:TX,slip_2
+68604.0,Dahlia Energy,DALPV,TX,Solar,Solar,2028,200.0,,2031.0,63.373822374611976,ST:TX,slip_3plus
+68604.0,Dahlia Energy,DALPV,TX,Solar,Solar,2028,200.0,,,70.20432003288158,ST:TX,never
+67543.0,Donegal Solar Project,DOGSP,TX,Solar,Solar,2028,204.2,,2027.0,2.208689820773799,ST:TX,slip_-1
+67543.0,Donegal Solar Project,DOGSP,TX,Solar,Solar,2028,204.2,,2028.0,26.66992958584362,ST:TX,slip_0
+67543.0,Donegal Solar Project,DOGSP,TX,Solar,Solar,2028,204.2,,2029.0,22.85993964500882,ST:TX,slip_1
+67543.0,Donegal Solar Project,DOGSP,TX,Solar,Solar,2028,204.2,,2030.0,16.078157550322867,ST:TX,slip_2
+67543.0,Donegal Solar Project,DOGSP,TX,Solar,Solar,2028,204.2,,2031.0,64.70467264447882,ST:TX,slip_3plus
+67543.0,Donegal Solar Project,DOGSP,TX,Solar,Solar,2028,204.2,,,71.67861075357209,ST:TX,never
+67560.0,Edens Solar,RIC94,TX,Solar,Solar,2028,70.0,,2027.0,0.7571414664748576,ST:TX,slip_-1
+67560.0,Edens Solar,RIC94,TX,Solar,Solar,2028,70.0,,2028.0,9.142483207683906,ST:TX,slip_0
+67560.0,Edens Solar,RIC94,TX,Solar,Solar,2028,70.0,,2029.0,7.836414178014776,ST:TX,slip_1
+67560.0,Edens Solar,RIC94,TX,Solar,Solar,2028,70.0,,2030.0,5.5116113052037266,ST:TX,slip_2
+67560.0,Edens Solar,RIC94,TX,Solar,Solar,2028,70.0,,2031.0,22.180837831114193,ST:TX,slip_3plus
+67560.0,Edens Solar,RIC94,TX,Solar,Solar,2028,70.0,,,24.571512011508556,ST:TX,never
+65847.0,Eldora Energy LLC,ELDPV,TX,Solar,Solar,2028,200.0,,2027.0,2.163261332785307,ST:TX,slip_-1
+65847.0,Eldora Energy LLC,ELDPV,TX,Solar,Solar,2028,200.0,,2028.0,26.121380593382586,ST:TX,slip_0
+65847.0,Eldora Energy LLC,ELDPV,TX,Solar,Solar,2028,200.0,,2029.0,22.38975479432793,ST:TX,slip_1
+65847.0,Eldora Energy LLC,ELDPV,TX,Solar,Solar,2028,200.0,,2030.0,15.747460872010647,ST:TX,slip_2
+65847.0,Eldora Energy LLC,ELDPV,TX,Solar,Solar,2028,200.0,,2031.0,63.373822374611976,ST:TX,slip_3plus
+65847.0,Eldora Energy LLC,ELDPV,TX,Solar,Solar,2028,200.0,,,70.20432003288158,ST:TX,never
+67353.0,Erath County Solar,4666,TX,Solar,Solar,2028,204.0,,2027.0,2.2065265594410133,ST:TX,slip_-1
+67353.0,Erath County Solar,4666,TX,Solar,Solar,2028,204.0,,2028.0,26.643808205250238,ST:TX,slip_0
+67353.0,Erath County Solar,4666,TX,Solar,Solar,2028,204.0,,2029.0,22.83754989021449,ST:TX,slip_1
+67353.0,Erath County Solar,4666,TX,Solar,Solar,2028,204.0,,2030.0,16.06241008945086,ST:TX,slip_2
+67353.0,Erath County Solar,4666,TX,Solar,Solar,2028,204.0,,2031.0,64.64129882210422,ST:TX,slip_3plus
+67353.0,Erath County Solar,4666,TX,Solar,Solar,2028,204.0,,,71.60840643353922,ST:TX,never
+66398.0,Eytcheson Solar,EYTCH,TX,Solar,Solar,2028,76.4,,2027.0,0.8263658291239875,ST:TX,slip_-1
+66398.0,Eytcheson Solar,EYTCH,TX,Solar,Solar,2028,76.4,,2028.0,9.978367386672149,ST:TX,slip_0
+66398.0,Eytcheson Solar,EYTCH,TX,Solar,Solar,2028,76.4,,2029.0,8.552886331433271,ST:TX,slip_1
+66398.0,Eytcheson Solar,EYTCH,TX,Solar,Solar,2028,76.4,,2030.0,6.015530053108067,ST:TX,slip_2
+66398.0,Eytcheson Solar,EYTCH,TX,Solar,Solar,2028,76.4,,2031.0,24.208800147101776,ST:TX,slip_3plus
+66398.0,Eytcheson Solar,EYTCH,TX,Solar,Solar,2028,76.4,,,26.818050252560766,ST:TX,never
+67778.0,Findley PV and BESS,GR16P,TX,Solar,Solar,2028,50.3,,2027.0,0.5440602251955048,ST:TX,slip_-1
+67778.0,Findley PV and BESS,GR16P,TX,Solar,Solar,2028,50.3,,2028.0,6.56952721923572,ST:TX,slip_0
+67778.0,Findley PV and BESS,GR16P,TX,Solar,Solar,2028,50.3,,2029.0,5.631023330773474,ST:TX,slip_1
+67778.0,Findley PV and BESS,GR16P,TX,Solar,Solar,2028,50.3,,2030.0,3.9604864093106773,ST:TX,slip_2
+67778.0,Findley PV and BESS,GR16P,TX,Solar,Solar,2028,50.3,,2031.0,15.938516327214911,ST:TX,slip_3plus
+67778.0,Findley PV and BESS,GR16P,TX,Solar,Solar,2028,50.3,,,17.656386488269717,ST:TX,never
+69506.0,Gail Mountain Solar,GAIPV,TX,Solar,Solar,2028,244.4,,2027.0,2.6435053486636457,ST:TX,slip_-1
+69506.0,Gail Mountain Solar,GAIPV,TX,Solar,Solar,2028,244.4,,2028.0,31.920327085113524,ST:TX,slip_0
+69506.0,Gail Mountain Solar,GAIPV,TX,Solar,Solar,2028,244.4,,2029.0,27.36028035866873,ST:TX,slip_1
+69506.0,Gail Mountain Solar,GAIPV,TX,Solar,Solar,2028,244.4,,2030.0,19.24339718559701,ST:TX,slip_2
+69506.0,Gail Mountain Solar,GAIPV,TX,Solar,Solar,2028,244.4,,2031.0,77.44281094177583,ST:TX,slip_3plus
+69506.0,Gail Mountain Solar,GAIPV,TX,Solar,Solar,2028,244.4,,,85.7896790801813,ST:TX,never
+68305.0,Gigawatt Solar,GWT1,TX,Solar,Solar,2028,429.0,,2027.0,4.640195558824484,ST:TX,slip_-1
+68305.0,Gigawatt Solar,GWT1,TX,Solar,Solar,2028,429.0,,2028.0,56.03036137280565,ST:TX,slip_0
+68305.0,Gigawatt Solar,GWT1,TX,Solar,Solar,2028,429.0,,2029.0,48.026024033833416,ST:TX,slip_1
+68305.0,Gigawatt Solar,GWT1,TX,Solar,Solar,2028,429.0,,2030.0,33.77830357046284,ST:TX,slip_2
+68305.0,Gigawatt Solar,GWT1,TX,Solar,Solar,2028,429.0,,2031.0,135.9368489935427,ST:TX,slip_3plus
+68305.0,Gigawatt Solar,GWT1,TX,Solar,Solar,2028,429.0,,,150.588266470531,ST:TX,never
+68305.0,Gigawatt Solar,GWT2,TX,Solar,Solar,2028,344.0,,2027.0,3.7208094923907287,ST:TX,slip_-1
+68305.0,Gigawatt Solar,GWT2,TX,Solar,Solar,2028,344.0,,2028.0,44.92877462061805,ST:TX,slip_0
+68305.0,Gigawatt Solar,GWT2,TX,Solar,Solar,2028,344.0,,2029.0,38.510378246244045,ST:TX,slip_1
+68305.0,Gigawatt Solar,GWT2,TX,Solar,Solar,2028,344.0,,2030.0,27.085632699858312,ST:TX,slip_2
+68305.0,Gigawatt Solar,GWT2,TX,Solar,Solar,2028,344.0,,2031.0,109.0029744843326,ST:TX,slip_3plus
+68305.0,Gigawatt Solar,GWT2,TX,Solar,Solar,2028,344.0,,,120.75143045655632,ST:TX,never
+69984.0,Hackberry Creek Solar,6059,TX,Solar,Solar,2028,175.0,,2027.0,1.8928536661871438,ST:TX,slip_-1
+69984.0,Hackberry Creek Solar,6059,TX,Solar,Solar,2028,175.0,,2028.0,22.856208019209763,ST:TX,slip_0
+69984.0,Hackberry Creek Solar,6059,TX,Solar,Solar,2028,175.0,,2029.0,19.59103544503694,ST:TX,slip_1
+69984.0,Hackberry Creek Solar,6059,TX,Solar,Solar,2028,175.0,,2030.0,13.779028263009316,ST:TX,slip_2
+69984.0,Hackberry Creek Solar,6059,TX,Solar,Solar,2028,175.0,,2031.0,55.45209457778548,ST:TX,slip_3plus
+69984.0,Hackberry Creek Solar,6059,TX,Solar,Solar,2028,175.0,,,61.428780028771385,ST:TX,never
+67777.0,Harryoung PV and BESS,GRS4P,TX,Solar,Solar,2028,190.0,,2027.0,2.0550982661460417,ST:TX,slip_-1
+67777.0,Harryoung PV and BESS,GRS4P,TX,Solar,Solar,2028,190.0,,2028.0,24.815311563713458,ST:TX,slip_0
+67777.0,Harryoung PV and BESS,GRS4P,TX,Solar,Solar,2028,190.0,,2029.0,21.270267054611534,ST:TX,slip_1
+67777.0,Harryoung PV and BESS,GRS4P,TX,Solar,Solar,2028,190.0,,2030.0,14.960087828410114,ST:TX,slip_2
+67777.0,Harryoung PV and BESS,GRS4P,TX,Solar,Solar,2028,190.0,,2031.0,60.205131255881376,ST:TX,slip_3plus
+67777.0,Harryoung PV and BESS,GRS4P,TX,Solar,Solar,2028,190.0,,,66.6941040312375,ST:TX,never
+64234.0,Hecate Energy Harley Hand Solar LLC,19936,TX,Solar,Solar,2028,514.0,,2027.0,5.5595816252582395,ST:TX,slip_-1
+64234.0,Hecate Energy Harley Hand Solar LLC,19936,TX,Solar,Solar,2028,514.0,,2028.0,67.13194812499324,ST:TX,slip_0
+64234.0,Hecate Energy Harley Hand Solar LLC,19936,TX,Solar,Solar,2028,514.0,,2029.0,57.541669821422786,ST:TX,slip_1
+64234.0,Hecate Energy Harley Hand Solar LLC,19936,TX,Solar,Solar,2028,514.0,,2030.0,40.47097444106736,ST:TX,slip_2
+64234.0,Hecate Energy Harley Hand Solar LLC,19936,TX,Solar,Solar,2028,514.0,,2031.0,162.87072350275278,ST:TX,slip_3plus
+64234.0,Hecate Energy Harley Hand Solar LLC,19936,TX,Solar,Solar,2028,514.0,,,180.42510248450566,ST:TX,never
+67985.0,Hornet Solar II (TX) (Hybrid),HRNT2,TX,Solar,Solar,2028,200.0,,2027.0,2.163261332785307,ST:TX,slip_-1
+67985.0,Hornet Solar II (TX) (Hybrid),HRNT2,TX,Solar,Solar,2028,200.0,,2028.0,26.121380593382586,ST:TX,slip_0
+67985.0,Hornet Solar II (TX) (Hybrid),HRNT2,TX,Solar,Solar,2028,200.0,,2029.0,22.38975479432793,ST:TX,slip_1
+67985.0,Hornet Solar II (TX) (Hybrid),HRNT2,TX,Solar,Solar,2028,200.0,,2030.0,15.747460872010647,ST:TX,slip_2
+67985.0,Hornet Solar II (TX) (Hybrid),HRNT2,TX,Solar,Solar,2028,200.0,,2031.0,63.373822374611976,ST:TX,slip_3plus
+67985.0,Hornet Solar II (TX) (Hybrid),HRNT2,TX,Solar,Solar,2028,200.0,,,70.20432003288158,ST:TX,never
+68203.0,IP Meitner Solar,MEITS,TX,Solar,Solar,2028,500.0,,2027.0,5.408153331963268,ST:TX,slip_-1
+68203.0,IP Meitner Solar,MEITS,TX,Solar,Solar,2028,500.0,,2028.0,65.30345148345647,ST:TX,slip_0
+68203.0,IP Meitner Solar,MEITS,TX,Solar,Solar,2028,500.0,,2029.0,55.97438698581983,ST:TX,slip_1
+68203.0,IP Meitner Solar,MEITS,TX,Solar,Solar,2028,500.0,,2030.0,39.368652180026615,ST:TX,slip_2
+68203.0,IP Meitner Solar,MEITS,TX,Solar,Solar,2028,500.0,,2031.0,158.43455593652993,ST:TX,slip_3plus
+68203.0,IP Meitner Solar,MEITS,TX,Solar,Solar,2028,500.0,,,175.51080008220396,ST:TX,never
+68201.0,IP Roman Solar,ROMS,TX,Solar,Solar,2028,500.0,,2027.0,5.408153331963268,ST:TX,slip_-1
+68201.0,IP Roman Solar,ROMS,TX,Solar,Solar,2028,500.0,,2028.0,65.30345148345647,ST:TX,slip_0
+68201.0,IP Roman Solar,ROMS,TX,Solar,Solar,2028,500.0,,2029.0,55.97438698581983,ST:TX,slip_1
+68201.0,IP Roman Solar,ROMS,TX,Solar,Solar,2028,500.0,,2030.0,39.368652180026615,ST:TX,slip_2
+68201.0,IP Roman Solar,ROMS,TX,Solar,Solar,2028,500.0,,2031.0,158.43455593652993,ST:TX,slip_3plus
+68201.0,IP Roman Solar,ROMS,TX,Solar,Solar,2028,500.0,,,175.51080008220396,ST:TX,never
+68354.0,La Salle Solar,LSPV1,TX,Solar,Solar,2028,500.0,,2027.0,5.408153331963268,ST:TX,slip_-1
+68354.0,La Salle Solar,LSPV1,TX,Solar,Solar,2028,500.0,,2028.0,65.30345148345647,ST:TX,slip_0
+68354.0,La Salle Solar,LSPV1,TX,Solar,Solar,2028,500.0,,2029.0,55.97438698581983,ST:TX,slip_1
+68354.0,La Salle Solar,LSPV1,TX,Solar,Solar,2028,500.0,,2030.0,39.368652180026615,ST:TX,slip_2
+68354.0,La Salle Solar,LSPV1,TX,Solar,Solar,2028,500.0,,2031.0,158.43455593652993,ST:TX,slip_3plus
+68354.0,La Salle Solar,LSPV1,TX,Solar,Solar,2028,500.0,,,175.51080008220396,ST:TX,never
+68172.0,Myers Solar and Storage,MYEPV,TX,Solar,Solar,2028,100.9,,2027.0,1.0913653423901877,ST:TX,slip_-1
+68172.0,Myers Solar and Storage,MYEPV,TX,Solar,Solar,2028,100.9,,2028.0,13.178236509361517,ST:TX,slip_0
+68172.0,Myers Solar and Storage,MYEPV,TX,Solar,Solar,2028,100.9,,2029.0,11.295631293738442,ST:TX,slip_1
+68172.0,Myers Solar and Storage,MYEPV,TX,Solar,Solar,2028,100.9,,2030.0,7.9445940099293715,ST:TX,slip_2
+68172.0,Myers Solar and Storage,MYEPV,TX,Solar,Solar,2028,100.9,,2031.0,31.972093387991745,ST:TX,slip_3plus
+68172.0,Myers Solar and Storage,MYEPV,TX,Solar,Solar,2028,100.9,,,35.418079456588764,ST:TX,never
+67987.0,Mystic Springs Renewable Energy (Hybrid),MYSPS,TX,Solar,Solar,2028,250.0,,2027.0,2.704076665981634,ST:TX,slip_-1
+67987.0,Mystic Springs Renewable Energy (Hybrid),MYSPS,TX,Solar,Solar,2028,250.0,,2028.0,32.651725741728235,ST:TX,slip_0
+67987.0,Mystic Springs Renewable Energy (Hybrid),MYSPS,TX,Solar,Solar,2028,250.0,,2029.0,27.987193492909913,ST:TX,slip_1
+67987.0,Mystic Springs Renewable Energy (Hybrid),MYSPS,TX,Solar,Solar,2028,250.0,,2030.0,19.684326090013307,ST:TX,slip_2
+67987.0,Mystic Springs Renewable Energy (Hybrid),MYSPS,TX,Solar,Solar,2028,250.0,,2031.0,79.21727796826497,ST:TX,slip_3plus
+67987.0,Mystic Springs Renewable Energy (Hybrid),MYSPS,TX,Solar,Solar,2028,250.0,,,87.75540004110198,ST:TX,never
+68411.0,Noor Solar,NORPV,TX,Solar,Solar,2028,188.2,,2027.0,2.035628914150974,ST:TX,slip_-1
+68411.0,Noor Solar,NORPV,TX,Solar,Solar,2028,188.2,,2028.0,24.580219138373014,ST:TX,slip_0
+68411.0,Noor Solar,NORPV,TX,Solar,Solar,2028,188.2,,2029.0,21.06875926146258,ST:TX,slip_1
+68411.0,Noor Solar,NORPV,TX,Solar,Solar,2028,188.2,,2030.0,14.818360680562018,ST:TX,slip_2
+68411.0,Noor Solar,NORPV,TX,Solar,Solar,2028,188.2,,2031.0,59.63476685450987,ST:TX,slip_3plus
+68411.0,Noor Solar,NORPV,TX,Solar,Solar,2028,188.2,,,66.06226515094157,ST:TX,never
+67078.0,Quarter Ranch Solar,GRS3,TX,Solar,Solar,2028,154.1,,2027.0,1.6667928569110793,ST:TX,slip_-1
+67078.0,Quarter Ranch Solar,GRS3,TX,Solar,Solar,2028,154.1,,2028.0,20.126523747201283,ST:TX,slip_0
+67078.0,Quarter Ranch Solar,GRS3,TX,Solar,Solar,2028,154.1,,2029.0,17.25130606902967,ST:TX,slip_1
+67078.0,Quarter Ranch Solar,GRS3,TX,Solar,Solar,2028,154.1,,2030.0,12.133418601884202,ST:TX,slip_2
+67078.0,Quarter Ranch Solar,GRS3,TX,Solar,Solar,2028,154.1,,2031.0,48.82953013963853,ST:TX,slip_3plus
+67078.0,Quarter Ranch Solar,GRS3,TX,Solar,Solar,2028,154.1,,,54.092428585335256,ST:TX,never
+67782.0,RedSun PV and BESS,GS22P,TX,Solar,Solar,2028,84.0,,2027.0,0.908569759769829,ST:TX,slip_-1
+67782.0,RedSun PV and BESS,GS22P,TX,Solar,Solar,2028,84.0,,2028.0,10.970979849220686,ST:TX,slip_0
+67782.0,RedSun PV and BESS,GS22P,TX,Solar,Solar,2028,84.0,,2029.0,9.403697013617732,ST:TX,slip_1
+67782.0,RedSun PV and BESS,GS22P,TX,Solar,Solar,2028,84.0,,2030.0,6.613933566244471,ST:TX,slip_2
+67782.0,RedSun PV and BESS,GS22P,TX,Solar,Solar,2028,84.0,,2031.0,26.61700539733703,ST:TX,slip_3plus
+67782.0,RedSun PV and BESS,GS22P,TX,Solar,Solar,2028,84.0,,,29.485814413810264,ST:TX,never
+69584.0,Rising Star Solar,3572,TX,Solar,Solar,2028,500.0,,2027.0,5.408153331963268,ST:TX,slip_-1
+69584.0,Rising Star Solar,3572,TX,Solar,Solar,2028,500.0,,2028.0,65.30345148345647,ST:TX,slip_0
+69584.0,Rising Star Solar,3572,TX,Solar,Solar,2028,500.0,,2029.0,55.97438698581983,ST:TX,slip_1
+69584.0,Rising Star Solar,3572,TX,Solar,Solar,2028,500.0,,2030.0,39.368652180026615,ST:TX,slip_2
+69584.0,Rising Star Solar,3572,TX,Solar,Solar,2028,500.0,,2031.0,158.43455593652993,ST:TX,slip_3plus
+69584.0,Rising Star Solar,3572,TX,Solar,Solar,2028,500.0,,,175.51080008220396,ST:TX,never
+65854.0,Rowdy Creek Solar and BESS,RDYPV,TX,Solar,Solar,2028,455.0,,2027.0,4.921419532086574,ST:TX,slip_-1
+65854.0,Rowdy Creek Solar and BESS,RDYPV,TX,Solar,Solar,2028,455.0,,2028.0,59.426140849945384,ST:TX,slip_0
+65854.0,Rowdy Creek Solar and BESS,RDYPV,TX,Solar,Solar,2028,455.0,,2029.0,50.93669215709605,ST:TX,slip_1
+65854.0,Rowdy Creek Solar and BESS,RDYPV,TX,Solar,Solar,2028,455.0,,2030.0,35.82547348382422,ST:TX,slip_2
+65854.0,Rowdy Creek Solar and BESS,RDYPV,TX,Solar,Solar,2028,455.0,,2031.0,144.17544590224225,ST:TX,slip_3plus
+65854.0,Rowdy Creek Solar and BESS,RDYPV,TX,Solar,Solar,2028,455.0,,,159.7148280748056,ST:TX,never
+68173.0,Sandford Solar and Storage,SANPV,TX,Solar,Solar,2028,126.2,,2027.0,1.365017900987529,ST:TX,slip_-1
+68173.0,Sandford Solar and Storage,SANPV,TX,Solar,Solar,2028,126.2,,2028.0,16.482591154424412,ST:TX,slip_0
+68173.0,Sandford Solar and Storage,SANPV,TX,Solar,Solar,2028,126.2,,2029.0,14.127935275220926,ST:TX,slip_1
+68173.0,Sandford Solar and Storage,SANPV,TX,Solar,Solar,2028,126.2,,2030.0,9.936647810238718,ST:TX,slip_2
+68173.0,Sandford Solar and Storage,SANPV,TX,Solar,Solar,2028,126.2,,2031.0,39.98888191838016,ST:TX,slip_3plus
+68173.0,Sandford Solar and Storage,SANPV,TX,Solar,Solar,2028,126.2,,,44.29892594074828,ST:TX,never
+68479.0,Short Creek Solar,SHRT,TX,Solar,Solar,2028,606.4,,2027.0,6.559008361005051,ST:TX,slip_-1
+68479.0,Short Creek Solar,SHRT,TX,Solar,Solar,2028,606.4,,2028.0,79.200025959136,ST:TX,slip_0
+68479.0,Short Creek Solar,SHRT,TX,Solar,Solar,2028,606.4,,2029.0,67.88573653640229,ST:TX,slip_1
+68479.0,Short Creek Solar,SHRT,TX,Solar,Solar,2028,606.4,,2030.0,47.746301363936276,ST:TX,slip_2
+68479.0,Short Creek Solar,SHRT,TX,Solar,Solar,2028,606.4,,2031.0,192.1494294398235,ST:TX,slip_3plus
+68479.0,Short Creek Solar,SHRT,TX,Solar,Solar,2028,606.4,,,212.85949833969696,ST:TX,never
+67664.0,Soleil,SOLEI,TX,Solar,Solar,2028,450.0,,2027.0,4.867337998766941,ST:TX,slip_-1
+67664.0,Soleil,SOLEI,TX,Solar,Solar,2028,450.0,,2028.0,58.77310633511082,ST:TX,slip_0
+67664.0,Soleil,SOLEI,TX,Solar,Solar,2028,450.0,,2029.0,50.376948287237845,ST:TX,slip_1
+67664.0,Soleil,SOLEI,TX,Solar,Solar,2028,450.0,,2030.0,35.431786962023956,ST:TX,slip_2
+67664.0,Soleil,SOLEI,TX,Solar,Solar,2028,450.0,,2031.0,142.59110034287696,ST:TX,slip_3plus
+67664.0,Soleil,SOLEI,TX,Solar,Solar,2028,450.0,,,157.95972007398356,ST:TX,never
+67562.0,Stonewall Solar,RIC92,TX,Solar,Solar,2028,60.2,,2027.0,0.6511416611683776,ST:TX,slip_-1
+67562.0,Stonewall Solar,RIC92,TX,Solar,Solar,2028,60.2,,2028.0,7.862535558608159,ST:TX,slip_0
+67562.0,Stonewall Solar,RIC92,TX,Solar,Solar,2028,60.2,,2029.0,6.739316193092708,ST:TX,slip_1
+67562.0,Stonewall Solar,RIC92,TX,Solar,Solar,2028,60.2,,2030.0,4.739985722475205,ST:TX,slip_2
+67562.0,Stonewall Solar,RIC92,TX,Solar,Solar,2028,60.2,,2031.0,19.075520534758205,ST:TX,slip_3plus
+67562.0,Stonewall Solar,RIC92,TX,Solar,Solar,2028,60.2,,,21.131500329897356,ST:TX,never
+68034.0,Sunscape Renewable Energy,SNSCP,TX,Solar,Solar,2028,500.0,,2027.0,5.408153331963268,ST:TX,slip_-1
+68034.0,Sunscape Renewable Energy,SNSCP,TX,Solar,Solar,2028,500.0,,2028.0,65.30345148345647,ST:TX,slip_0
+68034.0,Sunscape Renewable Energy,SNSCP,TX,Solar,Solar,2028,500.0,,2029.0,55.97438698581983,ST:TX,slip_1
+68034.0,Sunscape Renewable Energy,SNSCP,TX,Solar,Solar,2028,500.0,,2030.0,39.368652180026615,ST:TX,slip_2
+68034.0,Sunscape Renewable Energy,SNSCP,TX,Solar,Solar,2028,500.0,,2031.0,158.43455593652993,ST:TX,slip_3plus
+68034.0,Sunscape Renewable Energy,SNSCP,TX,Solar,Solar,2028,500.0,,,175.51080008220396,ST:TX,never
+66922.0,Timber Cove Solar,59957,TX,Solar,Solar,2028,100.0,,2027.0,1.0816306663926536,ST:TX,slip_-1
+66922.0,Timber Cove Solar,59957,TX,Solar,Solar,2028,100.0,,2028.0,13.060690296691293,ST:TX,slip_0
+66922.0,Timber Cove Solar,59957,TX,Solar,Solar,2028,100.0,,2029.0,11.194877397163966,ST:TX,slip_1
+66922.0,Timber Cove Solar,59957,TX,Solar,Solar,2028,100.0,,2030.0,7.8737304360053235,ST:TX,slip_2
+66922.0,Timber Cove Solar,59957,TX,Solar,Solar,2028,100.0,,2031.0,31.686911187305988,ST:TX,slip_3plus
+66922.0,Timber Cove Solar,59957,TX,Solar,Solar,2028,100.0,,,35.10216001644079,ST:TX,never
+66397.0,Tokio Solar,TOKIO,TX,Solar,Solar,2028,170.4,,2027.0,1.843098655533082,ST:TX,slip_-1
+66397.0,Tokio Solar,TOKIO,TX,Solar,Solar,2028,170.4,,2028.0,22.255416265561966,ST:TX,slip_0
+66397.0,Tokio Solar,TOKIO,TX,Solar,Solar,2028,170.4,,2029.0,19.0760710847674,ST:TX,slip_1
+66397.0,Tokio Solar,TOKIO,TX,Solar,Solar,2028,170.4,,2030.0,13.41683666295307,ST:TX,slip_2
+66397.0,Tokio Solar,TOKIO,TX,Solar,Solar,2028,170.4,,2031.0,53.99449666316941,ST:TX,slip_3plus
+66397.0,Tokio Solar,TOKIO,TX,Solar,Solar,2028,170.4,,,59.81408066801511,ST:TX,never
+66132.0,Trinity River Solar 1,TXTR1,TX,Solar,Solar,2028,150.0,,2027.0,1.6224459995889804,ST:TX,slip_-1
+66132.0,Trinity River Solar 1,TXTR1,TX,Solar,Solar,2028,150.0,,2028.0,19.59103544503694,ST:TX,slip_0
+66132.0,Trinity River Solar 1,TXTR1,TX,Solar,Solar,2028,150.0,,2029.0,16.79231609574595,ST:TX,slip_1
+66132.0,Trinity River Solar 1,TXTR1,TX,Solar,Solar,2028,150.0,,2030.0,11.810595654007985,ST:TX,slip_2
+66132.0,Trinity River Solar 1,TXTR1,TX,Solar,Solar,2028,150.0,,2031.0,47.530366780958985,ST:TX,slip_3plus
+66132.0,Trinity River Solar 1,TXTR1,TX,Solar,Solar,2028,150.0,,,52.65324002466119,ST:TX,never
+68739.0,Uva Creek Solar,UVAPV,TX,Solar,Solar,2028,301.0,,2027.0,3.2557083058418876,ST:TX,slip_-1
+68739.0,Uva Creek Solar,UVAPV,TX,Solar,Solar,2028,301.0,,2028.0,39.31267779304079,ST:TX,slip_0
+68739.0,Uva Creek Solar,UVAPV,TX,Solar,Solar,2028,301.0,,2029.0,33.69658096546354,ST:TX,slip_1
+68739.0,Uva Creek Solar,UVAPV,TX,Solar,Solar,2028,301.0,,2030.0,23.699928612376024,ST:TX,slip_2
+68739.0,Uva Creek Solar,UVAPV,TX,Solar,Solar,2028,301.0,,2031.0,95.37760267379103,ST:TX,slip_3plus
+68739.0,Uva Creek Solar,UVAPV,TX,Solar,Solar,2028,301.0,,,105.65750164948679,ST:TX,never
+67567.0,Wensowitch Solar Park,WEGSP,TX,Solar,Solar,2028,145.6,,2027.0,1.5748542502677036,ST:TX,slip_-1
+67567.0,Wensowitch Solar Park,WEGSP,TX,Solar,Solar,2028,145.6,,2028.0,19.016365071982523,ST:TX,slip_0
+67567.0,Wensowitch Solar Park,WEGSP,TX,Solar,Solar,2028,145.6,,2029.0,16.299741490270733,ST:TX,slip_1
+67567.0,Wensowitch Solar Park,WEGSP,TX,Solar,Solar,2028,145.6,,2030.0,11.46415151482375,ST:TX,slip_2
+67567.0,Wensowitch Solar Park,WEGSP,TX,Solar,Solar,2028,145.6,,2031.0,46.13614268871752,ST:TX,slip_3plus
+67567.0,Wensowitch Solar Park,WEGSP,TX,Solar,Solar,2028,145.6,,,51.10874498393779,ST:TX,never
+67785.0,Whistle Solar,GRS19,TX,Solar,Solar,2028,56.3,,2027.0,0.6089580651790639,ST:TX,slip_-1
+67785.0,Whistle Solar,GRS19,TX,Solar,Solar,2028,56.3,,2028.0,7.353168637037198,ST:TX,slip_0
+67785.0,Whistle Solar,GRS19,TX,Solar,Solar,2028,56.3,,2029.0,6.302715974603313,ST:TX,slip_1
+67785.0,Whistle Solar,GRS19,TX,Solar,Solar,2028,56.3,,2030.0,4.432910235470997,ST:TX,slip_2
+67785.0,Whistle Solar,GRS19,TX,Solar,Solar,2028,56.3,,2031.0,17.83973099845327,ST:TX,slip_3plus
+67785.0,Whistle Solar,GRS19,TX,Solar,Solar,2028,56.3,,,19.762516089256167,ST:TX,never
+68459.0,"Bob Creek Wind, LLC",5961,TX,Wind,Wind,2028,175.0,,2028.0,29.19467264127459,ST:TX,slip_0
+68459.0,"Bob Creek Wind, LLC",5961,TX,Wind,Wind,2028,175.0,,2030.0,15.546427682350016,ST:TX,slip_2
+68459.0,"Bob Creek Wind, LLC",5961,TX,Wind,Wind,2028,175.0,,2031.0,78.1055514065223,ST:TX,slip_3plus
+68459.0,"Bob Creek Wind, LLC",5961,TX,Wind,Wind,2028,175.0,,,52.153348269853126,ST:TX,never
+59243.0,Changing Winds,CHAN1,TX,Wind,Wind,2028,288.0,,2028.0,48.046089832497614,ST:TX,slip_0
+59243.0,Changing Winds,CHAN1,TX,Wind,Wind,2028,288.0,,2030.0,25.584978128667455,ST:TX,slip_2
+59243.0,Changing Winds,CHAN1,TX,Wind,Wind,2028,288.0,,2031.0,128.53942174330527,ST:TX,slip_3plus
+59243.0,Changing Winds,CHAN1,TX,Wind,Wind,2028,288.0,,,85.82951029552972,ST:TX,never
+68204.0,IP Meitner Wind,PLANT,TX,Wind,Wind,2028,500.0,,2028.0,500.0,wind_override,
+68202.0,IP Roman Wind,PLANT,TX,Wind,Wind,2028,670.5,,2028.0,224.0,wind_override,
+68202.0,IP Roman Wind,PLANT,TX,Wind,Wind,2028,670.5,,2029.0,446.5,wind_override,
+68349.0,Avant Prairie ESS,AVBS1,TX,Battery Storage,Wind,2029,200.0,,2029.0,200.0,unchanged,
+67767.0,Bramble Energy Center,BECBA,TX,Battery Storage,Wind,2029,225.1,,2029.0,225.1,unchanged,
+68350.0,Bravo ESS,BESS1,TX,Battery Storage,Wind,2029,200.0,,2029.0,200.0,unchanged,
+67896.0,Holstein 2 Battery Storage,229HD,TX,Battery Storage,Wind,2029,100.0,,2029.0,100.0,unchanged,
+68671.0,Houston County BESS,RIC91,TX,Battery Storage,Wind,2029,125.0,,2029.0,125.0,unchanged,
+68353.0,La Salle ESS,LSBS1,TX,Battery Storage,Wind,2029,500.0,,2029.0,500.0,unchanged,
+68356.0,Lazy U ESS 2,LUBA2,TX,Battery Storage,Wind,2029,250.0,,2029.0,250.0,unchanged,
+68080.0,Marcos PV and BESS,GRS8B,TX,Battery Storage,Wind,2029,115.9,,2029.0,115.9,unchanged,
+68084.0,Morrow Lake BESS,MLB,TX,Battery Storage,Wind,2029,200.0,,2029.0,200.0,unchanged,
+68360.0,Prost ESS,PRESS,TX,Battery Storage,Wind,2029,200.0,,2029.0,200.0,unchanged,
+68666.0,Stonewall BESS,RIC88,TX,Battery Storage,Wind,2029,135.0,,2029.0,135.0,unchanged,
+68363.0,SunShiner ESS,SSESS,TX,Battery Storage,Wind,2029,200.0,,2029.0,200.0,unchanged,
+68364.0,Tex-Bar ESS,TBESS,TX,Battery Storage,Wind,2029,200.0,,2029.0,200.0,unchanged,
+69566.0,CPV Basin Ranch Energy Center,GEN1,TX,Natural Gas,Wind,2029,722.5,,2029.0,722.5,unchanged,
+69566.0,CPV Basin Ranch Energy Center,GEN2,TX,Natural Gas,Wind,2029,722.5,,2029.0,722.5,unchanged,
+67649.0,Amerada,AMERA,TX,Solar,Solar,2029,300.0,,2028.0,9.317734755150637,NATIONAL,slip_-1
+67649.0,Amerada,AMERA,TX,Solar,Solar,2029,300.0,,2029.0,9.545501604720986,NATIONAL,slip_0
+67649.0,Amerada,AMERA,TX,Solar,Solar,2029,300.0,,2030.0,43.377161196811265,NATIONAL,slip_1
+67649.0,Amerada,AMERA,TX,Solar,Solar,2029,300.0,,2031.0,45.07713013769541,NATIONAL,slip_2
+67649.0,Amerada,AMERA,TX,Solar,Solar,2029,300.0,,2032.0,127.36308106429237,NATIONAL,slip_3plus
+67649.0,Amerada,AMERA,TX,Solar,Solar,2029,300.0,,,65.31939124132933,NATIONAL,never
+69640.0,Cazadores Solar,73509,TX,Solar,Solar,2029,300.0,,2028.0,9.317734755150637,NATIONAL,slip_-1
+69640.0,Cazadores Solar,73509,TX,Solar,Solar,2029,300.0,,2029.0,9.545501604720986,NATIONAL,slip_0
+69640.0,Cazadores Solar,73509,TX,Solar,Solar,2029,300.0,,2030.0,43.377161196811265,NATIONAL,slip_1
+69640.0,Cazadores Solar,73509,TX,Solar,Solar,2029,300.0,,2031.0,45.07713013769541,NATIONAL,slip_2
+69640.0,Cazadores Solar,73509,TX,Solar,Solar,2029,300.0,,2032.0,127.36308106429237,NATIONAL,slip_3plus
+69640.0,Cazadores Solar,73509,TX,Solar,Solar,2029,300.0,,,65.31939124132933,NATIONAL,never
+68351.0,Clairemont Solar,CLAPV,TX,Solar,Solar,2029,250.0,,2028.0,7.76477896262553,NATIONAL,slip_-1
+68351.0,Clairemont Solar,CLAPV,TX,Solar,Solar,2029,250.0,,2029.0,7.954584670600822,NATIONAL,slip_0
+68351.0,Clairemont Solar,CLAPV,TX,Solar,Solar,2029,250.0,,2030.0,36.147634330676055,NATIONAL,slip_1
+68351.0,Clairemont Solar,CLAPV,TX,Solar,Solar,2029,250.0,,2031.0,37.56427511474618,NATIONAL,slip_2
+68351.0,Clairemont Solar,CLAPV,TX,Solar,Solar,2029,250.0,,2032.0,106.13590088691032,NATIONAL,slip_3plus
+68351.0,Clairemont Solar,CLAPV,TX,Solar,Solar,2029,250.0,,,54.432826034441106,NATIONAL,never
+68275.0,Erin,1,TX,Solar,Solar,2029,202.0,,2028.0,6.273941401801428,NATIONAL,slip_-1
+68275.0,Erin,1,TX,Solar,Solar,2029,202.0,,2029.0,6.427304413845464,NATIONAL,slip_0
+68275.0,Erin,1,TX,Solar,Solar,2029,202.0,,2030.0,29.20728853918625,NATIONAL,slip_1
+68275.0,Erin,1,TX,Solar,Solar,2029,202.0,,2031.0,30.351934292714912,NATIONAL,slip_2
+68275.0,Erin,1,TX,Solar,Solar,2029,202.0,,2032.0,85.75780791662353,NATIONAL,slip_3plus
+68275.0,Erin,1,TX,Solar,Solar,2029,202.0,,,43.981723435828414,NATIONAL,never
+68357.0,Lazy U Solar 1,LUPV1,TX,Solar,Solar,2029,250.0,,2028.0,7.76477896262553,NATIONAL,slip_-1
+68357.0,Lazy U Solar 1,LUPV1,TX,Solar,Solar,2029,250.0,,2029.0,7.954584670600822,NATIONAL,slip_0
+68357.0,Lazy U Solar 1,LUPV1,TX,Solar,Solar,2029,250.0,,2030.0,36.147634330676055,NATIONAL,slip_1
+68357.0,Lazy U Solar 1,LUPV1,TX,Solar,Solar,2029,250.0,,2031.0,37.56427511474618,NATIONAL,slip_2
+68357.0,Lazy U Solar 1,LUPV1,TX,Solar,Solar,2029,250.0,,2032.0,106.13590088691032,NATIONAL,slip_3plus
+68357.0,Lazy U Solar 1,LUPV1,TX,Solar,Solar,2029,250.0,,,54.432826034441106,NATIONAL,never
+68358.0,Lazy U Solar 2,LUPV2,TX,Solar,Solar,2029,250.0,,2028.0,7.76477896262553,NATIONAL,slip_-1
+68358.0,Lazy U Solar 2,LUPV2,TX,Solar,Solar,2029,250.0,,2029.0,7.954584670600822,NATIONAL,slip_0
+68358.0,Lazy U Solar 2,LUPV2,TX,Solar,Solar,2029,250.0,,2030.0,36.147634330676055,NATIONAL,slip_1
+68358.0,Lazy U Solar 2,LUPV2,TX,Solar,Solar,2029,250.0,,2031.0,37.56427511474618,NATIONAL,slip_2
+68358.0,Lazy U Solar 2,LUPV2,TX,Solar,Solar,2029,250.0,,2032.0,106.13590088691032,NATIONAL,slip_3plus
+68358.0,Lazy U Solar 2,LUPV2,TX,Solar,Solar,2029,250.0,,,54.432826034441106,NATIONAL,never
+67996.0,Leuven Solar LLC,SEPAS,TX,Solar,Solar,2029,217.0,,2028.0,6.73982813955896,NATIONAL,slip_-1
+67996.0,Leuven Solar LLC,SEPAS,TX,Solar,Solar,2029,217.0,,2029.0,6.9045794940815135,NATIONAL,slip_0
+67996.0,Leuven Solar LLC,SEPAS,TX,Solar,Solar,2029,217.0,,2030.0,31.376146599026814,NATIONAL,slip_1
+67996.0,Leuven Solar LLC,SEPAS,TX,Solar,Solar,2029,217.0,,2031.0,32.60579079959968,NATIONAL,slip_2
+67996.0,Leuven Solar LLC,SEPAS,TX,Solar,Solar,2029,217.0,,2032.0,92.12596196983816,NATIONAL,slip_3plus
+67996.0,Leuven Solar LLC,SEPAS,TX,Solar,Solar,2029,217.0,,,47.24769299789488,NATIONAL,never
+69636.0,Main Horn Solar,69363,TX,Solar,Solar,2029,100.0,,2028.0,3.105911585050212,NATIONAL,slip_-1
+69636.0,Main Horn Solar,69363,TX,Solar,Solar,2029,100.0,,2029.0,3.1818338682403287,NATIONAL,slip_0
+69636.0,Main Horn Solar,69363,TX,Solar,Solar,2029,100.0,,2030.0,14.459053732270421,NATIONAL,slip_1
+69636.0,Main Horn Solar,69363,TX,Solar,Solar,2029,100.0,,2031.0,15.025710045898471,NATIONAL,slip_2
+69636.0,Main Horn Solar,69363,TX,Solar,Solar,2029,100.0,,2032.0,42.45436035476413,NATIONAL,slip_3plus
+69636.0,Main Horn Solar,69363,TX,Solar,Solar,2029,100.0,,,21.773130413776443,NATIONAL,never
+68080.0,Marcos PV and BESS,GRS8P,TX,Solar,Solar,2029,115.9,,2028.0,3.599751527073196,NATIONAL,slip_-1
+68080.0,Marcos PV and BESS,GRS8P,TX,Solar,Solar,2029,115.9,,2029.0,3.687745453290541,NATIONAL,slip_0
+68080.0,Marcos PV and BESS,GRS8P,TX,Solar,Solar,2029,115.9,,2030.0,16.758043275701418,NATIONAL,slip_1
+68080.0,Marcos PV and BESS,GRS8P,TX,Solar,Solar,2029,115.9,,2031.0,17.41479794319633,NATIONAL,slip_2
+68080.0,Marcos PV and BESS,GRS8P,TX,Solar,Solar,2029,115.9,,2032.0,49.204603651171624,NATIONAL,slip_3plus
+68080.0,Marcos PV and BESS,GRS8P,TX,Solar,Solar,2029,115.9,,,25.2350581495669,NATIONAL,never
+69892.0,Oak Valley Solar,OAK,TX,Solar,Solar,2029,251.3,,2028.0,7.805155813231184,NATIONAL,slip_-1
+69892.0,Oak Valley Solar,OAK,TX,Solar,Solar,2029,251.3,,2029.0,7.9959485108879464,NATIONAL,slip_0
+69892.0,Oak Valley Solar,OAK,TX,Solar,Solar,2029,251.3,,2030.0,36.33560202919557,NATIONAL,slip_1
+69892.0,Oak Valley Solar,OAK,TX,Solar,Solar,2029,251.3,,2031.0,37.75960934534286,NATIONAL,slip_2
+69892.0,Oak Valley Solar,OAK,TX,Solar,Solar,2029,251.3,,2032.0,106.68780757152226,NATIONAL,slip_3plus
+69892.0,Oak Valley Solar,OAK,TX,Solar,Solar,2029,251.3,,,54.7158767298202,NATIONAL,never
+67563.0,Ratcliff Solar Park,RAGSP,TX,Solar,Solar,2029,78.8,,2028.0,2.4474583290195673,NATIONAL,slip_-1
+67563.0,Ratcliff Solar Park,RAGSP,TX,Solar,Solar,2029,78.8,,2029.0,2.507285088173379,NATIONAL,slip_0
+67563.0,Ratcliff Solar Park,RAGSP,TX,Solar,Solar,2029,78.8,,2030.0,11.393734341029091,NATIONAL,slip_1
+67563.0,Ratcliff Solar Park,RAGSP,TX,Solar,Solar,2029,78.8,,2031.0,11.840259516167995,NATIONAL,slip_2
+67563.0,Ratcliff Solar Park,RAGSP,TX,Solar,Solar,2029,78.8,,2032.0,33.45403595955413,NATIONAL,slip_3plus
+67563.0,Ratcliff Solar Park,RAGSP,TX,Solar,Solar,2029,78.8,,,17.157226766055835,NATIONAL,never
+67564.0,Reis Solar Park,REGSP,TX,Solar,Solar,2029,105.5,,2028.0,3.276736722227974,NATIONAL,slip_-1
+67564.0,Reis Solar Park,REGSP,TX,Solar,Solar,2029,105.5,,2029.0,3.356834730993547,NATIONAL,slip_0
+67564.0,Reis Solar Park,REGSP,TX,Solar,Solar,2029,105.5,,2030.0,15.254301687545295,NATIONAL,slip_1
+67564.0,Reis Solar Park,REGSP,TX,Solar,Solar,2029,105.5,,2031.0,15.852124098422887,NATIONAL,slip_2
+67564.0,Reis Solar Park,REGSP,TX,Solar,Solar,2029,105.5,,2032.0,44.78935017427615,NATIONAL,slip_3plus
+67564.0,Reis Solar Park,REGSP,TX,Solar,Solar,2029,105.5,,,22.970652586534147,NATIONAL,never
+67566.0,Roscommon Solar Park,ROGSP,TX,Solar,Solar,2029,82.8,,2028.0,2.5716947924215754,NATIONAL,slip_-1
+67566.0,Roscommon Solar Park,ROGSP,TX,Solar,Solar,2029,82.8,,2029.0,2.6345584429029922,NATIONAL,slip_0
+67566.0,Roscommon Solar Park,ROGSP,TX,Solar,Solar,2029,82.8,,2030.0,11.972096490319908,NATIONAL,slip_1
+67566.0,Roscommon Solar Park,ROGSP,TX,Solar,Solar,2029,82.8,,2031.0,12.441287918003933,NATIONAL,slip_2
+67566.0,Roscommon Solar Park,ROGSP,TX,Solar,Solar,2029,82.8,,2032.0,35.152210373744694,NATIONAL,slip_3plus
+67566.0,Roscommon Solar Park,ROGSP,TX,Solar,Solar,2029,82.8,,,18.028151982606893,NATIONAL,never
+67568.0,Wittig Solar Park,WIGSP,TX,Solar,Solar,2029,96.0,,2028.0,2.9816751216482036,NATIONAL,slip_-1
+67568.0,Wittig Solar Park,WIGSP,TX,Solar,Solar,2029,96.0,,2029.0,3.0545605135107157,NATIONAL,slip_0
+67568.0,Wittig Solar Park,WIGSP,TX,Solar,Solar,2029,96.0,,2030.0,13.880691582979605,NATIONAL,slip_1
+67568.0,Wittig Solar Park,WIGSP,TX,Solar,Solar,2029,96.0,,2031.0,14.424681644062533,NATIONAL,slip_2
+67568.0,Wittig Solar Park,WIGSP,TX,Solar,Solar,2029,96.0,,2032.0,40.75618594057356,NATIONAL,slip_3plus
+67568.0,Wittig Solar Park,WIGSP,TX,Solar,Solar,2029,96.0,,,20.902205197225385,NATIONAL,never
+67542.0,Blue Hills Wind Project,BHWP,TX,Wind,Wind,2029,276.0,,2030.0,1.6855791962174942,NATIONAL,slip_1
+67542.0,Blue Hills Wind Project,BHWP,TX,Wind,Wind,2029,276.0,,2032.0,191.44917257683215,NATIONAL,slip_3plus
+67542.0,Blue Hills Wind Project,BHWP,TX,Wind,Wind,2029,276.0,,,82.86524822695036,NATIONAL,never
+68090.0,Willow Beach Wind,WILLO,TX,Wind,Wind,2029,200.0,,2030.0,1.2214342001576044,NATIONAL,slip_1
+68090.0,Willow Beach Wind,WILLO,TX,Wind,Wind,2029,200.0,,2032.0,138.7312844759653,NATIONAL,slip_3plus
+68090.0,Willow Beach Wind,WILLO,TX,Wind,Wind,2029,200.0,,,60.047281323877066,NATIONAL,never
+67570.0,Cedar Hill ESS,3004,TX,Battery Storage,Wind,2030,10.0,,2030.0,10.0,unchanged,
+68355.0,Lazy U ESS 1,LUBA1,TX,Battery Storage,Wind,2030,250.0,,2030.0,250.0,unchanged,
+69641.0,Metro BESS,49453,TX,Battery Storage,Wind,2030,200.0,,2030.0,200.0,unchanged,
+69637.0,Oakley BESS,28152,TX,Battery Storage,Wind,2030,200.0,,2030.0,200.0,unchanged,
+63193.0,Alira,UNIT1,TX,Solar,Solar,2030,222.8,,2029.0,6.919971011491873,NATIONAL,slip_-1
+63193.0,Alira,UNIT1,TX,Solar,Solar,2030,222.8,,2030.0,7.089125858439453,NATIONAL,slip_0
+63193.0,Alira,UNIT1,TX,Solar,Solar,2030,222.8,,2031.0,32.2147717154985,NATIONAL,slip_1
+63193.0,Alira,UNIT1,TX,Solar,Solar,2030,222.8,,2032.0,33.47728198226179,NATIONAL,slip_2
+63193.0,Alira,UNIT1,TX,Solar,Solar,2030,222.8,,2033.0,94.58831487041448,NATIONAL,slip_3plus
+63193.0,Alira,UNIT1,TX,Solar,Solar,2030,222.8,,,48.51053456189392,NATIONAL,never
+67559.0,Dunlay Solar,RIC95,TX,Solar,Solar,2030,180.4,,2029.0,5.603064499430583,NATIONAL,slip_-1
+67559.0,Dunlay Solar,RIC95,TX,Solar,Solar,2030,180.4,,2030.0,5.740028298305553,NATIONAL,slip_0
+67559.0,Dunlay Solar,RIC95,TX,Solar,Solar,2030,180.4,,2031.0,26.08413293301584,NATIONAL,slip_1
+67559.0,Dunlay Solar,RIC95,TX,Solar,Solar,2030,180.4,,2032.0,27.106380922800845,NATIONAL,slip_2
+67559.0,Dunlay Solar,RIC95,TX,Solar,Solar,2030,180.4,,2033.0,76.58766607999449,NATIONAL,slip_3plus
+67559.0,Dunlay Solar,RIC95,TX,Solar,Solar,2030,180.4,,,39.278727266452705,NATIONAL,never
+68767.0,Greenalia Solar Power Blackwelder Ranch,BRGSP,TX,Solar,Solar,2030,199.7,,2029.0,6.202505435345273,NATIONAL,slip_-1
+68767.0,Greenalia Solar Power Blackwelder Ranch,BRGSP,TX,Solar,Solar,2030,199.7,,2030.0,6.354122234875936,NATIONAL,slip_0
+68767.0,Greenalia Solar Power Blackwelder Ranch,BRGSP,TX,Solar,Solar,2030,199.7,,2031.0,28.87473030334403,NATIONAL,slip_1
+68767.0,Greenalia Solar Power Blackwelder Ranch,BRGSP,TX,Solar,Solar,2030,199.7,,2032.0,30.006342961659247,NATIONAL,slip_2
+68767.0,Greenalia Solar Power Blackwelder Ranch,BRGSP,TX,Solar,Solar,2030,199.7,,2033.0,84.78135762846395,NATIONAL,slip_3plus
+68767.0,Greenalia Solar Power Blackwelder Ranch,BRGSP,TX,Solar,Solar,2030,199.7,,,43.480941436311554,NATIONAL,never
+68765.0,Hutcherson Solar,HUGSP,TX,Solar,Solar,2030,123.3,,2029.0,3.8295889843669118,NATIONAL,slip_-1
+68765.0,Hutcherson Solar,HUGSP,TX,Solar,Solar,2030,123.3,,2030.0,3.9232011595403256,NATIONAL,slip_0
+68765.0,Hutcherson Solar,HUGSP,TX,Solar,Solar,2030,123.3,,2031.0,17.82801325188943,NATIONAL,slip_1
+68765.0,Hutcherson Solar,HUGSP,TX,Solar,Solar,2030,123.3,,2032.0,18.526700486592816,NATIONAL,slip_2
+68765.0,Hutcherson Solar,HUGSP,TX,Solar,Solar,2030,123.3,,2033.0,52.34622631742417,NATIONAL,slip_3plus
+68765.0,Hutcherson Solar,HUGSP,TX,Solar,Solar,2030,123.3,,,26.846269800186352,NATIONAL,never
+67544.0,Leitrim Solar Park,LEGSP,TX,Solar,Solar,2030,91.2,,2029.0,2.8325913655657935,NATIONAL,slip_-1
+67544.0,Leitrim Solar Park,LEGSP,TX,Solar,Solar,2030,91.2,,2030.0,2.90183248783518,NATIONAL,slip_0
+67544.0,Leitrim Solar Park,LEGSP,TX,Solar,Solar,2030,91.2,,2031.0,13.186657003830625,NATIONAL,slip_1
+67544.0,Leitrim Solar Park,LEGSP,TX,Solar,Solar,2030,91.2,,2032.0,13.703447561859406,NATIONAL,slip_2
+67544.0,Leitrim Solar Park,LEGSP,TX,Solar,Solar,2030,91.2,,2033.0,38.718376643544886,NATIONAL,slip_3plus
+67544.0,Leitrim Solar Park,LEGSP,TX,Solar,Solar,2030,91.2,,,19.857094937364117,NATIONAL,never
+69644.0,Pease River Solar,58441,TX,Solar,Solar,2030,300.0,,2029.0,9.317734755150637,NATIONAL,slip_-1
+69644.0,Pease River Solar,58441,TX,Solar,Solar,2030,300.0,,2030.0,9.545501604720986,NATIONAL,slip_0
+69644.0,Pease River Solar,58441,TX,Solar,Solar,2030,300.0,,2031.0,43.377161196811265,NATIONAL,slip_1
+69644.0,Pease River Solar,58441,TX,Solar,Solar,2030,300.0,,2032.0,45.07713013769541,NATIONAL,slip_2
+69644.0,Pease River Solar,58441,TX,Solar,Solar,2030,300.0,,2033.0,127.36308106429237,NATIONAL,slip_3plus
+69644.0,Pease River Solar,58441,TX,Solar,Solar,2030,300.0,,,65.31939124132933,NATIONAL,never
+68768.0,Blackwelder Ranch Wind,BRGWP,TX,Wind,Wind,2030,110.4,,2031.0,0.6742316784869977,NATIONAL,slip_1
+68768.0,Blackwelder Ranch Wind,BRGWP,TX,Wind,Wind,2030,110.4,,2033.0,76.57966903073286,NATIONAL,slip_3plus
+68768.0,Blackwelder Ranch Wind,BRGWP,TX,Wind,Wind,2030,110.4,,,33.14609929078014,NATIONAL,never
+68766.0,Pioneer Field Wind Power,PFGWP,TX,Wind,Wind,2030,136.2,,2031.0,0.8317966903073285,NATIONAL,slip_1
+68766.0,Pioneer Field Wind Power,PFGWP,TX,Wind,Wind,2030,136.2,,2033.0,94.47600472813238,NATIONAL,slip_3plus
+68766.0,Pioneer Field Wind Power,PFGWP,TX,Wind,Wind,2030,136.2,,,40.89219858156028,NATIONAL,never
+68361.0,Rush ESS,RUESS,TX,Battery Storage,Wind,2031,200.0,,2031.0,200.0,unchanged,
+65981.0,Second Division Solar,TXSD2,TX,Battery Storage,Wind,2031,30.0,,2031.0,30.0,unchanged,
+65975.0,Starr Solar Ranch,TXSD2,TX,Battery Storage,Wind,2031,180.0,,2031.0,180.0,unchanged,
+7097.0,J K Spruce (gas conversion),2,TX,Natural Gas,Wind,2028,922.5,,2028.0,922.5,unchanged,
+,Coleto Creek (gas repower),1,TX,Natural Gas,Wind,2026,630.0,,2026.0,630.0,unchanged,
+,Rayburn Energy Station II,1,TX,Natural Gas,Wind,2028,570.0,,2028.0,570.0,unchanged,

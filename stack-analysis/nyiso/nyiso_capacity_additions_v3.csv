@@ -1,0 +1,450 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+66785.0,Elevate Arthur Kill,ELVAK,NY,Battery Storage,Wind,2026,15.1,,2026.0,15.1,unchanged,
+70327.0,"Heron Clean Energy, LLC",ND012,NY,Battery Storage,Wind,2026,4.9,,2026.0,4.9,unchanged,
+70314.0,"Mourning Dove Clean Energy, LLC",ND010,NY,Battery Storage,Wind,2026,3.0,,2026.0,3.0,unchanged,
+69592.0,NL NY- Pulaski,PSKBS,NY,Battery Storage,Wind,2026,2.5,,2026.0,2.5,unchanged,
+67885.0,"Nelson Clean Energy, LLC",ND005,NY,Battery Storage,Wind,2026,3.0,,2026.0,3.0,unchanged,
+67885.0,"Nelson Clean Energy, LLC",ND006,NY,Battery Storage,Wind,2026,5.0,,2026.0,5.0,unchanged,
+70242.0,Riverhead - CVE,216,NY,Battery Storage,Wind,2026,4.0,,2026.0,4.0,unchanged,
+70318.0,Sugar Maple Clean Energy LLC,ND011,NY,Battery Storage,Wind,2026,2.5,,2026.0,2.5,unchanged,
+54808.0,New York University Central Plant,GR1,NY,Natural Gas,Wind,2026,2.6,,2026.0,2.6,unchanged,
+64291.0,Lincoln Medical and Mental Health Center,B4,NY,Oil,Wind,2026,1.0,,2026.0,1.0,unchanged,
+68389.0,AES Glengarry Farms Solar CSG,GLENG,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+68388.0,AES Rt 5 Solar CSG,RT5SS,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69834.0,Avon CSG 2 LLC,AVON2,NY,Solar,Solar,2026,4.1,,2026.0,4.1,unchanged,
+70489.0,Bakers Falls Solar,17405,NY,Solar,Solar,2026,2.5,,2026.0,2.5,unchanged,
+69179.0,Chester,11154,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69180.0,Cold Springs,11254,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69229.0,"Dunkirk Solar One, LLC",21687,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69274.0,Dunkirk Solar Two,21687,NY,Solar,Solar,2026,4.8,,2026.0,4.8,unchanged,
+68507.0,Excelsior Energy Center,EEC,NY,Solar,Solar,2026,280.0,,2026.0,280.0,unchanged,
+67413.0,Geer Road Solar 3 CSG,GEER3,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70490.0,Grassy Grove Solar East,11886,NY,Solar,Solar,2026,4.9,,2026.0,4.9,unchanged,
+70491.0,Hacadam Hill Solar,11558,NY,Solar,Solar,2026,4.9,,2026.0,4.9,unchanged,
+64163.0,Hecate Energy Cider Solar LLC,11111,NY,Solar,Solar,2026,557.0,,2026.0,557.0,unchanged,
+69205.0,Lodi I,11249,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69206.0,Lodi II,11250,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69375.0,Lysander III PV,LYSAN,NY,Solar,Solar,2026,2.4,,2026.0,2.4,unchanged,
+69376.0,Machias PV,MACHI,NY,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+69383.0,Mallory South PV I,MALL1,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69384.0,Mallory South PV II,MALL2,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69828.0,"Mexico PV, LLC",MEXIC,NY,Solar,Solar,2026,4.5,,2026.0,4.5,unchanged,
+69625.0,Moore Rd,MRPV,NY,Solar,Solar,2026,4.8,,2026.0,4.8,unchanged,
+69592.0,NL NY- Pulaski,PSKPV,NY,Solar,Solar,2026,2.5,,2026.0,2.5,unchanged,
+68783.0,NY CDG 009,NY009,NY,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+67609.0,NY ELBA 7195 OAK ORCHARD RD - Genesee 1,21599,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+68037.0,NY Selkirk S Albany RD - Hemlock Hills S,18211,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69472.0,NYSolar06,18198,NY,Solar,Solar,2026,3.5,,2026.0,3.5,unchanged,
+69876.0,New Road,11205,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+70010.0,Pescara 1,167,NY,Solar,Solar,2026,4.9,,2026.0,4.9,unchanged,
+70011.0,Pescara 2,168,NY,Solar,Solar,2026,4.9,,2026.0,4.9,unchanged,
+69018.0,Pivot Solar NY 10,NY10,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69986.0,Pomfret II Community Solar,PV1,NY,Solar,Solar,2026,4.7,,2026.0,4.7,unchanged,
+69855.0,"Pomfret PV, LLC",POMFR,NY,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+70242.0,Riverhead - CVE,215,NY,Solar,Solar,2026,4.9,,2026.0,4.9,unchanged,
+69208.0,Route 14-1,11036,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69209.0,Route 14-2,11037,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69275.0,SL Ashville,23210,NY,Solar,Solar,2026,3.8,,2026.0,3.8,unchanged,
+69276.0,SL Ashville 2,23219,NY,Solar,Solar,2026,4.3,,2026.0,4.3,unchanged,
+69473.0,SL Brockport,23211,NY,Solar,Solar,2026,4.3,,2026.0,4.3,unchanged,
+69756.0,SL Dunkirk,23212,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69309.0,SL Pembroke,23215,NY,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+69310.0,SL Pembroke 2,23220,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69854.0,"TJA-NY-1806 Perth Rd Galway, LLC",GLWAY,NY,Solar,Solar,2026,3.3,,2026.0,3.3,unchanged,
+69218.0,Vienna,11247,NY,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69220.0,West Genesee,11253,NY,Solar,Solar,2026,2.9,,2026.0,2.9,unchanged,
+62954.0,Alle-Catt Wind Energy LLC,PLANT,NY,Wind,Wind,2026,340.0,,2027.0,340.0,wind_override,
+65513.0,Baron Winds II,BRNW2,NY,Wind,Wind,2026,113.2,,2026.0,113.2,unchanged,
+56964.0,Bayonne Energy Center,BESS1,NJ,Battery Storage,Wind,2027,49.8,,2027.0,49.8,unchanged,
+70309.0,Blue Aster B Clean Energy LLC,ND031,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+70310.0,Blue Aster C Clean Energy LLC,ND028,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+70308.0,Blue Aster Clean Energy LLC,ND030,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+70326.0,Coral Honeysuckle Clean Energy LLC,ND014,NY,Battery Storage,Wind,2027,3.7,,2027.0,3.7,unchanged,
+70311.0,Eastern BlueBird Clean Energy LLC,ND020,NY,Battery Storage,Wind,2027,4.4,,2027.0,4.4,unchanged,
+70328.0,"Jamaica Community Energy, LLC",ND013,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+70329.0,"Linden Clean Energy, LLC",ND015,NY,Battery Storage,Wind,2027,3.7,,2027.0,3.7,unchanged,
+70313.0,Lobelia 4452 Clean Energy LLC,ND024,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+70312.0,Lobelia Clean Energy LLC,ND022,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+64758.0,Manorville II,MANB,NY,Battery Storage,Wind,2027,0.8,,2027.0,0.8,unchanged,
+70315.0,"Northern Cardinal Clean Energy, LLC",ND021,NY,Battery Storage,Wind,2027,4.4,,2027.0,4.4,unchanged,
+70316.0,"Piping Plover Clean Energy, LLC",ND017,NY,Battery Storage,Wind,2027,2.3,,2027.0,2.3,unchanged,
+70317.0,Roseate Tern Clean Energy LLC,ND029,NY,Battery Storage,Wind,2027,3.3,,2027.0,3.3,unchanged,
+64911.0,South Ripley Solar,CSRB1,NY,Battery Storage,Wind,2027,20.0,,2027.0,20.0,unchanged,
+70319.0,Warbler Clean Energy LLC,ND016,NY,Battery Storage,Wind,2027,2.3,,2027.0,2.3,unchanged,
+70320.0,Water Willow A Clean Energy LLC,ND018,NY,Battery Storage,Wind,2027,3.9,,2027.0,3.9,unchanged,
+70321.0,Water Willow B Clean Energy LLC,ND019,NY,Battery Storage,Wind,2027,3.9,,2027.0,3.9,unchanged,
+70323.0,Wintergreen B Clean Energy LLC,ND027,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+70324.0,Wintergreen C Clean Energy LLC,ND023,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+70322.0,"Wintergreen Clean Energy, LLC",ND025,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+70325.0,Wintergreen D Clean Energy LLC,ND026,NY,Battery Storage,Wind,2027,4.9,,2027.0,4.9,unchanged,
+54808.0,New York University Central Plant,STG1,NY,Natural Gas,Wind,2027,2.9,,2027.0,2.9,unchanged,
+2678.0,Plant No 1 Freeport,ENG13,NY,Other,Wind,2027,3.0,,2027.0,3.0,unchanged,
+69369.0,Bartell South PV I,BARTE,NY,Solar,Solar,2027,3.0,,2026.0,0.019128662178818624,ST:NY,slip_-1
+69369.0,Bartell South PV I,BARTE,NY,Solar,Solar,2027,3.0,,2027.0,0.18730444676211247,ST:NY,slip_0
+69369.0,Bartell South PV I,BARTE,NY,Solar,Solar,2027,3.0,,2028.0,0.1828244998577795,ST:NY,slip_1
+69369.0,Bartell South PV I,BARTE,NY,Solar,Solar,2027,3.0,,2029.0,0.050630511045795024,ST:NY,slip_2
+69369.0,Bartell South PV I,BARTE,NY,Solar,Solar,2027,3.0,,2030.0,1.9184128188110368,ST:NY,slip_3plus
+69369.0,Bartell South PV I,BARTE,NY,Solar,Solar,2027,3.0,,,0.6416990613444582,ST:NY,never
+68863.0,Bloomfield Solar,PV1,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+68863.0,Bloomfield Solar,PV1,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+68863.0,Bloomfield Solar,PV1,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+68863.0,Bloomfield Solar,PV1,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+68863.0,Bloomfield Solar,PV1,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+68863.0,Bloomfield Solar,PV1,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+68473.0,Brookside Solar,BROOK,NY,Solar,Solar,2027,100.0,,2026.0,0.6376220726272874,ST:NY,slip_-1
+68473.0,Brookside Solar,BROOK,NY,Solar,Solar,2027,100.0,,2027.0,6.243481558737082,ST:NY,slip_0
+68473.0,Brookside Solar,BROOK,NY,Solar,Solar,2027,100.0,,2028.0,6.0941499952593166,ST:NY,slip_1
+68473.0,Brookside Solar,BROOK,NY,Solar,Solar,2027,100.0,,2029.0,1.6876837015265007,ST:NY,slip_2
+68473.0,Brookside Solar,BROOK,NY,Solar,Solar,2027,100.0,,2030.0,63.947093960367894,ST:NY,slip_3plus
+68473.0,Brookside Solar,BROOK,NY,Solar,Solar,2027,100.0,,,21.38996871148194,ST:NY,never
+68858.0,Cavern,PV1,NY,Solar,Solar,2027,2.0,,2026.0,0.012752441452545749,ST:NY,slip_-1
+68858.0,Cavern,PV1,NY,Solar,Solar,2027,2.0,,2027.0,0.12486963117474165,ST:NY,slip_0
+68858.0,Cavern,PV1,NY,Solar,Solar,2027,2.0,,2028.0,0.12188299990518633,ST:NY,slip_1
+68858.0,Cavern,PV1,NY,Solar,Solar,2027,2.0,,2029.0,0.03375367403053001,ST:NY,slip_2
+68858.0,Cavern,PV1,NY,Solar,Solar,2027,2.0,,2030.0,1.278941879207358,ST:NY,slip_3plus
+68858.0,Cavern,PV1,NY,Solar,Solar,2027,2.0,,,0.4277993742296388,ST:NY,never
+65828.0,Chidsey Hill Road Solar,1666,NY,Solar,Solar,2027,3.0,,2026.0,0.019128662178818624,ST:NY,slip_-1
+65828.0,Chidsey Hill Road Solar,1666,NY,Solar,Solar,2027,3.0,,2027.0,0.18730444676211247,ST:NY,slip_0
+65828.0,Chidsey Hill Road Solar,1666,NY,Solar,Solar,2027,3.0,,2028.0,0.1828244998577795,ST:NY,slip_1
+65828.0,Chidsey Hill Road Solar,1666,NY,Solar,Solar,2027,3.0,,2029.0,0.050630511045795024,ST:NY,slip_2
+65828.0,Chidsey Hill Road Solar,1666,NY,Solar,Solar,2027,3.0,,2030.0,1.9184128188110368,ST:NY,slip_3plus
+65828.0,Chidsey Hill Road Solar,1666,NY,Solar,Solar,2027,3.0,,,0.6416990613444582,ST:NY,never
+65931.0,Clear View Solar,3,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+65931.0,Clear View Solar,3,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+65931.0,Clear View Solar,3,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+65931.0,Clear View Solar,3,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+65931.0,Clear View Solar,3,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+65931.0,Clear View Solar,3,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+70027.0,Cortland CSG 2 LLC,CORT2,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+70027.0,Cortland CSG 2 LLC,CORT2,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+70027.0,Cortland CSG 2 LLC,CORT2,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+70027.0,Cortland CSG 2 LLC,CORT2,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+70027.0,Cortland CSG 2 LLC,CORT2,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+70027.0,Cortland CSG 2 LLC,CORT2,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+70210.0,Cypert - Fallsburg I,PV1,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+70210.0,Cypert - Fallsburg I,PV1,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+70210.0,Cypert - Fallsburg I,PV1,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+70210.0,Cypert - Fallsburg I,PV1,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+70210.0,Cypert - Fallsburg I,PV1,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+70210.0,Cypert - Fallsburg I,PV1,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+68862.0,Emerson NY,PV1,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+68862.0,Emerson NY,PV1,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+68862.0,Emerson NY,PV1,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+68862.0,Emerson NY,PV1,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+68862.0,Emerson NY,PV1,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+68862.0,Emerson NY,PV1,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+66663.0,Empire Solar (NY),EMPIR,NY,Solar,Solar,2027,125.0,,2026.0,0.7970275907841093,ST:NY,slip_-1
+66663.0,Empire Solar (NY),EMPIR,NY,Solar,Solar,2027,125.0,,2027.0,7.804351948421353,ST:NY,slip_0
+66663.0,Empire Solar (NY),EMPIR,NY,Solar,Solar,2027,125.0,,2028.0,7.617687494074146,ST:NY,slip_1
+66663.0,Empire Solar (NY),EMPIR,NY,Solar,Solar,2027,125.0,,2029.0,2.109604626908126,ST:NY,slip_2
+66663.0,Empire Solar (NY),EMPIR,NY,Solar,Solar,2027,125.0,,2030.0,79.93386745045987,ST:NY,slip_3plus
+66663.0,Empire Solar (NY),EMPIR,NY,Solar,Solar,2027,125.0,,,26.737460889352427,ST:NY,never
+68859.0,Endicott,PV1,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+68859.0,Endicott,PV1,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+68859.0,Endicott,PV1,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+68859.0,Endicott,PV1,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+68859.0,Endicott,PV1,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+68859.0,Endicott,PV1,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+70030.0,Fabius CSG LLC,FABIU,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+70030.0,Fabius CSG LLC,FABIU,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+70030.0,Fabius CSG LLC,FABIU,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+70030.0,Fabius CSG LLC,FABIU,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+70030.0,Fabius CSG LLC,FABIU,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+70030.0,Fabius CSG LLC,FABIU,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+68884.0,Glen Mary,PV1,NY,Solar,Solar,2027,3.4,,2026.0,0.021679150469327772,ST:NY,slip_-1
+68884.0,Glen Mary,PV1,NY,Solar,Solar,2027,3.4,,2027.0,0.2122783729970608,ST:NY,slip_0
+68884.0,Glen Mary,PV1,NY,Solar,Solar,2027,3.4,,2028.0,0.20720109983881677,ST:NY,slip_1
+68884.0,Glen Mary,PV1,NY,Solar,Solar,2027,3.4,,2029.0,0.05738124585190102,ST:NY,slip_2
+68884.0,Glen Mary,PV1,NY,Solar,Solar,2027,3.4,,2030.0,2.1742011946525084,ST:NY,slip_3plus
+68884.0,Glen Mary,PV1,NY,Solar,Solar,2027,3.4,,,0.727258936190386,ST:NY,never
+65901.0,Hatchery Solar,6,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+65901.0,Hatchery Solar,6,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+65901.0,Hatchery Solar,6,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+65901.0,Hatchery Solar,6,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+65901.0,Hatchery Solar,6,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+65901.0,Hatchery Solar,6,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+69181.0,Hillview,11150,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+69181.0,Hillview,11150,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+69181.0,Hillview,11150,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+69181.0,Hillview,11150,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+69181.0,Hillview,11150,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+69181.0,Hillview,11150,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+65052.0,Homer Solar Energy Center,HSEC,NY,Solar,Solar,2027,90.0,,2026.0,0.5738598653645587,ST:NY,slip_-1
+65052.0,Homer Solar Energy Center,HSEC,NY,Solar,Solar,2027,90.0,,2027.0,5.619133402863374,ST:NY,slip_0
+65052.0,Homer Solar Energy Center,HSEC,NY,Solar,Solar,2027,90.0,,2028.0,5.484734995733385,ST:NY,slip_1
+65052.0,Homer Solar Energy Center,HSEC,NY,Solar,Solar,2027,90.0,,2029.0,1.5189153313738506,ST:NY,slip_2
+65052.0,Homer Solar Energy Center,HSEC,NY,Solar,Solar,2027,90.0,,2030.0,57.552384564331106,ST:NY,slip_3plus
+65052.0,Homer Solar Energy Center,HSEC,NY,Solar,Solar,2027,90.0,,,19.250971840333747,ST:NY,never
+69372.0,Knox II PV,KNOXS,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+69372.0,Knox II PV,KNOXS,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+69372.0,Knox II PV,KNOXS,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+69372.0,Knox II PV,KNOXS,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+69372.0,Knox II PV,KNOXS,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+69372.0,Knox II PV,KNOXS,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+67639.0,Leatherleaf,LLEAF,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+67639.0,Leatherleaf,LLEAF,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+67639.0,Leatherleaf,LLEAF,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+67639.0,Leatherleaf,LLEAF,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+67639.0,Leatherleaf,LLEAF,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+67639.0,Leatherleaf,LLEAF,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+69373.0,Little Falls PV,LITTL,NY,Solar,Solar,2027,2.5,,2026.0,0.015940551815682186,ST:NY,slip_-1
+69373.0,Little Falls PV,LITTL,NY,Solar,Solar,2027,2.5,,2027.0,0.15608703896842707,ST:NY,slip_0
+69373.0,Little Falls PV,LITTL,NY,Solar,Solar,2027,2.5,,2028.0,0.15235374988148292,ST:NY,slip_1
+69373.0,Little Falls PV,LITTL,NY,Solar,Solar,2027,2.5,,2029.0,0.042192092538162515,ST:NY,slip_2
+69373.0,Little Falls PV,LITTL,NY,Solar,Solar,2027,2.5,,2030.0,1.5986773490091974,ST:NY,slip_3plus
+69373.0,Little Falls PV,LITTL,NY,Solar,Solar,2027,2.5,,,0.5347492177870485,ST:NY,never
+70002.0,Macedon CSG LLC,MACED,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+70002.0,Macedon CSG LLC,MACED,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+70002.0,Macedon CSG LLC,MACED,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+70002.0,Macedon CSG LLC,MACED,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+70002.0,Macedon CSG LLC,MACED,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+70002.0,Macedon CSG LLC,MACED,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+64758.0,Manorville II,MAN,NY,Solar,Solar,2027,0.6,,2026.0,0.0038257324357637247,ST:NY,slip_-1
+64758.0,Manorville II,MAN,NY,Solar,Solar,2027,0.6,,2027.0,0.03746088935242249,ST:NY,slip_0
+64758.0,Manorville II,MAN,NY,Solar,Solar,2027,0.6,,2028.0,0.036564899971555896,ST:NY,slip_1
+64758.0,Manorville II,MAN,NY,Solar,Solar,2027,0.6,,2029.0,0.010126102209159004,ST:NY,slip_2
+64758.0,Manorville II,MAN,NY,Solar,Solar,2027,0.6,,2030.0,0.3836825637622074,ST:NY,slip_3plus
+64758.0,Manorville II,MAN,NY,Solar,Solar,2027,0.6,,,0.12833981226889163,ST:NY,never
+64253.0,Mohawk Solar,S1,NY,Solar,Solar,2027,90.5,,2026.0,0.5770479757276952,ST:NY,slip_-1
+64253.0,Mohawk Solar,S1,NY,Solar,Solar,2027,90.5,,2027.0,5.650350810657059,ST:NY,slip_0
+64253.0,Mohawk Solar,S1,NY,Solar,Solar,2027,90.5,,2028.0,5.5152057457096815,ST:NY,slip_1
+64253.0,Mohawk Solar,S1,NY,Solar,Solar,2027,90.5,,2029.0,1.527353749881483,ST:NY,slip_2
+64253.0,Mohawk Solar,S1,NY,Solar,Solar,2027,90.5,,2030.0,57.87212003413295,ST:NY,slip_3plus
+64253.0,Mohawk Solar,S1,NY,Solar,Solar,2027,90.5,,,19.357921683891156,ST:NY,never
+64541.0,Potic Solar,1,NY,Solar,Solar,2027,4.9,,2026.0,0.031243481558737088,ST:NY,slip_-1
+64541.0,Potic Solar,1,NY,Solar,Solar,2027,4.9,,2027.0,0.30593059637811704,ST:NY,slip_0
+64541.0,Potic Solar,1,NY,Solar,Solar,2027,4.9,,2028.0,0.29861334976770654,ST:NY,slip_1
+64541.0,Potic Solar,1,NY,Solar,Solar,2027,4.9,,2029.0,0.08269650137479855,ST:NY,slip_2
+64541.0,Potic Solar,1,NY,Solar,Solar,2027,4.9,,2030.0,3.133407604058027,ST:NY,slip_3plus
+64541.0,Potic Solar,1,NY,Solar,Solar,2027,4.9,,,1.0481084668626153,ST:NY,never
+70019.0,"SL Portland Community 2, LLC",23221,NY,Solar,Solar,2027,3.8,,2026.0,0.02422963875983692,ST:NY,slip_-1
+70019.0,"SL Portland Community 2, LLC",23221,NY,Solar,Solar,2027,3.8,,2027.0,0.2372522992320091,ST:NY,slip_0
+70019.0,"SL Portland Community 2, LLC",23221,NY,Solar,Solar,2027,3.8,,2028.0,0.23157769981985402,ST:NY,slip_1
+70019.0,"SL Portland Community 2, LLC",23221,NY,Solar,Solar,2027,3.8,,2029.0,0.06413198065800703,ST:NY,slip_2
+70019.0,"SL Portland Community 2, LLC",23221,NY,Solar,Solar,2027,3.8,,2030.0,2.42998957049398,ST:NY,slip_3plus
+70019.0,"SL Portland Community 2, LLC",23221,NY,Solar,Solar,2027,3.8,,,0.8128188110363137,ST:NY,never
+70018.0,"SL Portland Community, LLC",23216,NY,Solar,Solar,2027,3.5,,2026.0,0.02231677254195506,ST:NY,slip_-1
+70018.0,"SL Portland Community, LLC",23216,NY,Solar,Solar,2027,3.5,,2027.0,0.21852185455579787,ST:NY,slip_0
+70018.0,"SL Portland Community, LLC",23216,NY,Solar,Solar,2027,3.5,,2028.0,0.21329524983407608,ST:NY,slip_1
+70018.0,"SL Portland Community, LLC",23216,NY,Solar,Solar,2027,3.5,,2029.0,0.059068929553427525,ST:NY,slip_2
+70018.0,"SL Portland Community, LLC",23216,NY,Solar,Solar,2027,3.5,,2030.0,2.2381482886128765,ST:NY,slip_3plus
+70018.0,"SL Portland Community, LLC",23216,NY,Solar,Solar,2027,3.5,,,0.748648904901868,ST:NY,never
+70439.0,SR 415 - NY Avoca I,PV1,NY,Solar,Solar,2027,3.3,,2026.0,0.021041528396700485,ST:NY,slip_-1
+70439.0,SR 415 - NY Avoca I,PV1,NY,Solar,Solar,2027,3.3,,2027.0,0.2060348914383237,ST:NY,slip_0
+70439.0,SR 415 - NY Avoca I,PV1,NY,Solar,Solar,2027,3.3,,2028.0,0.20110694984355745,ST:NY,slip_1
+70439.0,SR 415 - NY Avoca I,PV1,NY,Solar,Solar,2027,3.3,,2029.0,0.05569356215037452,ST:NY,slip_2
+70439.0,SR 415 - NY Avoca I,PV1,NY,Solar,Solar,2027,3.3,,2030.0,2.1102541006921403,ST:NY,slip_3plus
+70439.0,SR 415 - NY Avoca I,PV1,NY,Solar,Solar,2027,3.3,,,0.705868967478904,ST:NY,never
+70260.0,Scipio Solar,SCIPI,NY,Solar,Solar,2027,18.0,,2026.0,0.11477197307291175,ST:NY,slip_-1
+70260.0,Scipio Solar,SCIPI,NY,Solar,Solar,2027,18.0,,2027.0,1.1238266805726749,ST:NY,slip_0
+70260.0,Scipio Solar,SCIPI,NY,Solar,Solar,2027,18.0,,2028.0,1.096946999146677,ST:NY,slip_1
+70260.0,Scipio Solar,SCIPI,NY,Solar,Solar,2027,18.0,,2029.0,0.30378306627477014,ST:NY,slip_2
+70260.0,Scipio Solar,SCIPI,NY,Solar,Solar,2027,18.0,,2030.0,11.51047691286622,ST:NY,slip_3plus
+70260.0,Scipio Solar,SCIPI,NY,Solar,Solar,2027,18.0,,,3.850194368066749,ST:NY,never
+64188.0,Shepherd's Run Solar,PV,NY,Solar,Solar,2027,42.0,,2026.0,0.26780127050346075,ST:NY,slip_-1
+64188.0,Shepherd's Run Solar,PV,NY,Solar,Solar,2027,42.0,,2027.0,2.6222622546695744,ST:NY,slip_0
+64188.0,Shepherd's Run Solar,PV,NY,Solar,Solar,2027,42.0,,2028.0,2.559542998008913,ST:NY,slip_1
+64188.0,Shepherd's Run Solar,PV,NY,Solar,Solar,2027,42.0,,2029.0,0.7088271546411303,ST:NY,slip_2
+64188.0,Shepherd's Run Solar,PV,NY,Solar,Solar,2027,42.0,,2030.0,26.857779463354515,ST:NY,slip_3plus
+64188.0,Shepherd's Run Solar,PV,NY,Solar,Solar,2027,42.0,,,8.983786858822414,ST:NY,never
+64911.0,South Ripley Solar,CSRS1,NY,Solar,Solar,2027,270.0,,2026.0,1.7215795960936762,ST:NY,slip_-1
+64911.0,South Ripley Solar,CSRS1,NY,Solar,Solar,2027,270.0,,2027.0,16.85740020859012,ST:NY,slip_0
+64911.0,South Ripley Solar,CSRS1,NY,Solar,Solar,2027,270.0,,2028.0,16.454204987200153,ST:NY,slip_1
+64911.0,South Ripley Solar,CSRS1,NY,Solar,Solar,2027,270.0,,2029.0,4.556745994121552,ST:NY,slip_2
+64911.0,South Ripley Solar,CSRS1,NY,Solar,Solar,2027,270.0,,2030.0,172.65715369299332,ST:NY,slip_3plus
+64911.0,South Ripley Solar,CSRS1,NY,Solar,Solar,2027,270.0,,,57.75291552100124,ST:NY,never
+62823.0,SunEast Dog Corners Solar Project,Q584,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+62823.0,SunEast Dog Corners Solar Project,Q584,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+62823.0,SunEast Dog Corners Solar Project,Q584,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+62823.0,SunEast Dog Corners Solar Project,Q584,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+62823.0,SunEast Dog Corners Solar Project,Q584,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+62823.0,SunEast Dog Corners Solar Project,Q584,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+63901.0,SunEast Flat Hill Solar Project,Q#865,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+63901.0,SunEast Flat Hill Solar Project,Q#865,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+63901.0,SunEast Flat Hill Solar Project,Q#865,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+63901.0,SunEast Flat Hill Solar Project,Q#865,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+63901.0,SunEast Flat Hill Solar Project,Q#865,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+63901.0,SunEast Flat Hill Solar Project,Q#865,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+63863.0,SunEast Grassy Knoll Solar Project,Q#885,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+63863.0,SunEast Grassy Knoll Solar Project,Q#885,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+63863.0,SunEast Grassy Knoll Solar Project,Q#885,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+63863.0,SunEast Grassy Knoll Solar Project,Q#885,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+63863.0,SunEast Grassy Knoll Solar Project,Q#885,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+63863.0,SunEast Grassy Knoll Solar Project,Q#885,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+62895.0,SunEast Hills Solar Project,Q581,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+62895.0,SunEast Hills Solar Project,Q581,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+62895.0,SunEast Hills Solar Project,Q581,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+62895.0,SunEast Hills Solar Project,Q581,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+62895.0,SunEast Hills Solar Project,Q581,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+62895.0,SunEast Hills Solar Project,Q581,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+64037.0,SunEast Manchester Solar Project,Q#913,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+64037.0,SunEast Manchester Solar Project,Q#913,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+64037.0,SunEast Manchester Solar Project,Q#913,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+64037.0,SunEast Manchester Solar Project,Q#913,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+64037.0,SunEast Manchester Solar Project,Q#913,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+64037.0,SunEast Manchester Solar Project,Q#913,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+62816.0,SunEast Skyline Solar Project,Q670,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+62816.0,SunEast Skyline Solar Project,Q670,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+62816.0,SunEast Skyline Solar Project,Q670,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+62816.0,SunEast Skyline Solar Project,Q670,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+62816.0,SunEast Skyline Solar Project,Q670,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+62816.0,SunEast Skyline Solar Project,Q670,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+63862.0,SunEast Valley Solar Project,Q#828,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+63862.0,SunEast Valley Solar Project,Q#828,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+63862.0,SunEast Valley Solar Project,Q#828,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+63862.0,SunEast Valley Solar Project,Q#828,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+63862.0,SunEast Valley Solar Project,Q#828,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+63862.0,SunEast Valley Solar Project,Q#828,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+62896.0,SunEast Watkins Road Solar Project,Q586,NY,Solar,Solar,2027,20.0,,2026.0,0.12752441452545749,ST:NY,slip_-1
+62896.0,SunEast Watkins Road Solar Project,Q586,NY,Solar,Solar,2027,20.0,,2027.0,1.2486963117474166,ST:NY,slip_0
+62896.0,SunEast Watkins Road Solar Project,Q586,NY,Solar,Solar,2027,20.0,,2028.0,1.2188299990518634,ST:NY,slip_1
+62896.0,SunEast Watkins Road Solar Project,Q586,NY,Solar,Solar,2027,20.0,,2029.0,0.3375367403053001,ST:NY,slip_2
+62896.0,SunEast Watkins Road Solar Project,Q586,NY,Solar,Solar,2027,20.0,,2030.0,12.78941879207358,ST:NY,slip_3plus
+62896.0,SunEast Watkins Road Solar Project,Q586,NY,Solar,Solar,2027,20.0,,,4.277993742296388,ST:NY,never
+65051.0,Tracy Solar Energy Center,TSEC,NY,Solar,Solar,2027,119.0,,2026.0,0.758770266426472,ST:NY,slip_-1
+65051.0,Tracy Solar Energy Center,TSEC,NY,Solar,Solar,2027,119.0,,2027.0,7.429743054897128,ST:NY,slip_0
+65051.0,Tracy Solar Energy Center,TSEC,NY,Solar,Solar,2027,119.0,,2028.0,7.252038494358587,ST:NY,slip_1
+65051.0,Tracy Solar Energy Center,TSEC,NY,Solar,Solar,2027,119.0,,2029.0,2.008343604816536,ST:NY,slip_2
+65051.0,Tracy Solar Energy Center,TSEC,NY,Solar,Solar,2027,119.0,,2030.0,76.0970418128378,ST:NY,slip_3plus
+65051.0,Tracy Solar Energy Center,TSEC,NY,Solar,Solar,2027,119.0,,,25.454062766663508,ST:NY,never
+68861.0,Tully 4,PV1,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+68861.0,Tully 4,PV1,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+68861.0,Tully 4,PV1,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+68861.0,Tully 4,PV1,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+68861.0,Tully 4,PV1,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+68861.0,Tully 4,PV1,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+68860.0,Tully 5,PV1,NY,Solar,Solar,2027,2.0,,2026.0,0.012752441452545749,ST:NY,slip_-1
+68860.0,Tully 5,PV1,NY,Solar,Solar,2027,2.0,,2027.0,0.12486963117474165,ST:NY,slip_0
+68860.0,Tully 5,PV1,NY,Solar,Solar,2027,2.0,,2028.0,0.12188299990518633,ST:NY,slip_1
+68860.0,Tully 5,PV1,NY,Solar,Solar,2027,2.0,,2029.0,0.03375367403053001,ST:NY,slip_2
+68860.0,Tully 5,PV1,NY,Solar,Solar,2027,2.0,,2030.0,1.278941879207358,ST:NY,slip_3plus
+68860.0,Tully 5,PV1,NY,Solar,Solar,2027,2.0,,,0.4277993742296388,ST:NY,never
+68869.0,Watson 1,PV1,NY,Solar,Solar,2027,4.8,,2026.0,0.030605859486109797,ST:NY,slip_-1
+68869.0,Watson 1,PV1,NY,Solar,Solar,2027,4.8,,2027.0,0.29968711481937993,ST:NY,slip_0
+68869.0,Watson 1,PV1,NY,Solar,Solar,2027,4.8,,2028.0,0.29251919977244717,ST:NY,slip_1
+68869.0,Watson 1,PV1,NY,Solar,Solar,2027,4.8,,2029.0,0.08100881767327203,ST:NY,slip_2
+68869.0,Watson 1,PV1,NY,Solar,Solar,2027,4.8,,2030.0,3.069460510097659,ST:NY,slip_3plus
+68869.0,Watson 1,PV1,NY,Solar,Solar,2027,4.8,,,1.026718498151133,ST:NY,never
+68870.0,Watson 2,PV1,NY,Solar,Solar,2027,4.9,,2026.0,0.031243481558737088,ST:NY,slip_-1
+68870.0,Watson 2,PV1,NY,Solar,Solar,2027,4.9,,2027.0,0.30593059637811704,ST:NY,slip_0
+68870.0,Watson 2,PV1,NY,Solar,Solar,2027,4.9,,2028.0,0.29861334976770654,ST:NY,slip_1
+68870.0,Watson 2,PV1,NY,Solar,Solar,2027,4.9,,2029.0,0.08269650137479855,ST:NY,slip_2
+68870.0,Watson 2,PV1,NY,Solar,Solar,2027,4.9,,2030.0,3.133407604058027,ST:NY,slip_3plus
+68870.0,Watson 2,PV1,NY,Solar,Solar,2027,4.9,,,1.0481084668626153,ST:NY,never
+70134.0,Westhampton - NY 0243 (Giaquinto 1),243,NY,Solar,Solar,2027,5.0,,2026.0,0.03188110363136437,ST:NY,slip_-1
+70134.0,Westhampton - NY 0243 (Giaquinto 1),243,NY,Solar,Solar,2027,5.0,,2027.0,0.31217407793685414,ST:NY,slip_0
+70134.0,Westhampton - NY 0243 (Giaquinto 1),243,NY,Solar,Solar,2027,5.0,,2028.0,0.30470749976296585,ST:NY,slip_1
+70134.0,Westhampton - NY 0243 (Giaquinto 1),243,NY,Solar,Solar,2027,5.0,,2029.0,0.08438418507632503,ST:NY,slip_2
+70134.0,Westhampton - NY 0243 (Giaquinto 1),243,NY,Solar,Solar,2027,5.0,,2030.0,3.197354698018395,ST:NY,slip_3plus
+70134.0,Westhampton - NY 0243 (Giaquinto 1),243,NY,Solar,Solar,2027,5.0,,,1.069498435574097,ST:NY,never
+68443.0,Empire Wind 1,PLANT,NY,Wind,Offshore Wind,2027,810.0,,2027.0,270.0,wind_override,
+68443.0,Empire Wind 1,PLANT,NY,Wind,Offshore Wind,2027,810.0,,2028.0,540.0,wind_override,
+62894.0,High Bridge Wind Project,WT,NY,Wind,Wind,2027,103.2,,2027.0,12.623853211009175,ST:NY,slip_0
+62894.0,High Bridge Wind Project,WT,NY,Wind,Wind,2027,103.2,,2028.0,9.582652210175148,ST:NY,slip_1
+62894.0,High Bridge Wind Project,WT,NY,Wind,Wind,2027,103.2,,2029.0,10.59256046705588,ST:NY,slip_2
+62894.0,High Bridge Wind Project,WT,NY,Wind,Wind,2027,103.2,,2030.0,47.15582985821519,ST:NY,slip_3plus
+62894.0,High Bridge Wind Project,WT,NY,Wind,Wind,2027,103.2,,,23.24510425354463,ST:NY,never
+67435.0,Sunrise Wind,PLANT,NY,Wind,Offshore Wind,2027,924.0,,2026.0,341.0,wind_override,
+67435.0,Sunrise Wind,PLANT,NY,Wind,Offshore Wind,2027,924.0,,2027.0,583.0,wind_override,
+66682.0,"KCE NY 10, LLC",NY10,NY,Battery Storage,Wind,2028,20.0,,2028.0,20.0,unchanged,
+61331.0,NISA Electric Generation Project,BA1,NY,Battery Storage,Wind,2028,79.9,,2028.0,79.9,unchanged,
+61331.0,NISA Electric Generation Project,BA2,NY,Battery Storage,Wind,2028,220.1,,2028.0,220.1,unchanged,
+63584.0,NY2 Battery,NY2,NY,Battery Storage,Wind,2028,151.5,,2028.0,151.5,unchanged,
+67650.0,Bear Ridge,BEARR,NY,Solar,Solar,2028,93.0,,2031.0,65.5389893948846,ST:NY,slip_3plus
+67650.0,Bear Ridge,BEARR,NY,Solar,Solar,2028,93.0,,,27.46101060511541,ST:NY,never
+67090.0,Flint Mine Solar,FMS,NY,Solar,Solar,2028,100.0,,2031.0,70.47203160740278,ST:NY,slip_3plus
+67090.0,Flint Mine Solar,FMS,NY,Solar,Solar,2028,100.0,,,29.527968392597217,ST:NY,never
+63096.0,Horseshoe Solar Energy,GEN1,NY,Solar,Solar,2028,180.0,,2031.0,126.84965689332502,ST:NY,slip_3plus
+63096.0,Horseshoe Solar Energy,GEN1,NY,Solar,Solar,2028,180.0,,,53.15034310667499,ST:NY,never
+64912.0,Mill Point Solar,CMPS1,NY,Solar,Solar,2028,250.0,,2031.0,176.18007901850697,ST:NY,slip_3plus
+64912.0,Mill Point Solar,CMPS1,NY,Solar,Solar,2028,250.0,,,73.81992098149304,ST:NY,never
+67378.0,Mineral Basin Solar Power,MB,PA,Solar,Solar,2028,401.6,,2031.0,283.0156789353296,NYISO,slip_3plus
+67378.0,Mineral Basin Solar Power,MB,PA,Solar,Solar,2028,401.6,,,118.58432106467042,NYISO,never
+68264.0,Rich Road Solar Energy Center,12345,NY,Solar,Solar,2028,240.0,,2031.0,169.1328758577667,ST:NY,slip_3plus
+68264.0,Rich Road Solar Energy Center,12345,NY,Solar,Solar,2028,240.0,,,70.86712414223331,ST:NY,never
+68584.0,Yellow Barn Solar,YBS,NY,Solar,Solar,2028,160.0,,2031.0,112.75525057184446,ST:NY,slip_3plus
+68584.0,Yellow Barn Solar,YBS,NY,Solar,Solar,2028,160.0,,,47.244749428155544,ST:NY,never
+68585.0,York Run Solar,YRS,NY,Solar,Solar,2028,90.0,,2031.0,63.42482844666251,ST:NY,slip_3plus
+68585.0,York Run Solar,YRS,NY,Solar,Solar,2028,90.0,,,26.575171553337494,ST:NY,never
+68191.0,Heritage Wind,HRTG,NY,Wind,Wind,2028,126.0,,2028.0,14.312238805970154,NATIONAL,slip_0
+68191.0,Heritage Wind,HRTG,NY,Wind,Wind,2028,126.0,,2029.0,6.82626865671642,NATIONAL,slip_1
+68191.0,Heritage Wind,HRTG,NY,Wind,Wind,2028,126.0,,2030.0,4.161194029850747,NATIONAL,slip_2
+68191.0,Heritage Wind,HRTG,NY,Wind,Wind,2028,126.0,,2031.0,53.30149253731344,NATIONAL,slip_3plus
+68191.0,Heritage Wind,HRTG,NY,Wind,Wind,2028,126.0,,,47.39880597014926,NATIONAL,never
+66675.0,"Alfred Oaks Solar, LLC",ALOAK,NY,Solar,Solar,2029,115.2,,2028.0,3.5780101459778444,NATIONAL,slip_-1
+66675.0,"Alfred Oaks Solar, LLC",ALOAK,NY,Solar,Solar,2029,115.2,,2029.0,3.665472616212859,NATIONAL,slip_0
+66675.0,"Alfred Oaks Solar, LLC",ALOAK,NY,Solar,Solar,2029,115.2,,2030.0,16.656829899575527,NATIONAL,slip_1
+66675.0,"Alfred Oaks Solar, LLC",ALOAK,NY,Solar,Solar,2029,115.2,,2031.0,17.30961797287504,NATIONAL,slip_2
+66675.0,"Alfred Oaks Solar, LLC",ALOAK,NY,Solar,Solar,2029,115.2,,2032.0,48.90742312868827,NATIONAL,slip_3plus
+66675.0,"Alfred Oaks Solar, LLC",ALOAK,NY,Solar,Solar,2029,115.2,,,25.082646236670463,NATIONAL,never
+65934.0,Highbanks Solar,7,NY,Solar,Solar,2029,20.0,,2028.0,0.6211823170100425,NATIONAL,slip_-1
+65934.0,Highbanks Solar,7,NY,Solar,Solar,2029,20.0,,2029.0,0.6363667736480658,NATIONAL,slip_0
+65934.0,Highbanks Solar,7,NY,Solar,Solar,2029,20.0,,2030.0,2.8918107464540843,NATIONAL,slip_1
+65934.0,Highbanks Solar,7,NY,Solar,Solar,2029,20.0,,2031.0,3.0051420091796945,NATIONAL,slip_2
+65934.0,Highbanks Solar,7,NY,Solar,Solar,2029,20.0,,2032.0,8.490872070952825,NATIONAL,slip_3plus
+65934.0,Highbanks Solar,7,NY,Solar,Solar,2029,20.0,,,4.3546260827552885,NATIONAL,never
+67661.0,Oxbow Hill,OXHIL,NY,Solar,Solar,2029,140.0,,2028.0,4.348276219070297,NATIONAL,slip_-1
+67661.0,Oxbow Hill,OXHIL,NY,Solar,Solar,2029,140.0,,2029.0,4.45456741553646,NATIONAL,slip_0
+67661.0,Oxbow Hill,OXHIL,NY,Solar,Solar,2029,140.0,,2030.0,20.24267522517859,NATIONAL,slip_1
+67661.0,Oxbow Hill,OXHIL,NY,Solar,Solar,2029,140.0,,2031.0,21.03599406425786,NATIONAL,slip_2
+67661.0,Oxbow Hill,OXHIL,NY,Solar,Solar,2029,140.0,,2032.0,59.43610449666978,NATIONAL,slip_3plus
+67661.0,Oxbow Hill,OXHIL,NY,Solar,Solar,2029,140.0,,,30.48238257928702,NATIONAL,never
+67325.0,Riverside Solar LLC,NYRIV,NY,Solar,Solar,2029,100.0,,2028.0,3.105911585050212,NATIONAL,slip_-1
+67325.0,Riverside Solar LLC,NYRIV,NY,Solar,Solar,2029,100.0,,2029.0,3.1818338682403287,NATIONAL,slip_0
+67325.0,Riverside Solar LLC,NYRIV,NY,Solar,Solar,2029,100.0,,2030.0,14.459053732270421,NATIONAL,slip_1
+67325.0,Riverside Solar LLC,NYRIV,NY,Solar,Solar,2029,100.0,,2031.0,15.025710045898471,NATIONAL,slip_2
+67325.0,Riverside Solar LLC,NYRIV,NY,Solar,Solar,2029,100.0,,2032.0,42.45436035476413,NATIONAL,slip_3plus
+67325.0,Riverside Solar LLC,NYRIV,NY,Solar,Solar,2029,100.0,,,21.773130413776443,NATIONAL,never
+67324.0,Somerset Solar LLC,NYSOM,NY,Solar,Solar,2029,100.0,,2028.0,3.105911585050212,NATIONAL,slip_-1
+67324.0,Somerset Solar LLC,NYSOM,NY,Solar,Solar,2029,100.0,,2029.0,3.1818338682403287,NATIONAL,slip_0
+67324.0,Somerset Solar LLC,NYSOM,NY,Solar,Solar,2029,100.0,,2030.0,14.459053732270421,NATIONAL,slip_1
+67324.0,Somerset Solar LLC,NYSOM,NY,Solar,Solar,2029,100.0,,2031.0,15.025710045898471,NATIONAL,slip_2
+67324.0,Somerset Solar LLC,NYSOM,NY,Solar,Solar,2029,100.0,,2032.0,42.45436035476413,NATIONAL,slip_3plus
+67324.0,Somerset Solar LLC,NYSOM,NY,Solar,Solar,2029,100.0,,,21.773130413776443,NATIONAL,never
+68228.0,Agricola Wind,Q1448,NY,Wind,Wind,2029,99.0,,2030.0,0.6046099290780143,NATIONAL,slip_1
+68228.0,Agricola Wind,Q1448,NY,Wind,Wind,2029,99.0,,2032.0,68.67198581560284,NATIONAL,slip_3plus
+68228.0,Agricola Wind,Q1448,NY,Wind,Wind,2029,99.0,,,29.72340425531915,NATIONAL,never
+61592.0,Cody Road Wind Farm,WT1,NY,Wind,Wind,2029,2.4,,2030.0,0.014657210401891253,NATIONAL,slip_1
+61592.0,Cody Road Wind Farm,WT1,NY,Wind,Wind,2029,2.4,,2032.0,1.6647754137115838,NATIONAL,slip_3plus
+61592.0,Cody Road Wind Farm,WT1,NY,Wind,Wind,2029,2.4,,,0.7205673758865248,NATIONAL,never
+61592.0,Cody Road Wind Farm,WT2,NY,Wind,Wind,2029,2.4,,2030.0,0.014657210401891253,NATIONAL,slip_1
+61592.0,Cody Road Wind Farm,WT2,NY,Wind,Wind,2029,2.4,,2032.0,1.6647754137115838,NATIONAL,slip_3plus
+61592.0,Cody Road Wind Farm,WT2,NY,Wind,Wind,2029,2.4,,,0.7205673758865248,NATIONAL,never
+61592.0,Cody Road Wind Farm,WT3,NY,Wind,Wind,2029,2.4,,2030.0,0.014657210401891253,NATIONAL,slip_1
+61592.0,Cody Road Wind Farm,WT3,NY,Wind,Wind,2029,2.4,,2032.0,1.6647754137115838,NATIONAL,slip_3plus
+61592.0,Cody Road Wind Farm,WT3,NY,Wind,Wind,2029,2.4,,,0.7205673758865248,NATIONAL,never
+67346.0,Hoffman Falls Wind 2,Q1335,NY,Wind,Wind,2029,103.5,,2030.0,0.6320921985815603,NATIONAL,slip_1
+67346.0,Hoffman Falls Wind 2,Q1335,NY,Wind,Wind,2029,103.5,,2032.0,71.79343971631205,NATIONAL,slip_3plus
+67346.0,Hoffman Falls Wind 2,Q1335,NY,Wind,Wind,2029,103.5,,,31.074468085106382,NATIONAL,never
+62262.0,Rolling Upland Wind Farm LLC,GEN1,NY,Wind,Wind,2029,71.4,,2030.0,0.4360520094562648,NATIONAL,slip_1
+62262.0,Rolling Upland Wind Farm LLC,GEN1,NY,Wind,Wind,2029,71.4,,2032.0,49.52706855791963,NATIONAL,slip_3plus
+62262.0,Rolling Upland Wind Farm LLC,GEN1,NY,Wind,Wind,2029,71.4,,,21.436879432624114,NATIONAL,never
+66862.0,"KCE NY 29, LLC",NY29,NY,Battery Storage,Wind,2030,79.0,,2030.0,79.0,unchanged,
+67838.0,"KCE NY 30, LLC",NY30,NY,Battery Storage,Wind,2030,50.0,,2030.0,50.0,unchanged,
+68865.0,Bridgewater 1,PV1,NY,Solar,Solar,2030,5.0,,2029.0,0.1552955792525106,NATIONAL,slip_-1
+68865.0,Bridgewater 1,PV1,NY,Solar,Solar,2030,5.0,,2030.0,0.15909169341201645,NATIONAL,slip_0
+68865.0,Bridgewater 1,PV1,NY,Solar,Solar,2030,5.0,,2031.0,0.7229526866135211,NATIONAL,slip_1
+68865.0,Bridgewater 1,PV1,NY,Solar,Solar,2030,5.0,,2032.0,0.7512855022949236,NATIONAL,slip_2
+68865.0,Bridgewater 1,PV1,NY,Solar,Solar,2030,5.0,,2033.0,2.1227180177382063,NATIONAL,slip_3plus
+68865.0,Bridgewater 1,PV1,NY,Solar,Solar,2030,5.0,,,1.0886565206888221,NATIONAL,never
+68864.0,Bridgewater 2,PV1,NY,Solar,Solar,2030,5.0,,2029.0,0.1552955792525106,NATIONAL,slip_-1
+68864.0,Bridgewater 2,PV1,NY,Solar,Solar,2030,5.0,,2030.0,0.15909169341201645,NATIONAL,slip_0
+68864.0,Bridgewater 2,PV1,NY,Solar,Solar,2030,5.0,,2031.0,0.7229526866135211,NATIONAL,slip_1
+68864.0,Bridgewater 2,PV1,NY,Solar,Solar,2030,5.0,,2032.0,0.7512855022949236,NATIONAL,slip_2
+68864.0,Bridgewater 2,PV1,NY,Solar,Solar,2030,5.0,,2033.0,2.1227180177382063,NATIONAL,slip_3plus
+68864.0,Bridgewater 2,PV1,NY,Solar,Solar,2030,5.0,,,1.0886565206888221,NATIONAL,never
+67221.0,Foothills Solar (NY),NY128,NY,Solar,Solar,2030,40.0,,2029.0,1.242364634020085,NATIONAL,slip_-1
+67221.0,Foothills Solar (NY),NY128,NY,Solar,Solar,2030,40.0,,2030.0,1.2727335472961316,NATIONAL,slip_0
+67221.0,Foothills Solar (NY),NY128,NY,Solar,Solar,2030,40.0,,2031.0,5.783621492908169,NATIONAL,slip_1
+67221.0,Foothills Solar (NY),NY128,NY,Solar,Solar,2030,40.0,,2032.0,6.010284018359389,NATIONAL,slip_2
+67221.0,Foothills Solar (NY),NY128,NY,Solar,Solar,2030,40.0,,2033.0,16.98174414190565,NATIONAL,slip_3plus
+67221.0,Foothills Solar (NY),NY128,NY,Solar,Solar,2030,40.0,,,8.709252165510577,NATIONAL,never
+67950.0,Moonlight Flats Solar Power 1,MFS1,PA,Solar,Solar,2030,250.0,,2029.0,7.76477896262553,NATIONAL,slip_-1
+67950.0,Moonlight Flats Solar Power 1,MFS1,PA,Solar,Solar,2030,250.0,,2030.0,7.954584670600822,NATIONAL,slip_0
+67950.0,Moonlight Flats Solar Power 1,MFS1,PA,Solar,Solar,2030,250.0,,2031.0,36.147634330676055,NATIONAL,slip_1
+67950.0,Moonlight Flats Solar Power 1,MFS1,PA,Solar,Solar,2030,250.0,,2032.0,37.56427511474618,NATIONAL,slip_2
+67950.0,Moonlight Flats Solar Power 1,MFS1,PA,Solar,Solar,2030,250.0,,2033.0,106.13590088691032,NATIONAL,slip_3plus
+67950.0,Moonlight Flats Solar Power 1,MFS1,PA,Solar,Solar,2030,250.0,,,54.432826034441106,NATIONAL,never
+67839.0,"KCE NY 31, LLC",NY31,NY,Battery Storage,Wind,2031,50.0,,2031.0,50.0,unchanged,
+57472.0,TBE-Montgomery LLC,CTG,NY,Other,Wind,2039,12.0,,2039.0,12.0,unchanged,
+57472.0,TBE-Montgomery LLC,STG,NY,Other,Wind,2039,9.0,,2039.0,9.0,unchanged,

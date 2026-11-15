@@ -1,0 +1,19 @@
+{
+ "region": "ercot",
+ "changelog_rebuild_max_diff_mw": 0.0,
+ "total_2030_v2": 253713.4,
+ "total_2030_v3": 240880.3,
+ "total_2036_v2": 254113.5,
+ "total_2036_v3": 247630.8,
+ "solar_2036_v2": 69965.3,
+ "solar_2036_v3": 64062.7,
+ "wind_2036_v2": 45384.5,
+ "wind_2036_v3": 44804.4,
+ "renewable_mw_removed_never": 6482.7,
+ "renewable_mw_pushed_beyond_2036": 0.0,
+ "scopes_used": {
+  "ST:TX": 108,
+  "wind_override": 2,
+  "NATIONAL": 24
+ }
+}

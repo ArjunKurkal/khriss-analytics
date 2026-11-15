@@ -1,0 +1,506 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+68954.0,Alpaugh BESS,ALPHB,CA,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+68854.0,Angela Solar Project,ABESS,CA,Battery Storage,Wind,2026,40.0,,2026.0,40.0,unchanged,
+66678.0,Aramis I Solar Project,IPARB,CA,Battery Storage,Wind,2026,100.0,,2026.0,100.0,unchanged,
+68661.0,Aratina Solar Center 1A,64BES,CA,Battery Storage,Wind,2026,75.0,,2026.0,75.0,unchanged,
+61167.0,Aratina Solar Center 1B,BESS,CA,Battery Storage,Wind,2026,50.0,,2026.0,50.0,unchanged,
+64215.0,Aratina Solar Center 2,45MGB,CA,Battery Storage,Wind,2026,113.0,,2026.0,113.0,unchanged,
+68323.0,Atlas VIII,ALT8A,AZ,Battery Storage,Wind,2026,210.0,,2026.0,210.0,unchanged,
+70428.0,Bakersfield Driver,DRIVB,CA,Battery Storage,Wind,2026,0.3,,2026.0,0.3,unchanged,
+64209.0,Bellefield 2 Solar & Energy Storage Farm,26SBB,CA,Battery Storage,Wind,2026,500.0,,2026.0,500.0,unchanged,
+66475.0,CA Bloomington 2551 S Lilac Avenue Micro,B8263,CA,Battery Storage,Wind,2026,1.5,,2026.0,1.5,unchanged,
+66511.0,CA Riverside 2356 Fleetwood Dr.,B8262,CA,Battery Storage,Wind,2026,2.0,,2026.0,2.0,unchanged,
+70040.0,CA- US Foods- La Mirada,LMBA,CA,Battery Storage,Wind,2026,1.4,,2026.0,1.4,unchanged,
+68672.0,Chalan,CHA_B,CA,Battery Storage,Wind,2026,25.0,,2026.0,25.0,unchanged,
+63850.0,Cherry,BESS1,CA,Battery Storage,Wind,2026,40.0,,2026.0,40.0,unchanged,
+67878.0,Chula Vista Energy Center 2,BESS1,CA,Battery Storage,Wind,2026,50.0,,2026.0,50.0,unchanged,
+69121.0,Deer Creek Hybrid,DERBA,CA,Battery Storage,Wind,2026,51.4,,2026.0,51.4,unchanged,
+62892.0,EDPR CA Solar Park VI LLC (CA) Hybrid,SONR2,CA,Battery Storage,Wind,2026,40.0,,2026.0,40.0,unchanged,
+69947.0,EDPR Scarlet III,GEN05,CA,Battery Storage,Wind,2026,70.0,,2026.0,70.0,unchanged,
+68758.0,Easley Solar,IPEA2,CA,Battery Storage,Wind,2026,350.0,,2026.0,350.0,unchanged,
+66787.0,Elevate Pier S,ELVPS,CA,Battery Storage,Wind,2026,70.0,,2026.0,70.0,unchanged,
+66552.0,EnerSmart Mesa Heights Sub Station,MH162,CA,Battery Storage,Wind,2026,3.0,,2026.0,3.0,unchanged,
+69806.0,"Gaskell West Storage 1, LLC",GWBS1,CA,Battery Storage,Wind,2026,21.6,,2026.0,21.6,unchanged,
+68980.0,Gonzaga Ridge Battery Facility,GRBF,CA,Battery Storage,Wind,2026,51.8,,2026.0,51.8,unchanged,
+65395.0,Hummingbird Energy Storage LLC,HUMB1,CA,Battery Storage,Wind,2026,75.0,,2026.0,75.0,unchanged,
+65897.0,Industrial Parkway Storage,INPKY,CA,Battery Storage,Wind,2026,9.8,,2026.0,9.8,unchanged,
+68526.0,Kama 1 LLC,11B,CA,Battery Storage,Wind,2026,0.4,,2026.0,0.4,unchanged,
+68461.0,Key Energy Storage,KEYBA,CA,Battery Storage,Wind,2026,75.0,,2026.0,75.0,unchanged,
+68953.0,Kifer BESS 1,KB1,CA,Battery Storage,Wind,2026,50.0,,2026.0,50.0,unchanged,
+67234.0,Lara 2 Hybrid,LARAB,CA,Battery Storage,Wind,2026,0.9,,2026.0,0.9,unchanged,
+68600.0,Las Virgenes MWD - Composting Plant,7236B,CA,Battery Storage,Wind,2026,0.5,,2026.0,0.5,unchanged,
+69437.0,Lathrop 4 - SLCVA204,BA204,CA,Battery Storage,Wind,2026,2.0,,2026.0,2.0,unchanged,
+68519.0,Madena 3,MDNA3,CA,Battery Storage,Wind,2026,3.9,,2026.0,3.9,unchanged,
+68518.0,Merced 2 BESS,MRC2B,CA,Battery Storage,Wind,2026,2.0,,2026.0,2.0,unchanged,
+68018.0,Merced BESS,MRCDB,CA,Battery Storage,Wind,2026,3.0,,2026.0,3.0,unchanged,
+65889.0,"Nighthawk Energy Storage, LLC",BESS,CA,Battery Storage,Wind,2026,300.0,,2026.0,300.0,unchanged,
+64531.0,Noosa Energy Storage LLC,KOV4A,CA,Battery Storage,Wind,2026,99.0,,2026.0,99.0,unchanged,
+69030.0,North Johnson Energy Center,BESS1,CA,Battery Storage,Wind,2026,50.0,,2026.0,50.0,unchanged,
+70388.0,Pacifico Power Lancaster 01,LANB,CA,Battery Storage,Wind,2026,0.5,,2026.0,0.5,unchanged,
+70389.0,Pacifico Power Palmdale 01,PALB,CA,Battery Storage,Wind,2026,0.5,,2026.0,0.5,unchanged,
+62729.0,Painter Energy Storage,PAIN1,CA,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+68542.0,Palmdale Water District 6MG Tank,7170B,CA,Battery Storage,Wind,2026,0.3,,2026.0,0.3,unchanged,
+69858.0,Pastoria Power Bank,GEN1,CA,Battery Storage,Wind,2026,80.0,,2026.0,80.0,unchanged,
+69136.0,Redemeyer Road Solar,REDBA,CA,Battery Storage,Wind,2026,4.0,,2026.0,4.0,unchanged,
+70012.0,Redlands DC 9 - sline609,BA609,CA,Battery Storage,Wind,2026,2.4,,2026.0,2.4,unchanged,
+69956.0,Sanborn Hybrid 3,S10BS,CA,Battery Storage,Wind,2026,210.0,,2026.0,210.0,unchanged,
+69713.0,Sanger USD - Sanger West HS,9985B,CA,Battery Storage,Wind,2026,0.5,,2026.0,0.5,unchanged,
+67118.0,Santee BESS,1,CA,Battery Storage,Wind,2026,10.0,,2026.0,10.0,unchanged,
+65940.0,Shasta College PH2 Solar Project,SCSPB,CA,Battery Storage,Wind,2026,0.5,,2026.0,0.5,unchanged,
+68494.0,Shirk Energy Storage,SHRK1,CA,Battery Storage,Wind,2026,80.0,,2026.0,80.0,unchanged,
+67283.0,Six Flags Magic Mountain,6569B,CA,Battery Storage,Wind,2026,2.0,,2026.0,2.0,unchanged,
+68240.0,Solar Star 3,SS3BT,CA,Battery Storage,Wind,2026,23.0,,2026.0,23.0,unchanged,
+68241.0,Solar Star 4,SS4BT,CA,Battery Storage,Wind,2026,23.0,,2026.0,23.0,unchanged,
+69925.0,Stellar Wright BESS,SWBA1,CA,Battery Storage,Wind,2026,84.8,,2026.0,84.8,unchanged,
+68794.0,Tracy 18 - SLCVA418,BS418,CA,Battery Storage,Wind,2026,1.5,,2026.0,1.5,unchanged,
+69759.0,Tracy Linne,LINB,CA,Battery Storage,Wind,2026,1.3,,2026.0,1.3,unchanged,
+68509.0,"Ventasso Energy Storage, LLC",VNT,CA,Battery Storage,Wind,2026,50.0,,2026.0,50.0,unchanged,
+68907.0,Vidal Energy Center,1,CA,Battery Storage,Wind,2026,160.0,,2026.0,160.0,unchanged,
+70463.0,"Westminster Reliability Project, LLC",WSTBA,CA,Battery Storage,Wind,2026,110.0,,2026.0,110.0,unchanged,
+56615.0,Rancho Penasquitos,G200,CA,Hydro,Wind,2026,4.3,,2026.0,4.3,unchanged,
+68837.0,Godinho Dairy Digester,GEN1,CA,Other,Wind,2026,1.0,,2026.0,1.0,unchanged,
+68837.0,Godinho Dairy Digester,GEN2,CA,Other,Wind,2026,1.0,,2026.0,1.0,unchanged,
+63622.0,OES Biogas Power,OES01,CA,Other,Wind,2026,1.3,,2026.0,1.3,unchanged,
+63622.0,OES Biogas Power,OES02,CA,Other,Wind,2026,1.3,,2026.0,1.3,unchanged,
+69896.0,7999 Gateway Solar,7999G,CA,Solar,Solar,2026,4.6,,2026.0,4.6,unchanged,
+69054.0,ATLAS II,ALT2,AZ,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+69055.0,ATLAS SOLAR IV,ALTS4,AZ,Solar,Solar,2026,300.0,,2026.0,300.0,unchanged,
+69237.0,"ATLAS Solar V, LLC",ATL5,AZ,Solar,Solar,2026,200.0,,2026.0,200.0,unchanged,
+69238.0,"ATLAS Solar VI, LLC",ATL6,AZ,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+69137.0,Althea Avenue Solar,ALP1,CA,Solar,Solar,2026,5.0,,2026.0,5.0,unchanged,
+69137.0,Althea Avenue Solar,ALP2,CA,Solar,Solar,2026,3.9,,2026.0,3.9,unchanged,
+68854.0,Angela Solar Project,ANG1,CA,Solar,Solar,2026,40.0,,2026.0,40.0,unchanged,
+66678.0,Aramis I Solar Project,IPAR1,CA,Solar,Solar,2026,100.0,,2026.0,100.0,unchanged,
+68661.0,Aratina Solar Center 1A,64NB8,CA,Solar,Solar,2026,120.0,,2026.0,120.0,unchanged,
+61167.0,Aratina Solar Center 1B,91MC8,CA,Solar,Solar,2026,80.0,,2026.0,80.0,unchanged,
+64215.0,Aratina Solar Center 2,45MGA,CA,Solar,Solar,2026,150.0,,2026.0,150.0,unchanged,
+70428.0,Bakersfield Driver,DRIVS,CA,Solar,Solar,2026,1.7,,2026.0,1.7,unchanged,
+68793.0,Bandini - SLLAX710,LA710,CA,Solar,Solar,2026,1.3,,2026.0,1.3,unchanged,
+68540.0,Bayer Oxnard - Meter# 4719,6245,CA,Solar,Solar,2026,1.3,,2026.0,1.3,unchanged,
+64209.0,Bellefield 2 Solar & Energy Storage Farm,26SBA,CA,Solar,Solar,2026,500.0,,2026.0,500.0,unchanged,
+70091.0,Blankenship,BLANK,CA,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+66475.0,CA Bloomington 2551 S Lilac Avenue Micro,18263,CA,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+69533.0,CA National City Terminal Ave,21938,CA,Solar,Solar,2026,1.1,,2026.0,1.1,unchanged,
+66511.0,CA Riverside 2356 Fleetwood Dr.,18262,CA,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70040.0,CA- US Foods- La Mirada,LMPV,CA,Solar,Solar,2026,2.6,,2026.0,2.6,unchanged,
+68672.0,Chalan,OECHA,CA,Solar,Solar,2026,64.9,,2026.0,64.9,unchanged,
+68238.0,Commerce Distribution Center 4-SLLAX113,LA113,CA,Solar,Solar,2026,1.2,,2026.0,1.2,unchanged,
+66892.0,Conflitti Solar,CNFTI,CA,Solar,Solar,2026,4.4,,2026.0,4.4,unchanged,
+69121.0,Deer Creek Hybrid,DERPV,CA,Solar,Solar,2026,51.4,,2026.0,51.4,unchanged,
+68045.0,"Desert Breeze Solar, LLC",LOC3,CA,Solar,Solar,2026,125.0,,2026.0,125.0,unchanged,
+68790.0,Dominguez - SLLAX512,LA512,CA,Solar,Solar,2026,1.3,,2026.0,1.3,unchanged,
+62892.0,EDPR CA Solar Park VI LLC (CA) Hybrid,SONRI,CA,Solar,Solar,2026,201.0,,2026.0,201.0,unchanged,
+68758.0,Easley Solar,IPEA1,CA,Solar,Solar,2026,290.0,,2026.0,290.0,unchanged,
+68753.0,Flying Goose,FLYGS,CA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+65072.0,Fremont CA AutoFactory,GA3,CA,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+65072.0,Fremont CA AutoFactory,GVSRS,CA,Solar,Solar,2026,0.5,,2026.0,0.5,unchanged,
+65072.0,Fremont CA AutoFactory,STAMP,CA,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+65072.0,Fremont CA AutoFactory,VSRS,CA,Solar,Solar,2026,0.4,,2026.0,0.4,unchanged,
+68795.0,IPC 16 - SLCVA516,CV516,CA,Solar,Solar,2026,1.7,,2026.0,1.7,unchanged,
+68465.0,Imperator Solar,22324,CA,Solar,Solar,2026,2.0,,2026.0,2.0,unchanged,
+70087.0,Inland Empire,INLAN,CA,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+68788.0,JFC Slauson - SLLAX071,LA071,CA,Solar,Solar,2026,1.2,,2026.0,1.2,unchanged,
+68526.0,Kama 1 LLC,11,CA,Solar,Solar,2026,1.6,,2026.0,1.6,unchanged,
+69711.0,L3 Harris San Diego,6672,CA,Solar,Solar,2026,1.6,,2026.0,1.6,unchanged,
+67234.0,Lara 2 Hybrid,LARAS,CA,Solar,Solar,2026,0.7,,2026.0,0.7,unchanged,
+68600.0,Las Virgenes MWD - Composting Plant,7236G,CA,Solar,Solar,2026,0.9,,2026.0,0.9,unchanged,
+69437.0,Lathrop 4 - SLCVA204,CV204,CA,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+70371.0,Lerdo East,LEREA,CA,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+70372.0,Lerdo Middle,LERMI,CA,Solar,Solar,2026,2.4,,2026.0,2.4,unchanged,
+67510.0,"Lockhart Solar PV IV, LLC",LOC4,CA,Solar,Solar,2026,80.0,,2026.0,80.0,unchanged,
+70094.0,Mid Counties DC 45 - sllax345,LA345,CA,Solar,Solar,2026,2.2,,2026.0,2.2,unchanged,
+69562.0,Minneola Solar,MINNE,CA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+68439.0,NorCal FPV 1,17184,CA,Solar,Solar,2026,10.0,,2026.0,10.0,unchanged,
+68787.0,NorCal FPV 1 (Pond 2),23889,CA,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+70085.0,North Kern Water Storage District,NKWSD,CA,Solar,Solar,2026,3.0,,2026.0,3.0,unchanged,
+70388.0,Pacifico Power Lancaster 01,LANS,CA,Solar,Solar,2026,5.9,,2026.0,5.9,unchanged,
+70389.0,Pacifico Power Palmdale 01,PALS,CA,Solar,Solar,2026,3.3,,2026.0,3.3,unchanged,
+68542.0,Palmdale Water District 6MG Tank,7170G,CA,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+68541.0,Palmdale Water District HQ,7169,CA,Solar,Solar,2026,1.7,,2026.0,1.7,unchanged,
+67105.0,Pastoria Solar,CPP01,CA,Solar,Solar,2026,105.2,,2026.0,105.2,unchanged,
+70095.0,Perris DC 5 - sline015,IN015,CA,Solar,Solar,2026,1.6,,2026.0,1.6,unchanged,
+67749.0,Pistachio Road 1726-WD,TWISS,CA,Solar,Solar,2026,4.8,,2026.0,4.8,unchanged,
+67770.0,Pittsburg RV Solar,30200,CA,Solar,Solar,2026,2.8,,2026.0,2.8,unchanged,
+69370.0,RP Minnesota Solar,CONEJ,CA,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+70086.0,Ranch 3461,3461,CA,Solar,Solar,2026,2.8,,2026.0,2.8,unchanged,
+70368.0,Ranch 4220,R4220,CA,Solar,Solar,2026,1.1,,2026.0,1.1,unchanged,
+70369.0,Ranch 4260,R4260,CA,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+70370.0,Ranch 4701,R4701,CA,Solar,Solar,2026,2.3,,2026.0,2.3,unchanged,
+69136.0,Redemeyer Road Solar,REDPV,CA,Solar,Solar,2026,4.0,,2026.0,4.0,unchanged,
+70012.0,Redlands DC 9 - sline609,IN609,CA,Solar,Solar,2026,2.6,,2026.0,2.6,unchanged,
+70088.0,Rosedale,ROSED,CA,Solar,Solar,2026,1.8,,2026.0,1.8,unchanged,
+69956.0,Sanborn Hybrid 3,S8,CA,Solar,Solar,2026,55.0,,2026.0,55.0,unchanged,
+69956.0,Sanborn Hybrid 3,S10PV,CA,Solar,Solar,2026,210.0,,2026.0,210.0,unchanged,
+69956.0,Sanborn Hybrid 3,S9,CA,Solar,Solar,2026,103.0,,2026.0,103.0,unchanged,
+69713.0,Sanger USD - Sanger West HS,9985C,CA,Solar,Solar,2026,0.9,,2026.0,0.9,unchanged,
+65940.0,Shasta College PH2 Solar Project,SCSP1,CA,Solar,Solar,2026,1.5,,2026.0,1.5,unchanged,
+67283.0,Six Flags Magic Mountain,6569,CA,Solar,Solar,2026,10.0,,2026.0,10.0,unchanged,
+68240.0,Solar Star 3,SS3PV,CA,Solar,Solar,2026,24.0,,2026.0,24.0,unchanged,
+68241.0,Solar Star 4,SS4PV,CA,Solar,Solar,2026,24.0,,2026.0,24.0,unchanged,
+68789.0,South Bay Dis Ctr 12 - SLLAX104,LA104,CA,Solar,Solar,2026,1.2,,2026.0,1.2,unchanged,
+68237.0,South Bay Dis Ctr 20-SLLAX512,LA512,CA,Solar,Solar,2026,1.3,,2026.0,1.3,unchanged,
+68796.0,Stockton 6 - SLEBA202,EB202,CA,Solar,Solar,2026,1.1,,2026.0,1.1,unchanged,
+68908.0,Tesoro RV & Boat Storage,45067,CA,Solar,Solar,2026,2.5,,2026.0,2.5,unchanged,
+69891.0,Torrance Dis Ctr 2 - SLLAX100,LA100,CA,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+69759.0,Tracy Linne,LINS,CA,Solar,Solar,2026,1.4,,2026.0,1.4,unchanged,
+70505.0,"VS HR Warner NEM, LLC",1055,CA,Solar,Solar,2026,1.0,,2026.0,1.0,unchanged,
+68907.0,Vidal Energy Center,2,CA,Solar,Solar,2026,160.0,,2026.0,160.0,unchanged,
+68436.0,WPR RE Holdings,22323,CA,Solar,Solar,2026,2.9,,2026.0,2.9,unchanged,
+59969.0,"Windhub Solar B, LLC",GEN01,CA,Solar,Solar,2026,26.4,,2026.0,26.4,unchanged,
+68981.0,Gonzaga Ridge Wind Farm,GRWF1,CA,Wind,Wind,2026,40.3,,2026.0,40.3,unchanged,
+68981.0,Gonzaga Ridge Wind Farm,GRWF2,CA,Wind,Wind,2026,34.6,,2026.0,34.6,unchanged,
+68981.0,Gonzaga Ridge Wind Farm,GRWF3,CA,Wind,Wind,2026,57.9,,2026.0,57.9,unchanged,
+70235.0,Mulqueeney Wind Energy,68372,CA,Wind,Wind,2026,80.0,,2026.0,80.0,unchanged,
+66924.0,SunZia Wind North,SZW-N,NM,Wind,Wind,2026,1089.0,,2026.0,1089.0,unchanged,
+66923.0,SunZia Wind South,SZW-S,NM,Wind,Wind,2026,2561.2,,2026.0,2561.2,unchanged,
+65458.0,Anode (Springville) BESS,ANOD1,CA,Battery Storage,Wind,2027,112.5,,2027.0,112.5,unchanged,
+65458.0,Anode (Springville) BESS,ANOD2,CA,Battery Storage,Wind,2027,112.5,,2027.0,112.5,unchanged,
+68321.0,Atlas BESS IV LLC,ALT4,AZ,Battery Storage,Wind,2027,150.0,,2027.0,150.0,unchanged,
+68323.0,Atlas VIII,ALT8B,AZ,Battery Storage,Wind,2027,172.4,,2027.0,172.4,unchanged,
+69964.0,Baldy Mesa Storage,BALBE,CA,Battery Storage,Wind,2027,50.0,,2027.0,50.0,unchanged,
+67257.0,Bear Valley Battery Plant,BVEB1,CA,Battery Storage,Wind,2027,5.0,,2027.0,5.0,unchanged,
+69710.0,Bishop Ranch - BR 3-FF,4148B,CA,Battery Storage,Wind,2027,0.6,,2027.0,0.6,unchanged,
+69706.0,Bishop Ranch - BR 3-GG,4149B,CA,Battery Storage,Wind,2027,0.6,,2027.0,0.6,unchanged,
+69708.0,Bishop Ranch - BR 3-HH,4150B,CA,Battery Storage,Wind,2027,0.6,,2027.0,0.6,unchanged,
+66908.0,Bonanza Solar and Storage Project,BZES,NV,Battery Storage,Wind,2027,195.0,,2027.0,195.0,unchanged,
+63850.0,Cherry,BESS2,CA,Battery Storage,Wind,2027,110.0,,2027.0,110.0,unchanged,
+67565.0,East Road Storage Project,CEC01,CA,Battery Storage,Wind,2027,1.0,,2027.0,1.0,unchanged,
+68923.0,Enterprise BESS,ENTB,CA,Battery Storage,Wind,2027,54.1,,2027.0,54.1,unchanged,
+69509.0,Gabriel,1,CA,Battery Storage,Wind,2027,400.0,,2027.0,400.0,unchanged,
+70105.0,Gardenia 1,GDNAB,CA,Battery Storage,Wind,2027,3.0,,2027.0,3.0,unchanged,
+67836.0,Gibson Solar Project - Hybrid,GSP2,CA,Battery Storage,Wind,2027,13.0,,2027.0,13.0,unchanged,
+69024.0,Glenarm BESS Plant,GLNB1,CA,Battery Storage,Wind,2027,25.0,,2027.0,25.0,unchanged,
+69820.0,Grace Energy Center,GRA2,CA,Battery Storage,Wind,2027,500.0,,2027.0,500.0,unchanged,
+68924.0,Iron BESS,IROB,CA,Battery Storage,Wind,2027,59.5,,2027.0,59.5,unchanged,
+64428.0,JVR Energy Park LLC,JVR1B,CA,Battery Storage,Wind,2027,70.0,,2027.0,70.0,unchanged,
+70106.0,Jade Solar 3,JADEB,CA,Battery Storage,Wind,2027,1.5,,2027.0,1.5,unchanged,
+70109.0,Jasmine,JASBE,CA,Battery Storage,Wind,2027,64.4,,2027.0,64.4,unchanged,
+68461.0,Key Energy Storage,KEYBB,CA,Battery Storage,Wind,2027,190.0,,2027.0,190.0,unchanged,
+68461.0,Key Energy Storage,KEYBC,CA,Battery Storage,Wind,2027,35.0,,2027.0,35.0,unchanged,
+68520.0,Madena 4,MNDA4,CA,Battery Storage,Wind,2027,5.0,,2027.0,5.0,unchanged,
+69508.0,Marici,1,CA,Battery Storage,Wind,2027,400.0,,2027.0,400.0,unchanged,
+68925.0,Midway BESS,MIDB,CA,Battery Storage,Wind,2027,124.6,,2027.0,124.6,unchanged,
+68932.0,Overnight Solar,OSBA,CA,Battery Storage,Wind,2027,150.0,,2027.0,150.0,unchanged,
+68607.0,Pelicans Jaw Hybrid Solar,PJBS1,CA,Battery Storage,Wind,2027,238.5,,2027.0,238.5,unchanged,
+70101.0,Pivot Energy PPA 29 LLC,PA29B,CA,Battery Storage,Wind,2027,0.1,,2027.0,0.1,unchanged,
+70238.0,Roadhouse Energy Center,RDHS,CA,Battery Storage,Wind,2027,300.0,,2027.0,300.0,unchanged,
+69965.0,Roccasecca BESS LLC,RS,NV,Battery Storage,Wind,2027,126.5,,2027.0,126.5,unchanged,
+69648.0,Rosamond South II,BSBA2,CA,Battery Storage,Wind,2027,48.0,,2027.0,48.0,unchanged,
+69648.0,Rosamond South II,RSBA,CA,Battery Storage,Wind,2027,92.0,,2027.0,92.0,unchanged,
+64290.0,"SE Athos II, LLC",ATH1N,CA,Battery Storage,Wind,2027,100.0,,2027.0,100.0,unchanged,
+64290.0,"SE Athos II, LLC",ATH1S,CA,Battery Storage,Wind,2027,102.3,,2027.0,102.3,unchanged,
+64290.0,"SE Athos II, LLC",ATHB2,CA,Battery Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+68035.0,Syracuse and Tours Renewable Energy,SYTOB,CA,Battery Storage,Wind,2027,40.0,,2027.0,40.0,unchanged,
+69539.0,Tracy BESS,TRAB,CA,Battery Storage,Wind,2027,40.0,,2027.0,40.0,unchanged,
+69541.0,Vaca BESS,VACB,CA,Battery Storage,Wind,2027,59.5,,2027.0,59.5,unchanged,
+67676.0,Zeta Solar & Storage,GEN02,CA,Battery Storage,Wind,2027,75.0,,2027.0,75.0,unchanged,
+56895.0,Ameresco Ox Mountain,7,CA,Other,Wind,2027,3.0,,2027.0,3.0,unchanged,
+10748.0,Marina Landfill Gas,FUTR1,CA,Other,Wind,2027,1.6,,2027.0,1.6,unchanged,
+10748.0,Marina Landfill Gas,FUTR2,CA,Other,Wind,2027,1.6,,2027.0,1.6,unchanged,
+10748.0,Marina Landfill Gas,FUTR3,CA,Other,Wind,2027,1.6,,2027.0,1.6,unchanged,
+10748.0,Marina Landfill Gas,FUTR4,CA,Other,Wind,2027,1.6,,2027.0,1.6,unchanged,
+68855.0,Tracy Renewable Power Plant,TRP01,CA,Other,Wind,2027,5.0,,2027.0,5.0,unchanged,
+66685.0,Whale Rock Pumped Storage Hydro Project,WH001,CA,Pumped Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+66685.0,Whale Rock Pumped Storage Hydro Project,WH002,CA,Pumped Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+66685.0,Whale Rock Pumped Storage Hydro Project,WH003,CA,Pumped Storage,Wind,2027,200.0,,2027.0,200.0,unchanged,
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2026.0,1.3918969045026506,CAISO,slip_-1
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2027.0,102.65441589987198,CAISO,slip_0
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2028.0,59.786952723965875,CAISO,slip_1
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2029.0,9.060791164610581,CAISO,slip_2
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,2030.0,31.87901595012743,CAISO,slip_3plus
+69198.0,"ATLAS Solar X, LLC",ATL10,AZ,Solar,Solar,2027,225.0,,,20.226927356921493,CAISO,never
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2026.0,1.2372416928912449,CAISO,slip_-1
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2027.0,91.24836968877509,CAISO,slip_0
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2028.0,53.14395797685856,CAISO,slip_1
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2029.0,8.05403659076496,CAISO,slip_2
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,2030.0,28.33690306677994,CAISO,slip_3plus
+69199.0,"ATLAS Solar XI, LLC",ATL11,AZ,Solar,Solar,2027,200.0,,,17.979490983930216,CAISO,never
+69222.0,American Canyon RV Boat Storage,5381,CA,Solar,Solar,2027,1.9,,2027.0,0.8012873094521229,ST:CA,slip_0
+69222.0,American Canyon RV Boat Storage,5381,CA,Solar,Solar,2027,1.9,,2028.0,0.5641420307721485,ST:CA,slip_1
+69222.0,American Canyon RV Boat Storage,5381,CA,Solar,Solar,2027,1.9,,2029.0,0.0984098290699604,ST:CA,slip_2
+69222.0,American Canyon RV Boat Storage,5381,CA,Solar,Solar,2027,1.9,,2030.0,0.2669531305564116,ST:CA,slip_3plus
+69222.0,American Canyon RV Boat Storage,5381,CA,Solar,Solar,2027,1.9,,,0.16920770014935632,ST:CA,never
+69710.0,Bishop Ranch - BR 3-FF,4148C,CA,Solar,Solar,2027,0.6,,2027.0,0.25303809772172303,ST:CA,slip_0
+69710.0,Bishop Ranch - BR 3-FF,4148C,CA,Solar,Solar,2027,0.6,,2028.0,0.17815011498067848,ST:CA,slip_1
+69710.0,Bishop Ranch - BR 3-FF,4148C,CA,Solar,Solar,2027,0.6,,2029.0,0.031076788127355915,ST:CA,slip_2
+69710.0,Bishop Ranch - BR 3-FF,4148C,CA,Solar,Solar,2027,0.6,,2030.0,0.08430098859676156,ST:CA,slip_3plus
+69710.0,Bishop Ranch - BR 3-FF,4148C,CA,Solar,Solar,2027,0.6,,,0.05343401057348094,ST:CA,never
+69710.0,Bishop Ranch - BR 3-FF,4148R,CA,Solar,Solar,2027,0.2,,2027.0,0.08434603257390769,ST:CA,slip_0
+69710.0,Bishop Ranch - BR 3-FF,4148R,CA,Solar,Solar,2027,0.2,,2028.0,0.05938337166022616,ST:CA,slip_1
+69710.0,Bishop Ranch - BR 3-FF,4148R,CA,Solar,Solar,2027,0.2,,2029.0,0.010358929375785307,ST:CA,slip_2
+69710.0,Bishop Ranch - BR 3-FF,4148R,CA,Solar,Solar,2027,0.2,,2030.0,0.028100329532253856,ST:CA,slip_3plus
+69710.0,Bishop Ranch - BR 3-FF,4148R,CA,Solar,Solar,2027,0.2,,,0.017811336857826984,ST:CA,never
+69706.0,Bishop Ranch - BR 3-GG,4149C,CA,Solar,Solar,2027,1.1,,2027.0,0.46390317915649226,ST:CA,slip_0
+69706.0,Bishop Ranch - BR 3-GG,4149C,CA,Solar,Solar,2027,1.1,,2028.0,0.3266085441312439,ST:CA,slip_1
+69706.0,Bishop Ranch - BR 3-GG,4149C,CA,Solar,Solar,2027,1.1,,2029.0,0.05697411156681918,ST:CA,slip_2
+69706.0,Bishop Ranch - BR 3-GG,4149C,CA,Solar,Solar,2027,1.1,,2030.0,0.1545518124273962,ST:CA,slip_3plus
+69706.0,Bishop Ranch - BR 3-GG,4149C,CA,Solar,Solar,2027,1.1,,,0.0979623527180484,ST:CA,never
+69706.0,Bishop Ranch - BR 3-GG,4149R,CA,Solar,Solar,2027,0.2,,2027.0,0.08434603257390769,ST:CA,slip_0
+69706.0,Bishop Ranch - BR 3-GG,4149R,CA,Solar,Solar,2027,0.2,,2028.0,0.05938337166022616,ST:CA,slip_1
+69706.0,Bishop Ranch - BR 3-GG,4149R,CA,Solar,Solar,2027,0.2,,2029.0,0.010358929375785307,ST:CA,slip_2
+69706.0,Bishop Ranch - BR 3-GG,4149R,CA,Solar,Solar,2027,0.2,,2030.0,0.028100329532253856,ST:CA,slip_3plus
+69706.0,Bishop Ranch - BR 3-GG,4149R,CA,Solar,Solar,2027,0.2,,,0.017811336857826984,ST:CA,never
+69708.0,Bishop Ranch - BR 3-HH,4150C,CA,Solar,Solar,2027,0.6,,2027.0,0.25303809772172303,ST:CA,slip_0
+69708.0,Bishop Ranch - BR 3-HH,4150C,CA,Solar,Solar,2027,0.6,,2028.0,0.17815011498067848,ST:CA,slip_1
+69708.0,Bishop Ranch - BR 3-HH,4150C,CA,Solar,Solar,2027,0.6,,2029.0,0.031076788127355915,ST:CA,slip_2
+69708.0,Bishop Ranch - BR 3-HH,4150C,CA,Solar,Solar,2027,0.6,,2030.0,0.08430098859676156,ST:CA,slip_3plus
+69708.0,Bishop Ranch - BR 3-HH,4150C,CA,Solar,Solar,2027,0.6,,,0.05343401057348094,ST:CA,never
+69708.0,Bishop Ranch - BR 3-HH,4150R,CA,Solar,Solar,2027,0.2,,2027.0,0.08434603257390769,ST:CA,slip_0
+69708.0,Bishop Ranch - BR 3-HH,4150R,CA,Solar,Solar,2027,0.2,,2028.0,0.05938337166022616,ST:CA,slip_1
+69708.0,Bishop Ranch - BR 3-HH,4150R,CA,Solar,Solar,2027,0.2,,2029.0,0.010358929375785307,ST:CA,slip_2
+69708.0,Bishop Ranch - BR 3-HH,4150R,CA,Solar,Solar,2027,0.2,,2030.0,0.028100329532253856,ST:CA,slip_3plus
+69708.0,Bishop Ranch - BR 3-HH,4150R,CA,Solar,Solar,2027,0.2,,,0.017811336857826984,ST:CA,never
+66908.0,Bonanza Solar and Storage Project,BZPV,NV,Solar,Solar,2027,300.0,,2026.0,6.658938691396188,ST:NV,slip_-1
+66908.0,Bonanza Solar and Storage Project,BZPV,NV,Solar,Solar,2027,300.0,,2027.0,79.4629057187017,ST:NV,slip_0
+66908.0,Bonanza Solar and Storage Project,BZPV,NV,Solar,Solar,2027,300.0,,2028.0,87.50643997939207,ST:NV,slip_1
+66908.0,Bonanza Solar and Storage Project,BZPV,NV,Solar,Solar,2027,300.0,,2029.0,30.91190108191654,ST:NV,slip_2
+66908.0,Bonanza Solar and Storage Project,BZPV,NV,Solar,Solar,2027,300.0,,2030.0,15.513910355486864,ST:NV,slip_3plus
+66908.0,Bonanza Solar and Storage Project,BZPV,NV,Solar,Solar,2027,300.0,,,79.94590417310665,ST:NV,never
+63850.0,Cherry,CHERY,CA,Solar,Solar,2027,249.7,,2027.0,105.30602166852374,ST:CA,slip_0
+63850.0,Cherry,CHERY,CA,Solar,Solar,2027,249.7,,2028.0,74.14013951779235,ST:CA,slip_1
+63850.0,Cherry,CHERY,CA,Solar,Solar,2027,249.7,,2029.0,12.933123325667953,ST:CA,slip_2
+63850.0,Cherry,CHERY,CA,Solar,Solar,2027,249.7,,2030.0,35.08326142101893,ST:CA,slip_3plus
+63850.0,Cherry,CHERY,CA,Solar,Solar,2027,249.7,,,22.237454066996985,ST:CA,never
+70178.0,Cobalt,CBLT,CA,Solar,Solar,2027,250.0,,2027.0,105.4325407173846,ST:CA,slip_0
+70178.0,Cobalt,CBLT,CA,Solar,Solar,2027,250.0,,2028.0,74.2292145752827,ST:CA,slip_1
+70178.0,Cobalt,CBLT,CA,Solar,Solar,2027,250.0,,2029.0,12.948661719731632,ST:CA,slip_2
+70178.0,Cobalt,CBLT,CA,Solar,Solar,2027,250.0,,2030.0,35.125411915317315,ST:CA,slip_3plus
+70178.0,Cobalt,CBLT,CA,Solar,Solar,2027,250.0,,,22.264171072283727,ST:CA,never
+68528.0,Dynamo Solar LLC,77,CA,Solar,Solar,2027,24.5,,2027.0,10.332388990303691,ST:CA,slip_0
+68528.0,Dynamo Solar LLC,77,CA,Solar,Solar,2027,24.5,,2028.0,7.2744630283777045,ST:CA,slip_1
+68528.0,Dynamo Solar LLC,77,CA,Solar,Solar,2027,24.5,,2029.0,1.2689688485336998,ST:CA,slip_2
+68528.0,Dynamo Solar LLC,77,CA,Solar,Solar,2027,24.5,,2030.0,3.442290367701097,ST:CA,slip_3plus
+68528.0,Dynamo Solar LLC,77,CA,Solar,Solar,2027,24.5,,,2.181888765083805,ST:CA,never
+68792.0,Fordyce - SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,2027.0,0.5482492117304,ST:CA,slip_0
+68792.0,Fordyce - SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,2028.0,0.38599191579147,ST:CA,slip_1
+68792.0,Fordyce - SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,2029.0,0.06733304094260449,ST:CA,slip_2
+68792.0,Fordyce - SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,2030.0,0.18265214195965004,ST:CA,slip_3plus
+68792.0,Fordyce - SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,,0.11577368957587539,ST:CA,never
+70105.0,Gardenia 1,GDNAS,CA,Solar,Solar,2027,3.0,,2027.0,1.2651904886086152,ST:CA,slip_0
+70105.0,Gardenia 1,GDNAS,CA,Solar,Solar,2027,3.0,,2028.0,0.8907505749033924,ST:CA,slip_1
+70105.0,Gardenia 1,GDNAS,CA,Solar,Solar,2027,3.0,,2029.0,0.15538394063677957,ST:CA,slip_2
+70105.0,Gardenia 1,GDNAS,CA,Solar,Solar,2027,3.0,,2030.0,0.4215049429838078,ST:CA,slip_3plus
+70105.0,Gardenia 1,GDNAS,CA,Solar,Solar,2027,3.0,,,0.2671700528674047,ST:CA,never
+69895.0,Gateway#1&2 (Newark CA),Gy1a2,CA,Solar,Solar,2027,1.1,,2027.0,0.46390317915649226,ST:CA,slip_0
+69895.0,Gateway#1&2 (Newark CA),Gy1a2,CA,Solar,Solar,2027,1.1,,2028.0,0.3266085441312439,ST:CA,slip_1
+69895.0,Gateway#1&2 (Newark CA),Gy1a2,CA,Solar,Solar,2027,1.1,,2029.0,0.05697411156681918,ST:CA,slip_2
+69895.0,Gateway#1&2 (Newark CA),Gy1a2,CA,Solar,Solar,2027,1.1,,2030.0,0.1545518124273962,ST:CA,slip_3plus
+69895.0,Gateway#1&2 (Newark CA),Gy1a2,CA,Solar,Solar,2027,1.1,,,0.0979623527180484,ST:CA,never
+67836.0,Gibson Solar Project - Hybrid,GSP1,CA,Solar,Solar,2027,13.0,,2027.0,5.482492117303999,ST:CA,slip_0
+67836.0,Gibson Solar Project - Hybrid,GSP1,CA,Solar,Solar,2027,13.0,,2028.0,3.8599191579147005,ST:CA,slip_1
+67836.0,Gibson Solar Project - Hybrid,GSP1,CA,Solar,Solar,2027,13.0,,2029.0,0.6733304094260448,ST:CA,slip_2
+67836.0,Gibson Solar Project - Hybrid,GSP1,CA,Solar,Solar,2027,13.0,,2030.0,1.8265214195965005,ST:CA,slip_3plus
+67836.0,Gibson Solar Project - Hybrid,GSP1,CA,Solar,Solar,2027,13.0,,,1.1577368957587537,ST:CA,never
+69820.0,Grace Energy Center,GRA1,CA,Solar,Solar,2027,500.0,,2027.0,210.8650814347692,ST:CA,slip_0
+69820.0,Grace Energy Center,GRA1,CA,Solar,Solar,2027,500.0,,2028.0,148.4584291505654,ST:CA,slip_1
+69820.0,Grace Energy Center,GRA1,CA,Solar,Solar,2027,500.0,,2029.0,25.897323439463264,ST:CA,slip_2
+69820.0,Grace Energy Center,GRA1,CA,Solar,Solar,2027,500.0,,2030.0,70.25082383063463,ST:CA,slip_3plus
+69820.0,Grace Energy Center,GRA1,CA,Solar,Solar,2027,500.0,,,44.52834214456745,ST:CA,never
+63851.0,Grape,GRAPE,CA,Solar,Solar,2027,246.4,,2027.0,103.91431213105426,ST:CA,slip_0
+63851.0,Grape,GRAPE,CA,Solar,Solar,2027,246.4,,2028.0,73.16031388539862,ST:CA,slip_1
+63851.0,Grape,GRAPE,CA,Solar,Solar,2027,246.4,,2029.0,12.762200990967496,ST:CA,slip_2
+63851.0,Grape,GRAPE,CA,Solar,Solar,2027,246.4,,2030.0,34.61960598373675,ST:CA,slip_3plus
+63851.0,Grape,GRAPE,CA,Solar,Solar,2027,246.4,,,21.94356700884284,ST:CA,never
+64428.0,JVR Energy Park LLC,JVR1A,CA,Solar,Solar,2027,90.0,,2027.0,37.95571465825846,ST:CA,slip_0
+64428.0,JVR Energy Park LLC,JVR1A,CA,Solar,Solar,2027,90.0,,2028.0,26.72251724710177,ST:CA,slip_1
+64428.0,JVR Energy Park LLC,JVR1A,CA,Solar,Solar,2027,90.0,,2029.0,4.661518219103388,ST:CA,slip_2
+64428.0,JVR Energy Park LLC,JVR1A,CA,Solar,Solar,2027,90.0,,2030.0,12.645148289514234,ST:CA,slip_3plus
+64428.0,JVR Energy Park LLC,JVR1A,CA,Solar,Solar,2027,90.0,,,8.015101586022142,ST:CA,never
+70106.0,Jade Solar 3,JADES,CA,Solar,Solar,2027,1.5,,2027.0,0.6325952443043076,ST:CA,slip_0
+70106.0,Jade Solar 3,JADES,CA,Solar,Solar,2027,1.5,,2028.0,0.4453752874516962,ST:CA,slip_1
+70106.0,Jade Solar 3,JADES,CA,Solar,Solar,2027,1.5,,2029.0,0.07769197031838979,ST:CA,slip_2
+70106.0,Jade Solar 3,JADES,CA,Solar,Solar,2027,1.5,,2030.0,0.2107524714919039,ST:CA,slip_3plus
+70106.0,Jade Solar 3,JADES,CA,Solar,Solar,2027,1.5,,,0.13358502643370235,ST:CA,never
+70109.0,Jasmine,JASMI,CA,Solar,Solar,2027,70.0,,2027.0,29.52111140086769,ST:CA,slip_0
+70109.0,Jasmine,JASMI,CA,Solar,Solar,2027,70.0,,2028.0,20.784180081079157,ST:CA,slip_1
+70109.0,Jasmine,JASMI,CA,Solar,Solar,2027,70.0,,2029.0,3.625625281524857,ST:CA,slip_2
+70109.0,Jasmine,JASMI,CA,Solar,Solar,2027,70.0,,2030.0,9.83511533628885,ST:CA,slip_3plus
+70109.0,Jasmine,JASMI,CA,Solar,Solar,2027,70.0,,,6.233967900239444,ST:CA,never
+66805.0,Lycan Solar Project,LYCAN,CA,Solar,Solar,2027,400.0,,2027.0,168.69206514781536,ST:CA,slip_0
+66805.0,Lycan Solar Project,LYCAN,CA,Solar,Solar,2027,400.0,,2028.0,118.76674332045232,ST:CA,slip_1
+66805.0,Lycan Solar Project,LYCAN,CA,Solar,Solar,2027,400.0,,2029.0,20.71785875157061,ST:CA,slip_2
+66805.0,Lycan Solar Project,LYCAN,CA,Solar,Solar,2027,400.0,,2030.0,56.200659064507704,ST:CA,slip_3plus
+66805.0,Lycan Solar Project,LYCAN,CA,Solar,Solar,2027,400.0,,,35.62267371565396,ST:CA,never
+68932.0,Overnight Solar,OSPV,CA,Solar,Solar,2027,150.0,,2027.0,63.25952443043076,ST:CA,slip_0
+68932.0,Overnight Solar,OSPV,CA,Solar,Solar,2027,150.0,,2028.0,44.53752874516962,ST:CA,slip_1
+68932.0,Overnight Solar,OSPV,CA,Solar,Solar,2027,150.0,,2029.0,7.76919703183898,ST:CA,slip_2
+68932.0,Overnight Solar,OSPV,CA,Solar,Solar,2027,150.0,,2030.0,21.07524714919039,ST:CA,slip_3plus
+68932.0,Overnight Solar,OSPV,CA,Solar,Solar,2027,150.0,,,13.358502643370237,ST:CA,never
+68607.0,Pelicans Jaw Hybrid Solar,PLJW1,CA,Solar,Solar,2027,440.0,,2027.0,185.5612716625969,ST:CA,slip_0
+68607.0,Pelicans Jaw Hybrid Solar,PLJW1,CA,Solar,Solar,2027,440.0,,2028.0,130.64341765249756,ST:CA,slip_1
+68607.0,Pelicans Jaw Hybrid Solar,PLJW1,CA,Solar,Solar,2027,440.0,,2029.0,22.78964462672767,ST:CA,slip_2
+68607.0,Pelicans Jaw Hybrid Solar,PLJW1,CA,Solar,Solar,2027,440.0,,2030.0,61.82072497095848,ST:CA,slip_3plus
+68607.0,Pelicans Jaw Hybrid Solar,PLJW1,CA,Solar,Solar,2027,440.0,,,39.18494108721936,ST:CA,never
+70101.0,Pivot Energy PPA 29 LLC,PPA29,CA,Solar,Solar,2027,2.2,,2027.0,0.9278063583129845,ST:CA,slip_0
+70101.0,Pivot Energy PPA 29 LLC,PPA29,CA,Solar,Solar,2027,2.2,,2028.0,0.6532170882624878,ST:CA,slip_1
+70101.0,Pivot Energy PPA 29 LLC,PPA29,CA,Solar,Solar,2027,2.2,,2029.0,0.11394822313363837,ST:CA,slip_2
+70101.0,Pivot Energy PPA 29 LLC,PPA29,CA,Solar,Solar,2027,2.2,,2030.0,0.3091036248547924,ST:CA,slip_3plus
+70101.0,Pivot Energy PPA 29 LLC,PPA29,CA,Solar,Solar,2027,2.2,,,0.1959247054360968,ST:CA,never
+63782.0,Rough Hat,RH1,NV,Solar,Solar,2027,400.0,,2026.0,8.878584921861584,ST:NV,slip_-1
+63782.0,Rough Hat,RH1,NV,Solar,Solar,2027,400.0,,2027.0,105.95054095826895,ST:NV,slip_0
+63782.0,Rough Hat,RH1,NV,Solar,Solar,2027,400.0,,2028.0,116.67525330585609,ST:NV,slip_1
+63782.0,Rough Hat,RH1,NV,Solar,Solar,2027,400.0,,2029.0,41.21586810922205,ST:NV,slip_2
+63782.0,Rough Hat,RH1,NV,Solar,Solar,2027,400.0,,2030.0,20.68521380731582,ST:NV,slip_3plus
+63782.0,Rough Hat,RH1,NV,Solar,Solar,2027,400.0,,,106.59453889747554,ST:NV,never
+69609.0,San Leandro 10 - sleba702,EB702,CA,Solar,Solar,2027,1.0,,2027.0,0.4217301628695384,ST:CA,slip_0
+69609.0,San Leandro 10 - sleba702,EB702,CA,Solar,Solar,2027,1.0,,2028.0,0.2969168583011308,ST:CA,slip_1
+69609.0,San Leandro 10 - sleba702,EB702,CA,Solar,Solar,2027,1.0,,2029.0,0.05179464687892653,ST:CA,slip_2
+69609.0,San Leandro 10 - sleba702,EB702,CA,Solar,Solar,2027,1.0,,2030.0,0.14050164766126927,ST:CA,slip_3plus
+69609.0,San Leandro 10 - sleba702,EB702,CA,Solar,Solar,2027,1.0,,,0.08905668428913491,ST:CA,never
+68236.0,South Bay Dis Ctr 6-SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,2027.0,0.5482492117304,ST:CA,slip_0
+68236.0,South Bay Dis Ctr 6-SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,2028.0,0.38599191579147,ST:CA,slip_1
+68236.0,South Bay Dis Ctr 6-SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,2029.0,0.06733304094260449,ST:CA,slip_2
+68236.0,South Bay Dis Ctr 6-SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,2030.0,0.18265214195965004,ST:CA,slip_3plus
+68236.0,South Bay Dis Ctr 6-SLLAX680,LA680,CA,Solar,Solar,2027,1.3,,,0.11577368957587539,ST:CA,never
+69785.0,Stockton 1 - slcva801,CV801,CA,Solar,Solar,2027,1.0,,2027.0,0.4217301628695384,ST:CA,slip_0
+69785.0,Stockton 1 - slcva801,CV801,CA,Solar,Solar,2027,1.0,,2028.0,0.2969168583011308,ST:CA,slip_1
+69785.0,Stockton 1 - slcva801,CV801,CA,Solar,Solar,2027,1.0,,2029.0,0.05179464687892653,ST:CA,slip_2
+69785.0,Stockton 1 - slcva801,CV801,CA,Solar,Solar,2027,1.0,,2030.0,0.14050164766126927,ST:CA,slip_3plus
+69785.0,Stockton 1 - slcva801,CV801,CA,Solar,Solar,2027,1.0,,,0.08905668428913491,ST:CA,never
+69786.0,Stockton 9 - slcva209,CV209,CA,Solar,Solar,2027,1.0,,2027.0,0.4217301628695384,ST:CA,slip_0
+69786.0,Stockton 9 - slcva209,CV209,CA,Solar,Solar,2027,1.0,,2028.0,0.2969168583011308,ST:CA,slip_1
+69786.0,Stockton 9 - slcva209,CV209,CA,Solar,Solar,2027,1.0,,2029.0,0.05179464687892653,ST:CA,slip_2
+69786.0,Stockton 9 - slcva209,CV209,CA,Solar,Solar,2027,1.0,,2030.0,0.14050164766126927,ST:CA,slip_3plus
+69786.0,Stockton 9 - slcva209,CV209,CA,Solar,Solar,2027,1.0,,,0.08905668428913491,ST:CA,never
+68035.0,Syracuse and Tours Renewable Energy,SYTOR,CA,Solar,Solar,2027,40.0,,2027.0,16.869206514781535,ST:CA,slip_0
+68035.0,Syracuse and Tours Renewable Energy,SYTOR,CA,Solar,Solar,2027,40.0,,2028.0,11.876674332045232,ST:CA,slip_1
+68035.0,Syracuse and Tours Renewable Energy,SYTOR,CA,Solar,Solar,2027,40.0,,2029.0,2.0717858751570613,ST:CA,slip_2
+68035.0,Syracuse and Tours Renewable Energy,SYTOR,CA,Solar,Solar,2027,40.0,,2030.0,5.620065906450771,ST:CA,slip_3plus
+68035.0,Syracuse and Tours Renewable Energy,SYTOR,CA,Solar,Solar,2027,40.0,,,3.5622673715653965,ST:CA,never
+67676.0,Zeta Solar & Storage,GEN01,CA,Solar,Solar,2027,75.0,,2027.0,31.62976221521538,ST:CA,slip_0
+67676.0,Zeta Solar & Storage,GEN01,CA,Solar,Solar,2027,75.0,,2028.0,22.26876437258481,ST:CA,slip_1
+67676.0,Zeta Solar & Storage,GEN01,CA,Solar,Solar,2027,75.0,,2029.0,3.88459851591949,ST:CA,slip_2
+67676.0,Zeta Solar & Storage,GEN01,CA,Solar,Solar,2027,75.0,,2030.0,10.537623574595194,ST:CA,slip_3plus
+67676.0,Zeta Solar & Storage,GEN01,CA,Solar,Solar,2027,75.0,,,6.679251321685118,ST:CA,never
+63088.0,Rooney Ranch,ROONR,CA,Wind,Wind,2027,21.0,,2026.0,0.3718063818280151,NATIONAL,slip_-1
+63088.0,Rooney Ranch,ROONR,CA,Wind,Wind,2027,21.0,,2027.0,8.319664683612764,NATIONAL,slip_0
+63088.0,Rooney Ranch,ROONR,CA,Wind,Wind,2027,21.0,,2028.0,3.4870524607896156,NATIONAL,slip_1
+63088.0,Rooney Ranch,ROONR,CA,Wind,Wind,2027,21.0,,2029.0,1.1536938885884263,NATIONAL,slip_2
+63088.0,Rooney Ranch,ROONR,CA,Wind,Wind,2027,21.0,,2030.0,3.396722552731206,NATIONAL,slip_3plus
+63088.0,Rooney Ranch,ROONR,CA,Wind,Wind,2027,21.0,,,4.271060032449974,NATIONAL,never
+63126.0,Sand Hill A,SNDHA,CA,Wind,Wind,2027,13.5,,2026.0,0.23901838831800973,NATIONAL,slip_-1
+63126.0,Sand Hill A,SNDHA,CA,Wind,Wind,2027,13.5,,2027.0,5.348355868036776,NATIONAL,slip_0
+63126.0,Sand Hill A,SNDHA,CA,Wind,Wind,2027,13.5,,2028.0,2.2416765819361815,NATIONAL,slip_1
+63126.0,Sand Hill A,SNDHA,CA,Wind,Wind,2027,13.5,,2029.0,0.7416603569497026,NATIONAL,slip_2
+63126.0,Sand Hill A,SNDHA,CA,Wind,Wind,2027,13.5,,2030.0,2.183607355327204,NATIONAL,slip_3plus
+63126.0,Sand Hill A,SNDHA,CA,Wind,Wind,2027,13.5,,,2.7456814494321256,NATIONAL,never
+63652.0,Sand Hill B,SNDHB,CA,Wind,Wind,2027,17.0,,2026.0,0.30098611862267893,NATIONAL,slip_-1
+63652.0,Sand Hill B,SNDHB,CA,Wind,Wind,2027,17.0,,2027.0,6.734966648638904,NATIONAL,slip_0
+63652.0,Sand Hill B,SNDHB,CA,Wind,Wind,2027,17.0,,2028.0,2.8228519920677844,NATIONAL,slip_1
+63652.0,Sand Hill B,SNDHB,CA,Wind,Wind,2027,17.0,,2029.0,0.9339426717144402,NATIONAL,slip_2
+63652.0,Sand Hill B,SNDHB,CA,Wind,Wind,2027,17.0,,2030.0,2.749727780782405,NATIONAL,slip_3plus
+63652.0,Sand Hill B,SNDHB,CA,Wind,Wind,2027,17.0,,,3.457524788173788,NATIONAL,never
+63653.0,Sand Hill C,SNDHC,CA,Wind,Wind,2027,80.0,,2026.0,1.4164052641067242,NATIONAL,slip_-1
+63653.0,Sand Hill C,SNDHC,CA,Wind,Wind,2027,80.0,,2027.0,31.693960699477195,NATIONAL,slip_0
+63653.0,Sand Hill C,SNDHC,CA,Wind,Wind,2027,80.0,,2028.0,13.284009374436632,NATIONAL,slip_1
+63653.0,Sand Hill C,SNDHC,CA,Wind,Wind,2027,80.0,,2029.0,4.395024337479719,NATIONAL,slip_2
+63653.0,Sand Hill C,SNDHC,CA,Wind,Wind,2027,80.0,,2030.0,12.939895438976023,NATIONAL,slip_3plus
+63653.0,Sand Hill C,SNDHC,CA,Wind,Wind,2027,80.0,,,16.270704885523706,NATIONAL,never
+67982.0,Athens Solar I (Hybrid),ATHSB,CA,Battery Storage,Wind,2028,250.0,,2028.0,250.0,unchanged,
+69661.0,Darden I Solar,IPD1B,CA,Battery Storage,Wind,2028,303.7,,2028.0,303.7,unchanged,
+69662.0,Darden II Solar,IPD2B,CA,Battery Storage,Wind,2028,303.7,,2028.0,303.7,unchanged,
+69663.0,Darden III Solar,IPD3B,CA,Battery Storage,Wind,2028,303.7,,2028.0,303.7,unchanged,
+69664.0,Darden IV Solar,IPD4B,CA,Battery Storage,Wind,2028,303.7,,2028.0,303.7,unchanged,
+6211.0,Dynegy Oakland Power Plant,GEN4,CA,Battery Storage,Wind,2028,43.3,,2028.0,43.3,unchanged,
+68758.0,Easley Solar,IPEA3,CA,Battery Storage,Wind,2028,300.0,,2028.0,300.0,unchanged,
+66409.0,Hecate Grid Gwent Storage 1,GWNT,CA,Battery Storage,Wind,2028,135.0,,2028.0,135.0,unchanged,
+67945.0,Juniper Creek Storage,JCSIB,CA,Battery Storage,Wind,2028,200.0,,2028.0,200.0,unchanged,
+64634.0,Kingsley Solar Farm,90FIB,CA,Battery Storage,Wind,2028,74.0,,2028.0,74.0,unchanged,
+68209.0,Purple Sage Energy Center,PSGBS,NV,Battery Storage,Wind,2028,400.0,,2028.0,400.0,unchanged,
+68485.0,Rexford 2 Solar Farm,22SVB,CA,Battery Storage,Wind,2028,200.0,,2028.0,200.0,unchanged,
+68673.0,Sand Luis West,SLW_S,CA,Battery Storage,Wind,2028,31.3,,2028.0,31.3,unchanged,
+64632.0,Sienna Solar Farm,99MTB,CA,Battery Storage,Wind,2028,200.0,,2028.0,200.0,unchanged,
+7907.0,Pine Flat,4,CA,Hydro,Wind,2028,3.8,,2028.0,3.8,unchanged,
+67982.0,Athens Solar I (Hybrid),ATHS1,CA,Solar,Solar,2028,250.0,,2027.0,2.33880440318909,ST:CA,slip_-1
+67982.0,Athens Solar I (Hybrid),ATHS1,CA,Solar,Solar,2028,250.0,,2028.0,13.90289284117959,ST:CA,slip_0
+67982.0,Athens Solar I (Hybrid),ATHS1,CA,Solar,Solar,2028,250.0,,2029.0,52.690664532291095,ST:CA,slip_1
+67982.0,Athens Solar I (Hybrid),ATHS1,CA,Solar,Solar,2028,250.0,,2030.0,34.27647786451566,ST:CA,slip_2
+67982.0,Athens Solar I (Hybrid),ATHS1,CA,Solar,Solar,2028,250.0,,2031.0,120.39905200461526,ST:CA,slip_3plus
+67982.0,Athens Solar I (Hybrid),ATHS1,CA,Solar,Solar,2028,250.0,,,26.39210835420933,ST:CA,never
+69661.0,Darden I Solar,IPD1S,CA,Solar,Solar,2028,342.7,,2027.0,3.2060330758916047,ST:CA,slip_-1
+69661.0,Darden I Solar,IPD1S,CA,Solar,Solar,2028,342.7,,2028.0,19.058085506688982,ST:CA,slip_0
+69661.0,Darden I Solar,IPD1S,CA,Solar,Solar,2028,342.7,,2029.0,72.22836294086463,ST:CA,slip_1
+69661.0,Darden I Solar,IPD1S,CA,Solar,Solar,2028,342.7,,2030.0,46.986195856678066,ST:CA,slip_2
+69661.0,Darden I Solar,IPD1S,CA,Solar,Solar,2028,342.7,,2031.0,165.04302048792658,ST:CA,slip_3plus
+69661.0,Darden I Solar,IPD1S,CA,Solar,Solar,2028,342.7,,,36.17830213195015,ST:CA,never
+69662.0,Darden II Solar,IPD2S,CA,Solar,Solar,2028,342.7,,2027.0,3.2060330758916047,ST:CA,slip_-1
+69662.0,Darden II Solar,IPD2S,CA,Solar,Solar,2028,342.7,,2028.0,19.058085506688982,ST:CA,slip_0
+69662.0,Darden II Solar,IPD2S,CA,Solar,Solar,2028,342.7,,2029.0,72.22836294086463,ST:CA,slip_1
+69662.0,Darden II Solar,IPD2S,CA,Solar,Solar,2028,342.7,,2030.0,46.986195856678066,ST:CA,slip_2
+69662.0,Darden II Solar,IPD2S,CA,Solar,Solar,2028,342.7,,2031.0,165.04302048792658,ST:CA,slip_3plus
+69662.0,Darden II Solar,IPD2S,CA,Solar,Solar,2028,342.7,,,36.17830213195015,ST:CA,never
+69663.0,Darden III Solar,IPD3S,CA,Solar,Solar,2028,342.7,,2027.0,3.2060330758916047,ST:CA,slip_-1
+69663.0,Darden III Solar,IPD3S,CA,Solar,Solar,2028,342.7,,2028.0,19.058085506688982,ST:CA,slip_0
+69663.0,Darden III Solar,IPD3S,CA,Solar,Solar,2028,342.7,,2029.0,72.22836294086463,ST:CA,slip_1
+69663.0,Darden III Solar,IPD3S,CA,Solar,Solar,2028,342.7,,2030.0,46.986195856678066,ST:CA,slip_2
+69663.0,Darden III Solar,IPD3S,CA,Solar,Solar,2028,342.7,,2031.0,165.04302048792658,ST:CA,slip_3plus
+69663.0,Darden III Solar,IPD3S,CA,Solar,Solar,2028,342.7,,,36.17830213195015,ST:CA,never
+69664.0,Darden IV Solar,IPD4S,CA,Solar,Solar,2028,342.7,,2027.0,3.2060330758916047,ST:CA,slip_-1
+69664.0,Darden IV Solar,IPD4S,CA,Solar,Solar,2028,342.7,,2028.0,19.058085506688982,ST:CA,slip_0
+69664.0,Darden IV Solar,IPD4S,CA,Solar,Solar,2028,342.7,,2029.0,72.22836294086463,ST:CA,slip_1
+69664.0,Darden IV Solar,IPD4S,CA,Solar,Solar,2028,342.7,,2030.0,46.986195856678066,ST:CA,slip_2
+69664.0,Darden IV Solar,IPD4S,CA,Solar,Solar,2028,342.7,,2031.0,165.04302048792658,ST:CA,slip_3plus
+69664.0,Darden IV Solar,IPD4S,CA,Solar,Solar,2028,342.7,,,36.17830213195015,ST:CA,never
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2028.0,23.0192769075431,CAISO,slip_0
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2029.0,64.11679156670033,CAISO,slip_1
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2030.0,36.27967726695877,CAISO,slip_2
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,2031.0,180.68835511750484,CAISO,slip_3plus
+68039.0,Elisabeth Solar,ELISA,AZ,Solar,Solar,2028,350.0,,,45.89589914129297,CAISO,never
+64634.0,Kingsley Solar Farm,90FI8,CA,Solar,Solar,2028,225.0,,2027.0,2.1049239628701812,ST:CA,slip_-1
+64634.0,Kingsley Solar Farm,90FI8,CA,Solar,Solar,2028,225.0,,2028.0,12.512603557061631,ST:CA,slip_0
+64634.0,Kingsley Solar Farm,90FI8,CA,Solar,Solar,2028,225.0,,2029.0,47.42159807906198,ST:CA,slip_1
+64634.0,Kingsley Solar Farm,90FI8,CA,Solar,Solar,2028,225.0,,2030.0,30.848830078064093,ST:CA,slip_2
+64634.0,Kingsley Solar Farm,90FI8,CA,Solar,Solar,2028,225.0,,2031.0,108.35914680415374,ST:CA,slip_3plus
+64634.0,Kingsley Solar Farm,90FI8,CA,Solar,Solar,2028,225.0,,,23.752897518788398,ST:CA,never
+68209.0,Purple Sage Energy Center,PSGPV,NV,Solar,Solar,2028,400.0,,2028.0,28.170212765957448,ST:NV,slip_0
+68209.0,Purple Sage Energy Center,PSGPV,NV,Solar,Solar,2028,400.0,,2029.0,88.51063829787233,ST:NV,slip_1
+68209.0,Purple Sage Energy Center,PSGPV,NV,Solar,Solar,2028,400.0,,2030.0,25.53191489361702,ST:NV,slip_2
+68209.0,Purple Sage Energy Center,PSGPV,NV,Solar,Solar,2028,400.0,,2031.0,114.04255319148938,ST:NV,slip_3plus
+68209.0,Purple Sage Energy Center,PSGPV,NV,Solar,Solar,2028,400.0,,,143.74468085106383,ST:NV,never
+68485.0,Rexford 2 Solar Farm,22SVA,CA,Solar,Solar,2028,200.0,,2027.0,1.871043522551272,ST:CA,slip_-1
+68485.0,Rexford 2 Solar Farm,22SVA,CA,Solar,Solar,2028,200.0,,2028.0,11.122314272943672,ST:CA,slip_0
+68485.0,Rexford 2 Solar Farm,22SVA,CA,Solar,Solar,2028,200.0,,2029.0,42.15253162583287,ST:CA,slip_1
+68485.0,Rexford 2 Solar Farm,22SVA,CA,Solar,Solar,2028,200.0,,2030.0,27.421182291612528,ST:CA,slip_2
+68485.0,Rexford 2 Solar Farm,22SVA,CA,Solar,Solar,2028,200.0,,2031.0,96.3192416036922,ST:CA,slip_3plus
+68485.0,Rexford 2 Solar Farm,22SVA,CA,Solar,Solar,2028,200.0,,,21.113686683367465,ST:CA,never
+68673.0,Sand Luis West,OESLW,CA,Solar,Solar,2028,125.0,,2027.0,1.169402201594545,ST:CA,slip_-1
+68673.0,Sand Luis West,OESLW,CA,Solar,Solar,2028,125.0,,2028.0,6.951446420589795,ST:CA,slip_0
+68673.0,Sand Luis West,OESLW,CA,Solar,Solar,2028,125.0,,2029.0,26.345332266145547,ST:CA,slip_1
+68673.0,Sand Luis West,OESLW,CA,Solar,Solar,2028,125.0,,2030.0,17.13823893225783,ST:CA,slip_2
+68673.0,Sand Luis West,OESLW,CA,Solar,Solar,2028,125.0,,2031.0,60.19952600230763,ST:CA,slip_3plus
+68673.0,Sand Luis West,OESLW,CA,Solar,Solar,2028,125.0,,,13.196054177104665,ST:CA,never
+64632.0,Sienna Solar Farm,99MT8,CA,Solar,Solar,2028,200.0,,2027.0,1.871043522551272,ST:CA,slip_-1
+64632.0,Sienna Solar Farm,99MT8,CA,Solar,Solar,2028,200.0,,2028.0,11.122314272943672,ST:CA,slip_0
+64632.0,Sienna Solar Farm,99MT8,CA,Solar,Solar,2028,200.0,,2029.0,42.15253162583287,ST:CA,slip_1
+64632.0,Sienna Solar Farm,99MT8,CA,Solar,Solar,2028,200.0,,2030.0,27.421182291612528,ST:CA,slip_2
+64632.0,Sienna Solar Farm,99MT8,CA,Solar,Solar,2028,200.0,,2031.0,96.3192416036922,ST:CA,slip_3plus
+64632.0,Sienna Solar Farm,99MT8,CA,Solar,Solar,2028,200.0,,,21.113686683367465,ST:CA,never
+63841.0,Arida Solar (Hybrid),BESS,NV,Battery Storage,Wind,2029,370.0,,2029.0,370.0,unchanged,
+65703.0,Humidor Storage I,HEHUM,CA,Battery Storage,Wind,2029,300.0,,2029.0,300.0,unchanged,
+68486.0,Sienna 2 Solar and Storage Project,44STB,CA,Battery Storage,Wind,2029,55.0,,2029.0,55.0,unchanged,
+63841.0,Arida Solar (Hybrid),ARIDA,NV,Solar,Solar,2029,370.0,,2028.0,10.971415016012335,CAISO,slip_-1
+63841.0,Arida Solar (Hybrid),ARIDA,NV,Solar,Solar,2029,370.0,,2030.0,35.108528051239475,CAISO,slip_1
+63841.0,Arida Solar (Hybrid),ARIDA,NV,Solar,Solar,2029,370.0,,2031.0,43.88566006404934,CAISO,slip_2
+63841.0,Arida Solar (Hybrid),ARIDA,NV,Solar,Solar,2029,370.0,,2032.0,219.94761396433796,CAISO,slip_3plus
+63841.0,Arida Solar (Hybrid),ARIDA,NV,Solar,Solar,2029,370.0,,,60.08678290436088,CAISO,never
+68486.0,Sienna 2 Solar and Storage Project,44STA,CA,Solar,Solar,2029,55.0,,2030.0,8.983869870006126,ST:CA,slip_1
+68486.0,Sienna 2 Solar and Storage Project,44STA,CA,Solar,Solar,2029,55.0,,2031.0,11.229837337507657,ST:CA,slip_2
+68486.0,Sienna 2 Solar and Storage Project,44STA,CA,Solar,Solar,2029,55.0,,2032.0,34.38389028789219,ST:CA,slip_3plus
+68486.0,Sienna 2 Solar and Storage Project,44STA,CA,Solar,Solar,2029,55.0,,,0.4024025045940244,ST:CA,never
+67894.0,Bellefield 3 Solar and Battery Storage,51LVB,CA,Battery Storage,Wind,2030,150.0,,2030.0,150.0,unchanged,
+66805.0,Lycan Solar Project,LYCN2,CA,Battery Storage,Wind,2030,400.0,,2030.0,400.0,unchanged,
+58168.0,Energy Center,TURB4,CA,Natural Gas,Wind,2030,0.3,,2030.0,0.3,unchanged,
+58168.0,Energy Center,TURB5,CA,Natural Gas,Wind,2030,0.3,,2030.0,0.3,unchanged,
+58168.0,Energy Center,TURB6,CA,Natural Gas,Wind,2030,0.3,,2030.0,0.3,unchanged,
+70492.0,Willow Rock Energy Storage Center,WRES1,CA,Other,Wind,2030,125.0,,2030.0,125.0,unchanged,
+70492.0,Willow Rock Energy Storage Center,WRES2,CA,Other,Wind,2030,125.0,,2030.0,125.0,unchanged,
+70492.0,Willow Rock Energy Storage Center,WRES3,CA,Other,Wind,2030,125.0,,2030.0,125.0,unchanged,
+70492.0,Willow Rock Energy Storage Center,WRES4,CA,Other,Wind,2030,125.0,,2030.0,125.0,unchanged,
+67894.0,Bellefield 3 Solar and Battery Storage,51LVA,CA,Solar,Solar,2030,150.0,,2031.0,24.501463281834887,ST:CA,slip_1
+67894.0,Bellefield 3 Solar and Battery Storage,51LVA,CA,Solar,Solar,2030,150.0,,2032.0,30.62682910229361,ST:CA,slip_2
+67894.0,Bellefield 3 Solar and Battery Storage,51LVA,CA,Solar,Solar,2030,150.0,,2033.0,93.77424623970599,ST:CA,slip_3plus
+67894.0,Bellefield 3 Solar and Battery Storage,51LVA,CA,Solar,Solar,2030,150.0,,,1.0974613761655212,ST:CA,never
+69654.0,Zeus BESS,ZEUB,CA,Battery Storage,Wind,2031,213.6,,2031.0,213.6,unchanged,
+58987.0,Chokecherry and Sierra Madre Wind,PLANT,WY,Wind,Wind,2031,844.2,,2031.0,1693.8,wind_override,
+58987.0,Chokecherry and Sierra Madre Wind,PLANT,WY,Wind,Wind,2031,844.2,,2032.0,1303.2,wind_override,
+58987.0,Chokecherry and Sierra Madre Wind,PLANT,WY,Wind,Wind,2031,844.2,,2033.0,553.5,wind_override,

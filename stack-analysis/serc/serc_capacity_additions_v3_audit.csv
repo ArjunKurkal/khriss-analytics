@@ -1,0 +1,104 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,scope_used
+68057.0,Alabama Creek Solar,BAMA1,AL,Solar,Solar,2027,80.0,SERC-Central,SERC-Central
+68829.0,Ambersweet,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+64168.0,Bear Branch Solar,GEN,NC,Solar,Solar,2027,34.5,SERC-Central,ST:NC
+66363.0,"Black Walnut Solar, LLC",GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,ST:NC
+68830.0,Catfish,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+68831.0,Cocoplum,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+66671.0,"Conez Solar, LLC",CONEZ,GA,Solar,Solar,2027,150.0,SERC-Central,ST:GA
+59572.0,Cotton Solar,PV1,SC,Solar,Solar,2027,16.0,SERC-Central,ST:SC
+68832.0,County Line,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+62221.0,Culpepper Solar,33,SC,Solar,Solar,2027,74.9,SERC-Central,ST:SC
+67858.0,Dill Holdings LLC,DILL1,NC,Solar,Solar,2027,10.0,SERC-Central,ST:NC
+67989.0,Drawhorn Solar,PGR28,GA,Solar,Solar,2027,80.0,SERC-Central,ST:GA
+68293.0,Frontier Solar,FRON,KY,Solar,Solar,2027,120.0,SERC-Central,SERC-Central
+68278.0,Greater Wise Solar Project,21066,VA,Solar,Solar,2027,20.0,SERC-Central,ST:VA
+70302.0,"Gum Swamp Solar, LLC",22,NC,Solar,Solar,2027,80.0,SERC-Central,ST:NC
+68833.0,Hardwood Hammock,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+66382.0,"Healing Springs Solar, LLC",GEN1,NC,Solar,Solar,2027,55.0,SERC-Central,ST:NC
+68834.0,Hendry,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+64345.0,Highland Solar North,1112,FL,Solar,Solar,2027,74.9,Florida,ST:FL
+66852.0,Hillsboro Solar 3,HILL3,AL,Solar,Solar,2027,200.0,SERC-Central,SERC-Central
+66383.0,Hyco Solar LLC,GEN1,NC,Solar,Solar,2027,80.0,SERC-Central,ST:NC
+68835.0,Joshua Creek,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+62234.0,Juniper Solar,48,SC,Solar,Solar,2027,74.9,SERC-Central,ST:SC
+67233.0,Lawrence County Solar,SOL1,AL,Solar,Solar,2027,193.0,SERC-Central,SERC-Central
+70222.0,Lonesome Camp Solar Plant,LCSP1,FL,Solar,Solar,2027,74.9,Florida,ST:FL
+68337.0,Lotus Solar,LOTUS,SC,Solar,Solar,2027,75.0,SERC-Central,ST:SC
+67195.0,Maple Leaf Solar,GEN,NC,Solar,Solar,2027,73.0,SERC-Central,ST:NC
+68836.0,Maple Trail,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+68824.0,Middle Lake,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+68825.0,Pinecone,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+67977.0,Quaker Creek Farm Solar,QUACR,NC,Solar,Solar,2027,34.9,SERC-Central,ST:NC
+59596.0,Rhubarb One SC,PV1,SC,Solar,Solar,2027,9.6,SERC-Central,ST:SC
+70220.0,Robinson Solar Plant,RSP1,SC,Solar,Solar,2027,76.0,SERC-Central,ST:SC
+67226.0,Rock House Solar,ROCKH,GA,Solar,Solar,2027,250.0,SERC-Central,ST:GA
+62295.0,Rollins Solar,67,SC,Solar,Solar,2027,74.9,SERC-Central,ST:SC
+62296.0,Ross Solar,68,SC,Solar,Solar,2027,74.9,SERC-Central,ST:SC
+68553.0,SR Bacon II,BACN2,GA,Solar,Solar,2027,115.0,SERC-Central,ST:GA
+68554.0,SR Bacon III,BACN3,GA,Solar,Solar,2027,100.0,SERC-Central,ST:GA
+68243.0,SR Bear Creek,BEAR,AL,Solar,Solar,2027,4.5,SERC-Central,SERC-Central
+68099.0,SR Copeland,COPE,TN,Solar,Solar,2027,110.0,SERC-Central,SERC-Central
+68555.0,SR Cordova,CORDV,SC,Solar,Solar,2027,100.0,SERC-Central,ST:SC
+68556.0,SR Durhamville,DURHM,TN,Solar,Solar,2027,66.0,SERC-Central,SERC-Central
+68104.0,SR Hope Hull,HPHUL,AL,Solar,Solar,2027,80.0,SERC-Central,SERC-Central
+68249.0,SR Horus,METTR,KY,Solar,Solar,2027,79.7,SERC-Central,SERC-Central
+68558.0,SR Lott,LOTT,AL,Solar,Solar,2027,8.3,SERC-Central,SERC-Central
+68559.0,SR Magnolia,MAGNA,MS,Solar,Solar,2027,160.0,SERC-Central,SERC-Central
+68560.0,SR Marion Junction,MARJT,AL,Solar,Solar,2027,15.0,SERC-Central,SERC-Central
+68561.0,SR Middleton,MIDDN,TN,Solar,Solar,2027,55.0,SERC-Central,SERC-Central
+68562.0,SR Mount Pleasant,MTPLT,MS,Solar,Solar,2027,50.0,SERC-Central,SERC-Central
+68563.0,SR Norwood,NORWD,GA,Solar,Solar,2027,107.0,SERC-Central,ST:GA
+68564.0,SR Puryear,PURYR,TN,Solar,Solar,2027,50.0,SERC-Central,SERC-Central
+68565.0,SR Rochelle II,ROCH2,GA,Solar,Solar,2027,50.0,SERC-Central,ST:GA
+68255.0,SR Shelby,SHELB,TN,Solar,Solar,2027,9.8,SERC-Central,SERC-Central
+68566.0,SR Sipsey,SIPSY,AL,Solar,Solar,2027,10.0,SERC-Central,SERC-Central
+68568.0,SR Tullahoma,TULLA,TN,Solar,Solar,2027,200.0,SERC-Central,SERC-Central
+68826.0,Saddle,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+67988.0,Sandersville Solar,PGR28,GA,Solar,Solar,2027,50.0,SERC-Central,ST:GA
+67663.0,Scotch Grove Solar,SGROV,NC,Solar,Solar,2027,80.0,SERC-Central,ST:NC
+62310.0,Shorthorn Solar,74,SC,Solar,Solar,2027,60.0,SERC-Central,ST:SC
+70304.0,"Sleepy Creek Solar, LLC",24,NC,Solar,Solar,2027,80.0,SERC-Central,ST:NC
+67665.0,South Davidson,SDAVI,NC,Solar,Solar,2027,80.0,SERC-Central,ST:NC
+68827.0,Spanish Moss,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+70130.0,Suffolk - VA 0141 (Johnson South),141,VA,Solar,Solar,2027,5.0,SERC-Central,ST:VA
+68828.0,Tangelo,1,FL,Solar,Solar,2027,74.5,Florida,ST:FL
+70223.0,Turnpike Solar Plant,TPSP1,FL,Solar,Solar,2027,74.9,Florida,ST:FL
+63806.0,"West River Solar, LLC",PGR28,NC,Solar,Solar,2027,40.0,SERC-Central,ST:NC
+62184.0,Big Fork Solar,26,SC,Solar,Solar,2028,74.9,SERC-Central,ST:SC
+69772.0,Bush River Solar Plant,BRSP1,SC,Solar,Solar,2028,45.0,SERC-Central,ST:SC
+69771.0,Clark Creek Solar Plant,CCSP1,NC,Solar,Solar,2028,40.0,SERC-Central,SERC-Central
+62188.0,Colleton Solar,30,SC,Solar,Solar,2028,74.9,SERC-Central,ST:SC
+62190.0,Crossroads Solar,32,SC,Solar,Solar,2028,50.0,SERC-Central,ST:SC
+62217.0,GEB Solar,40,SC,Solar,Solar,2028,50.0,SERC-Central,ST:SC
+62229.0,Holliday Solar I,43,SC,Solar,Solar,2028,74.0,SERC-Central,ST:SC
+70221.0,Hudson Place Solar Plant,HPSP1,SC,Solar,Solar,2028,70.7,SERC-Central,ST:SC
+68480.0,Laurens Solar,LS1,GA,Solar,Solar,2028,150.0,SERC-Central,SERC-Central
+62280.0,Melsam Solar,58,SC,Solar,Solar,2028,65.0,SERC-Central,ST:SC
+66385.0,"Panther Branch Solar, LLC",GEN1,NC,Solar,Solar,2028,80.0,SERC-Central,SERC-Central
+62299.0,Quest Solar,66,SC,Solar,Solar,2028,50.0,SERC-Central,ST:SC
+68043.0,Robeson Solar I,ROBES,NC,Solar,Solar,2028,80.0,SERC-Central,SERC-Central
+68110.0,SR Milan,MILAN,TN,Solar,Solar,2028,2.8,SERC-Central,SERC-Central
+69867.0,"SR Shelby II, LLC",SHEII,TN,Solar,Solar,2028,6.0,SERC-Central,SERC-Central
+62309.0,Shining Sun Solar,73,SC,Solar,Solar,2028,74.0,SERC-Central,ST:SC
+66858.0,Spring Valley Solar 2,SPRV2,AL,Solar,Solar,2028,200.0,SERC-Central,SERC-Central
+68871.0,Timber Mill Solar,TIMIL,NC,Solar,Solar,2028,80.0,SERC-Central,SERC-Central
+63567.0,Westminister NC,WSMTR,NC,Solar,Solar,2028,60.0,SERC-Central,SERC-Central
+68331.0,Caverns Solar,CVSO,FL,Solar,Solar,2029,75.0,Florida,NATIONAL
+68333.0,Crossroads Solar - GA,CROS,GA,Solar,Solar,2029,150.0,SERC-Central,NATIONAL
+68332.0,Dega Solar and Storage,DEGA1,AL,Solar,Solar,2029,200.0,SERC-Central,NATIONAL
+68290.0,Dyers Spring Solar,DYSP,KY,Solar,Solar,2029,200.0,SERC-Central,NATIONAL
+68292.0,Gage Solar,GGSO,KY,Solar,Solar,2029,200.0,SERC-Central,NATIONAL
+67862.0,Kingstree East 230 Solar Project,SOLAR,SC,Solar,Solar,2029,249.0,SERC-Central,NATIONAL
+68367.0,Pepper Hammock Solar and Storage,PEHA,GA,Solar,Solar,2029,900.0,SERC-Central,NATIONAL
+68367.0,Pepper Hammock Solar and Storage,PEHA1,GA,Solar,Solar,2029,1200.0,SERC-Central,NATIONAL
+68105.0,SR Jasper,JASP,MS,Solar,Solar,2029,150.0,SERC-Central,NATIONAL
+66701.0,Buffalo Branch Wind and Solar LLC,BB1,MO,Wind,Wind,2029,247.0,SERC-Central,NATIONAL
+69635.0,Peach Wood Solar,74964,GA,Solar,Solar,2030,261.0,SERC-Central,NATIONAL
+68812.0,Stevens Mill Solar,STVML,NC,Solar,Solar,2030,80.0,SERC-Central,NATIONAL
+,FPL solar build (TYSP tranche),S2027,FL,Solar,Solar,2027,223.5,Florida,ST:FL
+,FPL solar build (TYSP tranche),S2028,FL,Solar,Solar,2028,1788.0,Florida,ST:FL
+,FPL solar build (TYSP tranche),S2029,FL,Solar,Solar,2029,2309.0,Florida,NATIONAL
+,FPL solar build (TYSP tranche),S2030,FL,Solar,Solar,2030,2980.0,Florida,NATIONAL
+,FPL solar build (TYSP tranche),S2034,FL,Solar,Solar,2034,1490.0,Florida,NATIONAL
+,FPL solar build (TYSP tranche),S2035,FL,Solar,Solar,2035,1564.5,Florida,NATIONAL

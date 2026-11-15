@@ -1,0 +1,328 @@
+plant_id,plant_name,generator_id,state,fuel,tech,v2_year,v2_mw,sub,year,mw,scope_used,bucket
+70226.0,2nd & N BESS,1,NE,Battery Storage,Wind,2026,3.0,East,2026.0,3.0,unchanged,
+70464.0,Blackman Battery Energy Storage System,BAT1,MO,Battery Storage,Wind,2026,5.0,East,2026.0,5.0,unchanged,
+69258.0,Cunningham Solar I & BESS,CHCB,NM,Battery Storage,Wind,2026,36.0,East,2026.0,36.0,unchanged,
+69809.0,Northern Divide Energy Storage,5756,ND,Battery Storage,Wind,2026,100.0,East,2026.0,100.0,unchanged,
+70345.0,Steele Flats Energy Storage,SFES,NE,Battery Storage,Wind,2026,50.0,East,2026.0,50.0,unchanged,
+70188.0,Weld Energy Storage,WES01,CO,Battery Storage,Wind,2026,100.0,East,2026.0,100.0,unchanged,
+3338.0,Aberdeen CT,3,SD,Natural Gas,Wind,2026,16.0,East,2026.0,16.0,unchanged,
+3338.0,Aberdeen CT,4,SD,Natural Gas,Wind,2026,16.0,East,2026.0,16.0,unchanged,
+68741.0,Canyon Peak Power Station,CPP_1,CO,Natural Gas,Wind,2026,26.1,West,2026.0,26.1,unchanged,
+68741.0,Canyon Peak Power Station,CPP_2,CO,Natural Gas,Wind,2026,26.1,West,2026.0,26.1,unchanged,
+68741.0,Canyon Peak Power Station,CPP_3,CO,Natural Gas,Wind,2026,26.1,West,2026.0,26.1,unchanged,
+68741.0,Canyon Peak Power Station,CPP_4,CO,Natural Gas,Wind,2026,26.1,West,2026.0,26.1,unchanged,
+68741.0,Canyon Peak Power Station,CPP_5,CO,Natural Gas,Wind,2026,26.1,West,2026.0,26.1,unchanged,
+68741.0,Canyon Peak Power Station,CPP_6,CO,Natural Gas,Wind,2026,26.1,West,2026.0,26.1,unchanged,
+165.0,GREC,4,OK,Natural Gas,Wind,2026,594.0,East,2026.0,594.0,unchanged,
+2951.0,Horseshoe Lake,11,OK,Natural Gas,Wind,2026,224.0,East,2026.0,224.0,unchanged,
+2951.0,Horseshoe Lake,12,OK,Natural Gas,Wind,2026,224.0,East,2026.0,224.0,unchanged,
+55478.0,Lange Generating Station,IC01,SD,Natural Gas,Wind,2026,16.6,West,2026.0,16.6,unchanged,
+55478.0,Lange Generating Station,IC02,SD,Natural Gas,Wind,2026,16.6,West,2026.0,16.6,unchanged,
+55478.0,Lange Generating Station,IC03,SD,Natural Gas,Wind,2026,16.6,West,2026.0,16.6,unchanged,
+55478.0,Lange Generating Station,IC04,SD,Natural Gas,Wind,2026,16.6,West,2026.0,16.6,unchanged,
+55478.0,Lange Generating Station,IC05,SD,Natural Gas,Wind,2026,16.6,West,2026.0,16.6,unchanged,
+55478.0,Lange Generating Station,IC06,SD,Natural Gas,Wind,2026,16.6,West,2026.0,16.6,unchanged,
+69890.0,Marshall Energy Center,UNIT1,MO,Natural Gas,Wind,2026,23.1,East,2026.0,23.1,unchanged,
+69890.0,Marshall Energy Center,UNIT2,MO,Natural Gas,Wind,2026,23.1,East,2026.0,23.1,unchanged,
+55027.0,Papillion Creek Wastewater,1600B,NE,Natural Gas,Wind,2026,2.5,East,2026.0,2.5,unchanged,
+55027.0,Papillion Creek Wastewater,1600C,NE,Natural Gas,Wind,2026,2.5,East,2026.0,2.5,unchanged,
+55027.0,Papillion Creek Wastewater,1600D,NE,Natural Gas,Wind,2026,2.5,East,2026.0,2.5,unchanged,
+1239.0,Riverton,13,KS,Natural Gas,Wind,2026,13.5,East,2026.0,13.5,unchanged,
+1239.0,Riverton,14,KS,Natural Gas,Wind,2026,13.5,East,2026.0,13.5,unchanged,
+201.0,Thomas Fitzhugh,3,AR,Natural Gas,Wind,2026,71.2,East,2026.0,71.2,unchanged,
+201.0,Thomas Fitzhugh,4,AR,Natural Gas,Wind,2026,69.3,East,2026.0,69.3,unchanged,
+63628.0,Tinker,1,OK,Natural Gas,Wind,2026,48.1,East,2026.0,48.1,unchanged,
+63628.0,Tinker,2,OK,Natural Gas,Wind,2026,48.1,East,2026.0,48.1,unchanged,
+1267.0,Chanute 1,15,KS,Oil,Wind,2026,2.2,East,2026.0,2.2,unchanged,
+1267.0,Chanute 1,16,KS,Oil,Wind,2026,2.2,East,2026.0,2.2,unchanged,
+1267.0,Chanute 1,17,KS,Oil,Wind,2026,2.2,East,2026.0,2.2,unchanged,
+1291.0,Iola,17,KS,Oil,Wind,2026,2.0,East,2026.0,2.0,unchanged,
+1291.0,Iola,18,KS,Oil,Wind,2026,2.0,East,2026.0,2.0,unchanged,
+1291.0,Iola,19,KS,Oil,Wind,2026,2.0,East,2026.0,2.0,unchanged,
+1291.0,Iola,20,KS,Oil,Wind,2026,2.0,East,2026.0,2.0,unchanged,
+1313.0,Osage City,11,KS,Oil,Wind,2026,2.0,East,2026.0,2.0,unchanged,
+1313.0,Osage City,12,KS,Oil,Wind,2026,2.0,East,2026.0,2.0,unchanged,
+69783.0,Public Works Generation,PW13,KS,Oil,Wind,2026,3.0,East,2026.0,3.0,unchanged,
+1328.0,Wamego,G10,KS,Oil,Wind,2026,3.0,East,2026.0,3.0,unchanged,
+1328.0,Wamego,G11,KS,Oil,Wind,2026,3.0,East,2026.0,3.0,unchanged,
+1328.0,Wamego,G12,KS,Oil,Wind,2026,3.0,East,2026.0,3.0,unchanged,
+2316.0,Wisner,6,NE,Oil,Wind,2026,1.5,East,2026.0,1.5,unchanged,
+68847.0,1000 Mile Solar,PV1,TX,Solar,Solar,2026,300.0,East,2026.0,300.0,unchanged,
+68517.0,Boot Hill Solar,BHS,KS,Solar,Solar,2026,150.0,East,2026.0,150.0,unchanged,
+68277.0,Brookings Solar,1,SD,Solar,Solar,2026,4.9,East,2026.0,4.9,unchanged,
+69036.0,Chanute Solar,CHANS,KS,Solar,Solar,2026,6.0,East,2026.0,6.0,unchanged,
+68786.0,Choctaw Fields Solar Project,USMNC,OK,Solar,Solar,2026,85.0,East,2026.0,85.0,unchanged,
+69258.0,Cunningham Solar I & BESS,CHCS1,NM,Solar,Solar,2026,72.0,East,2026.0,72.0,unchanged,
+68011.0,Huckleberry Solar,HBS,OK,Solar,Solar,2026,124.7,East,2026.0,124.7,unchanged,
+68286.0,Kennett Solar,KSPV1,MO,Solar,Solar,2026,4.9,East,2026.0,4.9,unchanged,
+68006.0,Mayes County Solar,MYS,OK,Solar,Solar,2026,101.5,East,2026.0,101.5,unchanged,
+69879.0,Ninnescah Flats Solar,N3884,KS,Solar,Solar,2026,201.6,East,2026.0,201.6,unchanged,
+69969.0,Panhandle Solar,PAS,OK,Solar,Solar,2026,102.0,East,2026.0,102.0,unchanged,
+69435.0,Plant X Solar,PLXS,TX,Solar,Solar,2026,150.0,East,2026.0,150.0,unchanged,
+69556.0,Pluma - Clovis Concrete North CSG,CLOCN,NM,Solar,Solar,2026,3.4,East,2026.0,3.4,unchanged,
+69968.0,Rumble Solar,RUS,OK,Solar,Solar,2026,250.0,East,2026.0,250.0,unchanged,
+70344.0,Rush Springs Solar,RSPV,OK,Solar,Solar,2026,200.0,East,2026.0,200.0,unchanged,
+68009.0,Saltbranch 2,SB12,OK,Solar,Solar,2026,73.0,East,2026.0,73.0,unchanged,
+68007.0,Saltbranch Solar 1,SLTB1,OK,Solar,Solar,2026,73.0,East,2026.0,73.0,unchanged,
+63028.0,Tip Top Solar Energy Center LLC,GEN1,NM,Solar,Solar,2026,220.0,East,2026.0,220.0,unchanged,
+68088.0,Twelvemile Solar 1,TS1,OK,Solar,Solar,2026,152.0,East,2026.0,152.0,unchanged,
+69538.0,Twelvemile Solar 2,TS2,OK,Solar,Solar,2026,52.2,East,2026.0,52.2,unchanged,
+68089.0,Twelvemile Solar 3,TS03,OK,Solar,Solar,2026,200.0,East,2026.0,200.0,unchanged,
+69107.0,XCEL-1 Community Solar,XCL-1,NM,Solar,Solar,2026,5.0,East,2026.0,5.0,unchanged,
+69478.0,Lazbuddie Wind Energy LLC,LZBDE,TX,Wind,Wind,2026,265.0,East,2026.0,265.0,unchanged,
+70340.0,"Carousel Energy Storage, LLC",CAR15,CO,Battery Storage,Wind,2027,149.6,East,2027.0,149.6,unchanged,
+69189.0,Cowboy Solar II,C2BS,WY,Battery Storage,Wind,2027,200.0,West,2027.0,200.0,unchanged,
+2161.0,James River Power Station,BAT1,MO,Battery Storage,Wind,2027,31.0,East,2027.0,31.0,unchanged,
+70197.0,Lorenzo Energy Storage,LORE1,TX,Battery Storage,Wind,2027,50.0,East,2027.0,50.0,unchanged,
+70199.0,Palo Duro Energy Storage,PALO1,TX,Battery Storage,Wind,2027,150.0,East,2027.0,150.0,unchanged,
+58835.0,Elk Station,ELK4,TX,Natural Gas,Wind,2027,199.8,East,2027.0,199.8,unchanged,
+68417.0,Hallsville,1,TX,Natural Gas,Wind,2027,225.0,East,2027.0,225.0,unchanged,
+68417.0,Hallsville,2,TX,Natural Gas,Wind,2027,225.0,East,2027.0,225.0,unchanged,
+7903.0,McCartney,MGS3,MO,Natural Gas,Wind,2027,48.9,East,2027.0,48.9,unchanged,
+7903.0,McCartney,MGS4,MO,Natural Gas,Wind,2027,48.9,East,2027.0,48.9,unchanged,
+7903.0,McCartney,MGS5,MO,Natural Gas,Wind,2027,48.9,East,2027.0,48.9,unchanged,
+70261.0,Westside - (NM),WS01,NM,Natural Gas,Wind,2027,16.0,East,2027.0,16.0,unchanged,
+1263.0,Belleville,9,KS,Oil,Wind,2027,3.0,East,2027.0,3.0,unchanged,
+2308.0,Tecumseh,6,NE,Oil,Wind,2027,2.1,East,2027.0,2.1,unchanged,
+2308.0,Tecumseh,7,NE,Oil,Wind,2027,2.1,East,2027.0,2.1,unchanged,
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,East,2026.0,0.31347644361481963,SPP,slip_-1
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,East,2027.0,11.960800227245057,SPP,slip_0
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,East,2028.0,12.812969200178548,SPP,slip_1
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,East,2029.0,15.52164914986,SPP,slip_2
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,East,2030.0,29.825914052672157,SPP,slip_3plus
+68578.0,AC Ranch I,AC1S,NM,Solar,Solar,2027,75.0,East,,4.565190926429412,SPP,never
+66113.0,Big Elk Solar,NEBE1,NE,Solar,Solar,2027,100.0,East,2026.0,0.4179685914864261,SPP,slip_-1
+66113.0,Big Elk Solar,NEBE1,NE,Solar,Solar,2027,100.0,East,2027.0,15.947733636326744,SPP,slip_0
+66113.0,Big Elk Solar,NEBE1,NE,Solar,Solar,2027,100.0,East,2028.0,17.083958933571395,SPP,slip_1
+66113.0,Big Elk Solar,NEBE1,NE,Solar,Solar,2027,100.0,East,2029.0,20.695532199813332,SPP,slip_2
+66113.0,Big Elk Solar,NEBE1,NE,Solar,Solar,2027,100.0,East,2030.0,39.76788540356287,SPP,slip_3plus
+66113.0,Big Elk Solar,NEBE1,NE,Solar,Solar,2027,100.0,East,,6.086921235239216,SPP,never
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,East,2026.0,0.8359371829728522,SPP,slip_-1
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,East,2027.0,31.895467272653487,SPP,slip_0
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,East,2028.0,34.16791786714279,SPP,slip_1
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,East,2029.0,41.391064399626664,SPP,slip_2
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,East,2030.0,79.53577080712574,SPP,slip_3plus
+70297.0,Blackwater Solar Center - NM,BWTS,NM,Solar,Solar,2027,200.0,East,,12.173842470478432,SPP,never
+64857.0,Canyonland Solar,C0513,CO,Solar,Solar,2027,140.0,West,2026.0,0.41674935503076005,ST:CO,slip_-1
+64857.0,Canyonland Solar,C0513,CO,Solar,Solar,2027,140.0,West,2027.0,59.474763511278695,ST:CO,slip_0
+64857.0,Canyonland Solar,C0513,CO,Solar,Solar,2027,140.0,West,2028.0,43.064100019845206,ST:CO,slip_1
+64857.0,Canyonland Solar,C0513,CO,Solar,Solar,2027,140.0,West,2029.0,12.039425811999735,ST:CO,slip_2
+64857.0,Canyonland Solar,C0513,CO,Solar,Solar,2027,140.0,West,2030.0,25.0049613018456,ST:CO,slip_3plus
+69189.0,Cowboy Solar II,C2PV,WY,Solar,Solar,2027,365.0,West,2026.0,1.5255853589254553,SPP,slip_-1
+69189.0,Cowboy Solar II,C2PV,WY,Solar,Solar,2027,365.0,West,2027.0,58.20922777259262,SPP,slip_0
+69189.0,Cowboy Solar II,C2PV,WY,Solar,Solar,2027,365.0,West,2028.0,62.3564501075356,SPP,slip_1
+69189.0,Cowboy Solar II,C2PV,WY,Solar,Solar,2027,365.0,West,2029.0,75.53869252931867,SPP,slip_2
+69189.0,Cowboy Solar II,C2PV,WY,Solar,Solar,2027,365.0,West,2030.0,145.1527817230045,SPP,slip_3plus
+69189.0,Cowboy Solar II,C2PV,WY,Solar,Solar,2027,365.0,West,,22.217262508623136,SPP,never
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,East,2026.0,0.8192184393133952,SPP,slip_-1
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,East,2027.0,31.25755792720042,SPP,slip_0
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,East,2028.0,33.48455950979994,SPP,slip_1
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,East,2029.0,40.56324311163413,SPP,slip_2
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,East,2030.0,77.94505539098323,SPP,slip_3plus
+70259.0,Cunningham Solar II,CHCS2,NM,Solar,Solar,2027,196.0,East,,11.930365621068862,SPP,never
+70271.0,"Fiddle Leaf Solar, LLC",OKFL1,OK,Solar,Solar,2027,80.0,East,2026.0,0.33437487318914094,SPP,slip_-1
+70271.0,"Fiddle Leaf Solar, LLC",OKFL1,OK,Solar,Solar,2027,80.0,East,2027.0,12.758186909061395,SPP,slip_0
+70271.0,"Fiddle Leaf Solar, LLC",OKFL1,OK,Solar,Solar,2027,80.0,East,2028.0,13.667167146857118,SPP,slip_1
+70271.0,"Fiddle Leaf Solar, LLC",OKFL1,OK,Solar,Solar,2027,80.0,East,2029.0,16.556425759850665,SPP,slip_2
+70271.0,"Fiddle Leaf Solar, LLC",OKFL1,OK,Solar,Solar,2027,80.0,East,2030.0,31.8143083228503,SPP,slip_3plus
+70271.0,"Fiddle Leaf Solar, LLC",OKFL1,OK,Solar,Solar,2027,80.0,East,,4.869536988191372,SPP,never
+70115.0,Fort Lyon Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2026.0,0.00535820599325263,ST:CO,slip_-1
+70115.0,Fort Lyon Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2027.0,0.7646755308592975,ST:CO,slip_0
+70115.0,Fort Lyon Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2028.0,0.5536812859694384,ST:CO,slip_1
+70115.0,Fort Lyon Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2029.0,0.15479261758285376,ST:CO,slip_2
+70115.0,Fort Lyon Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2030.0,0.32149235959515776,ST:CO,slip_3plus
+69481.0,Foxtrot Solar Energy LLC,FXTRT,MO,Solar,Solar,2027,108.9,East,2026.0,0.4551677961287181,SPP,slip_-1
+69481.0,Foxtrot Solar Energy LLC,FXTRT,MO,Solar,Solar,2027,108.9,East,2027.0,17.367081929959824,SPP,slip_0
+69481.0,Foxtrot Solar Energy LLC,FXTRT,MO,Solar,Solar,2027,108.9,East,2028.0,18.604431278659252,SPP,slip_1
+69481.0,Foxtrot Solar Energy LLC,FXTRT,MO,Solar,Solar,2027,108.9,East,2029.0,22.53743456559672,SPP,slip_2
+69481.0,Foxtrot Solar Energy LLC,FXTRT,MO,Solar,Solar,2027,108.9,East,2030.0,43.30722720447997,SPP,slip_3plus
+69481.0,Foxtrot Solar Energy LLC,FXTRT,MO,Solar,Solar,2027,108.9,East,,6.628657225175506,SPP,never
+69239.0,High Spring Solar Energy,HSS,OK,Solar,Solar,2027,400.0,East,2026.0,1.6718743659457045,SPP,slip_-1
+69239.0,High Spring Solar Energy,HSS,OK,Solar,Solar,2027,400.0,East,2027.0,63.790934545306975,SPP,slip_0
+69239.0,High Spring Solar Energy,HSS,OK,Solar,Solar,2027,400.0,East,2028.0,68.33583573428558,SPP,slip_1
+69239.0,High Spring Solar Energy,HSS,OK,Solar,Solar,2027,400.0,East,2029.0,82.78212879925333,SPP,slip_2
+69239.0,High Spring Solar Energy,HSS,OK,Solar,Solar,2027,400.0,East,2030.0,159.0715416142515,SPP,slip_3plus
+69239.0,High Spring Solar Energy,HSS,OK,Solar,Solar,2027,400.0,East,,24.347684940956864,SPP,never
+70116.0,La Junta Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2026.0,0.014288549315340345,ST:CO,slip_-1
+70116.0,La Junta Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2027.0,2.0391347489581264,ST:CO,slip_0
+70116.0,La Junta Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2028.0,1.4764834292518356,ST:CO,slip_1
+70116.0,La Junta Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2029.0,0.41278031355427663,ST:CO,slip_2
+70116.0,La Junta Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2030.0,0.8573129589204206,ST:CO,slip_3plus
+70117.0,Lamar Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2026.0,0.014288549315340345,ST:CO,slip_-1
+70117.0,Lamar Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2027.0,2.0391347489581264,ST:CO,slip_0
+70117.0,Lamar Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2028.0,1.4764834292518356,ST:CO,slip_1
+70117.0,Lamar Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2029.0,0.41278031355427663,ST:CO,slip_2
+70117.0,Lamar Solar,GEN1,CO,Solar,Solar,2027,4.8,West,2030.0,0.8573129589204206,ST:CO,slip_3plus
+69035.0,Pivot Solar 36,PI36,CO,Solar,Solar,2027,5.0,West,2026.0,0.01488390553681286,ST:CO,slip_-1
+69035.0,Pivot Solar 36,PI36,CO,Solar,Solar,2027,5.0,West,2027.0,2.124098696831382,ST:CO,slip_0
+69035.0,Pivot Solar 36,PI36,CO,Solar,Solar,2027,5.0,West,2028.0,1.5380035721373289,ST:CO,slip_1
+69035.0,Pivot Solar 36,PI36,CO,Solar,Solar,2027,5.0,West,2029.0,0.42997949328570484,ST:CO,slip_2
+69035.0,Pivot Solar 36,PI36,CO,Solar,Solar,2027,5.0,West,2030.0,0.8930343322087715,ST:CO,slip_3plus
+70119.0,Raceway Solar - (CO),GEN1,CO,Solar,Solar,2027,7.0,East,2026.0,0.020837467751538004,ST:CO,slip_-1
+70119.0,Raceway Solar - (CO),GEN1,CO,Solar,Solar,2027,7.0,East,2027.0,2.9737381755639345,ST:CO,slip_0
+70119.0,Raceway Solar - (CO),GEN1,CO,Solar,Solar,2027,7.0,East,2028.0,2.1532050009922603,ST:CO,slip_1
+70119.0,Raceway Solar - (CO),GEN1,CO,Solar,Solar,2027,7.0,East,2029.0,0.6019712905999868,ST:CO,slip_2
+70119.0,Raceway Solar - (CO),GEN1,CO,Solar,Solar,2027,7.0,East,2030.0,1.25024806509228,ST:CO,slip_3plus
+69631.0,Sunflower Sky Energy Center,SFS01,KS,Solar,Solar,2027,65.0,East,2026.0,0.271679584466177,SPP,slip_-1
+69631.0,Sunflower Sky Energy Center,SFS01,KS,Solar,Solar,2027,65.0,East,2027.0,10.366026863612383,SPP,slip_0
+69631.0,Sunflower Sky Energy Center,SFS01,KS,Solar,Solar,2027,65.0,East,2028.0,11.104573306821408,SPP,slip_1
+69631.0,Sunflower Sky Energy Center,SFS01,KS,Solar,Solar,2027,65.0,East,2029.0,13.452095929878666,SPP,slip_2
+69631.0,Sunflower Sky Energy Center,SFS01,KS,Solar,Solar,2027,65.0,East,2030.0,25.84912551231587,SPP,slip_3plus
+69631.0,Sunflower Sky Energy Center,SFS01,KS,Solar,Solar,2027,65.0,East,,3.95649880290549,SPP,never
+70341.0,"Thunder Wolf II, LLC",TW200,CO,Solar,Solar,2027,200.0,West,2026.0,0.5953562214725144,ST:CO,slip_-1
+70341.0,"Thunder Wolf II, LLC",TW200,CO,Solar,Solar,2027,200.0,West,2027.0,84.96394787325528,ST:CO,slip_0
+70341.0,"Thunder Wolf II, LLC",TW200,CO,Solar,Solar,2027,200.0,West,2028.0,61.52014288549316,ST:CO,slip_1
+70341.0,"Thunder Wolf II, LLC",TW200,CO,Solar,Solar,2027,200.0,West,2029.0,17.199179731428195,ST:CO,slip_2
+70341.0,"Thunder Wolf II, LLC",TW200,CO,Solar,Solar,2027,200.0,West,2030.0,35.72137328835086,ST:CO,slip_3plus
+70118.0,Trinidad Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2026.0,0.00535820599325263,ST:CO,slip_-1
+70118.0,Trinidad Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2027.0,0.7646755308592975,ST:CO,slip_0
+70118.0,Trinidad Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2028.0,0.5536812859694384,ST:CO,slip_1
+70118.0,Trinidad Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2029.0,0.15479261758285376,ST:CO,slip_2
+70118.0,Trinidad Solar,GEN1,CO,Solar,Solar,2027,1.8,West,2030.0,0.32149235959515776,ST:CO,slip_3plus
+64744.0,Turkey Creek Solar Project,TC001,CO,Solar,Solar,2027,200.0,West,2026.0,0.5953562214725144,ST:CO,slip_-1
+64744.0,Turkey Creek Solar Project,TC001,CO,Solar,Solar,2027,200.0,West,2027.0,84.96394787325528,ST:CO,slip_0
+64744.0,Turkey Creek Solar Project,TC001,CO,Solar,Solar,2027,200.0,West,2028.0,61.52014288549316,ST:CO,slip_1
+64744.0,Turkey Creek Solar Project,TC001,CO,Solar,Solar,2027,200.0,West,2029.0,17.199179731428195,ST:CO,slip_2
+64744.0,Turkey Creek Solar Project,TC001,CO,Solar,Solar,2027,200.0,West,2030.0,35.72137328835086,ST:CO,slip_3plus
+70299.0,"Pioneer Creek Wind, LLC",814,KS,Wind,Wind,2027,252.0,East,2027.0,138.3199719058847,SPP-East,slip_0
+70299.0,"Pioneer Creek Wind, LLC",814,KS,Wind,Wind,2027,252.0,East,2028.0,52.07384738875232,SPP-East,slip_1
+70299.0,"Pioneer Creek Wind, LLC",814,KS,Wind,Wind,2027,252.0,East,2029.0,7.585411127276376,SPP-East,slip_2
+70299.0,"Pioneer Creek Wind, LLC",814,KS,Wind,Wind,2027,252.0,East,2030.0,3.792705563638188,SPP-East,slip_3plus
+70299.0,"Pioneer Creek Wind, LLC",814,KS,Wind,Wind,2027,252.0,East,,50.2280640144484,SPP-East,never
+65948.0,Plum Nellie Wind Farm LLC,PNW01,KS,Wind,Wind,2027,201.6,East,2027.0,110.65597752470777,SPP-East,slip_0
+65948.0,Plum Nellie Wind Farm LLC,PNW01,KS,Wind,Wind,2027,201.6,East,2028.0,41.65907791100185,SPP-East,slip_1
+65948.0,Plum Nellie Wind Farm LLC,PNW01,KS,Wind,Wind,2027,201.6,East,2029.0,6.068328901821101,SPP-East,slip_2
+65948.0,Plum Nellie Wind Farm LLC,PNW01,KS,Wind,Wind,2027,201.6,East,2030.0,3.0341644509105503,SPP-East,slip_3plus
+65948.0,Plum Nellie Wind Farm LLC,PNW01,KS,Wind,Wind,2027,201.6,East,,40.18245121155872,SPP-East,never
+70366.0,Boot Hill Energy Storage,BHBES,KS,Battery Storage,Wind,2028,75.0,East,2028.0,75.0,unchanged,
+68022.0,Cowboy Solar I,CLPBS,WY,Battery Storage,Wind,2028,400.0,West,2028.0,400.0,unchanged,
+70050.0,Drennan Energy Storage,DRENN,CO,Battery Storage,Wind,2028,100.0,East,2028.0,100.0,unchanged,
+70237.0,Mule Shoe Energy Storage,MULE1,TX,Battery Storage,Wind,2028,207.0,East,2028.0,207.0,unchanged,
+57703.0,Cheyenne Prairie Generating Station,02B,WY,Natural Gas,Wind,2028,40.0,West,2028.0,40.0,unchanged,
+57703.0,Cheyenne Prairie Generating Station,03A,WY,Natural Gas,Wind,2028,40.0,West,2028.0,40.0,unchanged,
+57703.0,Cheyenne Prairie Generating Station,03B,WY,Natural Gas,Wind,2028,40.0,West,2028.0,40.0,unchanged,
+68705.0,Horizon,H01,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H02,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H03,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H04,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H05,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H06,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H07,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H08,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H09,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+68705.0,Horizon,H10,CO,Natural Gas,Wind,2028,48.0,West,2028.0,48.0,unchanged,
+69890.0,Marshall Energy Center,UNIT3,MO,Natural Gas,Wind,2028,38.0,East,2028.0,38.0,unchanged,
+69890.0,Marshall Energy Center,UNIT4,MO,Natural Gas,Wind,2028,38.0,East,2028.0,38.0,unchanged,
+68273.0,Naples Power Plant,1,TX,Natural Gas,Wind,2028,450.0,East,2028.0,450.0,unchanged,
+68273.0,Naples Power Plant,2,TX,Natural Gas,Wind,2028,450.0,East,2028.0,450.0,unchanged,
+6761.0,Rawhide,G,CO,Natural Gas,Wind,2029,44.6,West,2029.0,44.6,unchanged,
+6761.0,Rawhide,H,CO,Natural Gas,Wind,2029,44.6,West,2029.0,44.6,unchanged,
+6761.0,Rawhide,LM3,CO,Natural Gas,Wind,2029,44.6,West,2029.0,44.6,unchanged,
+6761.0,Rawhide,LM4,CO,Natural Gas,Wind,2029,44.6,West,2029.0,44.6,unchanged,
+6761.0,Rawhide,LM5,CO,Natural Gas,Wind,2029,44.6,West,2029.0,44.6,unchanged,
+64547.0,Turtle Creek,3,NE,Natural Gas,Wind,2028,264.0,East,2028.0,264.0,unchanged,
+70261.0,Westside - (NM),WS02,NM,Natural Gas,Wind,2028,24.0,East,2028.0,24.0,unchanged,
+70261.0,Westside - (NM),WS03,NM,Natural Gas,Wind,2028,20.0,East,2028.0,20.0,unchanged,
+70485.0,White Cloud Generating,GT01,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT02,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT03,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT04,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT05,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT06,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT07,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT08,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT09,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT10,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT11,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+70485.0,White Cloud Generating,GT12,MO,Natural Gas,Wind,2028,50.2,East,2028.0,50.2,unchanged,
+1263.0,Belleville,7A,KS,Oil,Wind,2028,3.0,East,2028.0,3.0,unchanged,
+70515.0,Burt County Solar (Sandhills Energy),PV1,NE,Solar,Solar,2028,250.0,East,2027.0,1.7562232316899207,NATIONAL,slip_-1
+70515.0,Burt County Solar (Sandhills Energy),PV1,NE,Solar,Solar,2028,250.0,East,2028.0,36.46170562076854,NATIONAL,slip_0
+70515.0,Burt County Solar (Sandhills Energy),PV1,NE,Solar,Solar,2028,250.0,East,2029.0,37.050672507076996,NATIONAL,slip_1
+70515.0,Burt County Solar (Sandhills Energy),PV1,NE,Solar,Solar,2028,250.0,East,2030.0,21.687136006505547,NATIONAL,slip_2
+70515.0,Burt County Solar (Sandhills Energy),PV1,NE,Solar,Solar,2028,250.0,East,2031.0,93.62096329185935,NATIONAL,slip_3plus
+70515.0,Burt County Solar (Sandhills Energy),PV1,NE,Solar,Solar,2028,250.0,East,,59.42329934209965,NATIONAL,never
+68022.0,Cowboy Solar I,CLP20,WY,Solar,Solar,2028,400.0,West,2027.0,2.809957170703873,NATIONAL,slip_-1
+68022.0,Cowboy Solar I,CLP20,WY,Solar,Solar,2028,400.0,West,2028.0,58.33872899322966,NATIONAL,slip_0
+68022.0,Cowboy Solar I,CLP20,WY,Solar,Solar,2028,400.0,West,2029.0,59.281076011323194,NATIONAL,slip_1
+68022.0,Cowboy Solar I,CLP20,WY,Solar,Solar,2028,400.0,West,2030.0,34.69941761040887,NATIONAL,slip_2
+68022.0,Cowboy Solar I,CLP20,WY,Solar,Solar,2028,400.0,West,2031.0,149.79354126697498,NATIONAL,slip_3plus
+68022.0,Cowboy Solar I,CLP20,WY,Solar,Solar,2028,400.0,West,,95.07727894735943,NATIONAL,never
+70541.0,Swan Solar,SPV,MO,Solar,Solar,2028,650.0,East,2027.0,4.566180402393794,NATIONAL,slip_-1
+70541.0,Swan Solar,SPV,MO,Solar,Solar,2028,650.0,East,2028.0,94.80043461399819,NATIONAL,slip_0
+70541.0,Swan Solar,SPV,MO,Solar,Solar,2028,650.0,East,2029.0,96.33174851840019,NATIONAL,slip_1
+70541.0,Swan Solar,SPV,MO,Solar,Solar,2028,650.0,East,2030.0,56.38655361691442,NATIONAL,slip_2
+70541.0,Swan Solar,SPV,MO,Solar,Solar,2028,650.0,East,2031.0,243.41450455883432,NATIONAL,slip_3plus
+70541.0,Swan Solar,SPV,MO,Solar,Solar,2028,650.0,East,,154.50057828945907,NATIONAL,never
+64835.0,Silver Queen Wind Farm,,IA,Wind,Wind,2028,252.0,East,2028.0,10.144519141741476,SPP-East,slip_0
+64835.0,Silver Queen Wind Farm,,IA,Wind,Wind,2028,252.0,East,2029.0,40.578076566965905,SPP-East,slip_1
+64835.0,Silver Queen Wind Farm,,IA,Wind,Wind,2028,252.0,East,2031.0,38.041946781530534,SPP-East,slip_3plus
+64835.0,Silver Queen Wind Farm,,IA,Wind,Wind,2028,252.0,East,,163.23545750976209,SPP-East,never
+68317.0,Dutchman Solar generation and BESS,DUTC2,WY,Battery Storage,Wind,2029,499.0,West,2029.0,499.0,unchanged,
+70443.0,Mammoth Plains Energy Storage II,MAMM2,OK,Battery Storage,Wind,2029,101.2,East,2029.0,101.2,unchanged,
+70441.0,Palo Duro Energy Storage II,PALO2,TX,Battery Storage,Wind,2029,165.7,East,2029.0,165.7,unchanged,
+70186.0,Solstice Solar LLC,SOLBS,OK,Battery Storage,Wind,2029,200.0,East,2029.0,200.0,unchanged,
+69071.0,Bison Generation Station,CA1,ND,Natural Gas,Wind,2029,263.0,East,2029.0,263.0,unchanged,
+69071.0,Bison Generation Station,CT1,ND,Natural Gas,Wind,2029,496.0,East,2029.0,496.0,unchanged,
+55972.0,Cass County,CT-3,NE,Natural Gas,Wind,2029,264.0,East,2029.0,264.0,unchanged,
+55972.0,Cass County,CT-4,NE,Natural Gas,Wind,2029,264.0,East,2029.0,264.0,unchanged,
+55972.0,Cass County,CT-5,NE,Natural Gas,Wind,2029,264.0,East,2029.0,264.0,unchanged,
+8059.0,Comanche (OK),2G1,OK,Natural Gas,Wind,2029,408.8,East,2029.0,408.8,unchanged,
+8059.0,Comanche (OK),2S1,OK,Natural Gas,Wind,2029,277.6,East,2029.0,277.6,unchanged,
+8059.0,Comanche (OK),3G1,OK,Natural Gas,Wind,2029,408.8,East,2029.0,408.8,unchanged,
+8059.0,Comanche (OK),3S1,OK,Natural Gas,Wind,2029,277.6,East,2029.0,277.6,unchanged,
+2951.0,Horseshoe Lake,13,OK,Natural Gas,Wind,2029,224.0,East,2029.0,224.0,unchanged,
+2951.0,Horseshoe Lake,14,OK,Natural Gas,Wind,2029,224.0,East,2029.0,224.0,unchanged,
+69808.0,Princeton Road Station,R01,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R02,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R03,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R04,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R05,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R06,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R07,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R08,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R09,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R10,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R11,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,R12,NE,Natural Gas,Wind,2029,18.1,East,2029.0,18.1,unchanged,
+69808.0,Princeton Road Station,CT1,NE,Natural Gas,Wind,2029,265.4,East,2029.0,265.4,unchanged,
+69808.0,Princeton Road Station,CT2,NE,Natural Gas,Wind,2029,265.4,East,2029.0,265.4,unchanged,
+7887.0,Terry Bundy Generating Station,5,NE,Natural Gas,Wind,2029,52.0,East,2029.0,52.0,unchanged,
+7887.0,Terry Bundy Generating Station,6,NE,Natural Gas,Wind,2029,52.0,East,2029.0,52.0,unchanged,
+68294.0,Viola Generating Station,VIO1,KS,Natural Gas,Wind,2029,765.0,East,2029.0,765.0,unchanged,
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,East,2028.0,7.143596645615488,NATIONAL,slip_-1
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,East,2029.0,7.318217896952756,NATIONAL,slip_0
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,East,2030.0,33.25582358422197,NATIONAL,slip_1
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,East,2031.0,34.55913310556649,NATIONAL,slip_2
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,East,2032.0,97.64502881595749,NATIONAL,slip_3plus
+68579.0,AC Ranch II,AC2S,NM,Solar,Solar,2029,230.0,East,,50.07819995168582,NATIONAL,never
+68317.0,Dutchman Solar generation and BESS,DUTC1,WY,Solar,Solar,2029,499.0,West,2028.0,15.498498809400559,NATIONAL,slip_-1
+68317.0,Dutchman Solar generation and BESS,DUTC1,WY,Solar,Solar,2029,499.0,West,2029.0,15.87735100251924,NATIONAL,slip_0
+68317.0,Dutchman Solar generation and BESS,DUTC1,WY,Solar,Solar,2029,499.0,West,2030.0,72.1506781240294,NATIONAL,slip_1
+68317.0,Dutchman Solar generation and BESS,DUTC1,WY,Solar,Solar,2029,499.0,West,2031.0,74.97829312903337,NATIONAL,slip_2
+68317.0,Dutchman Solar generation and BESS,DUTC1,WY,Solar,Solar,2029,499.0,West,2032.0,211.847258170273,NATIONAL,slip_3plus
+68317.0,Dutchman Solar generation and BESS,DUTC1,WY,Solar,Solar,2029,499.0,West,,108.64792076474444,NATIONAL,never
+70186.0,Solstice Solar LLC,SOLPV,OK,Solar,Solar,2029,200.0,East,2028.0,6.211823170100424,NATIONAL,slip_-1
+70186.0,Solstice Solar LLC,SOLPV,OK,Solar,Solar,2029,200.0,East,2029.0,6.363667736480657,NATIONAL,slip_0
+70186.0,Solstice Solar LLC,SOLPV,OK,Solar,Solar,2029,200.0,East,2030.0,28.918107464540842,NATIONAL,slip_1
+70186.0,Solstice Solar LLC,SOLPV,OK,Solar,Solar,2029,200.0,East,2031.0,30.051420091796942,NATIONAL,slip_2
+70186.0,Solstice Solar LLC,SOLPV,OK,Solar,Solar,2029,200.0,East,2032.0,84.90872070952825,NATIONAL,slip_3plus
+70186.0,Solstice Solar LLC,SOLPV,OK,Solar,Solar,2029,200.0,East,,43.546260827552885,NATIONAL,never
+61511.0,Burt County Wind,BCNE,NE,Wind,Wind,2029,75.0,East,2030.0,0.4580378250591017,NATIONAL,slip_1
+61511.0,Burt County Wind,BCNE,NE,Wind,Wind,2029,75.0,East,2032.0,52.024231678487,NATIONAL,slip_3plus
+61511.0,Burt County Wind,BCNE,NE,Wind,Wind,2029,75.0,East,,22.5177304964539,NATIONAL,never
+64847.0,Rail Tie Wind,PLANT,WY,Wind,Wind,2029,504.0,West,2030.0,252.0,wind_override,
+64847.0,Rail Tie Wind,PLANT,WY,Wind,Wind,2029,504.0,West,2031.0,252.0,wind_override,
+70136.0,Morel Energy Storage,MORL1,CO,Battery Storage,Wind,2030,200.0,East,2030.0,200.0,unchanged,
+69071.0,Bison Generation Station,CA2,ND,Natural Gas,Wind,2030,263.0,East,2030.0,263.0,unchanged,
+69071.0,Bison Generation Station,CT2,ND,Natural Gas,Wind,2030,496.0,East,2030.0,496.0,unchanged,
+68295.0,McNew Generating Station,MCN1,KS,Natural Gas,Wind,2030,765.0,East,2030.0,765.0,unchanged,
+68296.0,Mullin Creek #1 Generating Station,MC1,MO,Natural Gas,Wind,2030,489.7,East,2030.0,489.7,unchanged,
+67936.0,Goshen Solar,GS1,WY,Solar,Solar,2030,163.0,West,2029.0,5.062635883631846,NATIONAL,slip_-1
+67936.0,Goshen Solar,GS1,WY,Solar,Solar,2030,163.0,West,2030.0,5.186389205231736,NATIONAL,slip_0
+67936.0,Goshen Solar,GS1,WY,Solar,Solar,2030,163.0,West,2031.0,23.568257583600786,NATIONAL,slip_1
+67936.0,Goshen Solar,GS1,WY,Solar,Solar,2030,163.0,West,2032.0,24.49190737481451,NATIONAL,slip_2
+67936.0,Goshen Solar,GS1,WY,Solar,Solar,2030,163.0,West,2033.0,69.20060737826553,NATIONAL,slip_3plus
+67936.0,Goshen Solar,GS1,WY,Solar,Solar,2030,163.0,West,,35.4902025744556,NATIONAL,never
+,Gaines County CTG,CTG,TX,Natural Gas,Wind,2028,1160.0,East,2028.0,1160.0,unchanged,
+,Tolk Station CTG,CTG,TX,Natural Gas,Wind,2029,928.0,East,2029.0,928.0,unchanged,

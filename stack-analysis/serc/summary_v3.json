@@ -1,0 +1,23 @@
+{
+ "region": "serc",
+ "changelog_rebuild_max_diff_mw": 0.0,
+ "total_2030_v2": 320308.4,
+ "total_2030_v3": 310719.5,
+ "total_2036_v2": 318884.8,
+ "total_2036_v3": 313667.0,
+ "solar_2036_v2": 50849.6,
+ "solar_2036_v3": 45706.0,
+ "wind_2036_v2": 1206.4,
+ "wind_2036_v3": 1132.2,
+ "renewable_mw_removed_never": 3685.9,
+ "renewable_mw_pushed_beyond_2036": 1531.8,
+ "scopes_used": {
+  "SERC-Central": 27,
+  "ST:FL": 18,
+  "ST:NC": 12,
+  "ST:GA": 8,
+  "ST:SC": 20,
+  "ST:VA": 2,
+  "NATIONAL": 16
+ }
+}
