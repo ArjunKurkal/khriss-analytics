@@ -1,0 +1,179 @@
+{
+  "version": "v2",
+  "built": "2026-11-15",
+  "anchor_unchanged_mw": 64845.7,
+  "anchor_source": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; no published MIDC-by-fuel anchor exists (MIDC is a scheduling/hub designation, not an ISO).",
+  "v1_forward_2026_2036": {
+    "additions_mw": 14100.2,
+    "additions_count": 71,
+    "retirements_mw": 88.0,
+    "retirements_count": 13,
+    "net_mw": 14012.2,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 17.5,
+      "Nuclear": 0.0,
+      "Hydro": 7.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1695.0,
+      "Solar": 7182.7,
+      "Oil": 3.0,
+      "Battery Storage": 5145.0,
+      "Other": 50.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 66.6,
+      "Nuclear": 0.0,
+      "Hydro": 15.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 6.4
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 15016.1,
+    "additions_count": 73,
+    "retirements_mw": 817.9,
+    "retirements_count": 14,
+    "net_mw": 14198.2,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 747.4,
+      "Nuclear": 186.0,
+      "Hydro": 7.0,
+      "Pumped Storage": 0.0,
+      "Wind": 1695.0,
+      "Solar": 7182.7,
+      "Oil": 3.0,
+      "Battery Storage": 5145.0,
+      "Other": 50.0
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 729.9,
+      "Natural Gas": 66.6,
+      "Nuclear": 0.0,
+      "Hydro": 15.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 6.4
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": 915.9,
+    "retirements": 729.9,
+    "net": 186.0,
+    "by_fuel_net_mw": {
+      "Coal": -729.9,
+      "Natural Gas": 729.9,
+      "Nuclear": 186.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 60858.5,
+      "2017": 61164.9,
+      "2018": 61422.7,
+      "2019": 61574.0,
+      "2020": 60487.4,
+      "2021": 60816.0,
+      "2022": 61791.0,
+      "2023": 62316.2,
+      "2024": 63429.6,
+      "2025": 64845.7,
+      "2026": 65804.9,
+      "2027": 71585.4,
+      "2028": 72746.1,
+      "2029": 76299.6,
+      "2030": 76289.7,
+      "2031": 78919.7,
+      "2032": 78919.7,
+      "2033": 78919.7,
+      "2034": 78919.7,
+      "2035": 78857.9,
+      "2036": 78857.9
+    },
+    "v2": {
+      "2016": 60858.5,
+      "2017": 61164.9,
+      "2018": 61422.7,
+      "2019": 61574.0,
+      "2020": 60487.4,
+      "2021": 60816.0,
+      "2022": 61791.0,
+      "2023": 62316.2,
+      "2024": 63429.6,
+      "2025": 64845.7,
+      "2026": 65075.0,
+      "2027": 70855.5,
+      "2028": 72746.1,
+      "2029": 76299.6,
+      "2030": 76289.7,
+      "2031": 79105.7,
+      "2032": 79105.7,
+      "2033": 79105.7,
+      "2034": 79105.7,
+      "2035": 79043.9,
+      "2036": 79043.9
+    }
+  },
+  "manual_adjustments_count": 3,
+  "named_adjustments_count": 2,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Transalta Centralia Generation Unit 2 coal retirement (fuel switch)",
+      "change": "add retirement",
+      "mw": 729.9
+    },
+    {
+      "plant": "Transalta Centralia Generation Unit 2 gas conversion (fuel switch)",
+      "change": "add",
+      "mw": 729.9
+    },
+    {
+      "plant": "Columbia Generating Station extended power uprate",
+      "change": "add",
+      "mw": 186.0
+    }
+  ],
+  "checked_no_adjustment": {
+    "Colstrip Units 3/4 coal (1,647.4 MW)": "No retirement added. PSE/Avista shares transferred to NorthWestern Jan 1, 2026 (ownership exit under WA CETA, not a shutdown); operator intends operation to ~2042. PGE exit by end-2029 and PacifiCorp exit ~2030 are ownership exits, not retirements."
+  },
+  "not_added_flagged_candidates_mw": {
+    "Cascade Advanced Energy Facility SMR, initial 4x80 MW phase (Energy Northwest/X-energy/Amazon; pre-application, construction permit application targeted end-2026, operations 2030s)": 320.0,
+    "Cascade Advanced Energy Facility SMR, full 12-unit build-out": 960.0,
+    "Badger Mountain Pumped Storage, WA (500 MW, planning/development per WA PEIS)": 500.0,
+    "Haymaker Hybrid wind, MT (kept at EIA 630 MW Oct 2031; Clearway/PSE 25-yr PPA describes a 315 MW facility with COD by 2028 \u2014 MW and date conflict, unverified)": 630.0,
+    "Obsidian Solar Center, OR (kept at EIA Dec 2028; EFSC extended construction-start deadline to Feb 25, 2028 after the original was missed for lack of interconnection \u2014 completion can run 3 years from commencement, slip risk)": 400.0,
+    "Colstrip Units 3/4, MT (kept operating in v2; no retirement in window \u2014 see checked_no_adjustment)": 1647.4,
+    "VoltaGrid BTM gas at Vantage Quincy data-center campus, WA (12 MW mobile, temporary bridge to 2029; not in EIA; counts 0 under the BTM rule)": 12.0,
+    "Puget Sound Energy undisclosed-site gas turbines for data-center load (reported via Sightline/Riverkeeper; MW and site undisclosed)": null
+  },
+  "btm_scan_finding": "No behind-the-meter exclusion >= 200 MW found. Sunstone Solar (Amazon-owned via Pine Gate Chapter 11, Feb 2026) and Blacks Creek Solar (Meta Kuna data-center PPA via Idaho Power) are grid-connected plants serving data-center load through the grid and are counted in full. The only quantified BTM generation is VoltaGrid's 12 MW temporary mobile gas plant at Quincy, WA (0 MW under the rule; immaterial, not in EIA).",
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "midc_capacity_plants_v2.csv",
+    "stack_v2": "midc_capacity_stack_v2.csv",
+    "changelog_v2": "midc_capacity_changelog_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png"
+    ]
+  }
+}
