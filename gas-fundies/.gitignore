@@ -1,0 +1,5 @@
+# Data lives in the central lake (~/workspace/data or $KH_DATA_ROOT), never in git.
+*.parquet
+__pycache__/
+.venv/
+*.pyc

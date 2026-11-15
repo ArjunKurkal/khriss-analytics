@@ -1,0 +1,118 @@
+{
+ "comment": "State groupings for Gas Fundies. Production regions are state aggregates: state lines are not basin-pure (Texas holds Permian + Eagle Ford + Barnett + TX Haynesville), so basin detail comes from the Baker Hughes rig count by basin, not from production. Storage regions are EIA's weekly-report regions.",
+ "lng_feedgas_fuel_factor": {
+  "comment": "Feedgas estimate = LNG exports x 1.11. Liquefaction fuel and losses are roughly 10% of feedgas, so feedgas = exports / 0.90 = exports x 1.11. This is a documented modelling assumption, NOT observed data: EIA reports LNG exports, no free source reports daily or monthly feedgas by terminal.",
+  "value": 1.11
+ },
+ "production_areas_nonstate": {
+  "Federal Offshore Gulf of America": "FX (series N9050FX2)"
+ },
+ "production_regions": {
+  "Alaska": [
+   "AK"
+  ],
+  "Appalachia": [
+   "PA",
+   "OH",
+   "WV"
+  ],
+  "Federal Offshore Gulf": [
+   "FX"
+  ],
+  "Haynesville (LA)": [
+   "LA"
+  ],
+  "Midcontinent": [
+   "OK",
+   "KS",
+   "AR"
+  ],
+  "Other Lower 48": [
+   "AL",
+   "CA",
+   "FL",
+   "GA",
+   "IL",
+   "IN",
+   "KY",
+   "MI",
+   "MS",
+   "NE",
+   "NY",
+   "OR",
+   "SD",
+   "TN",
+   "VA",
+   "WA"
+  ],
+  "Rockies": [
+   "WY",
+   "CO",
+   "UT",
+   "MT",
+   "ND"
+  ],
+  "Southwest (TX+NM, Permian-dominated)": [
+   "TX",
+   "NM"
+  ]
+ },
+ "storage_regions_states": {
+  "East": [
+   "CT",
+   "DE",
+   "DC",
+   "FL",
+   "GA",
+   "KY",
+   "MA",
+   "MD",
+   "ME",
+   "NC",
+   "NH",
+   "NJ",
+   "NY",
+   "OH",
+   "PA",
+   "RI",
+   "SC",
+   "TN",
+   "VA",
+   "VT",
+   "WV"
+  ],
+  "Midwest": [
+   "IA",
+   "IL",
+   "IN",
+   "MI",
+   "MN",
+   "MO",
+   "WI"
+  ],
+  "Mountain": [
+   "AZ",
+   "CO",
+   "ID",
+   "MT",
+   "NM",
+   "NV",
+   "UT",
+   "WY"
+  ],
+  "Pacific": [
+   "CA",
+   "OR",
+   "WA"
+  ],
+  "South Central": [
+   "AL",
+   "AR",
+   "KS",
+   "LA",
+   "MS",
+   "OK",
+   "TX"
+  ]
+ }
+}
