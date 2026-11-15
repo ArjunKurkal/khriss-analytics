@@ -1,0 +1,694 @@
+year,region,fuel,mw,period,anchor_year,source_note
+2016,North,Coal,12866.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Natural Gas,10807.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Nuclear,2550.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Hydro,637.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Wind,12994.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Solar,269.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Oil,2282.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Battery Storage,1.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Other,1905.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,North,Total,44313.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Coal,39246.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Natural Gas,32815.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Hydro,1006.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Wind,3597.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Solar,172.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Oil,2189.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Battery Storage,20.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Other,8658.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,Central,Total,95781.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Coal,7890.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Natural Gas,36331.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Hydro,694.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Solar,1.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Oil,1036.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Battery Storage,0.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Other,1843.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2016,South,Total,53348.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Coal,12676.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Natural Gas,11240.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Nuclear,2550.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Hydro,637.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Wind,13492.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Solar,542.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Oil,2209.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Battery Storage,1.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Other,1900.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,North,Total,45251.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Coal,39189.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Natural Gas,33108.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Hydro,1082.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Wind,3944.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Solar,258.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Oil,2154.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Battery Storage,20.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Other,8492.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,Central,Total,96326.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Coal,7890.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Natural Gas,35701.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Hydro,694.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Solar,54.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Oil,1014.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Battery Storage,0.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Other,1843.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2017,South,Total,52749.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Coal,12526.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Natural Gas,11327.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Nuclear,2550.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Hydro,637.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Wind,14926.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Solar,776.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Oil,2129.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Battery Storage,17.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Other,1822.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,North,Total,46713.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Coal,38003.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Natural Gas,33509.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Hydro,1077.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Wind,4298.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Solar,298.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Oil,1972.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Battery Storage,21.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Other,7254.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,Central,Total,94512.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Coal,7490.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Natural Gas,33934.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Hydro,694.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Solar,138.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Oil,1005.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Battery Storage,0.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Other,1828.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2018,South,Total,50642.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Coal,12526.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Natural Gas,11529.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Nuclear,2550.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Hydro,637.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Wind,17219.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Solar,946.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Oil,2127.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Battery Storage,16.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Other,1758.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,North,Total,49311.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Coal,37049.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Natural Gas,33542.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Hydro,1077.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Wind,4582.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Solar,333.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Oil,1969.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Battery Storage,27.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Other,4760.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,Central,Total,91417.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Coal,7490.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Natural Gas,34661.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Hydro,694.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Solar,165.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Oil,995.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Battery Storage,0.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Other,1741.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2019,South,Total,51300.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Coal,12526.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Natural Gas,11489.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Nuclear,1871.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Hydro,637.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Wind,19682.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Solar,1074.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Oil,2132.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Battery Storage,16.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Other,1743.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,North,Total,51173.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Coal,35757.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Natural Gas,34001.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Hydro,1071.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Wind,6485.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Solar,689.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Oil,1957.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Battery Storage,37.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Other,4111.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,Central,Total,92188.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Coal,7490.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Natural Gas,35943.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Hydro,721.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Solar,319.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Oil,995.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Battery Storage,6.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Other,1741.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2020,South,Total,52768.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Coal,12001.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Natural Gas,11725.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Nuclear,1871.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Hydro,692.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Wind,20948.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Solar,1269.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Oil,2132.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Battery Storage,18.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Other,1743.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,North,Total,52402.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Coal,33629.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Natural Gas,34005.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Hydro,1070.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Wind,7901.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Solar,1677.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Oil,1909.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Battery Storage,37.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Other,4100.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,Central,Total,92406.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Coal,6769.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Natural Gas,36852.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Hydro,721.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Solar,328.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Oil,995.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Battery Storage,6.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Other,1698.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2021,South,Total,52923.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Coal,11886.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Natural Gas,11710.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Nuclear,1871.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Hydro,690.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Wind,22065.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Solar,1462.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Oil,2133.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Battery Storage,19.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Other,1739.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,North,Total,53579.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Coal,31646.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Natural Gas,35264.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Hydro,1066.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Wind,8095.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Solar,2553.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Oil,1841.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Battery Storage,43.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Other,2867.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,Central,Total,91454.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Coal,6769.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Natural Gas,36852.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Hydro,721.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Solar,590.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Oil,995.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Battery Storage,16.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Other,1698.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2022,South,Total,53195.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Coal,10678.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Natural Gas,11713.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Nuclear,1871.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Hydro,690.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Wind,22592.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Solar,1611.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Oil,2132.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Battery Storage,24.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Other,1739.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,North,Total,53054.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Coal,30037.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Natural Gas,35216.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Hydro,1066.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Wind,8953.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Solar,4218.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Oil,1792.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Battery Storage,46.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Other,2867.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,Central,Total,92273.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Coal,6769.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Natural Gas,36827.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Hydro,721.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Wind,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Solar,1535.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Oil,995.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Battery Storage,16.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Other,1729.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2023,South,Total,54145.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Coal,10660.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Natural Gas,11805.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Nuclear,1871.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Hydro,690.3,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Pumped Storage,0.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Wind,22627.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Solar,2396.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Oil,2053.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Battery Storage,29.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Other,1739.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,North,Total,53874.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Coal,28588.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Natural Gas,34470.1,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Nuclear,5688.9,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Hydro,1066.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Pumped Storage,2386.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Wind,9355.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Solar,7397.8,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Oil,1773.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Battery Storage,95.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Other,2189.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,Central,Total,93011.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Coal,6769.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Natural Gas,35551.6,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Nuclear,5520.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Hydro,721.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Pumped Storage,30.0,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Wind,184.5,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Solar,3793.7,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Oil,995.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Battery Storage,16.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Other,1724.4,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2024,South,Total,55307.2,trailing,False,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Coal,10646.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Natural Gas,11690.6,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Nuclear,1871.2,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Hydro,690.3,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Pumped Storage,0.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Wind,23000.8,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Solar,2792.3,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Oil,1821.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Battery Storage,31.9,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Other,1739.8,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,North,Total,54283.9,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Coal,28588.1,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Natural Gas,34935.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Nuclear,5688.9,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Hydro,1066.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Pumped Storage,2386.8,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Wind,9907.8,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Solar,13181.6,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Oil,1771.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Battery Storage,755.8,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Other,2189.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,Central,Total,100472.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Coal,6769.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Natural Gas,36274.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Nuclear,5520.7,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Hydro,721.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Pumped Storage,30.0,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Wind,328.5,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Solar,4838.2,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Oil,995.2,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Battery Storage,16.2,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Other,1724.4,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2025,South,Total,57218.6,trailing,True,EIA-860M reconstructed Dec-31 snapshot (unit Operating Year / Retirement Year). Estimated.
+2026,North,Coal,9880.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Natural Gas,11937.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Hydro,694.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Wind,23250.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Solar,3336.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Oil,1817.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Battery Storage,270.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Other,1734.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,North,Total,54793.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Coal,24900.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Natural Gas,37645.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Hydro,1066.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Wind,10107.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Solar,19140.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Oil,1771.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Battery Storage,1068.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Other,2189.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,Central,Total,105966.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Natural Gas,36276.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Hydro,721.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Solar,5750.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Battery Storage,16.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2026,South,Total,58315.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Coal,9880.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Natural Gas,11979.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Hydro,694.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Wind,23600.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Solar,3550.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Oil,1834.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Battery Storage,1087.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Other,1734.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,North,Total,56233.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Coal,20821.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Natural Gas,38774.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Wind,10877.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Solar,22906.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Battery Storage,1992.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,Central,Total,108485.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Natural Gas,35734.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Hydro,721.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Solar,8450.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Battery Storage,248.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2027,South,Total,60707.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Coal,9282.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Natural Gas,12399.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Hydro,694.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Oil,1837.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Other,1734.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,North,Total,57462.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Coal,17542.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Natural Gas,40295.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Wind,10877.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Solar,26687.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Battery Storage,2142.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,Central,Total,110659.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Natural Gas,39395.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Hydro,770.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Solar,9736.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Battery Storage,643.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2028,South,Total,66097.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Coal,9282.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Natural Gas,12046.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Hydro,694.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Oil,1833.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Other,1734.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,North,Total,57105.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Coal,16430.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Natural Gas,42319.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Wind,11255.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Solar,27467.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Battery Storage,2322.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,Central,Total,112909.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Natural Gas,40851.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Hydro,770.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Solar,11947.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Battery Storage,1693.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2029,South,Total,70814.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Coal,8343.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Natural Gas,11686.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Hydro,694.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Oil,1674.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Other,1704.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,North,Total,55617.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Coal,15899.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Natural Gas,44334.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Wind,11255.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Solar,27467.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Battery Storage,2322.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,Central,Total,114392.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Natural Gas,45528.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Hydro,770.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Solar,12207.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Battery Storage,1693.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2030,South,Total,75751.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Coal,8343.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Natural Gas,11361.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Hydro,694.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Oil,1674.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Other,1704.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,North,Total,55292.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Coal,15368.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Natural Gas,47234.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Wind,11255.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Solar,27467.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Battery Storage,2322.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,Central,Total,116761.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Natural Gas,46974.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Hydro,795.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Solar,12207.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Battery Storage,1693.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2031,South,Total,77222.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Coal,8343.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Natural Gas,11361.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Hydro,694.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Oil,1674.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Other,1704.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,North,Total,55292.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Coal,13728.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Natural Gas,47930.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Wind,11255.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Solar,27467.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Battery Storage,2322.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,Central,Total,115818.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Natural Gas,46974.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Hydro,795.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Solar,12207.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Battery Storage,1693.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2032,South,Total,77222.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Coal,8343.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Natural Gas,11361.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Hydro,566.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Oil,1674.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Other,1704.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,North,Total,55165.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Coal,13728.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Natural Gas,47930.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Wind,11255.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Solar,27467.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Battery Storage,2322.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,Central,Total,115818.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Natural Gas,46078.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Hydro,795.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Solar,12207.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Battery Storage,1693.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2033,South,Total,76327.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Coal,8343.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Natural Gas,11361.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Hydro,552.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Oil,1674.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Other,1656.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,North,Total,55104.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Coal,13728.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Natural Gas,48930.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Wind,11255.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Solar,27467.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Battery Storage,2322.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,Central,Total,116818.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Natural Gas,45536.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Hydro,795.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Solar,12207.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Battery Storage,1693.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2034,South,Total,75785.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Coal,8343.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Natural Gas,11361.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Hydro,544.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Oil,1674.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Other,1656.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,North,Total,55095.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Coal,13728.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Natural Gas,48930.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Nuclear,5688.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Wind,11255.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Solar,27467.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Battery Storage,2322.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,Central,Total,116818.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Natural Gas,45536.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Hydro,795.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Solar,12207.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Battery Storage,1693.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2035,South,Total,75785.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Coal,8343.6,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Natural Gas,11361.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Nuclear,1871.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Hydro,544.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Pumped Storage,0.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Wind,24226.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Solar,4319.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Oil,1674.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Battery Storage,1097.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Other,1656.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,North,Total,55095.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Coal,13728.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Natural Gas,48930.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Nuclear,5865.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Hydro,1077.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Pumped Storage,2386.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Wind,11255.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Solar,27467.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Oil,1770.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Battery Storage,2322.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Other,2190.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,Central,Total,116995.3,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Coal,6769.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Natural Gas,45536.1,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Nuclear,5520.7,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Hydro,795.8,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Pumped Storage,30.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Wind,511.5,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Solar,12207.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Oil,995.2,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Battery Storage,1693.9,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Other,1724.4,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"
+2036,South,Total,75785.0,forward,False,"EIA-860M Dec-31-2025 anchor + v2 changelog (EIA-860M + manual corrections: Cayuga, Legend, DTE/Consumers gas, Fermi 2 uprate, Belle River/Petersburg fuel switches, Campbell/Traceview/Andrus/Steel River retimes)"

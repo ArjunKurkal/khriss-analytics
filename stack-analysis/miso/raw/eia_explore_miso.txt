@@ -1,0 +1,727 @@
+EIA-860M September 2026 vintage — BA = MISO exploration
+Source: /home/hatch/workspace/pjm-capacity-stack/raw/eia860m_sep2026.xlsx
+Logic mirrored from /home/hatch/workspace/pjm-capacity-stack/build_stack.py load_eia_sheet/eia_fuel/eia_changelog, BA='MISO' instead of 'PJM'. Sheets read with pd.read_excel(header=2).
+Fuel buckets: Coal ANT/BIT/LIG/SUB/WC; Natural Gas NG; Nuclear NUC; Solar SUN; Wind WND; Hydro WAT; Pumped Storage prime mover PS; Battery prime mover BA/FW; Oil DFO/RFO/JF/KER/PC; else Other.
+Raw sheet row counts (all BAs): Operating 28486, Planned 2360, Retired 7323
+BA=MISO row counts: Operating 5035, Planned 348, Retired 1342
+
+================================================================================
+1. OPERATING SHEET, BA=MISO — ALL STATUSES
+Units: 5035  Total nameplate: 217,054.2 MW  Total net summer: 199,983.0 MW  Total net winter: 206,862.5 MW
+Status values present (units / nameplate MW):
+                                                                                 units  nameplate_MW  netsummer_MW
+Status                                                                                                            
+(OA) Out of service but expected to return to service in next calendar year         30        1617.2        1423.0
+(OP) Operating                                                                    4479      212381.6      195915.6
+(OS) Out of service and NOT expected to return to service in next calendar year     83        1522.0        1225.1
+(SB) Standby/Backup: available for service but not normally used                   443        1533.4        1419.3
+
+By fuel — ALL statuses:
+                  units  nameplate_MW  netsummer_MW  netwinter_MW
+fuel                                                             
+Coal              115.0       46003.6       41897.3       42387.5
+Natural Gas      1044.0       83111.8       72185.7       77899.7
+Nuclear            14.0       13080.8       12287.8       12596.8
+Solar            1402.0       24862.7       24768.6       24697.4
+Wind              429.0       33687.1       33451.2       33461.8
+Hydro             623.0        2482.8        2201.9        2191.1
+Pumped Storage      9.0        2416.8        2649.8        2652.2
+Battery Storage    42.0        1175.9        1167.7        1167.7
+Oil               980.0        4584.3        4062.1        4431.7
+Other             377.0        5648.4        5310.9        5376.6
+TOTAL            5035.0      217054.2      199983.0      206862.5
+
+OP-status only: '(OP) Operating'
+Units: 4479  Nameplate: 212,381.6 MW  Net summer: 195,915.6 MW
+                  units  nameplate_MW  netsummer_MW
+fuel                                               
+Coal              106.0       44992.5       41101.5
+Natural Gas       995.0       81545.3       70846.8
+Nuclear            13.0       12269.0       11519.3
+Solar            1401.0       24861.7       24767.6
+Wind              422.0       33676.2       33441.5
+Hydro             597.0        2449.7        2169.4
+Pumped Storage      9.0        2416.8        2649.8
+Battery Storage    40.0        1173.9        1165.7
+Oil               561.0        3733.5        3275.2
+Other             335.0        5263.0        4978.8
+TOTAL            4479.0      212381.6      195915.6
+
+Non-OP (Status != '(OP) Operating') — by fuel, and by status x fuel:
+Units: 556  Nameplate: 4,672.6 MW  Net summer: 4,067.4 MW
+                 units  nameplate_MW  netsummer_MW
+fuel                                              
+Coal               9.0        1011.1         795.8
+Natural Gas       49.0        1566.5        1338.9
+Nuclear            1.0         811.8         768.5
+Solar              1.0           1.0           1.0
+Wind               7.0          10.9           9.7
+Hydro             26.0          33.1          32.5
+Pumped Storage     0.0           0.0           0.0
+Battery Storage    2.0           2.0           2.0
+Oil              419.0         850.8         786.9
+Other             42.0         385.4         332.1
+TOTAL            556.0        4672.6        4067.4
+
+fuel                                                                             Battery Storage    Coal  Hydro  Natural Gas  Nuclear    Oil  Other  Solar  Wind   TOTAL
+Status                                                                                                                                                                  
+(OA) Out of service but expected to return to service in next calendar year                  0.0    17.0    8.1        741.7    811.8    0.0   34.0    1.0   3.6  1617.2
+(OS) Out of service and NOT expected to return to service in next calendar year              0.0   987.9   25.0        171.8      0.0   21.5  308.5    0.0   7.3  1522.0
+(SB) Standby/Backup: available for service but not normally used                             2.0     6.2    0.0        653.0      0.0  829.3   42.9    0.0   0.0  1533.4
+TOTAL                                                                                        2.0  1011.1   33.1       1566.5    811.8  850.8  385.4    1.0  10.9  4672.6
+
+Non-OP unit counts by status x fuel:
+fuel                                                                             Battery Storage  Coal  Hydro  Natural Gas  Nuclear  Oil  Other  Solar  Wind  TOTAL
+Status                                                                                                                                                             
+(OA) Out of service but expected to return to service in next calendar year                    0     1     12            9        1    0      4      1     2     30
+(OS) Out of service and NOT expected to return to service in next calendar year                0     7     14           12        0   16     29      0     5     83
+(SB) Standby/Backup: available for service but not normally used                               2     1      0           28        0  403      9      0     0    443
+TOTAL                                                                                          2     9     26           49        1  419     42      1     7    556
+
+================================================================================
+2. OPERATING SHEET, BA=MISO, OPERATING YEAR == 2026 (in service Jan-Sep 2026)
+Units: 89  Nameplate: 5,135.1 MW  Net summer: 5,108.1 MW
+                 units  nameplate_MW  netsummer_MW
+fuel                                              
+Coal               0.0           0.0           0.0
+Natural Gas        3.0         258.1         231.5
+Nuclear            0.0           0.0           0.0
+Solar             76.0        4050.6        4050.6
+Wind               2.0         450.0         450.0
+Hydro              2.0           4.4           4.0
+Pumped Storage     0.0           0.0           0.0
+Battery Storage    6.0         372.0         372.0
+Oil                0.0           0.0           0.0
+Other              0.0           0.0           0.0
+TOTAL             89.0        5135.1        5108.1
+
+Unit list (by month):
+                               Plant Name Plant State  Plant ID Generator ID            fuel  Nameplate Capacity (MW)  Net Summer Capacity (MW)  Operating Month  Operating Year         Status                             Technology Energy Source Code Prime Mover Code
+                       Adelite Solar, LLC          MO   68927.0        ADELI           Solar                     25.0                      25.0              1.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                         Badger Wind, LLC          ND   64342.0         5555            Wind                    250.0                     250.0              1.0          2026.0 (OP) Operating                   Onshore Wind Turbine                WND               WT
+                            Kelso 2 Solar          MO   69321.0        KLSO2           Solar                    149.0                     149.0              1.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                           Muskegon Solar          MI   65572.0          MSP           Solar                    250.0                     250.0              1.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                Novel Bo Hu 1 Solar (CSG)          MN   65006.0        BOHU1           Solar                      1.0                       1.0              1.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                 Petersburg Energy Center          IN   69428.0           BA Battery Storage                    250.0                     250.0              1.0          2026.0 (OP) Operating                              Batteries                MWH               BA
+                 Petersburg Energy Center          IN   69428.0        PECPV           Solar                    250.0                     250.0              1.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                        Prairie Solar LLC          IL   64536.0        KOV4A           Solar                    135.0                     135.0              1.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                        Sterlington Solar          LA   66681.0          STS           Solar                     49.0                      49.0              1.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                          USS Beard Solar          IL   68757.0        USBRD           Solar                      3.5                       3.5              1.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                                 Waterloo          IL     971.0           14     Natural Gas                      8.0                       7.5              1.0          2026.0 (OP) Operating   Natural Gas Fired Combustion Turbine                 NG               GT
+                      IL - Nexamp Argenta          IL   70431.0        ARGEN           Solar                      5.0                       5.0              2.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                  IL - Nexamp Percy (CSG)          IL   70065.0        PERCY           Solar                      5.0                       5.0              2.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                      Perch Solar WI, LLC          WI   69503.0        20257           Solar                      6.0                       6.0              2.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                      Wever Solar (150MW)          IA   67538.0        BESS1 Battery Storage                     99.0                      99.0              2.0          2026.0 (OP) Operating                              Batteries                MWH               BA
+                                Wheatland          IN   68534.0        OEIN1           Solar                    150.0                     150.0              2.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                                  Wheaton          WI    4014.0        WHT08     Natural Gas                    249.1                     223.1              2.0          2026.0 (OP) Operating   Natural Gas Fired Combustion Turbine                 NG               GT
+               Big Creek Solar (IL) (CSG)          IL   69043.0         BC25           Solar                      5.0                       5.0              3.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                               Lotus Wind          IL   68192.0        LOTUS            Wind                    200.0                     200.0              3.0          2026.0 (OP) Operating                   Onshore Wind Turbine                WND               WT
+                    Newton Solar BESS LLC          IL   65401.0           PV           Solar                     51.8                      51.8              3.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                Renegade Solar Energy LLC          MI   69476.0        RNGDE           Solar                    100.0                     100.0              3.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                              Blount BESS          WI   69311.0         BLTB Battery Storage                      7.0                       7.0              4.0          2026.0 (OP) Operating                              Batteries                MWH               BA
+                       Cherry Valley PV I          AR   67992.0        CHVLY           Solar                    135.0                     135.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                          Cooks Mill PV I          IL   67991.0         CKML           Solar                     99.0                      99.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                       Crooked Creek PV I          IL   67993.0        CRDCK           Solar                     99.0                      99.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                          Heartwood Solar          MI   67677.0          HWS           Solar                    150.0                     150.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                            Huiskamp BESS          WI   69312.0         HKPB Battery Storage                      7.0                       7.0              4.0          2026.0 (OP) Operating                              Batteries                MWH               BA
+         IL-Forefront Ameren-St. Joseph 1          IL   70351.0        JOE01           Solar                      2.0                       2.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+         IL-Forefront-Ameren-St. Joseph 2          IL   70352.0        JOE02           Solar                      2.0                       2.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                  Mission Road Solar Park          MI   67756.0        MSRSP           Solar                    172.0                     172.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                    Newton Solar BESS LLC          IL   65401.0           BA Battery Storage                      2.0                       2.0              4.0          2026.0 (OP) Operating                              Batteries                MWH               BA
+                           Redfield Solar          AR   69394.0        REDF1           Solar                    100.0                     100.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+           Strawberry Creek Solar WI, LLC          WI   69504.0        20258           Solar                      6.0                       6.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+      Sunset Road Solar 3 Community Solar          IL   69231.0          SR3           Solar                      5.0                       5.0              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+      Sunset Road Solar 4 Community Solar          IL   69232.0          SR4           Solar                      2.5                       2.5              4.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                      West Middleton BESS          WI   69313.0          WMB Battery Storage                      7.0                       7.0              4.0          2026.0 (OP) Operating                              Batteries                MWH               BA
+                    AC IL - Hillsboro CSG          IL   69787.0        HILLS           Solar                      5.0                       5.0              5.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                      Ashley Solar LLC PV          IL   68974.0        13526           Solar                      5.0                       5.0              5.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                 Blue Iris Solar, LLC CSG          IL   69850.0        BLUIR           Solar                      5.0                       5.0              5.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                     Branch Solar Project          MI   66697.0          BS1           Solar                    200.0                     200.0              5.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                    Fish Creek Solar Park          MI   67754.0        FSCSP           Solar                    146.2                     146.2              5.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                      IL - Nexamp Kewanee          IL   70064.0        KWNEE           Solar                      5.0                       5.0              5.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                   NL IL - Esmen East CSG          IL   69308.0        ESMNE           Solar                      5.0                       5.0              5.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                   SPG IL Green River CSG          IL   69789.0        GREEN           Solar                      2.8                       2.8              5.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                               1150th Sun          IL   70292.0        14591           Solar                      2.0                       2.0              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                            Archtop Solar          IL   69521.0        ARCH1           Solar                     61.4                      61.4              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                            Archtop Solar          IL   69521.0        ARCH2           Solar                     53.3                      53.3              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                            Archtop Solar          IL   69521.0        ARCH3           Solar                     36.9                      36.9              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                            Archtop Solar          IL   69521.0        ARCH4           Solar                     24.6                      24.6              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                            Archtop Solar          IL   69521.0        ARCH5           Solar                     49.2                      49.2              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                            Archtop Solar          IL   69521.0        ARCH6           Solar                     61.4                      61.4              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                                 Byllesby          MN   50328.0        NOR-1           Hydro                      2.2                       2.0              6.0          2026.0 (OP) Operating             Conventional Hydroelectric                WAT               HY
+                                 Byllesby          MN   50328.0        SOU-2           Hydro                      2.2                       2.0              6.0          2026.0 (OP) Operating             Conventional Hydroelectric                WAT               HY
+                CVE US IL TAMAROA 316 LLC          IL   69845.0        TAMAR           Solar                      3.6                       3.6              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                         Corfee Solar LLC          IL   69849.0        CORFE           Solar                      5.0                       5.0              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+Gerstenschlager Family Solar 1, LLC (CSG)          IL   69846.0        GRST1           Solar                      5.0                       5.0              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                       Granite City Solar          IL   70520.0        14233           Solar                      4.0                       4.0              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+        McFarland Schools Customer Hosted          WI   68501.0          PV1           Solar                      1.4                       1.4              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                          Mondu Solar LLC          LA   68263.0        M4515           Solar                    150.0                     150.0              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                               SR Arcadia          LA   68094.0        ARCAD           Solar                      4.5                       4.5              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                                 SR Dumas          AR   68100.0        DUMAS           Solar                      4.8                       4.8              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                                SR Fisher          AR   68101.0        FISHR           Solar                      4.8                       4.8              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                        Salvia Solar, LLC          IL   69851.0        SALVI           Solar                      5.0                       5.0              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                         Sherco Solar III          MN   68777.0        SHS03           Solar                    250.0                     250.0              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+              Split Rail Solar Energy LLC          MO   69475.0        SPTRL           Solar                    300.0                     300.0              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                    Wild Cat Solar 22 LLC          IL   69843.0        WILD2           Solar                      2.3                       2.3              6.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+       CVE US IL Ridge Farm 324 LLC (CSG)          IL   69840.0        RIDGF           Solar                      2.5                       2.5              7.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                   Paris Solar, LLC (CSG)          IL   69838.0        PARIS           Solar                      5.0                       5.0              7.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+             Ridge Farm Renewables LLC PV          IL   68973.0        13359           Solar                      4.0                       4.0              7.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                                 Thoroman          IL   69217.0        11219           Solar                      2.5                       2.5              7.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                           Bos Dairy, LLC          IN   57625.0         BOS5     Natural Gas                      1.0                       0.9              8.0          2026.0 (OP) Operating Natural Gas Internal Combustion Engine                 NG               IC
+                          Cottonwood - IL          IL   70444.0        11131           Solar                      4.9                       4.9              8.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                 ILL060-Sangamon-Atchison          IL   69053.0         IL60           Solar                      2.0                       2.0              8.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                  Lake Iris Solar Project          MI   66745.0         LIS1           Solar                    100.0                     100.0              8.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                             Northern Sun          MN   69797.0         POPL           Solar                      1.0                       1.0              8.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                                    Peony          IL   70427.0        11131           Solar                      4.9                       4.9              8.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                          Sebree Solar II          KY   70425.0        SB002           Solar                    150.0                     150.0              8.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                    Spillertown CSG 1 LLC          IL   69848.0        SPIL1           Solar                      5.0                       5.0              8.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                    Spillertown CSG 2 LLC          IL   69847.0        SPIL2           Solar                      5.0                       5.0              8.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+              Bluestar Solar Project, LLC          IL   69841.0        BLUST           Solar                      5.0                       5.0              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                    Casey Fork Solar, LLC          IL   69578.0        CFSPV           Solar                    150.0                     150.0              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                     Clark Solar-Longwood          WI   69933.0        CLARK           Solar                      2.5                       2.5              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                    Cold Creek Solar Park          MI   69471.0        CLCSP           Solar                    100.0                     100.0              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+             Dragon's Breath Solar LLC PV          IL   70446.0        33699           Solar                      5.0                       5.0              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                         Ember Sun LLC PV          IL   70447.0        45629           Solar                      3.0                       3.0              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                Jackson County Solar, LLC          MI   69647.0        JCKSN           Solar                    125.0                     125.0              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                      McCray Solar 1, LLC          IL   69852.0        MCCR1           Solar                      5.0                       5.0              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                                    Ringe          MN   69938.0        RINGE           Solar                      2.5                       2.5              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+                         SR Cherry Valley          AR   68097.0        CHERR           Solar                      4.8                       4.8              9.0          2026.0 (OP) Operating                     Solar Photovoltaic                SUN               PV
+
+================================================================================
+3. PLANNED SHEET, BA=MISO, PLANNED OPERATION YEAR 2026-2031
+All BA=MISO Planned rows: 348  Planned Operation Year 2026-2031: 346 units, 46,411.4 MW nameplate, 44,055.3 MW net summer
+Planned rows with missing Planned Operation Year: 0  (nameplate 0.0 MW)
+Planned Operation Year distribution (all BA=MISO Planned rows):
+        units  nameplate_MW
+poy                        
+2026.0    103        5042.0
+2027.0    120       11072.2
+2028.0     65       13962.9
+2029.0     31        6920.2
+2030.0     18        7047.4
+2031.0      9        2366.7
+2034.0      2        1000.0
+
+MW by year x fuel (nameplate MW), 2026-2031:
+fuel    Coal  Natural Gas  Nuclear    Solar    Wind  Hydro  Pumped Storage  Battery Storage   Oil  Other    TOTAL
+poy                                                                                                              
+2026.0   0.0       1315.0      0.0   3364.0   183.0    0.0             0.0            180.0   0.0    0.0   5042.0
+2027.0   0.0       1187.4      0.0   6680.2  1199.9   10.4             0.0           1973.2  19.5    1.6  11072.2
+2028.0   0.0       6893.2      0.0   5837.0   626.0   48.6             0.0            555.0   3.1    0.0  13962.9
+2029.0   0.0       3071.2      0.0   2491.0   378.0    0.0             0.0            980.0   0.0    0.0   6920.2
+2030.0   0.0       6037.4      0.0    760.0     0.0    0.0             0.0            250.0   0.0    0.0   7047.4
+2031.0   0.0       2340.9      0.0      0.0     0.0   25.8             0.0              0.0   0.0    0.0   2366.7
+TOTAL    0.0      20845.1      0.0  19132.2  2386.9   84.8             0.0           3938.2  22.6    1.6  46411.4
+
+Unit counts by year x fuel, 2026-2031:
+fuel    Coal  Natural Gas  Nuclear  Solar  Wind  Hydro  Pumped Storage  Battery Storage  Oil  Other  TOTAL
+poy                                                                                                       
+2026.0     0            4        0     96     1      0               0                2    0      0    103
+2027.0     0           13        0     75     6      4               0               15    6      1    120
+2028.0     0           23        0     28     3      6               0                4    1      0     65
+2029.0     0           15        0     10     2      0               0                4    0      0     31
+2030.0     0           14        0      3     0      0               0                1    0      0     18
+2031.0     0            6        0      0     0      3               0                0    0      0      9
+TOTAL      0           75        0    212    12     13               0               26    7      1    346
+
+MW by year (totals):
+        units  nameplate_MW  netsummer_MW
+poy                                      
+2026.0    103        5042.0        4893.2
+2027.0    120       11072.2       10719.2
+2028.0     65       13962.9       13014.2
+2029.0     31        6920.2        6723.8
+2030.0     18        7047.4        6464.5
+2031.0      9        2366.7        2240.4
+
+By fuel (2026-2031 totals):
+                 units  nameplate_MW  netsummer_MW
+fuel                                              
+Coal               0.0           0.0           0.0
+Natural Gas       75.0       20845.1       19054.7
+Nuclear            0.0           0.0           0.0
+Solar            212.0       19132.2       18949.9
+Wind              12.0        2386.9        2019.3
+Hydro             13.0          84.8          69.2
+Pumped Storage     0.0           0.0           0.0
+Battery Storage   26.0        3938.2        3938.0
+Oil                7.0          22.6          22.6
+Other              1.0           1.6           1.6
+TOTAL            346.0       46411.4       44055.3
+
+By status x fuel (nameplate MW), 2026-2031:
+fuel                                                                  Battery Storage  Hydro  Natural Gas   Oil  Other    Solar    Wind    TOTAL
+Status                                                                                                                                          
+(L) Regulatory approvals pending. Not under construction                        405.0   25.8       6364.6   0.0    0.0   4004.6   400.0  11200.0
+(P) Planned for installation, but regulatory approvals not initiated           1107.7   48.6      10168.8   0.0    0.0   4373.0  1008.5  16706.6
+(T) Regulatory approvals received. Not under construction                       160.0    0.0       1319.6   3.1    1.6    458.7   495.4   2438.4
+(TS) Construction complete, but not yet in commercial operation                 220.0    0.0       1306.0   0.0    0.0    752.5   183.0   2461.5
+(U) Under construction, less than or equal to 50 percent complete              1765.5   10.4       1669.6   2.5    0.0   6995.2   300.0  10743.2
+(V) Under construction, more than 50 percent complete                           280.0    0.0         16.5  17.0    0.0   2548.2     0.0   2861.7
+TOTAL                                                                          3938.2   84.8      20845.1  22.6    1.6  19132.2  2386.9  46411.4
+
+By status x fuel (unit counts), 2026-2031:
+fuel                                                                  Battery Storage  Hydro  Natural Gas  Oil  Other  Solar  Wind  TOTAL
+Status                                                                                                                                   
+(L) Regulatory approvals pending. Not under construction                            3      3           23    0      0     32     2     63
+(P) Planned for installation, but regulatory approvals not initiated                6      6           32    0      0     25     5     74
+(T) Regulatory approvals received. Not under construction                           3      0            8    1      1     14     3     30
+(TS) Construction complete, but not yet in commercial operation                     1      0            3    0      0     12     1     17
+(U) Under construction, less than or equal to 50 percent complete                  10      4            7    1      0     63     1     86
+(V) Under construction, more than 50 percent complete                               3      0            2    5      0     66     0     76
+TOTAL                                                                              26     13           75    7      1    212    12    346
+
+Status values in Planned 2026-2031 (units / MW):
+                                                                      units  nameplate_MW
+Status                                                                                   
+(L) Regulatory approvals pending. Not under construction                 63       11200.0
+(P) Planned for installation, but regulatory approvals not initiated     74       16706.6
+(T) Regulatory approvals received. Not under construction                30        2438.4
+(TS) Construction complete, but not yet in commercial operation          17        2461.5
+(U) Under construction, less than or equal to 50 percent complete        86       10743.2
+(V) Under construction, more than 50 percent complete                    76        2861.7
+
+TOP 20 LARGEST PLANNED ADDITIONS, 2026-2031 (by nameplate MW):
+ 1. Vista Sands Solar — WI, Plant 67551.0, Gen VISTA, Solar (SUN/PV), 1,182.0 MW nameplate / 1,182.0 MW net summer, planned 2028-12, status (L) Regulatory approvals pending. Not under construction
+ 2. Lincoln Land Energy Center — IL, Plant 62022.0, Gen GEN1, Natural Gas (NG/CS), 638.4 MW nameplate / 520.0 MW net summer, planned 2030-06, status (P) Planned for installation, but regulatory approvals not initiated
+ 3. Lincoln Land Energy Center — IL, Plant 62022.0, Gen GEN2, Natural Gas (NG/CS), 638.4 MW nameplate / 520.0 MW net summer, planned 2030-06, status (P) Planned for installation, but regulatory approvals not initiated
+ 4. Arkansas Cypress Solar Station — AR, Plant 69989.0, Gen PB1, Solar (SUN/PV), 600.0 MW nameplate / 600.0 MW net summer, planned 2029-01, status (P) Planned for installation, but regulatory approvals not initiated
+ 5. Steel River Solar Phase 1 — AR, Plant 70397.0, Gen SRSP1, Solar (SUN/PV), 500.0 MW nameplate / 500.0 MW net summer, planned 2028-08, status (U) Under construction, less than or equal to 50 percent complete
+ 6. Steel River Solar Phase 2 — AR, Plant 70398.0, Gen SRSP2, Solar (SUN/PV), 500.0 MW nameplate / 500.0 MW net summer, planned 2029-07, status (U) Under construction, less than or equal to 50 percent complete
+ 7. Steel River Solar Phase 3 — AR, Plant 70399.0, Gen SRSP3, Solar (SUN/PV), 500.0 MW nameplate / 500.0 MW net summer, planned 2030-07, status (U) Under construction, less than or equal to 50 percent complete
+ 8. Hecate Energy Sunfish Solar LLC — MI, Plant 70522.0, Gen SSLR, Solar (SUN/PV), 499.0 MW nameplate / 499.0 MW net summer, planned 2028-12, status (L) Regulatory approvals pending. Not under construction
+ 9. Waterford 6 — LA, Plant 69445.0, Gen CT1, Natural Gas (NG/CT), 478.0 MW nameplate / 420.0 MW net summer, planned 2030-06, status (P) Planned for installation, but regulatory approvals not initiated
+10. Jefferson Power Station — AR, Plant 69185.0, Gen JPSCT, Natural Gas (NG/CT), 478.0 MW nameplate / 420.0 MW net summer, planned 2029-11, status (L) Regulatory approvals pending. Not under construction
+11. Waterford 5 — LA, Plant 69184.0, Gen WF5CT, Natural Gas (NG/CT), 478.0 MW nameplate / 420.0 MW net summer, planned 2029-06, status (T) Regulatory approvals received. Not under construction
+12. Westlake Power Station — LA, Plant 69426.0, Gen CT1, Natural Gas (NG/CT), 477.7 MW nameplate / 390.0 MW net summer, planned 2030-10, status (P) Planned for installation, but regulatory approvals not initiated
+13. Vicksburg Advanced Power Station — MS, Plant 69223.0, Gen GT1, Natural Gas (NG/CT), 477.7 MW nameplate / 422.8 MW net summer, planned 2028-08, status (U) Under construction, less than or equal to 50 percent complete
+14. Traceview Advanced Power Station — MS, Plant 70187.0, Gen CT1, Natural Gas (NG/CT), 477.7 MW nameplate / 422.8 MW net summer, planned 2028-08, status (U) Under construction, less than or equal to 50 percent complete
+15. Delta Blues Advanced Power Station — MS, Plant 67914.0, Gen 1A, Natural Gas (NG/CT), 477.0 MW nameplate / 422.2 MW net summer, planned 2028-05, status (L) Regulatory approvals pending. Not under construction
+16. Richland Parish Power Station 1&2 — LA, Plant 69449.0, Gen 2A, Natural Gas (NG/CT), 469.3 MW nameplate / 435.4 MW net summer, planned 2030-03, status (P) Planned for installation, but regulatory approvals not initiated
+17. Pointe Coupee Power Station — LA, Plant 69944.0, Gen PC3A, Natural Gas (NG/CT), 469.3 MW nameplate / 435.4 MW net summer, planned 2031-12, status (P) Planned for installation, but regulatory approvals not initiated
+18. Richland Parish Power Station 1&2 — LA, Plant 69449.0, Gen 1A, Natural Gas (NG/CT), 469.3 MW nameplate / 435.4 MW net summer, planned 2030-03, status (P) Planned for installation, but regulatory approvals not initiated
+19. Pointe Coupee Power Station — LA, Plant 69944.0, Gen PC1A, Natural Gas (NG/CT), 469.3 MW nameplate / 435.4 MW net summer, planned 2031-10, status (P) Planned for installation, but regulatory approvals not initiated
+20. Franklin Farms 1&2 — LA, Plant 68214.0, Gen 1A, Natural Gas (NG/CT), 469.3 MW nameplate / 435.4 MW net summer, planned 2028-12, status (L) Regulatory approvals pending. Not under construction
+
+================================================================================
+4. RETIRED SHEET, BA=MISO, RETIREMENT YEAR == 2026
+All BA=MISO Retired rows: 1342  Retirement Year == 2026: 8 units, 55.8 MW nameplate, 54.4 MW net summer
+Retirement Year distribution (all BA=MISO Retired rows):
+        units  nameplate_MW
+ry                         
+2002.0     42         651.8
+2003.0     22         183.8
+2004.0     24         293.0
+2005.0     18         142.9
+2006.0     36         194.2
+2007.0     23         377.8
+2008.0     22          90.6
+2009.0     30         641.0
+2010.0     65        1513.2
+2011.0     81        2429.9
+2012.0     82        1287.0
+2013.0    103        3387.1
+2014.0     54         582.7
+2015.0     82        2590.9
+2016.0     80        7849.2
+2017.0     60        1551.9
+2018.0     93        5645.7
+2019.0     80        4297.2
+2020.0     74        3353.5
+2021.0     82        3840.1
+2022.0     49        3894.6
+2023.0     38        3635.5
+2024.0     71        4389.4
+2025.0     23         460.4
+2026.0      8          55.8
+
+                 units  nameplate_MW  netsummer_MW
+fuel                                              
+Coal               0.0           0.0           0.0
+Natural Gas        5.0          46.9          45.5
+Nuclear            0.0           0.0           0.0
+Solar              0.0           0.0           0.0
+Wind               0.0           0.0           0.0
+Hydro              0.0           0.0           0.0
+Pumped Storage     0.0           0.0           0.0
+Battery Storage    0.0           0.0           0.0
+Oil                2.0           3.6           3.6
+Other              1.0           5.3           5.3
+TOTAL              8.0          55.8          54.4
+
+Unit list, Retirement Year 2026:
+          Plant Name Plant State  Plant ID Generator ID        fuel  Nameplate Capacity (MW)  Net Summer Capacity (MW)  Retirement Month  Retirement Year                             Technology Energy Source Code Prime Mover Code
+       Mountain Lake          MN    1998.0            2 Natural Gas                      1.1                       0.9               1.0           2026.0 Natural Gas Internal Combustion Engine                 NG               IC
+Glen Ullin Station 6          ND   57172.0            1       Other                      5.3                       5.3               6.0           2026.0                              All Other                 WH               ST
+           Wyandotte          MI    1866.0            4 Natural Gas                     11.5                      10.5               6.0           2026.0              Natural Gas Steam Turbine                 NG               ST
+           Wyandotte          MI    1866.0            7 Natural Gas                     32.0                      32.0               6.0           2026.0              Natural Gas Steam Turbine                 NG               ST
+      Bos Dairy, LLC          IN   57625.0         BOS4 Natural Gas                      1.0                       0.9               7.0           2026.0 Natural Gas Internal Combustion Engine                 NG               IC
+       Mountain Lake          MN    1998.0            5 Natural Gas                      1.3                       1.2               9.0           2026.0 Natural Gas Internal Combustion Engine                 NG               IC
+       Mountain Lake          MN    1998.0            6         Oil                      1.8                       1.8               9.0           2026.0                      Petroleum Liquids                DFO               IC
+       Mountain Lake          MN    1998.0            7         Oil                      1.8                       1.8               9.0           2026.0                      Petroleum Liquids                DFO               IC
+
+================================================================================
+5. OPERATING SHEET, BA=MISO, PLANNED RETIREMENTS (Planned Retirement Year 2026-2036)
+Operating units with any Planned Retirement Year: 138  In 2026-2036: 99 units, 22,929.8 MW nameplate, 20,518.0 MW net summer
+Planned Retirement Year distribution (all BA=MISO Operating rows with a planned retirement year):
+        units  nameplate_MW  netsummer_MW
+pry                                      
+2026.0     10        4581.2        3884.4
+2027.0     11        3160.8        2979.4
+2028.0     10        5718.7        5162.9
+2029.0      9        2617.4        2495.4
+2030.0     19        1571.7        1396.9
+2031.0      3        1219.9        1004.8
+2032.0      4        1643.5        1534.6
+2033.0     18        1022.7         808.9
+2034.0      9         603.7         546.4
+2035.0      6         790.2         704.3
+2037.0      4          48.0          36.0
+2040.0      4         241.9         198.5
+2044.0      3           2.4           1.4
+2045.0      3          16.1          16.1
+2047.0     10          25.2          17.2
+2050.0      8        1881.2        1667.0
+2058.0      1         238.0         209.0
+2064.0      4           3.0           2.0
+2065.0      2           1.2           0.7
+
+MW by year x fuel (nameplate MW), planned retirements 2026-2036:
+fuel       Coal  Natural Gas  Nuclear  Solar  Wind  Hydro  Pumped Storage  Battery Storage    Oil  Other    TOTAL
+pry                                                                                                              
+2026.0   3276.8       1304.4      0.0    0.0   0.0    0.0             0.0              0.0    0.0    0.0   4581.2
+2027.0   2518.6        557.3      0.0    0.0  80.0    0.0             0.0              0.0    4.0    0.9   3160.8
+2028.0   5272.6        445.5      0.0    0.0   0.0    0.6             0.0              0.0    0.0    0.0   5718.7
+2029.0   1112.0       1501.8      0.0    0.0   0.0    0.0             0.0              0.0    3.6    0.0   2617.4
+2030.0    938.7        443.5      0.0    0.0   0.0    0.0             0.0              0.0  159.1   30.4   1571.7
+2031.0      0.0       1219.9      0.0    0.0   0.0    0.0             0.0              0.0    0.0    0.0   1219.9
+2032.0   1639.8          3.7      0.0    0.0   0.0    0.0             0.0              0.0    0.0    0.0   1643.5
+2033.0      0.0        895.1      0.0    0.0   0.0  127.6             0.0              0.0    0.0    0.0   1022.7
+2034.0      0.0        542.8      0.0    0.0   0.0   13.7             0.0              0.0    0.0   47.2    603.7
+2035.0      0.0        781.4      0.0    0.0   0.0    8.8             0.0              0.0    0.0    0.0    790.2
+TOTAL   14758.5       7695.4      0.0    0.0  80.0  150.7             0.0              0.0  166.7   78.5  22929.8
+
+Unit counts by year x fuel, planned retirements 2026-2036:
+fuel    Coal  Natural Gas  Nuclear  Solar  Wind  Hydro  Pumped Storage  Battery Storage  Oil  Other  TOTAL
+pry                                                                                                       
+2026.0     7            3        0      0     0      0               0                0    0      0     10
+2027.0     5            2        0      0     1      0               0                0    2      1     11
+2028.0     8            1        0      0     0      1               0                0    0      0     10
+2029.0     2            5        0      0     0      0               0                0    2      0      9
+2030.0     1           11        0      0     0      0               0                0    5      2     19
+2031.0     0            3        0      0     0      0               0                0    0      0      3
+2032.0     2            2        0      0     0      0               0                0    0      0      4
+2033.0     0            1        0      0     0     17               0                0    0      0     18
+2034.0     0            2        0      0     0      5               0                0    0      2      9
+2035.0     0            1        0      0     0      5               0                0    0      0      6
+TOTAL     25           31        0      0     1     28               0                0    9      5     99
+
+MW by year (totals), planned retirements:
+        units  nameplate_MW  netsummer_MW
+pry                                      
+2026.0     10        4581.2        3884.4
+2027.0     11        3160.8        2979.4
+2028.0     10        5718.7        5162.9
+2029.0      9        2617.4        2495.4
+2030.0     19        1571.7        1396.9
+2031.0      3        1219.9        1004.8
+2032.0      4        1643.5        1534.6
+2033.0     18        1022.7         808.9
+2034.0      9         603.7         546.4
+2035.0      6         790.2         704.3
+
+By fuel (2026-2036 totals):
+                 units  nameplate_MW  netsummer_MW
+fuel                                              
+Coal              25.0       14758.5       13470.8
+Natural Gas       31.0        7695.4        6705.0
+Nuclear            0.0           0.0           0.0
+Solar              0.0           0.0           0.0
+Wind               1.0          80.0          80.0
+Hydro             28.0         150.7          76.2
+Pumped Storage     0.0           0.0           0.0
+Battery Storage    0.0           0.0           0.0
+Oil                9.0         166.7         128.1
+Other              5.0          78.5          57.9
+TOTAL             99.0       22929.8       20518.0
+
+TOP 20 LARGEST PLANNED RETIREMENTS, 2026-2036 (by nameplate MW):
+ 1. Sherburne County — MN, Plant 6090.0, Gen 3, Coal (SUB/ST), 938.7 MW nameplate / 876.0 MW net summer, planned retirement 2030-12, status (OP) Operating
+ 2. J H Campbell — MI, Plant 1710.0, Gen 3, Coal (SUB/ST), 916.8 MW nameplate / 790.7 MW net summer, planned retirement 2026-11, status (OP) Operating
+ 3. Nine Mile Point — LA, Plant 1403.0, Gen 5, Natural Gas (NG/ST), 895.1 MW nameplate / 742.6 MW net summer, planned retirement 2033-06, status (OP) Operating
+ 4. Nine Mile Point — LA, Plant 1403.0, Gen 6(4), Natural Gas (NG/ST), 895.1 MW nameplate / 722.8 MW net summer, planned retirement 2031-06, status (OP) Operating
+ 5. Monroe (MI) — MI, Plant 1733.0, Gen 2, Coal (SUB/ST), 822.6 MW nameplate / 773.0 MW net summer, planned retirement 2032-12, status (OP) Operating
+ 6. Monroe (MI) — MI, Plant 1733.0, Gen 3, Coal (SUB/ST), 822.6 MW nameplate / 773.0 MW net summer, planned retirement 2028-12, status (OP) Operating
+ 7. Monroe (MI) — MI, Plant 1733.0, Gen 4, Coal (SUB/ST), 817.2 MW nameplate / 762.0 MW net summer, planned retirement 2028-12, status (OP) Operating
+ 8. Monroe (MI) — MI, Plant 1733.0, Gen 1, Coal (SUB/ST), 817.2 MW nameplate / 758.0 MW net summer, planned retirement 2032-12, status (OP) Operating
+ 9. Gerald Andrus — MS, Plant 8054.0, Gen 1, Natural Gas (NG/ST), 781.4 MW nameplate / 701.1 MW net summer, planned retirement 2035-06, status (OP) Operating
+10. Sherburne County — MN, Plant 6090.0, Gen 1, Coal (SUB/ST), 765.3 MW nameplate / 680.0 MW net summer, planned retirement 2026-12, status (OP) Operating
+11. Belle River — MI, Plant 6034.0, Gen ST1, Coal (SUB/ST), 697.5 MW nameplate / 635.0 MW net summer, planned retirement 2028-12, status (OP) Operating
+12. Belle River — MI, Plant 6034.0, Gen ST2, Coal (SUB/ST), 697.5 MW nameplate / 635.0 MW net summer, planned retirement 2028-12, status (OP) Operating
+13. Baldwin Energy Complex — IL, Plant 889.0, Gen 2, Coal (SUB/ST), 634.5 MW nameplate / 581.0 MW net summer, planned retirement 2027-12, status (OP) Operating
+14. Baldwin Energy Complex — IL, Plant 889.0, Gen 1, Coal (SUB/ST), 625.1 MW nameplate / 576.0 MW net summer, planned retirement 2027-12, status (OP) Operating
+15. Newton — IL, Plant 6017.0, Gen 1, Coal (SUB/ST), 617.4 MW nameplate / 595.0 MW net summer, planned retirement 2027-12, status (OP) Operating
+16. Allen S King — MN, Plant 1915.0, Gen 1, Coal (SUB/ST), 598.4 MW nameplate / 511.0 MW net summer, planned retirement 2028-12, status (OP) Operating
+17. Sabine — TX, Plant 3459.0, Gen 4, Natural Gas (NG/ST), 591.6 MW nameplate / 490.1 MW net summer, planned retirement 2026-10, status (OP) Operating
+18. Little Gypsy — LA, Plant 1402.0, Gen 3, Natural Gas (NG/ST), 582.2 MW nameplate / 512.7 MW net summer, planned retirement 2029-06, status (OP) Operating
+19. Columbia (WI) — WI, Plant 8023.0, Gen 2, Coal (SUB/ST), 556.0 MW nameplate / 560.3 MW net summer, planned retirement 2029-12, status (OP) Operating
+20. Columbia (WI) — WI, Plant 8023.0, Gen 1, Coal (SUB/ST), 556.0 MW nameplate / 568.0 MW net summer, planned retirement 2029-12, status (OP) Operating
+
+Overlap guard (PJM-script style): Retired-2026 units also appearing as Operating planned-retirement-2026:
+  overlap = 0 units
+Overlap guard: Operating-2026 units also in Planned-2026: 0 units
+
+================================================================================
+6. STATE DISTRIBUTION — BA=MISO OPERATING PLANTS
+MW by state (nameplate, all BA=MISO Operating units):
+             units  nameplate_MW  netsummer_MW
+Plant State                                   
+MI             735       31338.5       29487.1
+LA             240       28384.0       24962.8
+IN             327       24446.3       22043.4
+IA             658       24343.6       23256.1
+MN            1342       20034.0       18622.1
+WI             678       19727.6       18502.1
+IL             548       18625.2       17256.2
+AR             136       15218.7       13518.7
+MO             129        9457.2        8902.7
+TX              74        7663.2        6701.6
+MS              61        6405.6        5947.8
+ND              64        6183.6        6019.6
+SD              22        2865.1        2714.3
+KY              15        2206.0        1901.8
+MT               6         155.6         146.7
+
+States present: ['AR', 'IA', 'IL', 'IN', 'KY', 'LA', 'MI', 'MN', 'MO', 'MS', 'MT', 'ND', 'SD', 'TX', 'WI']  (15 states)
+States OUTSIDE expected set ['ND', 'SD', 'MN', 'WI', 'MI', 'IA', 'IL', 'IN', 'MO', 'KY', 'AR', 'LA', 'MS', 'TX']: ['MT']
+             units  nameplate_MW
+Plant State                     
+MT               6         155.6
+Outside-set plants (largest first):
+                  Plant Name Plant State  Plant ID Generator ID        fuel  Nameplate Capacity (MW)         Status
+                 Glendive GT          MT    2176.0         GT-2 Natural Gas                     43.0 (OP) Operating
+                 Glendive GT          MT    2176.0          GT1 Natural Gas                     40.7 (OP) Operating
+Diamond Willow Wind Facility          MT   56782.0         DIAW        Wind                     30.0 (OP) Operating
+               Miles City GT          MT    2177.0            1 Natural Gas                     23.3 (OP) Operating
+               Lewis & Clark          MT    6089.0            2 Natural Gas                      9.3 (OP) Operating
+               Lewis & Clark          MT    6089.0            3 Natural Gas                      9.3 (OP) Operating
+States in expected set with ZERO BA=MISO Operating units: []
+TOTAL BA=MISO Operating units: 5035  Total nameplate: 217,054.2 MW  Total net summer: 199,983.0 MW
+
+For reference — footprint-state check (PJM-script style, reversed): Operating units in expected MISO states whose BA is NOT MISO:
+  Units: 3973  Nameplate: 310,817.1 MW
+                          units  nameplate_MW
+Balancing Authority Code                     
+ERCO                       2297      183431.3
+PJM                         788       55339.2
+SWPP                        500       35672.1
+TVA                         103       12069.9
+LGEE                         55        9156.8
+AECI                         95        5485.6
+SOCO                         32        4577.7
+EPE                          28        1927.7
+SPA                          55        1635.5
+WACM                         17         603.9
+DOPD                          2         500.0
+GLHB                          1         417.4
+
+================================================================================
+7. DATA QUIRKS
+Missing Nameplate Capacity (MW): Operating BA=MISO 0 / 5035; Planned BA=MISO 0 / 348; Retired BA=MISO 0 / 1342
+Missing Net Summer Capacity (MW): Operating BA=MISO 31; Planned 0; Retired 10
+Missing Energy Source Code: Operating BA=MISO 0; Planned 0; Retired 0
+Missing Prime Mover Code: Operating BA=MISO 0; Planned 0; Retired 0
+Missing Plant State: Operating BA=MISO 0; Planned 0
+Missing Balancing Authority Code (all sheets): Operating 737, Planned 9, Retired 1403
+
+Fuel bucket 'Other' rows — BA=MISO (all sheets):
+  Operating: 377 units, 5,648.4 MW
+                                     units  nameplate_MW
+Energy Source Code Prime Mover Code                     
+AB                 ST                    5          46.3
+BFG                CA                    1         238.0
+                   OT                    1          20.0
+                   ST                    5         427.2
+BLQ                ST                   35        1155.8
+LFG                CA                    1          10.0
+                   CT                    4          20.3
+                   GT                   12          41.1
+                   IC                  192         202.0
+MSW                ST                   12         152.0
+OBG                GT                    1           1.0
+                   IC                   36          48.0
+OG                 CA                    3          51.1
+                   GT                    1          78.2
+                   IC                    4          13.2
+                   ST                   13         335.3
+OTH                OT                    2          10.2
+                   ST                    1           4.0
+PUR                ST                   10         299.0
+RC                 ST                    2        1209.6
+SGC                CA                    1         331.5
+WDS                ST                   22         632.3
+WH                 OT                    1           5.0
+                   ST                   12         317.3
+  Planned: 1 units, 1.6 MW
+                                     units  nameplate_MW
+Energy Source Code Prime Mover Code                     
+LFG                IC                    1           1.6
+  Retired: 207 units, 8,463.5 MW
+                                     units  nameplate_MW
+Energy Source Code Prime Mover Code                     
+AB                 ST                    2           3.5
+BFG                ST                    4          62.4
+BLQ                ST                   12         243.8
+LFG                CA                    1           6.6
+                   CT                    2          10.0
+                   GT                    1           5.0
+                   IC                  106         104.4
+MSW                ST                    6         124.6
+OBG                IC                   23          17.0
+OBS                ST                    1          18.0
+OG                 CA                    2          20.0
+                   OT                    1           6.0
+                   ST                    8          79.0
+OTH                ST                    1          11.0
+PUR                ST                    4          27.4
+RC                 ST                   20        7371.3
+SGP                CA                    1         112.5
+WDS                ST                   10         230.7
+WH                 ST                    2          10.3
+
+Prime mover HY rows (task note: Hydro = WAT + prime mover HY; script's eia_fuel only maps esc==WAT to Hydro):
+  Operating BA=MISO: 623 HY units, 2,482.8 MW; of those, esc==WAT: 623, esc!=WAT: 0, fuel buckets: {'Hydro': 623}
+  Planned BA=MISO: 13 HY units, 84.8 MW; of those, esc==WAT: 13, esc!=WAT: 0, fuel buckets: {'Hydro': 13}
+  Retired BA=MISO: 38 HY units, 35.8 MW; of those, esc==WAT: 38, esc!=WAT: 0, fuel buckets: {'Hydro': 38}
+
+Ambiguous / notable fuel+prime-mover combos, BA=MISO Operating:
+                                                     units  nameplate_MW
+Energy Source Code Prime Mover Code fuel                                
+WND                WT               Wind               429       33687.1
+SUB                ST               Coal                72       32909.6
+NG                 GT               Natural Gas        392       28402.7
+SUN                PV               Solar             1402       24862.7
+NG                 CT               Natural Gas        160       23327.1
+                   ST               Natural Gas        159       15195.2
+                   CA               Natural Gas         85       14053.9
+NUC                ST               Nuclear             14       13080.8
+BIT                ST               Coal                40       11910.0
+WAT                HY               Hydro              623        2482.8
+                   PS               Pumped Storage       9        2416.8
+DFO                IC               Oil                915        1808.5
+                   GT               Oil                 53        1666.0
+NG                 IC               Natural Gas        244        1372.7
+RC                 ST               Other                2        1209.6
+LIG                ST               Coal                 3        1184.0
+MWH                BA               Battery Storage     42        1175.9
+BLQ                ST               Other               35        1155.8
+PC                 ST               Oil                 10        1076.0
+NG                 CS               Natural Gas          4         760.2
+WDS                ST               Other               22         632.3
+BFG                ST               Other                5         427.2
+OG                 ST               Other               13         335.3
+SGC                CA               Other                1         331.5
+WH                 ST               Other               12         317.3
+PUR                ST               Other               10         299.0
+BFG                CA               Other                1         238.0
+LFG                IC               Other              192         202.0
+MSW                ST               Other               12         152.0
+OG                 GT               Other                1          78.2
+                   CA               Other                3          51.1
+OBG                IC               Other               36          48.0
+AB                 ST               Other                5          46.3
+LFG                GT               Other               12          41.1
+KER                GT               Oil                  1          23.8
+LFG                CT               Other                4          20.3
+BFG                OT               Other                1          20.0
+OG                 IC               Other                4          13.2
+OTH                OT               Other                2          10.2
+JF                 GT               Oil                  1          10.0
+LFG                CA               Other                1          10.0
+WH                 OT               Other                1           5.0
+OTH                ST               Other                1           4.0
+OBG                GT               Other                1           1.0
+
+Planned additions with Planned Operation Year beyond 2031 (BA=MISO):
+  2 units, 1,000.0 MW
+        units  nameplate_MW
+poy                        
+2034.0      2        1000.0
+Plant Name Plant State  Plant ID Generator ID        fuel  Nameplate Capacity (MW)  Planned Operation Month  Planned Operation Year                                                    Status
+ MEC North          MI   63911.0         MECN Natural Gas                    500.0                      6.0                  2034.0 (T) Regulatory approvals received. Not under construction
+ MEC South          MI   63912.0         MECS Natural Gas                    500.0                      6.0                  2034.0  (L) Regulatory approvals pending. Not under construction
+
+Planned additions with Planned Operation Year before 2026 (BA=MISO) — stale/delayed rows:
+  0 units, 0.0 MW; years: []
+
+Planned retirements beyond 2036 (BA=MISO Operating):
+  39 units, 2,457.0 MW
+        units  nameplate_MW
+pry                        
+2037.0      4          48.0
+2040.0      4         241.9
+2044.0      3           2.4
+2045.0      3          16.1
+2047.0     10          25.2
+2050.0      8        1881.2
+2058.0      1         238.0
+2064.0      4           3.0
+2065.0      2           1.2
+                 Plant Name Plant State  Plant ID Generator ID        fuel  Nameplate Capacity (MW) Planned Retirement Month Planned Retirement Year                                                           Status
+                   Wilmarth          MN    1934.0            1       Other                     12.5                       12                    2037                                                   (OP) Operating
+                   Wilmarth          MN    1934.0            2       Other                     12.5                       12                    2037                                                   (OP) Operating
+                   Red Wing          MN    1926.0            1       Other                     11.5                       12                    2037                                                   (OP) Operating
+                   Red Wing          MN    1926.0            2       Other                     11.5                       12                    2037                                                   (OP) Operating
+                Angus Anson          SD    7237.0            1 Natural Gas                    119.7                       12                    2040                                                   (OP) Operating
+                Angus Anson          SD    7237.0            2 Natural Gas                    119.7                       12                    2040                                                   (OP) Operating
+                    Zeeland          MI    1867.0            1 Natural Gas                      1.4                        6                    2040                                                   (OP) Operating
+                    Zeeland          MI    1867.0            2 Natural Gas                      1.1                        6                    2040                                                   (OP) Operating
+                Apple River          WI    6231.0            1       Hydro                      0.8                       12                    2044                                                   (OP) Operating
+                Apple River          WI    6231.0            3       Hydro                      0.8                       12                    2044                                                   (OP) Operating
+                Apple River          WI    6231.0            4       Hydro                      0.8                       12                    2044                                                   (OP) Operating
+                    Zeeland          MI    1867.0           11 Natural Gas                      6.0                        6                    2045                                                   (OP) Operating
+                    Zeeland          MI    1867.0           10 Natural Gas                      5.6                        6                    2045                                                   (OP) Operating
+                    Zeeland          MI    1867.0            9 Natural Gas                      4.5                        6                    2045                                                   (OP) Operating
+             St Croix Falls          WI    4011.0            5       Hydro                      3.4                       12                    2047                                                   (OP) Operating
+             St Croix Falls          WI    4011.0            6       Hydro                      3.4                       12                    2047                                                   (OP) Operating
+             St Croix Falls          WI    4011.0            7       Hydro                      3.2                       12                    2047                                                   (OP) Operating
+             St Croix Falls          WI    4011.0            8       Hydro                      3.2                       12                    2047                                                   (OP) Operating
+             St Croix Falls          WI    4011.0            1       Hydro                      2.5                       12                    2047                                                   (OP) Operating
+             St Croix Falls          WI    4011.0            2       Hydro                      2.5                       12                    2047                                                   (OP) Operating
+             St Croix Falls          WI    4011.0            3       Hydro                      2.5                       12                    2047                                                   (OP) Operating
+             St Croix Falls          WI    4011.0            4       Hydro                      2.5                       12                    2047                                                   (OP) Operating
+      Municipal Power Plant          MI   56504.0            1 Natural Gas                      1.0                        6                    2047 (SB) Standby/Backup: available for service but not normally used
+      Municipal Power Plant          MI   56504.0            2 Natural Gas                      1.0                        6                    2047 (SB) Standby/Backup: available for service but not normally used
+Monticello Nuclear Facility          MN    1922.0            1     Nuclear                    685.0                       12                    2050                                                   (OP) Operating
+             Prairie Island          MN    1925.0            1     Nuclear                    593.1                       12                    2050                                                   (OP) Operating
+             Prairie Island          MN    1925.0            2     Nuclear                    593.1                       12                    2050                                                   (OP) Operating
+   Riley Generating Station          MI   56503.0            1 Natural Gas                      2.0                        6                    2050                                                   (OP) Operating
+   Riley Generating Station          MI   56503.0            2 Natural Gas                      2.0                        6                    2050                                                   (OP) Operating
+   Riley Generating Station          MI   56503.0            3 Natural Gas                      2.0                        6                    2050                                                   (OP) Operating
+   Riley Generating Station          MI   56503.0            4 Natural Gas                      2.0                        6                    2050                                                   (OP) Operating
+   Riley Generating Station          MI   56503.0            5 Natural Gas                      2.0                        6                    2050                                                   (OP) Operating
+                  Black Dog          MN    1904.0          6-1 Natural Gas                    238.0                       12                    2058                                                   (OP) Operating
+                Saxon Falls          WI    1756.0            1       Hydro                      0.8                       12                    2064                                                   (OP) Operating
+                Saxon Falls          WI    1756.0            2       Hydro                      0.8                       12                    2064                                                   (OP) Operating
+             Superior Falls          MI    1757.0            1       Hydro                      0.7                       12                    2064                                                   (OP) Operating
+             Superior Falls          MI    1757.0            2       Hydro                      0.7                       12                    2064                                                   (OP) Operating
+                      Trego          WI    4012.0            1       Hydro                      0.7                       12                    2065                                                   (OP) Operating
+                      Trego          WI    4012.0            2       Hydro                      0.5                       12                    2065                                                   (OP) Operating
+
+Planned retirements before 2026 (BA=MISO Operating) — stale rows still on Operating sheet:
+  0 units, 0.0 MW; years: []
+
+Zero / negative nameplate rows, BA=MISO:
+  Operating: 0 rows <=0 MW
+  Planned: 0 rows <=0 MW
+  Retired: 0 rows <=0 MW
+
+Duplicate (Plant ID, Generator ID) rows within BA=MISO sheets:
+  Operating: 0 rows in duplicated keys (0 extra rows)
+  Planned: 0 rows in duplicated keys (0 extra rows)
+  Retired: 0 rows in duplicated keys (0 extra rows)
+
+DC Net Capacity (MW) present for solar/battery rows (nameplate vs DC check, BA=MISO Operating Solar+Battery):
+  Solar+Battery units: 1444, nameplate 26,038.6 MW, DC net 27,435.6 MW, DC missing 117
+
+END OF EXPLORATION

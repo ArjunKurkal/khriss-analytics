@@ -1,0 +1,294 @@
+{
+  "version": "v2",
+  "built": "2026-11-14",
+  "anchor_unchanged_mw": 211974.9,
+  "anchor_source": "EIA-860M Operating-sheet snapshot adjusted to Dec 31, 2025 (minus in-service Jan-Sep 2026, plus retired actuals 2026). EIA-derived; no clean published MISO ICAP-by-fuel anchor exists.",
+  "v1_forward_2026_2036": {
+    "additions_mw": 52546.5,
+    "additions_count": 437,
+    "retirements_mw": 22985.6,
+    "retirements_count": 107,
+    "net_mw": 29560.9,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 22103.2,
+      "Nuclear": 0.0,
+      "Hydro": 89.2,
+      "Pumped Storage": 0.0,
+      "Wind": 2836.9,
+      "Solar": 23182.8,
+      "Oil": 22.6,
+      "Battery Storage": 4310.2,
+      "Other": 1.6
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 14758.5,
+      "Natural Gas": 7742.3,
+      "Nuclear": 0.0,
+      "Hydro": 150.7,
+      "Pumped Storage": 0.0,
+      "Wind": 80.0,
+      "Solar": 0.0,
+      "Oil": 170.3,
+      "Battery Storage": 0.0,
+      "Other": 83.8
+    }
+  },
+  "v2_forward_2026_2036": {
+    "additions_mw": 61290.3,
+    "additions_count": 449,
+    "retirements_mw": 25389.4,
+    "retirements_count": 111,
+    "net_mw": 35900.9,
+    "additions_by_fuel_mw": {
+      "Coal": 0.0,
+      "Natural Gas": 30670.0,
+      "Nuclear": 177.0,
+      "Hydro": 89.2,
+      "Pumped Storage": 0.0,
+      "Wind": 2836.9,
+      "Solar": 23182.8,
+      "Oil": 22.6,
+      "Battery Storage": 4310.2,
+      "Other": 1.6
+    },
+    "retirements_by_fuel_mw": {
+      "Coal": 17162.3,
+      "Natural Gas": 7742.3,
+      "Nuclear": 0.0,
+      "Hydro": 150.7,
+      "Pumped Storage": 0.0,
+      "Wind": 80.0,
+      "Solar": 0.0,
+      "Oil": 170.3,
+      "Battery Storage": 0.0,
+      "Other": 83.8
+    }
+  },
+  "delta_v2_minus_v1_mw": {
+    "additions": 8743.8,
+    "retirements": 2403.8,
+    "net": 6340.0,
+    "by_fuel_net_mw": {
+      "Coal": -2403.8,
+      "Natural Gas": 8566.8,
+      "Nuclear": 177.0,
+      "Hydro": 0.0,
+      "Pumped Storage": 0.0,
+      "Wind": 0.0,
+      "Solar": 0.0,
+      "Oil": 0.0,
+      "Battery Storage": 0.0,
+      "Other": 0.0
+    }
+  },
+  "yearly_totals_mw": {
+    "v1": {
+      "2016": 193444.3,
+      "2017": 194327.9,
+      "2018": 191868.6,
+      "2019": 192028.6,
+      "2020": 196130.7,
+      "2021": 197732.1,
+      "2022": 198228.6,
+      "2023": 199473.0,
+      "2024": 202192.9,
+      "2025": 211974.9,
+      "2026": 217515.0,
+      "2027": 225426.4,
+      "2028": 233670.6,
+      "2029": 237973.4,
+      "2030": 243449.1,
+      "2031": 244595.9,
+      "2032": 242952.4,
+      "2033": 241929.7,
+      "2034": 242326.0,
+      "2035": 241535.8,
+      "2036": 241535.8
+    },
+    "v2": {
+      "2016": 193444.3,
+      "2017": 194327.9,
+      "2018": 191868.6,
+      "2019": 192028.6,
+      "2020": 196130.7,
+      "2021": 197732.1,
+      "2022": 198228.6,
+      "2023": 199473.0,
+      "2024": 202192.9,
+      "2025": 211974.9,
+      "2026": 219075.8,
+      "2027": 225426.4,
+      "2028": 234218.8,
+      "2029": 240829.0,
+      "2030": 245761.7,
+      "2031": 249277.5,
+      "2032": 248334.0,
+      "2033": 247311.3,
+      "2034": 247707.6,
+      "2035": 247698.8,
+      "2036": 247875.8
+    }
+  },
+  "yearly_totals_by_region_mw_v2": {
+    "North": {
+      "2016": 44313.9,
+      "2017": 45251.2,
+      "2018": 46713.8,
+      "2019": 49311.5,
+      "2020": 51173.7,
+      "2021": 52402.6,
+      "2022": 53579.0,
+      "2023": 53054.5,
+      "2024": 53874.2,
+      "2025": 54283.9,
+      "2026": 54793.5,
+      "2027": 56233.5,
+      "2028": 57462.7,
+      "2029": 57105.4,
+      "2030": 55617.6,
+      "2031": 55292.8,
+      "2032": 55292.8,
+      "2033": 55165.2,
+      "2034": 55104.3,
+      "2035": 55095.5,
+      "2036": 55095.5
+    },
+    "Central": {
+      "2016": 95781.5,
+      "2017": 96326.9,
+      "2018": 94512.1,
+      "2019": 91417.1,
+      "2020": 92188.4,
+      "2021": 92406.5,
+      "2022": 91454.6,
+      "2023": 92273.1,
+      "2024": 93011.5,
+      "2025": 100472.4,
+      "2026": 105966.9,
+      "2027": 108485.8,
+      "2028": 110659.0,
+      "2029": 112909.0,
+      "2030": 114392.8,
+      "2031": 116761.8,
+      "2032": 115818.3,
+      "2033": 115818.3,
+      "2034": 116818.3,
+      "2035": 116818.3,
+      "2036": 116995.3
+    },
+    "South": {
+      "2016": 53348.9,
+      "2017": 52749.8,
+      "2018": 50642.7,
+      "2019": 51300.0,
+      "2020": 52768.6,
+      "2021": 52923.0,
+      "2022": 53195.0,
+      "2023": 54145.4,
+      "2024": 55307.2,
+      "2025": 57218.6,
+      "2026": 58315.4,
+      "2027": 60707.1,
+      "2028": 66097.1,
+      "2029": 70814.6,
+      "2030": 75751.3,
+      "2031": 77222.9,
+      "2032": 77222.9,
+      "2033": 76327.8,
+      "2034": 75785.0,
+      "2035": 75785.0,
+      "2036": 75785.0
+    }
+  },
+  "manual_adjustments_count": 26,
+  "named_adjustments_count": 12,
+  "largest_manual_changes_mw": [
+    {
+      "plant": "Cayuga Energy Complex (new CC)",
+      "change": "add",
+      "mw": 1476.0
+    },
+    {
+      "plant": "DTE Handy + Milan (new gas)",
+      "change": "add",
+      "mw": 2100.0
+    },
+    {
+      "plant": "J.H. Campbell retime 2026->2027",
+      "change": "retime",
+      "mw": 1560.8
+    },
+    {
+      "plant": "Consumers Energy Karn + Thetford (new gas)",
+      "change": "add",
+      "mw": 1500.0
+    },
+    {
+      "plant": "Belle River fuel switch (coal->gas)",
+      "change": "fuel switch",
+      "mw": 1395.0
+    },
+    {
+      "plant": "AES Petersburg fuel switch (coal->gas)",
+      "change": "fuel switch",
+      "mw": 1341.8
+    },
+    {
+      "plant": "Cayuga coal Units 1/2 retirement",
+      "change": "add retirement",
+      "mw": 1062.0
+    },
+    {
+      "plant": "Traceview retime 2028->2029",
+      "change": "retime",
+      "mw": 819.4
+    },
+    {
+      "plant": "Gerald Andrus retime 2035->2028",
+      "change": "retime",
+      "mw": 781.4
+    },
+    {
+      "plant": "Legend Power Station (new gas)",
+      "change": "add",
+      "mw": 754.0
+    },
+    {
+      "plant": "Steel River Solar Phase 3 retime 2030->2029",
+      "change": "retime",
+      "mw": 750.0
+    },
+    {
+      "plant": "Fermi 2 uprate",
+      "change": "add",
+      "mw": 177.0
+    }
+  ],
+  "not_added_flagged_candidates_mw": {
+    "Vista Sands 300 MW BESS (in PSC approval; MW/date split unverified)": 300.0,
+    "Constellation-Google nuclear uprates (MISO share of ~890 MW unknown)": 890.0,
+    "R.S. Nelson Unit 6 coal retirement (~615 MW, 2028?, unverified)": 615.0,
+    "White Bluff coal (retire vs convert to gas peaking unresolved)": null,
+    "Schahfer-site CCGT + data center (advocacy claim 2,300 MW, unverified)": 2300.0,
+    "Schahfer Units 17/18 coal (kept Dec 2026 in v2; high delay risk, DOE orders)": 847.0
+  },
+  "coordinator_arithmetic_note": "The v2 researcher's year-by-year table double-counted Belle River's coal retirement as a NEW retirement; it is a retime (v1 already had it, Dec 2028 -> Dec 2026). Correct net 2036 effect is +6,340.0 MW (Gas +8,566.8; Coal -2,403.8; Nuclear +177.0), not +4,945.0 MW; correct 2028 flow delta is +548.2 MW, not -846.8 MW. Asserted in the build.",
+  "files": {
+    "manual_adjustments": "manual_adjustments.csv",
+    "plants_v2": "miso_capacity_plants_v2.csv",
+    "stack_v2": "miso_capacity_stack_v2.csv",
+    "stack_by_region_v2": "miso_capacity_stack_by_region_v2.csv",
+    "changelog_v2": "miso_capacity_changelog_v2.csv",
+    "changelog_by_region_v2": "miso_capacity_changelog_by_region_v2.csv",
+    "summary_v2": "summary_v2.json",
+    "research_log": "research_log.md",
+    "readme_v2": "README_v2.md",
+    "charts": [
+      "01_stacked_area_v2.png",
+      "02_net_change_forward_v2.png",
+      "03_regions_stacked_v2.png",
+      "04_regional_totals_v2.png"
+    ]
+  }
+}
