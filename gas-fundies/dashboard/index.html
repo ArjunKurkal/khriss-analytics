@@ -43,8 +43,8 @@
   <section id="sec-storage" hidden><h2>Working gas in storage — Lower 48 (Bcf)</h2><p>Last 3 years against the prior 5-year average and range, aligned by week of year.</p><div class="chart" id="chart-storage"></div></section>
   <section id="sec-price" hidden><h2>Henry Hub spot price ($/MMBtu)</h2><div class="chart" id="chart-price"></div></section>
   <section id="sec-global" hidden><h2>Global gas prices — front month ($/MMBtu)</h2><p>CME daily settlements: Dutch TTF (EUR/MWh contract, converted at the ECB EUR/USD reference rate) and LNG Japan/Korea Marker (JKM). These CME contracts are financially settled proxies referencing ICE TTF and the Platts JKM assessment; CME volume is thin (JKM and the USD TTF contract settle on assessment, with zero traded volume), so treat the levels as benchmark marks, not traded prices. The dashed TFU line is CME's USD-denominated TTF contract, captured as a cross-check on the conversion. Series begin 12 Nov 2026 — the CME feed retains only ~5 business days, so history accrues from daily capture and cannot be backfilled.</p><div class="chart" id="chart-global"></div><div class="chart" id="chart-spreads"></div></section>
-  <section id="sec-jodi" hidden><h2>Global gas balance — JODI (Bcf/d, monthly)</h2><p>Production by region (stacked) against global deliveries. Source: JODI Gas World Database — self-reported national statistics, ~2-month lag, revised monthly (vintage <span id="jodi-vintage"></span>). Saudi Arabia, Turkmenistan and Uzbekistan do not report; recent months are partial and fill in over time (reporter count in the second chart's hover). The balancing item — implied minus reported stock change — is shown per region, never plugged.</p><div class="chart" id="chart-jodi-prod"></div><div class="chart" id="chart-jodi-bal"></div></section>
-  <section id="sec-europe" hidden><h2>Europe — storage, LNG and pipeline inflows</h2><p>EU gas storage and LNG terminal send-out (daily, GIE AGSI+ / ALSI — data: GIE, gie.eu) and pipeline inflows into the EU27 by corridor (daily, ENTSOG Transparency Platform; point-to-border mapping after the JRC eurogastp topology, so flows reported by both border TSOs are counted once). GB is not covered: AGSI+ excludes GB storage and the Norway–UK line is outside this border scope. Flows in Bcf/d (ENTSOG energy values at 1,036 Btu/cf).</p><div class="chart" id="chart-eu-storage"></div><div class="chart" id="chart-eu-lng"></div><div class="chart" id="chart-eu-inflows"></div></section>
+  <section id="sec-jodi" hidden><h2>Global gas balance — JODI (Bcf/d, monthly)</h2><p>Production by region (stacked) against global deliveries. Source: JODI Gas World Database — self-reported national statistics, ~2-month lag, revised monthly (vintage <span id="jodi-vintage"></span>). Saudi Arabia, Turkmenistan and Uzbekistan do not report; recent months are partial and fill in over time (reporter count in the second chart's hover). The balancing item — implied minus reported stock change — is shown per region, never plugged. One known source defect: Qatar's LNG exports as reported run ~28% above physical volume in every year since 2019 (a reporting-basis offset against its 77 Mtpa nameplate); the underlying country table carries a physical-basis series alongside the as-reported one, and the as-reported line should not be used in LNG totals.</p><div class="chart" id="chart-jodi-prod"></div><div class="chart" id="chart-jodi-bal"></div></section>
+  <section id="sec-europe" hidden><h2>Europe — storage, LNG and pipeline inflows</h2><p>EU gas storage and LNG terminal send-out (daily, GIE AGSI+ / ALSI — data: GIE, gie.eu) and pipeline inflows into the EU27 by corridor (daily, ENTSOG Transparency Platform; point-to-border mapping after the JRC eurogastp topology, so flows reported by both border TSOs are counted once). GB pipeline inflows (Langeled, BBL, IUK, Ireland) are charted separately below; GB storage is not covered — AGSI+ excludes it post-Brexit and no free machine-readable GB storage source is wired. Flows in Bcf/d (ENTSOG energy values at 1,036 Btu/cf).</p><div class="chart" id="chart-eu-storage"></div><div class="chart" id="chart-eu-lng"></div><div class="chart" id="chart-eu-inflows"></div><div class="chart" id="chart-eu-gb"></div></section>
   <section id="sec-doe" hidden><h2>US LNG exports by destination — DOE cargoes (Bcf/month)</h2><p>Every US LNG cargo reported to the Department of Energy (authorization-holder filings), exports only, destination as reported at departure — diversions after departure are not captured. Monthly totals reconcile with EIA's LNG export series (mean difference 0.5%).</p><div class="chart" id="chart-doe"></div></section>
   <section id="sec-japan" hidden><h2>Japan LNG imports by origin (Mt/month)</h2><p>Ministry of Finance trade statistics via UN Comtrade (HS 271111). METI's weekly power-utility LNG stocks have no machine-readable source and are not shown.</p><div class="chart" id="chart-japan"></div></section>
   <section id="sec-hormuz" hidden><h2>Strait of Hormuz — LNG carrier transits (per month)</h2><p>History is a labelled model, not a measurement: pre-crisis months are anchored to EIA H1 2025 Qatar+UAE LNG exports (11.4 Bcf/d, ±25% band); months with no published estimate are left blank, never interpolated. The model runs 15–23% below JODI Qatar+UAE LNG exports for Nov 2025–Feb 2026 — inside its band, but one-sided. Measured crossings from the Hormuz AIS collector (live from 15 Nov 2026) appear as they accrue; direction is observed, load status is not.</p><div class="chart" id="chart-hormuz"></div></section>
@@ -106,6 +106,7 @@ fetch('data.json').then(r => {
     ['EU storage (GIE)', s.eu_storage_full_pct, '% full', (s.eu_storage_twh ? s.eu_storage_twh + ' TWh · ' : '') + (s.eu_storage_date || '')],
     ['EU LNG send-out (GIE)', s.eu_lng_sendout_bcfd, 'Bcf/d', s.eu_lng_date || ''],
     ['Norway → EU (30d avg)', s.norway_inflow_bcfd_30d, 'Bcf/d', 'ENTSOG'],
+    ['GB pipeline inflows (7d avg)', s.gb_inflow_bcfd, 'Bcf/d', 'to ' + (s.gb_inflow_date || '')],
     ['Japan LNG imports', s.japan_imports_mt, 'Mt', (s.japan_month || '') + ' · Qatar ' + (s.japan_qatar_kt ?? '—') + ' kt'],
     ['Hormuz LNG exits (model)', s.hormuz_loaded_exits, 'cargoes', (s.hormuz_month || '') + ' · ' + (s.hormuz_basis || '')],
     ['US rigs', s.rigs_total_us, '', s.rigs_week || ''],
@@ -153,7 +154,8 @@ fetch('data.json').then(r => {
         type:'scatter', mode:'lines', line:{color:'#58a6ff'} },
     ];
     Plotly.newPlot('chart-storage', traces,
-      {...LAYOUT, xaxis:{...LAYOUT.xaxis, title:'week of year'}}, CFG);
+      {...LAYOUT, xaxis:{...LAYOUT.xaxis, title:'week of year',
+        type:'linear', range:[1, 53], dtick:4}}, CFG);
   }
   if (d.price) {
     show('sec-price');
@@ -215,6 +217,11 @@ fetch('data.json').then(r => {
       Plotly.newPlot('chart-eu-inflows',
         stackTraces(e.inflows.dates, e.inflows.series, Object.keys(e.inflows.series)),
         layout3y(e.inflows.dates), CFG);
+    }
+    if (e.gb_inflows) {
+      Plotly.newPlot('chart-eu-gb',
+        stackTraces(e.gb_inflows.dates, e.gb_inflows.series, Object.keys(e.gb_inflows.series)),
+        layout3y(e.gb_inflows.dates), CFG);
     }
   }
   if (d.doe) {

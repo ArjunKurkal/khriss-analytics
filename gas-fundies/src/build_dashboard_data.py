@@ -323,6 +323,30 @@ def europe_section(curated: Path, out: dict) -> None:
         if "Norway" in recent:
             out.setdefault("snapshot", {})["norway_inflow_bcfd_30d"] = round(
                 float(recent["Norway"]), 2)
+    ep = curated / "entsog_edge_daily.parquet"
+    if ep.exists():
+        edf = read_parquet(ep)
+        gb_in = {"Norway (Langeled)": ["EasingtonNOUK", "FergusNOUK"],
+                 "Netherlands (BBL)": ["BactonBBLUK"],
+                 "Belgium (IUK)": ["BactonIUKUK"],
+                 "Ireland": ["MoffatIEUK"]}
+        src_of = {e: s for s, es in gb_in.items() for e in es}
+        gb = edf[edf["edge_name"].isin(src_of)]
+        if not gb.empty:
+            gb = gb.assign(src=gb["edge_name"].map(src_of))
+            piv = (gb.groupby([gb["gas_day"], "src"])["flow_gwh_d"].sum()
+                   .unstack(fill_value=0) / GWH_PER_BCF)
+            names = [n for n in gb_in if n in piv.columns]
+            sec["gb_inflows"] = {"dates": _dates(piv.index),
+                                 "series": {n: _round(piv[n]) for n in names}}
+            tot = piv.sum(axis=1)
+            # Trailing 7 complete days: the current gas day is partial
+            # in ENTSOG reporting and would read as a false zero.
+            recent = tot.iloc[-8:-1] if len(tot) > 8 else tot
+            out.setdefault("snapshot", {}).update({
+                "gb_inflow_bcfd": round(float(recent.mean()), 2),
+                "gb_inflow_date": pd.Timestamp(recent.index[-1]).strftime("%Y-%m-%d"),
+            })
     if sec:
         out["europe"] = sec
 

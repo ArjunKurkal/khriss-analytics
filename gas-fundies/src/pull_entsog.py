@@ -47,6 +47,7 @@ TOPO = Path(__file__).resolve().parents[1] / "config" / "ENTSOG_TP_Network_v4.xl
 EU27 = {"AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FR", "GR", "HR",
         "HU", "IE", "SK", "PT", "IT", "PL", "LU", "MT", "LV", "LT", "FI",
         "SI", "RO", "SE", "NL", "CY"}
+GB_NODES = {"UK", "NI", "BBL", "IUK"}
 SEED_START = date(2022, 1, 1)
 BATCH_LEGS = 160
 
@@ -61,7 +62,14 @@ def load_legs(scope: str) -> pd.DataFrame:
     itp["pd_id"] = (itp["operatorKey"] + itp["pointKey"]
                     + itp["directionKey"]).str.lower()
     if scope == "external":
-        mask = [(f in EU27) != (t in EU27)
+        # EU27 external borders, plus GB-touching edges (added
+        # 2026-11-15): the GB market's interconnectors land on the
+        # virtual BBL/IUK nodes or the UK/NI country nodes, so edges
+        # touching any of them are GB supply lines (Langeled NO->UK,
+        # BBL NL->UK, IUK BE->UK, IE->UK). They are stored in the same
+        # tables; the dashboard's EU27 inflow aggregation filters on
+        # to_node in EU27, so GB edges never contaminate EU corridors.
+        mask = [((f in EU27) != (t in EU27)) or f in GB_NODES or t in GB_NODES
                 for f, t in zip(itp["from_node"], itp["to_node"])]
         itp = itp[mask]
     return itp[["pd_id", "operatorKey", "pointKey", "directionKey",
@@ -86,8 +94,17 @@ def fetch_chunk(pd_ids: list[str], frm: date, to: date) -> pd.DataFrame:
         "timezone": "CET", "periodize": "0", "limit": "-1",
         "isTransportData": "true", "dataset": "1",
     }
-    r = requests.get(API, params=params, headers={"User-Agent": "Mozilla/5.0"},
-                     timeout=180)
+    r = None
+    for attempt in range(3):
+        try:
+            r = requests.get(API, params=params,
+                             headers={"User-Agent": "Mozilla/5.0"},
+                             timeout=180)
+            break
+        except requests.exceptions.RequestException:
+            if attempt == 2:
+                raise
+            time.sleep(5 * (attempt + 1))
     if r.status_code == 404 or r.content == b'{"message":"No Data Available"}':
         return pd.DataFrame()
     r.raise_for_status()

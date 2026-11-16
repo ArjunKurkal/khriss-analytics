@@ -46,6 +46,7 @@ LISTING_URL = "https://api.publisher.jodidata.org/web/files/gas"
 DOWNLOAD_URL = "https://www.jodidata.org/jodi-publisher/gas/{pub}/{fname}"
 CSV_MEMBER = "STAGING_world_NewFormat.csv"
 MM3_TO_BCF = 0.0353147
+QA_LNG_BASIS_FACTOR = 1.28  # see exports_lng_phys_bcfd note in parse_vintage
 
 FLOW_MAP = {
     "INDPROD": "production",
@@ -138,6 +139,17 @@ def parse_vintage(zpath: Path, pub: int) -> pd.DataFrame:
     days = wide["month"].dt.days_in_month
     for c in BALANCE_FLOWS:
         wide[c + "_bcfd"] = wide[c] * MM3_TO_BCF / days
+    # Qatar LNG physical-basis series (HORMUZ-JODI-RECONCILIATION.md,
+    # 2026-11-15): Qatar's as-reported EXPLNG in M3 implies 97–105 Mtpa
+    # against 77 Mtpa of nameplate capacity in every year 2019–2025 —
+    # a stable reporting-basis offset of ~1.28x physical volume. The
+    # as-reported series is kept untouched; exports_lng_phys_bcfd puts
+    # Qatar on a physical basis and equals the as-reported series for
+    # every other country. Use the phys series for any LNG total.
+    wide["exports_lng_phys_bcfd"] = wide["exports_lng_bcfd"]
+    qa = wide["country"] == "QA"
+    wide.loc[qa, "exports_lng_phys_bcfd"] = (
+        wide.loc[qa, "exports_lng_bcfd"] / QA_LNG_BASIS_FACTOR)
     wide["closing_stocks_bcf"] = wide["closing_stocks"] * MM3_TO_BCF
     wide["vintage"] = pub
     return wide.sort_values(["country", "month"]).reset_index(drop=True)

@@ -1,5 +1,5 @@
 {
- "comment": "EIA legacy series IDs (full NG.<stem>.M form) for the API v2 seriesid endpoint. Volume series end in 2 (MMcf); same stems ending in 3 are PRICES ($/Mcf). All stems verified 2026-11-15 by enumerating v2 routes prod/sum, cons/sum, move/impc, move/expc. NOTE: EIA publishes monthly dry production only for the US (N9070US2); by state it publishes MARKETED production (N9050<ST>2, incl. FX = Federal Offshore Gulf). Regional dry production in build_balance.py is therefore an estimate: state marketed x (US dry / US marketed) for the month. GA and WA have no marketed series (negligible production) and are omitted.",
+ "comment": "EIA legacy series IDs (full NG.<stem>.M form) for the API v2 seriesid endpoint. Volume series end in 2 (MMcf); same stems ending in 3 are PRICES ($/Mcf). All stems verified 2026-11-15 by enumerating v2 routes prod/sum, cons/sum, move/impc, move/expc. NOTE: EIA publishes monthly dry production only for the US (N9070US2); by state it publishes MARKETED production (N9050<ST>2, incl. FX = Federal Offshore Gulf). Regional dry production in build_balance.py is therefore an estimate: state marketed x (US dry / US marketed) for the month. GA and WA have no individual marketed series; they and the other unlisted states are covered by EIA's 'Other States' aggregate (OS = N9050982, added 2026-11-15 to close the regional-sum gap).",
  "monthly_volumes_mmcf": {
   "consumption_commercial_us": "NG.N3020US2.M",
   "consumption_electric_power_us": "NG.N3045US2.M",
@@ -36,6 +36,7 @@
    "NY": "NG.N9050NY2.M",
    "OH": "NG.N9050OH2.M",
    "OK": "NG.N9050OK2.M",
+   "OS": "NG.N9050982.M",
    "OR": "NG.N9050OR2.M",
    "PA": "NG.N9050PA2.M",
    "SD": "NG.N9050SD2.M",
