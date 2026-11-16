@@ -160,7 +160,7 @@ fetch("data.json").then(function(r){
     "<b>Family V — solar surplus:</b> West hub SPP ≤ $0 in ≥ 8 solar-hour intervals (HE 10–16), or any solar-hour SPP ≤ −$10. " +
     "Full DESIGN.md definitions also include RTORPA/PRC (S) and DAM MCPC / deployment (A) legs; those series sit behind the ERCOT API archive and are not yet in v1 — counts below will grow when the one-time backfill lands. Matched non-event control days are pulled alongside every event day in the disclosure sample."));
   var g3 = el("div","grid2"); var c4 = el("div","chart tall"), c5 = el("div","chart tall");
-  g3.appendChild(c4); g3.appendChild(c5); sec3.appendChild(g3);
+  g3.appendChild(c4); g3.appendChild(c5); sec3.appendChild(g3); main.appendChild(sec3);
   function eventTraces(R){
     return [
       {x:R.by_month.months, y:R.by_month.S, name:"S only", type:"bar", marker:{color:"#ff6b6b"}},
@@ -180,7 +180,7 @@ fetch("data.json").then(function(r){
     D.events.post_rtcb.latest.slice().reverse().map(function(r){
       return "<tr><td>" + r.date + (r.severe ? " · severe" : "") + "</td><td>" + r.family + "</td><td>" +
              money(r.max_spp) + "</td><td>" + fmt(r.n_neg_solar) + "</td></tr>"; }).join("");
-  var tw = el("div","tablewrap"); tw.appendChild(t); sec3.appendChild(tw); main.appendChild(sec3);
+  var tw = el("div","tablewrap"); tw.appendChild(t); sec3.appendChild(tw);
 
   /* ---------- Coverage: held vs gaps ---------- */
   var sec4 = el("section");
