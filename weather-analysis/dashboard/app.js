@@ -975,7 +975,12 @@ function renderMap(payload) {
   if (showHeat) {
     var points = valid.map(function (d) { return { station: d.station, value: mapValue(d) }; });
     var url = buildHeatmapImage(points, stops, vMin, vMax);
-    heatLayer = L.imageOverlay(url, [[BBOX.latMin, BBOX.lonMin], [BBOX.latMax, BBOX.lonMax]], { opacity: 0.75, interactive: false });
+    // Overlay box widened 20% on both dimensions (Arjun, 2026-11-15): the already-computed
+    // gradient image is stretched to fill the larger box, not recomputed over a new grid.
+    var latSpan = BBOX.latMax - BBOX.latMin, lonSpan = BBOX.lonMax - BBOX.lonMin;
+    var hb = [[BBOX.latMin - latSpan * 0.1, BBOX.lonMin - lonSpan * 0.1],
+              [BBOX.latMax + latSpan * 0.1, BBOX.lonMax + lonSpan * 0.1]];
+    heatLayer = L.imageOverlay(url, hb, { opacity: 0.75, interactive: false });
     heatLayer.addTo(map);
   }
   if (showMarkers) {
