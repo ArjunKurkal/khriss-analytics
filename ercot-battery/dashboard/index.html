@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ERCOT Batteries — SPP, Events &amp; Coverage</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#161c2b; --panel2:#1c2436; --text:#e6ebf2;
+    --muted:#93a1b5; --accent:#4da3ff; --border:#26314a;
+    --warn:#f2b544; --bad:#ff6b6b; --good:#3ddc84;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       display:flex;flex-direction:column;overflow:auto}
+  header{display:flex;align-items:baseline;gap:14px;padding:8px 16px;background:var(--panel);
+         border-bottom:1px solid var(--border);flex:0 0 auto;flex-wrap:wrap}
+  header h1{font-size:15.5px;margin:0;font-weight:650;white-space:nowrap}
+  header h1 span{color:var(--accent)}
+  header .sub{color:var(--muted);font-size:12.5px}
+  main{padding:12px 16px 20px;display:grid;gap:12px;max-width:1560px;width:100%;margin:0 auto}
+  section{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:12px 14px}
+  section h2{margin:0 0 2px;font-size:15px}
+  section p{color:var(--muted);margin:0 0 8px;font-size:13px;line-height:1.5}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media (max-width:980px){.grid2{grid-template-columns:1fr}}
+  .chart{width:100%;height:300px}
+  .chart.tall{height:340px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+  .kpi{background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:9px 12px}
+  .kpi .label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+  .kpi .value{font-size:20px;margin-top:1px}
+  .kpi .note{color:var(--muted);font-size:11.5px}
+  table{border-collapse:collapse;width:100%;font-size:12.5px}
+  th,td{border-bottom:1px solid var(--border);padding:5px 8px;text-align:right;white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  th{color:var(--muted);font-weight:600}
+  .tag{display:inline-block;padding:2px 9px;border-radius:999px;border:1px solid var(--border);font-size:11.5px}
+  .tag.gap{color:var(--bad);border-color:var(--bad)}
+  .tag.lag{color:var(--warn);border-color:var(--warn)}
+  .tag.ok{color:var(--good);border-color:var(--good)}
+  .soon{border-style:dashed;color:var(--muted)}
+  .soon h2{color:var(--muted)}
+  select{background:var(--panel2);color:var(--text);border:1px solid var(--border);border-radius:6px;
+         padding:4px 8px;font-family:inherit;font-size:13px}
+  .err{color:var(--bad);padding:18px;text-align:center}
+  footer{color:var(--muted);font-size:12px;padding:0 16px 16px;max-width:1560px;margin:0 auto;width:100%}
+</style>
+</head>
+<body>
+<header>
+  <h1>ERCOT <span>Batteries</span></h1>
+  <div class="sub">Battery dispatch &amp; offer analysis, split hard at the RTC+B regime change — <b>Dec 5, 2025</b>. The two regimes are separate samples and are never drawn as one continuous series.</div>
+  <div class="sub" id="generated"></div>
+</header>
+<main id="main">
+  <div class="err" id="loading">Loading data.json…</div>
+</main>
+<footer>
+  Sources (all free/public): ERCOT historical SPP bulk files; ERCOT MIS 60-day SCED/DAM disclosure (NP3-965/966, published 60 days after each operating day, PUCT 25.505(f)); CAISO Daily Energy Storage Report + OASIS (fleet aggregates only — CAISO publishes no resource-level bids). Event definitions v1 use SPP legs only; RTORPA/PRC and DAM MCPC legs are pending the one-time API backfill. Prices are settlement point prices in $/MWh.
+</footer>
+<script>
+var FONT = {color:"#e6ebf2", family:"system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"};
+function layout(title, extra){
+  var L = {title:{text:title, font:{size:13.5, color:"#e6ebf2"}, x:0.01, xanchor:"left"},
+    paper_bgcolor:"rgba(0,0,0,0)", plot_bgcolor:"rgba(0,0,0,0)",
+    font:FONT, margin:{l:52,r:12,t:30,b:36},
+    xaxis:{gridcolor:"#26314a", linecolor:"#26314a", tickfont:{size:11}},
+    yaxis:{gridcolor:"#26314a", linecolor:"#26314a", tickfont:{size:11}},
+    legend:{orientation:"h", y:1.14, font:{size:11.5}}, hovermode:"x unified"};
+  if(extra) for(var k in extra) L[k]=extra[k];
+  return L;
+}
+var CFG = {responsive:true, displaylogo:false};
+function el(tag, cls, html){ var e=document.createElement(tag); if(cls) e.className=cls; if(html!=null) e.innerHTML=html; return e; }
+function fmt(n){ return n==null ? "—" : Number(n).toLocaleString("en-US"); }
+function money(n){ return n==null ? "—" : "$" + Number(n).toLocaleString("en-US",{maximumFractionDigits:0}); }
+
+fetch("data.json").then(function(r){
+  if(!r.ok) throw new Error("fetch " + r.status);
+  return r.json();
+}).then(function(D){
+  var main = document.getElementById("main");
+  main.innerHTML = "";
+  document.getElementById("generated").textContent =
+    "data through " + D.meta.panel_through + " · built " + D.meta.generated_at.replace("T"," ").replace("Z"," UTC");
+
+  /* ---------- KPI strip ---------- */
+  var kpis = el("div","kpis");
+  var cov = D.coverage, evp = D.events.pre_rtcb, evo = D.events.post_rtcb;
+  [["Pre-RTC+B sample", "Jun 10 2023 – Dec 4 2025", evp.days + " days"],
+   ["Post-RTC+B sample", "from Dec 5 2025", evo.days + " days so far"],
+   ["Scarcity days (S)", "pre " + evp.S + " · post " + evo.S, "severe pre " + evp.S_severe + " · post " + evo.S_severe],
+   ["Solar-surplus days (V)", "pre " + evp.V + " · post " + evo.V, "post regime is a V story so far"],
+   ["Disclosure days held", "pre " + cov.disclosure.pre_held_days + " · post " + cov.disclosure.post_held_days, "of the event+control sample"],
+   ["Disclosure hole", "Jun 2023 – Jun 2024", "backfill pending — see coverage"]
+  ].forEach(function(k){
+    var d = el("div","kpi");
+    d.appendChild(el("div","label",k[0])); d.appendChild(el("div","value",k[2])); d.appendChild(el("div","note",k[1]));
+    kpis.appendChild(d);
+  });
+  main.appendChild(kpis);
+
+  /* ---------- Prices: two regime panels, never one series ---------- */
+  var sec = el("section");
+  sec.appendChild(el("h2",null,"Real-time SPP — hub average, daily"));
+  sec.appendChild(el("p",null,"Daily mean and daily max of the 15-minute real-time settlement point price, averaged across the seven trading hubs (HB_HUBAVG, HB_BUSAVG, HB_PAN, West, North, South, Houston). The regime break is a wall, not a gap in a line: the panels are separate charts with separate axes."));
+  var g = el("div","grid2");
+  var c1 = el("div","chart tall"), c2 = el("div","chart tall");
+  g.appendChild(c1); g.appendChild(c2); sec.appendChild(g); main.appendChild(sec);
+  function priceTraces(R){
+    return [
+      {x:R.dates, y:R.hubavg_max, name:"daily max", mode:"lines", line:{color:"#f2b544", width:1}},
+      {x:R.dates, y:R.hubavg_mean, name:"daily mean", mode:"lines", line:{color:"#4da3ff", width:1.2}},
+      {x:R.dates, y:R.west_mean, name:"West hub daily mean", mode:"lines", line:{color:"#3ddc84", width:1}}];
+  }
+  Plotly.newPlot(c1, priceTraces(D.prices.pre_rtcb),
+    layout("PRE-RTC+B · ECRS era · to Dec 4 2025", {yaxis:{title:{text:"$/MWh"}, gridcolor:"#26314a"}}), CFG);
+  Plotly.newPlot(c2, priceTraces(D.prices.post_rtcb),
+    layout("POST-RTC+B · from Dec 5 2025", {yaxis:{title:{text:"$/MWh"}, gridcolor:"#26314a"}}), CFG);
+
+  /* ---------- Monthly hub means with selector ---------- */
+  var sec2 = el("section");
+  sec2.appendChild(el("h2",null,"Monthly mean SPP by hub — RT vs DAM"));
+  var row = el("p");
+  row.appendChild(document.createTextNode("Regime: "));
+  var sel = el("select"); sel.id = "regimeSel";
+  sel.appendChild(new Option("Pre-RTC+B", "pre_rtcb")); sel.appendChild(new Option("Post-RTC+B", "post_rtcb"));
+  row.appendChild(sel);
+  row.appendChild(document.createTextNode("  Basis (RT − DAM) is the battery arbitrage backdrop; the West hub carries the solar-surplus signal."));
+  sec2.appendChild(row);
+  var c3 = el("div","chart"); sec2.appendChild(c3); main.appendChild(sec2);
+  function drawHubs(regime){
+    var mh = D.monthly_hubs[regime], traces = [];
+    ["HB_WEST","HB_HUBAVG","HB_NORTH","HB_SOUTH","HB_HOUSTON"].forEach(function(h){
+      traces.push({x:mh[h].months, y:mh[h].rt, name:h+" RT", mode:"lines+markers",
+                   marker:{size:4}, line:{width:1.4}});
+      traces.push({x:mh[h].months, y:mh[h].dam, name:h+" DAM", mode:"lines",
+                   line:{width:1, dash:"dot"}, visible:"legendonly"});
+    });
+    Plotly.newPlot(c3, traces, layout("", {yaxis:{title:{text:"$/MWh"}, gridcolor:"#26314a"},
+      margin:{l:52,r:12,t:10,b:36}}), CFG);
+  }
+  sel.addEventListener("change", function(){ drawHubs(sel.value); });
+  drawHubs("pre_rtcb");
+
+  /* ---------- Events ---------- */
+  var sec3 = el("section");
+  sec3.appendChild(el("h2",null,"Event days by family — SPP legs (v1 definitions)"));
+  sec3.appendChild(el("p",null,
+    "<b>Family S — scarcity:</b> hub-average RT SPP ≥ $500 in any 15-min interval (severe: ≥ $1,000). " +
+    "<b>Family V — solar surplus:</b> West hub SPP ≤ $0 in ≥ 8 solar-hour intervals (HE 10–16), or any solar-hour SPP ≤ −$10. " +
+    "Full DESIGN.md definitions also include RTORPA/PRC (S) and DAM MCPC / deployment (A) legs; those series sit behind the ERCOT API archive and are not yet in v1 — counts below will grow when the one-time backfill lands. Matched non-event control days are pulled alongside every event day in the disclosure sample."));
+  var g3 = el("div","grid2"); var c4 = el("div","chart"), c5 = el("div","chart");
+  g3.appendChild(c4); g3.appendChild(c5); sec3.appendChild(g3);
+  function eventTraces(R){
+    return [
+      {x:R.by_month.months, y:R.by_month.S, name:"S only", type:"bar", marker:{color:"#ff6b6b"}},
+      {x:R.by_month.months, y:R.by_month.V, name:"V only", type:"bar", marker:{color:"#f2b544"}},
+      {x:R.by_month.months, y:R.by_month.SV, name:"S + V", type:"bar", marker:{color:"#b388ff"}}];
+  }
+  Plotly.newPlot(c4, eventTraces(D.events.pre_rtcb),
+    layout("PRE-RTC+B event days / month", {barmode:"stack", yaxis:{title:{text:"days"}, gridcolor:"#26314a"}}), CFG);
+  Plotly.newPlot(c5, eventTraces(D.events.post_rtcb),
+    layout("POST-RTC+B event days / month", {barmode:"stack", yaxis:{title:{text:"days"}, gridcolor:"#26314a"}}), CFG);
+  var t = el("table");
+  t.innerHTML = "<tr><th>Latest event days (post-RTC+B)</th><th>Family</th><th>Max hub SPP</th><th>Neg. solar intervals</th></tr>" +
+    D.events.post_rtcb.latest.slice().reverse().map(function(r){
+      return "<tr><td>" + r.date + (r.severe ? " · severe" : "") + "</td><td>" + r.family + "</td><td>" +
+             money(r.max_spp) + "</td><td>" + fmt(r.n_neg_solar) + "</td></tr>"; }).join("");
+  sec3.appendChild(t); main.appendChild(sec3);
+
+  /* ---------- Coverage: held vs gaps ---------- */
+  var sec4 = el("section");
+  sec4.appendChild(el("h2",null,"Data coverage — what is held, what is missing"));
+  sec4.appendChild(el("p",null,"The gaps are part of the design, not footnotes. Nothing below is interpolated or filled."));
+  var ct = el("table");
+  var dsc = cov.disclosure;
+  ct.innerHTML =
+    "<tr><th>Series</th><th>Held</th><th>Status</th></tr>" +
+    "<tr><td>RT + DAM SPP panel, pre-RTC+B</td><td>" + cov.spp_panel.pre.start + " → " + cov.spp_panel.pre.end + " (" + fmt(cov.spp_panel.pre.days) + " days)</td><td><span class='tag ok'>complete</span></td></tr>" +
+    "<tr><td>RT + DAM SPP panel, post-RTC+B</td><td>" + cov.spp_panel.post.start + " → " + cov.spp_panel.post.end + " (" + fmt(cov.spp_panel.post.days) + " days)</td><td><span class='tag ok'>growing daily</span></td></tr>" +
+    "<tr><td>SCED/DAM disclosure, pre sample (event+control days)</td><td>" + fmt(dsc.pre_held_days) + " days held, " + (dsc.pre_held_range ? dsc.pre_held_range[0] + " → " + dsc.pre_held_range[1] : "—") + "</td><td><span class='tag lag'>pull in progress</span></td></tr>" +
+    "<tr><td>SCED/DAM disclosure, post sample</td><td>" + fmt(dsc.post_held_days) + " days held</td><td><span class='tag lag'>60-day publication lag</span></td></tr>" +
+    "<tr><td>Disclosure hole — start of pre sample</td><td>" + dsc.hole.start + " → " + dsc.hole.end + "</td><td><span class='tag gap'>not held</span></td></tr>" +
+    "<tr><td>Publication lag — nothing exists yet for operating days after</td><td>" + dsc.lag_cutoff + "</td><td><span class='tag lag'>structural</span></td></tr>" +
+    "<tr><td>MIS disclosure window floor (anonymous route)</td><td>operating days from " + dsc.mis_floor + "</td><td><span class='tag'>measured</span></td></tr>" +
+    "<tr><td>CAISO comparator (storage report + OASIS LMP)</td><td>" + fmt(cov.caiso.entries_ok) + " / " + fmt(cov.caiso.entries_total) + " pulls ok</td><td><span class='tag lag'>pull in progress</span></td></tr>";
+  sec4.appendChild(ct);
+  sec4.appendChild(el("p",null, dsc.hole.label + ". The post-RTC+B sample is " + dsc.post_days_elapsed +
+    " days old in total; at the 60-day lag, " + dsc.post_held_days + " of its event/control days are published and held. Recurring collection is credential-free (MIS + bulk files) on a daily cron; the API is reserved for one-time backfills."));
+  main.appendChild(sec4);
+
+  /* ---------- Placeholders for the disclosure analysis ---------- */
+  [["Battery dispatch — SCED base points & inferred SOC","Fleet and per-resource charge/discharge against price, from the 60-day disclosure now being pulled. Pre-RTC+B SOC is inferred by integrating telemetered output (no clean SOC exists before Dec 5 2025); post-RTC+B uses the ESR file's telemetered SOC."],
+   ["Offer curves — SCED & DAM","Battery energy offer curves and AS offers (ECRS/Reg/Non-Spin pre-RTC+B; co-optimized RT AS post-RTC+B), event days vs matched controls."],
+   ["Revenue decomposition","Energy arbitrage vs ancillary services by year — the validation target is the published arc from ~$190/kW-yr (2023) toward ~$30/kW-yr (2025) with the AS→arbitrage mix flip."]]
+  .forEach(function(s){
+    var d = el("section","soon"); d.appendChild(el("h2",null,s[0]));
+    d.appendChild(el("p",null,s[1] + " <span class='tag lag'>lands with the disclosure analysis</span>")); main.appendChild(d);
+  });
+}).catch(function(e){
+  document.getElementById("loading").textContent =
+    "data.json could not be loaded or parsed (" + e.message + "). If the file exists, this is a parse failure, not a missing file.";
+});
+</script>
+</body>
+</html>
