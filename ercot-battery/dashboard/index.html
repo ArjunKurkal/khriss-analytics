@@ -27,8 +27,10 @@
   section p{color:var(--muted);margin:0 0 8px;font-size:13px;line-height:1.5}
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
   @media (max-width:980px){.grid2{grid-template-columns:1fr}}
-  .chart{width:100%;height:300px}
-  .chart.tall{height:340px}
+  .chart{width:100%;height:320px}
+  .chart.tall{height:360px}
+  .tablewrap{overflow-x:auto;margin-top:14px}
+  .tablewrap table{min-width:480px}
   .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
   .kpi{background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:9px 12px}
   .kpi .label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
@@ -67,10 +69,10 @@ var FONT = {color:"#e6ebf2", family:"system-ui,-apple-system,'Segoe UI',Roboto,H
 function layout(title, extra){
   var L = {title:{text:title, font:{size:13.5, color:"#e6ebf2"}, x:0.01, xanchor:"left"},
     paper_bgcolor:"rgba(0,0,0,0)", plot_bgcolor:"rgba(0,0,0,0)",
-    font:FONT, margin:{l:52,r:12,t:30,b:36},
+    font:FONT, margin:{l:52,r:12,t:34,b:62},
     xaxis:{gridcolor:"#26314a", linecolor:"#26314a", tickfont:{size:11}},
     yaxis:{gridcolor:"#26314a", linecolor:"#26314a", tickfont:{size:11}},
-    legend:{orientation:"h", y:1.14, font:{size:11.5}}, hovermode:"x unified"};
+    legend:{orientation:"h", x:0.5, xanchor:"center", y:-0.17, font:{size:11.5}}, hovermode:"x unified"};
   if(extra) for(var k in extra) L[k]=extra[k];
   return L;
 }
@@ -132,7 +134,7 @@ fetch("data.json").then(function(r){
   row.appendChild(sel);
   row.appendChild(document.createTextNode("  Basis (RT − DAM) is the battery arbitrage backdrop; the West hub carries the solar-surplus signal."));
   sec2.appendChild(row);
-  var c3 = el("div","chart"); sec2.appendChild(c3); main.appendChild(sec2);
+  var c3 = el("div","chart tall"); sec2.appendChild(c3); main.appendChild(sec2);
   function drawHubs(regime){
     var mh = D.monthly_hubs[regime], traces = [];
     ["HB_WEST","HB_HUBAVG","HB_NORTH","HB_SOUTH","HB_HOUSTON"].forEach(function(h){
@@ -142,7 +144,8 @@ fetch("data.json").then(function(r){
                    line:{width:1, dash:"dot"}, visible:"legendonly"});
     });
     Plotly.newPlot(c3, traces, layout("", {yaxis:{title:{text:"$/MWh"}, gridcolor:"#26314a"},
-      margin:{l:52,r:12,t:10,b:36}}), CFG);
+      margin:{l:52,r:12,t:16,b:92},
+      legend:{orientation:"h", x:0.5, xanchor:"center", y:-0.27, font:{size:11}}}), CFG);
   }
   sel.addEventListener("change", function(){ drawHubs(sel.value); });
   drawHubs("pre_rtcb");
@@ -171,7 +174,7 @@ fetch("data.json").then(function(r){
     D.events.post_rtcb.latest.slice().reverse().map(function(r){
       return "<tr><td>" + r.date + (r.severe ? " · severe" : "") + "</td><td>" + r.family + "</td><td>" +
              money(r.max_spp) + "</td><td>" + fmt(r.n_neg_solar) + "</td></tr>"; }).join("");
-  sec3.appendChild(t); main.appendChild(sec3);
+  var tw = el("div","tablewrap"); tw.appendChild(t); sec3.appendChild(tw); main.appendChild(sec3);
 
   /* ---------- Coverage: held vs gaps ---------- */
   var sec4 = el("section");
@@ -189,7 +192,7 @@ fetch("data.json").then(function(r){
     "<tr><td>Publication lag — nothing exists yet for operating days after</td><td>" + dsc.lag_cutoff + "</td><td><span class='tag lag'>structural</span></td></tr>" +
     "<tr><td>MIS disclosure window floor (anonymous route)</td><td>operating days from " + dsc.mis_floor + "</td><td><span class='tag'>measured</span></td></tr>" +
     "<tr><td>CAISO comparator (storage report + OASIS LMP)</td><td>" + fmt(cov.caiso.entries_ok) + " / " + fmt(cov.caiso.entries_total) + " pulls ok</td><td><span class='tag lag'>pull in progress</span></td></tr>";
-  sec4.appendChild(ct);
+  var ctw = el("div","tablewrap"); ctw.appendChild(ct); sec4.appendChild(ctw);
   sec4.appendChild(el("p",null, dsc.hole.label + ". The post-RTC+B sample is " + dsc.post_days_elapsed +
     " days old in total; at the 60-day lag, " + dsc.post_held_days + " of its event/control days are published and held. Recurring collection is credential-free (MIS + bulk files) on a daily cron; the API is reserved for one-time backfills."));
   main.appendChild(sec4);
