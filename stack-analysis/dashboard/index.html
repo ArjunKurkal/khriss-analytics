@@ -21,6 +21,9 @@
   .seg { display:flex; border:1px solid var(--line); border-radius:6px; overflow:hidden; }
   .seg button { background:#0f1420; color:var(--muted); border:0; padding:5px 10px; font-size:13px; cursor:pointer; }
   .seg button.on { background:var(--accent); color:#0f1420; font-weight:600; }
+  #fuelbar button { background:#0f1420; color:var(--text); border:1px solid var(--line); border-radius:6px; padding:4px 10px; font-size:12.5px; cursor:pointer; }
+  #fuels label { text-transform:none; letter-spacing:0; font-size:13px; color:var(--text); margin-right:10px; cursor:pointer; }
+  #fuels input { accent-color:var(--accent); margin-right:4px; }
   .kpis { display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:10px; }
   .kpi { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:10px 12px; }
   .kpi .label { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em; }
@@ -61,6 +64,13 @@
     </div>
     <span id="verwrap"><label for="version">Version</label>
     <select id="version"><option value="v3">v3</option><option value="v2">v2</option><option value="v1">v1</option></select></span>
+  </div>
+  <div class="controls" id="fuelbar">
+    <label>Fuels</label>
+    <span id="fuels"></span>
+    <button id="fuelAll" type="button">Select all</button>
+    <button id="fuelClear" type="button">Clear</button>
+    <span id="fuelNote" class="note" style="color:var(--muted); font-size:12px"></span>
   </div>
   <div class="kpis" id="kpis"></div>
   <section>
@@ -113,9 +123,12 @@ const PLOT = { paper_bgcolor:"rgba(0,0,0,0)", plot_bgcolor:"rgba(0,0,0,0)",
   legend:{ orientation:"h", y:-0.12 }, margin:{ t:10, r:10, b:40, l:56 } };
 const CFG = { responsive:true, displayModeBar:false };
 let D = null, mode = "stack";
+let ALL_FUELS = [], selFuels = new Set();
 const $ = id => document.getElementById(id);
 const fmt = n => n == null ? "—" : Math.round(n).toLocaleString("en-US");
 const fmtS = n => (n < 0 ? "−" : "+") + fmt(Math.abs(n));
+const sumAt = (blk, i) => blk ? [...selFuels].reduce((a, f) => a + ((blk.fuels[f] || [])[i] || 0), 0) : null;
+const totalAt = (blk, yr) => sumAt(blk, yr - 2016);
 
 function cur() {
   const r = D.regions.find(x => x.key === $("region").value);
@@ -131,19 +144,20 @@ function renderMain() {
   let traces = [], title = "", note = "";
   if (mode === "stack") {
     const blk = data[ver];
-    traces = Object.keys(blk.fuels).sort().map(f => ({ x: years, y: blk.fuels[f], name: f,
+    traces = Object.keys(blk.fuels).sort().filter(f => selFuels.has(f)).map(f => ({ x: years, y: blk.fuels[f], name: f,
       type: "scatter", mode: "lines", stackgroup: "one",
       line: { width: 0.5, color: FUEL_COLORS[f] || "#999" }, fillcolor: FUEL_COLORS[f] || "#999" }));
     title = `${r.label} capacity stack — ${ver.toUpperCase()}`;
     note = "Stacked nameplate MW by fuel, 2016–2036. Trailing years are reconstructed history; 2025 is the anchor; forward years are anchor + changelog.";
   } else if (mode === "compare") {
-    traces = ["v1", "v2", "v3"].filter(v => data[v]).map(v => ({ x: years, y: data[v].total,
+    traces = ["v1", "v2", "v3"].filter(v => data[v]).map(v => ({ x: years,
+      y: years.map((y, i) => sumAt(data[v], i)),
       name: v.toUpperCase(), type: "scatter", mode: "lines",
       line: { width: v === "v3" ? 3 : 1.6, color: v === "v3" ? "#4da3ff" : v === "v2" ? "#ffd94d" : "#8a8f98" } }));
     title = `${r.label} total capacity — v1 vs v2 vs v3`;
-    note = "v1: EIA-860M changelog only. v2: + manual large-plant corrections and the behind-the-meter rule. v3: v2 with solar/wind restated under the measured lag profile.";
+    note = "Totals are summed over the selected fuels only. v1: EIA-860M changelog only. v2: + manual large-plant corrections and the behind-the-meter rule. v3: v2 with solar/wind restated under the measured lag profile.";
   } else {
-    const fuels = Object.keys(data.v2.fuels).sort();
+    const fuels = Object.keys(data.v2.fuels).sort().filter(f => selFuels.has(f));
     traces = fuels.map(f => ({ x: years, y: years.map((y, i) => (data.v3.fuels[f][i] || 0) - (data.v2.fuels[f][i] || 0)),
       name: f, type: "bar", marker: { color: FUEL_COLORS[f] || "#999" } }));
     title = `${r.label} — v3 minus v2 by fuel`;
@@ -154,18 +168,19 @@ function renderMain() {
   if (mode === "delta") layout.barmode = "relative";
   layout.yaxis.title = { text: "MW" };
   Plotly.react("mainChart", traces, layout, CFG);
-  // KPIs
+  // KPIs (region-level, over the selected fuels)
   const s = D.summaries[r.key];
-  const at = (blk, yr) => blk ? blk.total[yr - 2016] : null;
   const whole = r.versions;
-  const d30 = at(whole.v3, 2030) - at(whole.v2, 2030), d36 = at(whole.v3, 2036) - at(whole.v2, 2036);
+  const d30 = totalAt(whole.v3, 2030) - totalAt(whole.v2, 2030), d36 = totalAt(whole.v3, 2036) - totalAt(whole.v2, 2036);
+  const scopeNote = selFuels.size === ALL_FUELS.length ? "MW · all fuels" : `MW · ${selFuels.size} of ${ALL_FUELS.length} fuels`;
+  const neverSel = [...selFuels].reduce((a, f) => a + ((s.never_by_fuel || {})[f] || 0), 0);
   $("kpis").innerHTML = [
-    ["2030 total — v2", fmt(at(whole.v2, 2030)), "MW"],
-    ["2030 total — v3", fmt(at(whole.v3, 2030)), `<span class="${d30 < 0 ? "neg" : "pos"}">${fmtS(d30)} vs v2</span>`],
-    ["2036 total — v1", fmt(at(whole.v1, 2036)), "MW"],
-    ["2036 total — v2", fmt(at(whole.v2, 2036)), "MW"],
-    ["2036 total — v3", fmt(at(whole.v3, 2036)), `<span class="${d36 < 0 ? "neg" : "pos"}">${fmtS(d36)} vs v2</span>`],
-    ["Renewables removed (never)", fmt(s.renewable_mw_removed_never), "MW across 2027–36 additions"],
+    ["2030 total — v2", fmt(totalAt(whole.v2, 2030)), scopeNote],
+    ["2030 total — v3", fmt(totalAt(whole.v3, 2030)), `<span class="${d30 < 0 ? "neg" : "pos"}">${fmtS(d30)} vs v2</span>`],
+    ["2036 total — v1", fmt(totalAt(whole.v1, 2036)), scopeNote],
+    ["2036 total — v2", fmt(totalAt(whole.v2, 2036)), scopeNote],
+    ["2036 total — v3", fmt(totalAt(whole.v3, 2036)), `<span class="${d36 < 0 ? "neg" : "pos"}">${fmtS(d36)} vs v2</span>`],
+    ["Removed as never-built", fmt(neverSel), "MW · selected fuels, 2027–36 additions"],
   ].map(k => `<div class="kpi"><div class="label">${k[0]}</div><div class="value">${k[1]}</div><div class="note">${k[2]}</div></div>`).join("");
 }
 function renderLag() {
@@ -204,9 +219,36 @@ function renderLag() {
     D.lag.wind_projects.map(p => `<tr><td>${p.name}</td><td>${p.state}</td><td class="num">${fmt(p.mw)}</td><td>${p.eia_cod}</td><td>${p.verdict}</td><td>${p.modeled}</td></tr>`).join("");
   $("notes").textContent = D.notes.stacks + " " + D.notes.lag;
 }
+function buildFuels() {
+  const ORDER = ["Coal", "Natural Gas", "Nuclear", "Oil", "Hydro", "Pumped Storage", "Battery Storage", "Solar", "Wind", "Other"];
+  const found = new Set();
+  for (const r of D.regions) {
+    for (const blk of Object.values(r.versions)) Object.keys(blk.fuels).forEach(f => found.add(f));
+    if (r.subregions) for (const s of Object.values(r.subregions))
+      for (const blk of Object.values(s)) Object.keys(blk.fuels).forEach(f => found.add(f));
+  }
+  ALL_FUELS = ORDER.filter(f => found.has(f)).concat([...found].filter(f => !ORDER.includes(f)).sort());
+  selFuels = new Set(ALL_FUELS);
+  $("fuels").innerHTML = ALL_FUELS.map(f =>
+    `<label><input type="checkbox" value="${f}" checked>${f}</label>`).join("");
+  $("fuels").addEventListener("change", onFuelChange);
+}
+function onFuelChange() {
+  const checked = [...$("fuels").querySelectorAll("input:checked")].map(i => i.value);
+  if (!checked.length) {
+    $("fuels").querySelectorAll("input").forEach(i => { i.checked = true; });
+    selFuels = new Set(ALL_FUELS);
+    $("fuelNote").textContent = "Empty selection — showing all fuels.";
+  } else {
+    selFuels = new Set(checked);
+    $("fuelNote").textContent = "";
+  }
+  renderMain();
+}
 function fillRegions() {
   $("region").innerHTML = D.regions.map(r => `<option value="${r.key}">${r.label}</option>`).join("");
   $("region").value = "ercot";
+  buildFuels();
   fillSubs(); renderMain(); renderLag();
 }
 function fillSubs() {
@@ -231,6 +273,14 @@ $("mode").addEventListener("click", e => {
   mode = e.target.dataset.m;
   [...$("mode").children].forEach(b => b.classList.toggle("on", b.dataset.m === mode));
   renderMain();
+});
+$("fuelAll").addEventListener("click", () => {
+  $("fuels").querySelectorAll("input").forEach(i => { i.checked = true; });
+  onFuelChange();
+});
+$("fuelClear").addEventListener("click", () => {
+  $("fuels").querySelectorAll("input").forEach(i => { i.checked = false; });
+  onFuelChange();
 });
 </script>
 </body>
