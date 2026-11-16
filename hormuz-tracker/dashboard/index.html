@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hormuz Ship Tracker — Strait of Hormuz vessel transits</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         margin: 0 auto; max-width: 1080px; padding: 16px 20px 48px;
+         color: #e6ebf2; background: #0f1420; }
+  h1 { font-size: 24px; margin: 8px 0 4px; }
+  h2 { font-size: 17px; margin: 28px 0 6px; }
+  .sub { color: #93a1b5; font-size: 13px; margin-bottom: 10px; }
+  .caveat { background: #1c2436; border: 1px solid #e0a458; border-radius: 6px;
+            padding: 10px 14px; font-size: 13px; margin: 12px 0; }
+  .est { background: #1c2436; border: 1px solid #4da3ff; border-radius: 6px;
+         padding: 8px 12px; font-size: 12.5px; margin: 6px 0; }
+  .chart { width: 100%; height: 380px; }
+  .chart-sm { width: 100%; height: 300px; }
+  table { border-collapse: collapse; font-size: 13px; margin: 8px 0; }
+  th, td { border: 1px solid #26314a; padding: 4px 10px; text-align: right; }
+  th { background: #161c2b; }
+  th:first-child, td:first-child { text-align: left; }
+  .methods { font-size: 13px; line-height: 1.55; color: #b9c6da; }
+  .methods li { margin-bottom: 5px; }
+  .src { font-size: 12px; color: #93a1b5; margin-top: 24px; }
+</style>
+</head>
+<body>
+<h1>Strait of Hormuz — vessel transits</h1>
+<div class="sub" id="windowline">Loading…</div>
+
+<div class="caveat">
+  <b>Read this first.</b> The measured series counts <b>AIS-visible</b> transits in
+  five vessel classes from IMF PortWatch. It <b>excludes gas carriers entirely</b>
+  (LNG/LPG are not in the source), plus passenger and small/local craft, and it
+  misses vessels transiting with AIS off — common since the strait closure of
+  28 Feb 2026. PortWatch's 2025 level (~86/day) is therefore <i>not</i> comparable
+  to all-vessel headline counts (~125–138/day); use it for trend and change
+  within the series. PortWatch publishes weekly, roughly 7–10 days behind.
+</div>
+
+<h2>Daily transits by class — measured (PortWatch)</h2>
+<div id="chart-daily" class="chart"></div>
+<div class="sub">Dashed line: 2025 daily average total (baseline comparator).
+  Vertical marker: 28 Feb 2026, effective closure of the strait.</div>
+
+<h2>Tanker transits — measured aggregate, and what it contains</h2>
+<div id="chart-tanker" class="chart"></div>
+
+<h2>Modelled monthly crude / products split — ESTIMATE, not measured</h2>
+<div class="est">
+  PortWatch has a single tanker bucket; no free source separates crude from
+  products. The split below applies a modelled crude <i>count</i> share of
+  <b>45% (band 34–59%, ±~12pp)</b> to the measured monthly tanker total:
+  EIA's crude volume share (~70.5%) converted with average parcel sizes
+  (crude 1.3M bbl, products 0.45M bbl — a VLCC carries ~4× an MR tanker, so
+  crude's count share is far below its volume share). Monthly only, never daily.
+  <br><b>Mar–Sep 2026 warning:</b> in the crisis months the share is applied to
+  very small AIS-visible tanker counts (29–162/month, vs ~1,200 pre-crisis)
+  while most traffic transited with AIS off. The split for those months is an
+  arithmetic decomposition of the visible residue — it is <b>not</b> a
+  measurement of actual crude/products flows and cannot be verified from
+  free data.
+</div>
+<div id="chart-split" class="chart"></div>
+
+<h2>LNG carriers — ESTIMATE from the load side (absent from PortWatch)</h2>
+<div class="est">
+  Modelled from EIA's H1 2025 Hormuz LNG flow (11.4 Bcf/d) ÷ 4.2 Bcf average
+  cargo ≈ 2.7 loaded exits/day (±25%), applied only to pre-crisis months.
+  Crisis months have no reliable free anchor and are left blank, except one
+  sourced point: Oct 2026, 31 loaded exits (S&amp;P Global via press).
+  Total transits ≈ 2× loaded exits (ballast entries).
+  <br>Forward note: since 2026-11-15 the live collector identifies LNG
+  carriers per-ship against a curated IMO fleet registry (301 hulls) —
+  a measured series. As it accumulates, its transit rates will calibrate
+  this historical estimate; the estimate itself is not relabelled.
+</div>
+<div id="chart-lng" class="chart-sm"></div>
+
+<h2>Validation — tanker port calls at Gulf load ports (PortWatch ports)</h2>
+<div class="sub">Port calls are not strait transits, but tanker calls at load
+  ports should co-move with tanker transits. Fujairah sits <i>outside</i> the
+  strait (bypass route) and is the control.</div>
+<div id="chart-ports" class="chart"></div>
+
+<h2>Baseline comparison</h2>
+<table id="baseline-table"></table>
+
+<h2>Forward ship-level collection</h2>
+<div class="methods" id="forward-note"></div>
+
+<h2>Methods and limits</h2>
+<div class="methods">
+<ul>
+  <li><b>Measured data:</b> IMF PortWatch daily chokepoint counts (satellite AIS
+    via Kpler / UN Global Platform), pulled in full (2019–present) from its
+    public ArcGIS service. Classes: tanker, container, dry bulk, general cargo,
+    ro-ro. There is no direction field and no crude/products/gas split in the
+    source; tanker deadweight-capacity fields read 0 on some crisis days with
+    tankers present and are not charted for that reason.</li>
+  <li><b>Modelled split:</b> see the estimate box above. Error band ±10–15pp on
+    the share, wider in dark-transit months. The split assumes the ballast
+    (inbound) fleet mix mirrors the loaded (outbound) mix.</li>
+  <li><b>LNG:</b> ±20–30% in normal times; crisis months are gaps, not zeros.</li>
+  <li><b>Forward collector:</b> since 15 Nov 2026, a local collector records
+    ship-level AIS transits (two-zone crossing detection at 56.65°E,
+    direction from track sequence, broad AIS ship-type classes) from Open
+    Waters AIS, which aggregates AISStream and AISHub. AIS type codes do not
+    separate crude/products/LNG; since 15 Nov 2026 LNG carriers are instead
+    identified per-ship against a curated IMO-keyed fleet registry
+    (301 hulls; matched crossings are measured and named — see FEED.md in
+    the repo), while crude vs products remains inseparable per-ship.
+    Direct AISStream collection is blocked by its
+    in-message-body API key, which the secure-credential layer cannot place;
+    details in the project DESIGN.md.</li>
+  <li><b>Cross-checks used in design:</b> EIA World Oil Transit Chokepoints
+    (volumes), UNCTAD/Clarksons snapshot shares, UKMTO/JMIC weekly advisories
+    (direction/subtype, crisis period only).</li>
+</ul>
+</div>
+
+<p class="src">Sources: Kpler; UN Global Platform; IMF PortWatch
+  (portwatch.imf.org). Model anchors: EIA World Oil Transit Chokepoints;
+  S&amp;P Global via press (Oct 2026 LNG). Personal research project —
+  free/public data only. Data as of <span id="asof"></span>.</p>
+
+<script>
+fetch('data.json').then(r => r.json()).then(d => {
+  const meta = d.meta, daily = d.daily;
+  document.getElementById('windowline').textContent =
+    `Trailing 12 months: ${meta.window_start} to ${meta.window_end} · ` +
+    `baseline: calendar 2025 · PortWatch data through ${meta.portwatch_last_date}`;
+  document.getElementById('asof').textContent = meta.portwatch_last_date;
+
+  const closure = { type: 'line', x0: meta.closure_date, x1: meta.closure_date,
+    yref: 'paper', y0: 0, y1: 1, line: { color: '#c0392b', width: 1.5, dash: 'dot' } };
+  const baseLine = { type: 'line', xref: 'paper', x0: 0, x1: 1,
+    y0: d.baseline_2025_daily_avg.n_total, y1: d.baseline_2025_daily_avg.n_total,
+    line: { color: '#93a1b5', width: 1.2, dash: 'dash' } };
+
+  // House dark theme, applied to every chart layout.
+  function darkLayout(extra) {
+    const l = Object.assign({}, extra);
+    l.paper_bgcolor = 'rgba(0,0,0,0)';
+    l.plot_bgcolor = 'rgba(0,0,0,0)';
+    l.font = Object.assign({ color: '#e6ebf2' }, extra.font || {});
+    ['xaxis', 'yaxis'].forEach(ax => {
+      l[ax] = Object.assign({ gridcolor: '#26314a', linecolor: '#26314a',
+        zerolinecolor: '#26314a' }, extra[ax] || {});
+    });
+    l.legend = Object.assign({ font: { color: '#e6ebf2' } }, extra.legend || {});
+    l.hoverlabel = { bgcolor: '#161c2b', bordercolor: '#26314a',
+      font: { color: '#e6ebf2' } };
+    return l;
+  }
+
+  Plotly.newPlot('chart-daily', [
+    { x: daily.date, y: daily.n_tanker, name: 'Tanker', stackgroup: 'one' },
+    { x: daily.date, y: daily.n_container, name: 'Container', stackgroup: 'one' },
+    { x: daily.date, y: daily.n_dry_bulk, name: 'Dry bulk', stackgroup: 'one' },
+    { x: daily.date, y: daily.n_general_cargo, name: 'General cargo', stackgroup: 'one' },
+    { x: daily.date, y: daily.n_roro, name: 'Ro-ro', stackgroup: 'one' },
+    { x: daily.date, y: daily.total_7dma, name: 'Total 7-day avg',
+      line: { color: '#e6ebf2', width: 2 } },
+  ], darkLayout({ title: 'Daily AIS-visible transits by class', yaxis: { title: 'transits/day' },
+       shapes: [closure, baseLine], legend: { orientation: 'h' } }),
+     { responsive: true });
+
+  Plotly.newPlot('chart-tanker', [
+    { x: daily.date, y: daily.n_tanker, name: 'Tanker transits (measured)',
+      line: { color: '#b06000' } },
+    { x: daily.date, y: daily.tanker_7dma, name: '7-day avg',
+      line: { color: '#e6ebf2', width: 2 } },
+  ], darkLayout({ title: 'All tankers, one bucket — crude/products/LNG are not separable in the source',
+       yaxis: { title: 'transits/day' }, shapes: [closure],
+       legend: { orientation: 'h' } }), { responsive: true });
+
+  const sp = d.monthly_split_modelled;
+  Plotly.newPlot('chart-split', [
+    { x: sp.map(r => r.month), y: sp.map(r => r.crude_hi), name: 'Crude band (high)',
+      line: { width: 0 }, showlegend: false },
+    { x: sp.map(r => r.month), y: sp.map(r => r.crude_lo), name: 'Crude share band 34–59%',
+      fill: 'tonexty', fillcolor: 'rgba(176,96,0,0.25)', line: { width: 0 } },
+    { x: sp.map(r => r.month), y: sp.map(r => r.crude_est), name: 'Crude — ESTIMATE',
+      type: 'bar', marker: { color: '#b06000' } },
+    { x: sp.map(r => r.month), y: sp.map(r => r.products_est), name: 'Products — ESTIMATE',
+      type: 'bar', marker: { color: '#5b7db1' } },
+  ], darkLayout({ title: 'Modelled monthly tanker split (stacked bars = measured tanker total)',
+       barmode: 'stack', yaxis: { title: 'transits/month' },
+       legend: { orientation: 'h' } }), { responsive: true });
+
+  const lng = d.monthly_lng_modelled;
+  Plotly.newPlot('chart-lng', [
+    { x: lng.map(r => r.month), y: lng.map(r => r.loaded_hi), name: 'Band high',
+      line: { width: 0 }, showlegend: false },
+    { x: lng.map(r => r.month), y: lng.map(r => r.loaded_lo), name: '±25% band',
+      fill: 'tonexty', fillcolor: 'rgba(90,140,90,0.25)', line: { width: 0 } },
+    { x: lng.map(r => r.month), y: lng.map(r => r.loaded_exits_est),
+      name: 'Loaded LNG exits — ESTIMATE / sourced', type: 'bar',
+      marker: { color: '#5a8c5a' } },
+  ], darkLayout({ title: 'LNG loaded exits per month (blank = no reliable estimate, not zero)',
+       yaxis: { title: 'loaded exits/month' }, legend: { orientation: 'h' } }),
+     { responsive: true });
+
+  const portTraces = Object.entries(d.ports_monthly).map(([name, rows]) => ({
+    x: rows.map(r => r.month), y: rows.map(r => r.tanker_calls),
+    name: name, mode: 'lines+markers' }));
+  Plotly.newPlot('chart-ports', portTraces,
+    darkLayout({ title: 'Monthly tanker port calls', yaxis: { title: 'calls/month' },
+      legend: { orientation: 'h' } }), { responsive: true });
+
+  const b = d.baseline_2025_daily_avg;
+  const winAvg = {};
+  ['n_total','n_tanker','n_container','n_dry_bulk','n_general_cargo','n_roro']
+    .forEach(k => { const v = daily[k]; winAvg[k] =
+      Math.round(v.reduce((a, x) => a + x, 0) / v.length * 10) / 10; });
+  const labels = { n_total: 'Total', n_tanker: 'Tanker', n_container: 'Container',
+    n_dry_bulk: 'Dry bulk', n_general_cargo: 'General cargo', n_roro: 'Ro-ro' };
+  document.getElementById('baseline-table').innerHTML =
+    '<tr><th>Class</th><th>2025 avg/day</th><th>Trailing-12mo avg/day</th></tr>' +
+    Object.keys(labels).map(k =>
+      `<tr><td>${labels[k]}</td><td>${b[k]}</td><td>${winAvg[k]}</td></tr>`).join('');
+
+  const f = d.forward_collector || {};
+  document.getElementById('forward-note').textContent =
+    `Collector source: ${f.source || '—'} · started ${f.started_at || '2026-11-15'} · ` +
+    `vessels tracked: ${f.vessels_tracked ?? '—'} · registry: ${f.vessels_known ?? '—'} · ` +
+    `positions kept: ${f.positions_kept ?? '—'} · crossings recorded: ${f.crossings ?? 0} ` +
+    `(snapshot at dashboard build; the collector runs continuously and its ` +
+    `series accumulates from 2026-11-15 onward).`;
+});
+</script>
+</body>
+</html>

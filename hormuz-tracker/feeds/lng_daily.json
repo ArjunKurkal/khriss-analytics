@@ -1,0 +1,19 @@
+{
+ "feed": "hormuz-lng-crossings",
+ "schema_version": "1",
+ "region": "hormuz",
+ "source": "hormuz-tracker forward collector (live AIS, Open Waters aggregate of AISStream + AISHub), LNG hulls identified by IMO-keyed fleet-registry match",
+ "semantics": {
+  "measured_not_modelled": true,
+  "direction": "outbound = Gulf -> Gulf of Oman (eastbound across the transit line); inbound = reverse. Direction only - load status is not observed.",
+  "capacity_m3": "hull nameplate LNG capacity from the fleet registry; NOT a measured cargo volume",
+  "coverage": "AIS-visible transits only, from collector start 2026-11-15; gaps logged in logs/gaps.jsonl, never backfilled"
+ },
+ "generated_at": "2026-11-16T02:09:53Z",
+ "coverage": {
+  "crossings_total": 0,
+  "first_crossing": null,
+  "last_crossing": null
+ },
+ "rows": []
+}

@@ -1,0 +1,13 @@
+month,loaded_exits_est,loaded_lo,loaded_hi,transits_est,basis,source_note
+2025-11,81.4,61.1,101.8,162.9,modelled_eia_anchor,"EIA H1 2025 LNG 11.4 Bcf/d / 4.2 Bcf avg cargo; flat rate, pre-crisis months"
+2025-12,84.1,63.1,105.2,168.3,modelled_eia_anchor,"EIA H1 2025 LNG 11.4 Bcf/d / 4.2 Bcf avg cargo; flat rate, pre-crisis months"
+2026-01,84.1,63.1,105.2,168.3,modelled_eia_anchor,"EIA H1 2025 LNG 11.4 Bcf/d / 4.2 Bcf avg cargo; flat rate, pre-crisis months"
+2026-02,76.0,57.0,95.0,152.0,modelled_eia_anchor,"EIA H1 2025 LNG 11.4 Bcf/d / 4.2 Bcf avg cargo; flat rate, pre-crisis months"
+2026-03,,,,,,
+2026-04,,,,,,
+2026-05,,,,,,
+2026-06,,,,,,
+2026-07,,,,,,
+2026-08,,,,,,
+2026-09,,,,,,
+2026-10,31.0,,,62.0,sourced_count,S&P Global tanker tracking via press (Oct 2026)

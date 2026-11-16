@@ -1,0 +1,302 @@
+imo,mmsi,name,capacity_class,capacity_m3,operator,length_m,source
+9443401,,Aamira,Q-Max,266000,,345.0,wikidata
+9554729,431003094,Akebono Maru,conventional/unknown,,,99.0,wikidata
+9338266,538003099,Al Aamriya,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9325697,311038000,Al Areesh,conventional,,,288.2,"wikidata (operator-roster candidate, IMO+length verified)"
+9431147,,Al Bahiya,Q-Flex,217000,,315.0,wikidata
+9132741,431207000,Al Bidda,conventional/unknown,,,297.0,wikidata
+9443683,,Al Dafna,Q-Max,266000,,345.0,wikidata
+9307176,308031000,Al Deebel,conventional,,,283.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9337987,308248000,Al Ghariya,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9337717,538002920,Al Gharrafa,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9337743,538002922,Al Hamla,Q-Flex,217000,,315.0,wikidata
+9074640,636010544,Al Hamra,conventional/unknown,,,289.1,wikidata
+9360879,,Al Huwaila,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9132791,431104000,Al Jasra,conventional/unknown,,,297.0,wikidata
+9324435,240615000,Al Jassasiya,conventional,,,285.4,"wikidata (operator-roster candidate, IMO+length verified)"
+9397327,,Al Kharaitiyat,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9038440,636010034,Al Khaznah,conventional/unknown,,,293.0,wikidata
+9085613,431894000,Al Khor,conventional/unknown,,,297.0,wikidata
+9397315,,Al Mafyar,Q-Max,266000,,345.28,wikidata
+9325685,311468000,Al Marrouna,conventional,,,288.2,"wikidata (operator-roster candidate, IMO+length verified)"
+9397298,,Al Mayeda,Q-Max,266000,,345.28,wikidata
+9431135,,Al Nuaman,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9360790,,Al Oraiq,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9086734,431901000,Al Rayyan,conventional/unknown,,,297.0,wikidata
+9397339,,Al Rekayyat,Q-Flex,217000,,315.16,wikidata
+9360855,,Al Sahla,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9388821,,Al Samriya,Q-Max,266000,,345.0,wikidata
+9360831,538003364,Al Sheehaniya,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9298399,309975000,Al Thakhira,conventional,,,283.0,wikidata
+9360867,538003020,Al Utouriya,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9085625,431908000,Al Wajbah,conventional/unknown,,,297.0,wikidata
+9086746,431061000,Al Wakrah,conventional/unknown,,,297.0,wikidata
+9085649,538009767,Al Zubarah,conventional/unknown,,,297.0,wikidata
+9372743,538003293,Al-Ghuwairiya,Q-Max,266000,,345.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9904546,,Aleksey Kosygin,conventional/unknown,,Novatek,300.0,wikidata
+9682552,508111182,Amadi,conventional/unknown,,,288.0,wikidata
+9134323,533209000,Aman Sendai,conventional/unknown,,,130.0,wikidata
+9645970,229767000,Arctic Aurora,conventional/unknown,,,288.0,wikidata
+9284192,257742000,Arctic Lady,conventional/unknown,,,288.0,wikidata
+9243148,564988000,Arctic Metagaz,conventional/unknown,,,277.0,wikidata
+9271248,257739000,Arctic Princess,conventional/unknown,,,288.0,wikidata
+8125868,,Armada LNG Mediterrana,conventional/unknown,,,283.0,wikidata
+9610779,311000185,Asia Endeavour,conventional/unknown,,,285.0,wikidata
+9606950,311000183,Asia Energy,conventional/unknown,,,285.0,wikidata
+9610767,311000184,Asia Excellence,conventional/unknown,,,285.0,wikidata
+9680188,311000227,Asia Integrity,conventional/unknown,,,285.0,wikidata
+9680190,311000228,Asia Venture,conventional/unknown,,,285.0,wikidata
+9230062,258617000,BW Gdf Suez Boston,conventional/unknown,,,277.0,wikidata
+9792591,563050700,BW Magna,conventional/unknown,,,294.5,wikidata
+9684495,,BW Singapore,conventional/unknown,,,292.571,wikidata
+7400675,605106010,Bachir Chihani,conventional/unknown,,,281.0,wikidata
+8013950,538004379,Baltic Energy,conventional/unknown,,,281.0,wikidata
+9401295,,Barcelona Knutsen,conventional/unknown,,,290.0,wikidata
+9256597,311745000,Berge Arzew,conventional/unknown,,,277.0,wikidata
+9130468,,Betagas,conventional/unknown,,Sloman Neptun Schiffahrts-Aktiengesellschaft,114.62,wikidata
+9691137,374216000,Bishu Maru,conventional/unknown,,,293.0,wikidata
+9085651,538009755,Broog,conventional/unknown,,,297.0,wikidata
+9388833,,Bu Samra,Q-Max,266000,,345.28,wikidata
+9246578,224263000,Cadiz Knutsen,conventional/unknown,,,284.0,wikidata
+9433717,,Castillo De Santisteban,conventional/unknown,,,299.9,wikidata
+9236420,224941000,Catalunya Spirit,conventional/unknown,,,284.0,wikidata
+9672844,477884800,Cesi Beihai,conventional/unknown,,,290.0,wikidata
+9672820,477348600,Cesi Gladstone,conventional/unknown,,,290.0,wikidata
+9672818,477151600,Cesi Lianyungang,conventional/unknown,,,290.0,wikidata
+9672832,477584200,Cesi Qingdao,conventional/unknown,,,290.0,wikidata
+9694749,477010900,Cesi Tianjin,conventional/unknown,,,289.0,wikidata
+9694751,477121700,Cesi Wenzhou,conventional/unknown,,,289.0,wikidata
+7039074,356573000,Charm Junior,conventional/unknown,,,220.0,wikidata
+7368841,,Chill,conventional/unknown,,,250.0,wikidata
+9655444,256083000,Clean Horizon,conventional/unknown,,,289.0,wikidata
+9693719,244535000,Coral Encanto,conventional/unknown,,,181.0,wikidata
+9783124,,Coral Energice,conventional/unknown,,,164.0,wikidata
+9617698,,Coral Energy,conventional/unknown,,,155.0,wikidata
+9404584,244092000,Coral Methane,conventional/unknown,,,117.0,wikidata
+9636711,229471000,Corcovado LNG,conventional/unknown,,,294.0,wikidata
+9008471,,Deltagas,conventional/unknown,,,88.35,wikidata
+9874466,,Diamond Gas Victoria,conventional/unknown,,,297.16,wikidata
+9250713,215533000,Disha,conventional/unknown,,,276.0,wikidata
+9085637,538009745,Doha,conventional/unknown,,,297.0,wikidata
+9757694,205157000,Eemshaven LNG,conventional/unknown,,,120.0,wikidata
+8706155,525022371,Ekaputra 1,conventional/unknown,,,290.0,wikidata
+9256614,538003487,Energos Winter,conventional/unknown,,,277.0,wikidata
+9269180,432495000,Energy Advance,conventional/unknown,,,290.0,wikidata
+9649328,256647000,Energy Atlantic,conventional/unknown,,,290.0,wikidata
+9405588,,Energy Confidence,conventional/unknown,,,289.53,wikidata
+9245720,432420000,Energy Frontier,conventional/unknown,,,289.0,wikidata
+9743253,,Epic Bonaire,conventional/unknown,,,113.08,wikidata
+9859820,271048493,Ertugrul Gazi,conventional/unknown,,BOTAŞ,294.0,wikidata
+9666560,,Esshu Maru,conventional/unknown,,,288.0,wikidata
+9389643,,Expedient,conventional/unknown,,,291.0,wikidata
+9638525,,Experience,conventional/unknown,,,,wikidata
+9361079,205506000,Explorer,conventional/unknown,,,291.0,wikidata
+9381134,205551000,Exquisite,conventional/unknown,,,292.0,wikidata
+9444649,205553000,FSRU Exemplar,conventional/unknown,,,291.0,wikidata
+9629536,563614000,FSRU Independence,conventional/unknown,,,294.07,wikidata
+9253284,,FSRU Toscana,conventional/unknown,,OLT Offshore LNG Toscana,306.47,wikidata
+9762261,,Flex Endeavour,conventional/unknown,,,294.9,wikidata
+9275359,229443000,Fuji Lng,conventional/unknown,,,289.0,wikidata
+9256200,311605000,Fuwairit,conventional/unknown,,,278.0,wikidata
+9269207,226308000,GDF Suez Global Energy,conventional/unknown,,,220.0,wikidata
+9236614,564644000,Galea,conventional/unknown,,,289.0,wikidata
+9909285,,Gas Vitality,conventional/unknown,,,,wikidata
+9230075,228333700,Gaselys,conventional/unknown,,,287.0,wikidata
+9320075,228333700,Gaselys,conventional/unknown,,,287.0,wikidata
+9390185,,Gaslog Chelsea,conventional/unknown,,,288.6,wikidata
+9687021,310744000,Gaslog Glasgow,conventional/unknown,,,291.0,wikidata
+9687019,310732000,Gaslog Greece,conventional/unknown,,,291.0,wikidata
+9638915,310699000,Gaslog Salem,conventional/unknown,,,285.0,wikidata
+9634086,310669000,Gaslog Seattle,conventional/unknown,,,285.0,wikidata
+9626285,310664000,Gaslog Skagen,conventional/unknown,,,285.0,wikidata
+9038452,636010183,Ghasha,conventional/unknown,,,293.0,wikidata
+7361922,,Golar Freeze,conventional/unknown,,,287.43,wikidata
+9633991,,Golar Igloo,conventional/unknown,,,292.5,wikidata
+9165011,636011170,Golar Mazo,conventional/unknown,,,290.0,wikidata
+9785500,,Golar Nanook,conventional/unknown,,,305.837,wikidata
+7373327,538002199,Golar Spirit,conventional/unknown,,,289.01,wikidata
+8702941,355998000,Grace Energy,conventional/unknown,,,272.0,wikidata
+9338955,212883000,Grand Aniva,conventional/unknown,,,289.0,wikidata
+7390143,,Gulf Energy,conventional/unknown,,,285.29,wikidata
+9155078,441229000,HL Muscat,conventional/unknown,,,280.0,wikidata
+9061928,441563000,HL Pyeongtaek,conventional/unknown,,,268.0,wikidata
+9176008,441292000,HL Ras Laffan,conventional/unknown,,,280.0,wikidata
+9176010,357843000,HL Sur,conventional/unknown,,,280.0,wikidata
+9230048,224985000,Hispania Spirit,conventional/unknown,,,279.0,wikidata
+9250725,538008396,Hongkong Energy,conventional/unknown,,,287.0,wikidata
+9179581,538009541,Hyundai Aquapia,conventional/unknown,,,288.0,wikidata
+9155157,538009551,Hyundai Cosmopia,conventional/unknown,,,288.0,wikidata
+9075333,441659000,Hyundai Greenpia,conventional/unknown,,,274.0,wikidata
+9155145,441231000,Hyundai Technopia,conventional/unknown,,,288.0,wikidata
+9018555,441223000,Hyundai Utopia,conventional/unknown,,,274.0,wikidata
+9780354,257344000,Höegh Esperanza,conventional/unknown,,,294.0,wikidata
+9762962,,Høegh Giant,conventional/unknown,,,294.0,wikidata
+9043677,636019705,IMO 9043677,conventional/unknown,,,272.0,wikidata
+9360817,,IMO 9360817,conventional/unknown,,,315.0,wikidata
+9766580,,IMO 9766580,conventional/unknown,,,,wikidata
+9822451,563071100,IMO 9822451,conventional/unknown,,,294.0,wikidata
+9864916,310800000,IMO 9864916,conventional/unknown,,,293.0,wikidata
+9872949,,IMO 9872949,conventional/unknown,,,299.06,wikidata
+9922976,,IMO 9922976,conventional/unknown,,,299.0,wikidata
+9035864,636010329,Ish,conventional/unknown,,,293.0,wikidata
+9655808,538004982,Italis LNG,conventional/unknown,,,292.571,wikidata
+9131101,,Jotagas,conventional/unknown,,Sloman Neptun Schiffahrts-Aktiengesellschaft,113.5,wikidata
+9685437,219000034,Js Ineos Ingenuity,conventional/unknown,,,180.0,wikidata
+9685451,249208000,Js Ineos Inspiration,conventional/unknown,,,178.0,wikidata
+9685449,215436000,Js Ineos Intrepid,conventional/unknown,,,180.0,wikidata
+9157636,441259000,K. Acacia,conventional/unknown,,,277.0,wikidata
+9186584,352645000,K. Freesia,conventional/unknown,,,277.0,wikidata
+9373010,370612000,K.Mugungwha,conventional/unknown,,,285.0,wikidata
+9819882,,Kairos,conventional/unknown,,,117.07,wikidata
+9675200,431004914,Kakuyu Maru,conventional/unknown,,,88.0,wikidata
+9215141,304050982,Kappagas,conventional/unknown,,Sloman Neptun Schiffahrts-Aktiengesellschaft,108.0,wikidata
+9820881,,Karunia Dewata,conventional/unknown,,,,wikidata
+9904704,273277940,Konstantin Posiet,conventional/unknown,,,,wikidata
+9690171,310731000,LNG Abalamabie,conventional/unknown,,,292.0,wikidata
+9690169,310730000,LNG Abuja II,conventional/unknown,,,292.0,wikidata
+9262211,310469000,LNG Adamawa,conventional/unknown,,,288.0,wikidata
+9262209,310453000,LNG Akwa Ibom,conventional/unknown,,,288.0,wikidata
+9267015,,LNG Benue,conventional/unknown,,,285.4,wikidata
+7708948,310025000,LNG Bonny,conventional/unknown,,,286.0,wikidata
+9692002,310720000,LNG Bonny II,conventional/unknown,,,299.0,wikidata
+9256767,538006747,LNG Croatia,conventional/unknown,,,280.0,wikidata
+9262223,310478000,LNG Cross River,conventional/unknown,,,288.0,wikidata
+9893606,,LNG Endeavour,conventional/unknown,,,,wikidata
+9266994,310482000,LNG Enugu,conventional/unknown,,,285.0,wikidata
+9690145,310722000,LNG Finima II,conventional/unknown,,,292.0,wikidata
+9006681,355671000,LNG Flora,conventional/unknown,,,272.0,wikidata
+9666986,311000365,LNG Fukurokuju,conventional/unknown,,,293.0,wikidata
+9200316,432278000,LNG Jamal,conventional/unknown,,,290.0,wikidata
+9666998,311000420,LNG Jurojin,conventional/unknown,,,288.0,wikidata
+9692014,310721000,LNG Lagos II,conventional/unknown,,,299.0,wikidata
+8701791,431015000,LNG Maleo,conventional/unknown,,,272.0,wikidata
+9645748,431177000,LNG Mars,conventional/unknown,,,288.0,wikidata
+9267003,310487000,LNG Oyo,conventional/unknown,,,285.0,wikidata
+9256602,311906000,LNG Pioneer,conventional/unknown,,,277.0,wikidata
+7360136,310018000,LNG Port Harcourt,conventional/unknown,,,273.0,wikidata
+9262235,310479000,LNG River Niger,conventional/unknown,,,288.0,wikidata
+9266982,310447000,LNG River Orashi,conventional/unknown,,,285.0,wikidata
+9216298,310370000,LNG Rivers,conventional/unknown,,,289.0,wikidata
+9877133,,LNG Rosenrot,conventional/unknown,,,,wikidata
+9696149,311000439,LNG Saturn,conventional/unknown,,,288.0,wikidata
+9216303,310378000,LNG Sokoto,conventional/unknown,,,288.0,wikidata
+9645736,432994000,LNG Venus,conventional/unknown,,,288.0,wikidata
+9020766,,LNG Vesta,conventional/unknown,,,272.0,wikidata
+9275347,,Lalla Fatma N'Soumer,conventional/unknown,,,289.5,wikidata
+7400663,605086120,Larbi Ben M'Hidi,conventional/unknown,,,281.0,wikidata
+9064085,563074500,Lerici,conventional/unknown,,,215.0,wikidata
+9388819,538003294,Lijmiliya,Q-Max,266000,,345.0,wikidata
+9872901,,Lngships Manhattan,conventional/unknown,,,,wikidata
+9490961,,Lobito,conventional/unknown,,,285.0,wikidata
+9016492,372255000,Lucia Ambition,conventional/unknown,,,130.0,wikidata
+9285952,311628000,Lusail,conventional,,,283.0,wikidata
+9713105,,MOL FSRU Challenger,conventional/unknown,,,345.5,wikidata
+9385673,257356000,MT GDF Suez Neptune,conventional/unknown,,,283.06,wikidata
+9659725,636017445,Maria Energy,conventional/unknown,,,289.0,wikidata
+7391214,,Matthew,conventional/unknown,,,289.11,wikidata
+9770945,,Megara,conventional/unknown,,,294.9,wikidata
+9397303,,Mekaines,Q-Max,266000,,345.28,wikidata
+9250191,538008352,Merchant,conventional/unknown,,,278.0,wikidata
+9516129,310597000,Methane Becki Anne,conventional/unknown,,,291.0,wikidata
+9256793,310440000,Methane Kari Elin,conventional/unknown,,,278.0,wikidata
+9520376,352346000,Methane Mickie Harper,conventional/unknown,,,291.0,wikidata
+9425277,,Methane Patricia Camila,conventional/unknown,,,291.07,wikidata
+5412583,,Methane Princess,conventional/unknown,,,189.31,wikidata
+9253715,,Methane Princess,conventional/unknown,,British Gas plc,189.0,wikidata
+5424744,,Methane Progress,conventional/unknown,,,189.29,wikidata
+7357452,,Methania,conventional/unknown,,,280.0,wikidata
+9255854,229130000,Milaha Ras Laffan,conventional/unknown,,,278.0,wikidata
+7359955,605076050,Mostefa Ben Boulaid,conventional/unknown,,,278.0,wikidata
+9337755,538003212,Mozah,Q-Max,266000,Qatargas,345.0,wikidata
+9360805,538003100,Murwab,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9294264,371381000,Nizwa Lng,conventional/unknown,,,289.0,wikidata
+8014409,538007753,North Energy,conventional/unknown,,,283.0,wikidata
+8913174,,Northwest Seaeagle,conventional/unknown,,,272.0,wikidata
+9045132,503009000,Northwest Stormpetrel,conventional/unknown,,,273.0,wikidata
+9698111,538007671,Oceanic Breeze,conventional/unknown,,,288.0,wikidata
+9177959,,Omegagas,conventional/unknown,,Sloman Neptun Schiffahrts-Aktiengesellschaft,95.54,wikidata
+9397353,538003363,Onaiza,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9870472,,Optimus,conventional/unknown,,,99.8,wikidata
+9629524,,PGN FSRU Lampung,conventional/unknown,,,302.66,wikidata
+9621077,311072200,Pacific Arcadia,conventional/unknown,,,288.0,wikidata
+9698123,538007670,Pacific Breeze,conventional/unknown,,,299.0,wikidata
+9766889,636018010,Patris,conventional/unknown,,,295.0,wikidata
+9064073,563075400,Portovenere,conventional/unknown,,,215.0,wikidata
+9306495,228337700,Provalys,conventional/unknown,,,289.6,wikidata
+9630028,636016229,Pskov,conventional/unknown,,,299.0,wikidata
+9030814,533022000,Puteri Delima,conventional/unknown,,,274.0,wikidata
+9211872,533735000,Puteri Delima Satu,conventional/unknown,,,275.0,wikidata
+9030840,533194000,Puteri Firus,conventional/unknown,,,274.0,wikidata
+9030802,533009000,Puteri Intan,conventional/unknown,,,274.0,wikidata
+9213416,533730000,Puteri Intan Satu,conventional/unknown,,,276.0,wikidata
+9261205,533920000,Puteri Mutiara Satu,conventional/unknown,,,275.0,wikidata
+9030826,533035000,Puteri Nilam,conventional/unknown,,,275.0,wikidata
+9229647,533747000,Puteri Nilam Satu,conventional/unknown,,,276.0,wikidata
+9030838,533130000,Puteri Zamrud,conventional/unknown,,,274.0,wikidata
+9245031,533754000,Puteri Zamrud Satu,conventional/unknown,,,276.0,wikidata
+9904675,,Pyotr Stolypin,conventional/unknown,,,,wikidata
+9253703,215718000,Raahi,conventional/unknown,,,276.0,wikidata
+7411961,,Ramdane Abane,conventional/unknown,,,274.42,wikidata
+9443413,538003362,Rasheeda,Q-Max,266000,,345.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9007099,636090265,Rheingas,conventional/unknown,,,99.0,wikidata
+9693161,373808000,SK Audace,conventional/unknown,,,292.0,wikidata
+9180231,440514000,SK Splendor,conventional/unknown,,,278.0,wikidata
+9180243,441237000,SK Stellar,conventional/unknown,,,278.0,wikidata
+9157624,441456000,SK Summit,conventional/unknown,,,277.0,wikidata
+9247194,354159000,SK Sunrise,conventional/unknown,,,278.0,wikidata
+9157739,357612000,SK Supreme,conventional/unknown,,,278.0,wikidata
+9666558,311000261,Seishu Maru,conventional/unknown,,,288.0,wikidata
+8014473,431023000,Senshu Maru,conventional/unknown,,,283.0,wikidata
+9293832,533925000,Seri Alam,conventional/unknown,,,283.0,wikidata
+9293844,533937000,Seri Amanah,conventional/unknown,,,283.0,wikidata
+9414632,,Sevilla Knutsen,conventional/unknown,,,290.0,wikidata
+9418365,,Shagra,Q-Max,266000,,345.0,wikidata
+9583677,477413600,Shen Hai,conventional/unknown,,,290.0,wikidata
+9260603,431101044,Shinju Maru No. 1,conventional/unknown,,,86.0,wikidata
+9183568,,Sigmagas,conventional/unknown,,Sloman Neptun Schiffahrts-Aktiengesellschaft,118.88,wikidata
+9238040,538007985,Singapore Energy,conventional/unknown,,,278.0,wikidata
+9210816,357186000,Sohar Lng,conventional/unknown,,,297.0,wikidata
+9634098,310679000,Solaris,conventional/unknown,,,285.0,wikidata
+9475208,,Soyo,conventional/unknown,,,285.0,wikidata
+7035494,667880000,Supreme,conventional/unknown,,,199.0,wikidata
+9060534,309521000,Surya Aki,conventional/unknown,,,151.0,wikidata
+9403669,,Taitar No. 1,conventional/unknown,,,289.5,wikidata
+9403645,,Taitar No. 2,conventional/unknown,,,289.5,wikidata
+9403671,,Taitar No. 3,conventional/unknown,,,289.5,wikidata
+9403657,,Taitar No. 4,conventional/unknown,,,289.5,wikidata
+9355379,370766000,Tangguh Palung,conventional/unknown,,,285.0,wikidata
+7229459,,Tellier,conventional/unknown,,,,wikidata
+9337731,538002921,Tembek,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+7428445,533193000,Tenaga Lima,conventional/unknown,,,280.0,wikidata
+9761243,,Tessala,conventional/unknown,,,291.4,wikidata
+9187356,525020429,Triputra,conventional/unknown,,,151.0,wikidata
+9823883,370974000,Turquoise P,conventional/unknown,,,294.0,wikidata
+9360829,538003073,Umm Al Amad,Q-Flex,217000,,315.0,"wikidata (operator-roster candidate, IMO+length verified)"
+9074652,636010647,Umm Al Ashtan,conventional/unknown,,,290.1,wikidata
+9372731,538003300,Umm Slal,Q-Max,266000,,345.2,"wikidata (operator-roster candidate, IMO+length verified)"
+9434266,,Valencia Knutsen,conventional/unknown,,,290.0,wikidata
+9837066,419001440,Vasant,conventional/unknown,,,294.0,wikidata
+9630004,636016219,Velikiy Novgorod,conventional/unknown,,,299.0,wikidata
+9627966,,Wilpride,conventional/unknown,,,289.986,wikidata
+9035668,440100796,Wonjin No. 1,conventional/unknown,,,67.0,wikidata
+1040679,,,conventional/unknown,,,,wikidata
+1053406,,,conventional/unknown,,Wagenborg,149.95,wikidata
+9236432,257716000,,conventional/unknown,,Knutsen O.A.S. Shipping AS,284.4,wikidata
+9239616,205423000,,conventional/unknown,,,277.0,wikidata
+9248502,533808000,,conventional/unknown,,,276.0,wikidata
+9252539,,,conventional/unknown,,,,wikidata
+9259276,,,conventional/unknown,,,284.37,wikidata
+9322255,,,conventional/unknown,,,,wikidata
+9338797,225372000,,conventional/unknown,,Knutsen O.A.S. Shipping AS,284.4,wikidata
+9820843,538008851,,conventional/unknown,,,294.5,wikidata
+9861809,,,conventional/unknown,,,294.0,wikidata
+9861811,,,conventional/unknown,,,294.0,wikidata
+9862918,,,conventional/unknown,,,299.08,wikidata
+9864837,352004473,,conventional/unknown,,,229.8,wikidata
+9870757,,,conventional/unknown,,,,wikidata
+9872987,215685000,,conventional/unknown,,,299.0,wikidata
+9938767,,,conventional/unknown,,,113.0,wikidata
+9946386,,,conventional/unknown,,,298.97,wikidata
+9431214,,Zarga,Q-Max,266000,,345.0,wikidata
+9132818,538009771,Zekreet,conventional/unknown,,,297.0,wikidata
+9623984,,Zetagas,conventional/unknown,,Sloman Neptun Schiffahrts-Aktiengesellschaft,113.0,wikidata
