@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ERCOT Batteries — SPP, Events &amp; Coverage</title>
+<title>ERCOT Batteries — Settlement Prices, Events &amp; Coverage</title>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <style>
   :root{
@@ -63,7 +63,7 @@
   <div class="err" id="loading">Loading data.json…</div>
 </main>
 <footer>
-  Sources (all free/public): ERCOT historical SPP bulk files; ERCOT MIS 60-day SCED/DAM disclosure (NP3-965/966, published 60 days after each operating day, PUCT 25.505(f)); CAISO Daily Energy Storage Report + OASIS (fleet aggregates only — CAISO publishes no resource-level bids). Event definitions v1 use SPP legs only; RTORPA/PRC and DAM MCPC legs are pending the one-time API backfill. Prices are settlement point prices in $/MWh.
+  Sources (all free/public): ERCOT historical settlement-point price files; ERCOT MIS 60-day SCED/DAM disclosure (NP3-965/966, published 60 days after each operating day, PUCT 25.505(f)); CAISO Daily Energy Storage Report + OASIS (fleet aggregates only — CAISO publishes no resource-level bids). Event definitions v1 use settlement-price legs only; RTORPA/PRC and DAM MCPC legs are pending the one-time API backfill. Prices are settlement point prices in $/MWh.
 </footer>
 <script>
 var FONT = {color:"#e6ebf2", family:"system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"};
@@ -110,7 +110,7 @@ fetch("data.json").then(function(r){
 
   /* ---------- Prices: two regime panels, never one series ---------- */
   var sec = el("section");
-  sec.appendChild(el("h2",null,"Real-time SPP — hub average, daily"));
+  sec.appendChild(el("h2",null,"Real-time settlement price — hub average, daily"));
   sec.appendChild(el("p",null,"Daily mean and daily max of the 15-minute real-time settlement point price, averaged across the seven trading hubs (HB_HUBAVG, HB_BUSAVG, HB_PAN, West, North, South, Houston). The regime break is a wall, not a gap in a line: the panels are separate charts with separate axes."));
   var g = el("div","grid2");
   var c1 = el("div","chart tall"), c2 = el("div","chart tall");
@@ -128,7 +128,7 @@ fetch("data.json").then(function(r){
 
   /* ---------- Monthly hub means with selector ---------- */
   var sec2 = el("section");
-  sec2.appendChild(el("h2",null,"Monthly mean SPP by hub — RT vs DAM"));
+  sec2.appendChild(el("h2",null,"Monthly mean settlement price by hub — RT vs DAM"));
   var row = el("p");
   row.appendChild(document.createTextNode("Regime: "));
   var sel = el("select"); sel.id = "regimeSel";
@@ -154,10 +154,10 @@ fetch("data.json").then(function(r){
 
   /* ---------- Events ---------- */
   var sec3 = el("section");
-  sec3.appendChild(el("h2",null,"Event days by family — SPP legs (v1 definitions)"));
+  sec3.appendChild(el("h2",null,"Event days by family — settlement-price legs (v1 definitions)"));
   sec3.appendChild(el("p",null,
-    "<b>Family S — scarcity:</b> hub-average RT SPP ≥ $500 in any 15-min interval (severe: ≥ $1,000). " +
-    "<b>Family V — solar surplus:</b> West hub SPP ≤ $0 in ≥ 8 solar-hour intervals (HE 10–16), or any solar-hour SPP ≤ −$10. " +
+    "<b>Family S — scarcity:</b> hub-average RT settlement price ≥ $500 in any 15-min interval (severe: ≥ $1,000). " +
+    "<b>Family V — solar surplus:</b> West hub settlement price ≤ $0 in ≥ 8 solar-hour intervals (HE 10–16), or any solar-hour settlement price ≤ −$10. " +
     "Full DESIGN.md definitions also include RTORPA/PRC (S) and DAM MCPC / deployment (A) legs; those series sit behind the ERCOT API archive and are not yet in v1 — counts below will grow when the one-time backfill lands. Matched non-event control days are pulled alongside every event day in the disclosure sample."));
   var g3 = el("div","grid2"); var c4 = el("div","chart tall"), c5 = el("div","chart tall");
   g3.appendChild(c4); g3.appendChild(c5); sec3.appendChild(g3); main.appendChild(sec3);
@@ -176,7 +176,7 @@ fetch("data.json").then(function(r){
       legend:{orientation:"h", x:0.5, xanchor:"center", y:-0.24, font:{size:11.5}},
       yaxis:{title:{text:"days"}, gridcolor:"#26314a", automargin:true}}), CFG);
   var t = el("table");
-  t.innerHTML = "<tr><th>Latest event days (post-RTC+B)</th><th>Family</th><th>Max hub SPP</th><th>Neg. solar intervals</th></tr>" +
+  t.innerHTML = "<tr><th>Latest event days (post-RTC+B)</th><th>Family</th><th>Max hub price</th><th>Neg. solar intervals</th></tr>" +
     D.events.post_rtcb.latest.slice().reverse().map(function(r){
       return "<tr><td>" + r.date + (r.severe ? " · severe" : "") + "</td><td>" + r.family + "</td><td>" +
              money(r.max_spp) + "</td><td>" + fmt(r.n_neg_solar) + "</td></tr>"; }).join("");
@@ -190,8 +190,8 @@ fetch("data.json").then(function(r){
   var dsc = cov.disclosure;
   ct.innerHTML =
     "<tr><th>Series</th><th>Held</th><th>Status</th></tr>" +
-    "<tr><td>RT + DAM SPP panel, pre-RTC+B</td><td>" + cov.spp_panel.pre.start + " → " + cov.spp_panel.pre.end + " (" + fmt(cov.spp_panel.pre.days) + " days)</td><td><span class='tag ok'>complete</span></td></tr>" +
-    "<tr><td>RT + DAM SPP panel, post-RTC+B</td><td>" + cov.spp_panel.post.start + " → " + cov.spp_panel.post.end + " (" + fmt(cov.spp_panel.post.days) + " days)</td><td><span class='tag ok'>growing daily</span></td></tr>" +
+    "<tr><td>RT + DAM settlement price panel, pre-RTC+B</td><td>" + cov.spp_panel.pre.start + " → " + cov.spp_panel.pre.end + " (" + fmt(cov.spp_panel.pre.days) + " days)</td><td><span class='tag ok'>complete</span></td></tr>" +
+    "<tr><td>RT + DAM settlement price panel, post-RTC+B</td><td>" + cov.spp_panel.post.start + " → " + cov.spp_panel.post.end + " (" + fmt(cov.spp_panel.post.days) + " days)</td><td><span class='tag ok'>growing daily</span></td></tr>" +
     "<tr><td>SCED/DAM disclosure, pre sample (event+control days)</td><td>" + fmt(dsc.pre_held_days) + " days held, " + (dsc.pre_held_range ? dsc.pre_held_range[0] + " → " + dsc.pre_held_range[1] : "—") + "</td><td><span class='tag lag'>backfill in progress</span></td></tr>" +
     "<tr><td>SCED/DAM disclosure, post sample</td><td>" + fmt(dsc.post_held_days) + " days held</td><td><span class='tag lag'>60-day publication lag</span></td></tr>" +
     "<tr><td>Disclosure hole — start of pre sample</td><td>" + dsc.hole.start + " → " + dsc.hole.end + "</td><td><span class='tag gap'>not held</span></td></tr>" +
